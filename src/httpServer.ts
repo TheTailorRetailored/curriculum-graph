@@ -8,6 +8,7 @@ const host = process.env.HOST ?? "127.0.0.1";
 const rootDir = process.env.CURRICULUM_GRAPH_ROOT ?? process.cwd();
 const publicBaseUrl = process.env.PUBLIC_BASE_URL;
 const authToken = process.env.MCP_AUTH_TOKEN;
+const allowWrites = process.env.CURRICULUM_GRAPH_ALLOW_WRITES === "true";
 const allowedHosts = process.env.MCP_ALLOWED_HOSTS?.split(",").map((hostName) => hostName.trim()).filter(Boolean);
 
 const app = createMcpExpressApp({ host: "0.0.0.0", allowedHosts });
@@ -32,7 +33,8 @@ app.get("/health", (_req: ExpressRequest, res: ExpressResponse) => {
     name: "curriculum-graph",
     endpoint: "/mcp",
     public_base_url: publicBaseUrl ?? null,
-    auth: authToken ? "bearer" : "none"
+    auth: authToken ? "bearer" : "none",
+    ontology_access: allowWrites ? "read-write" : "read-only"
   });
 });
 
@@ -54,7 +56,7 @@ app.use("/mcp", (req: ExpressRequest, res: ExpressResponse, next: NextFunction) 
 });
 
 app.post("/mcp", async (req: ExpressRequest, res: ExpressResponse) => {
-  const server = await createCurriculumGraphServer(rootDir);
+  const server = await createCurriculumGraphServer(rootDir, { allowWrites });
   const transport = new StreamableHTTPServerTransport({
     sessionIdGenerator: undefined
   });
@@ -102,6 +104,8 @@ app.listen(port, host, (error?: Error) => {
   }
   const localUrl = `http://${host}:${port}`;
   console.log(`Curriculum Graph MCP HTTP server listening at ${localUrl}/mcp`);
+  console.log(`Ontology access: ${allowWrites ? "read-write" : "read-only"}`);
   if (publicBaseUrl) console.log(`Public MCP URL: ${publicBaseUrl.replace(/\/$/, "")}/mcp`);
   if (!authToken) console.warn("MCP_AUTH_TOKEN is not set. Do not expose this tunnel longer than needed.");
+  if (allowWrites && !authToken) console.warn("Ontology writes are enabled without bearer authentication.");
 });

@@ -4,6 +4,7 @@ import { fileURLToPath } from "node:url";
 import { downstream } from "../src/graph/graphAlgorithms.js";
 import { loadGraph } from "../src/graph/loadGraph.js";
 import { getNeighbourhood, searchNodes } from "../src/graph/queryGraph.js";
+import { assertToolAllowed, availableToolDefinitions } from "../src/mcp/createServer.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -35,5 +36,12 @@ describe("graph queries", () => {
     ] as const;
 
     expect(new Set(downstream([...edges], "a", ["requires"], 3))).toEqual(new Set(["b", "c"]));
+  });
+
+  it("keeps ontology mutation opt-in for MCP clients", () => {
+    expect(availableToolDefinitions().some((tool) => tool.name === "apply_patch")).toBe(false);
+    expect(availableToolDefinitions(true).some((tool) => tool.name === "apply_patch")).toBe(true);
+    expect(() => assertToolAllowed("apply_patch")).toThrow(/read-only mode/);
+    expect(() => assertToolAllowed("search_nodes")).not.toThrow();
   });
 });

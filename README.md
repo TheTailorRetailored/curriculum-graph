@@ -2,7 +2,7 @@
 
 Curriculum Graph is an experimental, graph-aware authoring system for K-12 curriculum knowledge. It combines a human-readable YAML ontology, deterministic validation, an MCP server for agent-assisted editing, and a local explorer for inspecting relationships.
 
-The current private alpha contains 2,661 nodes and 1,493 edges, led by a broad mathematics graph with an early English scaffold. It models topics, knowledge points, misconceptions, representations, procedures, pathways, and prerequisite relationships rather than treating curriculum as a flat list of outcomes.
+The current public alpha contains 2,661 nodes and 1,493 edges, led by a broad mathematics graph with an early English scaffold. It models topics, knowledge points, misconceptions, representations, procedures, pathways, and prerequisite relationships rather than treating curriculum as a flat list of outcomes.
 
 > **Alpha status:** the software and ontology are works in progress. Content marked `draft` or `ai_generated` has not necessarily been reviewed by a subject specialist and should not be treated as teaching or assessment advice.
 
@@ -46,6 +46,16 @@ For the local stdio MCP server:
 npm run dev
 ```
 
+The MCP server is read-only by default: an LLM can search and inspect the
+ontology, run coverage and impact analysis, validate proposed patches, and use
+the resources/prompts, but it is not offered the `apply_patch` mutation tool.
+To work in an explicitly trusted authoring session, opt in before starting it:
+
+```powershell
+$env:CURRICULUM_GRAPH_ALLOW_WRITES = "true"
+npm run dev
+```
+
 Other useful commands:
 
 ```bash
@@ -79,6 +89,19 @@ Agents and humans should inspect before writing:
 6. `coverage_report`
 
 Graph mutations should go through patches so proposed changes are validated and leave an audit trail.
+
+## Repository boundary
+
+For the alpha, the ontology and its interaction tooling live together. The YAML
+graph is the versioned source of truth; the MCP server, validation rules,
+exporters, tests, and explorer evolve against that exact schema. Keeping them in
+one repository makes ontology changes reviewable alongside the code that
+interprets them and avoids cross-repository version skew.
+
+If the ontology later needs independent releases or non-code contributors, it
+can be extracted as a versioned data package. Read-only LLM access does not
+require that split: it is already enforced at the MCP tool boundary, with
+mutation available only through the explicit environment opt-in above.
 
 ## HTTP access and security
 
