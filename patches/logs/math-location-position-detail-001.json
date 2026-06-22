@@ -1,0 +1,2140 @@
+{
+  "patch_id": "math-location-position-detail-001",
+  "applied_at": "2026-05-28T05:00:55.120Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.space.maps.location_from_clues"
+      },
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.space.location.above_below_beside_between",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.above_below_beside_between",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Above below beside and between",
+        "description": "Use basic positional words to describe where objects are located relative to each other.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.left_right_forward_backward",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Left right forward and backward",
+        "description": "Use directional language such as left, right, forward and backward to describe movement.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.near_far_inside_outside",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Near far inside and outside",
+        "description": "Describe relative position using distance and containment language.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.follow_position_instructions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Follow position instructions",
+        "description": "Follow oral or visual instructions involving position and movement language.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.describe_paths",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Describe paths",
+        "description": "Describe a path using ordered movement and direction language.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.turn_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Turn language",
+        "description": "Use half-turn, quarter-turn and full-turn language to describe orientation changes.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.maps.read_simple_maps",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Read simple maps",
+        "description": "Use symbols, landmarks and relative positions to interpret simple maps.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.maps.create_simple_maps",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Create simple maps",
+        "description": "Draw simple maps that show important objects, landmarks and relative positions.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.maps.map_symbols_legend",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Map symbols and legends",
+        "description": "Use symbols and legends to interpret and create simple maps.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.maps.grid_references",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Grid references",
+        "description": "Use row and column references to locate positions on simple grids.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.maps.routes_on_grids",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Routes on grids",
+        "description": "Follow, describe and compare routes on grids using direction and distance language.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.maps.compass_directions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Compass directions",
+        "description": "Use north, south, east and west to describe map directions and routes.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.maps.scale_on_maps_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Map scale introduction",
+        "description": "Use simple scale information to interpret relative distances on maps.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.maps.location_from_clues",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Locate from spatial clues",
+        "description": "Use several spatial clues to determine a location on a map or grid.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.coordinates.first_quadrant_locations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "First quadrant locations",
+        "description": "Use first-quadrant coordinate positions to locate points in spatial contexts.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.coordinates.coordinate_order_in_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Coordinate order in context",
+        "description": "Interpret ordered coordinate locations in context without reversing the horizontal and vertical values.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.coordinates.four_quadrant_locations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Four quadrant locations",
+        "description": "Locate points in all four quadrants when representing spatial situations.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.coordinates.coordinate_distance_horizontal_vertical",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Coordinate horizontal and vertical distance",
+        "description": "Use coordinate differences to describe horizontal and vertical distances between locations.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.coordinates.shape_vertices_locations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Shape vertices as coordinate locations",
+        "description": "Represent vertices of simple shapes as coordinate locations in the plane.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.coordinates.route_changes_coordinates",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Route changes in coordinates",
+        "description": "Describe a route by changes in coordinate values between locations.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.coordinates.spatial_relationships_coordinate_plane",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Spatial relationships in the coordinate plane",
+        "description": "Use coordinates to describe relative positions, alignment and distance relationships.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.position_is_relative",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Position is relative",
+        "description": "Position words describe location relative to another object, person or reference point.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.direction_and_distance_describe_movement",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Direction and distance describe movement",
+        "description": "A movement can be described by both where it goes and how far it goes.",
+        "aliases": [],
+        "year_band": "1-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.turns_change_orientation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Turns change orientation",
+        "description": "A turn changes facing direction or orientation even when the location may stay the same.",
+        "aliases": [],
+        "year_band": "1-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.maps_use_symbols",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Maps use symbols",
+        "description": "Maps use symbols and legends to represent real objects and places.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.grids_use_rows_columns",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Grids use rows and columns",
+        "description": "Grid references locate positions by combining row and column information.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.compass_directions_are_fixed",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Compass directions are fixed",
+        "description": "Compass directions provide fixed directions on a map rather than changing with the viewer.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.map_scale_links_map_real_distance",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Map scale links map and real distance",
+        "description": "A map scale relates a distance on a map to a distance in the represented space.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.coordinate_order_matters_spatial",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Coordinate order matters in spatial contexts",
+        "description": "The first coordinate gives the horizontal location and the second gives the vertical location in standard Cartesian coordinates.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.coordinates_represent_locations",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Coordinates represent locations",
+        "description": "Coordinates can represent precise point locations in the plane.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.coordinate_differences_show_movement",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Coordinate differences show movement",
+        "description": "Differences in coordinate values can show horizontal and vertical movement between locations.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.left_right_reversal",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Left right reversal",
+        "description": "Learner reverses left and right when following or giving directions.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.position_not_relative",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Position not treated as relative",
+        "description": "Learner gives a position word without considering the reference object or viewpoint.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.row_column_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Row column confusion",
+        "description": "Learner reverses row and column information when using grid references.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.compass_viewpoint_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Compass viewpoint confusion",
+        "description": "Learner treats compass directions as changing with the viewer's facing direction on a map.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.reverse_coordinate_order_spatial",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Reverse coordinate order in spatial contexts",
+        "description": "Learner reverses the horizontal and vertical coordinate values when locating points.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.above_below.part_of.position_language",
+        "from": "math.space.location.above_below_beside_between",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.left_right.part_of.position_language",
+        "from": "math.space.location.left_right_forward_backward",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.near_far.part_of.position_language",
+        "from": "math.space.location.near_far_inside_outside",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.follow_position.part_of.position_language",
+        "from": "math.space.location.follow_position_instructions",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.describe_paths.part_of.position_language",
+        "from": "math.space.location.describe_paths",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.turn_language.part_of.position_language",
+        "from": "math.space.location.turn_language",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_maps.part_of.maps_grids",
+        "from": "math.space.maps.read_simple_maps",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.create_maps.part_of.maps_grids",
+        "from": "math.space.maps.create_simple_maps",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.map_symbols.part_of.maps_grids",
+        "from": "math.space.maps.map_symbols_legend",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grid_references.part_of.maps_grids",
+        "from": "math.space.maps.grid_references",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.routes_grids.part_of.maps_grids",
+        "from": "math.space.maps.routes_on_grids",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compass.part_of.maps_grids",
+        "from": "math.space.maps.compass_directions",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.map_scale.part_of.maps_grids",
+        "from": "math.space.maps.scale_on_maps_intro",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.location_clues.part_of.maps_grids",
+        "from": "math.space.maps.location_from_clues",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.first_quadrant_locations.part_of.cartesian",
+        "from": "math.space.coordinates.first_quadrant_locations",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_order_context.part_of.cartesian",
+        "from": "math.space.coordinates.coordinate_order_in_context",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.four_quadrant_locations.part_of.cartesian",
+        "from": "math.space.coordinates.four_quadrant_locations",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_distance.part_of.cartesian",
+        "from": "math.space.coordinates.coordinate_distance_horizontal_vertical",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_vertices_coords.part_of.cartesian",
+        "from": "math.space.coordinates.shape_vertices_locations",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.route_coordinate_changes.part_of.cartesian",
+        "from": "math.space.coordinates.route_changes_coordinates",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spatial_relationships_coordinate_plane.part_of.cartesian",
+        "from": "math.space.coordinates.spatial_relationships_coordinate_plane",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_position_relative.part_of.position_language",
+        "from": "math.kp.space.position_is_relative",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_direction_distance.part_of.position_language",
+        "from": "math.kp.space.direction_and_distance_describe_movement",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_turns_orientation.part_of.position_language",
+        "from": "math.kp.space.turns_change_orientation",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_maps_symbols.part_of.maps_grids",
+        "from": "math.kp.space.maps_use_symbols",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_grids_rows_columns.part_of.maps_grids",
+        "from": "math.kp.space.grids_use_rows_columns",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compass_fixed.part_of.maps_grids",
+        "from": "math.kp.space.compass_directions_are_fixed",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_map_scale.part_of.maps_grids",
+        "from": "math.kp.space.map_scale_links_map_real_distance",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_coord_order_spatial.part_of.cartesian",
+        "from": "math.kp.space.coordinate_order_matters_spatial",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_coords_locations.part_of.cartesian",
+        "from": "math.kp.space.coordinates_represent_locations",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_coord_differences.part_of.cartesian",
+        "from": "math.kp.space.coordinate_differences_show_movement",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_left_right.part_of.position_language",
+        "from": "math.misconception.space.left_right_reversal",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_position_relative.part_of.position_language",
+        "from": "math.misconception.space.position_not_relative",
+        "to": "math.space.location.position_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_row_column.part_of.maps_grids",
+        "from": "math.misconception.space.row_column_confusion",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_compass_viewpoint.part_of.maps_grids",
+        "from": "math.misconception.space.compass_viewpoint_confusion",
+        "to": "math.space.location.maps_grids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_reverse_coord_order.part_of.cartesian",
+        "from": "math.misconception.space.reverse_coordinate_order_spatial",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.encompasses.above_below",
+        "from": "math.space.location.position_language",
+        "to": "math.space.location.above_below_beside_between",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Basic positional words are core components of position language.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.encompasses.left_right",
+        "from": "math.space.location.position_language",
+        "to": "math.space.location.left_right_forward_backward",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Directional words are core components of position and movement language.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.encompasses.near_far",
+        "from": "math.space.location.position_language",
+        "to": "math.space.location.near_far_inside_outside",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Relative distance and containment words support position descriptions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.encompasses.follow_instructions",
+        "from": "math.space.location.position_language",
+        "to": "math.space.location.follow_position_instructions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Following instructions directly practises position and direction language.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.encompasses.describe_paths",
+        "from": "math.space.location.position_language",
+        "to": "math.space.location.describe_paths",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Path description applies ordered position and movement language.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.encompasses.turn_language",
+        "from": "math.space.location.position_language",
+        "to": "math.space.location.turn_language",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Turn language extends direction language to orientation changes.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.encompasses.read_maps",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.maps.read_simple_maps",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading maps is a core map and grid practice.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.encompasses.create_maps",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.maps.create_simple_maps",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Creating maps applies understanding of mapped positions and symbols.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.encompasses.map_symbols",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.maps.map_symbols_legend",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Symbols and legends are key features of map interpretation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.encompasses.grid_refs",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.maps.grid_references",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Grid references are central to locating positions on grids.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.encompasses.routes",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.maps.routes_on_grids",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Routes on grids apply map and grid interpretation to movement.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.encompasses.compass",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.maps.compass_directions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Compass directions support map direction and route descriptions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.encompasses.scale",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.maps.scale_on_maps_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Map scale extends maps and grids to distance interpretation.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.encompasses.clues",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.maps.location_from_clues",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Locating from clues practises map and grid reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian.encompasses.first_quadrant_locations",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.space.coordinates.first_quadrant_locations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "First-quadrant locations introduce Cartesian coordinates in spatial contexts.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian.encompasses.coordinate_order_context",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.space.coordinates.coordinate_order_in_context",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Coordinate order is central to using Cartesian coordinates accurately.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian.encompasses.four_quadrant_locations",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.space.coordinates.four_quadrant_locations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Four-quadrant locations extend coordinate location reasoning beyond positive coordinates.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian.encompasses.coordinate_distance",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.space.coordinates.coordinate_distance_horizontal_vertical",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Horizontal and vertical coordinate distance applies coordinate location reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian.encompasses.shape_vertices",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.space.coordinates.shape_vertices_locations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Representing shape vertices as coordinates connects location to geometric representations.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian.encompasses.route_changes",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.space.coordinates.route_changes_coordinates",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Route changes in coordinates apply coordinate differences to movement.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian.encompasses.spatial_relationships",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.space.coordinates.spatial_relationships_coordinate_plane",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Coordinates support describing spatial relationships among points and figures.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.above_below.requires.identifying_shapes",
+        "from": "math.space.location.above_below_beside_between",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "low",
+        "rationale": "Early position language often uses objects and shapes as reference items, but it can develop alongside shape identification.",
+        "failure_signal": "Learner cannot identify the reference object in a position statement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.left_right.requires.above_below",
+        "from": "math.space.location.left_right_forward_backward",
+        "to": "math.space.location.above_below_beside_between",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Directional movement language builds from basic relative position language.",
+        "failure_signal": "Learner cannot consistently describe or follow left/right/forward/backward movement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.near_far.requires.above_below",
+        "from": "math.space.location.near_far_inside_outside",
+        "to": "math.space.location.above_below_beside_between",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Relative distance and containment language extends basic position descriptions.",
+        "failure_signal": "Learner uses position words without a clear reference point or container.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.follow_position.requires.left_right",
+        "from": "math.space.location.follow_position_instructions",
+        "to": "math.space.location.left_right_forward_backward",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Following position instructions requires understanding common direction words.",
+        "failure_signal": "Learner knows words in isolation but cannot act on combined instructions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.describe_paths.requires.follow_position",
+        "from": "math.space.location.describe_paths",
+        "to": "math.space.location.follow_position_instructions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Describing paths builds from following ordered position and movement instructions.",
+        "failure_signal": "Learner can follow a route but cannot describe the route in order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.turn_language.requires.describe_paths",
+        "from": "math.space.location.turn_language",
+        "to": "math.space.location.describe_paths",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Turn language extends path descriptions with orientation changes.",
+        "failure_signal": "Learner describes movement distance but not turns or facing direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_maps.requires.position_language",
+        "from": "math.space.maps.read_simple_maps",
+        "to": "math.space.location.position_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Reading simple maps requires interpreting relative positions and directions.",
+        "failure_signal": "Learner cannot connect map symbols to locations or relative positions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.create_maps.requires.read_maps",
+        "from": "math.space.maps.create_simple_maps",
+        "to": "math.space.maps.read_simple_maps",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Creating simple maps builds from understanding how maps represent locations.",
+        "failure_signal": "Learner draws objects but does not preserve relative locations on a map.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.map_symbols.requires.read_maps",
+        "from": "math.space.maps.map_symbols_legend",
+        "to": "math.space.maps.read_simple_maps",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Symbols and legends formalise how maps represent places and objects.",
+        "failure_signal": "Learner guesses symbols without using the legend or map key.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grid_references.requires.read_maps",
+        "from": "math.space.maps.grid_references",
+        "to": "math.space.maps.read_simple_maps",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Grid references extend map reading to row and column locations.",
+        "failure_signal": "Learner finds nearby regions but not precise grid locations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.routes_grids.requires.grid_refs",
+        "from": "math.space.maps.routes_on_grids",
+        "to": "math.space.maps.grid_references",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Routes on grids require locating start, end and intermediate positions on the grid.",
+        "failure_signal": "Learner follows directions but loses the grid location sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compass.requires.routes",
+        "from": "math.space.maps.compass_directions",
+        "to": "math.space.maps.routes_on_grids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Compass directions refine route descriptions with fixed directions.",
+        "failure_signal": "Learner treats north or east as viewer-relative rather than map-relative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.map_scale.requires.routes",
+        "from": "math.space.maps.scale_on_maps_intro",
+        "to": "math.space.maps.routes_on_grids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Map scale applies route and map distance reasoning to represented distances.",
+        "failure_signal": "Learner measures a map distance but cannot relate it to real distance.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.location_clues.requires.grid_refs",
+        "from": "math.space.maps.location_from_clues",
+        "to": "math.space.maps.grid_references",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Locating from clues often combines grid references with relative-location information.",
+        "failure_signal": "Learner uses only one clue and ignores constraints from other clues.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.first_quadrant_locations.requires.grid_refs",
+        "from": "math.space.coordinates.first_quadrant_locations",
+        "to": "math.space.maps.grid_references",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "First-quadrant coordinate locations extend row-column grid reasoning into ordered coordinate locations.",
+        "failure_signal": "Learner treats coordinates like unordered grid labels rather than point locations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_order_context.requires.first_quadrant",
+        "from": "math.space.coordinates.coordinate_order_in_context",
+        "to": "math.space.coordinates.first_quadrant_locations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Understanding coordinate order builds from using first-quadrant locations.",
+        "failure_signal": "Learner reverses horizontal and vertical coordinate values in context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.four_quadrant_locations.requires.integer_line",
+        "from": "math.space.coordinates.four_quadrant_locations",
+        "to": "math.integers.integers_on_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Four-quadrant locations require interpreting positive and negative coordinate values.",
+        "failure_signal": "Learner can plot positive coordinates but not coordinates with negative values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_distance.requires.four_quadrant",
+        "from": "math.space.coordinates.coordinate_distance_horizontal_vertical",
+        "to": "math.space.coordinates.four_quadrant_locations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Horizontal and vertical coordinate distances require comparing locations in the coordinate plane.",
+        "failure_signal": "Learner counts signs incorrectly or mixes horizontal and vertical differences.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_vertices.requires.coordinate_order",
+        "from": "math.space.coordinates.shape_vertices_locations",
+        "to": "math.space.coordinates.coordinate_order_in_context",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Representing shape vertices requires accurately reading and writing coordinate pairs.",
+        "failure_signal": "Learner plots vertices with reversed coordinates or connects them in the wrong order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.route_changes.requires.coordinate_distance",
+        "from": "math.space.coordinates.route_changes_coordinates",
+        "to": "math.space.coordinates.coordinate_distance_horizontal_vertical",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Route changes in coordinates use horizontal and vertical coordinate differences.",
+        "failure_signal": "Learner describes movement visually but not through coordinate changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spatial_relationships_coordinate.requires.shape_vertices",
+        "from": "math.space.coordinates.spatial_relationships_coordinate_plane",
+        "to": "math.space.coordinates.shape_vertices_locations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Coordinate spatial relationships build from locating and comparing points and shape vertices.",
+        "failure_signal": "Learner plots points but cannot describe alignment, relative position or distance relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.has_mis.left_right",
+        "from": "math.space.location.position_language",
+        "to": "math.misconception.space.left_right_reversal",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.has_mis.relative",
+        "from": "math.space.location.position_language",
+        "to": "math.misconception.space.position_not_relative",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.has_mis.row_column",
+        "from": "math.space.location.maps_grids",
+        "to": "math.misconception.space.row_column_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.has_mis.compass_viewpoint",
+        "from": "math.space.location.maps_grids",
+        "to": "math.misconception.space.compass_viewpoint_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian.has_mis.reverse_order_spatial",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.misconception.space.reverse_coordinate_order_spatial",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/location_and_position.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 933,
+    "edges": 1879
+  },
+  "graph_counts_after": {
+    "nodes": 969,
+    "edges": 1962
+  }
+}

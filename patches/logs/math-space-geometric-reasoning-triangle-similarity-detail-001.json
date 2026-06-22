@@ -1,0 +1,646 @@
+{
+  "patch_id": "math-space-geometric-reasoning-triangle-similarity-detail-001",
+  "applied_at": "2026-05-29T07:53:09.423Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 11,
+      "edges_created": 24,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity.aa_criterion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "AA similarity criterion",
+        "description": "Use two pairs of equal corresponding angles to justify that two triangles are similar.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity.included_angle_proportional_sides",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Included angle and proportional sides similarity",
+        "description": "Use two pairs of proportional corresponding sides and the included equal angle to justify triangle similarity.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity.sss_criterion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "SSS similarity criterion",
+        "description": "Use three pairs of proportional corresponding sides to justify triangle similarity.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity.proportional_side_setup",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Set up proportional sides for similarity",
+        "description": "Set up side-length ratios using corresponding sides in similar triangles.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity.scale_factor_direction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Scale factor direction in similar figures",
+        "description": "Interpret which way a scale factor maps one similar figure to another.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity.missing_lengths_with_proportions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Missing lengths using similarity proportions",
+        "description": "Solve for missing side lengths in similar triangles using proportional relationships.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.aa_similarity_uses_two_angle_pairs",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "AA similarity uses two angle pairs",
+        "description": "Two pairs of equal corresponding angles are sufficient to prove triangle similarity.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.sss_similarity_uses_three_side_ratios",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "SSS similarity uses three side ratios",
+        "description": "SSS similarity requires the three pairs of corresponding side lengths to be proportional.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.scale_factor_direction_matters",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Scale factor direction matters",
+        "description": "The reciprocal scale factor is used when mapping in the reverse direction between similar figures.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.similarity_requires_equal_sides",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Similarity requires equal sides",
+        "description": "Learner thinks similar triangles must have equal side lengths rather than proportional side lengths.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.reversed_similarity_scale_factor",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Reversed similarity scale factor",
+        "description": "Learner uses the scale factor for the opposite mapping direction when comparing similar figures.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.aa_similarity.part_of.triangle_similarity",
+        "from": "math.space.reasoning.similarity.aa_criterion",
+        "to": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.included_angle_proportional_sides.part_of.triangle_similarity",
+        "from": "math.space.reasoning.similarity.included_angle_proportional_sides",
+        "to": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sss_similarity.part_of.triangle_similarity",
+        "from": "math.space.reasoning.similarity.sss_criterion",
+        "to": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_side_setup.part_of.similarity_correspondence",
+        "from": "math.space.reasoning.similarity.proportional_side_setup",
+        "to": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_factor_direction.part_of.scale_factor",
+        "from": "math.space.reasoning.similarity.scale_factor_direction",
+        "to": "math.space.reasoning.scale_factor_between_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_lengths_proportions.part_of.missing_lengths",
+        "from": "math.space.reasoning.similarity.missing_lengths_with_proportions",
+        "to": "math.space.reasoning.similarity_missing_lengths",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.aa_similarity.part_of.triangle_similarity",
+        "from": "math.kp.space.aa_similarity_uses_two_angle_pairs",
+        "to": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.sss_similarity.part_of.triangle_similarity",
+        "from": "math.kp.space.sss_similarity_uses_three_side_ratios",
+        "to": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.scale_direction.part_of.scale_factor",
+        "from": "math.kp.space.scale_factor_direction_matters",
+        "to": "math.space.reasoning.scale_factor_between_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.similarity_equal_sides.part_of.similarity",
+        "from": "math.misconception.space.similarity_requires_equal_sides",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.reversed_scale_factor.part_of.scale_factor",
+        "from": "math.misconception.space.reversed_similarity_scale_factor",
+        "to": "math.space.reasoning.scale_factor_between_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_similarity.encompasses.aa",
+        "from": "math.space.reasoning.triangle_similarity_criteria",
+        "to": "math.space.reasoning.similarity.aa_criterion",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "AA is a standard triangle similarity criterion.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_similarity.encompasses.included_angle_proportional_sides",
+        "from": "math.space.reasoning.triangle_similarity_criteria",
+        "to": "math.space.reasoning.similarity.included_angle_proportional_sides",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "This is the standard included-angle and proportional-sides form of triangle similarity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_similarity.encompasses.sss",
+        "from": "math.space.reasoning.triangle_similarity_criteria",
+        "to": "math.space.reasoning.similarity.sss_criterion",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "SSS similarity is a standard criterion using proportional corresponding sides.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corresponding_similarity.encompasses.proportional_setup",
+        "from": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "to": "math.space.reasoning.similarity.proportional_side_setup",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Setting up side ratios directly practises matching corresponding sides in similar figures.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity_missing_lengths.encompasses.proportions",
+        "from": "math.space.reasoning.similarity_missing_lengths",
+        "to": "math.space.reasoning.similarity.missing_lengths_with_proportions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Solving missing lengths in similar triangles often uses proportional side equations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.aa_similarity.requires.corresponding_angles",
+        "from": "math.space.reasoning.similarity.aa_criterion",
+        "to": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "AA similarity requires matching corresponding angle pairs correctly.",
+        "failure_signal": "Learner compares non-corresponding angles or assumes one equal angle is sufficient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.included_angle_proportional_sides.requires.proportional_setup",
+        "from": "math.space.reasoning.similarity.included_angle_proportional_sides",
+        "to": "math.space.reasoning.similarity.proportional_side_setup",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "This similarity criterion requires comparing proportional corresponding sides and the included angle.",
+        "failure_signal": "Learner compares non-corresponding sides or uses a non-included angle without justification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sss_similarity.requires.proportional_setup",
+        "from": "math.space.reasoning.similarity.sss_criterion",
+        "to": "math.space.reasoning.similarity.proportional_side_setup",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "SSS similarity requires setting up all three corresponding side ratios.",
+        "failure_signal": "Learner checks only one side ratio or compares mismatched sides.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_setup.requires.correspondence",
+        "from": "math.space.reasoning.similarity.proportional_side_setup",
+        "to": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Proportional side equations depend on matching corresponding sides accurately.",
+        "failure_signal": "Learner writes ratios using non-corresponding side lengths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_direction.requires.scale_factor",
+        "from": "math.space.reasoning.similarity.scale_factor_direction",
+        "to": "math.space.reasoning.scale_factor_between_figures",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reasoning about scale-factor direction requires first finding and interpreting a scale factor.",
+        "failure_signal": "Learner uses the reciprocal factor without noticing the mapping direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_lengths_proportions.requires.scale_direction",
+        "from": "math.space.reasoning.similarity.missing_lengths_with_proportions",
+        "to": "math.space.reasoning.similarity.scale_factor_direction",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Solving missing lengths requires applying the appropriate scale factor or proportional relation in the correct direction.",
+        "failure_signal": "Learner multiplies or divides by the wrong scale factor direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.has_mis.equal_sides",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.misconception.space.similarity_requires_equal_sides",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_factor.has_mis.reversed",
+        "from": "math.space.reasoning.scale_factor_between_figures",
+        "to": "math.misconception.space.reversed_similarity_scale_factor",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/geometric_reasoning.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1558,
+    "edges": 3286
+  },
+  "graph_counts_after": {
+    "nodes": 1569,
+    "edges": 3310
+  }
+}

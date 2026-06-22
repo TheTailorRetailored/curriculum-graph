@@ -1,0 +1,369 @@
+{
+  "patch_id": "math-fractions-nonunit-models-compliance",
+  "applied_at": "2026-06-06T10:45:17.435Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 6,
+      "edges_created": 13,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.nonunit_area_model_counts_shaded_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.non_unit_fraction_area_models",
+        "label": "Non-unit area model counts shaded parts",
+        "description": "In an area model for a non-unit fraction, the numerator counts how many equal parts are shaded or selected.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.nonunit_area_model_denominator_counts_all_equal_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.non_unit_fraction_area_models",
+        "label": "Non-unit area model denominator counts all equal parts",
+        "description": "In an area model for a non-unit fraction, the denominator names the total number of equal parts in the whole.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.nonunit_area_model_same_whole_required",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.non_unit_fraction_area_models",
+        "label": "Non-unit area model needs one same whole",
+        "description": "A non-unit fraction area model must use one clearly defined whole partitioned into equal parts.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.nonunit_number_line_count_unit_steps_from_zero",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.non_unit_fractions_on_number_line",
+        "label": "Count unit-fraction steps from zero",
+        "description": "Locate a non-unit fraction on a number line by counting the required number of unit-fraction intervals from zero.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.nonunit_number_line_denominator_partitions_unit_interval",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.non_unit_fractions_on_number_line",
+        "label": "Denominator partitions each unit interval",
+        "description": "On a number line, the denominator tells how many equal intervals each whole-number unit is divided into.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.nonunit_number_line_numerator_identifies_tick",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.non_unit_fractions_on_number_line",
+        "label": "Numerator identifies the fraction tick",
+        "description": "For a non-unit fraction between 0 and 1, the numerator identifies which fractional tick is reached after counting from zero.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nonunit_area_counts_shaded.part_of.nonunit_area",
+        "from": "math.kp.fractions.nonunit_area_model_counts_shaded_parts",
+        "to": "math.fractions.non_unit_fraction_area_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nonunit_area_denominator_counts_all.part_of.nonunit_area",
+        "from": "math.kp.fractions.nonunit_area_model_denominator_counts_all_equal_parts",
+        "to": "math.fractions.non_unit_fraction_area_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nonunit_area_same_whole.part_of.nonunit_area",
+        "from": "math.kp.fractions.nonunit_area_model_same_whole_required",
+        "to": "math.fractions.non_unit_fraction_area_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nonunit_line_count_steps.part_of.nonunit_line",
+        "from": "math.kp.fractions.nonunit_number_line_count_unit_steps_from_zero",
+        "to": "math.fractions.non_unit_fractions_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nonunit_line_denominator_partitions.part_of.nonunit_line",
+        "from": "math.kp.fractions.nonunit_number_line_denominator_partitions_unit_interval",
+        "to": "math.fractions.non_unit_fractions_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nonunit_line_numerator_tick.part_of.nonunit_line",
+        "from": "math.kp.fractions.nonunit_number_line_numerator_identifies_tick",
+        "to": "math.fractions.non_unit_fractions_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_area.uses_representation.area_model",
+        "from": "math.fractions.non_unit_fraction_area_models",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "The lesson is specifically about representing non-unit fractions using area models.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_area.assessed_by.model",
+        "from": "math.fractions.non_unit_fraction_area_models",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners model non-unit fractions by shading or partitioning area models.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_area.assessed_by.explain",
+        "from": "math.fractions.non_unit_fraction_area_models",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners explain how numerator and denominator are represented in an area model.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_area.has_mis.denominator_shaded",
+        "from": "math.fractions.non_unit_fraction_area_models",
+        "to": "math.misconception.fractions.denominator_counts_shaded_parts",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "The area-model lesson directly exposes the misconception that the denominator counts shaded parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_line.uses_representation.number_line",
+        "from": "math.fractions.non_unit_fractions_on_number_line",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "The lesson is specifically about locating non-unit fractions on a number line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_line.assessed_by.model",
+        "from": "math.fractions.non_unit_fractions_on_number_line",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners model non-unit fractions by placing them on a number line.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_line.assessed_by.interpret_graph",
+        "from": "math.fractions.non_unit_fractions_on_number_line",
+        "to": "math.task_type.interpret_graph",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners interpret number-line positions as fraction quantities.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2574,
+    "edges": 5373
+  },
+  "graph_counts_after": {
+    "nodes": 2580,
+    "edges": 5386
+  }
+}

@@ -1,0 +1,1602 @@
+{
+  "patch_id": "math-senior-advanced-functions-detail-001",
+  "applied_at": "2026-05-30T15:00:00.297Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.senior.functions.transformation_reflection_axes"
+      },
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.senior.functions.transformation_stretches_compressions"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 29,
+      "edges_created": 59,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.function_machine_view",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Function machine view",
+        "description": "Interpret a function as a process that takes an input and produces a corresponding output.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.evaluate_function_at_expression",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Evaluate function at an expression",
+        "description": "Evaluate function notation when the input is an algebraic expression rather than a single number.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.domain_from_denominator",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Domain from denominator restrictions",
+        "description": "Identify input values excluded from a domain because they make a denominator equal zero.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.domain_from_even_root",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Domain from even root restrictions",
+        "description": "Identify input values allowed by requiring even-root radicands to be nonnegative in real-valued functions.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.domain_from_log_argument",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Domain from logarithm argument",
+        "description": "Identify input values allowed by requiring logarithm arguments to be positive.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.interval_notation_domain",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Interval notation for domains",
+        "description": "Write function domains using interval notation, including open and closed endpoints.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.range_from_turning_points",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Range from turning points",
+        "description": "Determine a function's range from maximum or minimum turning points visible or known from a graph or rule.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.range_from_asymptote",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Range from asymptote",
+        "description": "Use horizontal or vertical asymptotic behaviour to describe possible output values of a function.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.compose_outer_inner_order",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Outer inner order in composition",
+        "description": "Identify which function is applied first and which is applied second in a composite function.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.composition_from_table",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Composition from tables",
+        "description": "Evaluate composite functions using values from one or more function tables.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.composition_from_graph",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Composition from graphs",
+        "description": "Evaluate composite functions by reading outputs from graphs in the correct order.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.inverse_from_ordered_pairs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Inverse from ordered pairs",
+        "description": "Find the inverse relation by swapping coordinates in ordered pairs.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.inverse_graph_reflection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Inverse graph reflection",
+        "description": "Recognise an inverse relation or inverse function graph as a reflection across the line y equals x.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.algebraic_inverse_steps",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Algebraic inverse steps",
+        "description": "Find a formula for an inverse function by swapping variables and solving for the new output variable.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.piecewise_boundary_values",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Piecewise boundary values",
+        "description": "Evaluate piecewise functions at boundary values by using the interval condition that includes the input.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.piecewise_graph_segments",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Piecewise graph segments",
+        "description": "Graph a piecewise function by drawing the appropriate segment for each rule and interval.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.transformation_vertical_translation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Vertical translation of functions",
+        "description": "Describe how adding a constant outside a function shifts its graph upward or downward.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.transformation_horizontal_translation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Horizontal translation of functions",
+        "description": "Describe how replacing x by x minus h or x plus h shifts a graph horizontally.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.transformation_reflection_axes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Function reflections in axes",
+        "description": "Describe reflections in the x-axis and y-axis using negative multipliers outside or inside a function.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.transformation_stretches_compressions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Function stretches and compressions",
+        "description": "Describe vertical and horizontal stretches or compressions of function graphs from transformation notation.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.denominator_cannot_be_zero",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Denominator cannot be zero",
+        "description": "A real-valued function expression with a denominator is undefined for inputs that make the denominator zero.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.even_root_radicand_nonnegative",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Even root radicand must be nonnegative",
+        "description": "For real-valued functions, the expression under an even root must be greater than or equal to zero.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.composition_applies_inner_first",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Composition applies inner function first",
+        "description": "In a composite function, the inner function is evaluated before the outer function.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.inverse_graph_reflects_y_equals_x",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Inverse graph reflects over y equals x",
+        "description": "The graph of an inverse relation is the reflection of the original relation across the line y equals x.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.horizontal_transformations_reverse_sign",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Horizontal transformations reverse sign appearance",
+        "description": "Horizontal translations written inside the function often appear with the opposite sign from the movement direction.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.functions.denominator_restriction_ignored",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Denominator restriction ignored",
+        "description": "Learner includes an input value that makes a denominator equal zero in the function domain.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.functions.composition_order_reversed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Composition order reversed",
+        "description": "Learner evaluates a composite function in the reverse order from the notation.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.functions.piecewise_wrong_interval",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Piecewise wrong interval selected",
+        "description": "Learner evaluates a piecewise function using a rule whose interval condition does not include the input.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.functions.horizontal_shift_sign_reversed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Horizontal shift sign reversed",
+        "description": "Learner interprets horizontal shift notation as moving in the same direction as the sign shown inside the function.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_machine.part_of.input_output_notation",
+        "from": "math.senior.functions.function_machine_view",
+        "to": "math.senior.functions.input_output_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_expression.part_of.evaluate_functions",
+        "from": "math.senior.functions.evaluate_function_at_expression",
+        "to": "math.senior.functions.evaluate_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_denominator.part_of.domain_restrictions",
+        "from": "math.senior.functions.domain_from_denominator",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_even_root.part_of.domain_restrictions",
+        "from": "math.senior.functions.domain_from_even_root",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_log_argument.part_of.domain_restrictions",
+        "from": "math.senior.functions.domain_from_log_argument",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_notation_domain.part_of.domain_meaning",
+        "from": "math.senior.functions.interval_notation_domain",
+        "to": "math.senior.functions.domain_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_turning_points.part_of.range_graph",
+        "from": "math.senior.functions.range_from_turning_points",
+        "to": "math.senior.functions.range_from_graph",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_asymptote.part_of.range_graph",
+        "from": "math.senior.functions.range_from_asymptote",
+        "to": "math.senior.functions.range_from_graph",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_order.part_of.composition",
+        "from": "math.senior.functions.compose_outer_inner_order",
+        "to": "math.senior.functions.function_composition_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_tables.part_of.evaluate_composite",
+        "from": "math.senior.functions.composition_from_table",
+        "to": "math.senior.functions.evaluate_composite_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_graphs.part_of.evaluate_composite",
+        "from": "math.senior.functions.composition_from_graph",
+        "to": "math.senior.functions.evaluate_composite_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_pairs.part_of.inverse_relation",
+        "from": "math.senior.functions.inverse_from_ordered_pairs",
+        "to": "math.senior.functions.inverse_relation_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_graph_reflection.part_of.inverse_relation",
+        "from": "math.senior.functions.inverse_graph_reflection",
+        "to": "math.senior.functions.inverse_relation_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_inverse_steps.part_of.inverse_notation",
+        "from": "math.senior.functions.algebraic_inverse_steps",
+        "to": "math.senior.functions.inverse_function_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_boundary.part_of.piecewise",
+        "from": "math.senior.functions.piecewise_boundary_values",
+        "to": "math.senior.functions.piecewise_function_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_graph_segments.part_of.piecewise",
+        "from": "math.senior.functions.piecewise_graph_segments",
+        "to": "math.senior.functions.piecewise_function_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_translation.part_of.transformations",
+        "from": "math.senior.functions.transformation_vertical_translation",
+        "to": "math.senior.functions.function_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_translation.part_of.transformations",
+        "from": "math.senior.functions.transformation_horizontal_translation",
+        "to": "math.senior.functions.function_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reflections_axes.part_of.transformations",
+        "from": "math.senior.functions.transformation_reflection_axes",
+        "to": "math.senior.functions.function_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stretches_compressions.part_of.transformations",
+        "from": "math.senior.functions.transformation_stretches_compressions",
+        "to": "math.senior.functions.function_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.denominator_nonzero.part_of.domain_denominator",
+        "from": "math.kp.senior.functions.denominator_cannot_be_zero",
+        "to": "math.senior.functions.domain_from_denominator",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.even_root_nonnegative.part_of.domain_root",
+        "from": "math.kp.senior.functions.even_root_radicand_nonnegative",
+        "to": "math.senior.functions.domain_from_even_root",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.inner_first.part_of.compose_order",
+        "from": "math.kp.senior.functions.composition_applies_inner_first",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.inverse_reflection.part_of.inverse_graph",
+        "from": "math.kp.senior.functions.inverse_graph_reflects_y_equals_x",
+        "to": "math.senior.functions.inverse_graph_reflection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.horizontal_reverse.part_of.horizontal_translation",
+        "from": "math.kp.senior.functions.horizontal_transformations_reverse_sign",
+        "to": "math.senior.functions.transformation_horizontal_translation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.denominator_restriction.part_of.domain_denominator",
+        "from": "math.misconception.senior.functions.denominator_restriction_ignored",
+        "to": "math.senior.functions.domain_from_denominator",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.composition_order.part_of.compose_order",
+        "from": "math.misconception.senior.functions.composition_order_reversed",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.piecewise_wrong_interval.part_of.boundary",
+        "from": "math.misconception.senior.functions.piecewise_wrong_interval",
+        "to": "math.senior.functions.piecewise_boundary_values",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.horizontal_shift.part_of.horizontal_translation",
+        "from": "math.misconception.senior.functions.horizontal_shift_sign_reversed",
+        "to": "math.senior.functions.transformation_horizontal_translation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.input_output.encompasses.function_machine",
+        "from": "math.senior.functions.input_output_notation",
+        "to": "math.senior.functions.function_machine_view",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "The function machine model directly practises interpreting inputs and outputs.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_restrictions.encompasses.denominator",
+        "from": "math.senior.functions.domain_restrictions",
+        "to": "math.senior.functions.domain_from_denominator",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Denominator restrictions are a core type of domain restriction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition.encompasses.order",
+        "from": "math.senior.functions.function_composition_meaning",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Correct outer-inner order is central to function composition.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_relation.encompasses.graph_reflection",
+        "from": "math.senior.functions.inverse_relation_meaning",
+        "to": "math.senior.functions.inverse_graph_reflection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Reflecting across y equals x directly represents reversing ordered pairs.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise.encompasses.boundary_values",
+        "from": "math.senior.functions.piecewise_function_notation",
+        "to": "math.senior.functions.piecewise_boundary_values",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Boundary-value selection is a core part of evaluating piecewise functions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.transformations.encompasses.horizontal_translation",
+        "from": "math.senior.functions.function_transformations",
+        "to": "math.senior.functions.transformation_horizontal_translation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Horizontal translations directly practise interpreting transformation notation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_machine.requires.linear_functions",
+        "from": "math.senior.functions.function_machine_view",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Senior function notation builds on earlier linear-function input-output relationships.",
+        "failure_signal": "Learner treats function notation as a multiplication expression or equation label only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_expression.requires.evaluate_functions",
+        "from": "math.senior.functions.evaluate_function_at_expression",
+        "to": "math.senior.functions.evaluate_functions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Evaluating at an algebraic expression extends numerical function evaluation.",
+        "failure_signal": "Learner substitutes only numbers and cannot preserve algebraic structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_denominator.requires.domain_meaning",
+        "from": "math.senior.functions.domain_from_denominator",
+        "to": "math.senior.functions.domain_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Denominator restrictions require understanding domain as allowable input values.",
+        "failure_signal": "Learner includes undefined input values in the domain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_even_root.requires.domain_denominator",
+        "from": "math.senior.functions.domain_from_even_root",
+        "to": "math.senior.functions.domain_from_denominator",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Even-root restrictions are another algebraic domain restriction after denominator exclusions.",
+        "failure_signal": "Learner allows inputs that make the radicand negative for real-valued functions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_log_requires.log_meaning",
+        "from": "math.senior.functions.domain_from_log_argument",
+        "to": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Logarithm-domain restrictions depend on the meaning and definition of logarithms.",
+        "failure_signal": "Learner allows zero or negative logarithm arguments in real-valued contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_domain.requires.domain_meaning",
+        "from": "math.senior.functions.interval_notation_domain",
+        "to": "math.senior.functions.domain_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Writing a domain in interval notation depends on understanding the allowed input set.",
+        "failure_signal": "Learner writes endpoint symbols without connecting them to included or excluded values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_turning_points.requires.range_graph",
+        "from": "math.senior.functions.range_from_turning_points",
+        "to": "math.senior.functions.range_from_graph",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Using turning points to find range builds on reading range from a graph.",
+        "failure_signal": "Learner gives x-values of turning points instead of output bounds.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_asymptote.requires.range_graph",
+        "from": "math.senior.functions.range_from_asymptote",
+        "to": "math.senior.functions.range_from_graph",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Asymptotic range restrictions are advanced graph-range features.",
+        "failure_signal": "Learner includes an asymptote value as an attainable output without justification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_order.requires.composition_meaning",
+        "from": "math.senior.functions.compose_outer_inner_order",
+        "to": "math.senior.functions.function_composition_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying outer-inner order requires understanding composition notation and meaning.",
+        "failure_signal": "Learner evaluates the functions in the wrong order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_table.requires.compose_order",
+        "from": "math.senior.functions.composition_from_table",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Table-based composition depends on applying the inner function first and using that output as the next input.",
+        "failure_signal": "Learner looks up both functions using the original input only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_graph.requires.compose_order",
+        "from": "math.senior.functions.composition_from_graph",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graph-based composition depends on reading function outputs in the correct order.",
+        "failure_signal": "Learner reads the correct graph values but uses them in the wrong order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_pairs.requires.inverse_relation",
+        "from": "math.senior.functions.inverse_from_ordered_pairs",
+        "to": "math.senior.functions.inverse_relation_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Swapping ordered pairs follows from the meaning of inverse relations.",
+        "failure_signal": "Learner swaps symbols but not paired input-output values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_graph.requires.inverse_pairs",
+        "from": "math.senior.functions.inverse_graph_reflection",
+        "to": "math.senior.functions.inverse_from_ordered_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graph reflection across y equals x is the geometric form of swapping ordered pairs.",
+        "failure_signal": "Learner reflects across the wrong axis or does not swap coordinates.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_inverse.requires.inverse_notation",
+        "from": "math.senior.functions.algebraic_inverse_steps",
+        "to": "math.senior.functions.inverse_function_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Algebraic inverse steps require understanding inverse notation and inverse-function meaning.",
+        "failure_signal": "Learner writes reciprocal notation or fails to solve for the output variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_boundary.requires.piecewise_notation",
+        "from": "math.senior.functions.piecewise_boundary_values",
+        "to": "math.senior.functions.piecewise_function_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing boundary values depends on reading piecewise interval conditions.",
+        "failure_signal": "Learner chooses the wrong rule at an endpoint.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_graph.requires.boundary",
+        "from": "math.senior.functions.piecewise_graph_segments",
+        "to": "math.senior.functions.piecewise_boundary_values",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graphing piecewise segments requires selecting correct rules and endpoint inclusion for each interval.",
+        "failure_signal": "Learner draws full parent graphs instead of restricted pieces.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_translation.requires.transformations",
+        "from": "math.senior.functions.transformation_vertical_translation",
+        "to": "math.senior.functions.function_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Vertical translation is a core case after introducing function transformations.",
+        "failure_signal": "Learner changes x-values instead of output values for a vertical shift.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_translation.requires.vertical_translation",
+        "from": "math.senior.functions.transformation_horizontal_translation",
+        "to": "math.senior.functions.transformation_vertical_translation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Horizontal translation is often introduced after the simpler outside-function vertical shift case.",
+        "failure_signal": "Learner reverses the sign or direction of the horizontal shift.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reflections_axes.requires.transformations",
+        "from": "math.senior.functions.transformation_reflection_axes",
+        "to": "math.senior.functions.function_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Axis reflections are core transformation cases after transformation notation is introduced.",
+        "failure_signal": "Learner confuses reflection in the x-axis with reflection in the y-axis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stretches_compressions.requires.transformations",
+        "from": "math.senior.functions.transformation_stretches_compressions",
+        "to": "math.senior.functions.function_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Stretches and compressions extend basic transformation notation.",
+        "failure_signal": "Learner treats every multiplier as a vertical scale factor or confuses horizontal effects.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_denominator.has_mis.ignored",
+        "from": "math.senior.functions.domain_from_denominator",
+        "to": "math.misconception.senior.functions.denominator_restriction_ignored",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_order.has_mis.reversed",
+        "from": "math.senior.functions.compose_outer_inner_order",
+        "to": "math.misconception.senior.functions.composition_order_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_boundary.has_mis.wrong_interval",
+        "from": "math.senior.functions.piecewise_boundary_values",
+        "to": "math.misconception.senior.functions.piecewise_wrong_interval",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_translation.has_mis.sign_reversed",
+        "from": "math.senior.functions.transformation_horizontal_translation",
+        "to": "math.misconception.senior.functions.horizontal_shift_sign_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1839,
+    "edges": 3864
+  },
+  "graph_counts_after": {
+    "nodes": 1868,
+    "edges": 3923
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "patch_id": "math-percentages-percent-of-quantity-compliance-small",
+  "applied_at": "2026-06-08T17:24:30.996Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.percent_of_quantity_is_part_of_base",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.percentages.percent_of_quantity",
+        "label": "Percent of quantity is part of the base",
+        "description": "Interpret a percent of a quantity as a part of the original base amount.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.multiply_base_by_percent_rate",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.percentages.percent_of_quantity",
+        "label": "Multiply base by percent rate",
+        "description": "Find a percent of a quantity by multiplying the base quantity by the percent written as a fraction or decimal.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_quantity_uses_base.part_of.percent_of_quantity",
+        "from": "math.kp.percentages.percent_of_quantity_uses_base",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_quantity_part_base.part_of.percent_of_quantity",
+        "from": "math.kp.percentages.percent_of_quantity_is_part_of_base",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_multiply_base_by_percent_rate.part_of.percent_of_quantity",
+        "from": "math.kp.percentages.multiply_base_by_percent_rate",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_of_quantity.uses_representation.bar_model",
+        "from": "math.percentages.percent_of_quantity",
+        "to": "math.representation.bar_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Bar models show the base quantity partitioned by percent parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_of_quantity.uses_representation.area_model",
+        "from": "math.percentages.percent_of_quantity",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area models can show percent as part of a hundred-based whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_of_quantity.assessed_by.compute",
+        "from": "math.percentages.percent_of_quantity",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute a percent of a given quantity.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_of_quantity.assessed_by.model",
+        "from": "math.percentages.percent_of_quantity",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can model a percent of a quantity using a bar or area model.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_of_quantity.assessed_by.explain",
+        "from": "math.percentages.percent_of_quantity",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain which amount is the base and why the result is reasonable.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2649,
+    "edges": 1449
+  },
+  "graph_counts_after": {
+    "nodes": 2651,
+    "edges": 1457
+  }
+}

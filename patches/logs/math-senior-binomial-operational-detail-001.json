@@ -1,0 +1,754 @@
+{
+  "patch_id": "math-senior-binomial-operational-detail-001",
+  "applied_at": "2026-06-04T22:24:21.484Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 13,
+      "edges_created": 28,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_success_failure_coding",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial success and failure coding",
+        "description": "Define which outcome counts as success and which counts as failure before using a binomial model.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_fixed_trial_count_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial fixed trial count check",
+        "description": "Check that the number of trials is fixed before modelling a count with a binomial distribution.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_constant_probability_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial constant probability check",
+        "description": "Check that the probability of success is constant across trials before using a binomial model.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_independence_condition_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial independence condition check",
+        "description": "Check that trials are independent, or approximately independent, before using a binomial model.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_exactly_k_successes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial exactly k successes",
+        "description": "Interpret and calculate the probability that a binomial random variable equals exactly k successes.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_at_most_at_least_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial at most and at least language",
+        "description": "Translate at most, fewer than, at least and more than statements into binomial inequalities.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_cumulative_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial cumulative probability",
+        "description": "Calculate cumulative binomial probabilities by summing appropriate exact probabilities or using technology.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_technology_output_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial technology output interpretation",
+        "description": "Interpret binomial probability outputs from calculators or software in terms of the original event and context.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_expected_count_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial expected count interpretation",
+        "description": "Interpret the binomial mean np as the long-run expected count of successes over n trials.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.binomial_model_reasonableness",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial model reasonableness",
+        "description": "Judge whether a binomial model is reasonable for a context by checking all binomial conditions and the question asked.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.probability.binomial_requires_fixed_n",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Binomial requires fixed n",
+        "description": "A binomial model requires a fixed number of trials before data are observed.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.probability.binomial_at_least_uses_cumulative_probability",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "At least uses cumulative probability",
+        "description": "An at least or at most binomial probability usually requires summing multiple exact-count probabilities or using cumulative technology output.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.probability.at_least_means_exactly_one",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "At least means exactly one",
+        "description": "Learner interprets at least one as exactly one instead of one or more.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_success_failure.part_of.conditions",
+        "from": "math.senior.stats.distributions.binomial_success_failure_coding",
+        "to": "math.senior.stats.distributions.binomial_experiment_conditions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_fixed_n.part_of.conditions",
+        "from": "math.senior.stats.distributions.binomial_fixed_trial_count_check",
+        "to": "math.senior.stats.distributions.binomial_experiment_conditions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_const_p.part_of.conditions",
+        "from": "math.senior.stats.distributions.binomial_constant_probability_check",
+        "to": "math.senior.stats.distributions.binomial_experiment_conditions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_independent.part_of.conditions",
+        "from": "math.senior.stats.distributions.binomial_independence_condition_check",
+        "to": "math.senior.stats.distributions.binomial_experiment_conditions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_exactly_k.part_of.formula",
+        "from": "math.senior.stats.distributions.binomial_exactly_k_successes",
+        "to": "math.senior.stats.distributions.binomial_probability_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_inequalities.part_of.formula",
+        "from": "math.senior.stats.distributions.binomial_at_most_at_least_language",
+        "to": "math.senior.stats.distributions.binomial_probability_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_cumulative.part_of.formula",
+        "from": "math.senior.stats.distributions.binomial_cumulative_probability",
+        "to": "math.senior.stats.distributions.binomial_probability_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_tech_output.part_of.formula",
+        "from": "math.senior.stats.distributions.binomial_technology_output_interpretation",
+        "to": "math.senior.stats.distributions.binomial_probability_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_expected_count.part_of.mean_var",
+        "from": "math.senior.stats.distributions.binomial_expected_count_interpretation",
+        "to": "math.senior.stats.distributions.binomial_mean_variance",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_model_reason.part_of.choose_model",
+        "from": "math.senior.stats.distributions.binomial_model_reasonableness",
+        "to": "math.senior.stats.distributions.choose_distribution_model",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.fixed_n.part_of.fixed_n",
+        "from": "math.kp.senior.probability.binomial_requires_fixed_n",
+        "to": "math.senior.stats.distributions.binomial_fixed_trial_count_check",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.binom_cumulative.part_of.binom_cumulative",
+        "from": "math.kp.senior.probability.binomial_at_least_uses_cumulative_probability",
+        "to": "math.senior.stats.distributions.binomial_cumulative_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.binom_independence.part_of.independent_check",
+        "from": "math.misconception.senior.probability.binomial_without_independence",
+        "to": "math.senior.stats.distributions.binomial_independence_condition_check",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.at_least_exactly.part_of.at_least",
+        "from": "math.misconception.senior.probability.at_least_means_exactly_one",
+        "to": "math.senior.stats.distributions.binomial_at_most_at_least_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_conditions.encompasses.fixed_n",
+        "from": "math.senior.stats.distributions.binomial_experiment_conditions",
+        "to": "math.senior.stats.distributions.binomial_fixed_trial_count_check",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Checking fixed trial count is one of the core binomial conditions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_formula.encompasses.exactly_k",
+        "from": "math.senior.stats.distributions.binomial_probability_formula",
+        "to": "math.senior.stats.distributions.binomial_exactly_k_successes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The binomial probability formula directly calculates exactly-k probabilities.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.success_failure.requires.discrete_model",
+        "from": "math.senior.stats.distributions.binomial_success_failure_coding",
+        "to": "math.senior.stats.distributions.discrete_distribution_models",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Binomial success/failure coding builds on modelling a discrete random variable.",
+        "failure_signal": "Learner does not define what the random variable counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fixed_n.requires.success_failure",
+        "from": "math.senior.stats.distributions.binomial_fixed_trial_count_check",
+        "to": "math.senior.stats.distributions.binomial_success_failure_coding",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Trial-count checks follow after defining what each trial can produce.",
+        "failure_signal": "Learner uses binomial reasoning when the number of trials is not fixed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.const_p.requires.fixed_n",
+        "from": "math.senior.stats.distributions.binomial_constant_probability_check",
+        "to": "math.senior.stats.distributions.binomial_fixed_trial_count_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Constant success probability is checked as part of the binomial condition sequence.",
+        "failure_signal": "Learner applies a single p value even though success probability changes across trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independence.requires.const_p",
+        "from": "math.senior.stats.distributions.binomial_independence_condition_check",
+        "to": "math.senior.stats.distributions.binomial_constant_probability_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Independence and constant probability are related checks in binomial modelling.",
+        "failure_signal": "Learner uses binomial calculations for dependent trials without justification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exactly_k.requires.conditions",
+        "from": "math.senior.stats.distributions.binomial_exactly_k_successes",
+        "to": "math.senior.stats.distributions.binomial_experiment_conditions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Exactly-k calculations are meaningful only after binomial conditions are judged reasonable.",
+        "failure_signal": "Learner calculates exact binomial probabilities before checking whether the context is binomial.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.at_most_requires.exactly_k",
+        "from": "math.senior.stats.distributions.binomial_at_most_at_least_language",
+        "to": "math.senior.stats.distributions.binomial_exactly_k_successes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Inequality probabilities are built from exact-count binomial probabilities.",
+        "failure_signal": "Learner interprets at least or at most as exactly one value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cumulative_requires.at_most",
+        "from": "math.senior.stats.distributions.binomial_cumulative_probability",
+        "to": "math.senior.stats.distributions.binomial_at_most_at_least_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Cumulative binomial probabilities require translating inequality language into included values.",
+        "failure_signal": "Learner omits endpoints or includes the wrong tail.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_tech_requires.cumulative",
+        "from": "math.senior.stats.distributions.binomial_technology_output_interpretation",
+        "to": "math.senior.stats.distributions.binomial_cumulative_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Technology outputs must be matched to exact or cumulative binomial events.",
+        "failure_signal": "Learner reads calculator output without matching it to the stated event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_count.requires.mean_variance",
+        "from": "math.senior.stats.distributions.binomial_expected_count_interpretation",
+        "to": "math.senior.stats.distributions.binomial_mean_variance",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting np builds on binomial mean and variance formulas.",
+        "failure_signal": "Learner interprets expected count as a guaranteed observed count.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_reason.requires.independence",
+        "from": "math.senior.stats.distributions.binomial_model_reasonableness",
+        "to": "math.senior.stats.distributions.binomial_independence_condition_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Overall binomial model reasonableness depends on checking independence along with the other conditions.",
+        "failure_signal": "Learner accepts a binomial model from keyword matching only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_independence.has_mis.without_independence",
+        "from": "math.senior.stats.distributions.binomial_independence_condition_check",
+        "to": "math.misconception.senior.probability.binomial_without_independence",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_at_least.has_mis.exactly_one",
+        "from": "math.senior.stats.distributions.binomial_at_most_at_least_language",
+        "to": "math.misconception.senior.probability.at_least_means_exactly_one",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/advanced_statistics_and_probability.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2435,
+    "edges": 5077
+  },
+  "graph_counts_after": {
+    "nodes": 2448,
+    "edges": 5105
+  }
+}

@@ -1,0 +1,1699 @@
+{
+  "patch_id": "math-senior-statistical-inference-detail-001",
+  "applied_at": "2026-05-31T15:39:28.657Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.misconception.senior.inference.larger_confidence_narrower_interval"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 63,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Sample statistic versus population parameter",
+        "description": "Distinguish a sample statistic from the population parameter it estimates in inference contexts.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.sampling_variability_senior",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Sampling variability in senior inference",
+        "description": "Explain why sample statistics vary from sample to sample and why that variation matters for inference.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.sampling_distribution_center",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Sampling distribution centre",
+        "description": "Identify the centre of a sampling distribution and connect it to the parameter being estimated under appropriate conditions.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.sampling_distribution_spread",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Sampling distribution spread",
+        "description": "Interpret the spread of a sampling distribution as sampling error measured by standard error.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.central_limit_theorem_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Central limit theorem introduction",
+        "description": "Use the central limit theorem to justify approximate normal sampling distributions for large samples in suitable contexts.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.standard_error_for_proportion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Standard error for a sample proportion",
+        "description": "Calculate or interpret the standard error of a sample proportion under binomial-style assumptions.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.standard_error_for_mean",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Standard error for a sample mean",
+        "description": "Calculate or interpret the standard error of a sample mean using population or sample standard deviation information as appropriate.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.confidence_interval_structure",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Confidence interval structure",
+        "description": "Interpret a confidence interval as an estimate plus or minus a margin of error.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.critical_value_for_confidence_level",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Critical value for confidence level",
+        "description": "Choose or interpret the critical value associated with a confidence level for common normal-based intervals.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.margin_of_error_factors",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Factors affecting margin of error",
+        "description": "Explain how confidence level, variability and sample size affect the margin of error.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.confidence_interval_context_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Context interpretation of confidence intervals",
+        "description": "Write a contextual interpretation of a confidence interval that refers to the population parameter and confidence method.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.proportion_interval_conditions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Conditions for proportion interval",
+        "description": "Check randomisation, independence and success-failure conditions for a confidence interval for a proportion.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.mean_interval_conditions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Conditions for mean interval",
+        "description": "Check randomisation, independence and approximate-normal conditions for a confidence interval for a mean.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.hypothesis_parameter_statement",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Hypothesis parameter statement",
+        "description": "State null and alternative hypotheses using the relevant population parameter rather than sample statistics.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.one_tailed_two_tailed_tests",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "One tailed and two tailed tests",
+        "description": "Choose a one-tailed or two-tailed alternative hypothesis based on the research question.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.test_statistic_standardisation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Test statistic standardisation",
+        "description": "Standardise the difference between an observed statistic and the null value using an appropriate standard error.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.p_value_as_tail_area",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "P-value as tail area",
+        "description": "Interpret a p-value as a tail probability under the null model at least as extreme as the observed result.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.compare_p_value_alpha",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Compare p-value with alpha",
+        "description": "Make a hypothesis-test decision by comparing the p-value with the chosen significance level.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.contextual_hypothesis_test_conclusion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Contextual hypothesis test conclusion",
+        "description": "Write a hypothesis-test conclusion in context using evidence language rather than proof language.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.type_i_error_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Type I error in context",
+        "description": "Describe a Type I error in the original context as rejecting a true null hypothesis.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.inference.type_ii_error_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Type II error in context",
+        "description": "Describe a Type II error in the original context as failing to reject a false null hypothesis.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.inference.statistic_estimates_parameter",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Statistic estimates parameter",
+        "description": "A sample statistic is used to estimate an unknown population parameter.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.inference.larger_sample_reduces_standard_error",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Larger sample reduces standard error",
+        "description": "For common estimators, increasing sample size reduces standard error when other factors are unchanged.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.inference.interval_is_estimate_plus_margin",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Interval is estimate plus margin",
+        "description": "A common confidence interval is formed from an estimate plus and minus a margin of error.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.inference.hypotheses_use_parameters",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Hypotheses use parameters",
+        "description": "Formal hypotheses should be stated about population parameters, not observed sample statistics.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.inference.type_i_rejects_true_null",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Type I rejects true null",
+        "description": "A Type I error occurs when a true null hypothesis is rejected.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.inference.statistic_equals_parameter",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Statistic equals parameter",
+        "description": "Learner treats a sample statistic as exactly equal to the population parameter rather than as an estimate subject to sampling variability.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.inference.larger_confidence_narrower_interval",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Higher confidence gives narrower interval",
+        "description": "Learner thinks increasing the confidence level makes a confidence interval narrower when other factors are unchanged.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.inference.hypothesis_about_sample_statistic",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Hypothesis about sample statistic",
+        "description": "Learner states null and alternative hypotheses about the observed sample statistic rather than the population parameter.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.inference.p_value_as_effect_size",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "P-value as effect size",
+        "description": "Learner interprets a smaller p-value as measuring the size or practical importance of an effect.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.inference.fail_to_reject_proves_null",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Fail to reject proves null",
+        "description": "Learner treats failing to reject the null hypothesis as proof that the null hypothesis is true.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_stat_param.part_of.statistical_inference",
+        "from": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "to": "math.senior.stats.statistical_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability.part_of.sampling_distributions",
+        "from": "math.senior.stats.inference.sampling_variability_senior",
+        "to": "math.senior.stats.inference.sampling_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_center.part_of.sampling_distributions",
+        "from": "math.senior.stats.inference.sampling_distribution_center",
+        "to": "math.senior.stats.inference.sampling_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_spread.part_of.standard_error",
+        "from": "math.senior.stats.inference.sampling_distribution_spread",
+        "to": "math.senior.stats.inference.standard_error",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clt.part_of.sampling_distributions",
+        "from": "math.senior.stats.inference.central_limit_theorem_intro",
+        "to": "math.senior.stats.inference.sampling_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.se_proportion.part_of.standard_error",
+        "from": "math.senior.stats.inference.standard_error_for_proportion",
+        "to": "math.senior.stats.inference.standard_error",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.se_mean.part_of.standard_error",
+        "from": "math.senior.stats.inference.standard_error_for_mean",
+        "to": "math.senior.stats.inference.standard_error",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ci_structure.part_of.confidence_meaning",
+        "from": "math.senior.stats.inference.confidence_interval_structure",
+        "to": "math.senior.stats.inference.confidence_interval_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.critical_value.part_of.margin_error",
+        "from": "math.senior.stats.inference.critical_value_for_confidence_level",
+        "to": "math.senior.stats.inference.margin_of_error_senior",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_factors.part_of.margin_error",
+        "from": "math.senior.stats.inference.margin_of_error_factors",
+        "to": "math.senior.stats.inference.margin_of_error_senior",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ci_context.part_of.confidence_meaning",
+        "from": "math.senior.stats.inference.confidence_interval_context_interpretation",
+        "to": "math.senior.stats.inference.confidence_interval_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportion_conditions.part_of.ci_proportion",
+        "from": "math.senior.stats.inference.proportion_interval_conditions",
+        "to": "math.senior.stats.inference.confidence_interval_for_proportion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_conditions.part_of.ci_mean",
+        "from": "math.senior.stats.inference.mean_interval_conditions",
+        "to": "math.senior.stats.inference.confidence_interval_for_mean",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hypothesis_parameter.part_of.null_alt",
+        "from": "math.senior.stats.inference.hypothesis_parameter_statement",
+        "to": "math.senior.stats.inference.null_and_alternative_hypotheses",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_two_tailed.part_of.null_alt",
+        "from": "math.senior.stats.inference.one_tailed_two_tailed_tests",
+        "to": "math.senior.stats.inference.null_and_alternative_hypotheses",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.test_standardisation.part_of.test_statistic",
+        "from": "math.senior.stats.inference.test_statistic_standardisation",
+        "to": "math.senior.stats.inference.test_statistic_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.p_value_tail.part_of.p_value",
+        "from": "math.senior.stats.inference.p_value_as_tail_area",
+        "to": "math.senior.stats.inference.p_value_interpretation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_p_alpha.part_of.significance",
+        "from": "math.senior.stats.inference.compare_p_value_alpha",
+        "to": "math.senior.stats.inference.significance_level_decision",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.contextual_conclusion.part_of.contextual_conclusions",
+        "from": "math.senior.stats.inference.contextual_hypothesis_test_conclusion",
+        "to": "math.senior.stats.inference.contextual_conclusions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.type_i_context.part_of.error_types",
+        "from": "math.senior.stats.inference.type_i_error_context",
+        "to": "math.senior.stats.inference.type_i_type_ii_errors",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.type_ii_context.part_of.error_types",
+        "from": "math.senior.stats.inference.type_ii_error_context",
+        "to": "math.senior.stats.inference.type_i_type_ii_errors",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.statistic_parameter.part_of.sample_stat_param",
+        "from": "math.kp.senior.inference.statistic_estimates_parameter",
+        "to": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.larger_sample_se.part_of.margin_factors",
+        "from": "math.kp.senior.inference.larger_sample_reduces_standard_error",
+        "to": "math.senior.stats.inference.margin_of_error_factors",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.interval_margin.part_of.ci_structure",
+        "from": "math.kp.senior.inference.interval_is_estimate_plus_margin",
+        "to": "math.senior.stats.inference.confidence_interval_structure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.hypotheses_parameters.part_of.hypothesis_parameter",
+        "from": "math.kp.senior.inference.hypotheses_use_parameters",
+        "to": "math.senior.stats.inference.hypothesis_parameter_statement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.type_i_rejects.part_of.type_i_context",
+        "from": "math.kp.senior.inference.type_i_rejects_true_null",
+        "to": "math.senior.stats.inference.type_i_error_context",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.statistic_parameter.part_of.sample_stat_param",
+        "from": "math.misconception.senior.inference.statistic_equals_parameter",
+        "to": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.higher_conf_narrower.part_of.margin_factors",
+        "from": "math.misconception.senior.inference.larger_confidence_narrower_interval",
+        "to": "math.senior.stats.inference.margin_of_error_factors",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.hypothesis_sample_stat.part_of.hypothesis_parameter",
+        "from": "math.misconception.senior.inference.hypothesis_about_sample_statistic",
+        "to": "math.senior.stats.inference.hypothesis_parameter_statement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.p_value_effect_size.part_of.p_value_tail",
+        "from": "math.misconception.senior.inference.p_value_as_effect_size",
+        "to": "math.senior.stats.inference.p_value_as_tail_area",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.fail_reject_proves.part_of.context_conclusion",
+        "from": "math.misconception.senior.inference.fail_to_reject_proves_null",
+        "to": "math.senior.stats.inference.contextual_hypothesis_test_conclusion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.encompasses.sample_stat_parameter",
+        "from": "math.senior.stats.statistical_inference",
+        "to": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Distinguishing statistics and parameters is central to statistical inference.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_distributions.encompasses.center",
+        "from": "math.senior.stats.inference.sampling_distributions",
+        "to": "math.senior.stats.inference.sampling_distribution_center",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "The centre of a sampling distribution is a core sampling-distribution feature.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.standard_error.encompasses.spread",
+        "from": "math.senior.stats.inference.standard_error",
+        "to": "math.senior.stats.inference.sampling_distribution_spread",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Standard error measures the spread of a sampling distribution.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.confidence_meaning.encompasses.structure",
+        "from": "math.senior.stats.inference.confidence_interval_meaning",
+        "to": "math.senior.stats.inference.confidence_interval_structure",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Understanding confidence intervals includes recognising estimate-plus-margin structure.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.null_alt.encompasses.parameter_statement",
+        "from": "math.senior.stats.inference.null_and_alternative_hypotheses",
+        "to": "math.senior.stats.inference.hypothesis_parameter_statement",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Correct hypothesis statements are a core part of null and alternative hypotheses.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.p_value.encompasses.tail_area",
+        "from": "math.senior.stats.inference.p_value_interpretation",
+        "to": "math.senior.stats.inference.p_value_as_tail_area",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tail-area interpretation is central to p-value meaning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_stat_param.requires.informal_inference",
+        "from": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Senior inference builds on earlier sample-to-population reasoning.",
+        "failure_signal": "Learner cannot distinguish a sample result from a population claim.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability_senior.requires.sample_stat_param",
+        "from": "math.senior.stats.inference.sampling_variability_senior",
+        "to": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sampling variability is understood relative to the statistic used to estimate a parameter.",
+        "failure_signal": "Learner expects repeated random samples to give exactly the same statistic.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_center.requires.sampling_variability",
+        "from": "math.senior.stats.inference.sampling_distribution_center",
+        "to": "math.senior.stats.inference.sampling_variability_senior",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A sampling distribution's centre is interpreted after understanding sample-to-sample variation.",
+        "failure_signal": "Learner confuses the centre of the sampling distribution with one observed sample statistic.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_spread.requires.sampling_center",
+        "from": "math.senior.stats.inference.sampling_distribution_spread",
+        "to": "math.senior.stats.inference.sampling_distribution_center",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Describing spread builds on knowing what distribution and centre are being described.",
+        "failure_signal": "Learner treats standard error as the same as raw-data standard deviation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clt.requires.sampling_distributions",
+        "from": "math.senior.stats.inference.central_limit_theorem_intro",
+        "to": "math.senior.stats.inference.sampling_distributions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The central limit theorem describes conditions under which sampling distributions are approximately normal.",
+        "failure_signal": "Learner applies normal approximation without considering sample size or shape conditions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.se_proportion.requires.standard_error",
+        "from": "math.senior.stats.inference.standard_error_for_proportion",
+        "to": "math.senior.stats.inference.standard_error",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The proportion formula is a specific standard-error case.",
+        "failure_signal": "Learner uses raw proportion as standard error or omits sample size.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.se_mean.requires.standard_error",
+        "from": "math.senior.stats.inference.standard_error_for_mean",
+        "to": "math.senior.stats.inference.standard_error",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The mean formula is a specific standard-error case.",
+        "failure_signal": "Learner uses standard deviation as standard error without dividing by square root of sample size.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ci_structure.requires.standard_error",
+        "from": "math.senior.stats.inference.confidence_interval_structure",
+        "to": "math.senior.stats.inference.standard_error",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Confidence intervals use standard error as part of their margin of error.",
+        "failure_signal": "Learner gives only the point estimate without uncertainty width.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.critical_value.requires.confidence_structure",
+        "from": "math.senior.stats.inference.critical_value_for_confidence_level",
+        "to": "math.senior.stats.inference.confidence_interval_structure",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Critical values scale the standard error in the interval structure.",
+        "failure_signal": "Learner chooses a critical value unrelated to the confidence level or tail area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_factors.requires.critical_value",
+        "from": "math.senior.stats.inference.margin_of_error_factors",
+        "to": "math.senior.stats.inference.critical_value_for_confidence_level",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Margin of error depends on critical value, variability and sample size.",
+        "failure_signal": "Learner predicts margin changes in the wrong direction when confidence or sample size changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ci_context.requires.confidence_meaning",
+        "from": "math.senior.stats.inference.confidence_interval_context_interpretation",
+        "to": "math.senior.stats.inference.confidence_interval_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contextual interpretation requires understanding confidence interval meaning.",
+        "failure_signal": "Learner says the probability the fixed interval contains the parameter is the confidence level.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportion_conditions.requires.assumptions",
+        "from": "math.senior.stats.inference.proportion_interval_conditions",
+        "to": "math.senior.stats.inference.assumptions_and_conditions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Proportion interval conditions are a specific application of inference assumptions and conditions.",
+        "failure_signal": "Learner calculates an interval without checking randomisation, independence or success-failure counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_conditions.requires.assumptions",
+        "from": "math.senior.stats.inference.mean_interval_conditions",
+        "to": "math.senior.stats.inference.assumptions_and_conditions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Mean interval conditions are a specific application of inference assumptions and conditions.",
+        "failure_signal": "Learner uses a mean interval when data shape or sample size conditions are not reasonable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hypothesis_parameter.requires.sample_stat_param",
+        "from": "math.senior.stats.inference.hypothesis_parameter_statement",
+        "to": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Formal hypotheses must refer to population parameters rather than observed sample statistics.",
+        "failure_signal": "Learner writes hypotheses using the sample statistic value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_two_tailed.requires.hypothesis_parameter",
+        "from": "math.senior.stats.inference.one_tailed_two_tailed_tests",
+        "to": "math.senior.stats.inference.hypothesis_parameter_statement",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Tail direction is chosen from the alternative hypothesis and research question.",
+        "failure_signal": "Learner chooses two-tailed by default or mismatches the directional claim.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.test_standardisation.requires.standard_error",
+        "from": "math.senior.stats.inference.test_statistic_standardisation",
+        "to": "math.senior.stats.inference.standard_error",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A test statistic standardises the observed difference by an appropriate standard error.",
+        "failure_signal": "Learner calculates raw difference but cannot put it on a reference distribution scale.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.p_value_tail.requires.test_statistic",
+        "from": "math.senior.stats.inference.p_value_as_tail_area",
+        "to": "math.senior.stats.inference.test_statistic_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "P-value tail area is interpreted from the test statistic under the null distribution.",
+        "failure_signal": "Learner interprets p-value as probability the null hypothesis is true.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_p_alpha.requires.p_value",
+        "from": "math.senior.stats.inference.compare_p_value_alpha",
+        "to": "math.senior.stats.inference.p_value_interpretation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Hypothesis-test decisions require interpreting the p-value before comparing it to alpha.",
+        "failure_signal": "Learner reverses the reject/fail-to-reject decision rule.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_conclusion.requires.compare_p_alpha",
+        "from": "math.senior.stats.inference.contextual_hypothesis_test_conclusion",
+        "to": "math.senior.stats.inference.compare_p_value_alpha",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A contextual conclusion follows after making the p-value versus alpha decision.",
+        "failure_signal": "Learner states a decision without connecting it back to the original context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.type_i_context.requires.errors",
+        "from": "math.senior.stats.inference.type_i_error_context",
+        "to": "math.senior.stats.inference.type_i_type_ii_errors",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contextual Type I error statements build on the formal Type I and Type II distinction.",
+        "failure_signal": "Learner swaps Type I and Type II errors in context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.type_ii_context.requires.type_i_context",
+        "from": "math.senior.stats.inference.type_ii_error_context",
+        "to": "math.senior.stats.inference.type_i_error_context",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Type II contextual interpretation is paired with Type I interpretation and requires distinguishing the two outcomes.",
+        "failure_signal": "Learner defines both errors as rejecting the null.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_stat_param.has_mis.statistic_parameter",
+        "from": "math.senior.stats.inference.sample_statistic_vs_parameter",
+        "to": "math.misconception.senior.inference.statistic_equals_parameter",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_factors.has_mis.higher_conf_narrower",
+        "from": "math.senior.stats.inference.margin_of_error_factors",
+        "to": "math.misconception.senior.inference.larger_confidence_narrower_interval",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hypothesis_parameter.has_mis.sample_stat",
+        "from": "math.senior.stats.inference.hypothesis_parameter_statement",
+        "to": "math.misconception.senior.inference.hypothesis_about_sample_statistic",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.p_value_tail.has_mis.effect_size",
+        "from": "math.senior.stats.inference.p_value_as_tail_area",
+        "to": "math.misconception.senior.inference.p_value_as_effect_size",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_conclusion.has_mis.fail_reject_proves",
+        "from": "math.senior.stats.inference.contextual_hypothesis_test_conclusion",
+        "to": "math.misconception.senior.inference.fail_to_reject_proves_null",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/advanced_statistics_and_probability.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1928,
+    "edges": 4043
+  },
+  "graph_counts_after": {
+    "nodes": 1959,
+    "edges": 4106
+  }
+}

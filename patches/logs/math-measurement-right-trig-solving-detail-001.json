@@ -1,0 +1,708 @@
+{
+  "patch_id": "math-measurement-right-trig-solving-detail-001",
+  "applied_at": "2026-05-29T08:18:43.079Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.measurement.trig.inverse_cosine_unknown_angle",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      },
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.measurement.trig.inverse_tangent_unknown_angle",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 12,
+      "edges_created": 26,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.solve_unknown_side_numerator_case",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Solve unknown side in numerator case",
+        "description": "Find an unknown side when it appears in the numerator of a right-triangle trigonometric ratio.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.solve_unknown_side_denominator_case",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Solve unknown side in denominator case",
+        "description": "Find an unknown side when it appears in the denominator of a right-triangle trigonometric ratio.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.inverse_sine_unknown_angle",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Inverse sine for unknown angles",
+        "description": "Use inverse sine to find an acute angle when opposite and hypotenuse side lengths are known.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.inverse_cosine_unknown_angle",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Inverse cosine for unknown angles",
+        "description": "Use inverse cosine to find an acute angle when adjacent and hypotenuse side lengths are known.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.inverse_tangent_unknown_angle",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Inverse tangent for unknown angles",
+        "description": "Use inverse tangent to find an acute angle when opposite and adjacent side lengths are known.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.calculator_degree_mode",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Calculator degree mode for trigonometry",
+        "description": "Use degree mode appropriately when evaluating right-triangle trigonometric ratios for angle measures in degrees.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.unknown_side_equation_structure",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Unknown side equation structure",
+        "description": "A trigonometric side equation must place the known angle ratio and side lengths in matching numerator or denominator positions.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.inverse_ratio_returns_angle",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Inverse ratio returns an angle",
+        "description": "An inverse trigonometric ratio returns an angle measure when a valid side-length ratio is known.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.degree_mode_matches_degree_angles",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Degree mode matches degree angles",
+        "description": "When angle measures are in degrees, calculator trigonometry values must be evaluated in degree mode.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.inverse_ratio_used_for_side",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Inverse ratio used for side length",
+        "description": "Learner uses an inverse trigonometric ratio when the unknown is a side length rather than an angle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.unknown_side_denominator_error",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Unknown side denominator error",
+        "description": "Learner leaves the unknown side in the denominator or rearranges the side equation incorrectly.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.calculator_angle_mode_error",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Calculator angle mode error",
+        "description": "Learner uses an angle-measure mode inconsistent with the units in the problem, producing unreasonable trigonometry values.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_unknown_side_numerator.part_of.find_side",
+        "from": "math.measurement.trig.solve_unknown_side_numerator_case",
+        "to": "math.measurement.trig.find_missing_side",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_unknown_side_denominator.part_of.find_side",
+        "from": "math.measurement.trig.solve_unknown_side_denominator_case",
+        "to": "math.measurement.trig.find_missing_side",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_sine_unknown_angle.part_of.find_angle",
+        "from": "math.measurement.trig.inverse_sine_unknown_angle",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_cosine_unknown_angle.part_of.find_angle",
+        "from": "math.measurement.trig.inverse_cosine_unknown_angle",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_tangent_unknown_angle.part_of.find_angle",
+        "from": "math.measurement.trig.inverse_tangent_unknown_angle",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.degree_mode.part_of.find_angle",
+        "from": "math.measurement.trig.calculator_degree_mode",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.unknown_side_structure.part_of.find_side",
+        "from": "math.kp.measurement.unknown_side_equation_structure",
+        "to": "math.measurement.trig.find_missing_side",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.inverse_ratio_angle.part_of.find_angle",
+        "from": "math.kp.measurement.inverse_ratio_returns_angle",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.degree_mode.part_of.find_angle",
+        "from": "math.kp.measurement.degree_mode_matches_degree_angles",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.inverse_for_side.part_of.find_side",
+        "from": "math.misconception.measurement.inverse_ratio_used_for_side",
+        "to": "math.measurement.trig.find_missing_side",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.denominator_error.part_of.find_side",
+        "from": "math.misconception.measurement.unknown_side_denominator_error",
+        "to": "math.measurement.trig.find_missing_side",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.calculator_mode.part_of.find_angle",
+        "from": "math.misconception.measurement.calculator_angle_mode_error",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_side.encompasses.numerator_case",
+        "from": "math.measurement.trig.find_missing_side",
+        "to": "math.measurement.trig.solve_unknown_side_numerator_case",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Finding unknown sides includes cases where the unknown side is in the numerator of the ratio equation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_side.encompasses.denominator_case",
+        "from": "math.measurement.trig.find_missing_side",
+        "to": "math.measurement.trig.solve_unknown_side_denominator_case",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Finding unknown sides includes cases where the unknown side is in the denominator of the ratio equation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_angle.encompasses.inverse_sine",
+        "from": "math.measurement.trig.find_missing_angle",
+        "to": "math.measurement.trig.inverse_sine_unknown_angle",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Finding unknown angles includes selecting inverse sine when opposite and hypotenuse are known.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_angle.encompasses.inverse_cosine",
+        "from": "math.measurement.trig.find_missing_angle",
+        "to": "math.measurement.trig.inverse_cosine_unknown_angle",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Finding unknown angles includes selecting inverse cosine when adjacent and hypotenuse are known.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_angle.encompasses.inverse_tangent",
+        "from": "math.measurement.trig.find_missing_angle",
+        "to": "math.measurement.trig.inverse_tangent_unknown_angle",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Finding unknown angles includes selecting inverse tangent when opposite and adjacent are known.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_numerator.requires.choose_ratio",
+        "from": "math.measurement.trig.solve_unknown_side_numerator_case",
+        "to": "math.measurement.trig.choose_trig_ratio",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Solving for an unknown side starts with choosing the ratio matching the known and unknown sides.",
+        "failure_signal": "Learner writes an equation using the wrong ratio or side pair.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_denominator.requires.numerator_case",
+        "from": "math.measurement.trig.solve_unknown_side_denominator_case",
+        "to": "math.measurement.trig.solve_unknown_side_numerator_case",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Denominator cases add an equation-rearrangement step after simpler side-finding cases.",
+        "failure_signal": "Learner leaves the unknown in the denominator or multiplies in the wrong direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_sine.requires.find_angle",
+        "from": "math.measurement.trig.inverse_sine_unknown_angle",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Inverse sine is a specific case of finding an unknown angle with inverse trigonometry.",
+        "failure_signal": "Learner uses inverse sine for the wrong side pair.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_cosine.requires.inverse_sine",
+        "from": "math.measurement.trig.inverse_cosine_unknown_angle",
+        "to": "math.measurement.trig.inverse_sine_unknown_angle",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "low",
+        "rationale": "Inverse trigonometric cases are parallel; this edge marks a common but flexible sequence.",
+        "failure_signal": "Learner cannot map the side pair to the matching inverse ratio.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_tangent.requires.inverse_sine",
+        "from": "math.measurement.trig.inverse_tangent_unknown_angle",
+        "to": "math.measurement.trig.inverse_sine_unknown_angle",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "low",
+        "rationale": "Inverse tangent is another inverse-ratio case; ordering can vary by course sequence.",
+        "failure_signal": "Learner cannot map opposite and adjacent sides to inverse tangent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.degree_mode.requires.find_angle",
+        "from": "math.measurement.trig.calculator_degree_mode",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Calculator angle mode matters when evaluating inverse ratios for angle measures.",
+        "failure_signal": "Learner obtains an unreasonable angle because the calculator mode does not match degree units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_side.has_mis.inverse_for_side",
+        "from": "math.measurement.trig.find_missing_side",
+        "to": "math.misconception.measurement.inverse_ratio_used_for_side",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_side.has_mis.denominator_error",
+        "from": "math.measurement.trig.find_missing_side",
+        "to": "math.misconception.measurement.unknown_side_denominator_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_angle.has_mis.calculator_mode",
+        "from": "math.measurement.trig.find_missing_angle",
+        "to": "math.misconception.measurement.calculator_angle_mode_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/angles_and_trigonometry.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1580,
+    "edges": 3334
+  },
+  "graph_counts_after": {
+    "nodes": 1592,
+    "edges": 3360
+  }
+}

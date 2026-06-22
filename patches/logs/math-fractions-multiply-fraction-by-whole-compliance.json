@@ -1,0 +1,278 @@
+{
+  "patch_id": "math-fractions-multiply-fraction-by-whole-compliance",
+  "applied_at": "2026-06-06T05:57:08.425Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 4,
+      "edges_created": 10,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.multiply_fraction_by_whole_repeated_groups",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.multiply_fraction_by_whole_number",
+        "label": "Whole-number multiplier repeats a fractional quantity",
+        "description": "Interpret multiplying a fraction by a whole number as taking that many equal groups of the fractional quantity.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.multiply_numerator_by_whole_number",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.multiply_fraction_by_whole_number",
+        "label": "Multiply the numerator by the whole number",
+        "description": "For a whole number times a fraction, multiply the numerator by the whole number while the denominator keeps the same unit size.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.denominator_keeps_unit_in_whole_number_multiplication",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.multiply_fraction_by_whole_number",
+        "label": "Denominator keeps the unit in whole-number multiplication",
+        "description": "When a fraction is multiplied by a whole number, the denominator continues to name the fractional unit being repeated.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.fraction_times_whole_can_exceed_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.multiply_fraction_by_whole_number",
+        "label": "Fraction times whole can exceed one",
+        "description": "Recognise that multiplying a fraction by a whole number can produce a value greater than one when enough fractional units are repeated.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_multiply_frac_whole_repeated_groups.part_of.multiply_frac_whole",
+        "from": "math.kp.fractions.multiply_fraction_by_whole_repeated_groups",
+        "to": "math.fractions.multiply_fraction_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_multiply_numerator_by_whole.part_of.multiply_frac_whole",
+        "from": "math.kp.fractions.multiply_numerator_by_whole_number",
+        "to": "math.fractions.multiply_fraction_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_denominator_keeps_unit_mul_whole.part_of.multiply_frac_whole",
+        "from": "math.kp.fractions.denominator_keeps_unit_in_whole_number_multiplication",
+        "to": "math.fractions.multiply_fraction_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fraction_times_whole_can_exceed_one.part_of.multiply_frac_whole",
+        "from": "math.kp.fractions.fraction_times_whole_can_exceed_one",
+        "to": "math.fractions.multiply_fraction_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_whole.uses_representation.area_model",
+        "from": "math.fractions.multiply_fraction_by_whole_number",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models can show repeated equal fractional parts and products greater than one.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_whole.uses_representation.number_line",
+        "from": "math.fractions.multiply_fraction_by_whole_number",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines can show repeated jumps of a fractional length.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_whole.assessed_by.compute",
+        "from": "math.fractions.multiply_fraction_by_whole_number",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute products of whole numbers and fractions.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_whole.assessed_by.model",
+        "from": "math.fractions.multiply_fraction_by_whole_number",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can model repeated fractional quantities with diagrams or number lines.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_whole.assessed_by.explain",
+        "from": "math.fractions.multiply_fraction_by_whole_number",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain why the denominator continues to name the same fractional unit.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_whole.has_mis.multiplication_always_increases",
+        "from": "math.fractions.multiply_fraction_by_whole_number",
+        "to": "math.misconception.fractions.fraction_multiplication_always_increases",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "This lesson helps distinguish repeated fractional quantities from the broader misconception that all multiplication always increases magnitude.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2543,
+    "edges": 5299
+  },
+  "graph_counts_after": {
+    "nodes": 2547,
+    "edges": 5309
+  }
+}

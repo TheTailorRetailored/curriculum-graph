@@ -1,0 +1,451 @@
+{
+  "patch_id": "math-fractions-compare-same-denominator-numerator-compliance",
+  "applied_at": "2026-06-06T15:06:22.412Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 6,
+      "edges_created": 18,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_denominator_compare_counts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_same_denominator",
+        "label": "Same denominator comparison compares counts",
+        "description": "When two fractions have the same denominator, compare the numerators because both fractions count the same-sized unit.",
+        "aliases": [],
+        "year_band": "4-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_denominator_larger_numerator_greater",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_same_denominator",
+        "label": "Larger numerator means more same-sized parts",
+        "description": "For fractions with the same denominator, the fraction with the larger numerator represents more equal parts of the same size.",
+        "aliases": [],
+        "year_band": "4-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_denominator_difference_is_unit_count",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_same_denominator",
+        "label": "Same-denominator difference is a unit count",
+        "description": "The difference between same-denominator fractions can be reasoned about as how many same-sized fractional units apart they are.",
+        "aliases": [],
+        "year_band": "4-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_numerator_compare_unit_size",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_same_numerator",
+        "label": "Same numerator comparison compares unit size",
+        "description": "When two fractions have the same numerator, compare the size of each fractional unit because the count of units is the same.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_numerator_smaller_denominator_greater",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_same_numerator",
+        "label": "Smaller denominator means larger units with same numerator",
+        "description": "For fractions with the same numerator, the fraction with the smaller denominator represents larger fractional units and therefore a larger amount.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_numerator_order_reverses_denominator_order",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_same_numerator",
+        "label": "Same-numerator order reverses denominator order",
+        "description": "For positive fractions with the same numerator, increasing the denominator makes each unit smaller, so the fraction represents a smaller quantity.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_den_compare_counts.part_of.compare_same_denominator",
+        "from": "math.kp.fractions.same_denominator_compare_counts",
+        "to": "math.fractions.compare_same_denominator",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_den_larger_numerator.part_of.compare_same_denominator",
+        "from": "math.kp.fractions.same_denominator_larger_numerator_greater",
+        "to": "math.fractions.compare_same_denominator",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_den_difference_count.part_of.compare_same_denominator",
+        "from": "math.kp.fractions.same_denominator_difference_is_unit_count",
+        "to": "math.fractions.compare_same_denominator",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_num_compare_unit_size.part_of.compare_same_numerator",
+        "from": "math.kp.fractions.same_numerator_compare_unit_size",
+        "to": "math.fractions.compare_same_numerator",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_num_smaller_denominator.part_of.compare_same_numerator",
+        "from": "math.kp.fractions.same_numerator_smaller_denominator_greater",
+        "to": "math.fractions.compare_same_numerator",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_num_order_reverses.part_of.compare_same_numerator",
+        "from": "math.kp.fractions.same_numerator_order_reverses_denominator_order",
+        "to": "math.fractions.compare_same_numerator",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator.uses_representation.area_model",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models show equal unit size while numerator counts differ.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator.uses_representation.number_line",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines show which same-denominator fraction lies farther from zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_numerator.uses_representation.area_model",
+        "from": "math.fractions.compare_same_numerator",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models show that different denominators create different unit sizes for the same count of units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_numerator.uses_representation.number_line",
+        "from": "math.fractions.compare_same_numerator",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines show the relative positions of same-numerator fractions with different unit sizes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator.assessed_by.compute",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can order or compare same-denominator fractions numerically.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator.assessed_by.explain",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain why numerator comparison is valid only when unit size matches.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator.assessed_by.find_error",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding reveals whether learners are comparing quantities rather than isolated digits.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_numerator.assessed_by.compute",
+        "from": "math.fractions.compare_same_numerator",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can order or compare same-numerator fractions numerically.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_numerator.assessed_by.explain",
+        "from": "math.fractions.compare_same_numerator",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain why the denominator order reverses when the numerator is fixed.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_numerator.assessed_by.find_error",
+        "from": "math.fractions.compare_same_numerator",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Error-finding reveals the misconception that a larger denominator always makes a larger fraction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator.has_mis.compare_separately",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.misconception.fractions.compare_numerator_denominator_separately",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Learners may compare digits separately instead of comparing the represented quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_numerator.has_mis.larger_denominator_larger_fraction",
+        "from": "math.fractions.compare_same_numerator",
+        "to": "math.misconception.fractions.larger_denominator_larger_fraction",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Same-numerator comparison directly confronts the misconception that a larger denominator always means a larger quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2582,
+    "edges": 5393
+  },
+  "graph_counts_after": {
+    "nodes": 2588,
+    "edges": 5411
+  }
+}

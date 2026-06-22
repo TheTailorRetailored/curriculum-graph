@@ -1,0 +1,1267 @@
+{
+  "patch_id": "math-measurement-time-money-detail-001",
+  "applied_at": "2026-05-30T07:11:17.730Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 24,
+      "edges_created": 46,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.analogue_clock_hour_hand",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Analogue clock hour hand",
+        "description": "Read the hour hand on an analogue clock and interpret its position between hour marks.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.analogue_clock_minute_hand",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Analogue clock minute hand",
+        "description": "Read the minute hand on an analogue clock using five-minute intervals and minute marks.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.digital_time_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Digital time notation",
+        "description": "Read and write digital times using hours and minutes.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.am_pm_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "AM and PM interpretation",
+        "description": "Interpret AM and PM labels in everyday time contexts.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.twenty_four_hour_time",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Twenty-four-hour time",
+        "description": "Read and convert between twelve-hour and twenty-four-hour time formats.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.calendar_dates_weeks_months",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Calendar dates weeks and months",
+        "description": "Use calendars to identify dates, days of the week, weeks and month lengths.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.elapsed_time_on_number_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Elapsed time on a number line",
+        "description": "Use an open number line to calculate elapsed time between start and end times.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.elapsed_time_across_hour",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Elapsed time across the hour",
+        "description": "Calculate elapsed time when an interval crosses an hour boundary.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.elapsed_time_across_midnight",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Elapsed time across midnight",
+        "description": "Calculate elapsed time for intervals that cross midnight or span two calendar days.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.timetable_intervals",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Timetable intervals",
+        "description": "Use timetables to find start times, finish times and durations.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.money.unit_price_comparison",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Unit price comparison",
+        "description": "Compare prices by calculating or reasoning about cost per unit.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.money.discount_calculations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Discount calculations",
+        "description": "Calculate sale prices and savings from percentage discounts.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.money.profit_loss_calculations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Profit and loss calculations",
+        "description": "Calculate profit, loss and percentage profit or loss in practical money contexts.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.money.simple_interest_calculations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Simple interest calculations",
+        "description": "Calculate simple interest using principal, rate and time in financial contexts.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.analogue_hands_have_different_roles",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Analogue clock hands have different roles",
+        "description": "The short hand shows the hour and the long hand shows minutes on an analogue clock.",
+        "aliases": [],
+        "year_band": "1-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.sixty_minutes_in_hour",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Sixty minutes in an hour",
+        "description": "One hour contains sixty minutes, so time calculations use base sixty rather than base ten.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.am_pm_splits_day",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "AM and PM split the day",
+        "description": "AM and PM distinguish times before and after midday in twelve-hour time.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.elapsed_time_is_difference",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Elapsed time is a difference",
+        "description": "Elapsed time measures the duration between a start time and an end time.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.unit_price_is_cost_per_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Unit price is cost per one",
+        "description": "A unit price expresses the cost for one item or one unit of measure.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.simple_interest_uses_principal_rate_time",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Simple interest uses principal rate and time",
+        "description": "Simple interest depends on the starting amount, interest rate and time period.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.time_base_ten_minutes",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Time treated as base ten",
+        "description": "Learner treats one hour as one hundred minutes or uses base-ten subtraction with minutes.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.minute_hand_read_as_hour",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Minute hand read as hour",
+        "description": "Learner confuses the roles of the hour hand and minute hand on an analogue clock.",
+        "aliases": [],
+        "year_band": "1-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.am_pm_crossing_error",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "AM PM crossing error",
+        "description": "Learner miscalculates intervals that cross noon or midnight because AM and PM are ignored or reversed.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.discount_subtract_percent_points",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Discount subtract percent points",
+        "description": "Learner subtracts the percentage number directly from the price instead of finding that percentage of the price.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.analogue_hour_hand.part_of.reading_clocks",
+        "from": "math.measurement.time.analogue_clock_hour_hand",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.analogue_minute_hand.part_of.reading_clocks",
+        "from": "math.measurement.time.analogue_clock_minute_hand",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.digital_time.part_of.reading_clocks",
+        "from": "math.measurement.time.digital_time_notation",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.am_pm.part_of.reading_clocks",
+        "from": "math.measurement.time.am_pm_interpretation",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.twenty_four_hour.part_of.reading_clocks",
+        "from": "math.measurement.time.twenty_four_hour_time",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calendar_dates.part_of.reading_clocks",
+        "from": "math.measurement.time.calendar_dates_weeks_months",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_number_line.part_of.elapsed_time",
+        "from": "math.measurement.time.elapsed_time_on_number_line",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_across_hour.part_of.elapsed_time",
+        "from": "math.measurement.time.elapsed_time_across_hour",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_across_midnight.part_of.elapsed_time",
+        "from": "math.measurement.time.elapsed_time_across_midnight",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.timetable_intervals.part_of.elapsed_time",
+        "from": "math.measurement.time.timetable_intervals",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_price.part_of.financial_calculations",
+        "from": "math.measurement.money.unit_price_comparison",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discount_calc.part_of.financial_calculations",
+        "from": "math.measurement.money.discount_calculations",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.profit_loss.part_of.financial_calculations",
+        "from": "math.measurement.money.profit_loss_calculations",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_interest.part_of.financial_calculations",
+        "from": "math.measurement.money.simple_interest_calculations",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.clock_hands.part_of.reading_clocks",
+        "from": "math.kp.measurement.analogue_hands_have_different_roles",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.sixty_minutes.part_of.elapsed_time",
+        "from": "math.kp.measurement.sixty_minutes_in_hour",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.am_pm.part_of.reading_clocks",
+        "from": "math.kp.measurement.am_pm_splits_day",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.elapsed_difference.part_of.elapsed_time",
+        "from": "math.kp.measurement.elapsed_time_is_difference",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.unit_price.part_of.financial",
+        "from": "math.kp.measurement.unit_price_is_cost_per_one",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.simple_interest.part_of.financial",
+        "from": "math.kp.measurement.simple_interest_uses_principal_rate_time",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.time_base_ten.part_of.elapsed_time",
+        "from": "math.misconception.measurement.time_base_ten_minutes",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.minute_hand_as_hour.part_of.reading_clocks",
+        "from": "math.misconception.measurement.minute_hand_read_as_hour",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.am_pm_crossing.part_of.elapsed_time",
+        "from": "math.misconception.measurement.am_pm_crossing_error",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.discount_percent_points.part_of.financial",
+        "from": "math.misconception.measurement.discount_subtract_percent_points",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reading_clocks.encompasses.hour_hand",
+        "from": "math.measurement.time.reading_clocks",
+        "to": "math.measurement.time.analogue_clock_hour_hand",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Reading analogue clocks includes interpreting the hour hand.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reading_clocks.encompasses.minute_hand",
+        "from": "math.measurement.time.reading_clocks",
+        "to": "math.measurement.time.analogue_clock_minute_hand",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Reading analogue clocks includes interpreting the minute hand.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.encompasses.number_line",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.measurement.time.elapsed_time_on_number_line",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Open number lines directly practise calculating elapsed time intervals.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.encompasses.timetable",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.measurement.time.timetable_intervals",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Timetable interval work directly practises start, finish and duration reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial.encompasses.unit_price",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.measurement.money.unit_price_comparison",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Unit price comparison is a core practical financial calculation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial.encompasses.discount",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.measurement.money.discount_calculations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Discount calculation is a core percentage-based money calculation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.minute_hand.requires.hour_hand",
+        "from": "math.measurement.time.analogue_clock_minute_hand",
+        "to": "math.measurement.time.analogue_clock_hour_hand",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Minute-hand reading builds after basic orientation to analogue clock features.",
+        "failure_signal": "Learner confuses hour and minute hand roles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.digital_time.requires.reading_clocks",
+        "from": "math.measurement.time.digital_time_notation",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Digital time notation builds on interpreting hours and minutes as time components.",
+        "failure_signal": "Learner reads digits without connecting them to hours and minutes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.am_pm.requires.digital_time",
+        "from": "math.measurement.time.am_pm_interpretation",
+        "to": "math.measurement.time.digital_time_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "AM and PM labels extend reading twelve-hour digital or written times.",
+        "failure_signal": "Learner cannot distinguish morning, afternoon, evening or night contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.twenty_four_hour.requires.am_pm",
+        "from": "math.measurement.time.twenty_four_hour_time",
+        "to": "math.measurement.time.am_pm_interpretation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Twenty-four-hour time formalises the distinction between AM and PM times.",
+        "failure_signal": "Learner converts afternoon times as if they were morning times.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_number_line.requires.elapsed_time",
+        "from": "math.measurement.time.elapsed_time_on_number_line",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Open number lines are a strategy for elapsed-time calculations.",
+        "failure_signal": "Learner cannot represent the time interval from start to finish.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_across_hour.requires.number_line",
+        "from": "math.measurement.time.elapsed_time_across_hour",
+        "to": "math.measurement.time.elapsed_time_on_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Crossing an hour boundary is easier after representing elapsed time in chunks.",
+        "failure_signal": "Learner uses base-ten subtraction across minutes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_midnight.requires.am_pm",
+        "from": "math.measurement.time.elapsed_time_across_midnight",
+        "to": "math.measurement.time.am_pm_interpretation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Cross-midnight elapsed time requires interpreting day changes and AM/PM boundaries.",
+        "failure_signal": "Learner reverses or omits the day boundary in the interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.timetable.requires.elapsed_time",
+        "from": "math.measurement.time.timetable_intervals",
+        "to": "math.measurement.time.elapsed_time_on_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Timetable intervals require calculating durations between listed times.",
+        "failure_signal": "Learner confuses departure time, arrival time and duration.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_price.requires.unit_rates",
+        "from": "math.measurement.money.unit_price_comparison",
+        "to": "math.ratio.unit_rates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Unit price comparison is a money context for unit-rate reasoning.",
+        "failure_signal": "Learner compares total price without adjusting for quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discount.requires.percentage_change",
+        "from": "math.measurement.money.discount_calculations",
+        "to": "math.number.percentages.percentage_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Discount calculations depend on finding and applying percentage decreases.",
+        "failure_signal": "Learner subtracts the percent number directly from the price.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.profit_loss.requires.percentage_change",
+        "from": "math.measurement.money.profit_loss_calculations",
+        "to": "math.number.percentages.percentage_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Profit and loss calculations use percentage change from cost or original amount.",
+        "failure_signal": "Learner uses the wrong base amount for percentage profit or loss.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_interest.requires.percentages",
+        "from": "math.measurement.money.simple_interest_calculations",
+        "to": "math.number.percentages.percentage_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Simple interest uses percentage rates applied to a principal over time.",
+        "failure_signal": "Learner cannot interpret the rate or time period in the formula.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reading_clocks.has_mis.minute_hand_hour",
+        "from": "math.measurement.time.reading_clocks",
+        "to": "math.misconception.measurement.minute_hand_read_as_hour",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.has_mis.base_ten",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.misconception.measurement.time_base_ten_minutes",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.has_mis.am_pm_crossing",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.misconception.measurement.am_pm_crossing_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial.has_mis.discount_percent_points",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.misconception.measurement.discount_subtract_percent_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/time_temperature_and_money.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1632,
+    "edges": 3444
+  },
+  "graph_counts_after": {
+    "nodes": 1656,
+    "edges": 3490
+  }
+}

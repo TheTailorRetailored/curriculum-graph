@@ -1,0 +1,99 @@
+{
+  "patch_id": "math-fractions-unit-fractions-small-repair",
+  "applied_at": "2026-06-06T19:22:02.984Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 2,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.representation.fraction_notation",
+        "type": "representation",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Fraction notation",
+        "description": "Symbolic numerator-over-denominator notation for naming fractional quantities.",
+        "aliases": [
+          "fraction bar notation"
+        ],
+        "year_band": "3-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.fractions_can_name_points",
+      "updates": {
+        "parent_topic": "math.fractions.unit_fractions_on_number_line"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_fractions_points.part_of.unit",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP belongs to the specific unit-fractions-on-number-line lesson rather than the broad unit-fractions sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_notation.uses_representation.fraction_notation",
+        "from": "math.fractions.unit_fraction_notation",
+        "to": "math.representation.fraction_notation",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "The lesson is explicitly about reading and writing numerator-over-denominator notation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fractions_points.part_of.unit_number_line",
+        "from": "math.kp.fractions.fractions_can_name_points",
+        "to": "math.fractions.unit_fractions_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2597,
+    "edges": 5442
+  },
+  "graph_counts_after": {
+    "nodes": 2598,
+    "edges": 5444
+  }
+}

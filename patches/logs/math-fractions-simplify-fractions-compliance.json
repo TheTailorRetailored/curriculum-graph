@@ -1,0 +1,298 @@
+{
+  "patch_id": "math-fractions-simplify-fractions-compliance",
+  "applied_at": "2026-06-06T04:08:42.584Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 4,
+      "edges_created": 10,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.identify_common_factor_to_simplify",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.simplify_fractions",
+        "label": "Identify a common factor to simplify",
+        "description": "Recognise a factor greater than 1 that divides both the numerator and denominator of a fraction.",
+        "aliases": [
+          "common factor for simplification"
+        ],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.divide_both_terms_by_same_factor",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.simplify_fractions",
+        "label": "Divide numerator and denominator by the same factor",
+        "description": "Simplify a fraction by dividing both the numerator and denominator by the same nonzero common factor.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.simplest_form_no_common_factor",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.simplify_fractions",
+        "label": "Simplest form has no common factor greater than 1",
+        "description": "Know that a fraction is in simplest form when the numerator and denominator share no common factor greater than 1.",
+        "aliases": [
+          "lowest terms"
+        ],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.procedure.simplify_fraction_by_common_factor",
+        "type": "procedure",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Simplify fraction by common factor",
+        "description": "Divide the numerator and denominator by a common factor, repeating if needed, until no common factor greater than 1 remains.",
+        "aliases": [
+          "reduce a fraction",
+          "write in lowest terms"
+        ],
+        "year_band": "5-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.simplifying_preserves_value",
+      "updates": {
+        "parent_topic": "math.fractions.simplify_fractions"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_simplifying_preserves.part_of.equivalent",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific simplify-fractions lesson rather than the broad equivalent-fractions sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_simplifying_preserves.part_of.simplify_fractions",
+        "from": "math.kp.fractions.simplifying_preserves_value",
+        "to": "math.fractions.simplify_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_identify_common_factor.part_of.simplify_fractions",
+        "from": "math.kp.fractions.identify_common_factor_to_simplify",
+        "to": "math.fractions.simplify_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_divide_both_terms.part_of.simplify_fractions",
+        "from": "math.kp.fractions.divide_both_terms_by_same_factor",
+        "to": "math.fractions.simplify_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_simplest_form.part_of.simplify_fractions",
+        "from": "math.kp.fractions.simplest_form_no_common_factor",
+        "to": "math.fractions.simplify_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_fractions.uses_procedure.common_factor",
+        "from": "math.fractions.simplify_fractions",
+        "to": "math.procedure.simplify_fraction_by_common_factor",
+        "type": "uses_procedure",
+        "confidence": "high",
+        "rationale": "The lesson teaches simplifying by dividing numerator and denominator by common factors.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_fractions.uses_representation.area_model",
+        "from": "math.fractions.simplify_fractions",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area models can show that repartitioning or regrouping keeps the same shaded amount while simplifying notation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_fractions.assessed_by.compute",
+        "from": "math.fractions.simplify_fractions",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can be asked to simplify numerical fractions.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_fractions.assessed_by.explain",
+        "from": "math.fractions.simplify_fractions",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain why simplifying preserves the value of the fraction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_fractions.assessed_by.find_error",
+        "from": "math.fractions.simplify_fractions",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding tasks reveal whether learners divide both numerator and denominator by the same factor.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_fractions.has_mis.equivalent_changes_quantity",
+        "from": "math.fractions.simplify_fractions",
+        "to": "math.misconception.fractions.equivalent_fractions_change_quantity",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Learners may think simplifying changes the amount because both numbers in the notation change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2529,
+    "edges": 5262
+  },
+  "graph_counts_after": {
+    "nodes": 2533,
+    "edges": 5272
+  }
+}

@@ -1,0 +1,1772 @@
+{
+  "patch_id": "math-place-value-large-rounding-detail-002",
+  "applied_at": "2026-05-23T13:17:31.649Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 68,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.thousands_as_unit",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Thousands as unit",
+        "description": "Understand ten hundreds as one thousand and use thousands as place-value units.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.ten_thousands_hundred_thousands",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Ten thousands and hundred thousands",
+        "description": "Interpret ten-thousands and hundred-thousands places in larger whole numbers.",
+        "aliases": [],
+        "year_band": "4-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.millions_place",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Millions place",
+        "description": "Interpret millions and related places in large whole numbers.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.place_value_periods",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Place value periods",
+        "description": "Group digits into ones, thousands and millions periods to read and write large numbers.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.read_write_large_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Read write large numbers",
+        "description": "Read and write large whole numbers in numerals and words.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.standard_expanded_large_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Standard and expanded form large numbers",
+        "description": "Represent large whole numbers in standard, word and expanded forms.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.compare_order_large_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Compare and order large numbers",
+        "description": "Compare and order large whole numbers using place value and magnitude.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.large_numbers_on_number_lines",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Large numbers on number lines",
+        "description": "Locate and estimate large whole numbers on scaled number lines.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.powers_of_ten_scaling",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Powers of ten scaling",
+        "description": "Recognise that each place to the left is ten times the value of the place to its right.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.round_nearest_ten_hundred",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Round to nearest ten and hundred",
+        "description": "Round whole numbers to the nearest ten or hundred using place value.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.round_nearest_thousand",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Round to nearest thousand",
+        "description": "Round whole numbers to the nearest thousand and larger benchmark places.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.rounding_with_number_lines",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Rounding with number lines",
+        "description": "Use number lines to decide which benchmark a number is closest to.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.halfway_rounding_cases",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Halfway rounding cases",
+        "description": "Reason about numbers exactly halfway between two rounding benchmarks.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.estimate_sums_differences",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Estimate sums and differences",
+        "description": "Use rounded numbers to estimate sums and differences.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.compatible_numbers_estimation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Compatible numbers estimation",
+        "description": "Use nearby friendly numbers to make mental estimates efficient.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.reasonableness_checks",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Reasonableness checks",
+        "description": "Judge whether an exact or approximate result is reasonable using magnitude and estimation.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.ten_hundreds_make_thousand",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Ten hundreds make one thousand",
+        "description": "A group of ten hundreds can be treated as one thousand.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.periods_group_three_digits",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Periods group three digits",
+        "description": "Large numbers are read in three-digit periods such as ones, thousands and millions.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.large_places_show_magnitude",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Large places show magnitude",
+        "description": "The leftmost nonzero place usually gives the main scale of a whole number.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.expanded_form_preserves_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Expanded form preserves value",
+        "description": "Expanded form shows the same number as a sum of place values.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.left_place_ten_times_right",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Left place is ten times right place",
+        "description": "Each place to the left is worth ten times the place to its right.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.rounding_uses_target_place",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Rounding uses a target place",
+        "description": "A rounded number keeps the requested place and adjusts lower places.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.rounding_uses_closest_benchmark",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Rounding uses closest benchmark",
+        "description": "Rounding chooses the nearest benchmark for the requested place value.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.estimation_uses_approximation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Estimation uses approximation",
+        "description": "An estimate is close enough for a purpose but is not necessarily exact.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.compatible_numbers_easier",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Compatible numbers are easier to compute",
+        "description": "Compatible numbers make mental calculation or estimation easier while staying near the original values.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.place_value.reasonableness_uses_magnitude",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Reasonableness uses magnitude",
+        "description": "A reasonable answer fits the size expected from the numbers and operation.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.place_value.commas_change_value",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Commas change value",
+        "description": "Learner thinks commas create the value rather than helping group digits for reading.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.place_value.more_digits_always_larger",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "More digits always larger in any context",
+        "description": "Learner applies whole-number digit-count comparison even when context later involves decimals or other notation.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.place_value.rounding_always_increases",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Rounding always increases",
+        "description": "Learner believes rounding always makes a number larger.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.place_value.estimate_is_exact_answer",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Estimate is exact answer",
+        "description": "Learner treats an estimate as if it must equal the exact answer.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.place_value.round_all_digits_independently",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Round all digits independently",
+        "description": "Learner changes several digits independently instead of rounding to a target place.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.thousands_as_unit.part_of.large_whole_numbers",
+        "from": "math.number.place_value.thousands_as_unit",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ten_thousands_hundred_thousands.part_of.large_whole_numbers",
+        "from": "math.number.place_value.ten_thousands_hundred_thousands",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.millions_place.part_of.large_whole_numbers",
+        "from": "math.number.place_value.millions_place",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.place_value_periods.part_of.large_whole_numbers",
+        "from": "math.number.place_value.place_value_periods",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_write_large_numbers.part_of.large_whole_numbers",
+        "from": "math.number.place_value.read_write_large_numbers",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.standard_expanded_large.part_of.large_whole_numbers",
+        "from": "math.number.place_value.standard_expanded_large_numbers",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_large.part_of.large_whole_numbers",
+        "from": "math.number.place_value.compare_order_large_numbers",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_number_lines.part_of.large_whole_numbers",
+        "from": "math.number.place_value.large_numbers_on_number_lines",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.powers_ten_scaling.part_of.large_whole_numbers",
+        "from": "math.number.place_value.powers_of_ten_scaling",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.round_nearest_ten_hundred.part_of.rounding",
+        "from": "math.number.place_value.round_nearest_ten_hundred",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.round_nearest_thousand.part_of.rounding",
+        "from": "math.number.place_value.round_nearest_thousand",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_number_lines.part_of.rounding",
+        "from": "math.number.place_value.rounding_with_number_lines",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.halfway_rounding.part_of.rounding",
+        "from": "math.number.place_value.halfway_rounding_cases",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_sums_differences.part_of.rounding",
+        "from": "math.number.place_value.estimate_sums_differences",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compatible_numbers.part_of.rounding",
+        "from": "math.number.place_value.compatible_numbers_estimation",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reasonableness_checks.part_of.rounding",
+        "from": "math.number.place_value.reasonableness_checks",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_ten_hundreds_thousand.part_of.large_whole",
+        "from": "math.kp.place_value.ten_hundreds_make_thousand",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_periods_three_digits.part_of.large_whole",
+        "from": "math.kp.place_value.periods_group_three_digits",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_large_places_magnitude.part_of.large_whole",
+        "from": "math.kp.place_value.large_places_show_magnitude",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_expanded_preserves_value.part_of.large_whole",
+        "from": "math.kp.place_value.expanded_form_preserves_value",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_left_ten_times_right.part_of.large_whole",
+        "from": "math.kp.place_value.left_place_ten_times_right",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rounding_target_place.part_of.rounding",
+        "from": "math.kp.place_value.rounding_uses_target_place",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rounding_closest_benchmark.part_of.rounding",
+        "from": "math.kp.place_value.rounding_uses_closest_benchmark",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_estimation_approx.part_of.rounding",
+        "from": "math.kp.place_value.estimation_uses_approximation",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compatible_numbers.part_of.rounding",
+        "from": "math.kp.place_value.compatible_numbers_easier",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_reasonableness_magnitude.part_of.rounding",
+        "from": "math.kp.place_value.reasonableness_uses_magnitude",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_commas_change_value.part_of.large_whole",
+        "from": "math.misconception.place_value.commas_change_value",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_more_digits_larger.part_of.large_whole",
+        "from": "math.misconception.place_value.more_digits_always_larger",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_rounding_always_increases.part_of.rounding",
+        "from": "math.misconception.place_value.rounding_always_increases",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_estimate_exact.part_of.rounding",
+        "from": "math.misconception.place_value.estimate_is_exact_answer",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_round_all_digits.part_of.rounding",
+        "from": "math.misconception.place_value.round_all_digits_independently",
+        "to": "math.number.place_value.rounding_estimation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.thousands_as_unit",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.thousands_as_unit",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Large whole-number work includes extending place value to thousands.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.ten_hundred_thousands",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.ten_thousands_hundred_thousands",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Large whole-number work includes interpreting ten-thousands and hundred-thousands places.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.millions_place",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.millions_place",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Millions extend the same place-value period structure to larger numbers.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.periods",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.place_value_periods",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading and writing large numbers practises grouping digits into periods.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.read_write",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.read_write_large_numbers",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading and writing large whole numbers is a central large-number task.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.expanded_large",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.standard_expanded_large_numbers",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Large-number expanded form makes each place value explicit.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.compare_order",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.compare_order_large_numbers",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing and ordering large numbers uses place-value magnitude.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.number_lines",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.large_numbers_on_number_lines",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Scaled number lines are a useful representation for large-number magnitude.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.encompasses.powers_ten",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.powers_of_ten_scaling",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Powers-of-ten scaling generalises whole-number place value.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.encompasses.nearest_ten_hundred",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.number.place_value.round_nearest_ten_hundred",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rounding to tens and hundreds is an early core rounding task.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.encompasses.nearest_thousand",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.number.place_value.round_nearest_thousand",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rounding to thousands extends rounding to larger place values.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.encompasses.number_lines",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.number.place_value.rounding_with_number_lines",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Number lines support deciding which benchmark is nearest.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.encompasses.halfway_cases",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.number.place_value.halfway_rounding_cases",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Halfway cases are a focused part of rounding conventions and reasoning.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.encompasses.estimate_sums",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.number.place_value.estimate_sums_differences",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Estimating sums and differences commonly uses rounded numbers.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.encompasses.compatible_numbers",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.number.place_value.compatible_numbers_estimation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Compatible numbers are a related estimation strategy using friendly nearby values.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.encompasses.reasonableness",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.number.place_value.reasonableness_checks",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Reasonableness checking practises estimation and magnitude judgement.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.thousands_unit.requires.hundreds_tens_ones",
+        "from": "math.number.place_value.thousands_as_unit",
+        "to": "math.number.place_value.hundreds_tens_ones",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Thousands extend the hundreds-tens-ones place-value structure.",
+        "failure_signal": "Learner cannot explain one thousand as ten hundreds or as a new place-value unit.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ten_hundred_thousands.requires.thousands",
+        "from": "math.number.place_value.ten_thousands_hundred_thousands",
+        "to": "math.number.place_value.thousands_as_unit",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Ten-thousands and hundred-thousands extend the thousands place-value unit.",
+        "failure_signal": "Learner reads larger places as isolated digits instead of grouped place values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.millions_place.requires.ten_hundred_thousands",
+        "from": "math.number.place_value.millions_place",
+        "to": "math.number.place_value.ten_thousands_hundred_thousands",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Millions extend the place-value structure beyond thousands and hundred-thousands.",
+        "failure_signal": "Learner cannot group or name places beyond hundred-thousands.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.periods.requires.thousands",
+        "from": "math.number.place_value.place_value_periods",
+        "to": "math.number.place_value.thousands_as_unit",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Place-value periods build on recognising thousands as a named group of places.",
+        "failure_signal": "Learner reads every digit separately rather than by three-digit periods.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_write_large.requires.periods",
+        "from": "math.number.place_value.read_write_large_numbers",
+        "to": "math.number.place_value.place_value_periods",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Reading and writing large numbers depends on grouping digits into periods.",
+        "failure_signal": "Learner misreads or miswrites large numbers with omitted period names or misplaced digits.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expanded_large.requires.read_write_large",
+        "from": "math.number.place_value.standard_expanded_large_numbers",
+        "to": "math.number.place_value.read_write_large_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Expanded form for large numbers depends on identifying each digit's place value in notation.",
+        "failure_signal": "Learner expands digits as single values rather than place values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_large.requires.large_places_magnitude",
+        "from": "math.number.place_value.compare_order_large_numbers",
+        "to": "math.number.place_value.read_write_large_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing large numbers requires reading their places and magnitude accurately.",
+        "failure_signal": "Learner compares later digits before considering the largest differing place.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_number_lines.requires.compare_order_large",
+        "from": "math.number.place_value.large_numbers_on_number_lines",
+        "to": "math.number.place_value.compare_order_large_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Locating large numbers on a scaled line depends on ordering and approximate magnitude.",
+        "failure_signal": "Learner places numbers evenly without considering scale intervals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.powers_ten_requires.millions_place",
+        "from": "math.number.place_value.powers_of_ten_scaling",
+        "to": "math.number.place_value.millions_place",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Powers-of-ten scaling generalises patterns across larger whole-number places.",
+        "failure_signal": "Learner cannot explain each place as ten times the place to its right.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.round_nearest_ten_hundred.requires.three_digit",
+        "from": "math.number.place_value.round_nearest_ten_hundred",
+        "to": "math.number.place_value.three_digit_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Rounding to tens and hundreds depends on understanding those places in whole numbers.",
+        "failure_signal": "Learner changes digits without identifying the target place.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_number_lines.requires.compare_two_digit",
+        "from": "math.number.place_value.rounding_with_number_lines",
+        "to": "math.number.place_value.compare_two_digit_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Number-line rounding depends on comparing distances or order around benchmarks.",
+        "failure_signal": "Learner cannot tell which benchmark a number is closer to on a number line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.halfway_rounding.requires.number_lines",
+        "from": "math.number.place_value.halfway_rounding_cases",
+        "to": "math.number.place_value.rounding_with_number_lines",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Halfway cases depend on recognising equal distance between two benchmarks.",
+        "failure_signal": "Learner treats midpoint cases inconsistently or as always closer to the lower benchmark.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.round_nearest_thousand.requires.large_whole",
+        "from": "math.number.place_value.round_nearest_thousand",
+        "to": "math.number.place_value.large_whole_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Rounding to thousands requires interpreting thousands and neighbouring places.",
+        "failure_signal": "Learner cannot identify the thousands place or the digit used to decide the rounding direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_sums.requires.round_nearest_ten_hundred",
+        "from": "math.number.place_value.estimate_sums_differences",
+        "to": "math.number.place_value.round_nearest_ten_hundred",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Estimating sums and differences often uses rounded addends or minuends.",
+        "failure_signal": "Learner cannot choose rounded numbers before estimating a calculation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compatible_numbers.requires.estimation",
+        "from": "math.number.place_value.compatible_numbers_estimation",
+        "to": "math.number.place_value.estimate_sums_differences",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Compatible-number estimation extends rounding-based estimation to friendlier nearby values.",
+        "failure_signal": "Learner chooses numbers that are easy but not close enough for a useful estimate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reasonableness.requires.estimation",
+        "from": "math.number.place_value.reasonableness_checks",
+        "to": "math.number.place_value.estimate_sums_differences",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Reasonableness checks depend on estimating expected magnitude before or after calculation.",
+        "failure_signal": "Learner accepts an answer that is far outside a plausible estimated range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.has_mis.commas_change_value",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.misconception.place_value.commas_change_value",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole.has_mis.more_digits_larger",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.misconception.place_value.more_digits_always_larger",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.has_mis.always_increases",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.misconception.place_value.rounding_always_increases",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.has_mis.estimate_exact",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.misconception.place_value.estimate_is_exact_answer",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding.has_mis.round_all_digits",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.misconception.place_value.round_all_digits_independently",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/place_value.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 294,
+    "edges": 436
+  },
+  "graph_counts_after": {
+    "nodes": 325,
+    "edges": 504
+  }
+}

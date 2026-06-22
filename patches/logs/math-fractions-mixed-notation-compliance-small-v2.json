@@ -1,0 +1,184 @@
+{
+  "patch_id": "math-fractions-mixed-notation-compliance-small-v2",
+  "applied_at": "2026-06-06T15:53:00.234Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 6,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.mixed_number_is_one_quantity",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.mixed_number_notation",
+        "label": "Mixed number represents one quantity",
+        "description": "Interpret the whole-number part and fractional part of a mixed number as one combined quantity.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.mixed_fraction_part_less_than_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.mixed_number_notation",
+        "label": "Mixed-number fraction part is less than one",
+        "description": "Recognise that the fractional part of a mixed number is less than one whole.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.mixed_number_whole_and_fraction",
+      "updates": {
+        "parent_topic": "math.fractions.mixed_number_notation"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_mixed_whole_fraction.part_of.mixed_improper",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific mixed-number notation lesson rather than the broad mixed/improper sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mixed_one_quantity.part_of.mixed_notation",
+        "from": "math.kp.fractions.mixed_number_is_one_quantity",
+        "to": "math.fractions.mixed_number_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mixed_whole_fraction.part_of.mixed_notation",
+        "from": "math.kp.fractions.mixed_number_whole_and_fraction",
+        "to": "math.fractions.mixed_number_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mixed_fraction_less_one.part_of.mixed_notation",
+        "from": "math.kp.fractions.mixed_fraction_part_less_than_one",
+        "to": "math.fractions.mixed_number_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_notation.uses_representation.number_line",
+        "from": "math.fractions.mixed_number_notation",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines help interpret a mixed number as a single location beyond one whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_notation.assessed_by.explain",
+        "from": "math.fractions.mixed_number_notation",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain the meaning of the whole-number and fractional parts.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_notation.assessed_by.model",
+        "from": "math.fractions.mixed_number_notation",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can model mixed numbers with diagrams or number lines.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2590,
+    "edges": 5419
+  },
+  "graph_counts_after": {
+    "nodes": 2592,
+    "edges": 5425
+  }
+}

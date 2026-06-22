@@ -1,0 +1,286 @@
+{
+  "patch_id": "math-fractions-common-denominator-strategy-compliance",
+  "applied_at": "2026-06-07T06:20:45.609Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 3,
+      "edges_created": 11,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.choose_common_denominator",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.common_denominator_strategy",
+        "label": "Choose a common denominator",
+        "description": "Select a denominator that can be used to rename each fraction into the same fractional unit.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.scale_each_fraction_to_common_denominator",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.common_denominator_strategy",
+        "label": "Scale each fraction to the common denominator",
+        "description": "Multiply numerator and denominator of each fraction by the needed factor to make denominators match while preserving value.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.common_denominator_keeps_equivalent_values",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.common_denominator_strategy",
+        "label": "Common denominators preserve equivalent values",
+        "description": "Recognise that rewriting fractions with a common denominator changes notation, not the quantities represented.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.common_denominator_same_unit",
+      "updates": {
+        "parent_topic": "math.fractions.common_denominator_strategy"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_common_den_same_unit.part_of.frac_ops",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific common-denominator-strategy lesson rather than the broad fraction-operations sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_common_den_same_unit.part_of.common_den_strategy",
+        "from": "math.kp.fractions.common_denominator_same_unit",
+        "to": "math.fractions.common_denominator_strategy",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_choose_common_denominator.part_of.common_den_strategy",
+        "from": "math.kp.fractions.choose_common_denominator",
+        "to": "math.fractions.common_denominator_strategy",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_scale_each_fraction_common_den.part_of.common_den_strategy",
+        "from": "math.kp.fractions.scale_each_fraction_to_common_denominator",
+        "to": "math.fractions.common_denominator_strategy",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_common_den_preserves_values.part_of.common_den_strategy",
+        "from": "math.kp.fractions.common_denominator_keeps_equivalent_values",
+        "to": "math.fractions.common_denominator_strategy",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.common_den_strategy.uses_procedure.common_denominator_method",
+        "from": "math.fractions.common_denominator_strategy",
+        "to": "math.procedure.common_denominator_method",
+        "type": "uses_procedure",
+        "confidence": "high",
+        "rationale": "The lesson teaches the reusable common denominator method before comparing or operating on unlike fractions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.common_den_strategy.uses_representation.area_model",
+        "from": "math.fractions.common_denominator_strategy",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area models can show repartitioning two fractions into the same unit size.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.common_den_strategy.uses_representation.number_line",
+        "from": "math.fractions.common_denominator_strategy",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Number lines can show equivalent fraction points renamed with a shared denominator.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.common_den_strategy.assessed_by.compute",
+        "from": "math.fractions.common_denominator_strategy",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can be asked to rewrite unlike fractions with a common denominator.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.common_den_strategy.assessed_by.explain",
+        "from": "math.fractions.common_denominator_strategy",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain why common-denominator rewriting preserves value.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.common_den_strategy.assessed_by.find_error",
+        "from": "math.fractions.common_denominator_strategy",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding reveals whether learners change denominators without scaling numerators consistently.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.common_den_strategy.has_mis.common_denominator_changes_value",
+        "from": "math.fractions.common_denominator_strategy",
+        "to": "math.misconception.fractions.common_denominator_changes_value",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Learners may think renaming fractions to a common denominator changes the quantities represented.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2609,
+    "edges": 5470
+  },
+  "graph_counts_after": {
+    "nodes": 2612,
+    "edges": 5481
+  }
+}

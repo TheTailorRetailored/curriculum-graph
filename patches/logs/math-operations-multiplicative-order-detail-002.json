@@ -1,0 +1,1790 @@
+{
+  "patch_id": "math-operations-multiplicative-order-detail-002",
+  "applied_at": "2026-05-23T17:55:51.794Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 69,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.multiplicative_comparison",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiplicative comparison",
+        "description": "Compare quantities by asking how many times as many one quantity is as another.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.scaling_whole_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Scaling whole numbers",
+        "description": "Use multiplication or division to scale whole-number quantities up or down.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.factor_pairs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Factor pairs",
+        "description": "Find pairs of whole numbers that multiply to make a given product.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.multiples_common_multiples",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiples and common multiples",
+        "description": "Generate multiples of whole numbers and identify common multiples.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.distributive_property_whole_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Distributive property whole numbers",
+        "description": "Use the distributive property to split factors and simplify multiplication.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.area_model_multiplication",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Area model multiplication",
+        "description": "Use rectangular area models to represent multi-digit multiplication.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.partial_products_multiplication",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Partial products multiplication",
+        "description": "Multiply by parts and combine partial products.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.multi_digit_multiplication",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multi digit multiplication",
+        "description": "Multiply multi-digit whole numbers using place-value-based strategies and algorithms.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.division_with_remainders",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Division with remainders",
+        "description": "Divide whole numbers when equal sharing or grouping leaves a remainder.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.interpreting_remainders",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Interpreting remainders",
+        "description": "Interpret remainders according to the context of a division problem.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.partial_quotients_division",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Partial quotients division",
+        "description": "Use place value and repeated subtraction of useful chunks to divide whole numbers.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.long_division_whole_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Long division whole numbers",
+        "description": "Use a structured long-division algorithm to divide whole numbers.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.operation_symbols_expressions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Operation symbols in expressions",
+        "description": "Interpret operation symbols and terms in numerical expressions.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.parentheses_grouping_symbols",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Parentheses grouping symbols",
+        "description": "Use parentheses and other grouping symbols to show which operations are grouped.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.multiplication_before_addition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiplication before addition",
+        "description": "Evaluate multiplication and division before addition and subtraction in expressions without grouping symbols.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.evaluate_multi_step_expressions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Evaluate multi step expressions",
+        "description": "Evaluate numerical expressions with several operations using conventional order and grouping.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.multiplicative_comparison_uses_factor",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiplicative comparison uses a factor",
+        "description": "A multiplicative comparison states how many times as large one quantity is as another.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.scale_factor_multiplies_quantity",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Scale factor multiplies quantity",
+        "description": "A scale factor multiplies or divides a quantity to create a scaled quantity.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.factors_multiply_to_product",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Factors multiply to product",
+        "description": "Two factors multiply together to make a product.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.multiples_are_products",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiples are products",
+        "description": "A multiple of a number is a product of that number and a whole-number factor.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.distributive_property_splits_factor",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Distributive property splits a factor",
+        "description": "A factor can be split into parts and each part multiplied before adding partial products.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.partial_products_sum_to_product",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Partial products sum to product",
+        "description": "Partial products combine to make the full product.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.remainders_describe_leftovers",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Remainders describe leftovers",
+        "description": "A remainder represents what is left after making equal groups or shares.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.quotient_remainder_recompose_dividend",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Quotient and remainder recompose dividend",
+        "description": "The divisor times the quotient plus the remainder gives the dividend.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.parentheses_evaluated_first",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Parentheses are evaluated first",
+        "description": "Operations inside grouping symbols are evaluated before operations outside them.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.operation_order_is_conventional",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Operation order is conventional",
+        "description": "Order of operations is a convention that makes expression values unambiguous.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.additive_comparison_for_multiplicative",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Additive comparison for multiplicative situations",
+        "description": "Learner uses additive differences when a multiplicative comparison is required.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.scale_factor_added_not_multiplied",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Scale factor is added not multiplied",
+        "description": "Learner treats a scale factor as an amount to add rather than a multiplier.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.remainder_always_ignored",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Remainder always ignored",
+        "description": "Learner discards remainders without considering the problem context.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.all_operations_left_to_right",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "All operations go left to right",
+        "description": "Learner evaluates every expression strictly from left to right regardless of operation conventions.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.parentheses_are_decoration",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Parentheses are decoration",
+        "description": "Learner ignores grouping symbols when evaluating expressions.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_comparison.part_of.multiplicative_thinking",
+        "from": "math.number.operations.multiplicative_comparison",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scaling_whole_numbers.part_of.multiplicative_thinking",
+        "from": "math.number.operations.scaling_whole_numbers",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_pairs.part_of.multiplicative_thinking",
+        "from": "math.number.operations.factor_pairs",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiples_common_multiples.part_of.multiplicative_thinking",
+        "from": "math.number.operations.multiples_common_multiples",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distributive_property_whole.part_of.multiplicative_thinking",
+        "from": "math.number.operations.distributive_property_whole_numbers",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_model_multiplication.part_of.multiplicative_thinking",
+        "from": "math.number.operations.area_model_multiplication",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partial_products_multiplication.part_of.multiplicative_thinking",
+        "from": "math.number.operations.partial_products_multiplication",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multi_digit_multiplication.part_of.multiplicative_thinking",
+        "from": "math.number.operations.multi_digit_multiplication",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.division_with_remainders.part_of.multiplicative_thinking",
+        "from": "math.number.operations.division_with_remainders",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpreting_remainders.part_of.multiplicative_thinking",
+        "from": "math.number.operations.interpreting_remainders",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partial_quotients_division.part_of.multiplicative_thinking",
+        "from": "math.number.operations.partial_quotients_division",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.long_division_whole_numbers.part_of.multiplicative_thinking",
+        "from": "math.number.operations.long_division_whole_numbers",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.operation_symbols_expressions.part_of.order_operations",
+        "from": "math.number.operations.operation_symbols_expressions",
+        "to": "math.number.operations.order_of_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parentheses_grouping.part_of.order_operations",
+        "from": "math.number.operations.parentheses_grouping_symbols",
+        "to": "math.number.operations.order_of_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_before_addition.part_of.order_operations",
+        "from": "math.number.operations.multiplication_before_addition",
+        "to": "math.number.operations.order_of_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_multi_step.part_of.order_operations",
+        "from": "math.number.operations.evaluate_multi_step_expressions",
+        "to": "math.number.operations.order_of_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_multiplicative_comparison_factor.part_of.multiplicative_thinking",
+        "from": "math.kp.operations.multiplicative_comparison_uses_factor",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_scale_factor_multiplies.part_of.multiplicative_thinking",
+        "from": "math.kp.operations.scale_factor_multiplies_quantity",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_factors_product.part_of.multiplicative_thinking",
+        "from": "math.kp.operations.factors_multiply_to_product",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_multiples_products.part_of.multiplicative_thinking",
+        "from": "math.kp.operations.multiples_are_products",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_distributive_splits_factor.part_of.multiplicative_thinking",
+        "from": "math.kp.operations.distributive_property_splits_factor",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_partial_products_sum.part_of.multiplicative_thinking",
+        "from": "math.kp.operations.partial_products_sum_to_product",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_remainders_leftovers.part_of.multiplicative_thinking",
+        "from": "math.kp.operations.remainders_describe_leftovers",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_quotient_remainder_recompose.part_of.multiplicative_thinking",
+        "from": "math.kp.operations.quotient_remainder_recompose_dividend",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_parentheses_first.part_of.order_operations",
+        "from": "math.kp.operations.parentheses_evaluated_first",
+        "to": "math.number.operations.order_of_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_operation_order_conventional.part_of.order_operations",
+        "from": "math.kp.operations.operation_order_is_conventional",
+        "to": "math.number.operations.order_of_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_additive_for_multiplicative.part_of.multiplicative_thinking",
+        "from": "math.misconception.operations.additive_comparison_for_multiplicative",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_scale_factor_added.part_of.multiplicative_thinking",
+        "from": "math.misconception.operations.scale_factor_added_not_multiplied",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_remainder_ignored.part_of.multiplicative_thinking",
+        "from": "math.misconception.operations.remainder_always_ignored",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_all_left_to_right.part_of.order_operations",
+        "from": "math.misconception.operations.all_operations_left_to_right",
+        "to": "math.number.operations.order_of_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_parentheses_decoration.part_of.order_operations",
+        "from": "math.misconception.operations.parentheses_are_decoration",
+        "to": "math.number.operations.order_of_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.multiplicative_comparison",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.multiplicative_comparison",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Multiplicative comparison is a core form of multiplicative thinking.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.scaling",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.scaling_whole_numbers",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Scaling quantities by factors directly practises multiplicative reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.factor_pairs",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.factor_pairs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Factor pairs support reasoning about products and divisibility.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.multiples",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.multiples_common_multiples",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Multiples support identifying multiplicative structure across numbers.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.distributive",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.distributive_property_whole_numbers",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The distributive property structures multiplication by decomposing factors.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.area_model",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.area_model_multiplication",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Area models represent multiplicative structure and partial products.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.partial_products",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.partial_products_multiplication",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Partial products apply multiplicative decomposition to calculation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.multi_digit_mult",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.multi_digit_multiplication",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Multi-digit multiplication uses several multiplicative structures and place value.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.remainders",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.division_with_remainders",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Division with remainders extends equal-group division reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.interpreting_remainders",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.interpreting_remainders",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Interpreting remainders applies division structure to contextual reasoning.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.partial_quotients",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.partial_quotients_division",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Partial quotients use multiplicative chunks to divide whole numbers.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.encompasses.long_division",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.long_division_whole_numbers",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Long division formalises multiplicative and place-value reasoning in division.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.order_operations.encompasses.symbols",
+        "from": "math.number.operations.order_of_operations",
+        "to": "math.number.operations.operation_symbols_expressions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Order of operations requires interpreting operation symbols in expressions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.order_operations.encompasses.parentheses",
+        "from": "math.number.operations.order_of_operations",
+        "to": "math.number.operations.parentheses_grouping_symbols",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Grouping symbols are central to evaluating expressions in order.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.order_operations.encompasses.multiplication_before_addition",
+        "from": "math.number.operations.order_of_operations",
+        "to": "math.number.operations.multiplication_before_addition",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Multiplication and division before addition and subtraction is a core convention.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.order_operations.encompasses.multi_step",
+        "from": "math.number.operations.order_of_operations",
+        "to": "math.number.operations.evaluate_multi_step_expressions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Multi-step expression evaluation directly practises operation-order conventions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_comparison.requires.inverse_mult_div",
+        "from": "math.number.operations.multiplicative_comparison",
+        "to": "math.number.operations.inverse_multiplication_division_facts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Multiplicative comparisons often require using multiplication and division as inverse operations.",
+        "failure_signal": "Learner uses additive difference when asked how many times as many.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scaling_requires.multiplicative_comparison",
+        "from": "math.number.operations.scaling_whole_numbers",
+        "to": "math.number.operations.multiplicative_comparison",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Scaling uses a factor relationship between original and scaled quantities.",
+        "failure_signal": "Learner adds a fixed amount instead of multiplying by a scale factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_pairs.requires.multiplication_facts",
+        "from": "math.number.operations.factor_pairs",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Finding factor pairs depends on multiplication facts and related division facts.",
+        "failure_signal": "Learner lists numbers without checking that each pair multiplies to the target product.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiples_requires.skip_counting_multiplication",
+        "from": "math.number.operations.multiples_common_multiples",
+        "to": "math.number.operations.skip_counting_multiplication",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Generating multiples builds from repeated equal jumps or skip counting.",
+        "failure_signal": "Learner generates irregular sequences rather than multiples of a fixed number.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distributive_requires.partition",
+        "from": "math.number.operations.distributive_property_whole_numbers",
+        "to": "math.number.operations.partition_addition_subtraction",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The distributive property depends on decomposing numbers into useful parts.",
+        "failure_signal": "Learner splits a factor but does not multiply both parts or recombine them correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_model_requires.arrays",
+        "from": "math.number.operations.area_model_multiplication",
+        "to": "math.number.operations.arrays_multiplication",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Area models extend array structure to larger factors and place-value parts.",
+        "failure_signal": "Learner cannot connect rows and columns of an array to side lengths of a rectangle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partial_products_requires.distributive",
+        "from": "math.number.operations.partial_products_multiplication",
+        "to": "math.number.operations.distributive_property_whole_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Partial products are based on distributing multiplication over decomposed factors.",
+        "failure_signal": "Learner omits or misplaces one partial product when multiplying by parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multi_digit_mult_requires.partial_products",
+        "from": "math.number.operations.multi_digit_multiplication",
+        "to": "math.number.operations.partial_products_multiplication",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Multi-digit multiplication algorithms rely on partial products and place value.",
+        "failure_signal": "Learner performs digit steps without tracking place value or partial products.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.division_remainders_requires.division_grouping",
+        "from": "math.number.operations.division_with_remainders",
+        "to": "math.number.operations.division_sharing_grouping",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Remainders arise after forming equal groups or shares as far as possible.",
+        "failure_signal": "Learner does not recognise the leftover amount after equal grouping.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpreting_remainders_requires.remainders",
+        "from": "math.number.operations.interpreting_remainders",
+        "to": "math.number.operations.division_with_remainders",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Contextual interpretation requires first finding and understanding the remainder.",
+        "failure_signal": "Learner always drops, rounds or reports the remainder without considering context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partial_quotients_requires.remainders",
+        "from": "math.number.operations.partial_quotients_division",
+        "to": "math.number.operations.division_with_remainders",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Partial quotients use repeated known multiples and may leave or resolve remainders.",
+        "failure_signal": "Learner subtracts chunks without connecting them to multiples of the divisor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.long_division_requires.partial_quotients",
+        "from": "math.number.operations.long_division_whole_numbers",
+        "to": "math.number.operations.partial_quotients_division",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Long division formalises quotient-building and place-value-based division steps.",
+        "failure_signal": "Learner follows steps mechanically without estimating quotient digits from place value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.operation_symbols_requires.add_sub",
+        "from": "math.number.operations.operation_symbols_expressions",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting numerical expressions depends on knowing what operation symbols mean.",
+        "failure_signal": "Learner cannot connect symbols to the operations they represent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parentheses_requires.symbols",
+        "from": "math.number.operations.parentheses_grouping_symbols",
+        "to": "math.number.operations.operation_symbols_expressions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Grouping symbols modify how operations in an expression are read.",
+        "failure_signal": "Learner ignores parentheses or treats them as decorative marks.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_before_addition_requires.mult_div",
+        "from": "math.number.operations.multiplication_before_addition",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Applying multiplication-before-addition conventions requires interpreting multiplication, division, addition and subtraction.",
+        "failure_signal": "Learner evaluates mixed-operation expressions strictly from left to right.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multi_step_expressions_requires.parentheses",
+        "from": "math.number.operations.evaluate_multi_step_expressions",
+        "to": "math.number.operations.parentheses_grouping_symbols",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Multi-step expressions require handling grouping before applying other operation-order rules.",
+        "failure_signal": "Learner cannot maintain the expression structure across multiple operations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multi_step_expressions_requires.mult_before_add",
+        "from": "math.number.operations.evaluate_multi_step_expressions",
+        "to": "math.number.operations.multiplication_before_addition",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Multi-step expression evaluation requires applying multiplication and division before addition and subtraction when no grouping overrides it.",
+        "failure_signal": "Learner gets different values for equivalent expressions depending on left-to-right order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.has_mis.additive_comparison",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.misconception.operations.additive_comparison_for_multiplicative",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.has_mis.scale_added",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.misconception.operations.scale_factor_added_not_multiplied",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.has_mis.remainder_ignored",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.misconception.operations.remainder_always_ignored",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.order_operations.has_mis.left_to_right",
+        "from": "math.number.operations.order_of_operations",
+        "to": "math.misconception.operations.all_operations_left_to_right",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.order_operations.has_mis.parentheses_decoration",
+        "from": "math.number.operations.order_of_operations",
+        "to": "math.misconception.operations.parentheses_are_decoration",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/whole_number_operations.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 356,
+    "edges": 572
+  },
+  "graph_counts_after": {
+    "nodes": 387,
+    "edges": 641
+  }
+}

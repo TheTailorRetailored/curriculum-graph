@@ -1,0 +1,1621 @@
+{
+  "patch_id": "math-algebra-patterns-relations-sequence-detail-001",
+  "applied_at": "2026-05-30T14:45:02.198Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 30,
+      "edges_created": 60,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Arithmetic sequence common difference",
+        "description": "Identify the constant difference between consecutive terms in an arithmetic sequence.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.arithmetic_sequence_nth_term",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Arithmetic sequence nth term",
+        "description": "Use the first term and common difference to write or interpret an nth-term rule for an arithmetic sequence.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.arithmetic_sequence_from_two_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Arithmetic sequence from two terms",
+        "description": "Determine an arithmetic sequence rule from two given term positions and term values.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.geometric_sequence_common_ratio",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Geometric sequence common ratio",
+        "description": "Identify the constant multiplier between consecutive terms in a geometric sequence.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.geometric_sequence_extend_by_ratio",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Extend geometric sequence by ratio",
+        "description": "Extend a geometric sequence by repeatedly multiplying by the common ratio.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.geometric_sequence_nth_term_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Geometric sequence nth term intro",
+        "description": "Use powers of a common ratio to express or evaluate an nth-term rule for a geometric sequence.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.second_difference_quadratic_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Second difference quadratic patterns",
+        "description": "Recognise quadratic number patterns by checking for a constant second difference when term positions increase evenly.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.quadratic_pattern_nth_term_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Quadratic pattern nth term intro",
+        "description": "Build simple quadratic nth-term rules from term positions, values and second-difference structure.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.triangular_number_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Triangular number patterns",
+        "description": "Recognise triangular number patterns and connect them to growing dot or object arrays.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.square_number_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Square number patterns",
+        "description": "Recognise square number patterns and connect them to square arrays and term-position rules.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.fibonacci_like_recursive_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Fibonacci like recursive patterns",
+        "description": "Extend recursive patterns where each new term depends on two or more previous terms.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.recursive_rule_initial_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Recursive rule initial terms",
+        "description": "Identify the starting term or starting terms needed to use a recursive pattern rule.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.compare_recursive_explicit_efficiency",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Compare recursive and explicit rule efficiency",
+        "description": "Compare when a recursive or explicit rule is more efficient for finding near or far terms.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.validate_rule_with_known_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Validate pattern rule with known terms",
+        "description": "Check a proposed pattern rule by substituting known term positions and comparing the outputs.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.position_zero_vs_first_term_indexing",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Position zero versus first term indexing",
+        "description": "Distinguish sequences that start counting positions at zero from sequences that start with the first term as position one.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.find_position_from_term_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Find position from term value",
+        "description": "Use a pattern rule or table to determine which term position gives a specified term value.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.sequence_graph_discrete_points",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Sequence graph as discrete points",
+        "description": "Represent sequence terms on a graph as discrete points rather than a continuous line unless the context supports interpolation.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.pattern_context_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Pattern context units",
+        "description": "Interpret term values and rates of change in a pattern using the units of the context.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.finite_and_infinite_sequences",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Finite and infinite sequences",
+        "description": "Distinguish sequences with a fixed number of terms from sequences that continue indefinitely by rule.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.multiple_representations_of_sequence",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Multiple representations of a sequence",
+        "description": "Connect a sequence across term list, table, graph, diagram, word rule and symbolic rule representations.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.patterns.arithmetic_sequence_constant_difference",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Arithmetic sequence has constant difference",
+        "description": "In an arithmetic sequence, the difference between consecutive terms remains constant.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.patterns.geometric_sequence_constant_ratio",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Geometric sequence has constant ratio",
+        "description": "In a geometric sequence, each nonzero term is multiplied by the same factor to get the next term.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.patterns.constant_second_difference_quadratic",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Constant second difference suggests quadratic",
+        "description": "When input steps are equal, a constant second difference suggests a quadratic pattern.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.patterns.recursive_rules_need_initial_terms",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Recursive rules need initial terms",
+        "description": "A recursive rule is not enough by itself; starting term values are needed to generate the sequence.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.patterns.sequence_graph_points_are_discrete",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Sequence graphs use discrete points",
+        "description": "Sequence term positions are usually whole-number inputs, so their graphs are represented as separate points.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.patterns.common_difference_common_ratio_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Common difference common ratio confusion",
+        "description": "Learner treats additive and multiplicative sequence structure as interchangeable.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.patterns.second_difference_as_first_difference",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Second difference as first difference",
+        "description": "Learner uses the second difference as if it were the repeated first difference or common difference.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.patterns.recursive_rule_without_start",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Recursive rule without starting terms",
+        "description": "Learner tries to generate a recursive sequence without using the required initial term values.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.patterns.sequence_graph_continuous_line",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Sequence graph drawn as continuous line",
+        "description": "Learner connects sequence points as a continuous graph even when only whole-number term positions are meaningful.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.patterns.indexing_off_by_one",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Indexing off by one",
+        "description": "Learner substitutes a term position one too high or one too low because the sequence indexing convention is unclear.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arithmetic_common_difference.part_of.additive_patterns",
+        "from": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "to": "math.algebra.patterns.additive_number_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arithmetic_nth_term.part_of.generalising",
+        "from": "math.algebra.patterns.arithmetic_sequence_nth_term",
+        "to": "math.algebra.patterns.generalising_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arithmetic_two_terms.part_of.generalising",
+        "from": "math.algebra.patterns.arithmetic_sequence_from_two_terms",
+        "to": "math.algebra.patterns.generalising_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_common_ratio.part_of.multiplicative_patterns",
+        "from": "math.algebra.patterns.geometric_sequence_common_ratio",
+        "to": "math.algebra.patterns.multiplicative_number_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_extend_ratio.part_of.multiplicative_patterns",
+        "from": "math.algebra.patterns.geometric_sequence_extend_by_ratio",
+        "to": "math.algebra.patterns.multiplicative_number_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_nth_term.part_of.generalising",
+        "from": "math.algebra.patterns.geometric_sequence_nth_term_intro",
+        "to": "math.algebra.patterns.generalising_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.second_difference.part_of.number_patterns",
+        "from": "math.algebra.patterns.second_difference_quadratic_patterns",
+        "to": "math.algebra.patterns.number_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_nth_term.part_of.generalising",
+        "from": "math.algebra.patterns.quadratic_pattern_nth_term_intro",
+        "to": "math.algebra.patterns.generalising_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangular_patterns.part_of.growing",
+        "from": "math.algebra.patterns.triangular_number_patterns",
+        "to": "math.algebra.patterns.growing_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_patterns.part_of.number",
+        "from": "math.algebra.patterns.square_number_patterns",
+        "to": "math.algebra.patterns.number_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fibonacci_recursive.part_of.recursive_explicit",
+        "from": "math.algebra.patterns.fibonacci_like_recursive_patterns",
+        "to": "math.algebra.patterns.recursive_vs_explicit_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recursive_initial_terms.part_of.recursive_explicit",
+        "from": "math.algebra.patterns.recursive_rule_initial_terms",
+        "to": "math.algebra.patterns.recursive_vs_explicit_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_recursive_explicit.part_of.recursive_explicit",
+        "from": "math.algebra.patterns.compare_recursive_explicit_efficiency",
+        "to": "math.algebra.patterns.recursive_vs_explicit_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.validate_rule.part_of.generalising",
+        "from": "math.algebra.patterns.validate_rule_with_known_terms",
+        "to": "math.algebra.patterns.generalising_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indexing.part_of.input_output_tables",
+        "from": "math.algebra.patterns.position_zero_vs_first_term_indexing",
+        "to": "math.algebra.patterns.input_output_pattern_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_position.part_of.near_far",
+        "from": "math.algebra.patterns.find_position_from_term_value",
+        "to": "math.algebra.patterns.near_and_far_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sequence_graph_discrete.part_of.patterns_graphs",
+        "from": "math.algebra.patterns.sequence_graph_discrete_points",
+        "to": "math.algebra.patterns.patterns_to_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pattern_context_units.part_of.word_rules",
+        "from": "math.algebra.patterns.pattern_context_units",
+        "to": "math.algebra.patterns.word_rules_for_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.finite_infinite_sequences.part_of.number_patterns",
+        "from": "math.algebra.patterns.finite_and_infinite_sequences",
+        "to": "math.algebra.patterns.number_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiple_representations.part_of.generalising",
+        "from": "math.algebra.patterns.multiple_representations_of_sequence",
+        "to": "math.algebra.patterns.generalising_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.arithmetic_constant_difference.part_of.arithmetic",
+        "from": "math.kp.patterns.arithmetic_sequence_constant_difference",
+        "to": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.geometric_ratio.part_of.geometric",
+        "from": "math.kp.patterns.geometric_sequence_constant_ratio",
+        "to": "math.algebra.patterns.geometric_sequence_common_ratio",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.second_difference.part_of.quadratic",
+        "from": "math.kp.patterns.constant_second_difference_quadratic",
+        "to": "math.algebra.patterns.second_difference_quadratic_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.recursive_initial.part_of.recursive_initial",
+        "from": "math.kp.patterns.recursive_rules_need_initial_terms",
+        "to": "math.algebra.patterns.recursive_rule_initial_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.sequence_discrete.part_of.sequence_graphs",
+        "from": "math.kp.patterns.sequence_graph_points_are_discrete",
+        "to": "math.algebra.patterns.sequence_graph_discrete_points",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.diff_ratio_confusion.part_of.arithmetic",
+        "from": "math.misconception.patterns.common_difference_common_ratio_confusion",
+        "to": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.second_difference_first.part_of.second_difference",
+        "from": "math.misconception.patterns.second_difference_as_first_difference",
+        "to": "math.algebra.patterns.second_difference_quadratic_patterns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.recursive_no_start.part_of.recursive_initial",
+        "from": "math.misconception.patterns.recursive_rule_without_start",
+        "to": "math.algebra.patterns.recursive_rule_initial_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.sequence_continuous.part_of.sequence_graphs",
+        "from": "math.misconception.patterns.sequence_graph_continuous_line",
+        "to": "math.algebra.patterns.sequence_graph_discrete_points",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.indexing_off_by_one.part_of.indexing",
+        "from": "math.misconception.patterns.indexing_off_by_one",
+        "to": "math.algebra.patterns.position_zero_vs_first_term_indexing",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.additive.encompasses.arithmetic_difference",
+        "from": "math.algebra.patterns.additive_number_patterns",
+        "to": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Arithmetic sequences are additive number patterns with constant difference.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative.encompasses.geometric_ratio",
+        "from": "math.algebra.patterns.multiplicative_number_patterns",
+        "to": "math.algebra.patterns.geometric_sequence_common_ratio",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Geometric sequences are multiplicative number patterns with constant ratio.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.number_patterns.encompasses.second_difference",
+        "from": "math.algebra.patterns.number_patterns",
+        "to": "math.algebra.patterns.second_difference_quadratic_patterns",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Second-difference checks are a common way to classify number patterns beyond linear patterns.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recursive_explicit.encompasses.compare_efficiency",
+        "from": "math.algebra.patterns.recursive_vs_explicit_rules",
+        "to": "math.algebra.patterns.compare_recursive_explicit_efficiency",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing recursive and explicit rules directly practises the distinction between the two rule types.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.patterns_to_graphs.encompasses.discrete_points",
+        "from": "math.algebra.patterns.patterns_to_graphs",
+        "to": "math.algebra.patterns.sequence_graph_discrete_points",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Graphing sequence patterns includes recognising when points should remain discrete.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arithmetic_common_difference.requires.additive_patterns",
+        "from": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "to": "math.algebra.patterns.additive_number_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Arithmetic sequences refine additive number patterns by focusing on constant differences.",
+        "failure_signal": "Learner cannot identify the repeated additive change between consecutive terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arithmetic_nth_term.requires.common_difference",
+        "from": "math.algebra.patterns.arithmetic_sequence_nth_term",
+        "to": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Writing an arithmetic nth-term rule depends on identifying the common difference.",
+        "failure_signal": "Learner writes a recursive next-step rule instead of a position-based rule.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arithmetic_two_terms.requires.arithmetic_nth",
+        "from": "math.algebra.patterns.arithmetic_sequence_from_two_terms",
+        "to": "math.algebra.patterns.arithmetic_sequence_nth_term",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding a rule from two non-adjacent terms extends arithmetic nth-term rule structure.",
+        "failure_signal": "Learner assumes the difference between the two values is the common difference without dividing by the position gap.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_ratio.requires.multiplicative_patterns",
+        "from": "math.algebra.patterns.geometric_sequence_common_ratio",
+        "to": "math.algebra.patterns.multiplicative_number_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Geometric sequence reasoning builds on multiplicative number patterns.",
+        "failure_signal": "Learner looks for an additive difference instead of a multiplicative factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_extend.requires.ratio",
+        "from": "math.algebra.patterns.geometric_sequence_extend_by_ratio",
+        "to": "math.algebra.patterns.geometric_sequence_common_ratio",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Extending a geometric sequence depends on identifying the common ratio.",
+        "failure_signal": "Learner adds the ratio rather than multiplying by it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_nth.requires.extend_ratio",
+        "from": "math.algebra.patterns.geometric_sequence_nth_term_intro",
+        "to": "math.algebra.patterns.geometric_sequence_extend_by_ratio",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Geometric nth-term rules generalise repeated multiplication by the common ratio.",
+        "failure_signal": "Learner treats the exponent as the term value or uses n instead of n minus one without considering indexing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.second_difference.requires.constant_difference",
+        "from": "math.algebra.patterns.second_difference_quadratic_patterns",
+        "to": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Second-difference reasoning builds on calculating first differences between consecutive terms.",
+        "failure_signal": "Learner cannot compute or compare first differences consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_nth.requires.second_difference",
+        "from": "math.algebra.patterns.quadratic_pattern_nth_term_intro",
+        "to": "math.algebra.patterns.second_difference_quadratic_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Simple quadratic nth-term rules depend on recognising constant second differences.",
+        "failure_signal": "Learner forces a linear rule onto a quadratic pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangular_patterns.requires.growing_diagrams",
+        "from": "math.algebra.patterns.triangular_number_patterns",
+        "to": "math.algebra.patterns.represent_growing_patterns_diagrams",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Triangular number patterns are often introduced through growing dot or object diagrams.",
+        "failure_signal": "Learner sees only term values and misses the triangular structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_patterns.requires.growing_diagrams",
+        "from": "math.algebra.patterns.square_number_patterns",
+        "to": "math.algebra.patterns.represent_growing_patterns_diagrams",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Square number patterns are commonly recognised from square arrays and diagrams.",
+        "failure_signal": "Learner does not connect side length or term position to the square array total.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fibonacci_recursive.requires.recursive_explicit",
+        "from": "math.algebra.patterns.fibonacci_like_recursive_patterns",
+        "to": "math.algebra.patterns.recursive_vs_explicit_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Fibonacci-like patterns require recursive reasoning about previous terms.",
+        "failure_signal": "Learner looks for a constant difference or ratio where none applies.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recursive_initial.requires.recursive_explicit",
+        "from": "math.algebra.patterns.recursive_rule_initial_terms",
+        "to": "math.algebra.patterns.recursive_vs_explicit_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Understanding recursive rules includes knowing that initial terms are required.",
+        "failure_signal": "Learner cannot generate a sequence from a recursive rule because no starting value is used.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_recursive_explicit.requires.near_far",
+        "from": "math.algebra.patterns.compare_recursive_explicit_efficiency",
+        "to": "math.algebra.patterns.near_and_far_terms",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Method efficiency becomes important when comparing near-term extension with far-term calculation.",
+        "failure_signal": "Learner repeatedly extends a pattern to find a far term when an explicit rule would be more efficient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.validate_rule.requires.explicit_rules",
+        "from": "math.algebra.patterns.validate_rule_with_known_terms",
+        "to": "math.algebra.patterns.generalising_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Validating a rule requires having a proposed general rule to test against known terms.",
+        "failure_signal": "Learner accepts a rule after checking only one term or no terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indexing.requires.input_output_tables",
+        "from": "math.algebra.patterns.position_zero_vs_first_term_indexing",
+        "to": "math.algebra.patterns.input_output_pattern_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Indexing conventions are visible when term positions are organised in input-output tables.",
+        "failure_signal": "Learner uses n instead of n minus one, or vice versa, without noticing the starting position.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_position.requires.generalising",
+        "from": "math.algebra.patterns.find_position_from_term_value",
+        "to": "math.algebra.patterns.generalising_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding the position from a value requires using or reversing a general pattern rule.",
+        "failure_signal": "Learner confuses term value with term position or searches by repeated extension only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sequence_graph.requires.patterns_to_graphs",
+        "from": "math.algebra.patterns.sequence_graph_discrete_points",
+        "to": "math.algebra.patterns.patterns_to_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Discrete sequence graphing builds on graphing pattern relationships.",
+        "failure_signal": "Learner connects points as though all fractional term positions make sense.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_units.requires.word_rules",
+        "from": "math.algebra.patterns.pattern_context_units",
+        "to": "math.algebra.patterns.word_rules_for_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Context units are interpreted after a pattern rule is described in words or context.",
+        "failure_signal": "Learner gives a term value without saying what it counts or measures.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.finite_infinite.requires.number_patterns",
+        "from": "math.algebra.patterns.finite_and_infinite_sequences",
+        "to": "math.algebra.patterns.number_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finite and infinite sequence distinctions build on recognising number patterns.",
+        "failure_signal": "Learner assumes every listed pattern continues forever or stops after the shown terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiple_representations.requires.input_output",
+        "from": "math.algebra.patterns.multiple_representations_of_sequence",
+        "to": "math.algebra.patterns.input_output_pattern_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Connecting sequence representations requires at least table-based term-position structure.",
+        "failure_signal": "Learner cannot match a table, graph and symbolic rule for the same sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arithmetic.has_mis.diff_ratio_confusion",
+        "from": "math.algebra.patterns.arithmetic_sequence_common_difference",
+        "to": "math.misconception.patterns.common_difference_common_ratio_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.second_difference.has_mis.first_difference",
+        "from": "math.algebra.patterns.second_difference_quadratic_patterns",
+        "to": "math.misconception.patterns.second_difference_as_first_difference",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recursive_initial.has_mis.no_start",
+        "from": "math.algebra.patterns.recursive_rule_initial_terms",
+        "to": "math.misconception.patterns.recursive_rule_without_start",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sequence_graph.has_mis.continuous",
+        "from": "math.algebra.patterns.sequence_graph_discrete_points",
+        "to": "math.misconception.patterns.sequence_graph_continuous_line",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indexing.has_mis.off_by_one",
+        "from": "math.algebra.patterns.position_zero_vs_first_term_indexing",
+        "to": "math.misconception.patterns.indexing_off_by_one",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/patterns_and_relations.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1809,
+    "edges": 3804
+  },
+  "graph_counts_after": {
+    "nodes": 1839,
+    "edges": 3864
+  }
+}

@@ -1,0 +1,1916 @@
+{
+  "patch_id": "math-statistics-data-collection-detail-001",
+  "applied_at": "2026-06-04T09:14:24.701Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.misconception.statistics.sample_frame_equals_population"
+      },
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.statistics.data.systematic_sampling_intro",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      },
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.statistics.data.cluster_sampling_intro",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      },
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.statistics.data.double_barrelled_question",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 35,
+      "edges_created": 70,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.unit_of_observation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Unit of observation",
+        "description": "Identify the individual person, object, event or case from which one row or record of data is collected.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.variable_of_interest",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Variable of interest",
+        "description": "Identify the attribute or measurement being collected to answer a statistical question.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.target_population",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Target population",
+        "description": "Identify the full group about which a statistical question or conclusion is intended.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.sampling_frame",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sampling frame",
+        "description": "Identify the accessible list or source from which a sample is actually selected, and compare it with the target population.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.census_vs_sample",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Census versus sample",
+        "description": "Distinguish collecting data from every member of a population from collecting data from a selected subset.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.convenience_sampling",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Convenience sampling",
+        "description": "Recognise samples chosen because they are easy to access and explain why they may be biased.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.voluntary_response_sampling",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Voluntary response sampling",
+        "description": "Recognise samples made from people who choose to respond and explain why strong opinions may be overrepresented.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.simple_random_sample_procedure",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Simple random sample procedure",
+        "description": "Use a random mechanism so every member of the sampling frame has an equal chance of selection.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.systematic_sampling_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Systematic sampling introduction",
+        "description": "Select every kth member from an ordered list after choosing a starting point, while considering possible ordering bias.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.stratified_sampling_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Stratified sampling introduction",
+        "description": "Divide a population into meaningful groups and sample from each group to improve representation.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.cluster_sampling_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Cluster sampling introduction",
+        "description": "Select naturally occurring groups or clusters, then collect data from members of selected clusters.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.nonresponse_bias",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Nonresponse bias",
+        "description": "Recognise bias caused when selected participants do not respond and their responses may differ from those who do respond.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.leading_question_bias",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Leading question bias",
+        "description": "Identify survey wording that pushes respondents toward a particular answer.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.double_barrelled_question",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Double-barrelled question",
+        "description": "Identify survey questions that ask about two ideas at once and therefore make responses hard to interpret.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.ambiguous_response_options",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Ambiguous response options",
+        "description": "Detect response choices that overlap, omit possibilities or use unclear category boundaries.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.balanced_response_scale",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Balanced response scale",
+        "description": "Design response scales that give balanced options across agreement, frequency or intensity.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.pilot_survey_questions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Pilot survey questions",
+        "description": "Test survey questions on a small group to find confusing wording, missing choices or recording problems before full data collection.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.anonymous_response_considerations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Anonymous response considerations",
+        "description": "Explain when anonymous responses may reduce social-pressure bias and support ethical data collection.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.measurement_unit_consistency",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Measurement unit consistency",
+        "description": "Use consistent units and measurement methods when collecting numerical data.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.data_recording_protocol",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Data recording protocol",
+        "description": "Define how data will be recorded so repeated observations use the same categories, units and rules.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.repeated_measurement_reliability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Repeated measurement reliability",
+        "description": "Use repeated measurements or observations to check consistency and reduce accidental recording error.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.observational_vs_experimental_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Observational versus experimental data",
+        "description": "Distinguish data collected by observing existing conditions from data collected after deliberately changing or controlling a condition.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.controlled_variable_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Controlled variable introduction",
+        "description": "Recognise a condition kept the same during an experiment so that differences can be linked more clearly to the variable being changed.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.treatment_condition_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Treatment condition introduction",
+        "description": "Identify the condition or intervention being compared in a simple experiment.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.observation_protocol",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Observation protocol",
+        "description": "Set rules for what counts as an observed event or behaviour before recording observational data.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.target_population_defines_claim_scope",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Target population defines claim scope",
+        "description": "A statistical claim should only generalise to the population the sampling method reasonably represents.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.sampling_frame_may_miss_population_members",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sampling frame may miss population members",
+        "description": "A sampling frame that excludes part of the target population can create coverage bias.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.leading_questions_create_response_bias",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Leading questions create response bias",
+        "description": "Survey wording can influence answers and systematically bias the collected data.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.random_does_not_mean_haphazard",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Random does not mean haphazard",
+        "description": "A random sample uses a planned chance mechanism, not arbitrary or careless selection.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.experiment_changes_condition_observation_does_not",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Experiment changes a condition observation does not",
+        "description": "In an experiment, a condition is deliberately changed or controlled; in an observation, existing conditions are recorded.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.random_sample_means_any_sample",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Random sample means any sample",
+        "description": "Learner treats any casually chosen sample as random because it was not carefully planned.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.convenient_sample_is_representative",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Convenient sample is representative",
+        "description": "Learner assumes an easy-to-access group represents the full population without checking selection bias.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.survey_wording_has_no_effect",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Survey wording has no effect",
+        "description": "Learner assumes respondents would answer the same way regardless of leading, confusing or unbalanced wording.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.sample_frame_equals_population",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sampling frame equals population",
+        "description": "Learner assumes the list used for sampling perfectly matches the target population without checking exclusions or duplicates.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.observation_proves_causation",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Observation proves causation",
+        "description": "Learner treats observational data as proving that one variable caused another without experimental control.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_observation.part_of.plan_investigation",
+        "from": "math.statistics.data.unit_of_observation",
+        "to": "math.statistics.data.plan_data_investigation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_interest.part_of.refine_questions",
+        "from": "math.statistics.data.variable_of_interest",
+        "to": "math.statistics.data.refine_statistical_questions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.target_population.part_of.population_sample",
+        "from": "math.statistics.data.target_population",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_frame.part_of.population_sample",
+        "from": "math.statistics.data.sampling_frame",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.census_sample.part_of.population_sample",
+        "from": "math.statistics.data.census_vs_sample",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convenience.part_of.sampling_bias",
+        "from": "math.statistics.data.convenience_sampling",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.voluntary_response.part_of.sampling_bias",
+        "from": "math.statistics.data.voluntary_response_sampling",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_random.part_of.random_sampling",
+        "from": "math.statistics.data.simple_random_sample_procedure",
+        "to": "math.statistics.data.random_sampling_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.systematic.part_of.sampling",
+        "from": "math.statistics.data.systematic_sampling_intro",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stratified.part_of.sampling",
+        "from": "math.statistics.data.stratified_sampling_intro",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cluster.part_of.sampling",
+        "from": "math.statistics.data.cluster_sampling_intro",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonresponse.part_of.response_bias",
+        "from": "math.statistics.data.nonresponse_bias",
+        "to": "math.statistics.data.response_bias",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading_question.part_of.response_bias",
+        "from": "math.statistics.data.leading_question_bias",
+        "to": "math.statistics.data.response_bias",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.double_barrelled.part_of.survey",
+        "from": "math.statistics.data.double_barrelled_question",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ambiguous_options.part_of.survey",
+        "from": "math.statistics.data.ambiguous_response_options",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balanced_scale.part_of.survey",
+        "from": "math.statistics.data.balanced_response_scale",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pilot_survey.part_of.survey",
+        "from": "math.statistics.data.pilot_survey_questions",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.anonymous.part_of.ethics",
+        "from": "math.statistics.data.anonymous_response_considerations",
+        "to": "math.statistics.data.ethical_data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_consistency.part_of.collecting",
+        "from": "math.statistics.data.measurement_unit_consistency",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recording_protocol.part_of.collecting",
+        "from": "math.statistics.data.data_recording_protocol",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeated_measure.part_of.data_cleaning",
+        "from": "math.statistics.data.repeated_measurement_reliability",
+        "to": "math.statistics.data.data_cleaning_checks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.obs_vs_exp.part_of.collecting",
+        "from": "math.statistics.data.observational_vs_experimental_data",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.controlled_variable.part_of.experimental",
+        "from": "math.statistics.data.controlled_variable_intro",
+        "to": "math.statistics.data.experimental_data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.treatment_condition.part_of.experimental",
+        "from": "math.statistics.data.treatment_condition_intro",
+        "to": "math.statistics.data.experimental_data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observation_protocol.part_of.observation",
+        "from": "math.statistics.data.observation_protocol",
+        "to": "math.statistics.data.observation_data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.target_scope.part_of.target_population",
+        "from": "math.kp.statistics.target_population_defines_claim_scope",
+        "to": "math.statistics.data.target_population",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.frame_miss.part_of.sampling_frame",
+        "from": "math.kp.statistics.sampling_frame_may_miss_population_members",
+        "to": "math.statistics.data.sampling_frame",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.leading_bias.part_of.leading_question",
+        "from": "math.kp.statistics.leading_questions_create_response_bias",
+        "to": "math.statistics.data.leading_question_bias",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.random_not_haphazard.part_of.simple_random",
+        "from": "math.kp.statistics.random_does_not_mean_haphazard",
+        "to": "math.statistics.data.simple_random_sample_procedure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.exp_obs.part_of.obs_vs_exp",
+        "from": "math.kp.statistics.experiment_changes_condition_observation_does_not",
+        "to": "math.statistics.data.observational_vs_experimental_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.random_any.part_of.simple_random",
+        "from": "math.misconception.statistics.random_sample_means_any_sample",
+        "to": "math.statistics.data.simple_random_sample_procedure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.convenient_representative.part_of.convenience",
+        "from": "math.misconception.statistics.convenient_sample_is_representative",
+        "to": "math.statistics.data.convenience_sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.wording_no_effect.part_of.leading_question",
+        "from": "math.misconception.statistics.survey_wording_has_no_effect",
+        "to": "math.statistics.data.leading_question_bias",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.frame_equals_population.part_of.sampling_frame",
+        "from": "math.misconception.statistics.sample_frame_equals_population",
+        "to": "math.statistics.data.sampling_frame",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.observation_causation.part_of.obs_vs_exp",
+        "from": "math.misconception.statistics.observation_proves_causation",
+        "to": "math.statistics.data.observational_vs_experimental_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.population_sample.encompasses.target_population",
+        "from": "math.statistics.data.population_and_sample",
+        "to": "math.statistics.data.target_population",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying the target population directly practises population and sample reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.stratified",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.stratified_sampling_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Stratified sampling is one important sampling method within sampling and representativeness.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.survey.encompasses.leading_question",
+        "from": "math.statistics.data.survey_data_collection",
+        "to": "math.statistics.data.leading_question_bias",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Recognising leading questions directly improves survey data collection quality.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting.encompasses.recording_protocol",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.data_recording_protocol",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "A consistent recording protocol is central to reliable data collection.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental.encompasses.controlled_variable",
+        "from": "math.statistics.data.experimental_data_collection",
+        "to": "math.statistics.data.controlled_variable_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Controlling variables is a key idea in experimental data collection.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_observation.requires.question_matches_data",
+        "from": "math.statistics.data.unit_of_observation",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying the unit of observation depends on knowing what data would answer the question.",
+        "failure_signal": "Learner mixes individuals, responses and variables as if they are the same thing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_interest.requires.categorical_numerical",
+        "from": "math.statistics.data.variable_of_interest",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying the variable of interest depends on recognising what kind of data is being collected.",
+        "failure_signal": "Learner cannot name the attribute or measurement being recorded.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.target_population.requires.refine_questions",
+        "from": "math.statistics.data.target_population",
+        "to": "math.statistics.data.refine_statistical_questions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A refined statistical question identifies the group the question is about.",
+        "failure_signal": "Learner makes a general claim without specifying the group it applies to.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_frame.requires.target_population",
+        "from": "math.statistics.data.sampling_frame",
+        "to": "math.statistics.data.target_population",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A sampling frame can only be judged by comparing it with the intended target population.",
+        "failure_signal": "Learner assumes the available list exactly matches the group of interest.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.census_sample.requires.target_population",
+        "from": "math.statistics.data.census_vs_sample",
+        "to": "math.statistics.data.target_population",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Census and sample distinctions require a defined population.",
+        "failure_signal": "Learner cannot tell whether data came from everyone or from a subset.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convenience.requires.sampling_frame",
+        "from": "math.statistics.data.convenience_sampling",
+        "to": "math.statistics.data.sampling_frame",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Convenience sampling is judged by comparing who is easy to access with the sampling frame or target population.",
+        "failure_signal": "Learner overlooks who was excluded by the easy-access method.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.voluntary_response.requires.convenience",
+        "from": "math.statistics.data.voluntary_response_sampling",
+        "to": "math.statistics.data.convenience_sampling",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Voluntary response is a specific non-random selection method with self-selection bias.",
+        "failure_signal": "Learner treats people who choose to answer as representative of everyone.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_random.requires.sampling_frame",
+        "from": "math.statistics.data.simple_random_sample_procedure",
+        "to": "math.statistics.data.sampling_frame",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A simple random sample requires a defined sampling frame to choose from.",
+        "failure_signal": "Learner says a sample is random without defining who could be selected.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.systematic.requires.simple_random",
+        "from": "math.statistics.data.systematic_sampling_intro",
+        "to": "math.statistics.data.simple_random_sample_procedure",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "medium",
+        "rationale": "Systematic sampling is easier to evaluate after understanding planned selection methods and random starts.",
+        "failure_signal": "Learner ignores ordering bias when selecting every kth member.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stratified.requires.representative",
+        "from": "math.statistics.data.stratified_sampling_intro",
+        "to": "math.statistics.data.representative_samples",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Stratified sampling is designed to improve representation of important subgroups.",
+        "failure_signal": "Learner samples from only one subgroup and calls it representative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cluster.requires.sampling_frame",
+        "from": "math.statistics.data.cluster_sampling_intro",
+        "to": "math.statistics.data.sampling_frame",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "medium",
+        "rationale": "Cluster sampling requires understanding that a population can be accessed through naturally occurring groups.",
+        "failure_signal": "Learner confuses clusters with strata or individual random samples.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonresponse.requires.survey",
+        "from": "math.statistics.data.nonresponse_bias",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Nonresponse bias arises when selected survey participants do not provide responses.",
+        "failure_signal": "Learner ignores missing responses when judging survey reliability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading_question.requires.survey",
+        "from": "math.statistics.data.leading_question_bias",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Leading-question bias is a survey-design issue.",
+        "failure_signal": "Learner accepts loaded wording as neutral.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.double_barrelled.requires.leading_question",
+        "from": "math.statistics.data.double_barrelled_question",
+        "to": "math.statistics.data.leading_question_bias",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "medium",
+        "rationale": "Both topics involve evaluating whether question wording distorts or obscures responses.",
+        "failure_signal": "Learner does not notice that one response must answer two questions at once.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ambiguous_options.requires.category_labels",
+        "from": "math.statistics.data.ambiguous_response_options",
+        "to": "math.statistics.data.category_labels",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Clear response options build on clear category labels and non-overlapping categories.",
+        "failure_signal": "Learner creates overlapping or incomplete answer choices.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balanced_scale.requires.ambiguous_options",
+        "from": "math.statistics.data.balanced_response_scale",
+        "to": "math.statistics.data.ambiguous_response_options",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Balanced scales require first recognising clear and complete response options.",
+        "failure_signal": "Learner writes response scales that favour one side of an opinion.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pilot_survey.requires.balanced_scale",
+        "from": "math.statistics.data.pilot_survey_questions",
+        "to": "math.statistics.data.balanced_response_scale",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Piloting checks whether the wording and response scale work as intended.",
+        "failure_signal": "Learner launches a survey without testing whether respondents understand the questions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.anonymous.requires.ethics",
+        "from": "math.statistics.data.anonymous_response_considerations",
+        "to": "math.statistics.data.ethical_data_collection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Anonymity is part of ethical planning and can affect response honesty.",
+        "failure_signal": "Learner collects sensitive data without considering privacy or response pressure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_consistency.requires.categorical_numerical",
+        "from": "math.statistics.data.measurement_unit_consistency",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Consistent measurement units apply when collecting numerical data.",
+        "failure_signal": "Learner mixes centimetres and metres or different measurement methods without noting it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recording_protocol.requires.unit_consistency",
+        "from": "math.statistics.data.data_recording_protocol",
+        "to": "math.statistics.data.measurement_unit_consistency",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recording protocols specify consistent units, categories and rules.",
+        "failure_signal": "Learner records equivalent responses in inconsistent forms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeated_measure.requires.recording_protocol",
+        "from": "math.statistics.data.repeated_measurement_reliability",
+        "to": "math.statistics.data.data_recording_protocol",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Repeated measurements must use the same protocol to reveal reliability rather than procedure changes.",
+        "failure_signal": "Learner repeats measurements but changes the method each time.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.obs_vs_exp.requires.collecting",
+        "from": "math.statistics.data.observational_vs_experimental_data",
+        "to": "math.statistics.data.collecting_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Observational and experimental data are distinct modes of data collection.",
+        "failure_signal": "Learner treats any data collection as an experiment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.controlled_variable.requires.obs_vs_exp",
+        "from": "math.statistics.data.controlled_variable_intro",
+        "to": "math.statistics.data.observational_vs_experimental_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Controlled variables are meaningful after distinguishing experiments from observations.",
+        "failure_signal": "Learner claims a causal comparison without controlling relevant conditions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.treatment_condition.requires.controlled_variable",
+        "from": "math.statistics.data.treatment_condition_intro",
+        "to": "math.statistics.data.controlled_variable_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A treatment or condition is interpreted within an experiment where other variables may be controlled.",
+        "failure_signal": "Learner cannot identify what condition is being compared in the experiment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observation_protocol.requires.observation_collection",
+        "from": "math.statistics.data.observation_protocol",
+        "to": "math.statistics.data.observation_data_collection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Observation protocols make observational data collection consistent.",
+        "failure_signal": "Learner records behaviours inconsistently because observation rules were not defined.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_random.has_mis.random_any",
+        "from": "math.statistics.data.simple_random_sample_procedure",
+        "to": "math.misconception.statistics.random_sample_means_any_sample",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convenience.has_mis.representative",
+        "from": "math.statistics.data.convenience_sampling",
+        "to": "math.misconception.statistics.convenient_sample_is_representative",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading.has_mis.wording_effect",
+        "from": "math.statistics.data.leading_question_bias",
+        "to": "math.misconception.statistics.survey_wording_has_no_effect",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frame.has_mis.equals_population",
+        "from": "math.statistics.data.sampling_frame",
+        "to": "math.misconception.statistics.sample_frame_equals_population",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.obs_exp.has_mis.causation",
+        "from": "math.statistics.data.observational_vs_experimental_data",
+        "to": "math.misconception.statistics.observation_proves_causation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/data_collection.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2187,
+    "edges": 4582
+  },
+  "graph_counts_after": {
+    "nodes": 2222,
+    "edges": 4652
+  }
+}

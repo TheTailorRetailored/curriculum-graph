@@ -1,0 +1,68 @@
+{
+  "patch_id": "math-benchmark-percentages-hundred-percent",
+  "applied_at": "2026-06-08T14:55:37.782Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.one_hundred_percent_is_the_whole",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.percentages.benchmark_percentages",
+        "label": "One hundred percent is the whole",
+        "description": "Recognise 100 percent as the entire base quantity.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_100_percent_whole.part_of.benchmark_percentages",
+        "from": "math.kp.percentages.one_hundred_percent_is_the_whole",
+        "to": "math.percentages.benchmark_percentages",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2645,
+    "edges": 5578
+  },
+  "graph_counts_after": {
+    "nodes": 2646,
+    "edges": 5579
+  }
+}

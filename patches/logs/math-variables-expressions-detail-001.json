@@ -1,0 +1,1772 @@
+{
+  "patch_id": "math-variables-expressions-detail-001",
+  "applied_at": "2026-05-25T15:19:56.168Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 68,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.missing_value_symbols",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Missing value symbols",
+        "description": "Use symbols or letters to represent unknown values in number sentences and simple situations.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.variable_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Variable notation",
+        "description": "Read and write letters as variables that can stand for unknown or varying values.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.variables_in_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Variables in contexts",
+        "description": "Define variables to represent quantities in worded and contextual situations.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.expressions_vs_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Expressions versus equations",
+        "description": "Distinguish algebraic expressions from equations and understand what each represents.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.substitute_positive_values",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Substitute positive values",
+        "description": "Evaluate expressions by replacing variables with positive whole-number or decimal values.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.substitute_negative_values",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Substitute negative values",
+        "description": "Evaluate expressions by replacing variables with negative values while preserving expression structure.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.evaluate_algebraic_expressions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Evaluate algebraic expressions",
+        "description": "Evaluate algebraic expressions using substitution and conventional order of operations.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.substitute_into_formulas",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Substitute into formulas",
+        "description": "Use formulas by substituting known values and evaluating the resulting expression.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Terms coefficients and constants",
+        "description": "Identify terms, coefficients, variables and constants in algebraic expressions.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.algebraic_conventions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Algebraic conventions",
+        "description": "Use algebraic notation conventions such as omitted multiplication signs and standard term order.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.like_and_unlike_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Like and unlike terms",
+        "description": "Identify terms with the same variable part as like terms and distinguish unlike terms.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.collect_like_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Collect like terms",
+        "description": "Simplify expressions by combining coefficients of like terms while preserving value.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.distributive_property_algebra",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Distributive property in algebra",
+        "description": "Use the distributive property to connect products and sums in algebraic expressions.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.expand_single_brackets",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Expand single brackets",
+        "description": "Expand algebraic expressions with a single bracket using the distributive property.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.factor_out_common_factor",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Factor out common factor",
+        "description": "Factorise expressions by identifying and extracting a common factor from all terms.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.expand_and_simplify",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Expand and simplify",
+        "description": "Expand brackets and collect like terms to write equivalent simplified expressions.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.variable_represents_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Variable represents a value",
+        "description": "A variable represents a value or quantity, not the name of an object.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.expression_has_no_equality_claim",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Expression has no equality claim",
+        "description": "An expression names a quantity but does not state that two quantities are equal.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.substitution_replaces_variable",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Substitution replaces variable",
+        "description": "Substitution replaces each occurrence of a variable with a specified value.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.negative_substitution_needs_grouping",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Negative substitution needs grouping",
+        "description": "When substituting negative values, grouping symbols can preserve the intended expression structure.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.coefficient_multiplies_variable",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Coefficient multiplies variable",
+        "description": "A coefficient multiplies the variable part of a term.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.like_terms_same_variable_part",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Like terms have same variable part",
+        "description": "Like terms have the same variable part with the same powers, even if their coefficients differ.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.collecting_like_terms_preserves_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Collecting like terms preserves value",
+        "description": "Combining like terms rewrites an expression in an equivalent form with the same value for all allowed variable values.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.algebraic_conventions_reduce_symbols",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Algebraic conventions reduce symbols",
+        "description": "Algebraic conventions often omit multiplication signs and write terms in standard forms to reduce clutter.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.distributive_property_expands_brackets",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Distributive property expands brackets",
+        "description": "The factor outside a bracket multiplies every term inside the bracket when expanding.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.factorising_reverses_expansion",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Factorising reverses expansion",
+        "description": "Factorising rewrites a sum or difference as a product, reversing an expansion step.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.variable_is_object_label",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Variable is object label",
+        "description": "Learner treats a variable as a label for an object rather than as a number or quantity value.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.expression_must_have_equals",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Expression must have equals sign",
+        "description": "Learner thinks an algebraic expression is incomplete unless it includes an equals sign and an answer.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.substitute_only_first_occurrence",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Substitute only first occurrence",
+        "description": "Learner replaces only one occurrence of a variable instead of every occurrence in the expression.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.combine_unlike_terms",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Combine unlike terms",
+        "description": "Learner combines unlike terms as if their variable parts were the same.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.distribute_to_first_term_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Distribute to first term only",
+        "description": "Learner multiplies only the first term inside brackets when expanding an expression.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_value_symbols.part_of.variables_unknowns",
+        "from": "math.algebra.expressions.missing_value_symbols",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_notation.part_of.variables_unknowns",
+        "from": "math.algebra.expressions.variable_notation",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_contexts.part_of.variables_unknowns",
+        "from": "math.algebra.expressions.variables_in_contexts",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expressions_vs_equations.part_of.variables_unknowns",
+        "from": "math.algebra.expressions.expressions_vs_equations",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitute_positive.part_of.substitution",
+        "from": "math.algebra.expressions.substitute_positive_values",
+        "to": "math.algebra.expressions.substitution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitute_negative.part_of.substitution",
+        "from": "math.algebra.expressions.substitute_negative_values",
+        "to": "math.algebra.expressions.substitution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_expressions.part_of.substitution",
+        "from": "math.algebra.expressions.evaluate_algebraic_expressions",
+        "to": "math.algebra.expressions.substitution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitute_formulas.part_of.substitution",
+        "from": "math.algebra.expressions.substitute_into_formulas",
+        "to": "math.algebra.expressions.substitution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.terms_coefficients.part_of.simplifying",
+        "from": "math.algebra.expressions.terms_coefficients_constants",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_conventions.part_of.simplifying",
+        "from": "math.algebra.expressions.algebraic_conventions",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.like_terms.part_of.simplifying",
+        "from": "math.algebra.expressions.like_and_unlike_terms",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collect_like_terms.part_of.simplifying",
+        "from": "math.algebra.expressions.collect_like_terms",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distributive_algebra.part_of.expanding",
+        "from": "math.algebra.expressions.distributive_property_algebra",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_brackets.part_of.expanding",
+        "from": "math.algebra.expressions.expand_single_brackets",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_common.part_of.expanding",
+        "from": "math.algebra.expressions.factor_out_common_factor",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_simplify.part_of.expanding",
+        "from": "math.algebra.expressions.expand_and_simplify",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_variable_value.part_of.variables_unknowns",
+        "from": "math.kp.expressions.variable_represents_value",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_expression_no_equals.part_of.variables_unknowns",
+        "from": "math.kp.expressions.expression_has_no_equality_claim",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_substitution_replaces.part_of.substitution",
+        "from": "math.kp.expressions.substitution_replaces_variable",
+        "to": "math.algebra.expressions.substitution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_negative_substitution.part_of.substitution",
+        "from": "math.kp.expressions.negative_substitution_needs_grouping",
+        "to": "math.algebra.expressions.substitution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_coefficient_variable.part_of.simplifying",
+        "from": "math.kp.expressions.coefficient_multiplies_variable",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_like_terms_same_part.part_of.simplifying",
+        "from": "math.kp.expressions.like_terms_same_variable_part",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_collect_preserves.part_of.simplifying",
+        "from": "math.kp.expressions.collecting_like_terms_preserves_value",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_conventions_reduce_symbols.part_of.simplifying",
+        "from": "math.kp.expressions.algebraic_conventions_reduce_symbols",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_distributive_expands.part_of.expanding",
+        "from": "math.kp.expressions.distributive_property_expands_brackets",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_factorising_reverses.part_of.expanding",
+        "from": "math.kp.expressions.factorising_reverses_expansion",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_variable_object_label.part_of.variables_unknowns",
+        "from": "math.misconception.expressions.variable_is_object_label",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_expression_must_equals.part_of.variables_unknowns",
+        "from": "math.misconception.expressions.expression_must_have_equals",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_substitute_once.part_of.substitution",
+        "from": "math.misconception.expressions.substitute_only_first_occurrence",
+        "to": "math.algebra.expressions.substitution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_combine_unlike.part_of.simplifying",
+        "from": "math.misconception.expressions.combine_unlike_terms",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_distribute_first_only.part_of.expanding",
+        "from": "math.misconception.expressions.distribute_to_first_term_only",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.encompasses.missing_symbols",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.algebra.expressions.missing_value_symbols",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Missing-value symbols are an early bridge into variables as unknown values.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.encompasses.variable_notation",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.algebra.expressions.variable_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Variable notation is central to interpreting letters as values.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.encompasses.contexts",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.algebra.expressions.variables_in_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Defining variables in contexts practises interpreting variables as quantities.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.encompasses.expr_vs_eq",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.algebra.expressions.expressions_vs_equations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Distinguishing expressions and equations supports accurate variable interpretation.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution.encompasses.positive_values",
+        "from": "math.algebra.expressions.substitution",
+        "to": "math.algebra.expressions.substitute_positive_values",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Substituting positive values is an early core form of substitution.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution.encompasses.negative_values",
+        "from": "math.algebra.expressions.substitution",
+        "to": "math.algebra.expressions.substitute_negative_values",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Substituting negative values extends substitution to signed-number expressions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution.encompasses.evaluate",
+        "from": "math.algebra.expressions.substitution",
+        "to": "math.algebra.expressions.evaluate_algebraic_expressions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating expressions directly practises substitution and operation order.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution.encompasses.formulas",
+        "from": "math.algebra.expressions.substitution",
+        "to": "math.algebra.expressions.substitute_into_formulas",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Using formulas is a common application of substitution into structured expressions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplifying.encompasses.terms",
+        "from": "math.algebra.expressions.simplifying_expressions",
+        "to": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Terms, coefficients and constants are foundational for simplifying expressions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplifying.encompasses.conventions",
+        "from": "math.algebra.expressions.simplifying_expressions",
+        "to": "math.algebra.expressions.algebraic_conventions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Algebraic conventions support reading and simplifying expressions accurately.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplifying.encompasses.like_terms",
+        "from": "math.algebra.expressions.simplifying_expressions",
+        "to": "math.algebra.expressions.like_and_unlike_terms",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying like terms is essential for collecting them.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplifying.encompasses.collect_like_terms",
+        "from": "math.algebra.expressions.simplifying_expressions",
+        "to": "math.algebra.expressions.collect_like_terms",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Collecting like terms is a core simplifying-expression procedure.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expanding.encompasses.distributive_algebra",
+        "from": "math.algebra.expressions.expanding_factorising",
+        "to": "math.algebra.expressions.distributive_property_algebra",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The distributive property is the structure behind expansion and factorisation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expanding.encompasses.expand_brackets",
+        "from": "math.algebra.expressions.expanding_factorising",
+        "to": "math.algebra.expressions.expand_single_brackets",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Expanding single brackets directly practises expansion using distribution.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expanding.encompasses.factor_common",
+        "from": "math.algebra.expressions.expanding_factorising",
+        "to": "math.algebra.expressions.factor_out_common_factor",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Factoring out a common factor is an early core form of factorising.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expanding.encompasses.expand_simplify",
+        "from": "math.algebra.expressions.expanding_factorising",
+        "to": "math.algebra.expressions.expand_and_simplify",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Expanding and simplifying combines distribution with collecting like terms.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_symbols.requires.number_sentences",
+        "from": "math.algebra.expressions.missing_value_symbols",
+        "to": "math.algebra.equations.number_sentences",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Missing-value symbols build on number sentences and relational equality.",
+        "failure_signal": "Learner treats a box or letter as an operation rather than a value placeholder.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_notation.requires.missing_symbols",
+        "from": "math.algebra.expressions.variable_notation",
+        "to": "math.algebra.expressions.missing_value_symbols",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Letter variables extend earlier missing-value symbols and placeholders.",
+        "failure_signal": "Learner reads a variable only as a label rather than as a value that can be reasoned about.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_contexts.requires.variable_notation",
+        "from": "math.algebra.expressions.variables_in_contexts",
+        "to": "math.algebra.expressions.variable_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Defining variables in context requires first understanding variable notation as representing a quantity.",
+        "failure_signal": "Learner chooses letters based on object names but cannot state the quantity represented.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expr_vs_equations.requires.variable_notation",
+        "from": "math.algebra.expressions.expressions_vs_equations",
+        "to": "math.algebra.expressions.variable_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Distinguishing expressions and equations requires recognising variables inside algebraic statements and expressions.",
+        "failure_signal": "Learner adds an equals sign and answer to every expression regardless of task.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitute_positive.requires.variable_notation",
+        "from": "math.algebra.expressions.substitute_positive_values",
+        "to": "math.algebra.expressions.variable_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Substitution requires understanding that a variable can be replaced by a given value.",
+        "failure_signal": "Learner leaves the variable unchanged or substitutes inconsistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitute_negative.requires.integer_order_ops",
+        "from": "math.algebra.expressions.substitute_negative_values",
+        "to": "math.integers.order_of_operations_with_integers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Substituting negative values requires preserving signs and operation order in integer expressions.",
+        "failure_signal": "Learner loses the negative sign or changes expression structure during substitution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_expressions.requires.substitute_positive",
+        "from": "math.algebra.expressions.evaluate_algebraic_expressions",
+        "to": "math.algebra.expressions.substitute_positive_values",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Evaluating algebraic expressions requires substituting values before calculating.",
+        "failure_signal": "Learner performs operations on variables before replacing them with values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitute_formulas.requires.evaluate_expressions",
+        "from": "math.algebra.expressions.substitute_into_formulas",
+        "to": "math.algebra.expressions.evaluate_algebraic_expressions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Using formulas requires evaluating structured algebraic expressions after substitution.",
+        "failure_signal": "Learner substitutes values but does not follow formula structure or operation order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.terms_coefficients.requires.expr_vs_equations",
+        "from": "math.algebra.expressions.terms_coefficients_constants",
+        "to": "math.algebra.expressions.expressions_vs_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying terms and constants requires reading an algebraic expression as a structured quantity.",
+        "failure_signal": "Learner cannot identify where one term ends and another begins.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_conventions.requires.terms",
+        "from": "math.algebra.expressions.algebraic_conventions",
+        "to": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Algebraic conventions are meaningful after terms, coefficients and variables are understood.",
+        "failure_signal": "Learner reads 3x as a two-digit number or as 3 plus x.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.like_terms.requires.terms",
+        "from": "math.algebra.expressions.like_and_unlike_terms",
+        "to": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Like-term identification depends on understanding term structure and variable parts.",
+        "failure_signal": "Learner groups terms by coefficient alone or variable letter alone when powers differ.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collect_like_terms.requires.like_terms",
+        "from": "math.algebra.expressions.collect_like_terms",
+        "to": "math.algebra.expressions.like_and_unlike_terms",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Collecting like terms requires identifying which terms are like before combining coefficients.",
+        "failure_signal": "Learner combines unlike terms or changes the variable part during simplification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distributive_algebra.requires.whole_distributive",
+        "from": "math.algebra.expressions.distributive_property_algebra",
+        "to": "math.number.operations.distributive_property_whole_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Algebraic distribution extends the distributive property from whole-number multiplication to terms with variables.",
+        "failure_signal": "Learner distributes mechanically without recognising multiplication over addition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_brackets.requires.distributive_algebra",
+        "from": "math.algebra.expressions.expand_single_brackets",
+        "to": "math.algebra.expressions.distributive_property_algebra",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Expanding single brackets is a direct application of the distributive property.",
+        "failure_signal": "Learner multiplies only the first term inside brackets or drops signs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_common.requires.distributive_algebra",
+        "from": "math.algebra.expressions.factor_out_common_factor",
+        "to": "math.algebra.expressions.distributive_property_algebra",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Factoring out a common factor reverses the distributive structure used in expansion.",
+        "failure_signal": "Learner identifies a common number but cannot rewrite the expression as a product.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_simplify.requires.expand_brackets",
+        "from": "math.algebra.expressions.expand_and_simplify",
+        "to": "math.algebra.expressions.expand_single_brackets",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Expanding and simplifying requires first being able to expand brackets correctly.",
+        "failure_signal": "Learner expands but leaves unlike or like terms incorrectly combined.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.has_mis.variable_label",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.misconception.expressions.variable_is_object_label",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.has_mis.expression_equals",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.misconception.expressions.expression_must_have_equals",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution.has_mis.substitute_once",
+        "from": "math.algebra.expressions.substitution",
+        "to": "math.misconception.expressions.substitute_only_first_occurrence",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplifying.has_mis.combine_unlike",
+        "from": "math.algebra.expressions.simplifying_expressions",
+        "to": "math.misconception.expressions.combine_unlike_terms",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expanding.has_mis.distribute_first_only",
+        "from": "math.algebra.expressions.expanding_factorising",
+        "to": "math.misconception.expressions.distribute_to_first_term_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/variables_and_expressions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 542,
+    "edges": 981
+  },
+  "graph_counts_after": {
+    "nodes": 573,
+    "edges": 1049
+  }
+}

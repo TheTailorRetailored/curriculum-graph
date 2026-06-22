@@ -1,0 +1,294 @@
+{
+  "patch_id": "math-fractions-unlike-denominator-subtraction-compliance",
+  "applied_at": "2026-06-06T05:55:06.653Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 4,
+      "edges_created": 11,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.choose_common_denominator_for_subtraction",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unlike_denominator_fraction_subtraction",
+        "label": "Choose a common denominator for subtraction",
+        "description": "Select a common denominator so unlike-denominator fractions can be rewritten using the same-sized fractional units before subtracting.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.rewrite_subtrahend_and_minuend_with_common_denominator",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unlike_denominator_fraction_subtraction",
+        "label": "Rewrite both subtraction terms with a common denominator",
+        "description": "Rewrite the minuend and subtrahend as equivalent fractions with a shared denominator before subtracting.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.subtract_common_unit_numerators",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unlike_denominator_fraction_subtraction",
+        "label": "Subtract numerators after units match",
+        "description": "Once denominators match, subtract the numerators because they count the same-sized fractional units.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.subtraction_requires_ordered_terms",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unlike_denominator_fraction_subtraction",
+        "label": "Subtraction order matters",
+        "description": "Recognise that fraction subtraction is not commutative, so the minuend and subtrahend must not be swapped when rewriting with common denominators.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_choose_common_den_sub.part_of.unlike_den_sub",
+        "from": "math.kp.fractions.choose_common_denominator_for_subtraction",
+        "to": "math.fractions.unlike_denominator_fraction_subtraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rewrite_terms_common_den.part_of.unlike_den_sub",
+        "from": "math.kp.fractions.rewrite_subtrahend_and_minuend_with_common_denominator",
+        "to": "math.fractions.unlike_denominator_fraction_subtraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_subtract_common_unit_numerators.part_of.unlike_den_sub",
+        "from": "math.kp.fractions.subtract_common_unit_numerators",
+        "to": "math.fractions.unlike_denominator_fraction_subtraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_subtraction_order_matters.part_of.unlike_den_sub",
+        "from": "math.kp.fractions.subtraction_requires_ordered_terms",
+        "to": "math.fractions.unlike_denominator_fraction_subtraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unlike_den_sub.uses_representation.area_model",
+        "from": "math.fractions.unlike_denominator_fraction_subtraction",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models can show equivalent repartitioning before removing a fractional amount.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unlike_den_sub.uses_representation.number_line",
+        "from": "math.fractions.unlike_denominator_fraction_subtraction",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines can show subtraction as movement back after rewriting fractions into common units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unlike_den_sub.assessed_by.compute",
+        "from": "math.fractions.unlike_denominator_fraction_subtraction",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute differences of fractions with unlike denominators.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unlike_den_sub.assessed_by.explain",
+        "from": "math.fractions.unlike_denominator_fraction_subtraction",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain why common units are needed before subtracting.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unlike_den_sub.assessed_by.find_error",
+        "from": "math.fractions.unlike_denominator_fraction_subtraction",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Error-finding can reveal subtracting denominators, subtracting unlike units directly, or swapping subtraction order.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unlike_den_sub.has_mis.common_denominator_changes_value",
+        "from": "math.fractions.unlike_denominator_fraction_subtraction",
+        "to": "math.misconception.fractions.common_denominator_changes_value",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Learners may think rewriting fractions with a common denominator changes the amount before subtracting.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unlike_den_sub.has_mis.add_denominators",
+        "from": "math.fractions.unlike_denominator_fraction_subtraction",
+        "to": "math.misconception.fractions.add_denominators_when_adding",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "The same denominator-operation misconception can appear as subtracting denominators during subtraction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2539,
+    "edges": 5288
+  },
+  "graph_counts_after": {
+    "nodes": 2543,
+    "edges": 5299
+  }
+}

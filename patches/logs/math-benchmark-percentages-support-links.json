@@ -1,0 +1,113 @@
+{
+  "patch_id": "math-benchmark-percentages-support-links",
+  "applied_at": "2026-06-08T14:56:02.157Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.benchmark_percentages.uses_representation.bar_model",
+        "from": "math.percentages.benchmark_percentages",
+        "to": "math.representation.bar_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Bar models show benchmark percentages as familiar portions of a whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.benchmark_percentages.uses_representation.area_model",
+        "from": "math.percentages.benchmark_percentages",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area models can show 10%, 25%, 50% and 100% as parts of a whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.benchmark_percentages.assessed_by.compute",
+        "from": "math.percentages.benchmark_percentages",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute benchmark percentages of quantities.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.benchmark_percentages.assessed_by.model",
+        "from": "math.percentages.benchmark_percentages",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model benchmark percentages using visual portions of a base quantity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.benchmark_percentages.assessed_by.explain",
+        "from": "math.percentages.benchmark_percentages",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain benchmark percentage relationships to common fractions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2646,
+    "edges": 5579
+  },
+  "graph_counts_after": {
+    "nodes": 2646,
+    "edges": 5584
+  }
+}

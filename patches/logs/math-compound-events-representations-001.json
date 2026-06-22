@@ -1,0 +1,1019 @@
+{
+  "patch_id": "math-compound-events-representations-001",
+  "applied_at": "2026-05-28T08:08:51.685Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 17,
+      "edges_created": 39,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.and_or_event_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "And and or event language",
+        "description": "Interpret compound event language using and for overlap and or for combined outcomes.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.two_way_table_structure",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Two-way table structure",
+        "description": "Read rows, columns, cells, marginal totals and grand totals in two-way tables.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.fill_two_way_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Fill two-way tables",
+        "description": "Complete missing entries in two-way tables using row, column and grand totals.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.read_two_way_table_probabilities",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Read probabilities from two-way tables",
+        "description": "Use cells and totals in a two-way table to find simple and compound event probabilities.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.venn_diagram_regions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Venn diagram regions",
+        "description": "Interpret regions of a Venn diagram as event, overlap, outside and complement outcomes.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.union_and_intersection_events",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Union and intersection events",
+        "description": "Distinguish event union from event intersection in tables, diagrams and words.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.event_complement_in_venn",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Event complement in Venn diagrams",
+        "description": "Use Venn diagrams to identify outcomes not in an event or not in a compound event.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.tree_diagram_branches",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Tree diagram branches",
+        "description": "Interpret branches of a tree diagram as stages and possible outcomes in a chance process.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.tree_diagram_outcomes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Tree diagram outcomes",
+        "description": "List complete outcomes from paths through a tree diagram.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.addition_rule_simple",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Addition rule simple",
+        "description": "Use addition reasoning for event unions, including adjustment for overlapping outcomes when needed.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.compound_events_combine_events",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Compound events combine events",
+        "description": "A compound event is made by combining two or more events using ideas such as and, or, or not.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.and_intersection_or_union",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "And means intersection and or means union",
+        "description": "In probability, and usually refers to intersection while or usually refers to union.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.tables_organise_joint_counts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Tables organise joint counts",
+        "description": "Two-way tables organise counts by two attributes so joint and marginal totals can be read.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.venn_regions_partition_space",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Venn regions partition the sample space",
+        "description": "Regions in a Venn diagram separate outcomes by event membership and non-membership.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.tree_branches_represent_stages",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Tree branches represent stages",
+        "description": "Branches in a tree diagram show possible outcomes at each stage of a sequential chance process.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.and_or_confused",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "And and or confused",
+        "description": "Learner confuses intersection with union when reading compound event language.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.double_count_overlap",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Double-count overlap",
+        "description": "Learner counts outcomes in the overlap twice when finding an event union.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.and_or.part_of.tables_venn",
+        "from": "math.probability.compound.and_or_event_language",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.two_way_structure.part_of.tables_venn",
+        "from": "math.probability.compound.two_way_table_structure",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.fill_tables.part_of.tables_venn",
+        "from": "math.probability.compound.fill_two_way_tables",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.read_table_probs.part_of.tables_venn",
+        "from": "math.probability.compound.read_two_way_table_probabilities",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.venn_regions.part_of.tables_venn",
+        "from": "math.probability.compound.venn_diagram_regions",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.union_intersection.part_of.tables_venn",
+        "from": "math.probability.compound.union_and_intersection_events",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.complement_venn.part_of.tables_venn",
+        "from": "math.probability.compound.event_complement_in_venn",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.tree_branches.part_of.tables_venn",
+        "from": "math.probability.compound.tree_diagram_branches",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.tree_outcomes.part_of.tables_venn",
+        "from": "math.probability.compound.tree_diagram_outcomes",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound.addition_rule.part_of.tables_venn",
+        "from": "math.probability.compound.addition_rule_simple",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compound_combine.part_of.tables_venn",
+        "from": "math.kp.probability.compound_events_combine_events",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_and_or.part_of.tables_venn",
+        "from": "math.kp.probability.and_intersection_or_union",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_tables_joint_counts.part_of.tables_venn",
+        "from": "math.kp.probability.tables_organise_joint_counts",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_venn_partition.part_of.tables_venn",
+        "from": "math.kp.probability.venn_regions_partition_space",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_tree_branches.part_of.tables_venn",
+        "from": "math.kp.probability.tree_branches_represent_stages",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_and_or.part_of.tables_venn",
+        "from": "math.misconception.probability.and_or_confused",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_double_count.part_of.tables_venn",
+        "from": "math.misconception.probability.double_count_overlap",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.and_or",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.and_or_event_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "And/or language is central to interpreting compound events in tables and diagrams.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.two_way_structure",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.two_way_table_structure",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Two-way table structure is central to table-based compound event representation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.fill_tables",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.fill_two_way_tables",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Completing tables supports reading and calculating compound event probabilities.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.read_probs",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.read_two_way_table_probabilities",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading probabilities from tables directly practises compound event representation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.venn_regions",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.venn_diagram_regions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Venn diagram regions represent compound event relationships visually.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.union_intersection",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Union and intersection are core compound event relationships.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.complement",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.event_complement_in_venn",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Complements are represented naturally in Venn diagrams and sample spaces.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.tree_branches",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.tree_diagram_branches",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Tree diagrams are another representation for compound and sequential events.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.tree_outcomes",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.tree_diagram_outcomes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Tree paths list compound outcomes in sequential contexts.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.encompasses.addition_rule",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.addition_rule_simple",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Addition reasoning helps calculate unions from tables and diagrams.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.and_or.requires.outcome_event",
+        "from": "math.probability.compound.and_or_event_language",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Compound event language requires distinguishing outcomes from events.",
+        "failure_signal": "Learner treats a single outcome and a combined event as the same thing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_structure.requires.theoretical",
+        "from": "math.probability.compound.two_way_table_structure",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Two-way table probability interpretation builds on simple probability and totals.",
+        "failure_signal": "Learner reads cells without connecting counts to probabilities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fill_two_way.requires.structure",
+        "from": "math.probability.compound.fill_two_way_tables",
+        "to": "math.probability.compound.two_way_table_structure",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Completing two-way tables requires understanding rows, columns and totals.",
+        "failure_signal": "Learner fills cells inconsistently with marginal totals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_two_way_probs.requires.fill",
+        "from": "math.probability.compound.read_two_way_table_probabilities",
+        "to": "math.probability.compound.fill_two_way_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading probabilities from tables requires identifying relevant counts and totals.",
+        "failure_signal": "Learner chooses the wrong total or cell for the event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_regions.requires.and_or",
+        "from": "math.probability.compound.venn_diagram_regions",
+        "to": "math.probability.compound.and_or_event_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Venn regions represent and/or/not event language visually.",
+        "failure_signal": "Learner cannot connect overlap and outside regions to event statements.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.union_intersection.requires.venn",
+        "from": "math.probability.compound.union_and_intersection_events",
+        "to": "math.probability.compound.venn_diagram_regions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Union and intersection are interpreted through regions and overlap in diagrams or tables.",
+        "failure_signal": "Learner confuses overlap with combined region.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_venn.requires.union_intersection",
+        "from": "math.probability.compound.event_complement_in_venn",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Complements in diagrams require understanding which outcomes are inside or outside events.",
+        "failure_signal": "Learner shades the event instead of the not-event region.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tree_branches.requires.sample_space",
+        "from": "math.probability.compound.tree_diagram_branches",
+        "to": "math.probability.chance.organised_sample_spaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Tree branches are organised sample-space representations for staged situations.",
+        "failure_signal": "Learner lists branches without preserving stage order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tree_outcomes.requires.branches",
+        "from": "math.probability.compound.tree_diagram_outcomes",
+        "to": "math.probability.compound.tree_diagram_branches",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Complete outcomes are paths through tree diagram branches.",
+        "failure_signal": "Learner treats individual branches as complete outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.addition_rule.requires.union",
+        "from": "math.probability.compound.addition_rule_simple",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Addition reasoning for compound events depends on identifying unions and overlaps.",
+        "failure_signal": "Learner double-counts overlapping outcomes when adding probabilities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.has_mis.and_or",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.misconception.probability.and_or_confused",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.has_mis.double_count",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.misconception.probability.double_count_overlap",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/compound_events.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1221,
+    "edges": 2542
+  },
+  "graph_counts_after": {
+    "nodes": 1238,
+    "edges": 2581
+  }
+}

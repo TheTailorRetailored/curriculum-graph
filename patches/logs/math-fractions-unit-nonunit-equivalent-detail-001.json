@@ -1,0 +1,1773 @@
+{
+  "patch_id": "math-fractions-unit-nonunit-equivalent-detail-001",
+  "applied_at": "2026-05-24T15:04:37.187Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 68,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.equal_parts_of_whole",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equal parts of a whole",
+        "description": "Partition one whole into equal-sized parts before naming fractional parts.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.equal_parts_of_collection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equal parts of a collection",
+        "description": "Partition a collection into equal groups to represent fractional parts of a set.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.unit_fraction_area_models",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Unit fraction area models",
+        "description": "Represent one equal part of a whole using area models.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.unit_fraction_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Unit fraction notation",
+        "description": "Read and write unit fractions using numerator, denominator and fraction bar notation.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.unit_fractions_on_number_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Unit fractions on number line",
+        "description": "Locate unit fractions between 0 and 1 on a number line.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.unit_fraction_size",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Unit fraction size",
+        "description": "Reason that unit fractions get smaller as the denominator names more equal parts of the same whole.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.non_unit_fraction_area_models",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Non unit fraction area models",
+        "description": "Represent several equal parts of a whole using area models.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.non_unit_fractions_on_number_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Non unit fractions on number line",
+        "description": "Locate non-unit fractions between whole numbers on a number line.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.numerator_counts_parts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Numerator counts parts",
+        "description": "Interpret the numerator as the number of equal parts being counted.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.denominator_names_unit_size",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Denominator names unit size",
+        "description": "Interpret the denominator as the number of equal parts in one whole and therefore the size of each part.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.compare_same_denominator",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Compare fractions same denominator",
+        "description": "Compare fractions with the same denominator by comparing the number of equal parts counted.",
+        "aliases": [],
+        "year_band": "4-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.compare_same_numerator",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Compare fractions same numerator",
+        "description": "Compare fractions with the same numerator by reasoning about the size of the equal parts.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.equivalent_area_models",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equivalent fraction area models",
+        "description": "Use partitioned area models to show different fractions with the same value.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.equivalent_number_lines",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equivalent fractions on number lines",
+        "description": "Use number lines to show fractions that occupy the same point.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.equivalent_fraction_scaling",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equivalent fraction scaling",
+        "description": "Create equivalent fractions by scaling numerator and denominator by the same nonzero whole number.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.simplify_fractions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Simplify fractions",
+        "description": "Rename a fraction using smaller numerator and denominator while preserving its value.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.whole_split_equal_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Whole is split into equal parts",
+        "description": "Fractional parts must be equal-sized parts of the same whole.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.unit_fraction_one_part",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Unit fraction is one equal part",
+        "description": "A unit fraction names one equal part of a whole or collection.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.denominator_names_unit",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Denominator names the unit",
+        "description": "The denominator names how many equal parts make one whole.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.numerator_counts_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Numerator counts fraction units",
+        "description": "The numerator counts how many fractional units are being considered.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_whole_required",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Same whole is required",
+        "description": "Fractions can be compared or combined meaningfully only when they refer to the same-sized whole or consistent unit.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.fractions_can_name_points",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Fractions can name points",
+        "description": "Fractions can locate quantities as points on a number line, not only shaded regions.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.larger_denominator_smaller_unit",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Larger denominator means smaller unit",
+        "description": "For the same whole, a larger denominator in a unit fraction means smaller equal parts.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.equivalent_same_quantity",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equivalent fractions name same quantity",
+        "description": "Equivalent fractions use different numbers to name the same quantity.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.scale_numerator_denominator",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Scale numerator and denominator together",
+        "description": "Multiplying or dividing numerator and denominator by the same nonzero number preserves fraction value.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.simplifying_preserves_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Simplifying preserves value",
+        "description": "Simplifying changes the notation but not the quantity represented by the fraction.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.fractions.unequal_parts_are_fractions",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Unequal parts are acceptable fractions",
+        "description": "Learner names parts as fractions even when the whole has not been partitioned into equal parts.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.fractions.denominator_counts_shaded_parts",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Denominator counts shaded parts",
+        "description": "Learner treats the denominator as the number of selected or shaded parts rather than total equal parts in the whole.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.fractions.larger_denominator_larger_fraction",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Larger denominator means larger fraction",
+        "description": "Learner applies whole-number comparison to denominators and thinks larger denominators always mean larger fractions.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.fractions.compare_numerator_denominator_separately",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Compare numerator and denominator separately",
+        "description": "Learner compares numerators and denominators independently rather than comparing represented quantities.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.fractions.equivalent_fractions_change_quantity",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equivalent fractions change quantity",
+        "description": "Learner treats an equivalent fraction as a different amount because the numerator and denominator changed.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_whole.part_of.unit_fractions",
+        "from": "math.fractions.equal_parts_of_whole",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_collection.part_of.unit_fractions",
+        "from": "math.fractions.equal_parts_of_collection",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_area_models.part_of.unit_fractions",
+        "from": "math.fractions.unit_fraction_area_models",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_fraction_notation.part_of.unit_fractions",
+        "from": "math.fractions.unit_fraction_notation",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_number_line.part_of.unit_fractions",
+        "from": "math.fractions.unit_fractions_on_number_line",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_size.part_of.unit_fractions",
+        "from": "math.fractions.unit_fraction_size",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_area_models.part_of.non_unit",
+        "from": "math.fractions.non_unit_fraction_area_models",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_number_line.part_of.non_unit",
+        "from": "math.fractions.non_unit_fractions_on_number_line",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerator_counts_parts.part_of.non_unit",
+        "from": "math.fractions.numerator_counts_parts",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.denominator_names_unit.part_of.non_unit",
+        "from": "math.fractions.denominator_names_unit_size",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator.part_of.non_unit",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_numerator.part_of.non_unit",
+        "from": "math.fractions.compare_same_numerator",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_area_models.part_of.equivalent",
+        "from": "math.fractions.equivalent_area_models",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_number_lines.part_of.equivalent",
+        "from": "math.fractions.equivalent_number_lines",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_scaling.part_of.equivalent",
+        "from": "math.fractions.equivalent_fraction_scaling",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_fractions.part_of.equivalent",
+        "from": "math.fractions.simplify_fractions",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_whole_equal_parts.part_of.unit",
+        "from": "math.kp.fractions.whole_split_equal_parts",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_unit_one_part.part_of.unit",
+        "from": "math.kp.fractions.unit_fraction_one_part",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_denominator_names_unit.part_of.nonunit",
+        "from": "math.kp.fractions.denominator_names_unit",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_numerator_counts_units.part_of.nonunit",
+        "from": "math.kp.fractions.numerator_counts_units",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_whole_required.part_of.fractions",
+        "from": "math.kp.fractions.same_whole_required",
+        "to": "math.area.fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fractions_points.part_of.unit",
+        "from": "math.kp.fractions.fractions_can_name_points",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_larger_denominator_smaller_unit.part_of.unit",
+        "from": "math.kp.fractions.larger_denominator_smaller_unit",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equivalent_same_quantity.part_of.equivalent",
+        "from": "math.kp.fractions.equivalent_same_quantity",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_scale_num_den.part_of.equivalent",
+        "from": "math.kp.fractions.scale_numerator_denominator",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_simplifying_preserves.part_of.equivalent",
+        "from": "math.kp.fractions.simplifying_preserves_value",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_unequal_parts.part_of.unit",
+        "from": "math.misconception.fractions.unequal_parts_are_fractions",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_denominator_shaded.part_of.nonunit",
+        "from": "math.misconception.fractions.denominator_counts_shaded_parts",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_larger_denominator.part_of.unit",
+        "from": "math.misconception.fractions.larger_denominator_larger_fraction",
+        "to": "math.fractions.unit_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_compare_separately.part_of.equivalent",
+        "from": "math.misconception.fractions.compare_numerator_denominator_separately",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_equiv_changes_quantity.part_of.equivalent",
+        "from": "math.misconception.fractions.equivalent_fractions_change_quantity",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit.encompasses.equal_parts_whole",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.fractions.equal_parts_of_whole",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Unit-fraction work directly practises recognising one equal part of a whole.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit.encompasses.equal_parts_collection",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.fractions.equal_parts_of_collection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Unit fractions can refer to one equal part of a collection as well as one whole.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit.encompasses.area_models",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.fractions.unit_fraction_area_models",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Area models are a central representation for unit fractions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit.encompasses.notation",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.fractions.unit_fraction_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading and writing unit-fraction notation is core unit-fraction practice.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit.encompasses.number_line",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.fractions.unit_fractions_on_number_line",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Number lines show unit fractions as distances and positions from zero.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit.encompasses.unit_size",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.fractions.unit_fraction_size",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reasoning about the size of one equal part is central to unit fractions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit.encompasses.area_models",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.fractions.non_unit_fraction_area_models",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Area models directly practise representing several equal parts.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit.encompasses.number_line",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.fractions.non_unit_fractions_on_number_line",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Number lines support interpreting non-unit fractions as quantities and positions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit.encompasses.numerator_counts",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.fractions.numerator_counts_parts",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Non-unit fractions require counting several fractional units.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit.encompasses.denominator_unit_size",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.fractions.denominator_names_unit_size",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interpreting the denominator as unit size is central to non-unit fractions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit.encompasses.same_denominator_compare",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.fractions.compare_same_denominator",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing same-denominator fractions practises counting equal-sized fractional units.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit.encompasses.same_numerator_compare",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.fractions.compare_same_numerator",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing same-numerator fractions applies reasoning about unit-fraction size.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent.encompasses.area_models",
+        "from": "math.fractions.equivalent_fractions",
+        "to": "math.fractions.equivalent_area_models",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Area models directly show different partitions preserving the same quantity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent.encompasses.number_lines",
+        "from": "math.fractions.equivalent_fractions",
+        "to": "math.fractions.equivalent_number_lines",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Number lines directly show equivalent fractions at the same point.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent.encompasses.scaling",
+        "from": "math.fractions.equivalent_fractions",
+        "to": "math.fractions.equivalent_fraction_scaling",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Scaling numerator and denominator together is a direct method for generating equivalent fractions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent.encompasses.simplify",
+        "from": "math.fractions.equivalent_fractions",
+        "to": "math.fractions.simplify_fractions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Simplifying fractions is renaming a fraction using an equivalent form.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_whole.requires.cardinality",
+        "from": "math.fractions.equal_parts_of_whole",
+        "to": "math.number.counting.cardinality",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Partitioning a whole into fractional parts depends on understanding a collection or whole as a countable total of parts.",
+        "failure_signal": "Learner identifies parts without preserving the whole as the reference quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_collection.requires.equal_groups",
+        "from": "math.fractions.equal_parts_of_collection",
+        "to": "math.number.operations.equal_groups_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Fractions of collections require forming equal groups from a set.",
+        "failure_signal": "Learner partitions a collection into unequal groups but names them as equal fractional parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_area_requires.equal_parts_whole",
+        "from": "math.fractions.unit_fraction_area_models",
+        "to": "math.fractions.equal_parts_of_whole",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "A unit-fraction area model requires partitioning the whole into equal parts.",
+        "failure_signal": "Learner shades one part without checking whether all parts are equal-sized.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_notation_requires.unit_area",
+        "from": "math.fractions.unit_fraction_notation",
+        "to": "math.fractions.unit_fraction_area_models",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Notation for a unit fraction should connect to one equal part of a represented whole.",
+        "failure_signal": "Learner reads 1/4 as two whole numbers rather than one of four equal parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_number_line_requires.unit_notation",
+        "from": "math.fractions.unit_fractions_on_number_line",
+        "to": "math.fractions.unit_fraction_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Placing unit fractions on a number line requires interpreting the notation as a fractional distance.",
+        "failure_signal": "Learner places 1/4 at 4 or treats denominator as a whole-number position.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_size_requires.unit_notation",
+        "from": "math.fractions.unit_fraction_size",
+        "to": "math.fractions.unit_fraction_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Reasoning about unit-fraction size depends on interpreting the denominator as equal parts of one whole.",
+        "failure_signal": "Learner thinks 1/8 is larger than 1/4 because 8 is larger than 4.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_area_requires.unit_notation",
+        "from": "math.fractions.non_unit_fraction_area_models",
+        "to": "math.fractions.unit_fraction_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Representing several equal parts depends on understanding one fractional unit first.",
+        "failure_signal": "Learner counts shaded regions without identifying the size of each unit part.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerator_counts_requires.nonunit_area",
+        "from": "math.fractions.numerator_counts_parts",
+        "to": "math.fractions.non_unit_fraction_area_models",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The numerator counts how many fractional units are represented in a non-unit fraction model.",
+        "failure_signal": "Learner cannot explain why 3/4 has numerator 3 in a four-part whole with three selected parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.denominator_unit_requires.unit_size",
+        "from": "math.fractions.denominator_names_unit_size",
+        "to": "math.fractions.unit_fraction_size",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Understanding denominator as unit size builds on unit-fraction size reasoning.",
+        "failure_signal": "Learner treats the denominator only as a count, not as naming the size of each unit part.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_number_line_requires.numerator_counts",
+        "from": "math.fractions.non_unit_fractions_on_number_line",
+        "to": "math.fractions.numerator_counts_parts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Locating non-unit fractions on a number line requires counting fractional units from zero.",
+        "failure_signal": "Learner places 3/4 at 3 or 4 rather than three fourth-units from zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator_requires.numerator_counts",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.fractions.numerator_counts_parts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "With the same denominator, comparison depends on counting how many same-sized parts are present.",
+        "failure_signal": "Learner does not recognise that 3/8 is greater than 2/8 because it has one more eighth.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_numerator_requires.unit_size",
+        "from": "math.fractions.compare_same_numerator",
+        "to": "math.fractions.unit_fraction_size",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Same-numerator comparisons depend on reasoning about the size of each fractional unit.",
+        "failure_signal": "Learner thinks 3/8 is greater than 3/4 because 8 is greater than 4.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_area_requires.nonunit_area",
+        "from": "math.fractions.equivalent_area_models",
+        "to": "math.fractions.non_unit_fraction_area_models",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Equivalent fraction area models require interpreting represented non-unit fractions as quantities.",
+        "failure_signal": "Learner sees different partitions but cannot compare the represented shaded amount.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_number_lines_requires.nonunit_line",
+        "from": "math.fractions.equivalent_number_lines",
+        "to": "math.fractions.non_unit_fractions_on_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising equivalent points requires locating non-unit fractions on a number line.",
+        "failure_signal": "Learner places equivalent fractions at different points based only on their numerals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_scaling_requires.equivalent_area",
+        "from": "math.fractions.equivalent_fraction_scaling",
+        "to": "math.fractions.equivalent_area_models",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Scaling equivalent fractions should build from seeing that repartitioning can preserve quantity.",
+        "failure_signal": "Learner changes numerator and denominator mechanically without preserving value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_requires.equivalent_scaling",
+        "from": "math.fractions.simplify_fractions",
+        "to": "math.fractions.equivalent_fraction_scaling",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Simplifying is generating an equivalent fraction with smaller numerator and denominator.",
+        "failure_signal": "Learner divides only numerator or denominator and changes the fraction's value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit.has_mis.unequal_parts",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.misconception.fractions.unequal_parts_are_fractions",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit.has_mis.denominator_shaded",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.misconception.fractions.denominator_counts_shaded_parts",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit.has_mis.larger_denominator",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.misconception.fractions.larger_denominator_larger_fraction",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent.has_mis.compare_separately",
+        "from": "math.fractions.equivalent_fractions",
+        "to": "math.misconception.fractions.compare_numerator_denominator_separately",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent.has_mis.changes_quantity",
+        "from": "math.fractions.equivalent_fractions",
+        "to": "math.misconception.fractions.equivalent_fractions_change_quantity",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 387,
+    "edges": 641
+  },
+  "graph_counts_after": {
+    "nodes": 418,
+    "edges": 709
+  }
+}

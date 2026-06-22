@@ -1,0 +1,16 @@
+edges:
+  - id: edge.math.add_unlike_encompasses_equivalent_fractions
+    from: math.topic.add_fractions_unlike_denominators
+    to: math.topic.generate_equivalent_fractions
+    type: encompasses
+    weight: 0.45
+    confidence: medium
+    rationale: Adding unlike-denominator fractions actively practises generating
+      equivalent fractions as a component step.
+    status: deprecated
+    metadata:
+      created_by: system
+      review_status: needs_revision
+      confidence: medium
+      compliance_note: Deprecated legacy edge from merged draft unlike-denominator
+        topic to merged draft equivalent-fractions topic.

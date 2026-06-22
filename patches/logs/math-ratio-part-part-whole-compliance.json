@@ -1,0 +1,402 @@
+{
+  "patch_id": "math-ratio-part-part-whole-compliance",
+  "applied_at": "2026-06-08T18:25:44.482Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 6,
+      "edges_created": 15,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.part_part_compares_two_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "parent_topic": "math.ratio.part_part_ratios",
+        "label": "Part-part ratio compares two parts",
+        "description": "A part-part ratio compares one part of a situation with another part, not with the total.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.part_part_total_not_named_directly",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "parent_topic": "math.ratio.part_part_ratios",
+        "label": "Part-part ratio does not name the total directly",
+        "description": "In a part-part ratio, the whole is implicit as the sum of the compared parts rather than one of the two ratio terms.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.part_part_order_matches_labels",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "parent_topic": "math.ratio.part_part_ratios",
+        "label": "Part-part ratio order matches labels",
+        "description": "The order of a part-part ratio must match the order of the named quantities being compared.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.part_whole_compares_part_to_total",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "parent_topic": "math.ratio.part_whole_ratios",
+        "label": "Part-whole ratio compares a part to the total",
+        "description": "A part-whole ratio compares one selected part with the whole quantity in the situation.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.whole_includes_all_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "parent_topic": "math.ratio.part_whole_ratios",
+        "label": "Whole includes all parts",
+        "description": "For a part-whole ratio, the whole includes the selected part and all other parts in the situation.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.part_whole_connects_to_fraction",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "parent_topic": "math.ratio.part_whole_ratios",
+        "label": "Part-whole ratio connects to fraction meaning",
+        "description": "A part-whole ratio can be interpreted as a fraction or percentage when the whole is the reference quantity.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_part_part_compares_parts.part_of.part_part",
+        "from": "math.kp.ratio.part_part_compares_two_parts",
+        "to": "math.ratio.part_part_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_part_part_total_implicit.part_of.part_part",
+        "from": "math.kp.ratio.part_part_total_not_named_directly",
+        "to": "math.ratio.part_part_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_part_part_order_labels.part_of.part_part",
+        "from": "math.kp.ratio.part_part_order_matches_labels",
+        "to": "math.ratio.part_part_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_part_whole_compares_total.part_of.part_whole",
+        "from": "math.kp.ratio.part_whole_compares_part_to_total",
+        "to": "math.ratio.part_whole_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_whole_includes_all_parts.part_of.part_whole",
+        "from": "math.kp.ratio.whole_includes_all_parts",
+        "to": "math.ratio.part_whole_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_part_whole_fraction.part_of.part_whole",
+        "from": "math.kp.ratio.part_whole_connects_to_fraction",
+        "to": "math.ratio.part_whole_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_part.uses_representation.bar_model",
+        "from": "math.ratio.part_part_ratios",
+        "to": "math.representation.bar_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Bar models make the compared parts visible without treating one term as the whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_whole.uses_representation.bar_model",
+        "from": "math.ratio.part_whole_ratios",
+        "to": "math.representation.bar_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Bar models show how the part sits inside the total whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_part.assessed_by.model",
+        "from": "math.ratio.part_part_ratios",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model part-part comparisons with labelled bars or counters.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_part.assessed_by.explain",
+        "from": "math.ratio.part_part_ratios",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners should explain which two parts are compared and why order matters.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_part.assessed_by.find_error",
+        "from": "math.ratio.part_part_ratios",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding reveals reversed order and part-whole confusion.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_whole.assessed_by.model",
+        "from": "math.ratio.part_whole_ratios",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model the selected part and the whole in a bar model.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_whole.assessed_by.explain",
+        "from": "math.ratio.part_whole_ratios",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners should explain why the second term represents the whole, not another part.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_part.has_mis.reversing_order",
+        "from": "math.ratio.part_part_ratios",
+        "to": "math.misconception.ratio.reversing_ratio_order",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Part-part ratios are sensitive to the order of named parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_part.has_mis.additive_difference",
+        "from": "math.ratio.part_part_ratios",
+        "to": "math.misconception.ratio.additive_difference_as_ratio",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Learners may describe the difference between parts rather than the ratio relationship.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/ratio_rate_and_proportion.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2653,
+    "edges": 1472
+  },
+  "graph_counts_after": {
+    "nodes": 2659,
+    "edges": 1487
+  }
+}

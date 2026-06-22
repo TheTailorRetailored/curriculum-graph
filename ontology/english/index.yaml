@@ -1,0 +1,30 @@
+nodes:
+  - id: eng
+    type: subject
+    label: English
+    status: active
+    metadata: { created_by: system, review_status: approved }
+  - id: eng.pathway.f10_core
+    type: pathway
+    subject: english
+    label: F-10 core English
+    status: active
+    metadata: { created_by: system, review_status: approved }
+  - id: eng.strand.language
+    type: strand
+    subject: english
+    label: Language
+    status: active
+    metadata: { created_by: system, review_status: approved }
+  - id: eng.strand.literature
+    type: strand
+    subject: english
+    label: Literature
+    status: active
+    metadata: { created_by: system, review_status: approved }
+  - id: eng.strand.literacy
+    type: strand
+    subject: english
+    label: Literacy
+    status: active
+    metadata: { created_by: system, review_status: approved }

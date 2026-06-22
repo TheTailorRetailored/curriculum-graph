@@ -1,0 +1,200 @@
+{
+  "patch_id": "math-decimals-decimal-point-compliance",
+  "applied_at": "2026-06-07T08:13:15.824Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 7,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.digits_right_of_decimal_are_fractional_places",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.decimal_point_place_value",
+        "label": "Digits right of decimal are fractional places",
+        "description": "Digits to the right of the decimal point represent tenths, hundredths, thousandths, and smaller fractional place values.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.decimal_point_aligns_place_values",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.decimal_point_place_value",
+        "label": "Decimal point anchors place values",
+        "description": "The decimal point fixes the location of ones, tenths, hundredths, and other decimal places.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.decimals.decimal_point_separates_units",
+      "updates": {
+        "parent_topic": "math.decimals.decimal_point_place_value"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_decimal_point_units.part_of.dec_place_value",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific decimal point place value lesson rather than the broad decimal place value sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_point_units.part_of.decimal_point_place_value",
+        "from": "math.kp.decimals.decimal_point_separates_units",
+        "to": "math.decimals.decimal_point_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_digits_right_decimal.part_of.decimal_point_place_value",
+        "from": "math.kp.decimals.digits_right_of_decimal_are_fractional_places",
+        "to": "math.decimals.decimal_point_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_point_anchors_places.part_of.decimal_point_place_value",
+        "from": "math.kp.decimals.decimal_point_aligns_place_values",
+        "to": "math.decimals.decimal_point_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_point_place_value.uses_representation.place_value_chart",
+        "from": "math.decimals.decimal_point_place_value",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts show how the decimal point anchors ones and fractional places.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_point_place_value.assessed_by.explain",
+        "from": "math.decimals.decimal_point_place_value",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain the role of the decimal point in decimal place value.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_point_place_value.assessed_by.find_error",
+        "from": "math.decimals.decimal_point_place_value",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding catches readings such as treating 3.45 as separate whole numbers 3 and 45.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_point_place_value.has_mis.decimal_digits_as_whole_number",
+        "from": "math.decimals.decimal_point_place_value",
+        "to": "math.misconception.decimals.decimal_digits_as_whole_number",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Learners may read decimal digits as a separate whole number after the decimal point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2619,
+    "edges": 5498
+  },
+  "graph_counts_after": {
+    "nodes": 2621,
+    "edges": 5505
+  }
+}

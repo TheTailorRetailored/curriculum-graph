@@ -1,0 +1,1757 @@
+{
+  "patch_id": "math-senior-calculus-limits-differentiation-detail-001",
+  "applied_at": "2026-05-28T14:51:21.638Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 29,
+      "edges_created": 69,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.limit_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Limit notation",
+        "description": "Interpret notation for the limit of a function as the input approaches a value.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.graphical_limits",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Graphical limits",
+        "description": "Estimate and interpret limits from graphs, including behaviour near holes and jumps.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.numerical_limits",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Numerical limits",
+        "description": "Use tables of nearby input values to estimate limiting behaviour.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.one_sided_limits",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "One-sided limits",
+        "description": "Distinguish left-hand and right-hand limits and use them to decide whether a two-sided limit exists.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.limits_by_substitution",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Limits by substitution",
+        "description": "Evaluate limits by direct substitution when the function is continuous at the input value.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.algebraic_limit_simplification",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Algebraic limit simplification",
+        "description": "Simplify expressions to evaluate limits where direct substitution initially gives an indeterminate form.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.continuity_at_a_point",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Continuity at a point",
+        "description": "Determine whether a function is continuous at a point using function value, limit and agreement between them.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.discontinuity_types_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Discontinuity types introduction",
+        "description": "Recognise removable, jump and infinite discontinuities from graphs and simple formulas.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.average_rate_of_change",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Average rate of change",
+        "description": "Calculate and interpret average rate of change over an interval as a secant gradient.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.instantaneous_rate_of_change",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Instantaneous rate of change",
+        "description": "Interpret instantaneous rate of change as a limiting value of average rates of change.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.derivative_as_tangent_gradient",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Derivative as tangent gradient",
+        "description": "Interpret the derivative at a point as the gradient of the tangent to the graph at that point.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.derivative_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Derivative notation",
+        "description": "Interpret common derivative notation such as f prime, dy/dx and derivative function notation.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.power_rule",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Power rule",
+        "description": "Differentiate powers of x using the power rule and constant multiple rule.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.sum_difference_derivative_rules",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Sum and difference derivative rules",
+        "description": "Differentiate sums and differences of differentiable functions term by term.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.product_and_quotient_rules",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Product and quotient rules",
+        "description": "Use product and quotient rules to differentiate products and ratios of functions.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.chain_rule_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Chain rule introduction",
+        "description": "Differentiate composite functions using the chain rule in straightforward cases.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Derivatives of exponential and logarithmic functions",
+        "description": "Differentiate common exponential and logarithmic functions and interpret their rates of change.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.derivatives_of_trig_functions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Derivatives of trigonometric functions",
+        "description": "Differentiate sine, cosine and tangent functions in standard calculus contexts.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.limit_describes_nearby_behavior",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Limit describes nearby behaviour",
+        "description": "A limit describes what function values approach as inputs get close to a value, not necessarily the function value at that point.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.two_sided_limit_needs_both_sides",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Two-sided limit needs both sides",
+        "description": "A two-sided limit exists only when left-hand and right-hand limits agree.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.continuity_links_value_and_limit",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Continuity links value and limit",
+        "description": "Continuity at a point requires the function value to exist and match the limiting value.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.derivative_is_limit_of_rates",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Derivative is limit of rates",
+        "description": "A derivative is the limiting value of average rates of change over shrinking intervals.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.derivative_is_tangent_gradient",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Derivative is tangent gradient",
+        "description": "The derivative at a point gives the gradient of the tangent line at that point when it exists.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Derivative function maps inputs to rates",
+        "description": "A derivative function gives the instantaneous rate of change for each input where the derivative exists.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.chain_rule_handles_composites",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Chain rule handles composites",
+        "description": "The chain rule differentiates a composite by combining the outer derivative with the inner derivative.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.calculus.limit_equals_function_value",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Limit equals function value",
+        "description": "Learner assumes the limit at a point must equal the function value or cannot exist if the function value is missing.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.calculus.one_sided_limit_ignored",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "One-sided limit ignored",
+        "description": "Learner claims a two-sided limit exists after checking only one side of the point.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.calculus.derivative_is_y_value",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Derivative is y-value",
+        "description": "Learner treats the derivative at a point as the function value rather than a rate or gradient.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.calculus.chain_rule_forgets_inner_derivative",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Chain rule forgets inner derivative",
+        "description": "Learner differentiates the outer function of a composite but omits multiplying by the inner derivative.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limit_notation.part_of.limits",
+        "from": "math.senior.calculus.limit_notation",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graphical_limits.part_of.limits",
+        "from": "math.senior.calculus.graphical_limits",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_limits.part_of.limits",
+        "from": "math.senior.calculus.numerical_limits",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_sided_limits.part_of.limits",
+        "from": "math.senior.calculus.one_sided_limits",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_substitution.part_of.limits",
+        "from": "math.senior.calculus.limits_by_substitution",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_limits.part_of.limits",
+        "from": "math.senior.calculus.algebraic_limit_simplification",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_point.part_of.limits",
+        "from": "math.senior.calculus.continuity_at_a_point",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discontinuity_types.part_of.limits",
+        "from": "math.senior.calculus.discontinuity_types_intro",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.average_rate.part_of.differentiation",
+        "from": "math.senior.calculus.average_rate_of_change",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.instant_rate.part_of.differentiation",
+        "from": "math.senior.calculus.instantaneous_rate_of_change",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_gradient.part_of.differentiation",
+        "from": "math.senior.calculus.derivative_as_tangent_gradient",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_notation.part_of.differentiation",
+        "from": "math.senior.calculus.derivative_notation",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.power_rule.part_of.differentiation",
+        "from": "math.senior.calculus.power_rule",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_difference_rules.part_of.differentiation",
+        "from": "math.senior.calculus.sum_difference_derivative_rules",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.product_quotient_rules.part_of.differentiation",
+        "from": "math.senior.calculus.product_and_quotient_rules",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chain_rule_intro.part_of.differentiation",
+        "from": "math.senior.calculus.chain_rule_intro",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_derivatives.part_of.differentiation",
+        "from": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_derivatives.part_of.differentiation",
+        "from": "math.senior.calculus.derivatives_of_trig_functions",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_limit_nearby.part_of.limits",
+        "from": "math.kp.senior.calculus.limit_describes_nearby_behavior",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_two_sided.part_of.limits",
+        "from": "math.kp.senior.calculus.two_sided_limit_needs_both_sides",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_continuity_value_limit.part_of.limits",
+        "from": "math.kp.senior.calculus.continuity_links_value_and_limit",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_derivative_limit_rates.part_of.differentiation",
+        "from": "math.kp.senior.calculus.derivative_is_limit_of_rates",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_derivative_tangent.part_of.differentiation",
+        "from": "math.kp.senior.calculus.derivative_is_tangent_gradient",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_derivative_function.part_of.differentiation",
+        "from": "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_chain_rule.part_of.differentiation",
+        "from": "math.kp.senior.calculus.chain_rule_handles_composites",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_limit_value.part_of.limits",
+        "from": "math.misconception.senior.calculus.limit_equals_function_value",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_one_sided_ignored.part_of.limits",
+        "from": "math.misconception.senior.calculus.one_sided_limit_ignored",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_derivative_y_value.part_of.differentiation",
+        "from": "math.misconception.senior.calculus.derivative_is_y_value",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_chain_inner.part_of.differentiation",
+        "from": "math.misconception.senior.calculus.chain_rule_forgets_inner_derivative",
+        "to": "math.senior.calculus.differentiation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.encompasses.limit_notation",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Limit notation is foundational to limits and continuity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.encompasses.graphical_limits",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.graphical_limits",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graphical limit interpretation directly practises limits and continuity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.encompasses.numerical_limits",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.numerical_limits",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Numerical limits support estimation of limiting behaviour.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.encompasses.one_sided",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.one_sided_limits",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "One-sided limits determine when two-sided limits exist.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.encompasses.substitution",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.limits_by_substitution",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Substitution handles limits at continuity points.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.encompasses.algebraic",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.algebraic_limit_simplification",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Algebraic simplification is a common limit-evaluation strategy.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.encompasses.continuity_point",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.continuity_at_a_point",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Continuity at a point applies function value and limit reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.encompasses.discontinuities",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.discontinuity_types_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Discontinuity types are interpreted using limits and continuity conditions.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.average_rate",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.average_rate_of_change",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Average rate of change is the secant-rate basis for derivatives.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.instant_rate",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.instantaneous_rate_of_change",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Instantaneous rate of change is central to derivative meaning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.tangent_gradient",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivative_as_tangent_gradient",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tangent gradient is a core graphical interpretation of derivatives.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.derivative_notation",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Derivative notation is needed to communicate differentiation results.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.power_rule",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.power_rule",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "The power rule is a foundational symbolic differentiation rule.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.sum_difference",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.sum_difference_derivative_rules",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Sum and difference rules allow termwise differentiation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.product_quotient",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.product_and_quotient_rules",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Product and quotient rules handle combinations of functions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.chain_rule",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.chain_rule_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "The chain rule is central for differentiating composite functions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.exp_log",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Exponential and logarithmic derivatives are core senior differentiation cases.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.trig",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivatives_of_trig_functions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Trigonometric derivatives are core senior differentiation cases.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limit_notation.requires.function_notation",
+        "from": "math.senior.calculus.limit_notation",
+        "to": "math.senior.functions.function_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Limit notation requires interpreting function notation and input-output language.",
+        "failure_signal": "Learner cannot parse the function expression or input variable in a limit statement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graphical_limits.requires.limit_notation",
+        "from": "math.senior.calculus.graphical_limits",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graphical limits require understanding what input value is being approached.",
+        "failure_signal": "Learner reads the function value only rather than nearby graphical behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_limits.requires.limit_notation",
+        "from": "math.senior.calculus.numerical_limits",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Numerical limit estimation requires knowing the target input and nearby values.",
+        "failure_signal": "Learner evaluates only at the target input rather than approaching values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_sided_limits.requires.graphical_limits",
+        "from": "math.senior.calculus.one_sided_limits",
+        "to": "math.senior.calculus.graphical_limits",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "One-sided limits extend graphical and numerical limit interpretation from each direction.",
+        "failure_signal": "Learner decides a two-sided limit after checking only one side.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_substitution.requires.limit_notation",
+        "from": "math.senior.calculus.limits_by_substitution",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Direct substitution requires reading the target input in limit notation.",
+        "failure_signal": "Learner substitutes incorrectly or applies substitution when continuity is not established.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_limits.requires.polynomial_operations",
+        "from": "math.senior.calculus.algebraic_limit_simplification",
+        "to": "math.algebra.polynomials.polynomial_operations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Algebraic limit simplification often uses factoring, expansion and cancellation of polynomial expressions.",
+        "failure_signal": "Learner cannot simplify an expression before evaluating a limit.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_point.requires.one_sided_limits",
+        "from": "math.senior.calculus.continuity_at_a_point",
+        "to": "math.senior.calculus.one_sided_limits",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Continuity at a point requires determining the limiting value from both sides and comparing with the function value.",
+        "failure_signal": "Learner judges continuity only from whether the function is defined.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discontinuity_types.requires.continuity_point",
+        "from": "math.senior.calculus.discontinuity_types_intro",
+        "to": "math.senior.calculus.continuity_at_a_point",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Discontinuity classification requires understanding why continuity fails.",
+        "failure_signal": "Learner labels all discontinuities the same way without considering removable, jump or infinite behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.average_rate.requires.linear_slope",
+        "from": "math.senior.calculus.average_rate_of_change",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Average rate of change builds on slope as change in output over change in input.",
+        "failure_signal": "Learner cannot calculate or interpret a secant gradient over an interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.instant_rate.requires.average_rate",
+        "from": "math.senior.calculus.instantaneous_rate_of_change",
+        "to": "math.senior.calculus.average_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Instantaneous rate of change is approached through shrinking intervals of average rate of change.",
+        "failure_signal": "Learner treats instantaneous rate as an ordinary two-point slope over a large interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_gradient.requires.instant_rate",
+        "from": "math.senior.calculus.derivative_as_tangent_gradient",
+        "to": "math.senior.calculus.instantaneous_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Tangent gradient is a graphical interpretation of instantaneous rate of change.",
+        "failure_signal": "Learner uses a secant line or y-value instead of tangent gradient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_notation.requires.tangent_gradient",
+        "from": "math.senior.calculus.derivative_notation",
+        "to": "math.senior.calculus.derivative_as_tangent_gradient",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Derivative notation represents derivative values and derivative functions after derivative meaning is established.",
+        "failure_signal": "Learner manipulates symbols without knowing whether they represent a rate, tangent gradient or function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.power_rule.requires.derivative_notation",
+        "from": "math.senior.calculus.power_rule",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The power rule uses derivative notation to state and apply symbolic differentiation.",
+        "failure_signal": "Learner changes exponents mechanically without expressing a derivative result correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_diff_rules.requires.power_rule",
+        "from": "math.senior.calculus.sum_difference_derivative_rules",
+        "to": "math.senior.calculus.power_rule",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Termwise differentiation uses basic derivative rules such as the power rule on each term.",
+        "failure_signal": "Learner differentiates only one term or applies a rule across sums incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.product_quotient.requires.sum_diff",
+        "from": "math.senior.calculus.product_and_quotient_rules",
+        "to": "math.senior.calculus.sum_difference_derivative_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Product and quotient rules extend differentiation beyond termwise sums and differences.",
+        "failure_signal": "Learner distributes derivatives across products or quotients incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chain_rule.requires.function_composition",
+        "from": "math.senior.calculus.chain_rule_intro",
+        "to": "math.senior.functions.function_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The chain rule requires recognising composed functions and inner/outer structure.",
+        "failure_signal": "Learner cannot identify inner and outer functions in a composite expression.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_derivatives.requires.exp_log_functions",
+        "from": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "to": "math.senior.functions.exponential_logarithmic_functions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Differentiating exponential and logarithmic functions requires prior knowledge of those function families.",
+        "failure_signal": "Learner cannot interpret bases, logarithms or exponential growth behaviour before differentiating.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_derivatives.requires.trig_functions",
+        "from": "math.senior.calculus.derivatives_of_trig_functions",
+        "to": "math.senior.functions.trigonometric_functions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Differentiating trigonometric functions requires prior knowledge of trigonometric function behaviour.",
+        "failure_signal": "Learner cannot connect trig derivatives to sine, cosine and tangent graphs or units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.has_mis.limit_value",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.misconception.senior.calculus.limit_equals_function_value",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.has_mis.one_sided_ignored",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.misconception.senior.calculus.one_sided_limit_ignored",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.has_mis.derivative_y_value",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.misconception.senior.calculus.derivative_is_y_value",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.has_mis.chain_inner",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.misconception.senior.calculus.chain_rule_forgets_inner_derivative",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/calculus.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1321,
+    "edges": 2770
+  },
+  "graph_counts_after": {
+    "nodes": 1350,
+    "edges": 2839
+  }
+}

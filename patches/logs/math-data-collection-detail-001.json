@@ -1,0 +1,2127 @@
+{
+  "patch_id": "math-data-collection-detail-001",
+  "applied_at": "2026-05-28T05:49:56.995Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.ask_counting_questions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Ask counting questions",
+        "description": "Ask simple questions that can be answered by counting responses or objects.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.sort_into_categories",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sort data into categories",
+        "description": "Sort responses or objects into clear categories for counting and comparison.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.category_labels",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Category labels",
+        "description": "Use clear labels so that each category in a data set has a meaning.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Categorical and numerical data",
+        "description": "Distinguish data that describe categories from data that record numbers or measurements.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.question_matches_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Question matches data",
+        "description": "Check whether the data collected can answer the statistical question being asked.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.refine_statistical_questions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Refine statistical questions",
+        "description": "Improve vague questions so they identify a group, variable and data collection method.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.tally_marks",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Tally marks",
+        "description": "Use tally marks to record counts efficiently during data collection.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.frequency_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Frequency tables",
+        "description": "Organise counts or measurements in frequency tables for analysis and display.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.survey_data_collection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Survey data collection",
+        "description": "Collect data by asking consistent survey questions to a selected group.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.observation_data_collection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Observation data collection",
+        "description": "Collect data by observing and recording events, behaviours or objects systematically.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.experimental_data_collection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Experimental data collection",
+        "description": "Collect data from simple experiments where conditions or trials are controlled.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.data_cleaning_checks",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Data cleaning checks",
+        "description": "Check collected data for missing, duplicated, inconsistent or impossible values.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.population_and_sample",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Population and sample",
+        "description": "Distinguish the population of interest from the sample that provides data.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.sample_size",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sample size",
+        "description": "Interpret how sample size affects reliability, variability and confidence in data-based claims.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.random_sampling_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Random sampling introduction",
+        "description": "Use random selection ideas to reduce selection bias in samples.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.representative_samples",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Representative samples",
+        "description": "Judge whether a sample reasonably reflects the population for the question being asked.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.sampling_bias",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sampling bias",
+        "description": "Identify ways a sample or collection method may systematically favour some outcomes.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.response_bias",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Response bias",
+        "description": "Identify how wording, context or respondent behaviour can bias survey responses.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.ethical_data_collection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Ethical data collection",
+        "description": "Consider privacy, consent and fairness when collecting and using data.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.plan_data_investigation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Plan a data investigation",
+        "description": "Plan a statistical investigation by connecting question, data source, collection method and analysis plan.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.record_measurement_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Record measurement data",
+        "description": "Record measurement data with consistent units, precision and labels.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.statistical_question_has_variability",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Statistical question expects variability",
+        "description": "A statistical question expects answers that may vary across people, objects or trials.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.categories_need_clear_rules",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Categories need clear rules",
+        "description": "Categories should be defined clearly enough that responses can be sorted consistently.",
+        "aliases": [],
+        "year_band": "K-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.categorical_data_are_labels",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Categorical data are labels",
+        "description": "Categorical data describe groups or qualities rather than measurements on a numerical scale.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.numerical_data_are_counts_or_measures",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Numerical data are counts or measures",
+        "description": "Numerical data record counts or measurements that can be ordered or calculated with.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.frequency_is_count",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Frequency is count",
+        "description": "Frequency records how often a category or value occurs.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.population_is_full_group",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Population is full group",
+        "description": "The population is the full group that a statistical question or claim is about.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.sample_represents_population",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sample represents population",
+        "description": "A sample is useful when it reasonably represents the population for the question being asked.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.random_sampling_reduces_selection_bias",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Random sampling reduces selection bias",
+        "description": "Random selection can reduce systematic bias in who or what is included in a sample.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.bias_can_distort_conclusions",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Bias can distort conclusions",
+        "description": "Bias in sampling, measurement or response can make conclusions misleading.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.data_collection_needs_consistency",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Data collection needs consistency",
+        "description": "Consistent definitions, units and procedures make data more trustworthy and comparable.",
+        "aliases": [],
+        "year_band": "4-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.any_question_is_statistical",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Any question is statistical",
+        "description": "Learner treats any question as statistical even when it has a single fixed answer and no expected variability.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.overlapping_categories",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Overlapping categories",
+        "description": "Learner creates categories that overlap or leave responses without a clear place.",
+        "aliases": [],
+        "year_band": "K-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.sample_equals_population",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sample equals population",
+        "description": "Learner treats the sample as if it were automatically the entire population.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.larger_sample_always_representative",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Larger sample always representative",
+        "description": "Learner assumes a larger sample is representative even when the sampling method is biased.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.biased_wording_neutral",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Biased wording treated as neutral",
+        "description": "Learner misses how survey wording can lead respondents toward particular answers.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ask_counting_questions.part_of.questions_categories",
+        "from": "math.statistics.data.ask_counting_questions",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sort_categories.part_of.questions_categories",
+        "from": "math.statistics.data.sort_into_categories",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.category_labels.part_of.questions_categories",
+        "from": "math.statistics.data.category_labels",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cat_num_data.part_of.questions_categories",
+        "from": "math.statistics.data.categorical_vs_numerical_data",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.question_matches_data.part_of.questions_categories",
+        "from": "math.statistics.data.question_matches_data",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.refine_questions.part_of.questions_categories",
+        "from": "math.statistics.data.refine_statistical_questions",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_marks.part_of.collecting_data",
+        "from": "math.statistics.data.tally_marks",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frequency_tables.part_of.collecting_data",
+        "from": "math.statistics.data.frequency_tables",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.survey_collection.part_of.collecting_data",
+        "from": "math.statistics.data.survey_data_collection",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observation_collection.part_of.collecting_data",
+        "from": "math.statistics.data.observation_data_collection",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_collection.part_of.collecting_data",
+        "from": "math.statistics.data.experimental_data_collection",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_cleaning.part_of.collecting_data",
+        "from": "math.statistics.data.data_cleaning_checks",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_measurement_data.part_of.collecting_data",
+        "from": "math.statistics.data.record_measurement_data",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.population_sample.part_of.sampling",
+        "from": "math.statistics.data.population_and_sample",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size.part_of.sampling",
+        "from": "math.statistics.data.sample_size",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_sampling.part_of.sampling",
+        "from": "math.statistics.data.random_sampling_intro",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.representative_samples.part_of.sampling",
+        "from": "math.statistics.data.representative_samples",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_bias.part_of.sampling",
+        "from": "math.statistics.data.sampling_bias",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.response_bias.part_of.sampling",
+        "from": "math.statistics.data.response_bias",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ethical_collection.part_of.sampling",
+        "from": "math.statistics.data.ethical_data_collection",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_investigation.part_of.sampling",
+        "from": "math.statistics.data.plan_data_investigation",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_stat_question_variability.part_of.questions",
+        "from": "math.kp.statistics.statistical_question_has_variability",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_categories_rules.part_of.questions",
+        "from": "math.kp.statistics.categories_need_clear_rules",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_categorical_labels.part_of.questions",
+        "from": "math.kp.statistics.categorical_data_are_labels",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_numerical_counts_measures.part_of.questions",
+        "from": "math.kp.statistics.numerical_data_are_counts_or_measures",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_frequency_count.part_of.collecting",
+        "from": "math.kp.statistics.frequency_is_count",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_population_group.part_of.sampling",
+        "from": "math.kp.statistics.population_is_full_group",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_sample_represents.part_of.sampling",
+        "from": "math.kp.statistics.sample_represents_population",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_random_reduces_bias.part_of.sampling",
+        "from": "math.kp.statistics.random_sampling_reduces_selection_bias",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_bias_distorts.part_of.sampling",
+        "from": "math.kp.statistics.bias_can_distort_conclusions",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_collection_consistency.part_of.collecting",
+        "from": "math.kp.statistics.data_collection_needs_consistency",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_any_question.part_of.questions",
+        "from": "math.misconception.statistics.any_question_is_statistical",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_overlapping_categories.part_of.questions",
+        "from": "math.misconception.statistics.overlapping_categories",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_sample_equals_population.part_of.sampling",
+        "from": "math.misconception.statistics.sample_equals_population",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_larger_sample_representative.part_of.sampling",
+        "from": "math.misconception.statistics.larger_sample_always_representative",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_biased_wording.part_of.sampling",
+        "from": "math.misconception.statistics.biased_wording_neutral",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions.encompasses.ask_counting",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.ask_counting_questions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Asking countable questions is an early form of statistical questioning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions.encompasses.sort_categories",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.sort_into_categories",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sorting into categories is central to categorical data questions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions.encompasses.category_labels",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.category_labels",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Category labels make categorical data interpretable.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions.encompasses.cat_num",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distinguishing categorical and numerical data supports matching questions to data types.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions.encompasses.question_matches_data",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "A statistical question must match data that can answer it.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions.encompasses.refine_questions",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.refine_statistical_questions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Refining questions deepens statistical-question design.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting.encompasses.tally",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.tally_marks",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tally marks are a basic data recording method.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting.encompasses.frequency_tables",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Frequency tables organise collected counts and values.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting.encompasses.survey",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Surveying is a common data collection method.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting.encompasses.observation",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.observation_data_collection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Observation is a common data collection method.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting.encompasses.experiment",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.experimental_data_collection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Experiments are a more structured data collection method.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting.encompasses.cleaning",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.data_cleaning_checks",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Cleaning checks support trustworthy collected data.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting.encompasses.measurement_data",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.record_measurement_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Measurement data recording is a common numerical data collection case.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.population_sample",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Population and sample are core concepts in sampling.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.sample_size",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.sample_size",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Sample size affects reliability and variability of sample evidence.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.random_sampling",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.random_sampling_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Random sampling is a standard method for reducing selection bias.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.representative",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.representative_samples",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Representativeness is central to interpreting sample quality.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.sampling_bias",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Sampling bias is a core risk in sampling and representativeness.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.response_bias",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.response_bias",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Response bias affects survey-based sampling and conclusions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.ethical",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.ethical_data_collection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Ethical data collection supports responsible sampling and data use.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.plan_investigation",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.plan_data_investigation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Planning a data investigation connects question, sampling and collection decisions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ask_counting.requires.counting_cardinality",
+        "from": "math.statistics.data.ask_counting_questions",
+        "to": "math.number.counting.cardinality",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Early counting questions require understanding that counts answer how-many questions.",
+        "failure_signal": "Learner asks questions but cannot connect responses to counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sort_categories.requires.ask_counting",
+        "from": "math.statistics.data.sort_into_categories",
+        "to": "math.statistics.data.ask_counting_questions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sorting responses into categories builds from asking countable questions about attributes.",
+        "failure_signal": "Learner mixes categories or sorts by unrelated attributes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.category_labels.requires.sort_categories",
+        "from": "math.statistics.data.category_labels",
+        "to": "math.statistics.data.sort_into_categories",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Category labels formalise sorted groups so they can be interpreted later.",
+        "failure_signal": "Learner sorts objects but cannot name categories clearly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cat_num.requires.category_labels",
+        "from": "math.statistics.data.categorical_vs_numerical_data",
+        "to": "math.statistics.data.category_labels",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Distinguishing data types requires first understanding categorical labels.",
+        "failure_signal": "Learner treats all responses as labels or all responses as numbers regardless of meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.question_matches.requires.cat_num",
+        "from": "math.statistics.data.question_matches_data",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Matching questions to data requires knowing whether the response data are categorical or numerical.",
+        "failure_signal": "Learner collects data that do not answer the question or uses the wrong data type.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.refine_questions.requires.question_matches",
+        "from": "math.statistics.data.refine_statistical_questions",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Refining statistical questions depends on judging whether the data can answer the question.",
+        "failure_signal": "Learner improves wording superficially without making the question measurable or variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_marks.requires.sort_categories",
+        "from": "math.statistics.data.tally_marks",
+        "to": "math.statistics.data.sort_into_categories",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Tally marks record counts for categories or values during collection.",
+        "failure_signal": "Learner makes marks but does not link them consistently to categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frequency_tables.requires.tally",
+        "from": "math.statistics.data.frequency_tables",
+        "to": "math.statistics.data.tally_marks",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Frequency tables organise counts such as tallies into a table.",
+        "failure_signal": "Learner records tallies but cannot convert them into category frequencies.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.survey.requires.question_matches",
+        "from": "math.statistics.data.survey_data_collection",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Surveys require questions that match the intended data and respondents.",
+        "failure_signal": "Learner writes survey questions that are ambiguous or unrelated to the investigation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observation.requires.frequency_tables",
+        "from": "math.statistics.data.observation_data_collection",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Observation data collection often records event counts or values systematically.",
+        "failure_signal": "Learner observes events but does not record them consistently enough for analysis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental.requires.observation",
+        "from": "math.statistics.data.experimental_data_collection",
+        "to": "math.statistics.data.observation_data_collection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Simple experiments add controlled trials to systematic observation and recording.",
+        "failure_signal": "Learner changes several conditions at once or records trials inconsistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_measurement.requires.metric_units",
+        "from": "math.statistics.data.record_measurement_data",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "low",
+        "rationale": "Recording measurement data depends on using consistent measurement units, though the specific unit type depends on context.",
+        "failure_signal": "Learner records measurements without consistent units or precision.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cleaning.requires.frequency_tables",
+        "from": "math.statistics.data.data_cleaning_checks",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Cleaning checks require organised data so missing or inconsistent values can be detected.",
+        "failure_signal": "Learner analyses data without noticing missing, duplicate or impossible values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.population_sample.requires.collecting",
+        "from": "math.statistics.data.population_and_sample",
+        "to": "math.statistics.data.collecting_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Population and sample concepts build on knowing who or what data were collected from.",
+        "failure_signal": "Learner cannot say what larger group the collected data are intended to represent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size.requires.population_sample",
+        "from": "math.statistics.data.sample_size",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sample size is interpreted relative to the population and the investigation question.",
+        "failure_signal": "Learner judges reliability only by the existence of a sample, not its size or variability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_sampling.requires.population_sample",
+        "from": "math.statistics.data.random_sampling_intro",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Random sampling requires identifying the population from which the sample is selected.",
+        "failure_signal": "Learner chooses cases casually and calls the result random.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.representative.requires.population_sample",
+        "from": "math.statistics.data.representative_samples",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Representativeness requires comparing the sample with the population of interest.",
+        "failure_signal": "Learner assumes a convenient sample represents the whole population.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_bias.requires.representative",
+        "from": "math.statistics.data.sampling_bias",
+        "to": "math.statistics.data.representative_samples",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sampling bias is identified by considering whether a sample systematically fails to represent the population.",
+        "failure_signal": "Learner notices sample size but not who is systematically included or excluded.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.response_bias.requires.survey",
+        "from": "math.statistics.data.response_bias",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Response bias is most visible when evaluating how survey questions and contexts shape answers.",
+        "failure_signal": "Learner treats leading survey wording as neutral.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ethical_collection.requires.plan",
+        "from": "math.statistics.data.ethical_data_collection",
+        "to": "math.statistics.data.plan_data_investigation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "low",
+        "rationale": "Ethical considerations should shape investigation plans, though they can be introduced earlier as norms.",
+        "failure_signal": "Learner collects sensitive data without considering privacy, consent or fairness.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_investigation.requires.sampling_bias",
+        "from": "math.statistics.data.plan_data_investigation",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Planning a data investigation should account for sampling method, bias and data quality.",
+        "failure_signal": "Learner plans a collection method that cannot answer the question reliably.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions.has_mis.any_question",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.misconception.statistics.any_question_is_statistical",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions.has_mis.overlapping_categories",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.misconception.statistics.overlapping_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.has_mis.sample_equals_population",
+        "from": "math.statistics.data.sampling",
+        "to": "math.misconception.statistics.sample_equals_population",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.has_mis.larger_always_representative",
+        "from": "math.statistics.data.sampling",
+        "to": "math.misconception.statistics.larger_sample_always_representative",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.has_mis.biased_wording",
+        "from": "math.statistics.data.sampling",
+        "to": "math.misconception.statistics.biased_wording_neutral",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/data_collection.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1005,
+    "edges": 2045
+  },
+  "graph_counts_after": {
+    "nodes": 1041,
+    "edges": 2128
+  }
+}

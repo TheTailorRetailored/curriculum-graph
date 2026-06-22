@@ -1,0 +1,105 @@
+{
+  "patch_id": "math-decimals-hundredths-compliance",
+  "applied_at": "2026-06-07T06:58:47.097Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.hundredths_are_one_hundredth_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.hundredths_as_decimal_fractions",
+        "label": "Hundredths are one-hundredth units",
+        "description": "Recognise that the hundredths place counts units of one hundredth.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.one_hundredth_written_as_decimal",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.hundredths_as_decimal_fractions",
+        "label": "One hundredth is written as a decimal",
+        "description": "Connect one hundredth with the second decimal place to the right of ones.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_hundredths_units.part_of.hundredths_decimals",
+        "from": "math.kp.decimals.hundredths_are_one_hundredth_units",
+        "to": "math.decimals.hundredths_as_decimal_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_one_hundredth_decimal.part_of.hundredths_decimals",
+        "from": "math.kp.decimals.one_hundredth_written_as_decimal",
+        "to": "math.decimals.hundredths_as_decimal_fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2615,
+    "edges": 5483
+  },
+  "graph_counts_after": {
+    "nodes": 2617,
+    "edges": 5485
+  }
+}

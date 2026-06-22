@@ -1,0 +1,2911 @@
+nodes:
+  - id: math.topic.generate_equivalent_fractions
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Generate equivalent fractions
+    description: Generate fractions equivalent to a given fraction by scaling
+      numerator and denominator by the same non-zero factor.
+    aliases:
+      - create equivalent fractions
+      - rename fractions equivalently
+    year_band: 3-5
+    pathways:
+      - math.pathway.f10_core
+    grain_size: lesson_topic
+    foundational: true
+    status: merged
+    knowledge_points: []
+    metadata:
+      created_by: system
+      review_status: needs_revision
+      confidence: medium
+      compliance_note: Merged duplicate draft topic into canonical active
+        equivalent-fraction scaling lesson; embedded knowledge_points cleared
+        because standalone KP nodes are authoritative under contract v0.2.
+    merged_into: math.fractions.equivalent_fraction_scaling
+  - id: math.topic.add_fractions_unlike_denominators
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Add fractions with unlike denominators
+    description: Add fractions with different denominators by rewriting them with a
+      common denominator before adding.
+    aliases:
+      - add fractions with different denominators
+    year_band: 5-7
+    pathways:
+      - math.pathway.f10_core
+    grain_size: lesson_topic
+    status: merged
+    knowledge_points: []
+    metadata:
+      created_by: system
+      review_status: needs_revision
+      confidence: medium
+      compliance_note: Duplicate draft topic merged into canonical active lesson
+        topic; embedded knowledge_points cleared because standalone KP nodes are
+        authoritative under contract v0.2.
+    merged_into: math.fractions.unlike_denominator_fraction_addition
+  - id: math.fractions.unit_fractions
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unit fractions
+    description: Recognise and interpret unit fractions as one equal part of a whole
+      or collection, using area models, notation, number lines, and unit-size
+      reasoning.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    grain_size: lesson_sequence
+    foundational: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.non_unit_fractions
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Non-unit fractions
+    description: Recognise and interpret fractions with numerator greater than 1,
+      such as 2/3 or 3/4, as multiple equal parts of a whole or collection.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    grain_size: lesson_sequence
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.equivalent_fractions
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equivalent fractions
+    description: Understand that different fractions can represent the same
+      quantity, using models and number lines to compare equivalence.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    grain_size: lesson_sequence
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+      contract_note: Reclassified as a lesson sequence because it encompasses
+        area-model, number-line, scaling, and simplifying lessons.
+  - id: math.number.fractions.mixed_numbers_improper_fractions
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Mixed numbers and improper fractions
+    description: Connect mixed numbers and improper fractions as equivalent
+      representations of quantities greater than one.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    grain_size: lesson_sequence
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.number.fractions.fraction_operations
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Fraction operations
+    description: Add, subtract, multiply and divide fractions using models,
+      equivalence and efficient procedures.
+    aliases: []
+    year_band: 5-8
+    pathways: []
+    grain_size: course_unit
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.equal_parts_of_whole
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equal parts of a whole
+    description: Partition one whole into equal-sized parts before naming fractional parts.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    grain_size: micro_topic
+    foundational: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.equal_parts_of_collection
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equal parts of a collection
+    description: Partition a collection into equal groups to represent fractional
+      parts of a set.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    grain_size: micro_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.unit_fraction_area_models
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unit fraction area models
+    description: Represent one equal part of a whole using area models.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    grain_size: micro_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.unit_fraction_notation
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unit fraction notation
+    description: Read and write unit fractions using numerator, denominator and
+      fraction bar notation.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.unit_fractions_on_number_line
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unit fractions on number line
+    description: Locate unit fractions between 0 and 1 on a number line.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.unit_fraction_size
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unit fraction size
+    description: Reason that unit fractions get smaller as the denominator names
+      more equal parts of the same whole.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    grain_size: micro_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.non_unit_fraction_area_models
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Non unit fraction area models
+    description: Represent several equal parts of a whole using area models.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    grain_size: micro_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.non_unit_fractions_on_number_line
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Non unit fractions on number line
+    description: Locate non-unit fractions between whole numbers on a number line.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.numerator_counts_parts
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Numerator counts parts
+    description: Interpret the numerator as the number of equal parts being counted.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    grain_size: micro_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.denominator_names_unit_size
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Denominator names unit size
+    description: Interpret the denominator as the number of equal parts in one whole
+      and therefore the size of each part.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    grain_size: micro_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.compare_same_denominator
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Compare fractions same denominator
+    description: Compare fractions with the same denominator by comparing the number
+      of equal parts counted.
+    aliases: []
+    year_band: 4-5
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.compare_same_numerator
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Compare fractions same numerator
+    description: Compare fractions with the same numerator by reasoning about the
+      size of the equal parts.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.equivalent_area_models
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equivalent fraction area models
+    description: Use partitioned area models to show different fractions with the
+      same value.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    grain_size: micro_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.equivalent_number_lines
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equivalent fractions on number lines
+    description: Use number lines to show fractions that occupy the same point.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.equivalent_fraction_scaling
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equivalent fraction scaling
+    description: Create equivalent fractions by scaling numerator and denominator by
+      the same nonzero whole number.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.simplify_fractions
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Simplify fractions
+    description: Rename a fraction using smaller numerator and denominator while
+      preserving its value.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.whole_split_equal_parts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Whole is split into equal parts
+    description: Fractional parts must be equal-sized parts of the same whole.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.unit_fraction_one_part
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unit fraction is one equal part
+    description: A unit fraction names one equal part of a whole or collection.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.denominator_names_unit
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Denominator names the unit
+    description: The denominator names how many equal parts make one whole.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+    parent_topic: math.fractions.denominator_names_unit_size
+  - id: math.kp.fractions.numerator_counts_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Numerator counts fraction units
+    description: The numerator counts how many fractional units are being considered.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+    parent_topic: math.fractions.numerator_counts_parts
+  - id: math.kp.fractions.same_whole_required
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Same whole is required
+    description: Fractions can be compared or combined meaningfully only when they
+      refer to the same-sized whole or consistent unit.
+    aliases: []
+    year_band: 3-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fractions_can_name_points
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Fractions can name points
+    description: Fractions can locate quantities as points on a number line, not
+      only shaded regions.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+    parent_topic: math.fractions.unit_fractions_on_number_line
+  - id: math.kp.fractions.larger_denominator_smaller_unit
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Larger denominator means smaller unit
+    description: For the same whole, a larger denominator in a unit fraction means
+      smaller equal parts.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.equivalent_same_quantity
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equivalent fractions name same quantity
+    description: Equivalent fractions use different numbers to name the same quantity.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.scale_numerator_denominator
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Scale numerator and denominator together
+    description: Multiplying or dividing numerator and denominator by the same
+      nonzero number preserves fraction value.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.simplifying_preserves_value
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Simplifying preserves value
+    description: Simplifying changes the notation but not the quantity represented
+      by the fraction.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+    parent_topic: math.fractions.simplify_fractions
+  - id: math.misconception.fractions.unequal_parts_are_fractions
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unequal parts are acceptable fractions
+    description: Learner names parts as fractions even when the whole has not been
+      partitioned into equal parts.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.denominator_counts_shaded_parts
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Denominator counts shaded parts
+    description: Learner treats the denominator as the number of selected or shaded
+      parts rather than total equal parts in the whole.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.larger_denominator_larger_fraction
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Larger denominator means larger fraction
+    description: Learner applies whole-number comparison to denominators and thinks
+      larger denominators always mean larger fractions.
+    aliases: []
+    year_band: 3-6
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.compare_numerator_denominator_separately
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Compare numerator and denominator separately
+    description: Learner compares numerators and denominators independently rather
+      than comparing represented quantities.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.equivalent_fractions_change_quantity
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equivalent fractions change quantity
+    description: Learner treats an equivalent fraction as a different amount because
+      the numerator and denominator changed.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.fractions_greater_than_one
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Fractions greater than one
+    description: Interpret fractions whose value is greater than one whole.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    grain_size: micro_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.mixed_number_notation
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Mixed number notation
+    description: Read and write mixed numbers as a whole-number part plus a fractional part.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.improper_fraction_notation
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Improper fraction notation
+    description: Read and write fractions whose numerator is equal to or greater
+      than the denominator.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.convert_improper_to_mixed
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Convert improper to mixed number
+    description: Rename an improper fraction as an equivalent mixed number.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.convert_mixed_to_improper
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Convert mixed number to improper
+    description: Rename a mixed number as an equivalent improper fraction.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.mixed_numbers_on_number_line
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Mixed numbers on number line
+    description: Locate mixed numbers and improper fractions on a number line beyond
+      one whole.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.compare_mixed_and_improper
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Compare mixed and improper fractions
+    description: Compare values represented in mixed-number and improper-fraction forms.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.same_denominator_fraction_addition
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Same denominator fraction addition
+    description: Add fractions with the same denominator by adding counts of equal
+      fractional units.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.same_denominator_fraction_subtraction
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Same denominator fraction subtraction
+    description: Subtract fractions with the same denominator by subtracting counts
+      of equal fractional units.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.common_denominator_strategy
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Common denominator strategy
+    description: Rename fractions with unlike denominators using a common
+      denominator before comparing or operating.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.unlike_denominator_fraction_addition
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unlike denominator fraction addition
+    description: Add fractions with unlike denominators by first creating common
+      fractional units.
+    aliases: []
+    year_band: 6-7
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.unlike_denominator_fraction_subtraction
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Unlike denominator fraction subtraction
+    description: Subtract fractions with unlike denominators by first creating
+      common fractional units.
+    aliases: []
+    year_band: 6-7
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.multiply_fraction_by_whole_number
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Multiply fraction by whole number
+    description: Multiply a fraction by a whole number as repeated equal fractional
+      units or scaling.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.multiply_fraction_by_fraction
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Multiply fraction by fraction
+    description: Interpret and calculate a fraction of a fraction using models and
+      multiplication.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.divide_fraction_by_whole_number
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Divide fraction by whole number
+    description: Divide a fractional quantity into equal parts using models and reasoning.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.fractions.reciprocal_division_models
+    type: topic
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Reciprocal division models
+    description: Use models to connect fraction division with reciprocal relationships.
+    aliases: []
+    year_band: 7-8
+    pathways: []
+    grain_size: lesson_topic
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fractions_can_exceed_one
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Fractions can exceed one
+    description: A fraction can represent more than one whole when the counted
+      fractional units exceed one whole.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+    parent_topic: math.fractions.fractions_greater_than_one
+  - id: math.kp.fractions.mixed_number_whole_and_fraction
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Mixed number has whole and fraction parts
+    description: A mixed number combines a whole-number part and a proper-fraction
+      part as one quantity.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+    parent_topic: math.fractions.mixed_number_notation
+  - id: math.kp.fractions.improper_numerator_at_least_denominator
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Improper numerator at least denominator
+    description: An improper fraction has a numerator equal to or greater than its
+      denominator.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+    parent_topic: math.fractions.improper_fraction_notation
+  - id: math.kp.fractions.mixed_improper_equivalent
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Mixed and improper forms can be equivalent
+    description: A mixed number and an improper fraction can name the same quantity.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_denominator_common_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Same denominator means common units
+    description: Fractions with the same denominator count the same-sized fractional units.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.common_denominator_same_unit
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Common denominator creates same unit
+    description: A common denominator renames fractions so they use the same
+      fractional unit size.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+    parent_topic: math.fractions.common_denominator_strategy
+  - id: math.kp.fractions.add_subtract_fraction_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Add and subtract fraction units
+    description: Fraction addition and subtraction combine or compare counts of
+      equal fractional units.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.multiply_fraction_by_whole_repeats_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Multiplying fraction by whole repeats units
+    description: Multiplying a fraction by a whole number repeats the fractional
+      quantity that many times.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fraction_times_fraction_part_of_part
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Fraction times fraction means part of part
+    description: Multiplying two fractions can represent taking a fractional part of
+      a fractional part.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.division_splits_fractional_quantity
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Division splits fractional quantity
+    description: Dividing a fraction can mean sharing a fractional quantity or
+      asking how many fractional groups fit.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.improper_fractions_are_invalid
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Improper fractions are invalid
+    description: Learner treats fractions greater than one as wrong because the
+      numerator is not smaller than the denominator.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.mixed_number_parts_unrelated
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Mixed number parts are unrelated
+    description: Learner treats the whole-number and fractional parts of a mixed
+      number as separate unrelated numbers.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.add_denominators_when_adding
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Add denominators when adding fractions
+    description: Learner adds denominators as well as numerators when adding fractions.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.common_denominator_changes_value
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Common denominator changes value
+    description: Learner thinks renaming to a common denominator changes the
+      quantity rather than the notation.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.misconception.fractions.fraction_multiplication_always_increases
+    type: misconception
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Fraction multiplication always increases
+    description: Learner assumes multiplication with fractions must make a quantity larger.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.unlike_denominators_are_unlike_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unlike_denominator_fraction_addition
+    label: Unlike denominators name unlike units
+    description: Recognise that fractions with different denominators refer to
+      different-sized fractional units and cannot be added as-is.
+    aliases:
+      - recognise unlike denominators
+    year_band: 6-7
+    pathways:
+      - math.pathway.f10_core
+    observable: true
+    assessable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+      confidence: high
+      compliance_note: Namespaced canonical replacement for legacy bare KP ID under
+        contract v0.2.
+  - id: math.kp.fractions.choose_common_denominator_for_addition
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unlike_denominator_fraction_addition
+    label: Choose a common denominator for addition
+    description: Identify a denominator that both addends can be rewritten with
+      before adding unlike-denominator fractions.
+    aliases:
+      - find common denominator for addition
+    year_band: 6-7
+    pathways:
+      - math.pathway.f10_core
+    observable: true
+    assessable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+      confidence: high
+      compliance_note: Namespaced canonical replacement for legacy bare KP ID under
+        contract v0.2.
+  - id: math.kp.fractions.rewrite_addends_with_common_denominator
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unlike_denominator_fraction_addition
+    label: Rewrite addends with a common denominator
+    description: Use equivalent fractions to rewrite each addend so both fractions
+      have the same denominator.
+    aliases:
+      - rewrite fractions with common denominator
+    year_band: 6-7
+    pathways:
+      - math.pathway.f10_core
+    observable: true
+    assessable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+      confidence: high
+      compliance_note: Namespaced canonical replacement for legacy bare KP ID under
+        contract v0.2.
+  - id: math.kp.fractions.add_common_unit_numerators
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unlike_denominator_fraction_addition
+    label: Add numerators after units match
+    description: Add the numerators once both fractions use the same denominator,
+      keeping the common denominator fixed.
+    aliases:
+      - add numerators after denominators match
+    year_band: 6-7
+    pathways:
+      - math.pathway.f10_core
+    observable: true
+    assessable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+      confidence: high
+      compliance_note: Namespaced canonical replacement for legacy bare KP ID under
+        contract v0.2.
+  - id: math.kp.fractions.nonzero_scale_factor
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Scale factor must be nonzero
+    description: Equivalent-fraction scaling uses the same nonzero factor on
+      numerator and denominator so the represented quantity is preserved.
+    aliases: []
+    year_band: 5-6
+    pathways:
+      - F-10 core
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+  - id: math.kp.fractions.common_factor_identifies_equivalence
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Common factor identifies equivalence
+    description: Two fractions can be recognised as equivalent when the numerator
+      and denominator have both been scaled by the same factor.
+    aliases: []
+    year_band: 5-6
+    pathways:
+      - F-10 core
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+  - id: math.kp.fractions.inverse_scaling_preserves_value
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Inverse scaling preserves fraction value
+    description: Dividing numerator and denominator by the same common factor
+      creates an equivalent fraction with the same value.
+    aliases: []
+    year_band: 5-6
+    pathways:
+      - F-10 core
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+  - id: math.kp.fractions.area_models_same_whole
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Area models must use the same whole
+    description: Equivalent fraction area models compare fractions only when the
+      models represent the same-sized whole.
+    aliases: []
+    year_band: 4-6
+    pathways:
+      - F-10 core
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+  - id: math.kp.fractions.repartitioning_can_preserve_shaded_amount
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Repartitioning can preserve shaded amount
+    description: A whole can be partitioned into more or fewer equal parts while the
+      shaded amount remains unchanged.
+    aliases: []
+    year_band: 4-6
+    pathways:
+      - F-10 core
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+  - id: math.kp.fractions.equivalent_fractions_same_number_line_point
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Equivalent fractions share a number-line point
+    description: Equivalent fractions are located at the same point on a number line
+      even when their numerators and denominators are different.
+    aliases: []
+    year_band: 4-6
+    pathways:
+      - F-10 core
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+  - id: math.kp.fractions.align_fraction_ticks_for_equivalence
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Align fraction ticks to compare equivalence
+    description: Fractions can be compared for equivalence by aligning subdivisions
+      and checking whether their tick marks land at the same position.
+    aliases: []
+    year_band: 4-6
+    pathways:
+      - F-10 core
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+  - id: math.kp.fractions.same_distance_from_zero_means_same_value
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Same distance from zero means same value
+    description: On a number line, fractions at the same distance from zero
+      represent the same value.
+    aliases: []
+    year_band: 4-6
+    pathways:
+      - F-10 core
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_validated
+  - id: math.kp.fractions.identify_common_factor_to_simplify
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.simplify_fractions
+    label: Identify a common factor to simplify
+    description: Recognise a factor greater than 1 that divides both the numerator
+      and denominator of a fraction.
+    aliases:
+      - common factor for simplification
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.divide_both_terms_by_same_factor
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.simplify_fractions
+    label: Divide numerator and denominator by the same factor
+    description: Simplify a fraction by dividing both the numerator and denominator
+      by the same nonzero common factor.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.simplest_form_no_common_factor
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.simplify_fractions
+    label: Simplest form has no common factor greater than 1
+    description: Know that a fraction is in simplest form when the numerator and
+      denominator share no common factor greater than 1.
+    aliases:
+      - lowest terms
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.procedure.simplify_fraction_by_common_factor
+    type: procedure
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Simplify fraction by common factor
+    description: Divide the numerator and denominator by a common factor, repeating
+      if needed, until no common factor greater than 1 remains.
+    aliases:
+      - reduce a fraction
+      - write in lowest terms
+    year_band: 5-6
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.add_same_denominator_numerators
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.same_denominator_fraction_addition
+    label: Add numerators when denominators match
+    description: When fractions have the same denominator, add the numerators
+      because they count the same-sized fractional units.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.keep_denominator_when_adding_same_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.same_denominator_fraction_addition
+    label: Keep denominator when adding same units
+    description: The denominator stays the same in same-denominator addition because
+      the unit size does not change.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_denominator_addition_common_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.same_denominator_fraction_addition
+    label: Same denominator addition uses common units
+    description: In same-denominator addition, both addends are counts of the
+      same-sized fractional unit.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.subtract_same_denominator_numerators
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.same_denominator_fraction_subtraction
+    label: Subtract numerators when denominators match
+    description: When fractions have the same denominator, subtract the numerators
+      because they count the same-sized fractional units.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.keep_denominator_when_subtracting_same_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.same_denominator_fraction_subtraction
+    label: Keep denominator when subtracting same units
+    description: The denominator stays the same in same-denominator subtraction
+      because the unit size does not change.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_denominator_subtraction_common_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.same_denominator_fraction_subtraction
+    label: Same denominator subtraction uses common units
+    description: In same-denominator subtraction, both fractions are counts of the
+      same-sized fractional unit.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.choose_common_denominator_for_subtraction
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unlike_denominator_fraction_subtraction
+    label: Choose a common denominator for subtraction
+    description: Select a common denominator so unlike-denominator fractions can be
+      rewritten using the same-sized fractional units before subtracting.
+    aliases: []
+    year_band: 6-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.rewrite_subtrahend_and_minuend_with_common_denominator
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unlike_denominator_fraction_subtraction
+    label: Rewrite both subtraction terms with a common denominator
+    description: Rewrite the minuend and subtrahend as equivalent fractions with a
+      shared denominator before subtracting.
+    aliases: []
+    year_band: 6-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.subtract_common_unit_numerators
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unlike_denominator_fraction_subtraction
+    label: Subtract numerators after units match
+    description: Once denominators match, subtract the numerators because they count
+      the same-sized fractional units.
+    aliases: []
+    year_band: 6-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.subtraction_requires_ordered_terms
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unlike_denominator_fraction_subtraction
+    label: Subtraction order matters
+    description: Recognise that fraction subtraction is not commutative, so the
+      minuend and subtrahend must not be swapped when rewriting with common
+      denominators.
+    aliases: []
+    year_band: 6-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.multiply_fraction_by_whole_repeated_groups
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.multiply_fraction_by_whole_number
+    label: Whole-number multiplier repeats a fractional quantity
+    description: Interpret multiplying a fraction by a whole number as taking that
+      many equal groups of the fractional quantity.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.multiply_numerator_by_whole_number
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.multiply_fraction_by_whole_number
+    label: Multiply the numerator by the whole number
+    description: For a whole number times a fraction, multiply the numerator by the
+      whole number while the denominator keeps the same unit size.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.denominator_keeps_unit_in_whole_number_multiplication
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.multiply_fraction_by_whole_number
+    label: Denominator keeps the unit in whole-number multiplication
+    description: When a fraction is multiplied by a whole number, the denominator
+      continues to name the fractional unit being repeated.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fraction_times_whole_can_exceed_one
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.multiply_fraction_by_whole_number
+    label: Fraction times whole can exceed one
+    description: Recognise that multiplying a fraction by a whole number can produce
+      a value greater than one when enough fractional units are repeated.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fraction_by_fraction_part_of_part
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.multiply_fraction_by_fraction
+    label: Fraction by fraction means part of part
+    description: Interpret multiplying one fraction by another as taking a
+      fractional part of a fractional part.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.multiply_numerators_and_denominators
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.multiply_fraction_by_fraction
+    label: Multiply numerators and denominators
+    description: Calculate a product of two fractions by multiplying the numerators
+      to count selected parts and multiplying the denominators to name the
+      partitioned unit.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.product_of_proper_fractions_can_be_smaller
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.multiply_fraction_by_fraction
+    label: Product of proper fractions can be smaller
+    description: Recognise that multiplying proper fractions can produce a smaller
+      quantity because it asks for part of a part.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fraction_multiplication_area_intersection
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.multiply_fraction_by_fraction
+    label: Area intersection models fraction multiplication
+    description: Use overlapping partitions in an area model to show the product of
+      two fractions as the intersection of selected parts.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fraction_division_by_whole_splits_quantity
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.divide_fraction_by_whole_number
+    label: Fraction division by a whole splits quantity
+    description: Interpret dividing a fraction by a whole number as splitting the
+      fractional quantity into that many equal parts.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.dividing_fraction_by_whole_multiplies_denominator
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.divide_fraction_by_whole_number
+    label: Dividing a fraction by a whole can multiply the denominator
+    description: For simple cases, dividing a fraction by a whole number can be
+      represented by multiplying the denominator by the whole number while
+      preserving the numerator count.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.division_creates_smaller_equal_parts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.divide_fraction_by_whole_number
+    label: Division creates smaller equal fractional parts
+    description: Recognise that splitting a fractional amount into equal shares
+      creates smaller fractional quantities.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.model_fraction_division_by_whole
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.divide_fraction_by_whole_number
+    label: Model fraction division by a whole number
+    description: Use an area model or number line to show a fractional quantity
+      being partitioned into equal shares.
+    aliases: []
+    year_band: 6-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.reciprocal_names_multiplicative_inverse
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.reciprocal_division_models
+    label: Reciprocal names a multiplicative inverse
+    description: Recognise the reciprocal of a nonzero fraction as the number that
+      multiplies with it to make one.
+    aliases: []
+    year_band: 7-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.division_by_fraction_asks_how_many_groups
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.reciprocal_division_models
+    label: Division by a fraction asks how many groups
+    description: Interpret division by a fraction as asking how many groups of the
+      divisor fit into the dividend.
+    aliases: []
+    year_band: 7-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.invert_and_multiply_matches_reciprocal_model
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.reciprocal_division_models
+    label: Invert and multiply matches the reciprocal model
+    description: Connect the invert-and-multiply procedure to reciprocal
+      relationships rather than treating it as an unexplained rule.
+    aliases:
+      - keep change flip reasoning
+    year_band: 7-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fraction_division_result_can_be_larger
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.reciprocal_division_models
+    label: Fraction division result can be larger
+    description: Recognise that dividing by a fraction less than one can produce a
+      quotient larger than the dividend because smaller groups fit more times.
+    aliases: []
+    year_band: 7-8
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.procedure.divide_by_fraction_using_reciprocal
+    type: procedure
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Divide by a fraction using the reciprocal
+    description: Rewrite division by a nonzero fraction as multiplication by its
+      reciprocal, while preserving the meaning of the quotient.
+    aliases:
+      - invert and multiply
+      - keep change flip
+    year_band: 7-8
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.equal_parts_must_be_same_size
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.equal_parts_of_whole
+    label: Equal parts must be the same size
+    description: A whole is partitioned into fractional parts only when the parts
+      are equal-sized.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.equal_parts_cover_the_whole
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.equal_parts_of_whole
+    label: Equal parts cover the whole
+    description: The equal parts used to name a fraction refer to the whole being
+      partitioned, not to unrelated pieces.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.collection_parts_are_equal_groups
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.equal_parts_of_collection
+    label: Collection parts are equal groups
+    description: A unit fraction of a collection means one equal group out of all
+      the equal groups in the collection.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.unit_fraction_of_collection_is_one_group
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.equal_parts_of_collection
+    label: Unit fraction of a collection is one group
+    description: For a collection split into equal groups, 1/n names one of those
+      equal groups.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.unit_fraction_area_model_one_shaded_part
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fraction_area_models
+    label: Unit fraction area model has one shaded part
+    description: In a unit-fraction area model, one equal part is selected or shaded
+      out of all equal parts.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.area_model_denominator_counts_equal_parts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fraction_area_models
+    label: Area-model denominator counts equal parts
+    description: In an area model, the denominator names how many equal parts the
+      whole is split into.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.area_model_whole_is_reference
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fraction_area_models
+    label: Area-model whole is the reference
+    description: Fraction names in an area model depend on which whole the equal
+      parts come from.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.unit_fraction_numerator_is_one
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fraction_notation
+    label: Unit fraction numerator is one
+    description: A unit fraction has numerator 1 because it names one equal part.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.denominator_counts_equal_parts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fraction_notation
+    label: Denominator counts equal parts
+    description: The denominator tells how many equal parts make one whole.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.fraction_bar_separates_part_and_whole_counts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fraction_notation
+    label: Fraction bar separates part and whole counts
+    description: Read the fraction bar as separating the numerator from the
+      denominator rather than as two unrelated whole numbers.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.number_line_unit_interval_partitioned_equally
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fractions_on_number_line
+    label: Number-line unit interval is partitioned equally
+    description: Locate unit fractions by splitting the interval from 0 to 1 into
+      equal-length parts.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.unit_fraction_point_is_one_part_from_zero
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fractions_on_number_line
+    label: Unit fraction point is one part from zero
+    description: The point for 1/n is one equal interval to the right of zero on the
+      0-to-1 number line.
+    aliases: []
+    year_band: 3-4
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.larger_denominator_means_more_equal_parts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fraction_size
+    label: Larger denominator means more equal parts
+    description: For unit fractions of the same whole, a larger denominator means
+      the whole is split into more equal parts.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.more_equal_parts_make_smaller_unit
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.unit_fraction_size
+    label: More equal parts make a smaller unit
+    description: For the same whole, splitting it into more equal parts makes each
+      one part smaller.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.nonunit_area_model_counts_shaded_parts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.non_unit_fraction_area_models
+    label: Non-unit area model counts shaded parts
+    description: In an area model for a non-unit fraction, the numerator counts how
+      many equal parts are shaded or selected.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.nonunit_area_model_denominator_counts_all_equal_parts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.non_unit_fraction_area_models
+    label: Non-unit area model denominator counts all equal parts
+    description: In an area model for a non-unit fraction, the denominator names the
+      total number of equal parts in the whole.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.nonunit_area_model_same_whole_required
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.non_unit_fraction_area_models
+    label: Non-unit area model needs one same whole
+    description: A non-unit fraction area model must use one clearly defined whole
+      partitioned into equal parts.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.nonunit_number_line_count_unit_steps_from_zero
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.non_unit_fractions_on_number_line
+    label: Count unit-fraction steps from zero
+    description: Locate a non-unit fraction on a number line by counting the
+      required number of unit-fraction intervals from zero.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.nonunit_number_line_denominator_partitions_unit_interval
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.non_unit_fractions_on_number_line
+    label: Denominator partitions each unit interval
+    description: On a number line, the denominator tells how many equal intervals
+      each whole-number unit is divided into.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.nonunit_number_line_numerator_identifies_tick
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.non_unit_fractions_on_number_line
+    label: Numerator identifies the fraction tick
+    description: For a non-unit fraction between 0 and 1, the numerator identifies
+      which fractional tick is reached after counting from zero.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.numerator_counts_selected_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.numerator_counts_parts
+    label: Numerator counts selected units
+    description: The numerator tells how many equal fractional units are selected or
+      counted.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.more_denominator_parts_make_smaller_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.denominator_names_unit_size
+    label: More denominator parts make smaller units
+    description: When the same whole is split into more equal parts, each fractional
+      unit is smaller.
+    aliases: []
+    year_band: 3-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_denominator_compare_counts
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_same_denominator
+    label: Same denominator comparison compares counts
+    description: When two fractions have the same denominator, compare the
+      numerators because both fractions count the same-sized unit.
+    aliases: []
+    year_band: 4-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_denominator_larger_numerator_greater
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_same_denominator
+    label: Larger numerator means more same-sized parts
+    description: For fractions with the same denominator, the fraction with the
+      larger numerator represents more equal parts of the same size.
+    aliases: []
+    year_band: 4-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_denominator_difference_is_unit_count
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_same_denominator
+    label: Same-denominator difference is a unit count
+    description: The difference between same-denominator fractions can be reasoned
+      about as how many same-sized fractional units apart they are.
+    aliases: []
+    year_band: 4-5
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_numerator_compare_unit_size
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_same_numerator
+    label: Same numerator comparison compares unit size
+    description: When two fractions have the same numerator, compare the size of
+      each fractional unit because the count of units is the same.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_numerator_smaller_denominator_greater
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_same_numerator
+    label: Smaller denominator means larger units with same numerator
+    description: For fractions with the same numerator, the fraction with the
+      smaller denominator represents larger fractional units and therefore a
+      larger amount.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.same_numerator_order_reverses_denominator_order
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_same_numerator
+    label: Same-numerator order reverses denominator order
+    description: For positive fractions with the same numerator, increasing the
+      denominator makes each unit smaller, so the fraction represents a smaller
+      quantity.
+    aliases: []
+    year_band: 4-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.one_whole_is_all_fraction_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.fractions_greater_than_one
+    label: One whole is all fraction units
+    description: Recognise that one whole is reached when all equal fractional units
+      in the whole have been counted.
+    aliases:
+      - one whole as fraction units
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.more_units_than_one_whole_exceeds_one
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.fractions_greater_than_one
+    label: More units than one whole exceeds one
+    description: Recognise that a fraction is greater than one when the counted
+      fractional units go beyond one whole.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.mixed_number_is_one_quantity
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.mixed_number_notation
+    label: Mixed number represents one quantity
+    description: Interpret the whole-number part and fractional part of a mixed
+      number as one combined quantity.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.mixed_fraction_part_less_than_one
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.mixed_number_notation
+    label: Mixed-number fraction part is less than one
+    description: Recognise that the fractional part of a mixed number is less than
+      one whole.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.improper_fraction_counts_fraction_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.improper_fraction_notation
+    label: Improper fraction counts fraction units beyond one
+    description: Interpret an improper fraction as a count of equal fractional units
+      that can reach or exceed one whole.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.improper_fraction_can_equal_one
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.improper_fraction_notation
+    label: Improper fraction can equal one whole
+    description: Recognise that a fraction with numerator equal to denominator
+      represents exactly one whole.
+    aliases: []
+    year_band: 5-6
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.improper_to_mixed_division_finds_wholes
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.convert_improper_to_mixed
+    label: Division finds wholes in an improper fraction
+    description: Use the denominator as the size of one whole and divide the
+      numerator to find how many wholes are contained in the improper fraction.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.improper_to_mixed_remainder_is_fraction_part
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.convert_improper_to_mixed
+    label: Remainder becomes the fraction part
+    description: When converting an improper fraction to a mixed number, the
+      division remainder becomes the numerator of the fractional part with the
+      original denominator.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.improper_and_mixed_forms_same_quantity
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.convert_improper_to_mixed
+    label: Improper and mixed forms can name the same quantity
+    description: Recognise that an improper fraction and its mixed-number form are
+      equivalent representations of the same amount.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.representation.fraction_notation
+    type: representation
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Fraction notation
+    description: Symbolic numerator-over-denominator notation for naming fractional
+      quantities.
+    aliases:
+      - fraction bar notation
+    year_band: 3-12
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.mixed_to_improper_wholes_as_fraction_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.convert_mixed_to_improper
+    label: Whole-number part converts to fraction units
+    description: Convert the whole-number part of a mixed number into an equivalent
+      count of fractional units using the denominator.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.mixed_to_improper_add_fraction_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.convert_mixed_to_improper
+    label: Add the existing fraction units
+    description: Add the fractional numerator to the converted whole-number units to
+      form the improper-fraction numerator.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.mixed_to_improper_preserves_denominator
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.convert_mixed_to_improper
+    label: Mixed-to-improper conversion preserves denominator
+    description: Keep the denominator because the unit size stays the same while the
+      numerator becomes the total count of those units.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.procedure.convert_mixed_to_improper_fraction
+    type: procedure
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    label: Convert mixed number to improper fraction
+    description: Multiply the whole-number part by the denominator, add the
+      numerator, and keep the denominator to write an equivalent improper
+      fraction.
+    aliases:
+      - mixed to improper conversion
+    year_band: 5-7
+    pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.mixed_number_line_whole_interval
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.mixed_numbers_on_number_line
+    label: Mixed number lies in its whole-number interval
+    description: Locate a mixed number between consecutive whole numbers using its
+      whole-number part.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.mixed_number_fraction_part_offsets_from_whole
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.mixed_numbers_on_number_line
+    label: Fraction part offsets from the whole number
+    description: Place the fractional part of a mixed number as a distance from the
+      whole-number starting point.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.improper_and_mixed_forms_same_number_line_point
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.mixed_numbers_on_number_line
+    label: Improper and mixed forms can share a number-line point
+    description: Recognise equivalent improper-fraction and mixed-number forms as
+      the same location on a number line.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.compare_mixed_improper_by_common_form
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_mixed_and_improper
+    label: Compare mixed and improper fractions by common form
+    description: Convert one or both quantities to a common form before comparing
+      mixed-number and improper-fraction representations.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.compare_mixed_improper_by_quantity_not_notation
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_mixed_and_improper
+    label: Compare quantities rather than notation forms
+    description: Compare the represented values, not whether a number is written as
+      a mixed number or an improper fraction.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.equivalent_mixed_improper_forms_compare_equal
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.compare_mixed_and_improper
+    label: Equivalent mixed and improper forms compare equal
+    description: Identify when a mixed number and an improper fraction name the same
+      quantity and therefore are equal.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.mixed_to_improper_convert_wholes_to_fraction_units
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.convert_mixed_to_improper
+    label: Convert wholes into fraction units
+    description: Use the denominator to convert each whole in a mixed number into
+      that many fractional units.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.choose_common_denominator
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.common_denominator_strategy
+    label: Choose a common denominator
+    description: Select a denominator that can be used to rename each fraction into
+      the same fractional unit.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.scale_each_fraction_to_common_denominator
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.common_denominator_strategy
+    label: Scale each fraction to the common denominator
+    description: Multiply numerator and denominator of each fraction by the needed
+      factor to make denominators match while preserving value.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.fractions.common_denominator_keeps_equivalent_values
+    type: knowledge_point
+    subject: Mathematics
+    strand: Number
+    area: Fractions
+    parent_topic: math.fractions.common_denominator_strategy
+    label: Common denominators preserve equivalent values
+    description: Recognise that rewriting fractions with a common denominator
+      changes notation, not the quantities represented.
+    aliases: []
+    year_band: 5-7
+    pathways: []
+    observable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated

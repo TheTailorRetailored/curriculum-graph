@@ -1,0 +1,1025 @@
+{
+  "patch_id": "math-space-shapes-2d-classification-detail-001",
+  "applied_at": "2026-05-28T16:25:07.861Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 19,
+      "edges_created": 37,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.triangle_side_classification",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Triangle side classification",
+        "description": "Classify triangles by side lengths as equilateral, isosceles or scalene.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.triangle_angle_classification",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Triangle angle classification",
+        "description": "Classify triangles by angle type as acute, right or obtuse.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.equilateral_triangles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Equilateral triangles",
+        "description": "Recognise equilateral triangles by three equal side lengths and three equal angles.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.isosceles_triangles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Isosceles triangles",
+        "description": "Recognise isosceles triangles by at least two equal side lengths and related equal angles.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.scalene_triangles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Scalene triangles",
+        "description": "Recognise scalene triangles by three unequal side lengths.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.right_triangles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Right triangles",
+        "description": "Recognise right triangles by the presence of one right angle.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.acute_obtuse_triangles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Acute and obtuse triangles",
+        "description": "Distinguish acute triangles from obtuse triangles by their angle measures.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.quadrilateral_hierarchy",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Quadrilateral hierarchy",
+        "description": "Organise quadrilaterals using inclusive property relationships among squares, rectangles, rhombuses and parallelograms.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.parallelogram_properties",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Parallelogram properties",
+        "description": "Identify parallelograms by opposite sides that are parallel and related side and angle properties.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.rectangle_square_properties",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Rectangle and square properties",
+        "description": "Compare rectangles and squares using right angles, equal sides and parallel side relationships.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.rhombus_properties",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Rhombus properties",
+        "description": "Identify rhombuses by equal side lengths and compare them with squares and parallelograms.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.trapezia_and_kites",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Trapezia and kites",
+        "description": "Classify trapezia and kites using parallel sides and adjacent equal side properties.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.triangles_can_be_classified_two_ways",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Triangles can be classified two ways",
+        "description": "Triangles can be classified by side lengths and by angle types.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.equilateral_has_equal_sides_angles",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Equilateral triangles have equal sides and angles",
+        "description": "An equilateral triangle has three equal sides and three equal angles.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.quadrilateral_categories_can_overlap",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Quadrilateral categories can overlap",
+        "description": "A quadrilateral can belong to more than one category when it satisfies multiple property definitions.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.square_is_rectangle_and_rhombus",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Square is a rectangle and a rhombus",
+        "description": "A square satisfies the defining properties of both rectangles and rhombuses.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.properties_define_shape_classes",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Properties define shape classes",
+        "description": "Shape classes are determined by mathematical properties, not by orientation or visual prototype alone.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.prototype_shape_classification",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Prototype-based shape classification",
+        "description": "Learner classifies shapes only by familiar visual appearance rather than by defining properties.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.exclusive_quadrilateral_categories",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Exclusive quadrilateral categories",
+        "description": "Learner assumes a quadrilateral can belong to only one category, such as square or rectangle but not both.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_side_classification.part_of.triangle_types",
+        "from": "math.space.shapes.triangle_side_classification",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_angle_classification.part_of.triangle_types",
+        "from": "math.space.shapes.triangle_angle_classification",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equilateral_triangles.part_of.triangle_types",
+        "from": "math.space.shapes.equilateral_triangles",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.isosceles_triangles.part_of.triangle_types",
+        "from": "math.space.shapes.isosceles_triangles",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scalene_triangles.part_of.triangle_types",
+        "from": "math.space.shapes.scalene_triangles",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_triangles.part_of.triangle_types",
+        "from": "math.space.shapes.right_triangles",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.acute_obtuse_triangles.part_of.triangle_types",
+        "from": "math.space.shapes.acute_obtuse_triangles",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_hierarchy.part_of.quadrilateral_types",
+        "from": "math.space.shapes.quadrilateral_hierarchy",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_properties.part_of.quadrilateral_types",
+        "from": "math.space.shapes.parallelogram_properties",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_square_properties.part_of.quadrilateral_types",
+        "from": "math.space.shapes.rectangle_square_properties",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rhombus_properties.part_of.quadrilateral_types",
+        "from": "math.space.shapes.rhombus_properties",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trapezia_kites.part_of.quadrilateral_types",
+        "from": "math.space.shapes.trapezia_and_kites",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.triangle_two_ways.part_of.triangle_types",
+        "from": "math.kp.space.triangles_can_be_classified_two_ways",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.equilateral_equal.part_of.triangle_types",
+        "from": "math.kp.space.equilateral_has_equal_sides_angles",
+        "to": "math.space.shapes.triangle_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.quadrilateral_overlap.part_of.quadrilateral_types",
+        "from": "math.kp.space.quadrilateral_categories_can_overlap",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.square_rectangle_rhombus.part_of.quadrilateral_types",
+        "from": "math.kp.space.square_is_rectangle_and_rhombus",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.properties_define_classes.part_of.properties_2d",
+        "from": "math.kp.space.properties_define_shape_classes",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.prototype_classification.part_of.properties_2d",
+        "from": "math.misconception.space.prototype_shape_classification",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.exclusive_quadrilaterals.part_of.quadrilateral_types",
+        "from": "math.misconception.space.exclusive_quadrilateral_categories",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_types.encompasses.side_classification",
+        "from": "math.space.shapes.triangle_types",
+        "to": "math.space.shapes.triangle_side_classification",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Classifying triangles by side length is a core part of triangle types.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_types.encompasses.angle_classification",
+        "from": "math.space.shapes.triangle_types",
+        "to": "math.space.shapes.triangle_angle_classification",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Classifying triangles by angle type is a core part of triangle types.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_types.encompasses.hierarchy",
+        "from": "math.space.shapes.quadrilateral_types",
+        "to": "math.space.shapes.quadrilateral_hierarchy",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "A property hierarchy is central to classifying quadrilateral types accurately.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_types.encompasses.rectangle_square",
+        "from": "math.space.shapes.quadrilateral_types",
+        "to": "math.space.shapes.rectangle_square_properties",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Rectangles and squares are central quadrilateral classes.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_side_classification.requires.sides_vertices",
+        "from": "math.space.shapes.triangle_side_classification",
+        "to": "math.space.shapes.sides_and_vertices",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Side-length classification requires identifying sides and vertices of shapes.",
+        "failure_signal": "Learner cannot count or compare triangle sides reliably.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_angle_classification.requires.classify_angles",
+        "from": "math.space.shapes.triangle_angle_classification",
+        "to": "math.measurement.angles.classify_angles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Angle-based triangle classification requires recognising right, acute and obtuse angles.",
+        "failure_signal": "Learner cannot classify a triangle by its angle measures.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equilateral.requires.side_classification",
+        "from": "math.space.shapes.equilateral_triangles",
+        "to": "math.space.shapes.triangle_side_classification",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Equilateral triangles are a specific side-length class of triangles.",
+        "failure_signal": "Learner does not connect equal side lengths with the equilateral class.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.isosceles.requires.side_classification",
+        "from": "math.space.shapes.isosceles_triangles",
+        "to": "math.space.shapes.triangle_side_classification",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Isosceles triangles are a specific side-length class of triangles.",
+        "failure_signal": "Learner requires exactly two equal sides even when using an inclusive definition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scalene.requires.side_classification",
+        "from": "math.space.shapes.scalene_triangles",
+        "to": "math.space.shapes.triangle_side_classification",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Scalene triangles are identified through comparing side lengths.",
+        "failure_signal": "Learner misclassifies a triangle with equal sides as scalene.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_triangles.requires.angle_classification",
+        "from": "math.space.shapes.right_triangles",
+        "to": "math.space.shapes.triangle_angle_classification",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Right triangles are a specific angle-based triangle class.",
+        "failure_signal": "Learner identifies a right triangle only by orientation rather than by a right angle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.acute_obtuse.requires.angle_classification",
+        "from": "math.space.shapes.acute_obtuse_triangles",
+        "to": "math.space.shapes.triangle_angle_classification",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Acute and obtuse triangle classification requires recognising angle types within triangles.",
+        "failure_signal": "Learner confuses an obtuse triangle with a large-looking side or orientation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_hierarchy.requires.quadrilateral_types",
+        "from": "math.space.shapes.quadrilateral_hierarchy",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A quadrilateral hierarchy builds on recognising named quadrilateral types.",
+        "failure_signal": "Learner treats quadrilateral categories as mutually exclusive labels only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram.requires.parallel_sides",
+        "from": "math.space.shapes.parallelogram_properties",
+        "to": "math.space.shapes.parallel_perpendicular_sides",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Parallelogram properties depend on identifying pairs of parallel sides.",
+        "failure_signal": "Learner cannot recognise opposite parallel sides in a quadrilateral.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_square.requires.quadrilateral_hierarchy",
+        "from": "math.space.shapes.rectangle_square_properties",
+        "to": "math.space.shapes.quadrilateral_hierarchy",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rectangle and square relationships are part of the inclusive quadrilateral hierarchy.",
+        "failure_signal": "Learner insists a square is not a rectangle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rhombus.requires.quadrilateral_hierarchy",
+        "from": "math.space.shapes.rhombus_properties",
+        "to": "math.space.shapes.quadrilateral_hierarchy",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rhombus classification depends on comparing quadrilateral properties in a hierarchy.",
+        "failure_signal": "Learner cannot distinguish equal-side and right-angle conditions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trapezia_kites.requires.quadrilateral_hierarchy",
+        "from": "math.space.shapes.trapezia_and_kites",
+        "to": "math.space.shapes.quadrilateral_hierarchy",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Trapezia and kites are classified by side relationships within quadrilaterals.",
+        "failure_signal": "Learner classifies by appearance only instead of side relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.has_mis.prototype_classification",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.misconception.space.prototype_shape_classification",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_types.has_mis.exclusive_categories",
+        "from": "math.space.shapes.quadrilateral_types",
+        "to": "math.misconception.space.exclusive_quadrilateral_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/shapes_and_objects.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1499,
+    "edges": 3164
+  },
+  "graph_counts_after": {
+    "nodes": 1518,
+    "edges": 3201
+  }
+}

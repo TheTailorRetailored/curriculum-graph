@@ -1,0 +1,105 @@
+{
+  "patch_id": "math-percent-of-quantity-kps",
+  "applied_at": "2026-06-08T14:57:00.778Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.percent_of_quantity_uses_base",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.percentages.percent_of_quantity",
+        "label": "Percent of quantity uses the base",
+        "description": "Identify the whole or base quantity when finding a percent of an amount.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_of_quantity_uses_base.part_of.percent_of_quantity",
+        "from": "math.kp.percentages.percent_of_quantity_uses_base",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.convert_percent_to_decimal_for_quantity",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.percentages.percent_of_quantity",
+        "label": "Convert percent to decimal before multiplying",
+        "description": "Find a percent of a quantity by converting the percent to a decimal and multiplying by the base quantity.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_convert_percent_decimal.part_of.percent_of_quantity",
+        "from": "math.kp.percentages.convert_percent_to_decimal_for_quantity",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2646,
+    "edges": 5584
+  },
+  "graph_counts_after": {
+    "nodes": 2648,
+    "edges": 5586
+  }
+}

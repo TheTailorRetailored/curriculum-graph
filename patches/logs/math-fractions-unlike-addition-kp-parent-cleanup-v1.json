@@ -1,0 +1,99 @@
+{
+  "patch_id": "math-fractions-unlike-addition-kp-parent-cleanup-v1",
+  "applied_at": "2026-06-05T19:23:56.582Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.kp.recognise_unlike_denominators",
+      "updates": {
+        "parent_topic": "math.fractions.unlike_denominator_fraction_addition",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "confidence": "medium",
+          "compliance_note": "Canonical parent_topic updated to match active part_of edge under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.find_common_denominator",
+      "updates": {
+        "parent_topic": "math.fractions.unlike_denominator_fraction_addition",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "confidence": "medium",
+          "compliance_note": "Canonical parent_topic updated to match active part_of edge under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.rewrite_fractions_with_common_denominator",
+      "updates": {
+        "parent_topic": "math.fractions.unlike_denominator_fraction_addition",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "confidence": "medium",
+          "compliance_note": "Canonical parent_topic updated to match active part_of edge under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.add_numerators_after_matching_denominators",
+      "updates": {
+        "parent_topic": "math.fractions.unlike_denominator_fraction_addition",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "confidence": "medium",
+          "compliance_note": "Canonical parent_topic updated to match active part_of edge under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.topic.add_fractions_unlike_denominators",
+      "updates": {
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "system",
+          "review_status": "needs_revision",
+          "confidence": "medium",
+          "compliance_note": "Duplicate draft topic merged into canonical active lesson topic; embedded knowledge_points cleared because standalone KP nodes are authoritative under contract v0.2."
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2523,
+    "edges": 5239
+  },
+  "graph_counts_after": {
+    "nodes": 2519,
+    "edges": 5239
+  }
+}

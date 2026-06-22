@@ -1,0 +1,2127 @@
+{
+  "patch_id": "math-data-summaries-detail-001",
+  "applied_at": "2026-05-28T06:48:55.195Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.mean_as_balance_point",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Mean as balance point",
+        "description": "Interpret the mean as a balancing or fair-share value for a numerical data set.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.calculate_mean",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Calculate mean",
+        "description": "Calculate the mean by adding values and dividing by the number of values.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.median_ordered_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Median of ordered data",
+        "description": "Find the median by ordering data and locating the middle value or middle pair.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.mode_most_frequent",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Mode as most frequent value",
+        "description": "Identify the mode as the value or category that occurs most often.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.choose_measure_of_centre",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Choose measure of centre",
+        "description": "Choose mean, median or mode to summarise a data set based on data type and context.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Effect of outliers on centre",
+        "description": "Describe how outliers can affect mean, median and mode differently.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.centre_in_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Centre in context",
+        "description": "Interpret a measure of centre as a typical value in the context of the data.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.range_as_spread",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Range as spread",
+        "description": "Use the range to describe the distance between the smallest and largest data values.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.deviations_from_centre",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Deviations from centre",
+        "description": "Describe how data values vary from a typical or central value.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.quartiles_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Quartiles introduction",
+        "description": "Use quartiles to divide ordered data into four approximately equal parts.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.interquartile_range",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Interquartile range",
+        "description": "Calculate and interpret the interquartile range as the spread of the middle half of the data.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.five_number_summary",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Five-number summary",
+        "description": "Summarise data using minimum, first quartile, median, third quartile and maximum.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.outliers_using_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Outliers using context",
+        "description": "Identify and interpret possible outliers using both data values and context.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.variability_in_repeated_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Variability in repeated data",
+        "description": "Recognise that repeated measurements, samples or trials can vary naturally.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.compare_centres",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Compare centres",
+        "description": "Compare groups or distributions using appropriate measures of centre.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.compare_spreads",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Compare spreads",
+        "description": "Compare groups or distributions using range, interquartile range or visual spread.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.compare_shapes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Compare shapes of distributions",
+        "description": "Compare distributions by describing symmetry, skew, peaks, clusters and gaps.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.compare_outliers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Compare outliers",
+        "description": "Compare distributions by considering possible outliers and their effects on interpretation.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.compare_two_dot_plots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Compare two dot plots",
+        "description": "Compare two dot plots using centre, spread, shape and unusual values.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.compare_box_plots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Compare box plots",
+        "description": "Compare two or more box plots using median, quartiles, spread and outliers.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.statistical_claims_from_distributions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Statistical claims from distributions",
+        "description": "Make cautious claims about groups using distribution comparisons and context.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.mean_sensitive_to_extremes",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Mean is sensitive to extremes",
+        "description": "Very large or very small values can pull the mean toward them.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.median_needs_ordered_data",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Median needs ordered data",
+        "description": "The median is found after values are placed in order.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.mode_is_most_frequent",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Mode is most frequent",
+        "description": "The mode is the value or category that appears most often, and there may be no mode or multiple modes.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.centre_describes_typical_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Centre describes typical value",
+        "description": "A measure of centre summarises what is typical for a data set, but different centres answer different questions.",
+        "aliases": [],
+        "year_band": "5-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.range_uses_maximum_minimum",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Range uses maximum and minimum",
+        "description": "The range is the maximum value minus the minimum value.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.iqr_middle_half",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "IQR describes middle half",
+        "description": "The interquartile range describes the spread of the middle half of ordered data.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.outliers_are_unusual_values",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Outliers are unusual values",
+        "description": "Outliers are values that are unusually far from the rest of the data and need contextual interpretation.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.compare_distributions_uses_multiple_features",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Compare distributions using multiple features",
+        "description": "Distribution comparison should consider centre, spread, shape, outliers and context together.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.context_controls_summary_interpretation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Context controls summary interpretation",
+        "description": "The same summary statistic can mean different things depending on what the data describe.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.variability_is_expected",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Variability is expected",
+        "description": "Data values often vary naturally across people, objects, measurements, samples or trials.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.mean_always_best_centre",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Mean always best centre",
+        "description": "Learner assumes the mean is always the best summary of typical value, even with skewed data or outliers.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.median_middle_position_unsorted",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Median from unsorted middle position",
+        "description": "Learner chooses the middle listed value without first ordering the data.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.range_describes_all_variation",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Range describes all variation",
+        "description": "Learner treats the range as a complete description of spread and ignores how values are distributed between the extremes.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.outlier_always_error",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Outlier always error",
+        "description": "Learner assumes every outlier must be a mistake rather than a value requiring investigation.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.compare_only_by_centre",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Compare only by centre",
+        "description": "Learner compares distributions only by mean or median and ignores spread, shape, outliers and context.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_balance.part_of.centre",
+        "from": "math.statistics.summaries.mean_as_balance_point",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_mean.part_of.centre",
+        "from": "math.statistics.summaries.calculate_mean",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_ordered.part_of.centre",
+        "from": "math.statistics.summaries.median_ordered_data",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_frequent.part_of.centre",
+        "from": "math.statistics.summaries.mode_most_frequent",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_centre.part_of.centre",
+        "from": "math.statistics.summaries.choose_measure_of_centre",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outliers_centre.part_of.centre",
+        "from": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_context.part_of.centre",
+        "from": "math.statistics.summaries.centre_in_context",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_spread.part_of.spread",
+        "from": "math.statistics.summaries.range_as_spread",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.deviations_centre.part_of.spread",
+        "from": "math.statistics.summaries.deviations_from_centre",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quartiles_intro.part_of.spread",
+        "from": "math.statistics.summaries.quartiles_intro",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.iqr.part_of.spread",
+        "from": "math.statistics.summaries.interquartile_range",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.five_number.part_of.spread",
+        "from": "math.statistics.summaries.five_number_summary",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outliers_context.part_of.spread",
+        "from": "math.statistics.summaries.outliers_using_context",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variability_repeated.part_of.spread",
+        "from": "math.statistics.summaries.variability_in_repeated_data",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_centres.part_of.compare_dist",
+        "from": "math.statistics.summaries.compare_centres",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_spreads.part_of.compare_dist",
+        "from": "math.statistics.summaries.compare_spreads",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_shapes.part_of.compare_dist",
+        "from": "math.statistics.summaries.compare_shapes",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_outliers.part_of.compare_dist",
+        "from": "math.statistics.summaries.compare_outliers",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dot_plots.part_of.compare_dist",
+        "from": "math.statistics.summaries.compare_two_dot_plots",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_box_plots.part_of.compare_dist",
+        "from": "math.statistics.summaries.compare_box_plots",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.claims_distributions.part_of.compare_dist",
+        "from": "math.statistics.summaries.statistical_claims_from_distributions",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mean_extremes.part_of.centre",
+        "from": "math.kp.statistics.mean_sensitive_to_extremes",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_median_order.part_of.centre",
+        "from": "math.kp.statistics.median_needs_ordered_data",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mode_frequent.part_of.centre",
+        "from": "math.kp.statistics.mode_is_most_frequent",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_centre_typical.part_of.centre",
+        "from": "math.kp.statistics.centre_describes_typical_value",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_range_minmax.part_of.spread",
+        "from": "math.kp.statistics.range_uses_maximum_minimum",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_iqr_middle.part_of.spread",
+        "from": "math.kp.statistics.iqr_middle_half",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_outliers_unusual.part_of.spread",
+        "from": "math.kp.statistics.outliers_are_unusual_values",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compare_multi_features.part_of.compare_dist",
+        "from": "math.kp.statistics.compare_distributions_uses_multiple_features",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_context_summary.part_of.compare_dist",
+        "from": "math.kp.statistics.context_controls_summary_interpretation",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_variability_expected.part_of.spread",
+        "from": "math.kp.statistics.variability_is_expected",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_mean_always_best.part_of.centre",
+        "from": "math.misconception.statistics.mean_always_best_centre",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_median_unsorted.part_of.centre",
+        "from": "math.misconception.statistics.median_middle_position_unsorted",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_range_all_variation.part_of.spread",
+        "from": "math.misconception.statistics.range_describes_all_variation",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_outlier_error.part_of.spread",
+        "from": "math.misconception.statistics.outlier_always_error",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_compare_centre.part_of.compare_dist",
+        "from": "math.misconception.statistics.compare_only_by_centre",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.encompasses.mean_balance",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mean_as_balance_point",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mean as a balance or fair-share value is a core interpretation of centre.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.encompasses.calculate_mean",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.calculate_mean",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Calculating mean is a central measure-of-centre skill.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.encompasses.median_ordered",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.median_ordered_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Median is a central measure of centre for ordered numerical data.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.encompasses.mode_frequent",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mode_most_frequent",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mode is a common centre or typicality summary for categorical and discrete data.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.encompasses.choose_centre",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.choose_measure_of_centre",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Choosing among measures of centre is an important summary-statistics decision.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.encompasses.outliers_centre",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Outliers affect interpretation and choice of centre.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.encompasses.context",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.centre_in_context",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Measures of centre must be interpreted in context.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.encompasses.range",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.range_as_spread",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Range is an introductory measure of spread.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.encompasses.deviations",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.deviations_from_centre",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Deviations from centre support reasoning about variability.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.encompasses.quartiles",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.quartiles_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Quartiles support later IQR and box-plot interpretation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.encompasses.iqr",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.interquartile_range",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Interquartile range is a core measure of spread for the middle half of data.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.encompasses.five_number",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.five_number_summary",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Five-number summaries describe centre and spread together.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.encompasses.outliers",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.outliers_using_context",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Outliers are a key feature of variation and spread interpretation.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.encompasses.variability_repeated",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.variability_in_repeated_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Repeated data variability supports the idea that data naturally vary.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dist.encompasses.centres",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_centres",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing centres is a core part of comparing distributions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dist.encompasses.spreads",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_spreads",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing spreads is a core part of comparing distributions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dist.encompasses.shapes",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_shapes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Distribution shape is a major comparison feature.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dist.encompasses.outliers",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_outliers",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Outliers can change distribution comparisons and interpretations.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dist.encompasses.two_dot_plots",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_two_dot_plots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing dot plots directly practises visual distribution comparison.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dist.encompasses.box_plots",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_box_plots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing box plots practises summary-based distribution comparison.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dist.encompasses.claims",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.statistical_claims_from_distributions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Distribution comparisons support cautious statistical claims in context.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_balance.requires.line_dot",
+        "from": "math.statistics.summaries.mean_as_balance_point",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Mean as balance is easier to interpret from organised numerical data displays.",
+        "failure_signal": "Learner treats mean only as a procedure and not as a summary of data values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_mean.requires.mean_balance",
+        "from": "math.statistics.summaries.calculate_mean",
+        "to": "math.statistics.summaries.mean_as_balance_point",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Calculating mean should connect to mean as a fair-share or balance value.",
+        "failure_signal": "Learner follows the algorithm but cannot interpret the result as a typical value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_ordered.requires.line_dot",
+        "from": "math.statistics.summaries.median_ordered_data",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Median requires locating ordered numerical data values.",
+        "failure_signal": "Learner selects the middle listed value without ordering the data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_frequent.requires.frequency_tables",
+        "from": "math.statistics.summaries.mode_most_frequent",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Mode depends on identifying the most frequent value or category.",
+        "failure_signal": "Learner confuses highest value with most frequent value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_centre.requires.mean_median_mode",
+        "from": "math.statistics.summaries.choose_measure_of_centre",
+        "to": "math.statistics.summaries.calculate_mean",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing a measure of centre requires knowing how at least mean and median summarise data.",
+        "failure_signal": "Learner uses mean by default regardless of data type or outliers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outliers_centre.requires.choose_centre",
+        "from": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "to": "math.statistics.summaries.choose_measure_of_centre",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Understanding outlier effects helps explain why different centres may be chosen.",
+        "failure_signal": "Learner does not notice that an extreme value changes the mean more than the median.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_context.requires.choose_centre",
+        "from": "math.statistics.summaries.centre_in_context",
+        "to": "math.statistics.summaries.choose_measure_of_centre",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting centre in context requires choosing and understanding the summary statistic.",
+        "failure_signal": "Learner reports a number without explaining what it means in context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_spread.requires.centre",
+        "from": "math.statistics.summaries.range_as_spread",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Spread is introduced alongside centre to describe more than a typical value.",
+        "failure_signal": "Learner compares only typical values and ignores how far data vary.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.deviations.requires.range",
+        "from": "math.statistics.summaries.deviations_from_centre",
+        "to": "math.statistics.summaries.range_as_spread",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Deviations from centre extend basic spread reasoning beyond minimum and maximum.",
+        "failure_signal": "Learner cannot describe how far values are from a typical value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quartiles.requires.median",
+        "from": "math.statistics.summaries.quartiles_intro",
+        "to": "math.statistics.summaries.median_ordered_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Quartiles require ordering data and locating middle positions in halves of the data.",
+        "failure_signal": "Learner cannot locate quartiles consistently in ordered data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.iqr.requires.quartiles",
+        "from": "math.statistics.summaries.interquartile_range",
+        "to": "math.statistics.summaries.quartiles_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interquartile range is calculated from the first and third quartiles.",
+        "failure_signal": "Learner subtracts unrelated values rather than Q3 minus Q1.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.five_number.requires.iqr",
+        "from": "math.statistics.summaries.five_number_summary",
+        "to": "math.statistics.summaries.interquartile_range",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Five-number summaries combine extremes, median and quartiles.",
+        "failure_signal": "Learner cannot identify the ordered summary values needed for a box plot.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outliers_context.requires.shape_distribution",
+        "from": "math.statistics.summaries.outliers_using_context",
+        "to": "math.statistics.displays.shape_of_distribution_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Outliers are recognised by comparing values to the overall distribution pattern and context.",
+        "failure_signal": "Learner labels any largest value as an outlier without considering context or pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variability_repeated.requires.data_collection",
+        "from": "math.statistics.summaries.variability_in_repeated_data",
+        "to": "math.statistics.data.collecting_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reasoning about repeated-data variability requires understanding that collected data can vary across repeated observations or trials.",
+        "failure_signal": "Learner expects repeated measurements or trials to always produce identical values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_centres.requires.centre_context",
+        "from": "math.statistics.summaries.compare_centres",
+        "to": "math.statistics.summaries.centre_in_context",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing centres requires interpreting centre summaries in context for each group.",
+        "failure_signal": "Learner compares mean or median values without interpreting what they represent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_spreads.requires.iqr",
+        "from": "math.statistics.summaries.compare_spreads",
+        "to": "math.statistics.summaries.interquartile_range",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing spreads uses range, IQR or visual spread between distributions.",
+        "failure_signal": "Learner compares groups by centre only and ignores variability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_shapes.requires.shape_distribution",
+        "from": "math.statistics.summaries.compare_shapes",
+        "to": "math.statistics.displays.shape_of_distribution_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing shapes requires recognising distribution shape features in displays.",
+        "failure_signal": "Learner describes individual points but not overall distribution shape.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_outliers.requires.outliers_context",
+        "from": "math.statistics.summaries.compare_outliers",
+        "to": "math.statistics.summaries.outliers_using_context",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing outliers builds from identifying and interpreting outliers within one distribution.",
+        "failure_signal": "Learner treats unusual values as irrelevant or always erroneous.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dot_plots.requires.compare_centres",
+        "from": "math.statistics.summaries.compare_two_dot_plots",
+        "to": "math.statistics.summaries.compare_centres",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing dot plots uses centre along with visual spread and shape features.",
+        "failure_signal": "Learner compares displays by one visible point rather than the distribution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_box_plots.requires.box_features",
+        "from": "math.statistics.summaries.compare_box_plots",
+        "to": "math.statistics.displays.box_plot_features",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing box plots requires reading medians, quartiles, whiskers and ranges.",
+        "failure_signal": "Learner compares box lengths or positions without interpreting the five-number summary.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.claims_dist.requires.compare_distributions",
+        "from": "math.statistics.summaries.statistical_claims_from_distributions",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Making statistical claims from distributions requires comparing centre, spread, shape and context.",
+        "failure_signal": "Learner overstates a conclusion from a single statistic or display feature.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.has_mis.mean_best",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.misconception.statistics.mean_always_best_centre",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.has_mis.median_unsorted",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.misconception.statistics.median_middle_position_unsorted",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.has_mis.range_all",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.misconception.statistics.range_describes_all_variation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.has_mis.outlier_error",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.misconception.statistics.outlier_always_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_dist.has_mis.centre_only",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.misconception.statistics.compare_only_by_centre",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/data_summaries_and_variation.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1077,
+    "edges": 2211
+  },
+  "graph_counts_after": {
+    "nodes": 1113,
+    "edges": 2294
+  }
+}

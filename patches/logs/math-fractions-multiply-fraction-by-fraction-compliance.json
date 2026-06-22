@@ -1,0 +1,262 @@
+{
+  "patch_id": "math-fractions-multiply-fraction-by-fraction-compliance",
+  "applied_at": "2026-06-06T05:59:00.992Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 4,
+      "edges_created": 9,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.fraction_by_fraction_part_of_part",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.multiply_fraction_by_fraction",
+        "label": "Fraction by fraction means part of part",
+        "description": "Interpret multiplying one fraction by another as taking a fractional part of a fractional part.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.multiply_numerators_and_denominators",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.multiply_fraction_by_fraction",
+        "label": "Multiply numerators and denominators",
+        "description": "Calculate a product of two fractions by multiplying the numerators to count selected parts and multiplying the denominators to name the partitioned unit.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.product_of_proper_fractions_can_be_smaller",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.multiply_fraction_by_fraction",
+        "label": "Product of proper fractions can be smaller",
+        "description": "Recognise that multiplying proper fractions can produce a smaller quantity because it asks for part of a part.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.fraction_multiplication_area_intersection",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.multiply_fraction_by_fraction",
+        "label": "Area intersection models fraction multiplication",
+        "description": "Use overlapping partitions in an area model to show the product of two fractions as the intersection of selected parts.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fraction_by_fraction_part_of_part.part_of.multiply_frac_frac",
+        "from": "math.kp.fractions.fraction_by_fraction_part_of_part",
+        "to": "math.fractions.multiply_fraction_by_fraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_multiply_nums_dens.part_of.multiply_frac_frac",
+        "from": "math.kp.fractions.multiply_numerators_and_denominators",
+        "to": "math.fractions.multiply_fraction_by_fraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_product_proper_smaller.part_of.multiply_frac_frac",
+        "from": "math.kp.fractions.product_of_proper_fractions_can_be_smaller",
+        "to": "math.fractions.multiply_fraction_by_fraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_area_intersection.part_of.multiply_frac_frac",
+        "from": "math.kp.fractions.fraction_multiplication_area_intersection",
+        "to": "math.fractions.multiply_fraction_by_fraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_frac.uses_representation.area_model",
+        "from": "math.fractions.multiply_fraction_by_fraction",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area intersection models are the clearest representation for part-of-part fraction multiplication.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_frac.assessed_by.compute",
+        "from": "math.fractions.multiply_fraction_by_fraction",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute products of two fractions.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_frac.assessed_by.model",
+        "from": "math.fractions.multiply_fraction_by_fraction",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model part-of-part multiplication with overlapping area models.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_frac.assessed_by.explain",
+        "from": "math.fractions.multiply_fraction_by_fraction",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain why a product of proper fractions can be smaller than either factor.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_frac_frac.has_mis.multiplication_always_increases",
+        "from": "math.fractions.multiply_fraction_by_fraction",
+        "to": "math.misconception.fractions.fraction_multiplication_always_increases",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "This misconception is central to fraction-by-fraction multiplication because products of proper fractions can be smaller.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2547,
+    "edges": 5309
+  },
+  "graph_counts_after": {
+    "nodes": 2551,
+    "edges": 5318
+  }
+}

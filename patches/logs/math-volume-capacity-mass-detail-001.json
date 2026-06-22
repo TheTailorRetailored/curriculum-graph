@@ -1,0 +1,2127 @@
+{
+  "patch_id": "math-volume-capacity-mass-detail-001",
+  "applied_at": "2026-05-27T07:10:30.989Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.compare_mass_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Compare mass in contexts",
+        "description": "Compare object mass using everyday contexts, balance scales and appropriate comparison language.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Compare capacity in contexts",
+        "description": "Compare container capacity using filling, pouring and everyday capacity language.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.read_scales",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Read measurement scales",
+        "description": "Read simple scales on balances, jugs and measuring instruments for mass and capacity.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Estimate mass and capacity",
+        "description": "Estimate mass and capacity using familiar benchmarks and check reasonableness.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Convert mass and capacity in contexts",
+        "description": "Convert between grams and kilograms or millilitres and litres in contextual problems.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.unit_cubes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Unit cubes for volume",
+        "description": "Use equal unit cubes to measure and build three-dimensional volume.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.volume_as_space_filled",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Volume as space filled",
+        "description": "Understand volume as the amount of three-dimensional space occupied or filled.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.count_cubic_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Count cubic units",
+        "description": "Count cubic units in structured rectangular-prism arrangements.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.layers_of_unit_cubes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Layers of unit cubes",
+        "description": "Use layers of unit cubes to connect base area and height in prisms.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.rectangular_prism_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Rectangular prism volume formula",
+        "description": "Use length, width and height to calculate the volume of rectangular prisms.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.prism_base_area_height",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Prism volume as base area times height",
+        "description": "Calculate prism volume using the area of the base multiplied by the prism height.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.composite_prism_volume",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Composite prism volume",
+        "description": "Find volumes of composite solids by decomposing them into prisms.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.capacity_volume_connection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Capacity and volume connection",
+        "description": "Connect capacity units such as millilitres and litres to volume in containers.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.surface_area.nets_of_prisms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Nets of prisms",
+        "description": "Use nets to represent all faces of a prism for surface-area reasoning.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.surface_area.face_areas",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Face areas of prisms",
+        "description": "Find the areas of individual faces of a prism before combining them.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.surface_area.rectangular_prism_surface_area",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Rectangular prism surface area",
+        "description": "Calculate the total surface area of rectangular prisms from their face areas.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.surface_area.triangular_prism_surface_area",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Triangular prism surface area",
+        "description": "Calculate the surface area of triangular prisms using rectangular and triangular faces.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.surface_area.composite_solid_surface_area",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Composite solid surface area",
+        "description": "Find surface area of composite solids by accounting for exposed and hidden faces.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.surface_area.surface_area_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Surface area contexts",
+        "description": "Solve contextual problems involving material, wrapping, painting or exposed surfaces.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.volume_context_problems",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Volume context problems",
+        "description": "Solve contextual problems involving volume, capacity and prism dimensions.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.solve_missing_dimension",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Solve missing prism dimension",
+        "description": "Use a known volume and other dimensions to solve for a missing prism dimension.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.mass_and_capacity_are_attributes",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Mass and capacity are attributes",
+        "description": "Mass and capacity measure different attributes and require different units and instruments.",
+        "aliases": [],
+        "year_band": "K-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.volume_uses_cubic_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Volume uses cubic units",
+        "description": "Volume is measured with cubic units because it fills three-dimensional space.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.volume_layers_base_area",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Volume layers build from base area",
+        "description": "Prism volume can be seen as layers of base area stacked through height.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.prism_volume_base_area_height",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Prism volume is base area times height",
+        "description": "The volume of a prism equals the area of its base multiplied by its height.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.capacity_volume_units_connect",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Capacity and volume units connect",
+        "description": "Capacity units can be related to volume units when containers are filled.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.surface_area_exposed_faces",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Surface area uses exposed faces",
+        "description": "Surface area is the total area of exposed faces of a three-dimensional object.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.nets_show_all_faces",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Nets show all faces",
+        "description": "A net can show every face of a prism so the face areas can be added.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.surface_area_area_not_volume",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Surface area is area not volume",
+        "description": "Surface area measures exposed two-dimensional faces, not the space inside the solid.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.hidden_faces_not_exposed",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Hidden faces are not exposed",
+        "description": "Internal or shared faces are not counted in the exposed surface area of a composite solid.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.volume_dimension_units_cubed",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Volume units are cubed",
+        "description": "Volume units are cubic units because three dimensions are multiplied.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.volume_surface_area_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Volume surface area confusion",
+        "description": "Learner confuses the space inside a solid with the area of its outside faces.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.count_visible_cubes_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Count visible cubes only",
+        "description": "Learner counts only visible unit cubes and ignores hidden cubes in a prism arrangement.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.use_area_formula_for_volume",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Use area formula for volume",
+        "description": "Learner uses a two-dimensional area formula when a three-dimensional volume formula is required.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.count_hidden_faces_surface_area",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Count hidden faces in surface area",
+        "description": "Learner includes internal shared faces when calculating exposed surface area of a composite solid.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.mass_capacity_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Mass capacity confusion",
+        "description": "Learner confuses how heavy an object is with how much a container can hold.",
+        "aliases": [],
+        "year_band": "K-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mass_ctx.part_of.mass_capacity",
+        "from": "math.measurement.mass_capacity.compare_mass_contexts",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_capacity_ctx.part_of.mass_capacity",
+        "from": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scales.part_of.mass_capacity",
+        "from": "math.measurement.mass_capacity.read_scales",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_mass_capacity.part_of.mass_capacity",
+        "from": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_mass_capacity_ctx.part_of.mass_capacity",
+        "from": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_cubes.part_of.volume_prisms",
+        "from": "math.measurement.volume.unit_cubes",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_space_filled.part_of.volume_prisms",
+        "from": "math.measurement.volume.volume_as_space_filled",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.count_cubic_units.part_of.volume_prisms",
+        "from": "math.measurement.volume.count_cubic_units",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.layers_unit_cubes.part_of.volume_prisms",
+        "from": "math.measurement.volume.layers_of_unit_cubes",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_prism_volume.part_of.volume_prisms",
+        "from": "math.measurement.volume.rectangular_prism_formula",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prism_base_area_height.part_of.volume_prisms",
+        "from": "math.measurement.volume.prism_base_area_height",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_prism_volume.part_of.volume_prisms",
+        "from": "math.measurement.volume.composite_prism_volume",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.capacity_volume_connection.part_of.volume_prisms",
+        "from": "math.measurement.volume.capacity_volume_connection",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nets_prisms.part_of.surface_area",
+        "from": "math.measurement.surface_area.nets_of_prisms",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.face_areas.part_of.surface_area",
+        "from": "math.measurement.surface_area.face_areas",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_prism_surface.part_of.surface_area",
+        "from": "math.measurement.surface_area.rectangular_prism_surface_area",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tri_prism_surface.part_of.surface_area",
+        "from": "math.measurement.surface_area.triangular_prism_surface_area",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_surface.part_of.surface_area",
+        "from": "math.measurement.surface_area.composite_solid_surface_area",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_contexts.part_of.surface_area",
+        "from": "math.measurement.surface_area.surface_area_contexts",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_contexts.part_of.volume_prisms",
+        "from": "math.measurement.volume.volume_context_problems",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_dimension.part_of.volume_prisms",
+        "from": "math.measurement.volume.solve_missing_dimension",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mass_capacity_attr.part_of.mass_capacity",
+        "from": "math.kp.measurement.mass_and_capacity_are_attributes",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_volume_cubic.part_of.volume_prisms",
+        "from": "math.kp.measurement.volume_uses_cubic_units",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_volume_layers.part_of.volume_prisms",
+        "from": "math.kp.measurement.volume_layers_base_area",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_prism_base_height.part_of.volume_prisms",
+        "from": "math.kp.measurement.prism_volume_base_area_height",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_capacity_volume_units.part_of.volume_prisms",
+        "from": "math.kp.measurement.capacity_volume_units_connect",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_surface_exposed.part_of.surface_area",
+        "from": "math.kp.measurement.surface_area_exposed_faces",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nets_faces.part_of.surface_area",
+        "from": "math.kp.measurement.nets_show_all_faces",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_surface_not_volume.part_of.surface_area",
+        "from": "math.kp.measurement.surface_area_area_not_volume",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_hidden_faces.part_of.surface_area",
+        "from": "math.kp.measurement.hidden_faces_not_exposed",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_volume_units_cubed.part_of.volume_prisms",
+        "from": "math.kp.measurement.volume_dimension_units_cubed",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_volume_surface.part_of.volume_prisms",
+        "from": "math.misconception.measurement.volume_surface_area_confusion",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_visible_cubes.part_of.volume_prisms",
+        "from": "math.misconception.measurement.count_visible_cubes_only",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_area_formula_volume.part_of.volume_prisms",
+        "from": "math.misconception.measurement.use_area_formula_for_volume",
+        "to": "math.measurement.volume.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_hidden_faces.part_of.surface_area",
+        "from": "math.misconception.measurement.count_hidden_faces_surface_area",
+        "to": "math.measurement.surface_area.prisms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_mass_capacity.part_of.mass_capacity",
+        "from": "math.misconception.measurement.mass_capacity_confusion",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_capacity.encompasses.mass_compare",
+        "from": "math.measurement.mass_capacity.measure_contexts",
+        "to": "math.measurement.mass_capacity.compare_mass_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mass comparison is a core mass-measurement context.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_capacity.encompasses.capacity_compare",
+        "from": "math.measurement.mass_capacity.measure_contexts",
+        "to": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Capacity comparison is a core capacity-measurement context.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_capacity.encompasses.scales",
+        "from": "math.measurement.mass_capacity.measure_contexts",
+        "to": "math.measurement.mass_capacity.read_scales",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading scales is central to measuring mass and capacity with instruments.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_capacity.encompasses.estimate",
+        "from": "math.measurement.mass_capacity.measure_contexts",
+        "to": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Estimating supports unit choice and reasonableness in mass and capacity contexts.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_capacity.encompasses.convert",
+        "from": "math.measurement.mass_capacity.measure_contexts",
+        "to": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Converting units is common in later mass and capacity contexts.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.unit_cubes",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.unit_cubes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Unit cubes are the foundational unit for volume of prisms.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.space_filled",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.volume_as_space_filled",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Volume as space filled is core conceptual understanding for prisms.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.count_units",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.count_cubic_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Counting cubic units directly practises volume measurement.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.layers",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.layers_of_unit_cubes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Layer reasoning connects unit cubes to prism volume formulas.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.rect_formula",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.rectangular_prism_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rectangular prism formula is central to prism volume work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.base_height",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.prism_base_area_height",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Base-area-times-height generalises rectangular prism volume to other prisms.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.composite",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.composite_prism_volume",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Composite prism volume extends prism volume to decomposed solids.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.capacity_connection",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.capacity_volume_connection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Capacity-volume links connect prism volume to filled containers.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area.encompasses.nets",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.measurement.surface_area.nets_of_prisms",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Nets show all faces used in surface-area calculations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area.encompasses.face_areas",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.measurement.surface_area.face_areas",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Surface area is calculated by adding face areas.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area.encompasses.rect_prism",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.measurement.surface_area.rectangular_prism_surface_area",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rectangular prism surface area is a central surface-area case.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area.encompasses.tri_prism",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.measurement.surface_area.triangular_prism_surface_area",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Triangular prism surface area extends face-area reasoning to triangular faces.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area.encompasses.composite",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.measurement.surface_area.composite_solid_surface_area",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Composite surface area requires identifying exposed faces across combined solids.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area.encompasses.contexts",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.measurement.surface_area.surface_area_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Contextual surface-area problems apply face-area reasoning to materials and coverings.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.contexts",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.volume_context_problems",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Context problems apply prism volume and capacity relationships.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.encompasses.missing_dimension",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.volume.solve_missing_dimension",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Missing-dimension problems extend volume formulas into inverse reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mass_ctx.requires.mass_units",
+        "from": "math.measurement.mass_capacity.compare_mass_contexts",
+        "to": "math.measurement.attributes.select_mass_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing mass in contexts depends on recognising mass units and the mass attribute.",
+        "failure_signal": "Learner compares visual size instead of mass or chooses capacity units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_capacity_ctx.requires.capacity_units",
+        "from": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "to": "math.measurement.attributes.select_capacity_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Capacity contexts depend on recognising the capacity attribute and suitable capacity units.",
+        "failure_signal": "Learner uses mass or length units for a container's capacity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scales.requires.metric_units",
+        "from": "math.measurement.mass_capacity.read_scales",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading measurement scales requires familiarity with standard measurement units and marked intervals.",
+        "failure_signal": "Learner reads marks as counts rather than values on a scale.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_mass_capacity.requires.units",
+        "from": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Estimating mass and capacity requires familiar unit benchmarks.",
+        "failure_signal": "Learner gives implausible estimates or inappropriate units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_mass_capacity_ctx.requires.conversion",
+        "from": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "to": "math.measurement.attributes.convert_mass_capacity_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Contextual mass and capacity conversions require converting between related metric units.",
+        "failure_signal": "Learner changes unit labels without scaling quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_cubes.requires.square_units",
+        "from": "math.measurement.volume.unit_cubes",
+        "to": "math.measurement.attributes.square_units_area",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Unit cubes extend equal square-unit area reasoning into three dimensions.",
+        "failure_signal": "Learner treats cubic units as flat squares rather than 3D units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_space.requires.unit_cubes",
+        "from": "math.measurement.volume.volume_as_space_filled",
+        "to": "math.measurement.volume.unit_cubes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Understanding volume as filled space is supported by building with unit cubes.",
+        "failure_signal": "Learner counts surfaces instead of the space occupied by the object.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.count_cubes.requires.unit_cubes",
+        "from": "math.measurement.volume.count_cubic_units",
+        "to": "math.measurement.volume.unit_cubes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Counting cubic units requires knowing that unit cubes are the repeated volume unit.",
+        "failure_signal": "Learner counts only visible cubes or counts faces instead of cubes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.layers_cubes.requires.count_cubes",
+        "from": "math.measurement.volume.layers_of_unit_cubes",
+        "to": "math.measurement.volume.count_cubic_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Layer reasoning builds from structured counting of cubic units.",
+        "failure_signal": "Learner cannot infer hidden layers or relate a layer to base area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_prism_formula.requires.layers",
+        "from": "math.measurement.volume.rectangular_prism_formula",
+        "to": "math.measurement.volume.layers_of_unit_cubes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The rectangular prism formula generalises length-by-width layers stacked by height.",
+        "failure_signal": "Learner multiplies two dimensions only or cannot explain why height is included.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prism_base_height.requires.rect_formula",
+        "from": "math.measurement.volume.prism_base_area_height",
+        "to": "math.measurement.volume.rectangular_prism_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Base-area-times-height generalises rectangular prism volume to other prism bases.",
+        "failure_signal": "Learner cannot identify a base area or prism height.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_prism_volume.requires.base_height",
+        "from": "math.measurement.volume.composite_prism_volume",
+        "to": "math.measurement.volume.prism_base_area_height",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Composite prism volume requires decomposing into prisms and calculating each part's volume.",
+        "failure_signal": "Learner adds surface areas or external dimensions instead of part volumes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.capacity_volume_connection.requires.capacity_units",
+        "from": "math.measurement.volume.capacity_volume_connection",
+        "to": "math.measurement.attributes.select_capacity_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Relating capacity and volume requires familiarity with capacity units and container contexts.",
+        "failure_signal": "Learner treats litres and cubic units as unrelated labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nets_prisms.requires.face_area",
+        "from": "math.measurement.surface_area.nets_of_prisms",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Nets of prisms require identifying faces whose areas can be calculated.",
+        "failure_signal": "Learner draws a net but cannot connect faces to area calculations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.face_areas.requires.nets",
+        "from": "math.measurement.surface_area.face_areas",
+        "to": "math.measurement.surface_area.nets_of_prisms",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding face areas depends on identifying all faces of the prism, often through a net.",
+        "failure_signal": "Learner misses faces or calculates only one face area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_prism_surface.requires.face_areas",
+        "from": "math.measurement.surface_area.rectangular_prism_surface_area",
+        "to": "math.measurement.surface_area.face_areas",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Rectangular prism surface area requires adding areas of all rectangular faces.",
+        "failure_signal": "Learner finds volume or only one pair of faces instead of total exposed area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tri_prism_surface.requires.triangle_area",
+        "from": "math.measurement.surface_area.triangular_prism_surface_area",
+        "to": "math.measurement.area.triangle_area_half_rectangle",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Triangular prism surface area includes triangular faces whose areas must be calculated.",
+        "failure_signal": "Learner calculates rectangular faces but omits or miscalculates triangular faces.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_surface.requires.rect_surface",
+        "from": "math.measurement.surface_area.composite_solid_surface_area",
+        "to": "math.measurement.surface_area.rectangular_prism_surface_area",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Composite solid surface area builds from surface area of simpler prisms and exposed-face reasoning.",
+        "failure_signal": "Learner counts hidden shared faces or omits exposed faces.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_contexts.requires.rect_surface",
+        "from": "math.measurement.surface_area.surface_area_contexts",
+        "to": "math.measurement.surface_area.rectangular_prism_surface_area",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contextual surface-area problems require selecting exposed faces relevant to the context.",
+        "failure_signal": "Learner uses volume when the context asks for covering material or surface coating.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_contexts.requires.base_height",
+        "from": "math.measurement.volume.volume_context_problems",
+        "to": "math.measurement.volume.prism_base_area_height",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contextual volume problems require selecting and applying an appropriate prism volume strategy.",
+        "failure_signal": "Learner calculates an area when a three-dimensional capacity or volume is needed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_dimension.requires.volume_formula",
+        "from": "math.measurement.volume.solve_missing_dimension",
+        "to": "math.measurement.volume.rectangular_prism_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Solving missing dimensions requires rearranging a known prism volume relationship.",
+        "failure_signal": "Learner multiplies known dimensions again instead of using inverse operations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.has_mis.surface_confusion",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.misconception.measurement.volume_surface_area_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.has_mis.visible_cubes",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.misconception.measurement.count_visible_cubes_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.has_mis.area_formula",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.misconception.measurement.use_area_formula_for_volume",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area.has_mis.hidden_faces",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.misconception.measurement.count_hidden_faces_surface_area",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_capacity.has_mis.mass_capacity",
+        "from": "math.measurement.mass_capacity.measure_contexts",
+        "to": "math.misconception.measurement.mass_capacity_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/volume_capacity_and_mass.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 789,
+    "edges": 1547
+  },
+  "graph_counts_after": {
+    "nodes": 825,
+    "edges": 1630
+  }
+}

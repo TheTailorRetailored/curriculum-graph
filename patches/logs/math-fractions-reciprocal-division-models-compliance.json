@@ -1,0 +1,321 @@
+{
+  "patch_id": "math-fractions-reciprocal-division-models-compliance",
+  "applied_at": "2026-06-06T06:02:46.369Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 5,
+      "edges_created": 11,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.reciprocal_names_multiplicative_inverse",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.reciprocal_division_models",
+        "label": "Reciprocal names a multiplicative inverse",
+        "description": "Recognise the reciprocal of a nonzero fraction as the number that multiplies with it to make one.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.division_by_fraction_asks_how_many_groups",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.reciprocal_division_models",
+        "label": "Division by a fraction asks how many groups",
+        "description": "Interpret division by a fraction as asking how many groups of the divisor fit into the dividend.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.invert_and_multiply_matches_reciprocal_model",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.reciprocal_division_models",
+        "label": "Invert and multiply matches the reciprocal model",
+        "description": "Connect the invert-and-multiply procedure to reciprocal relationships rather than treating it as an unexplained rule.",
+        "aliases": [
+          "keep change flip reasoning"
+        ],
+        "year_band": "7-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.fraction_division_result_can_be_larger",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.reciprocal_division_models",
+        "label": "Fraction division result can be larger",
+        "description": "Recognise that dividing by a fraction less than one can produce a quotient larger than the dividend because smaller groups fit more times.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.procedure.divide_by_fraction_using_reciprocal",
+        "type": "procedure",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Divide by a fraction using the reciprocal",
+        "description": "Rewrite division by a nonzero fraction as multiplication by its reciprocal, while preserving the meaning of the quotient.",
+        "aliases": [
+          "invert and multiply",
+          "keep change flip"
+        ],
+        "year_band": "7-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_reciprocal_inverse.part_of.reciprocal_division",
+        "from": "math.kp.fractions.reciprocal_names_multiplicative_inverse",
+        "to": "math.fractions.reciprocal_division_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_division_by_fraction_groups.part_of.reciprocal_division",
+        "from": "math.kp.fractions.division_by_fraction_asks_how_many_groups",
+        "to": "math.fractions.reciprocal_division_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_invert_multiply_model.part_of.reciprocal_division",
+        "from": "math.kp.fractions.invert_and_multiply_matches_reciprocal_model",
+        "to": "math.fractions.reciprocal_division_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fraction_division_result_larger.part_of.reciprocal_division",
+        "from": "math.kp.fractions.fraction_division_result_can_be_larger",
+        "to": "math.fractions.reciprocal_division_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_division.uses_procedure.divide_by_reciprocal",
+        "from": "math.fractions.reciprocal_division_models",
+        "to": "math.procedure.divide_by_fraction_using_reciprocal",
+        "type": "uses_procedure",
+        "confidence": "high",
+        "rationale": "The lesson connects reciprocal models to the formal divide-by-reciprocal procedure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_division.uses_representation.area_model",
+        "from": "math.fractions.reciprocal_division_models",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area and bar-style models can show how many fractional groups fit in a quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_division.uses_representation.number_line",
+        "from": "math.fractions.reciprocal_division_models",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines can show repeated measurement of fractional group sizes along a quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_division.assessed_by.compute",
+        "from": "math.fractions.reciprocal_division_models",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute fraction-division problems using reciprocal reasoning.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_division.assessed_by.model",
+        "from": "math.fractions.reciprocal_division_models",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should model fraction division to avoid memorising invert-and-multiply without meaning.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_division.assessed_by.explain",
+        "from": "math.fractions.reciprocal_division_models",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can explain why multiplying by a reciprocal gives the quotient for division by a fraction.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_division.assessed_by.find_error",
+        "from": "math.fractions.reciprocal_division_models",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding reveals whether learners invert the wrong fraction or apply the rule without quantity meaning.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2555,
+    "edges": 5328
+  },
+  "graph_counts_after": {
+    "nodes": 2560,
+    "edges": 5339
+  }
+}

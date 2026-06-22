@@ -1,0 +1,913 @@
+{
+  "patch_id": "math-senior-normal-operational-detail-001",
+  "applied_at": "2026-06-04T22:26:22.408Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 17,
+      "edges_created": 33,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_mean_standard_deviation_parameters",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal mean and standard deviation parameters",
+        "description": "Identify the mean and standard deviation parameters of a normal model and interpret their roles in centre and spread.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_empirical_rule",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal empirical rule",
+        "description": "Use the empirical rule to approximate proportions within one, two and three standard deviations of the mean in a normal model.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_z_score_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal z-score formula",
+        "description": "Calculate a z-score by subtracting the mean from a value and dividing by the standard deviation.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_lower_tail_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal lower-tail probability",
+        "description": "Find or interpret the probability that a normal random variable is less than a given value.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_upper_tail_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal upper-tail probability",
+        "description": "Find or interpret the probability that a normal random variable is greater than a given value.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_between_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal between-values probability",
+        "description": "Find or interpret the probability that a normal random variable lies between two given values.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_inverse_percentile_cutoff",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal inverse percentile cutoff",
+        "description": "Find the data value or z-score corresponding to a specified cumulative normal probability or percentile.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_continuity_correction_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal continuity correction introduction",
+        "description": "Use an introductory continuity correction when approximating suitable discrete probabilities with a normal model.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.normal_model_reasonableness",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal model reasonableness",
+        "description": "Judge whether a normal model is reasonable by considering shape, outliers, variable type and context.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.distributions.density_area_interval_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Density area as interval probability",
+        "description": "Interpret area under a continuous density curve over an interval as probability for values in that interval.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.probability.z_score_standardises_normal_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Z-score standardises normal value",
+        "description": "A z-score expresses a value's distance from the mean in standard deviation units.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.probability.normal_area_between_values",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal area between values",
+        "description": "A normal probability over an interval is represented by area under the normal curve between the two values.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.probability.inverse_normal_returns_cutoff",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Inverse normal returns cutoff",
+        "description": "An inverse normal calculation returns a cutoff value for a specified cumulative probability, not a probability itself.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.probability.normal_model_requires_shape_check",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal model requires shape check",
+        "description": "A normal model is more appropriate when the distribution shape is roughly symmetric and bell-shaped without strong outliers.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.probability.normal_point_probability_nonzero",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal point probability nonzero",
+        "description": "Learner treats the probability of one exact value in a continuous normal distribution as positive rather than zero.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.probability.normal_tail_direction_reversed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Normal tail direction reversed",
+        "description": "Learner calculates a lower-tail probability when the problem asks for an upper-tail probability, or vice versa.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.probability.inverse_normal_returns_probability",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Inverse normal returns probability",
+        "description": "Learner treats inverse normal output as a probability rather than a cutoff value or z-score.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_parameters.part_of.features",
+        "from": "math.senior.stats.distributions.normal_mean_standard_deviation_parameters",
+        "to": "math.senior.stats.distributions.normal_distribution_features",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_empirical.part_of.features",
+        "from": "math.senior.stats.distributions.normal_empirical_rule",
+        "to": "math.senior.stats.distributions.normal_distribution_features",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_z_formula.part_of.z_scores",
+        "from": "math.senior.stats.distributions.normal_z_score_formula",
+        "to": "math.senior.stats.distributions.standard_normal_z_scores",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_lower_tail.part_of.normal_prob",
+        "from": "math.senior.stats.distributions.normal_lower_tail_probability",
+        "to": "math.senior.stats.distributions.normal_probability_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_upper_tail.part_of.normal_prob",
+        "from": "math.senior.stats.distributions.normal_upper_tail_probability",
+        "to": "math.senior.stats.distributions.normal_probability_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_between.part_of.normal_prob",
+        "from": "math.senior.stats.distributions.normal_between_probability",
+        "to": "math.senior.stats.distributions.normal_probability_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_percentile.part_of.inverse_normal",
+        "from": "math.senior.stats.distributions.normal_inverse_percentile_cutoff",
+        "to": "math.senior.stats.distributions.inverse_normal_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_correction.part_of.normal_prob",
+        "from": "math.senior.stats.distributions.normal_continuity_correction_intro",
+        "to": "math.senior.stats.distributions.normal_probability_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_reasonableness.part_of.choose_model",
+        "from": "math.senior.stats.distributions.normal_model_reasonableness",
+        "to": "math.senior.stats.distributions.choose_distribution_model",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.density_area_interval.part_of.pdf",
+        "from": "math.senior.stats.distributions.density_area_interval_probability",
+        "to": "math.senior.stats.distributions.probability_density_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.z_standardises.part_of.z_formula",
+        "from": "math.kp.senior.probability.z_score_standardises_normal_value",
+        "to": "math.senior.stats.distributions.normal_z_score_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.normal_area.part_of.between",
+        "from": "math.kp.senior.probability.normal_area_between_values",
+        "to": "math.senior.stats.distributions.normal_between_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.inverse_cutoff.part_of.inverse",
+        "from": "math.kp.senior.probability.inverse_normal_returns_cutoff",
+        "to": "math.senior.stats.distributions.normal_inverse_percentile_cutoff",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.normal_shape.part_of.reason",
+        "from": "math.kp.senior.probability.normal_model_requires_shape_check",
+        "to": "math.senior.stats.distributions.normal_model_reasonableness",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.normal_point_nonzero.part_of.density_area",
+        "from": "math.misconception.senior.probability.normal_point_probability_nonzero",
+        "to": "math.senior.stats.distributions.density_area_interval_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.tail_reversed.part_of.upper_tail",
+        "from": "math.misconception.senior.probability.normal_tail_direction_reversed",
+        "to": "math.senior.stats.distributions.normal_upper_tail_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.inverse_probability.part_of.inverse",
+        "from": "math.misconception.senior.probability.inverse_normal_returns_probability",
+        "to": "math.senior.stats.distributions.normal_inverse_percentile_cutoff",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_prob.encompasses.between",
+        "from": "math.senior.stats.distributions.normal_probability_calculations",
+        "to": "math.senior.stats.distributions.normal_between_probability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Between-values probabilities are a central normal-probability calculation type.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.z_scores.encompasses.z_formula",
+        "from": "math.senior.stats.distributions.standard_normal_z_scores",
+        "to": "math.senior.stats.distributions.normal_z_score_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Calculating z-scores is central to standard normal work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_normal.encompasses.percentile_cutoff",
+        "from": "math.senior.stats.distributions.inverse_normal_calculations",
+        "to": "math.senior.stats.distributions.normal_inverse_percentile_cutoff",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding cutoffs from cumulative probabilities is the main inverse-normal operation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_parameters.requires.continuous_rv",
+        "from": "math.senior.stats.distributions.normal_mean_standard_deviation_parameters",
+        "to": "math.senior.stats.distributions.continuous_random_variables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Normal model parameters describe a continuous random variable.",
+        "failure_signal": "Learner treats normal probabilities as if values are isolated count outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.empirical_rule.requires.normal_parameters",
+        "from": "math.senior.stats.distributions.normal_empirical_rule",
+        "to": "math.senior.stats.distributions.normal_mean_standard_deviation_parameters",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The empirical rule uses mean and standard deviation as reference points.",
+        "failure_signal": "Learner applies empirical-rule percentages without identifying mean and standard deviation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.z_formula.requires.normal_parameters",
+        "from": "math.senior.stats.distributions.normal_z_score_formula",
+        "to": "math.senior.stats.distributions.normal_mean_standard_deviation_parameters",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Calculating a z-score requires the normal mean and standard deviation.",
+        "failure_signal": "Learner standardises with the wrong centre or spread value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.lower_tail.requires.z_formula",
+        "from": "math.senior.stats.distributions.normal_lower_tail_probability",
+        "to": "math.senior.stats.distributions.normal_z_score_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Lower-tail probabilities are often found by standardising and using standard normal cumulative probabilities.",
+        "failure_signal": "Learner uses the wrong tail or fails to standardise.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.upper_tail.requires.lower_tail",
+        "from": "math.senior.stats.distributions.normal_upper_tail_probability",
+        "to": "math.senior.stats.distributions.normal_lower_tail_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Upper-tail probabilities are commonly found as complements of lower-tail probabilities.",
+        "failure_signal": "Learner reports the cumulative lower-tail value when the problem asks for greater than.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.between_requires.lower_tail",
+        "from": "math.senior.stats.distributions.normal_between_probability",
+        "to": "math.senior.stats.distributions.normal_lower_tail_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Between-values probabilities can be found from differences of cumulative lower-tail probabilities.",
+        "failure_signal": "Learner adds tail probabilities or subtracts in the wrong direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_requires.lower_tail",
+        "from": "math.senior.stats.distributions.normal_inverse_percentile_cutoff",
+        "to": "math.senior.stats.distributions.normal_lower_tail_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Inverse normal calculations reverse cumulative lower-tail probability calculations.",
+        "failure_signal": "Learner treats inverse normal output as a probability rather than a cutoff.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_requires.normal_between",
+        "from": "math.senior.stats.distributions.normal_continuity_correction_intro",
+        "to": "math.senior.stats.distributions.normal_between_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Continuity correction modifies interval endpoints before using a continuous normal approximation.",
+        "failure_signal": "Learner approximates a discrete event with normal endpoints without adjusting when needed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_reason.requires.empirical",
+        "from": "math.senior.stats.distributions.normal_model_reasonableness",
+        "to": "math.senior.stats.distributions.normal_empirical_rule",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Judging normal reasonableness builds on recognising normal shape, centre and spread features.",
+        "failure_signal": "Learner applies a normal model to strongly skewed or outlier-heavy data without checking shape.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.density_area.requires.pdf",
+        "from": "math.senior.stats.distributions.density_area_interval_probability",
+        "to": "math.senior.stats.distributions.probability_density_functions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interval probability in a continuous distribution is represented by area under a density curve.",
+        "failure_signal": "Learner reads density height as probability at a point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.density_area.has_mis.point_nonzero",
+        "from": "math.senior.stats.distributions.density_area_interval_probability",
+        "to": "math.misconception.senior.probability.normal_point_probability_nonzero",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.normal_upper_tail.has_mis.tail_reversed",
+        "from": "math.senior.stats.distributions.normal_upper_tail_probability",
+        "to": "math.misconception.senior.probability.normal_tail_direction_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_normal.has_mis.returns_probability",
+        "from": "math.senior.stats.distributions.normal_inverse_percentile_cutoff",
+        "to": "math.misconception.senior.probability.inverse_normal_returns_probability",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/advanced_statistics_and_probability.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2448,
+    "edges": 5105
+  },
+  "graph_counts_after": {
+    "nodes": 2465,
+    "edges": 5138
+  }
+}

@@ -1,0 +1,1453 @@
+{
+  "patch_id": "math-probability-models-detail-001",
+  "applied_at": "2026-06-01T19:20:28.507Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.probability.models.design_trial_definition"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 25,
+      "edges_created": 55,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.valid_probability_values",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Valid probability values",
+        "description": "Check that a probability value lies between zero and one inclusive, or equivalently between zero and one hundred percent.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.probability_scale_ordering",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Probability scale ordering",
+        "description": "Order numerical probability values on a zero-to-one scale and connect their positions to likelihood language.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.zero_one_endpoint_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Zero and one endpoint interpretation",
+        "description": "Interpret probability zero as impossible and probability one as certain in a stated sample space.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.identify_total_outcomes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Identify total outcomes",
+        "description": "Identify the denominator in a theoretical probability as the number of possible equally likely outcomes in the sample space.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.identify_favourable_count",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Identify favourable count",
+        "description": "Count the outcomes in a sample space that satisfy a specified event.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.equally_likely_assumption_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Equally likely assumption check",
+        "description": "Check whether favourable-over-total probability calculations are justified by equally likely outcomes.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.simplify_probability_fraction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Simplify probability fraction",
+        "description": "Simplify a probability fraction while preserving its meaning as favourable outcomes over total outcomes.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.convert_probability_fraction_decimal_percent",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Convert probability between fraction decimal and percent",
+        "description": "Convert probability representations between fractions, decimals and percentages while keeping values on the zero-to-one scale.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.percent_probability_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Percent probability interpretation",
+        "description": "Interpret a percentage probability as an equivalent fraction or decimal probability rather than as a guaranteed count.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.complement_from_known_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Complement from known probability",
+        "description": "Find the probability of an event not occurring by subtracting the event probability from one.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.complement_event_exhaustive_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Complement event exhaustive check",
+        "description": "Check that an event and its complement cover the whole sample space without overlap before using complement probability.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.expected_frequency_calculation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Expected frequency calculation",
+        "description": "Calculate expected frequency by multiplying probability by the number of trials or opportunities.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.expected_vs_actual_frequency",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Expected versus actual frequency",
+        "description": "Compare expected frequencies with actual observed frequencies and explain why they may differ.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.design_trial_definition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Define a trial in experiment design",
+        "description": "Define one trial clearly when designing an experiment or simulation so outcomes are recorded consistently.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.control_experimental_conditions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Control experimental conditions",
+        "description": "Keep trial procedures consistent when running repeated chance experiments so variation reflects chance rather than changing conditions.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.relative_frequency_decimal",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Relative frequency as decimal",
+        "description": "Express relative frequency as a decimal or percentage as well as a ratio of frequency to total trials.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.sample_size_and_noise",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Sample size and noise in probability experiments",
+        "description": "Explain how small sample sizes create noisy experimental estimates and larger sample sizes tend to reduce random fluctuation.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.simulation_trial_mapping",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Simulation trial mapping",
+        "description": "Map a real chance situation onto a physical or digital simulation so each simulation trial represents the original situation.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.random_number_simulation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Random number simulation",
+        "description": "Use random numbers or digital random generators to simulate simple probability situations.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.model_assumption_statement",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Probability model assumption statement",
+        "description": "State the assumptions a simple probability model is making about equally likely outcomes, independence, fairness or repeated conditions.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.model_data_mismatch_causes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Model data mismatch causes",
+        "description": "Explain differences between a probability model and observed data using random variation, bias, measurement issues or incorrect assumptions.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.probability_greater_than_one",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Probability greater than one accepted",
+        "description": "Learner accepts a probability value greater than one or greater than one hundred percent as valid.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.denominator_is_favourable_count",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Denominator is favourable count",
+        "description": "Learner uses the number of favourable outcomes as the denominator instead of the number of possible outcomes.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.expected_frequency_guaranteed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Expected frequency is guaranteed",
+        "description": "Learner treats expected frequency as the exact number that must occur in a future set of trials.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.simulation_mapping_ignored",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Simulation mapping ignored",
+        "description": "Learner runs a simulation tool without checking whether its outcomes and probabilities match the original situation.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_values.part_of.scale",
+        "from": "math.probability.models.valid_probability_values",
+        "to": "math.probability.models.probability_scale_zero_to_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_ordering.part_of.scale",
+        "from": "math.probability.models.probability_scale_ordering",
+        "to": "math.probability.models.probability_scale_zero_to_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.zero_one_endpoints.part_of.impossible_certain",
+        "from": "math.probability.models.zero_one_endpoint_interpretation",
+        "to": "math.probability.models.impossible_certain_probabilities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_total.part_of.favourable_total",
+        "from": "math.probability.models.identify_total_outcomes",
+        "to": "math.probability.models.favourable_over_total",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_favourable.part_of.favourable_total",
+        "from": "math.probability.models.identify_favourable_count",
+        "to": "math.probability.models.favourable_over_total",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely_check.part_of.theoretical",
+        "from": "math.probability.models.equally_likely_assumption_check",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_prob_fraction.part_of.prob_fraction",
+        "from": "math.probability.models.simplify_probability_fraction",
+        "to": "math.probability.models.probability_as_fraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_fraction_decimal_percent.part_of.decimal_percent",
+        "from": "math.probability.models.convert_probability_fraction_decimal_percent",
+        "to": "math.probability.models.probability_as_decimal_percent",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_interpretation.part_of.decimal_percent",
+        "from": "math.probability.models.percent_probability_interpretation",
+        "to": "math.probability.models.probability_as_decimal_percent",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_known.part_of.complement_simple",
+        "from": "math.probability.models.complement_from_known_probability",
+        "to": "math.probability.models.complement_probability_simple",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_exhaustive.part_of.complement_simple",
+        "from": "math.probability.models.complement_event_exhaustive_check",
+        "to": "math.probability.models.complement_probability_simple",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_calc.part_of.expected_intro",
+        "from": "math.probability.models.expected_frequency_calculation",
+        "to": "math.probability.models.expected_frequency_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_actual.part_of.expected_intro",
+        "from": "math.probability.models.expected_vs_actual_frequency",
+        "to": "math.probability.models.expected_frequency_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trial_definition.part_of.design_experiment",
+        "from": "math.probability.models.design_trial_definition",
+        "to": "math.probability.models.design_simple_experiment",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.control_conditions.part_of.run_trials",
+        "from": "math.probability.models.control_experimental_conditions",
+        "to": "math.probability.models.run_repeated_trials",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rel_freq_decimal.part_of.rel_freq_ratio",
+        "from": "math.probability.models.relative_frequency_decimal",
+        "to": "math.probability.models.relative_frequency_ratio",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size_noise.part_of.sources_variation",
+        "from": "math.probability.models.sample_size_and_noise",
+        "to": "math.probability.models.sources_of_experimental_variation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sim_trial_mapping.part_of.simulation",
+        "from": "math.probability.models.simulation_trial_mapping",
+        "to": "math.probability.models.simulation_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_number_sim.part_of.simulation",
+        "from": "math.probability.models.random_number_simulation",
+        "to": "math.probability.models.simulation_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.assumption_statement.part_of.evaluate_model",
+        "from": "math.probability.models.model_assumption_statement",
+        "to": "math.probability.models.evaluate_probability_model",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.model_mismatch.part_of.compare_models_data",
+        "from": "math.probability.models.model_data_mismatch_causes",
+        "to": "math.probability.models.compare_models_to_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.prob_gt_one.part_of.valid_values",
+        "from": "math.misconception.probability.probability_greater_than_one",
+        "to": "math.probability.models.valid_probability_values",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.denom_favourable.part_of.total_outcomes",
+        "from": "math.misconception.probability.denominator_is_favourable_count",
+        "to": "math.probability.models.identify_total_outcomes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.expected_guaranteed.part_of.expected_actual",
+        "from": "math.misconception.probability.expected_frequency_guaranteed",
+        "to": "math.probability.models.expected_vs_actual_frequency",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.sim_mapping_ignored.part_of.sim_mapping",
+        "from": "math.misconception.probability.simulation_mapping_ignored",
+        "to": "math.probability.models.simulation_trial_mapping",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale.encompasses.valid_values",
+        "from": "math.probability.models.probability_scale_zero_to_one",
+        "to": "math.probability.models.valid_probability_values",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Checking valid values directly practises understanding the zero-to-one probability scale.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_total.encompasses.identify_total",
+        "from": "math.probability.models.favourable_over_total",
+        "to": "math.probability.models.identify_total_outcomes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Identifying total possible outcomes is essential to favourable-over-total probability calculations.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_percent.encompasses.convert_representations",
+        "from": "math.probability.models.probability_as_decimal_percent",
+        "to": "math.probability.models.convert_probability_fraction_decimal_percent",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Converting among fractions, decimals and percentages directly practises probability representation fluency.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_intro.encompasses.expected_calc",
+        "from": "math.probability.models.expected_frequency_intro",
+        "to": "math.probability.models.expected_frequency_calculation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Calculating expected frequency is a central practice within expected frequency introduction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simulation.encompasses.trial_mapping",
+        "from": "math.probability.models.simulation_probability",
+        "to": "math.probability.models.simulation_trial_mapping",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "A useful simulation must map trials and outcomes to the real probability situation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_values.requires.scale",
+        "from": "math.probability.models.valid_probability_values",
+        "to": "math.probability.models.probability_scale_zero_to_one",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking valid probability values depends on knowing the zero-to-one scale.",
+        "failure_signal": "Learner accepts negative probabilities or probabilities greater than one.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_ordering.requires.chance_continuum",
+        "from": "math.probability.models.probability_scale_ordering",
+        "to": "math.probability.chance.chance_continuum",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Ordering numerical probabilities builds on ordering chance language from impossible to certain.",
+        "failure_signal": "Learner cannot connect larger probability values with greater likelihood.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.zero_one.requires.impossible_empty",
+        "from": "math.probability.models.zero_one_endpoint_interpretation",
+        "to": "math.probability.chance.impossible_event_empty_outcome_set",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting zero and one uses prior understanding of impossible and certain events in a sample space.",
+        "failure_signal": "Learner treats zero as unlikely rather than impossible or one as likely rather than certain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.total_outcomes.requires.sample_space",
+        "from": "math.probability.models.identify_total_outcomes",
+        "to": "math.probability.chance.sample_space_completeness_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Total outcome counts depend on a complete sample space.",
+        "failure_signal": "Learner uses an incomplete or duplicate sample space as the denominator.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_count.requires.event_outcomes",
+        "from": "math.probability.models.identify_favourable_count",
+        "to": "math.probability.chance.favourable_outcomes_in_event",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Counting favourable outcomes requires identifying which outcomes satisfy the event.",
+        "failure_signal": "Learner counts all outcomes or counts outcomes outside the event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely_check.requires.non_equal",
+        "from": "math.probability.models.equally_likely_assumption_check",
+        "to": "math.probability.chance.non_equally_likely_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking a theoretical model requires recognising when outcomes are or are not equally likely.",
+        "failure_signal": "Learner applies favourable-over-total to biased or uneven outcomes without adjustment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_fraction.requires.favourable_total",
+        "from": "math.probability.models.simplify_probability_fraction",
+        "to": "math.probability.models.favourable_over_total",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Simplifying a probability fraction follows after constructing the favourable-over-total ratio.",
+        "failure_signal": "Learner simplifies without preserving the probability interpretation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_prob.requires.prob_fraction",
+        "from": "math.probability.models.convert_probability_fraction_decimal_percent",
+        "to": "math.probability.models.probability_as_fraction",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Converting probability representations builds on representing probability as a fraction.",
+        "failure_signal": "Learner converts representation but changes the probability value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_interp.requires.convert_prob",
+        "from": "math.probability.models.percent_probability_interpretation",
+        "to": "math.probability.models.convert_probability_fraction_decimal_percent",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Percent probability interpretation depends on converting between percentage and other probability forms.",
+        "failure_signal": "Learner interprets 70 percent probability as exactly 70 successes in any 100 trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_known.requires.complement_language",
+        "from": "math.probability.models.complement_from_known_probability",
+        "to": "math.probability.chance.complementary_event_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Using complement probability requires understanding complement event language.",
+        "failure_signal": "Learner subtracts from the wrong whole or defines the not-event incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_exhaustive.requires.complement_known",
+        "from": "math.probability.models.complement_event_exhaustive_check",
+        "to": "math.probability.models.complement_from_known_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The complement rule depends on checking that the event and complement are exhaustive and non-overlapping.",
+        "failure_signal": "Learner uses the complement rule for events that do not cover the whole sample space.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_calc.requires.prob_decimal",
+        "from": "math.probability.models.expected_frequency_calculation",
+        "to": "math.probability.models.probability_as_decimal_percent",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Expected frequency calculation requires using a probability value as a multiplier.",
+        "failure_signal": "Learner adds probability to trial count instead of multiplying.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_actual.requires.expected_calc",
+        "from": "math.probability.models.expected_vs_actual_frequency",
+        "to": "math.probability.models.expected_frequency_calculation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing expected and actual counts requires first calculating expected frequency.",
+        "failure_signal": "Learner treats expected frequency as guaranteed rather than a model-based benchmark.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trial_definition.requires.identify_trial",
+        "from": "math.probability.models.design_trial_definition",
+        "to": "math.probability.chance.identify_trial",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Designing a probability experiment requires clearly defining what counts as one trial.",
+        "failure_signal": "Learner records inconsistent units of repetition as trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.control_conditions.requires.trial_definition",
+        "from": "math.probability.models.control_experimental_conditions",
+        "to": "math.probability.models.design_trial_definition",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Controlling experimental conditions depends on knowing what each trial is supposed to repeat.",
+        "failure_signal": "Learner changes procedures across trials and attributes all differences to chance.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rel_freq_decimal.requires.rel_freq_ratio",
+        "from": "math.probability.models.relative_frequency_decimal",
+        "to": "math.probability.models.relative_frequency_ratio",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Expressing relative frequency as a decimal builds on the frequency-over-total ratio.",
+        "failure_signal": "Learner divides by the wrong total or misreads the decimal as a count.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_noise.requires.sources_variation",
+        "from": "math.probability.models.sample_size_and_noise",
+        "to": "math.probability.models.sources_of_experimental_variation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sample size is one source of experimental variation and noise.",
+        "failure_signal": "Learner expects small experiments to match theoretical probabilities exactly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sim_mapping.requires.design_experiment",
+        "from": "math.probability.models.simulation_trial_mapping",
+        "to": "math.probability.models.design_simple_experiment",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A simulation is a designed probability experiment that must map trials and outcomes to the real context.",
+        "failure_signal": "Learner uses a random process that does not match the event probabilities in the context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_sim.requires.sim_mapping",
+        "from": "math.probability.models.random_number_simulation",
+        "to": "math.probability.models.simulation_trial_mapping",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Random number simulations require mapping ranges or outputs to the situation being simulated.",
+        "failure_signal": "Learner assigns random numbers unevenly or leaves gaps and overlaps.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.assumption_statement.requires.evaluate_model",
+        "from": "math.probability.models.model_assumption_statement",
+        "to": "math.probability.models.evaluate_probability_model",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Evaluating a probability model includes stating the assumptions the model relies on.",
+        "failure_signal": "Learner calculates probabilities without noting fairness, independence or equal-likelihood assumptions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.model_mismatch.requires.compare_data",
+        "from": "math.probability.models.model_data_mismatch_causes",
+        "to": "math.probability.models.compare_models_to_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Explaining mismatch requires first comparing model predictions with observed data.",
+        "failure_signal": "Learner declares a model wrong after any small deviation from observed data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_values.has_mis.prob_gt_one",
+        "from": "math.probability.models.valid_probability_values",
+        "to": "math.misconception.probability.probability_greater_than_one",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.total_outcomes.has_mis.denom_favourable",
+        "from": "math.probability.models.identify_total_outcomes",
+        "to": "math.misconception.probability.denominator_is_favourable_count",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_actual.has_mis.expected_guaranteed",
+        "from": "math.probability.models.expected_vs_actual_frequency",
+        "to": "math.misconception.probability.expected_frequency_guaranteed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sim_mapping.has_mis.mapping_ignored",
+        "from": "math.probability.models.simulation_trial_mapping",
+        "to": "math.misconception.probability.simulation_mapping_ignored",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/probability_models.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2077,
+    "edges": 4351
+  },
+  "graph_counts_after": {
+    "nodes": 2102,
+    "edges": 4406
+  }
+}

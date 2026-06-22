@@ -1,0 +1,204 @@
+{
+  "patch_id": "math-fractions-3-6-core-001",
+  "applied_at": "2026-05-22T16:58:40.818Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 3,
+      "edges_created": 7,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.unit_fractions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Unit fractions",
+        "description": "Recognise and interpret unit fractions such as 1/2, 1/3, 1/4 and 1/10 as one equal part of a whole or collection.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.non_unit_fractions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Non-unit fractions",
+        "description": "Recognise and interpret fractions with numerator greater than 1, such as 2/3 or 3/4, as multiple equal parts of a whole or collection.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.fractions.equivalent_fractions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equivalent fractions",
+        "description": "Understand that different fractions can represent the same quantity, using models and number lines to compare equivalence.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.math_strand_number.part_of.math",
+        "from": "math.strand.number",
+        "to": "math",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.math_area_fractions.part_of.math_strand_number",
+        "from": "math.area.fractions",
+        "to": "math.strand.number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_fractions.part_of.math_area_fractions",
+        "from": "math.fractions.unit_fractions",
+        "to": "math.area.fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.non_unit_fractions.part_of.math_area_fractions",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.area.fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_fractions.part_of.math_area_fractions",
+        "from": "math.fractions.equivalent_fractions",
+        "to": "math.area.fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.non_unit_fractions.requires.unit_fractions",
+        "from": "math.fractions.non_unit_fractions",
+        "to": "math.fractions.unit_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interpreting multiple fractional parts depends on understanding one equal part as a unit fraction.",
+        "failure_signal": "Learner counts shaded pieces without relating them to the size of one equal part.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_fractions.requires.non_unit_fractions",
+        "from": "math.fractions.equivalent_fractions",
+        "to": "math.fractions.non_unit_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Recognising equivalence depends on interpreting fractions with numerators greater than one as quantities.",
+        "failure_signal": "Learner compares only numerators or denominators and does not preserve the represented quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 65,
+    "edges": 2
+  },
+  "graph_counts_after": {
+    "nodes": 68,
+    "edges": 9
+  }
+}

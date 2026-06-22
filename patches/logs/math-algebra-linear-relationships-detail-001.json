@@ -1,0 +1,1662 @@
+{
+  "patch_id": "math-algebra-linear-relationships-detail-001",
+  "applied_at": "2026-05-30T14:31:11.833Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.contexts.encompasses.context_gradient_units",
+        "message": "Encompassing edge has no nearby prerequisite/support/part relationship."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 30,
+      "edges_created": 62,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.origin_on_coordinate_plane",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Origin on coordinate plane",
+        "description": "Identify the origin as the point where the coordinate axes intersect and as the reference point for coordinates.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.x_coordinate_horizontal_position",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "X coordinate horizontal position",
+        "description": "Interpret the x-coordinate as horizontal position measured from the origin.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.y_coordinate_vertical_position",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Y coordinate vertical position",
+        "description": "Interpret the y-coordinate as vertical position measured from the origin.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.coordinate_signs_by_quadrant",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Coordinate signs by quadrant",
+        "description": "Use the signs of x- and y-coordinates to identify or check the quadrant of a point.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.read_axis_scale",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Read axis scale",
+        "description": "Read coordinate values from axes with labelled increments and consistent scale.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.unequal_axis_scales",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Unequal axis scales",
+        "description": "Interpret graphs where horizontal and vertical axes use different scale intervals.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.constant_first_difference_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Constant first difference in tables",
+        "description": "Identify linear relationships in tables by checking for a constant first difference when inputs increase evenly.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.missing_values_in_linear_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Missing values in linear tables",
+        "description": "Use a linear rule or constant rate of change to fill missing values in a table.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.rule_from_two_table_rows",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Rule from two table rows",
+        "description": "Use two rows of a linear table to determine the rate of change and starting value for a rule.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.compare_table_graph_equation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Compare table graph equation",
+        "description": "Connect the same linear relationship across a table, graph and equation.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.independent_dependent_variables_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Independent dependent variables in contexts",
+        "description": "Identify independent and dependent variables in contextual linear relationships.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.context_units_for_gradient",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Context units for gradient",
+        "description": "Interpret gradient units in context, such as dollars per item or metres per second.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.context_initial_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Context initial value",
+        "description": "Interpret the y-intercept or constant term as the initial value in a contextual linear model.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.context_domain_restrictions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Context domain restrictions",
+        "description": "Restrict inputs of a linear model to values that make sense in the context.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.interpolate_linear_model",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Interpolate linear model",
+        "description": "Estimate or calculate values between known data points using a linear model.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.extrapolate_linear_model",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Extrapolate linear model",
+        "description": "Use a linear model to predict values beyond the observed or given data range and consider reliability.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.parallel_lines_same_gradient",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Parallel lines same gradient",
+        "description": "Recognise that nonvertical parallel lines have the same gradient and different intercepts.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.line_intersection_as_equal_outputs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Line intersection as equal outputs",
+        "description": "Interpret the intersection of two line graphs as an input where both relationships have the same output.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.horizontal_line_constant_output",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Horizontal line constant output",
+        "description": "Interpret horizontal line graphs as relationships with constant output and zero gradient.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.vertical_line_constant_input",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Vertical line constant input",
+        "description": "Interpret vertical line graphs as all points with the same input value and undefined gradient.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.coordinate_order_is_x_then_y",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Coordinate order is x then y",
+        "description": "In an ordered pair, the first coordinate gives horizontal position and the second coordinate gives vertical position.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.constant_first_difference_indicates_linear",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Constant first difference indicates linear",
+        "description": "When input steps are equal, a constant first difference in outputs indicates a linear relationship.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.gradient_units_are_output_per_input",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient units are output per input",
+        "description": "The units of gradient describe how much the output changes for one unit of input.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.context_domain_must_make_sense",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Context domain must make sense",
+        "description": "A contextual linear model should only use input values that are meaningful in the situation.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.parallel_lines_same_gradient",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Parallel lines have same gradient",
+        "description": "Nonvertical parallel lines have equal gradients and do not intersect.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.ordered_pair_reversed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Ordered pair reversed",
+        "description": "Learner plots or reads an ordered pair as y then x instead of x then y.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.constant_difference_with_unequal_inputs",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Constant difference with unequal inputs",
+        "description": "Learner treats equal output differences as evidence of a linear rule without checking whether input steps are equal.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.gradient_units_ignored",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient units ignored",
+        "description": "Learner gives a numerical gradient in context without interpreting the units of rate of change.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.extrapolation_always_reliable",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Extrapolation always reliable",
+        "description": "Learner assumes a linear trend remains reliable far beyond the observed data or meaningful context.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.parallel_lines_same_intercept",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Parallel lines same intercept",
+        "description": "Learner assumes parallel lines must have the same intercept rather than the same gradient.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.origin.part_of.coordinate_plane",
+        "from": "math.algebra.linear.origin_on_coordinate_plane",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_coordinate.part_of.ordered_pairs",
+        "from": "math.algebra.linear.x_coordinate_horizontal_position",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_coordinate.part_of.ordered_pairs",
+        "from": "math.algebra.linear.y_coordinate_vertical_position",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_signs.part_of.four_quadrants",
+        "from": "math.algebra.linear.coordinate_signs_by_quadrant",
+        "to": "math.algebra.linear.four_quadrants",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_axis_scale.part_of.coordinate_axes",
+        "from": "math.algebra.linear.read_axis_scale",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unequal_axis_scales.part_of.graph_linear_rules",
+        "from": "math.algebra.linear.unequal_axis_scales",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_first_difference.part_of.rate_tables",
+        "from": "math.algebra.linear.constant_first_difference_tables",
+        "to": "math.algebra.linear.rate_of_change_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_values_tables.part_of.input_output",
+        "from": "math.algebra.linear.missing_values_in_linear_tables",
+        "to": "math.algebra.linear.input_output_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rule_two_rows.part_of.rules_from_tables",
+        "from": "math.algebra.linear.rule_from_two_table_rows",
+        "to": "math.algebra.linear.linear_rules_from_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_table_graph_equation.part_of.linear_functions",
+        "from": "math.algebra.linear.compare_table_graph_equation",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent.part_of.contexts",
+        "from": "math.algebra.linear.independent_dependent_variables_contexts",
+        "to": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_gradient_units.part_of.gradient_rate",
+        "from": "math.algebra.linear.context_units_for_gradient",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_initial_value.part_of.y_intercept",
+        "from": "math.algebra.linear.context_initial_value",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_domain.part_of.context_equations",
+        "from": "math.algebra.linear.context_domain_restrictions",
+        "to": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpolate.part_of.context_equations",
+        "from": "math.algebra.linear.interpolate_linear_model",
+        "to": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolate.part_of.context_equations",
+        "from": "math.algebra.linear.extrapolate_linear_model",
+        "to": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_same_gradient.part_of.gradient_intercept",
+        "from": "math.algebra.linear.parallel_lines_same_gradient",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_intersection_equal_outputs.part_of.linear_functions",
+        "from": "math.algebra.linear.line_intersection_as_equal_outputs",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_constant_output.part_of.gradient_intercept",
+        "from": "math.algebra.linear.horizontal_line_constant_output",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_constant_input.part_of.undefined_gradient",
+        "from": "math.algebra.linear.vertical_line_constant_input",
+        "to": "math.algebra.linear.undefined_gradient_vertical_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.coordinate_order.part_of.ordered_pairs",
+        "from": "math.kp.linear.coordinate_order_is_x_then_y",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.first_difference.part_of.constant_first_difference",
+        "from": "math.kp.linear.constant_first_difference_indicates_linear",
+        "to": "math.algebra.linear.constant_first_difference_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.gradient_units.part_of.context_gradient_units",
+        "from": "math.kp.linear.gradient_units_are_output_per_input",
+        "to": "math.algebra.linear.context_units_for_gradient",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.context_domain.part_of.context_domain",
+        "from": "math.kp.linear.context_domain_must_make_sense",
+        "to": "math.algebra.linear.context_domain_restrictions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.parallel_same_gradient.part_of.parallel_lines",
+        "from": "math.kp.linear.parallel_lines_same_gradient",
+        "to": "math.algebra.linear.parallel_lines_same_gradient",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.ordered_pair_reversed.part_of.ordered_pairs",
+        "from": "math.misconception.linear.ordered_pair_reversed",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.unequal_inputs.part_of.first_difference",
+        "from": "math.misconception.linear.constant_difference_with_unequal_inputs",
+        "to": "math.algebra.linear.constant_first_difference_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.gradient_units_ignored.part_of.context_gradient",
+        "from": "math.misconception.linear.gradient_units_ignored",
+        "to": "math.algebra.linear.context_units_for_gradient",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.extrapolation_reliable.part_of.extrapolate",
+        "from": "math.misconception.linear.extrapolation_always_reliable",
+        "to": "math.algebra.linear.extrapolate_linear_model",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.parallel_same_intercept.part_of.parallel",
+        "from": "math.misconception.linear.parallel_lines_same_intercept",
+        "to": "math.algebra.linear.parallel_lines_same_gradient",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_plane.encompasses.origin",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.algebra.linear.origin_on_coordinate_plane",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Locating the origin is central to using the coordinate plane.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_pairs.encompasses.x_coordinate",
+        "from": "math.algebra.linear.ordered_pairs",
+        "to": "math.algebra.linear.x_coordinate_horizontal_position",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interpreting ordered pairs includes identifying the horizontal coordinate.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.four_quadrants.encompasses.signs",
+        "from": "math.algebra.linear.four_quadrants",
+        "to": "math.algebra.linear.coordinate_signs_by_quadrant",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Coordinate signs are a common way to check quadrant location.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rate_tables.encompasses.first_difference",
+        "from": "math.algebra.linear.rate_of_change_tables",
+        "to": "math.algebra.linear.constant_first_difference_tables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Constant first differences are a core table-based linear-rate check.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.encompasses.compare_representations",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.compare_table_graph_equation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing tables, graphs and equations directly practises linear-function representation fluency.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.contexts.encompasses.context_gradient_units",
+        "from": "math.algebra.linear.linear_equations_from_contexts",
+        "to": "math.algebra.linear.context_units_for_gradient",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Contextual linear modelling includes interpreting the rate's units.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_intercept.encompasses.parallel",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.algebra.linear.parallel_lines_same_gradient",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Parallel-line reasoning uses gradient and intercept information.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.origin.requires.coordinate_axes",
+        "from": "math.algebra.linear.origin_on_coordinate_plane",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying the origin requires recognising the coordinate axes.",
+        "failure_signal": "Learner cannot locate where the horizontal and vertical axes meet.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_coordinate.requires.origin",
+        "from": "math.algebra.linear.x_coordinate_horizontal_position",
+        "to": "math.algebra.linear.origin_on_coordinate_plane",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Horizontal coordinate position is measured from the origin.",
+        "failure_signal": "Learner reads horizontal position without reference to the origin.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_coordinate.requires.x_coordinate",
+        "from": "math.algebra.linear.y_coordinate_vertical_position",
+        "to": "math.algebra.linear.x_coordinate_horizontal_position",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Coordinate reading usually establishes the horizontal coordinate before the vertical coordinate.",
+        "failure_signal": "Learner reverses or confuses coordinate order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_signs.requires.four_quadrants",
+        "from": "math.algebra.linear.coordinate_signs_by_quadrant",
+        "to": "math.algebra.linear.four_quadrants",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting coordinate signs by quadrant requires knowing the four-quadrant plane.",
+        "failure_signal": "Learner places points with negative coordinates in the wrong quadrant.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_axis_scale.requires.coordinate_axes",
+        "from": "math.algebra.linear.read_axis_scale",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading graph scale requires identifying and using the coordinate axes.",
+        "failure_signal": "Learner assumes each grid interval is one regardless of labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unequal_axis_scales.requires.read_axis_scale",
+        "from": "math.algebra.linear.unequal_axis_scales",
+        "to": "math.algebra.linear.read_axis_scale",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Unequal axis scales are an extension of reading labelled graph scales.",
+        "failure_signal": "Learner applies one axis scale to both axes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.first_difference.requires.input_tables",
+        "from": "math.algebra.linear.constant_first_difference_tables",
+        "to": "math.algebra.linear.input_output_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking first differences requires reading input-output table values.",
+        "failure_signal": "Learner compares outputs without attending to input spacing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_values.requires.first_difference",
+        "from": "math.algebra.linear.missing_values_in_linear_tables",
+        "to": "math.algebra.linear.constant_first_difference_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Filling missing table values often uses constant rate or first-difference structure.",
+        "failure_signal": "Learner fills values by pattern guessing without maintaining a constant rate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rule_two_rows.requires.rate_tables",
+        "from": "math.algebra.linear.rule_from_two_table_rows",
+        "to": "math.algebra.linear.rate_of_change_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Deriving a rule from two rows requires identifying rate of change from the table.",
+        "failure_signal": "Learner finds a rate but cannot recover the initial value or rule.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_repr.requires.graph_rules",
+        "from": "math.algebra.linear.compare_table_graph_equation",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing table, graph and equation representations requires graphing linear rules.",
+        "failure_signal": "Learner cannot match equivalent relationships across representations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent.requires.context_points",
+        "from": "math.algebra.linear.independent_dependent_variables_contexts",
+        "to": "math.algebra.linear.context_points_on_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying dependent and independent variables builds on interpreting paired quantities in context.",
+        "failure_signal": "Learner swaps input and output quantities in context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_gradient_units.requires.gradient_rate",
+        "from": "math.algebra.linear.context_units_for_gradient",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting gradient units depends on understanding gradient as a rate of change.",
+        "failure_signal": "Learner gives the gradient as a number without units or contextual meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_initial_value.requires.y_intercept",
+        "from": "math.algebra.linear.context_initial_value",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contextual initial value interpretation builds on y-intercept meaning.",
+        "failure_signal": "Learner cannot identify the starting quantity when input is zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_domain.requires.context_equations",
+        "from": "math.algebra.linear.context_domain_restrictions",
+        "to": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Domain restrictions are applied after a linear equation has been connected to context.",
+        "failure_signal": "Learner accepts negative time, fractional people or out-of-range inputs without checking context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpolate.requires.linear_context",
+        "from": "math.algebra.linear.interpolate_linear_model",
+        "to": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpolation uses a contextual linear model to estimate values between known inputs.",
+        "failure_signal": "Learner estimates values without using the model's rate or equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolate.requires.interpolate",
+        "from": "math.algebra.linear.extrapolate_linear_model",
+        "to": "math.algebra.linear.interpolate_linear_model",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Extrapolation extends linear-model use beyond interpolation and requires more caution.",
+        "failure_signal": "Learner extends a trend beyond context without considering reliability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel.requires.gradient",
+        "from": "math.algebra.linear.parallel_lines_same_gradient",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Parallel-line reasoning depends on comparing gradients.",
+        "failure_signal": "Learner compares intercepts instead of gradients to decide whether lines are parallel.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.intersection_equal_outputs.requires.graph_rules",
+        "from": "math.algebra.linear.line_intersection_as_equal_outputs",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Intersections of line graphs require representing linear rules on the same coordinate plane.",
+        "failure_signal": "Learner reads only one coordinate or does not interpret equality of outputs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_constant.requires.gradient",
+        "from": "math.algebra.linear.horizontal_line_constant_output",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Horizontal-line interpretation builds on zero rate of change.",
+        "failure_signal": "Learner treats a horizontal line as having undefined gradient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_constant.requires.undefined_vertical",
+        "from": "math.algebra.linear.vertical_line_constant_input",
+        "to": "math.algebra.linear.undefined_gradient_vertical_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Vertical-line interpretation builds on recognising undefined gradient for vertical lines.",
+        "failure_signal": "Learner treats a vertical line as a function with constant output.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_pairs.has_mis.reversed",
+        "from": "math.algebra.linear.ordered_pairs",
+        "to": "math.misconception.linear.ordered_pair_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.first_difference.has_mis.unequal_inputs",
+        "from": "math.algebra.linear.constant_first_difference_tables",
+        "to": "math.misconception.linear.constant_difference_with_unequal_inputs",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_gradient.has_mis.units_ignored",
+        "from": "math.algebra.linear.context_units_for_gradient",
+        "to": "math.misconception.linear.gradient_units_ignored",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolate.has_mis.always_reliable",
+        "from": "math.algebra.linear.extrapolate_linear_model",
+        "to": "math.misconception.linear.extrapolation_always_reliable",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel.has_mis.same_intercept",
+        "from": "math.algebra.linear.parallel_lines_same_gradient",
+        "to": "math.misconception.linear.parallel_lines_same_intercept",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/linear_relationships.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1779,
+    "edges": 3742
+  },
+  "graph_counts_after": {
+    "nodes": 1809,
+    "edges": 3804
+  }
+}

@@ -1,0 +1,976 @@
+{
+  "patch_id": "math-space-shapes-3d-object-classification-detail-001",
+  "applied_at": "2026-05-28T17:47:38.008Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.misconception.space.views_show_whole_object"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 17,
+      "edges_created": 36,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.cubes_and_cuboids",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Cubes and cuboids",
+        "description": "Classify cubes and cuboids using faces, edges, vertices and rectangular-prism structure.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.rectangular_prisms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Rectangular prisms",
+        "description": "Recognise rectangular prisms by parallel rectangular faces and consistent cross-sections.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.triangular_prisms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Triangular prisms",
+        "description": "Recognise triangular prisms by two congruent triangular bases joined by rectangular faces.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.pyramids_apex_base",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Pyramids with apex and base",
+        "description": "Classify pyramids by a polygon base and triangular faces meeting at an apex.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.classify_prisms_by_base",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Classify prisms by base shape",
+        "description": "Name prisms according to the shape of their congruent parallel bases.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.classify_pyramids_by_base",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Classify pyramids by base shape",
+        "description": "Name pyramids according to the shape of their polygon base.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.cylinders",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Cylinders",
+        "description": "Recognise cylinders by two circular faces and one curved surface.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.cones",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Cones",
+        "description": "Recognise cones by a circular base, curved surface and apex.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.spheres",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Spheres",
+        "description": "Recognise spheres as round three-dimensional objects with a continuous curved surface and no faces or edges.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.match_solids_to_nets",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Match solids to nets",
+        "description": "Match common three-dimensional objects to nets by comparing faces and how they connect.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.front_top_side_views",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Front top and side views",
+        "description": "Represent simple three-dimensional objects using front, top and side views.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.prisms_have_congruent_parallel_bases",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Prisms have congruent parallel bases",
+        "description": "A prism has two congruent parallel bases joined by side faces.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.pyramids_have_one_base_and_apex",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Pyramids have one base and an apex",
+        "description": "A pyramid has one polygon base and triangular faces that meet at an apex.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.curved_objects_may_have_flat_faces",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Curved objects may have flat faces",
+        "description": "Objects such as cylinders and cones include curved surfaces and may also include flat circular faces.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.views_show_different_directions",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Views show different directions",
+        "description": "Front, top and side views show what an object looks like from different viewing directions.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.prism_named_by_side_face",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Prism named by side face",
+        "description": "Learner names a prism by one of its side faces rather than by the shape of its congruent bases.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.views_show_whole_object",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Single view shows whole object",
+        "description": "Learner assumes one view contains all spatial information about a three-dimensional object.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.cubes_cuboids.part_of.properties_3d",
+        "from": "math.space.objects.cubes_and_cuboids",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.rect_prisms.part_of.prisms_pyramids",
+        "from": "math.space.objects.rectangular_prisms",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.tri_prisms.part_of.prisms_pyramids",
+        "from": "math.space.objects.triangular_prisms",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.pyramids_apex.part_of.prisms_pyramids",
+        "from": "math.space.objects.pyramids_apex_base",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.classify_prisms_base.part_of.prisms_pyramids",
+        "from": "math.space.objects.classify_prisms_by_base",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.classify_pyramids_base.part_of.prisms_pyramids",
+        "from": "math.space.objects.classify_pyramids_by_base",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.cylinders.part_of.curved_surfaces",
+        "from": "math.space.objects.cylinders",
+        "to": "math.space.objects.curved_surfaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.cones.part_of.curved_surfaces",
+        "from": "math.space.objects.cones",
+        "to": "math.space.objects.curved_surfaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.spheres.part_of.curved_surfaces",
+        "from": "math.space.objects.spheres",
+        "to": "math.space.objects.curved_surfaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.match_solids_nets.part_of.nets",
+        "from": "math.space.objects.match_solids_to_nets",
+        "to": "math.space.objects.nets_of_solids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.objects.front_top_side.part_of.views",
+        "from": "math.space.objects.front_top_side_views",
+        "to": "math.space.objects.views_of_solids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.prisms_bases.part_of.prisms_pyramids",
+        "from": "math.kp.space.prisms_have_congruent_parallel_bases",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.pyramids_apex.part_of.prisms_pyramids",
+        "from": "math.kp.space.pyramids_have_one_base_and_apex",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.curved_flat_faces.part_of.curved_surfaces",
+        "from": "math.kp.space.curved_objects_may_have_flat_faces",
+        "to": "math.space.objects.curved_surfaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.views_directions.part_of.views",
+        "from": "math.kp.space.views_show_different_directions",
+        "to": "math.space.objects.views_of_solids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.prism_named_side.part_of.prisms_pyramids",
+        "from": "math.misconception.space.prism_named_by_side_face",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.single_view_whole.part_of.views",
+        "from": "math.misconception.space.views_show_whole_object",
+        "to": "math.space.objects.views_of_solids",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prisms_pyramids.encompasses.classify_prisms",
+        "from": "math.space.objects.prisms_and_pyramids",
+        "to": "math.space.objects.classify_prisms_by_base",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Classifying prisms by base shape is core practice for prisms and pyramids.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prisms_pyramids.encompasses.classify_pyramids",
+        "from": "math.space.objects.prisms_and_pyramids",
+        "to": "math.space.objects.classify_pyramids_by_base",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Classifying pyramids by base shape is core practice for prisms and pyramids.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.curved_surfaces.encompasses.cylinders",
+        "from": "math.space.objects.curved_surfaces",
+        "to": "math.space.objects.cylinders",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Cylinders are a central example for reasoning about curved surfaces and flat circular faces.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.curved_surfaces.encompasses.cones",
+        "from": "math.space.objects.curved_surfaces",
+        "to": "math.space.objects.cones",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Cones are a central example for reasoning about curved surfaces, bases and apexes.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nets.encompasses.match_solids",
+        "from": "math.space.objects.nets_of_solids",
+        "to": "math.space.objects.match_solids_to_nets",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Matching solids to nets directly practises understanding nets of solids.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.views.encompasses.front_top_side",
+        "from": "math.space.objects.views_of_solids",
+        "to": "math.space.objects.front_top_side_views",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Front, top and side views are core representations for views of solids.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cubes_cuboids.requires.faces_edges_vertices",
+        "from": "math.space.objects.cubes_and_cuboids",
+        "to": "math.space.objects.faces_edges_vertices",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Classifying cubes and cuboids requires counting and identifying faces, edges and vertices.",
+        "failure_signal": "Learner cannot distinguish faces, edges and vertices on a solid.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_prisms.requires.prisms_pyramids",
+        "from": "math.space.objects.rectangular_prisms",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rectangular prisms are a specific kind of prism.",
+        "failure_signal": "Learner does not connect rectangular prisms with the broader prism category.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tri_prisms.requires.classify_prisms",
+        "from": "math.space.objects.triangular_prisms",
+        "to": "math.space.objects.classify_prisms_by_base",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Triangular prisms are named by the shape of their congruent bases.",
+        "failure_signal": "Learner names a triangular prism by its rectangular side faces.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pyramids_apex.requires.faces_edges_vertices",
+        "from": "math.space.objects.pyramids_apex_base",
+        "to": "math.space.objects.faces_edges_vertices",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Pyramid classification requires recognising bases, faces, edges and vertices.",
+        "failure_signal": "Learner cannot distinguish the base from the triangular side faces.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.classify_prisms.requires.prisms_pyramids",
+        "from": "math.space.objects.classify_prisms_by_base",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Naming prisms by base shape requires understanding the prism category.",
+        "failure_signal": "Learner identifies side faces but misses the paired congruent bases.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.classify_pyramids.requires.pyramids_apex",
+        "from": "math.space.objects.classify_pyramids_by_base",
+        "to": "math.space.objects.pyramids_apex_base",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Naming pyramids by base shape requires identifying the base and apex structure.",
+        "failure_signal": "Learner names the pyramid by a triangular side face rather than the base.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cylinders.requires.curved_surfaces",
+        "from": "math.space.objects.cylinders",
+        "to": "math.space.objects.curved_surfaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Cylinder classification depends on distinguishing curved surfaces from flat faces.",
+        "failure_signal": "Learner counts the curved surface as multiple flat faces or misses circular faces.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cones.requires.curved_surfaces",
+        "from": "math.space.objects.cones",
+        "to": "math.space.objects.curved_surfaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Cone classification depends on recognising a curved surface, circular base and apex.",
+        "failure_signal": "Learner confuses cones with pyramids or cylinders.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spheres.requires.curved_surfaces",
+        "from": "math.space.objects.spheres",
+        "to": "math.space.objects.curved_surfaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Spheres are classified by a continuous curved surface rather than flat faces.",
+        "failure_signal": "Learner assigns faces or edges to a sphere incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.match_nets.requires.nets_solids",
+        "from": "math.space.objects.match_solids_to_nets",
+        "to": "math.space.objects.nets_of_solids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Matching objects to nets requires understanding how nets fold into solids.",
+        "failure_signal": "Learner matches only by number of faces without checking adjacency.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.front_top_side.requires.views_solids",
+        "from": "math.space.objects.front_top_side_views",
+        "to": "math.space.objects.views_of_solids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Front, top and side views are specific views of solids.",
+        "failure_signal": "Learner treats one view as showing the entire object.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prisms_pyramids.has_mis.named_by_side_face",
+        "from": "math.space.objects.prisms_and_pyramids",
+        "to": "math.misconception.space.prism_named_by_side_face",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.views_solids.has_mis.single_view_whole",
+        "from": "math.space.objects.views_of_solids",
+        "to": "math.misconception.space.views_show_whole_object",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/shapes_and_objects.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1518,
+    "edges": 3201
+  },
+  "graph_counts_after": {
+    "nodes": 1535,
+    "edges": 3237
+  }
+}

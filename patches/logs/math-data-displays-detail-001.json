@@ -1,0 +1,2134 @@
+{
+  "patch_id": "math-data-displays-detail-001",
+  "applied_at": "2026-05-28T05:53:44.378Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.kp.statistics.dot_represents_data_value"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.read_picture_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Read picture graphs",
+        "description": "Read picture graphs by counting symbols and interpreting categories.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.make_picture_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Make picture graphs",
+        "description": "Create picture graphs from categorical data using consistent symbols and labels.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.one_to_one_symbols",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "One-to-one symbols in picture graphs",
+        "description": "Use one symbol to represent one data value in simple picture graphs.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.many_to_one_symbols",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Many-to-one symbols in picture graphs",
+        "description": "Use one symbol to represent multiple data values and interpret the key correctly.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.read_bar_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Read bar graphs",
+        "description": "Read bar graphs using category labels, bar heights and scale values.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.make_bar_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Make bar graphs",
+        "description": "Create bar graphs from frequency data with suitable labels, scale and spacing.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.axes_titles_labels",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Axes titles and labels",
+        "description": "Use titles, axes, category labels and units to make data displays interpretable.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.choose_graph_scale",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Choose graph scale",
+        "description": "Choose and interpret appropriate scales for bar graphs and other displays.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.compare_categories_in_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Compare categories in graphs",
+        "description": "Compare category frequencies and answer questions using picture and bar graphs.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.read_dot_plots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Read dot plots",
+        "description": "Read dot plots by matching each dot to a data value and frequency.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.make_dot_plots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Make dot plots",
+        "description": "Create dot plots from numerical data using repeated dots for repeated values.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.line_plots_for_measurement_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Line plots for measurement data",
+        "description": "Display measurement data on a number line using marks or dots for values.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.clusters_gaps_outliers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Clusters gaps and outliers",
+        "description": "Identify clusters, gaps and possible outliers in dot plots and line plots.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.shape_of_distribution_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Shape of distribution introduction",
+        "description": "Describe the overall shape of a distribution using visual features of a display.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.stem_and_leaf_plots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Stem and leaf plots",
+        "description": "Represent and interpret numerical data using stem-and-leaf plots.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.grouped_intervals",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Grouped intervals",
+        "description": "Organise numerical data into intervals for grouped displays.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.histogram_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Histogram interpretation",
+        "description": "Interpret histograms as displays of numerical data grouped into intervals.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.construct_histograms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Construct histograms",
+        "description": "Construct histograms using intervals, frequency counts and appropriate scales.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.box_plot_features",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Box plot features",
+        "description": "Identify median, quartiles, whiskers and range in a box plot.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.construct_box_plots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Construct box plots",
+        "description": "Construct box plots from five-number summaries.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.compare_displays",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Compare data displays",
+        "description": "Compare different displays of the same or related data for clarity and appropriateness.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.graphs_need_labels",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Graphs need labels",
+        "description": "Data displays need clear titles, labels and units so values can be interpreted.",
+        "aliases": [],
+        "year_band": "2-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.scale_controls_graph_reading",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Scale controls graph reading",
+        "description": "The graph scale determines how counts or values are read from a display.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.picture_graph_key_matters",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Picture graph key matters",
+        "description": "A picture graph key tells how many data values each symbol represents.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.bar_height_shows_frequency",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Bar height shows frequency",
+        "description": "In a bar graph, bar height or length represents the frequency for a category.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.dot_represents_data_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Each dot represents a data value",
+        "description": "In a dot plot, each dot represents one occurrence of a data value unless a key states otherwise.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.distribution_shape_visual_pattern",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Distribution shape is a visual pattern",
+        "description": "Clusters, gaps, peaks and spread help describe the visual shape of a distribution.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.histograms_group_intervals",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Histograms group intervals",
+        "description": "A histogram groups numerical data into intervals and shows frequency for each interval.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.box_plots_use_five_number_summary",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Box plots use five number summary",
+        "description": "A box plot displays the minimum, first quartile, median, third quartile and maximum.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.display_choice_matches_data_type",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Display choice matches data type",
+        "description": "Different displays suit categorical, discrete numerical or continuous numerical data.",
+        "aliases": [],
+        "year_band": "5-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.same_data_can_have_multiple_displays",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Same data can have multiple displays",
+        "description": "The same data can be represented in different displays that emphasise different features.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.picture_symbol_always_one",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Picture symbol always means one",
+        "description": "Learner assumes each picture symbol represents one item even when the key says otherwise.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.ignore_graph_scale",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Ignore graph scale",
+        "description": "Learner reads bars, axes or intervals as if every mark increases by one regardless of the scale.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.bar_area_vs_height",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Bar area instead of height",
+        "description": "Learner compares bar area or width rather than bar height or length when reading frequencies.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.histogram_as_bar_graph_categories",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Histogram treated as category bar graph",
+        "description": "Learner treats histogram intervals as unrelated categories rather than ordered numerical intervals.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.box_plot_shows_all_values",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Box plot shows all values",
+        "description": "Learner thinks a box plot displays every individual data value rather than a summary of distribution.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_picture_graphs.part_of.picture_bar",
+        "from": "math.statistics.displays.read_picture_graphs",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_picture_graphs.part_of.picture_bar",
+        "from": "math.statistics.displays.make_picture_graphs",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one_symbols.part_of.picture_bar",
+        "from": "math.statistics.displays.one_to_one_symbols",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.many_to_one_symbols.part_of.picture_bar",
+        "from": "math.statistics.displays.many_to_one_symbols",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_bar_graphs.part_of.picture_bar",
+        "from": "math.statistics.displays.read_bar_graphs",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_bar_graphs.part_of.picture_bar",
+        "from": "math.statistics.displays.make_bar_graphs",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.axes_titles_labels.part_of.picture_bar",
+        "from": "math.statistics.displays.axes_titles_labels",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_graph_scale.part_of.picture_bar",
+        "from": "math.statistics.displays.choose_graph_scale",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_categories_graphs.part_of.picture_bar",
+        "from": "math.statistics.displays.compare_categories_in_graphs",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_dot_plots.part_of.line_dot",
+        "from": "math.statistics.displays.read_dot_plots",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_dot_plots.part_of.line_dot",
+        "from": "math.statistics.displays.make_dot_plots",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_measurement.part_of.line_dot",
+        "from": "math.statistics.displays.line_plots_for_measurement_data",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clusters_gaps_outliers.part_of.line_dot",
+        "from": "math.statistics.displays.clusters_gaps_outliers",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_distribution.part_of.line_dot",
+        "from": "math.statistics.displays.shape_of_distribution_intro",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_leaf.part_of.hist_box",
+        "from": "math.statistics.displays.stem_and_leaf_plots",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grouped_intervals.part_of.hist_box",
+        "from": "math.statistics.displays.grouped_intervals",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_interpretation.part_of.hist_box",
+        "from": "math.statistics.displays.histogram_interpretation",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_histograms.part_of.hist_box",
+        "from": "math.statistics.displays.construct_histograms",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_features.part_of.hist_box",
+        "from": "math.statistics.displays.box_plot_features",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_box_plots.part_of.hist_box",
+        "from": "math.statistics.displays.construct_box_plots",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_displays.part_of.hist_box",
+        "from": "math.statistics.displays.compare_displays",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_graph_labels.part_of.picture_bar",
+        "from": "math.kp.statistics.graphs_need_labels",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_scale_graph.part_of.picture_bar",
+        "from": "math.kp.statistics.scale_controls_graph_reading",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_picture_key.part_of.picture_bar",
+        "from": "math.kp.statistics.picture_graph_key_matters",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_bar_height.part_of.picture_bar",
+        "from": "math.kp.statistics.bar_height_shows_frequency",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_dot_value.part_of.line_dot",
+        "from": "math.kp.statistics.dot_represents_data_value",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_distribution_shape.part_of.line_dot",
+        "from": "math.kp.statistics.distribution_shape_visual_pattern",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_histogram_intervals.part_of.hist_box",
+        "from": "math.kp.statistics.histograms_group_intervals",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_box_five_summary.part_of.hist_box",
+        "from": "math.kp.statistics.box_plots_use_five_number_summary",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_display_choice_data_type.part_of.hist_box",
+        "from": "math.kp.statistics.display_choice_matches_data_type",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_multiple_displays.part_of.hist_box",
+        "from": "math.kp.statistics.same_data_can_have_multiple_displays",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_picture_symbol_one.part_of.picture_bar",
+        "from": "math.misconception.statistics.picture_symbol_always_one",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_ignore_scale.part_of.picture_bar",
+        "from": "math.misconception.statistics.ignore_graph_scale",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_bar_area.part_of.picture_bar",
+        "from": "math.misconception.statistics.bar_area_vs_height",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_hist_as_bar.part_of.hist_box",
+        "from": "math.misconception.statistics.histogram_as_bar_graph_categories",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_box_all_values.part_of.hist_box",
+        "from": "math.misconception.statistics.box_plot_shows_all_values",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.read_picture",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.read_picture_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading picture graphs is central to early picture and bar graph work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.make_picture",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.make_picture_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Making picture graphs directly practises categorical data display.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.one_symbol",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.one_to_one_symbols",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "One-to-one symbols are an early picture graph convention.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.many_symbol",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.many_to_one_symbols",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Many-to-one symbols extend picture graph interpretation through keys.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.read_bar",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.read_bar_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading bar graphs is core to picture and bar graph work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.make_bar",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.make_bar_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Making bar graphs directly practises frequency display construction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.axes_labels",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.axes_titles_labels",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Titles, axes and labels are required display conventions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.scale",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.choose_graph_scale",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Graph scale controls how bar graphs and similar displays are read.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.encompasses.compare_categories",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.compare_categories_in_graphs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing categories is a major interpretation task for categorical displays.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_dot.encompasses.read_dot",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.read_dot_plots",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading dot plots is central to line and dot plot work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_dot.encompasses.make_dot",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.make_dot_plots",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Constructing dot plots directly practises numerical data display.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_dot.encompasses.measurement_line",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.line_plots_for_measurement_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Line plots are commonly used for measurement data on number lines.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_dot.encompasses.clusters",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.clusters_gaps_outliers",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Clusters, gaps and outliers are important visual features in dot and line plots.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_dot.encompasses.shape",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.shape_of_distribution_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Distribution shape extends visual interpretation of dot and line plots.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.encompasses.stem_leaf",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.stem_and_leaf_plots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Stem-and-leaf plots are related numerical distribution displays before histograms and box plots.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.encompasses.grouped_intervals",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.grouped_intervals",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Grouped intervals are essential to histogram construction and interpretation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.encompasses.histogram_interpret",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.histogram_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Histogram interpretation is central to grouped numerical displays.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.encompasses.construct_histogram",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.construct_histograms",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Constructing histograms applies grouped interval and frequency reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.encompasses.box_features",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.box_plot_features",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Box plot features are central to box plot interpretation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.encompasses.construct_box",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.construct_box_plots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Constructing box plots applies five-number summary display conventions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.encompasses.compare_displays",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.compare_displays",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing displays helps choose and critique representations of data.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_picture.requires.categories",
+        "from": "math.statistics.displays.read_picture_graphs",
+        "to": "math.statistics.data.sort_into_categories",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading picture graphs requires understanding categories being counted.",
+        "failure_signal": "Learner counts symbols without connecting them to category labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_picture.requires.tally",
+        "from": "math.statistics.displays.make_picture_graphs",
+        "to": "math.statistics.data.tally_marks",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Making picture graphs requires counted or tallied category data.",
+        "failure_signal": "Learner draws symbols without matching data frequencies.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_symbol.requires.read_picture",
+        "from": "math.statistics.displays.one_to_one_symbols",
+        "to": "math.statistics.displays.read_picture_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "One-to-one symbol interpretation is an early picture graph reading convention.",
+        "failure_signal": "Learner cannot tell how many data values are represented by simple symbols.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.many_symbol.requires.one_symbol",
+        "from": "math.statistics.displays.many_to_one_symbols",
+        "to": "math.statistics.displays.one_to_one_symbols",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Many-to-one keys extend the simpler one-symbol-one-value convention.",
+        "failure_signal": "Learner ignores the key and counts symbols as single values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_bar.requires.frequency_tables",
+        "from": "math.statistics.displays.read_bar_graphs",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading bar graphs depends on understanding category frequencies.",
+        "failure_signal": "Learner reads bar appearance without connecting bar height to frequency.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_bar.requires.read_bar",
+        "from": "math.statistics.displays.make_bar_graphs",
+        "to": "math.statistics.displays.read_bar_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Making bar graphs builds on understanding how bar graphs encode category frequencies.",
+        "failure_signal": "Learner creates bars that do not match the data or scale.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.axes_labels.requires.read_bar",
+        "from": "math.statistics.displays.axes_titles_labels",
+        "to": "math.statistics.displays.read_bar_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Axes, titles and labels are understood through reading and constructing basic graphs.",
+        "failure_signal": "Learner draws graphs without interpretable labels or units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_scale.requires.axes_labels",
+        "from": "math.statistics.displays.choose_graph_scale",
+        "to": "math.statistics.displays.axes_titles_labels",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing scale depends on understanding axes and labels.",
+        "failure_signal": "Learner uses a scale that skips values inconsistently or hides the data pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_categories.requires.read_bar",
+        "from": "math.statistics.displays.compare_categories_in_graphs",
+        "to": "math.statistics.displays.read_bar_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing categories requires reading bar heights or picture graph frequencies accurately.",
+        "failure_signal": "Learner identifies categories but cannot compare their frequencies.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_dot.requires.number_line",
+        "from": "math.statistics.displays.read_dot_plots",
+        "to": "math.number.counting.order_small_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "low",
+        "rationale": "Dot plots require placing values on an ordered scale; the exact number-line prerequisite may vary by data range.",
+        "failure_signal": "Learner treats positions on the dot plot as unordered labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_dot.requires.read_dot",
+        "from": "math.statistics.displays.make_dot_plots",
+        "to": "math.statistics.displays.read_dot_plots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Constructing dot plots builds on reading dots as values and frequencies.",
+        "failure_signal": "Learner stacks dots inconsistently or loses repeated values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_measure.requires.record_measurement",
+        "from": "math.statistics.displays.line_plots_for_measurement_data",
+        "to": "math.statistics.data.record_measurement_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Line plots for measurement data require recorded numerical measurements.",
+        "failure_signal": "Learner plots measurements without consistent values or units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clusters.requires.read_dot",
+        "from": "math.statistics.displays.clusters_gaps_outliers",
+        "to": "math.statistics.displays.read_dot_plots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying clusters, gaps and outliers depends on reading dot and line plots accurately.",
+        "failure_signal": "Learner reads individual values but misses visual features of the distribution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_distribution.requires.clusters",
+        "from": "math.statistics.displays.shape_of_distribution_intro",
+        "to": "math.statistics.displays.clusters_gaps_outliers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Describing distribution shape builds from recognising visual features in displays.",
+        "failure_signal": "Learner lists values but cannot describe the overall data pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_leaf.requires.make_dot",
+        "from": "math.statistics.displays.stem_and_leaf_plots",
+        "to": "math.statistics.displays.make_dot_plots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Stem-and-leaf plots are another ordered display of numerical values and frequencies.",
+        "failure_signal": "Learner cannot split values into stems and leaves or preserve data order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grouped_intervals.requires.shape_distribution",
+        "from": "math.statistics.displays.grouped_intervals",
+        "to": "math.statistics.displays.shape_of_distribution_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Grouped intervals require interpreting data values along an ordered numerical scale.",
+        "failure_signal": "Learner creates overlapping or uneven intervals unintentionally.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_interpret.requires.grouped_intervals",
+        "from": "math.statistics.displays.histogram_interpretation",
+        "to": "math.statistics.displays.grouped_intervals",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Histograms display frequencies for grouped numerical intervals.",
+        "failure_signal": "Learner treats histogram bars as separate categories rather than intervals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_histograms.requires.histogram_interpret",
+        "from": "math.statistics.displays.construct_histograms",
+        "to": "math.statistics.displays.histogram_interpretation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Constructing histograms builds on interpreting grouped intervals and frequencies.",
+        "failure_signal": "Learner draws separated category bars or miscounts interval frequencies.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_features.requires.median_quartiles",
+        "from": "math.statistics.displays.box_plot_features",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Box plot features require understanding median and quartiles as summary values.",
+        "failure_signal": "Learner reads a box plot as raw data rather than summary positions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_box.requires.box_features",
+        "from": "math.statistics.displays.construct_box_plots",
+        "to": "math.statistics.displays.box_plot_features",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Constructing box plots requires identifying the five-number summary positions.",
+        "failure_signal": "Learner places box, median or whiskers at incorrect values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_displays.requires.hist_box",
+        "from": "math.statistics.displays.compare_displays",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing displays requires familiarity with several display types and what each shows.",
+        "failure_signal": "Learner chooses displays without considering data type or interpretive purpose.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.has_mis.symbol_one",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.misconception.statistics.picture_symbol_always_one",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.has_mis.ignore_scale",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.misconception.statistics.ignore_graph_scale",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar.has_mis.bar_area",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.misconception.statistics.bar_area_vs_height",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.has_mis.hist_as_bar",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.misconception.statistics.histogram_as_bar_graph_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_box.has_mis.box_all_values",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.misconception.statistics.box_plot_shows_all_values",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/data_displays.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1041,
+    "edges": 2128
+  },
+  "graph_counts_after": {
+    "nodes": 1077,
+    "edges": 2211
+  }
+}

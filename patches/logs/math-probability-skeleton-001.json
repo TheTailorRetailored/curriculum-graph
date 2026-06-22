@@ -1,0 +1,682 @@
+{
+  "patch_id": "math-probability-skeleton-001",
+  "applied_at": "2026-05-23T05:48:39.270Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 13,
+      "edges_created": 24,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.chance_events",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "label": "Chance and events",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.probability_models",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "label": "Probability models",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.compound_events",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "label": "Compound events",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Chance language",
+        "description": "Use everyday and comparative language to describe possible, impossible, likely and unlikely events.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.experiments",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Chance experiments",
+        "description": "Conduct simple chance experiments and record outcomes.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.sample_spaces",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Sample spaces",
+        "description": "List and represent possible outcomes for simple chance situations.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.theoretical_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Theoretical probability",
+        "description": "Calculate probabilities for equally likely outcomes and simple finite sample spaces.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.experimental_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Experimental probability",
+        "description": "Estimate probabilities from repeated trials and compare experimental results with theoretical expectations.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.models.relative_frequency",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Probability models",
+        "label": "Relative frequency",
+        "description": "Use long-run relative frequency to estimate probability and interpret variability in trials.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.two_way_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Two-way tables and Venn diagrams",
+        "description": "Represent compound event relationships using two-way tables, Venn diagrams and tree diagrams.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.independent_dependent_events",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Independent and dependent events",
+        "description": "Distinguish independent and dependent events and calculate probabilities in simple contexts.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.calculations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Conditional probability calculations",
+        "description": "Interpret and calculate conditional probabilities using tables, diagrams and formulas.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.random_variables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Random variables and probability distributions",
+        "description": "Represent discrete random variables and probability distributions in senior contexts.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability.part_of.math",
+        "from": "math.strand.probability",
+        "to": "math",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_events.part_of.probability",
+        "from": "math.area.chance_events",
+        "to": "math.strand.probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability_models.part_of.probability",
+        "from": "math.area.probability_models",
+        "to": "math.strand.probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound_events.part_of.probability",
+        "from": "math.area.compound_events",
+        "to": "math.strand.probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.conditional_probability.part_of.probability",
+        "from": "math.area.conditional_probability",
+        "to": "math.strand.probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.part_of.chance_events",
+        "from": "math.probability.chance.language",
+        "to": "math.area.chance_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.part_of.chance_events",
+        "from": "math.probability.chance.experiments",
+        "to": "math.area.chance_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.part_of.chance_events",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.area.chance_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.part_of.models",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.area.probability_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability.part_of.models",
+        "from": "math.probability.models.experimental_probability",
+        "to": "math.area.probability_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.part_of.models",
+        "from": "math.probability.models.relative_frequency",
+        "to": "math.area.probability_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.part_of.compound",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.area.compound_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent.part_of.compound",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.area.compound_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.conditional_calculations.part_of.conditional_probability",
+        "from": "math.probability.conditional.calculations",
+        "to": "math.area.conditional_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_variables.part_of.conditional_probability",
+        "from": "math.probability.distributions.random_variables",
+        "to": "math.area.conditional_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.requires.chance_language",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Chance experiments depend on recognising and describing possible outcomes using chance language.",
+        "failure_signal": "Learner records results but cannot describe whether an event was possible or likely.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.requires.chance_experiments",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.experiments",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Listing outcomes builds on experience with chance experiments and possible results.",
+        "failure_signal": "Learner omits possible outcomes or includes impossible ones.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.requires.sample_spaces",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Theoretical probability depends on identifying favourable and total outcomes in a sample space.",
+        "failure_signal": "Learner cannot identify the denominator as total possible outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability.requires.chance_experiments",
+        "from": "math.probability.models.experimental_probability",
+        "to": "math.probability.chance.experiments",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Experimental probability depends on repeated chance trials and recorded outcomes.",
+        "failure_signal": "Learner treats a single trial result as a stable probability estimate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.requires.experimental_probability",
+        "from": "math.probability.models.relative_frequency",
+        "to": "math.probability.models.experimental_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Relative frequency generalises experimental probability across repeated trials.",
+        "failure_signal": "Learner cannot interpret the proportion of outcomes over repeated trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.requires.theoretical_probability",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Compound-event representations depend on understanding simple event probability first.",
+        "failure_signal": "Learner can count entries but cannot connect regions or cells to events.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent.requires.two_way_tables",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Independent and dependent event reasoning is supported by representing event combinations.",
+        "failure_signal": "Learner multiplies or adds probabilities without considering event dependence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.conditional_calculations.requires.independent_dependent",
+        "from": "math.probability.conditional.calculations",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Conditional probability depends on reasoning about dependence and restricted sample spaces.",
+        "failure_signal": "Learner uses original totals instead of the conditional event space.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_variables.requires.conditional_calculations",
+        "from": "math.probability.distributions.random_variables",
+        "to": "math.probability.conditional.calculations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Senior probability distributions often build on compound and conditional probability reasoning.",
+        "failure_signal": "Learner treats a distribution as a list of outcomes without probabilities summing coherently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "ontology/mathematics/number/probability_models.yaml",
+    "ontology/mathematics/number/compound_events.yaml",
+    "ontology/mathematics/number/conditional_probability.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 176,
+    "edges": 201
+  },
+  "graph_counts_after": {
+    "nodes": 189,
+    "edges": 225
+  }
+}

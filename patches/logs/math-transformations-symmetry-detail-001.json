@@ -1,0 +1,2127 @@
+{
+  "patch_id": "math-transformations-symmetry-detail-001",
+  "applied_at": "2026-05-27T07:43:25.259Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.describe_translations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Describe translations",
+        "description": "Describe a slide of a shape or object using direction and distance language.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.describe_reflections",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Describe reflections",
+        "description": "Describe a flip of a shape or object across a mirror line.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.describe_rotations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Describe rotations",
+        "description": "Describe a turn of a shape or object around a centre point.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.before_after_figures",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Before and after figures",
+        "description": "Compare a figure before and after a transformation to describe what changed and what stayed the same.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.image_preimage_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Image and preimage language",
+        "description": "Use image and preimage language for a figure before and after a transformation.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.compose_simple_transformations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Compose simple transformations",
+        "description": "Apply two or more simple transformations in sequence and describe the result.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.symmetry.line_symmetry",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Line symmetry",
+        "description": "Identify whether a figure has a line that divides it into matching mirror-image halves.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.symmetry.draw_lines_of_symmetry",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Draw lines of symmetry",
+        "description": "Draw all lines of symmetry for common shapes and designs.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.symmetry.reflection_symmetry_shapes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Reflection symmetry in shapes",
+        "description": "Connect reflection symmetry to a shape matching itself across a symmetry line.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.symmetry.rotational_symmetry",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Rotational symmetry",
+        "description": "Identify when a shape matches itself after a turn less than a full turn.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.symmetry.symmetry_in_designs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Symmetry in designs",
+        "description": "Identify line and rotational symmetry in patterns, designs and visual contexts.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.symmetry.coordinate_symmetry",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Coordinate symmetry",
+        "description": "Describe symmetry of figures using axes and coordinates in the coordinate plane.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.grid_transformations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Transformations on grids",
+        "description": "Represent translations, reflections and rotations of figures on square grids.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.coordinate_translations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Coordinate translations",
+        "description": "Use coordinate changes to represent translations in the coordinate plane.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.coordinate_reflections_axes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Coordinate reflections over axes",
+        "description": "Reflect points and figures over the coordinate axes and describe coordinate changes.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.coordinate_rotations_quarter_turns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Coordinate rotations by quarter turns",
+        "description": "Rotate points and figures by quarter turns around the origin and describe coordinate changes.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.coordinate_dilations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Coordinate dilations",
+        "description": "Represent dilations in the coordinate plane using scale factors.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.transformation_rules",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Transformation rules",
+        "description": "Use rules to describe how coordinates change under transformations.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.rigid_transformations_congruence",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Rigid transformations and congruence",
+        "description": "Recognise that translations, reflections and rotations preserve size and shape.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.dilations_similarity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Dilations and similarity",
+        "description": "Recognise that dilations preserve shape while changing size by a scale factor.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.sequence_coordinate_transformations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Sequence coordinate transformations",
+        "description": "Apply and describe sequences of transformations in the coordinate plane.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.translation_preserves_orientation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Translation preserves orientation",
+        "description": "A translation slides every point the same distance and direction without turning or flipping the figure.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.reflection_uses_mirror_line",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Reflection uses a mirror line",
+        "description": "A reflection maps points to mirror positions across a reflection line.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.rotation_uses_centre_angle_direction",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Rotation uses centre angle and direction",
+        "description": "A rotation is described by a centre, angle and direction of turn.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.image_preimage_transformations",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Image follows preimage",
+        "description": "The image is the result of transforming the original preimage.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.line_symmetry_maps_to_self",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Line symmetry maps figure to itself",
+        "description": "A line of symmetry maps a figure onto itself by reflection.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.rotational_symmetry_repeats",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Rotational symmetry repeats after a turn",
+        "description": "A figure has rotational symmetry when it matches itself after a turn less than a full turn.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.rigid_transformations_preserve_size_shape",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Rigid transformations preserve size and shape",
+        "description": "Translations, reflections and rotations preserve side lengths and angle measures.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.dilations_scale_distances",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Dilations scale distances",
+        "description": "A dilation multiplies distances from a centre by a scale factor.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.coordinates_track_movement",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Coordinates track movement",
+        "description": "Coordinate changes can describe the movement of points under transformations.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.transformation_order_matters",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Transformation order can matter",
+        "description": "Applying transformations in a different order can produce a different final image.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.reflection_as_translation",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Reflection treated as translation",
+        "description": "Learner slides a figure instead of reflecting it across a mirror line.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.rotation_wrong_centre",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Rotation around wrong centre",
+        "description": "Learner rotates a figure around an unintended centre point.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.translation_changes_size",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Translation changes size",
+        "description": "Learner changes the size or shape of a figure while translating it.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.any_centre_line_symmetry",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Any centre line is symmetry",
+        "description": "Learner assumes any line through the centre of a figure is a line of symmetry.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.dilation_as_addition",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Dilation treated as addition",
+        "description": "Learner treats dilation as adding a fixed amount to coordinates or lengths rather than multiplying by a scale factor.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.describe_translations.part_of.flips_slides_turns",
+        "from": "math.space.transformations.describe_translations",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.describe_reflections.part_of.flips_slides_turns",
+        "from": "math.space.transformations.describe_reflections",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.describe_rotations.part_of.flips_slides_turns",
+        "from": "math.space.transformations.describe_rotations",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.before_after.part_of.flips_slides_turns",
+        "from": "math.space.transformations.before_after_figures",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.image_preimage.part_of.flips_slides_turns",
+        "from": "math.space.transformations.image_preimage_language",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_simple.part_of.flips_slides_turns",
+        "from": "math.space.transformations.compose_simple_transformations",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_symmetry.part_of.symmetry",
+        "from": "math.space.symmetry.line_symmetry",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.draw_symmetry_lines.part_of.symmetry",
+        "from": "math.space.symmetry.draw_lines_of_symmetry",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reflection_symmetry_shapes.part_of.symmetry",
+        "from": "math.space.symmetry.reflection_symmetry_shapes",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rotational_symmetry.part_of.symmetry",
+        "from": "math.space.symmetry.rotational_symmetry",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry_designs.part_of.symmetry",
+        "from": "math.space.symmetry.symmetry_in_designs",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_symmetry.part_of.symmetry",
+        "from": "math.space.symmetry.coordinate_symmetry",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grid_transformations.part_of.coordinate_transformations",
+        "from": "math.space.transformations.grid_transformations",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_translations.part_of.coordinate_transformations",
+        "from": "math.space.transformations.coordinate_translations",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_reflections.part_of.coordinate_transformations",
+        "from": "math.space.transformations.coordinate_reflections_axes",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_rotations.part_of.coordinate_transformations",
+        "from": "math.space.transformations.coordinate_rotations_quarter_turns",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_dilations.part_of.coordinate_transformations",
+        "from": "math.space.transformations.coordinate_dilations",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.transformation_rules.part_of.coordinate_transformations",
+        "from": "math.space.transformations.transformation_rules",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rigid_congruence.part_of.coordinate_transformations",
+        "from": "math.space.transformations.rigid_transformations_congruence",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dilations_similarity.part_of.coordinate_transformations",
+        "from": "math.space.transformations.dilations_similarity",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sequence_coordinate.part_of.coordinate_transformations",
+        "from": "math.space.transformations.sequence_coordinate_transformations",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_translation.part_of.flips",
+        "from": "math.kp.space.translation_preserves_orientation",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_reflection.part_of.flips",
+        "from": "math.kp.space.reflection_uses_mirror_line",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rotation.part_of.flips",
+        "from": "math.kp.space.rotation_uses_centre_angle_direction",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_image_preimage.part_of.flips",
+        "from": "math.kp.space.image_preimage_transformations",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_line_symmetry.part_of.symmetry",
+        "from": "math.kp.space.line_symmetry_maps_to_self",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rot_sym.part_of.symmetry",
+        "from": "math.kp.space.rotational_symmetry_repeats",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rigid.part_of.coordinate_transformations",
+        "from": "math.kp.space.rigid_transformations_preserve_size_shape",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_dilations.part_of.coordinate_transformations",
+        "from": "math.kp.space.dilations_scale_distances",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_coordinates_track.part_of.coordinate_transformations",
+        "from": "math.kp.space.coordinates_track_movement",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_order_matters.part_of.coordinate_transformations",
+        "from": "math.kp.space.transformation_order_matters",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_reflection_translation.part_of.flips",
+        "from": "math.misconception.space.reflection_as_translation",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_rotation_centre.part_of.flips",
+        "from": "math.misconception.space.rotation_wrong_centre",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_translation_size.part_of.flips",
+        "from": "math.misconception.space.translation_changes_size",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_any_centre_line.part_of.symmetry",
+        "from": "math.misconception.space.any_centre_line_symmetry",
+        "to": "math.space.transformations.symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_dilation_addition.part_of.coordinate_transformations",
+        "from": "math.misconception.space.dilation_as_addition",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.encompasses.translations",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.space.transformations.describe_translations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Translations are the formal version of slides in this transformation progression.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.encompasses.reflections",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.space.transformations.describe_reflections",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reflections are the formal version of flips in this transformation progression.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.encompasses.rotations",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.space.transformations.describe_rotations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rotations are the formal version of turns in this transformation progression.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.encompasses.before_after",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.space.transformations.before_after_figures",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Before-and-after comparison supports recognising transformation effects.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.encompasses.image_preimage",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.space.transformations.image_preimage_language",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Image and preimage language supports formal transformation descriptions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.encompasses.compose",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.space.transformations.compose_simple_transformations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Composing simple transformations extends basic transformation actions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.encompasses.line",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.space.symmetry.line_symmetry",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Line symmetry is a central form of symmetry in shapes and designs.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.encompasses.draw_lines",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.space.symmetry.draw_lines_of_symmetry",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Drawing symmetry lines directly practises identifying line symmetry.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.encompasses.reflection_shapes",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.space.symmetry.reflection_symmetry_shapes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Reflection symmetry connects symmetry to a transformation idea.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.encompasses.rotational",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.space.symmetry.rotational_symmetry",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Rotational symmetry is a key extension of symmetry beyond mirror lines.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.encompasses.designs",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.space.symmetry.symmetry_in_designs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Design contexts apply line and rotational symmetry recognition.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.encompasses.coordinate_symmetry",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.space.symmetry.coordinate_symmetry",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Coordinate symmetry extends symmetry into coordinate representations.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.grid",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.grid_transformations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Grid transformations bridge informal transformations and coordinate transformations.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.translations",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.coordinate_translations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Translations are a central coordinate transformation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.reflections",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.coordinate_reflections_axes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reflections over axes are central coordinate transformations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.rotations",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.coordinate_rotations_quarter_turns",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Quarter-turn rotations are common coordinate transformations.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.dilations",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.coordinate_dilations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Dilations extend coordinate transformations to scaling and similarity.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.rules",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.transformation_rules",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Transformation rules describe coordinate changes formally.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.rigid_congruence",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.rigid_transformations_congruence",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Rigid transformations connect coordinate transformation work to congruence.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.dilations_similarity",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.dilations_similarity",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Dilations connect coordinate transformations to similarity.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.encompasses.sequence",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.transformations.sequence_coordinate_transformations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Transformation sequences extend single-coordinate transformation rules.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.describe_translations.requires.position_language",
+        "from": "math.space.transformations.describe_translations",
+        "to": "math.space.location.position_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Translations use direction and distance language from early position work.",
+        "failure_signal": "Learner cannot describe the direction or distance of a slide.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.describe_reflections.requires.shape_orientation",
+        "from": "math.space.transformations.describe_reflections",
+        "to": "math.space.shapes.shape_orientation_invariance",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reflection work requires recognising a figure across changed orientation.",
+        "failure_signal": "Learner treats the reflected figure as unrelated rather than mirrored.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.describe_rotations.requires.angle_turn",
+        "from": "math.space.transformations.describe_rotations",
+        "to": "math.measurement.angles.angle_as_turn",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rotation descriptions use the idea of a turn through an angle around a centre.",
+        "failure_signal": "Learner cannot distinguish a turn from a slide or flip.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.before_after.requires.describe_translations",
+        "from": "math.space.transformations.before_after_figures",
+        "to": "math.space.transformations.describe_translations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Before-and-after transformation comparisons build from recognising simple slides, flips and turns.",
+        "failure_signal": "Learner cannot identify what transformation changed the figure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.image_preimage.requires.before_after",
+        "from": "math.space.transformations.image_preimage_language",
+        "to": "math.space.transformations.before_after_figures",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Image and preimage language formalises before-and-after transformation comparison.",
+        "failure_signal": "Learner cannot identify original and transformed figures.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_transformations.requires.image_preimage",
+        "from": "math.space.transformations.compose_simple_transformations",
+        "to": "math.space.transformations.image_preimage_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Composing transformations requires tracking successive images from a preimage.",
+        "failure_signal": "Learner loses track of the intermediate image in a transformation sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_symmetry.requires.describe_reflections",
+        "from": "math.space.symmetry.line_symmetry",
+        "to": "math.space.transformations.describe_reflections",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Line symmetry is based on a figure matching itself under reflection.",
+        "failure_signal": "Learner identifies visual balance without a valid mirror line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.draw_lines_symmetry.requires.line_symmetry",
+        "from": "math.space.symmetry.draw_lines_of_symmetry",
+        "to": "math.space.symmetry.line_symmetry",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Drawing symmetry lines requires recognising where a figure reflects onto itself.",
+        "failure_signal": "Learner draws lines that do not create matching halves.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reflection_symmetry_shapes.requires.line_symmetry",
+        "from": "math.space.symmetry.reflection_symmetry_shapes",
+        "to": "math.space.symmetry.line_symmetry",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reflection symmetry in shapes builds directly on line-symmetry recognition.",
+        "failure_signal": "Learner cannot connect symmetry to a reflection across a line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rotational_symmetry.requires.rotations",
+        "from": "math.space.symmetry.rotational_symmetry",
+        "to": "math.space.transformations.describe_rotations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rotational symmetry depends on understanding a turn around a centre.",
+        "failure_signal": "Learner only checks mirror lines and misses rotational matches.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry_designs.requires.line_symmetry",
+        "from": "math.space.symmetry.symmetry_in_designs",
+        "to": "math.space.symmetry.line_symmetry",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Symmetry in designs applies line and rotational symmetry recognition in visual contexts.",
+        "failure_signal": "Learner identifies decorative repetition but not the symmetry relationship.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_symmetry.requires.cartesian",
+        "from": "math.space.symmetry.coordinate_symmetry",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Coordinate symmetry requires using axes and coordinate locations.",
+        "failure_signal": "Learner cannot describe symmetry using coordinates or axes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grid_transformations.requires.maps_grids",
+        "from": "math.space.transformations.grid_transformations",
+        "to": "math.space.location.maps_grids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Grid transformations require following locations and movements on grids.",
+        "failure_signal": "Learner cannot track the transformed figure across grid positions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_translations.requires.cartesian",
+        "from": "math.space.transformations.coordinate_translations",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Coordinate translations depend on locating and moving points in the coordinate plane.",
+        "failure_signal": "Learner cannot express a slide as changes in x and y coordinates.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_reflections.requires.coordinate_translations",
+        "from": "math.space.transformations.coordinate_reflections_axes",
+        "to": "math.space.transformations.coordinate_translations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Coordinate reflections build on tracking coordinates before and after transformations.",
+        "failure_signal": "Learner changes both coordinates incorrectly when reflecting over an axis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_rotations.requires.coordinate_reflections",
+        "from": "math.space.transformations.coordinate_rotations_quarter_turns",
+        "to": "math.space.transformations.coordinate_reflections_axes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Coordinate rotations require more complex coordinate-change reasoning than axis reflections.",
+        "failure_signal": "Learner applies a reflection rule when a rotation rule is needed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_dilations.requires.scale_factor",
+        "from": "math.space.transformations.coordinate_dilations",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Coordinate dilations use scale factors and proportional distance changes.",
+        "failure_signal": "Learner adds fixed amounts rather than multiplying by a scale factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rules.requires.coordinate_transformations",
+        "from": "math.space.transformations.transformation_rules",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Transformation rules formalise coordinate transformations as coordinate-change patterns.",
+        "failure_signal": "Learner describes movement visually but cannot express it as a rule.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rigid_congruence.requires.coordinate_reflections",
+        "from": "math.space.transformations.rigid_transformations_congruence",
+        "to": "math.space.transformations.coordinate_reflections_axes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rigid transformation congruence builds from coordinate translations and reflections that preserve size and shape.",
+        "failure_signal": "Learner thinks a moved or reflected figure is no longer congruent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dilations_similarity.requires.coordinate_dilations",
+        "from": "math.space.transformations.dilations_similarity",
+        "to": "math.space.transformations.coordinate_dilations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Similarity through transformations requires understanding dilation as scaling.",
+        "failure_signal": "Learner recognises same shape visually but cannot connect it to a scale factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sequence_coordinate.requires.rules",
+        "from": "math.space.transformations.sequence_coordinate_transformations",
+        "to": "math.space.transformations.transformation_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Transformation sequences require applying coordinate transformation rules in order.",
+        "failure_signal": "Learner applies rules in the wrong order or loses track of intermediate images.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.has_mis.reflection_translation",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.misconception.space.reflection_as_translation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.has_mis.rotation_centre",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.misconception.space.rotation_wrong_centre",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips.has_mis.translation_size",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.misconception.space.translation_changes_size",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.has_mis.any_centre_line",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.misconception.space.any_centre_line_symmetry",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.has_mis.dilation_addition",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.misconception.space.dilation_as_addition",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/transformations_and_symmetry.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 897,
+    "edges": 1796
+  },
+  "graph_counts_after": {
+    "nodes": 933,
+    "edges": 1879
+  }
+}

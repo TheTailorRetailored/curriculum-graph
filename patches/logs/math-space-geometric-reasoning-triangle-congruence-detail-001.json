@@ -1,0 +1,695 @@
+{
+  "patch_id": "math-space-geometric-reasoning-triangle-congruence-detail-001",
+  "applied_at": "2026-05-29T03:54:17.644Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 12,
+      "edges_created": 26,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence.sss_criterion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "SSS congruence criterion",
+        "description": "Use three pairs of equal corresponding sides to justify that two triangles are congruent.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence.sas_criterion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "SAS congruence criterion",
+        "description": "Use two pairs of equal corresponding sides and the included angle to justify triangle congruence.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence.asa_aas_criteria",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "ASA and AAS congruence criteria",
+        "description": "Use two corresponding angle pairs and a corresponding side to justify triangle congruence.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence.rhs_criterion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "RHS congruence criterion",
+        "description": "Use right angle, hypotenuse and one corresponding side to justify congruence of right triangles.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence.cpctc_reasoning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "CPCTC reasoning",
+        "description": "Use established triangle congruence to infer equal corresponding sides or angles.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence.insufficient_ssa_case",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Insufficient SSA information",
+        "description": "Recognise that side-side-angle information is not generally sufficient to prove triangle congruence.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.sss_uses_three_side_pairs",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "SSS uses three side pairs",
+        "description": "SSS congruence requires all three pairs of corresponding sides to be equal.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.sas_requires_included_angle",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "SAS requires included angle",
+        "description": "SAS congruence uses the angle between the two known corresponding side pairs.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.cpctc_after_congruence",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "CPCTC after congruence",
+        "description": "Once triangles are proven congruent, their corresponding sides and angles are equal.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.sas_non_included_angle",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "SAS with non-included angle",
+        "description": "Learner uses two sides and a non-included angle as if it were always valid SAS congruence.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.ssa_assumed_congruence",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "SSA assumed congruent",
+        "description": "Learner assumes side-side-angle information is sufficient to prove triangle congruence in all cases.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.cpctc_before_congruence",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "CPCTC before congruence",
+        "description": "Learner claims corresponding sides or angles are equal before establishing triangle congruence.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sss_criterion.part_of.triangle_congruence",
+        "from": "math.space.reasoning.congruence.sss_criterion",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sas_criterion.part_of.triangle_congruence",
+        "from": "math.space.reasoning.congruence.sas_criterion",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.asa_aas_criteria.part_of.triangle_congruence",
+        "from": "math.space.reasoning.congruence.asa_aas_criteria",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rhs_criterion.part_of.triangle_congruence",
+        "from": "math.space.reasoning.congruence.rhs_criterion",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cpctc_reasoning.part_of.corresponding_parts",
+        "from": "math.space.reasoning.congruence.cpctc_reasoning",
+        "to": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.insufficient_ssa.part_of.triangle_congruence",
+        "from": "math.space.reasoning.congruence.insufficient_ssa_case",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.sss_pairs.part_of.triangle_congruence",
+        "from": "math.kp.space.sss_uses_three_side_pairs",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.sas_included_angle.part_of.triangle_congruence",
+        "from": "math.kp.space.sas_requires_included_angle",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.cpctc_after.part_of.corresponding_parts",
+        "from": "math.kp.space.cpctc_after_congruence",
+        "to": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.sas_nonincluded.part_of.triangle_congruence",
+        "from": "math.misconception.space.sas_non_included_angle",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.ssa_assumed.part_of.triangle_congruence",
+        "from": "math.misconception.space.ssa_assumed_congruence",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.cpctc_before.part_of.corresponding_parts",
+        "from": "math.misconception.space.cpctc_before_congruence",
+        "to": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_congruence.encompasses.sss",
+        "from": "math.space.reasoning.triangle_congruence_criteria",
+        "to": "math.space.reasoning.congruence.sss_criterion",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "SSS is a standard triangle congruence criterion.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_congruence.encompasses.sas",
+        "from": "math.space.reasoning.triangle_congruence_criteria",
+        "to": "math.space.reasoning.congruence.sas_criterion",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "SAS is a standard triangle congruence criterion when the included angle is known.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_congruence.encompasses.asa_aas",
+        "from": "math.space.reasoning.triangle_congruence_criteria",
+        "to": "math.space.reasoning.congruence.asa_aas_criteria",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "ASA and AAS are standard angle-side triangle congruence criteria.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_congruence.encompasses.rhs",
+        "from": "math.space.reasoning.triangle_congruence_criteria",
+        "to": "math.space.reasoning.congruence.rhs_criterion",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "RHS is a standard right-triangle congruence criterion in many curricula.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corresponding_parts.encompasses.cpctc",
+        "from": "math.space.reasoning.corresponding_parts_congruence",
+        "to": "math.space.reasoning.congruence.cpctc_reasoning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Using corresponding parts after proving congruence is central to congruence reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sss.requires.corresponding_parts",
+        "from": "math.space.reasoning.congruence.sss_criterion",
+        "to": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Using SSS requires matching corresponding sides accurately.",
+        "failure_signal": "Learner compares non-corresponding side pairs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sas.requires.corresponding_parts",
+        "from": "math.space.reasoning.congruence.sas_criterion",
+        "to": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Using SAS requires matching two corresponding sides and the included angle.",
+        "failure_signal": "Learner uses a non-included angle or mismatched side pairs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.asa_aas.requires.corresponding_parts",
+        "from": "math.space.reasoning.congruence.asa_aas_criteria",
+        "to": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "ASA and AAS require identifying corresponding angles and a corresponding side.",
+        "failure_signal": "Learner matches angles or side information to the wrong triangle positions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rhs.requires.right_triangles",
+        "from": "math.space.reasoning.congruence.rhs_criterion",
+        "to": "math.space.shapes.right_triangles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "RHS congruence applies to right triangles and uses hypotenuse-side information.",
+        "failure_signal": "Learner applies RHS to non-right triangles or misidentifies the hypotenuse.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cpctc.requires.triangle_congruence",
+        "from": "math.space.reasoning.congruence.cpctc_reasoning",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Corresponding parts can be inferred only after triangle congruence has been established.",
+        "failure_signal": "Learner asserts equal corresponding parts before proving congruence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.insufficient_ssa.requires.sas",
+        "from": "math.space.reasoning.congruence.insufficient_ssa_case",
+        "to": "math.space.reasoning.congruence.sas_criterion",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Understanding why SSA is insufficient depends on distinguishing included from non-included angle information.",
+        "failure_signal": "Learner treats SSA as equivalent to valid SAS information.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_congruence.has_mis.sas_nonincluded",
+        "from": "math.space.reasoning.triangle_congruence_criteria",
+        "to": "math.misconception.space.sas_non_included_angle",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_congruence.has_mis.ssa_assumed",
+        "from": "math.space.reasoning.triangle_congruence_criteria",
+        "to": "math.misconception.space.ssa_assumed_congruence",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corresponding_parts.has_mis.cpctc_before",
+        "from": "math.space.reasoning.corresponding_parts_congruence",
+        "to": "math.misconception.space.cpctc_before_congruence",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/geometric_reasoning.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1546,
+    "edges": 3260
+  },
+  "graph_counts_after": {
+    "nodes": 1558,
+    "edges": 3286
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "patch_id": "math-decimals-divide-decimal-whole-support-v2",
+  "applied_at": "2026-06-07T08:57:30.760Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_decimal_whole.uses_representation.place_value_chart",
+        "from": "math.decimals.divide_decimal_by_whole_number",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts support regrouping and sharing decimal units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_decimal_whole.uses_representation.number_line",
+        "from": "math.decimals.divide_decimal_by_whole_number",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines can show equal decimal intervals in a division context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_decimal_whole.assessed_by.compute",
+        "from": "math.decimals.divide_decimal_by_whole_number",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute decimal quotients with whole-number divisors.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_decimal_whole.assessed_by.model",
+        "from": "math.decimals.divide_decimal_by_whole_number",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can model sharing decimal quantities into equal groups.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_decimal_whole.assessed_by.explain",
+        "from": "math.decimals.divide_decimal_by_whole_number",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain how regrouping decimal units supports division.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2638,
+    "edges": 5554
+  },
+  "graph_counts_after": {
+    "nodes": 2638,
+    "edges": 5559
+  }
+}

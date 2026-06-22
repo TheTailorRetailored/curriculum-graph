@@ -1,0 +1,1405 @@
+{
+  "patch_id": "math-algebra-inequalities-simultaneous-detail-001",
+  "applied_at": "2026-05-30T09:52:23.672Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 26,
+      "edges_created": 52,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.boundary_points_open_closed",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Open and closed boundary points",
+        "description": "Use open and closed boundary points to show whether inequality endpoints are included.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.number_line_shading_direction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Inequality number line shading direction",
+        "description": "Choose the correct direction to shade on a number line for one-variable inequalities.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.write_from_number_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Write inequalities from number lines",
+        "description": "Write an inequality statement from a number-line representation of a solution set.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.add_subtract_solve",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Add subtract solve inequalities",
+        "description": "Solve one-variable inequalities by adding or subtracting the same value on both sides.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.multiply_divide_positive",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Multiply divide positive inequalities",
+        "description": "Solve inequalities by multiplying or dividing both sides by a positive value without changing the inequality direction.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.multiply_divide_negative",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Multiply divide negative inequalities",
+        "description": "Solve inequalities by multiplying or dividing both sides by a negative value and reversing the inequality sign.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.compound_and",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Compound inequalities with and",
+        "description": "Represent and solve compound inequalities where values must satisfy both conditions.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.compound_or",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Compound inequalities with or",
+        "description": "Represent and solve compound inequalities where values may satisfy either condition.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.inequalities.interval_notation_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Interval notation for inequalities",
+        "description": "Represent one-variable inequality solution sets using interval notation.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.simultaneous.check_ordered_pair_solution",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Check an ordered pair in a system",
+        "description": "Substitute an ordered pair into both equations to check whether it solves a simultaneous-equation system.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.simultaneous.substitution_isolate_variable",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Isolate a variable for substitution",
+        "description": "Rearrange one equation in a system to isolate a variable before substituting into the other equation.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.simultaneous.substitution_equation_after_replace",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Substitution equation after replacement",
+        "description": "Form and solve a one-variable equation after replacing one variable using substitution.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.simultaneous.elimination_match_coefficients",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Match coefficients for elimination",
+        "description": "Multiply one or both equations so that one variable has matching or opposite coefficients for elimination.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.simultaneous.elimination_choose_add_or_subtract",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Choose add or subtract for elimination",
+        "description": "Decide whether to add or subtract equations to eliminate a variable in a simultaneous-equation system.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.simultaneous.parallel_lines_no_solution",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Parallel line systems with no solution",
+        "description": "Recognise that two distinct parallel linear graphs have no simultaneous solution.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.simultaneous.same_line_infinite_solutions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Same line systems with infinitely many solutions",
+        "description": "Recognise that equivalent linear equations graph as the same line and have infinitely many common points.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.inequalities.closed_boundary_includes_endpoint",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Closed boundary includes endpoint",
+        "description": "A closed boundary point shows that the endpoint value is included in the solution set.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.inequalities.negative_multiply_reverses_symbol",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Negative multiplication reverses inequality symbol",
+        "description": "Multiplying or dividing both sides of an inequality by a negative value reverses the inequality symbol.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.inequalities.and_means_overlap",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "And means overlap of solution sets",
+        "description": "A compound inequality joined by and keeps values that satisfy both inequalities.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.simultaneous.ordered_pair_must_satisfy_both",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Ordered pair must satisfy both equations",
+        "description": "A solution to a simultaneous-equation system is an ordered pair that makes both equations true.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.simultaneous.parallel_lines_have_no_intersection",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Parallel lines have no intersection",
+        "description": "Distinct parallel lines do not intersect, so their corresponding simultaneous linear equations have no solution.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.inequalities.shade_wrong_direction",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Shade wrong direction on number line",
+        "description": "Learner shades the opposite direction from the solution set on a one-variable inequality number line.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.inequalities.open_closed_boundary_reversed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Open and closed boundary reversed",
+        "description": "Learner uses an open circle for included endpoints or a closed circle for excluded endpoints.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.inequalities.and_or_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "And or confusion in compound inequalities",
+        "description": "Learner treats and and or compound inequalities as interchangeable solution-set operations.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.simultaneous.intersection_as_y_value_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Intersection read as y value only",
+        "description": "Learner reports only the y-value or x-value of a graph intersection instead of the ordered-pair solution.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.simultaneous.eliminate_nonmatching_coefficients",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Eliminate nonmatching coefficients",
+        "description": "Learner adds or subtracts equations expecting a variable to cancel even though its coefficients do not match or oppose.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.boundary_points.part_of.graph_inequalities",
+        "from": "math.algebra.inequalities.boundary_points_open_closed",
+        "to": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shading_direction.part_of.graph_inequalities",
+        "from": "math.algebra.inequalities.number_line_shading_direction",
+        "to": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_from_number_line.part_of.graph_inequalities",
+        "from": "math.algebra.inequalities.write_from_number_line",
+        "to": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_subtract_inequalities.part_of.solve_inequalities",
+        "from": "math.algebra.inequalities.add_subtract_solve",
+        "to": "math.algebra.inequalities.solve_linear_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.positive_mult_inequalities.part_of.solve_inequalities",
+        "from": "math.algebra.inequalities.multiply_divide_positive",
+        "to": "math.algebra.inequalities.solve_linear_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_mult_inequalities.part_of.reverse_negative",
+        "from": "math.algebra.inequalities.multiply_divide_negative",
+        "to": "math.algebra.inequalities.reverse_sign_negative_multiplier",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound_and.part_of.inequalities",
+        "from": "math.algebra.inequalities.compound_and",
+        "to": "math.algebra.equations.inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound_or.part_of.inequalities",
+        "from": "math.algebra.inequalities.compound_or",
+        "to": "math.algebra.equations.inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_notation.part_of.symbols_solution_sets",
+        "from": "math.algebra.inequalities.interval_notation_intro",
+        "to": "math.algebra.inequalities.symbols_and_solution_sets",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_ordered_pair.part_of.simultaneous",
+        "from": "math.algebra.simultaneous.check_ordered_pair_solution",
+        "to": "math.algebra.equations.simultaneous_linear_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_isolate.part_of.substitution_method",
+        "from": "math.algebra.simultaneous.substitution_isolate_variable",
+        "to": "math.algebra.equations.simultaneous_substitution_method",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_after_replace.part_of.substitution_method",
+        "from": "math.algebra.simultaneous.substitution_equation_after_replace",
+        "to": "math.algebra.equations.simultaneous_substitution_method",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elimination_match_coefficients.part_of.elimination_method",
+        "from": "math.algebra.simultaneous.elimination_match_coefficients",
+        "to": "math.algebra.equations.simultaneous_elimination_method",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elimination_choose_add_subtract.part_of.elimination_method",
+        "from": "math.algebra.simultaneous.elimination_choose_add_or_subtract",
+        "to": "math.algebra.equations.simultaneous_elimination_method",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_no_solution.part_of.graphical_method",
+        "from": "math.algebra.simultaneous.parallel_lines_no_solution",
+        "to": "math.algebra.equations.simultaneous_graphical_method",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_line_infinite.part_of.graphical_method",
+        "from": "math.algebra.simultaneous.same_line_infinite_solutions",
+        "to": "math.algebra.equations.simultaneous_graphical_method",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.closed_boundary.part_of.boundary_points",
+        "from": "math.kp.inequalities.closed_boundary_includes_endpoint",
+        "to": "math.algebra.inequalities.boundary_points_open_closed",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.negative_reverse.part_of.negative_mult",
+        "from": "math.kp.inequalities.negative_multiply_reverses_symbol",
+        "to": "math.algebra.inequalities.multiply_divide_negative",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.and_overlap.part_of.compound_and",
+        "from": "math.kp.inequalities.and_means_overlap",
+        "to": "math.algebra.inequalities.compound_and",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.ordered_pair_satisfies_both.part_of.check_system",
+        "from": "math.kp.simultaneous.ordered_pair_must_satisfy_both",
+        "to": "math.algebra.simultaneous.check_ordered_pair_solution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.parallel_no_intersection.part_of.parallel_no_solution",
+        "from": "math.kp.simultaneous.parallel_lines_have_no_intersection",
+        "to": "math.algebra.simultaneous.parallel_lines_no_solution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.shade_wrong_direction.part_of.graph_inequalities",
+        "from": "math.misconception.inequalities.shade_wrong_direction",
+        "to": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.open_closed_reversed.part_of.boundary",
+        "from": "math.misconception.inequalities.open_closed_boundary_reversed",
+        "to": "math.algebra.inequalities.boundary_points_open_closed",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.and_or_confusion.part_of.compound",
+        "from": "math.misconception.inequalities.and_or_confusion",
+        "to": "math.algebra.equations.inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.intersection_y_only.part_of.graphical_systems",
+        "from": "math.misconception.simultaneous.intersection_as_y_value_only",
+        "to": "math.algebra.equations.simultaneous_graphical_method",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.eliminate_nonmatching.part_of.elimination",
+        "from": "math.misconception.simultaneous.eliminate_nonmatching_coefficients",
+        "to": "math.algebra.equations.simultaneous_elimination_method",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_inequalities.encompasses.boundary_points",
+        "from": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "to": "math.algebra.inequalities.boundary_points_open_closed",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Boundary points are central to graphing one-variable inequalities.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_inequalities.encompasses.add_subtract",
+        "from": "math.algebra.inequalities.solve_linear_inequalities",
+        "to": "math.algebra.inequalities.add_subtract_solve",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Adding and subtracting both sides is a core inequality-solving case.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inequalities.encompasses.compound_and",
+        "from": "math.algebra.equations.inequalities",
+        "to": "math.algebra.inequalities.compound_and",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Compound inequalities extend one-variable inequality solution-set reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_method.encompasses.isolate_variable",
+        "from": "math.algebra.equations.simultaneous_substitution_method",
+        "to": "math.algebra.simultaneous.substitution_isolate_variable",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Isolating a variable is a core step in the substitution method.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elimination_method.encompasses.match_coefficients",
+        "from": "math.algebra.equations.simultaneous_elimination_method",
+        "to": "math.algebra.simultaneous.elimination_match_coefficients",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Matching coefficients is a core step in the elimination method.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.boundary_points.requires.symbols_solution_sets",
+        "from": "math.algebra.inequalities.boundary_points_open_closed",
+        "to": "math.algebra.inequalities.symbols_and_solution_sets",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting boundary inclusion depends on understanding inequality symbols and solution sets.",
+        "failure_signal": "Learner cannot decide whether an endpoint is included.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shading_direction.requires.boundary_points",
+        "from": "math.algebra.inequalities.number_line_shading_direction",
+        "to": "math.algebra.inequalities.boundary_points_open_closed",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Shading direction is meaningful after the boundary value and inclusion are identified.",
+        "failure_signal": "Learner marks the endpoint but shades the wrong values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_number_line.requires.graph_inequalities",
+        "from": "math.algebra.inequalities.write_from_number_line",
+        "to": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Writing an inequality from a number line requires reading the representation accurately.",
+        "failure_signal": "Learner reverses the inequality symbol or endpoint inclusion.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_subtract_ineq.requires.symbols",
+        "from": "math.algebra.inequalities.add_subtract_solve",
+        "to": "math.algebra.inequalities.symbols_and_solution_sets",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Solving inequalities begins with interpreting inequality symbols and solution sets.",
+        "failure_signal": "Learner treats the result like a single equation solution only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.positive_mult_ineq.requires.add_subtract",
+        "from": "math.algebra.inequalities.multiply_divide_positive",
+        "to": "math.algebra.inequalities.add_subtract_solve",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Positive multiplication and division build on preserving inequality solution sets under equivalent operations.",
+        "failure_signal": "Learner changes the inequality direction unnecessarily.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_mult_ineq.requires.positive_mult",
+        "from": "math.algebra.inequalities.multiply_divide_negative",
+        "to": "math.algebra.inequalities.multiply_divide_positive",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Negative multiplier cases add the sign-reversal rule after positive scaling cases.",
+        "failure_signal": "Learner does not reverse the inequality symbol after dividing by a negative number.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound_and.requires.graph_inequalities",
+        "from": "math.algebra.inequalities.compound_and",
+        "to": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Compound inequality reasoning depends on representing individual solution sets on a number line.",
+        "failure_signal": "Learner does not identify the overlap of two solution sets.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compound_or.requires.graph_inequalities",
+        "from": "math.algebra.inequalities.compound_or",
+        "to": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Compound or inequalities require representing individual solution sets before forming a union.",
+        "failure_signal": "Learner treats union and overlap as the same operation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_notation.requires.compound_ineq",
+        "from": "math.algebra.inequalities.interval_notation_intro",
+        "to": "math.algebra.inequalities.compound_and",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interval notation represents ranges of values often introduced after compound number-line solution sets.",
+        "failure_signal": "Learner writes endpoint symbols without connecting them to included or excluded values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_pair.requires.simultaneous",
+        "from": "math.algebra.simultaneous.check_ordered_pair_solution",
+        "to": "math.algebra.equations.simultaneous_linear_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking an ordered pair builds on understanding a simultaneous system as two equations sharing variables.",
+        "failure_signal": "Learner checks the pair in only one equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_isolate.requires.check_pair",
+        "from": "math.algebra.simultaneous.substitution_isolate_variable",
+        "to": "math.algebra.simultaneous.check_ordered_pair_solution",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Substitution starts from understanding that one ordered pair must satisfy both equations.",
+        "failure_signal": "Learner substitutes into the same equation instead of the other equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_replace.requires.isolate",
+        "from": "math.algebra.simultaneous.substitution_equation_after_replace",
+        "to": "math.algebra.simultaneous.substitution_isolate_variable",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "After isolating a variable, substitution creates a one-variable equation in the other equation.",
+        "failure_signal": "Learner replaces the wrong variable expression or keeps two variables.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elimination_match.requires.simultaneous",
+        "from": "math.algebra.simultaneous.elimination_match_coefficients",
+        "to": "math.algebra.equations.simultaneous_linear_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Matching coefficients is used after recognising a pair of equations as a system.",
+        "failure_signal": "Learner tries to eliminate terms without comparing coefficients.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elimination_add_subtract.requires.match_coefficients",
+        "from": "math.algebra.simultaneous.elimination_choose_add_or_subtract",
+        "to": "math.algebra.simultaneous.elimination_match_coefficients",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing add or subtract depends on whether coefficients are matched or opposite.",
+        "failure_signal": "Learner adds when subtraction is needed or vice versa.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_no_solution.requires.graphical_method",
+        "from": "math.algebra.simultaneous.parallel_lines_no_solution",
+        "to": "math.algebra.equations.simultaneous_graphical_method",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising no solution graphically requires understanding intersections as solutions.",
+        "failure_signal": "Learner invents a solution for distinct parallel lines.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_line_infinite.requires.graphical_method",
+        "from": "math.algebra.simultaneous.same_line_infinite_solutions",
+        "to": "math.algebra.equations.simultaneous_graphical_method",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising infinite solutions graphically requires understanding coincident lines.",
+        "failure_signal": "Learner reports only one visible point from the same line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_inequalities.has_mis.shade_wrong_direction",
+        "from": "math.algebra.inequalities.graph_one_variable_inequalities",
+        "to": "math.misconception.inequalities.shade_wrong_direction",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.boundary_points.has_mis.open_closed_reversed",
+        "from": "math.algebra.inequalities.boundary_points_open_closed",
+        "to": "math.misconception.inequalities.open_closed_boundary_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inequalities.has_mis.and_or_confusion",
+        "from": "math.algebra.equations.inequalities",
+        "to": "math.misconception.inequalities.and_or_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graphical_systems.has_mis.intersection_y_only",
+        "from": "math.algebra.equations.simultaneous_graphical_method",
+        "to": "math.misconception.simultaneous.intersection_as_y_value_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elimination.has_mis.nonmatching_coefficients",
+        "from": "math.algebra.equations.simultaneous_elimination_method",
+        "to": "math.misconception.simultaneous.eliminate_nonmatching_coefficients",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1699,
+    "edges": 3577
+  },
+  "graph_counts_after": {
+    "nodes": 1725,
+    "edges": 3629
+  }
+}

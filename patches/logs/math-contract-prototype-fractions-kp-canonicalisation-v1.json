@@ -1,0 +1,109 @@
+{
+  "patch_id": "math-contract-prototype-fractions-kp-canonicalisation-v1",
+  "applied_at": "2026-06-05T18:34:18.133Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.topic.add_fractions_unlike_denominators",
+      "updates": {
+        "status": "merged",
+        "merged_into": "math.fractions.unlike_denominator_fraction_addition",
+        "metadata": {
+          "created_by": "system",
+          "review_status": "needs_revision",
+          "confidence": "medium",
+          "compliance_note": "Duplicate draft topic merged into canonical active lesson topic under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.recognise_unlike_denominators.part_of.unlike_denominator_fraction_addition",
+        "from": "math.kp.recognise_unlike_denominators",
+        "to": "math.fractions.unlike_denominator_fraction_addition",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Knowledge points are canonical standalone nodes linked to their parent lesson topic by part_of under contract v0.2.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.find_common_denominator.part_of.unlike_denominator_fraction_addition",
+        "from": "math.kp.find_common_denominator",
+        "to": "math.fractions.unlike_denominator_fraction_addition",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Knowledge points are canonical standalone nodes linked to their parent lesson topic by part_of under contract v0.2.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.rewrite_fractions_with_common_denominator.part_of.unlike_denominator_fraction_addition",
+        "from": "math.kp.rewrite_fractions_with_common_denominator",
+        "to": "math.fractions.unlike_denominator_fraction_addition",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Knowledge points are canonical standalone nodes linked to their parent lesson topic by part_of under contract v0.2.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.add_numerators_after_matching_denominators.part_of.unlike_denominator_fraction_addition",
+        "from": "math.kp.add_numerators_after_matching_denominators",
+        "to": "math.fractions.unlike_denominator_fraction_addition",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Knowledge points are canonical standalone nodes linked to their parent lesson topic by part_of under contract v0.2.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2510,
+    "edges": 5229
+  },
+  "graph_counts_after": {
+    "nodes": 2510,
+    "edges": 5233
+  }
+}

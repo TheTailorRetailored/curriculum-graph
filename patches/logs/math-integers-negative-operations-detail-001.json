@@ -1,0 +1,1785 @@
+{
+  "patch_id": "math-integers-negative-operations-detail-001",
+  "applied_at": "2026-05-25T11:20:26.455Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.kp.integers.division_inverse_of_multiplication"
+      },
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.misconception.integers.subtract_negative_makes_smaller"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 68,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.integer_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Integer contexts",
+        "description": "Interpret positive and negative numbers in contexts such as temperature, elevation, debt and scores.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.positive_negative_zero",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Positive negative and zero",
+        "description": "Distinguish positive numbers, negative numbers and zero as signed numbers on opposite sides of zero.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.integers_on_number_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Integers on number line",
+        "description": "Locate positive and negative integers on a number line relative to zero.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.compare_order_integers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Compare and order integers",
+        "description": "Compare and order integers using sign, magnitude and number-line position.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.opposite_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Opposite numbers",
+        "description": "Interpret numbers such as 5 and -5 as opposites the same distance from zero in opposite directions.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.absolute_value_distance",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Absolute value as distance",
+        "description": "Interpret absolute value as distance from zero regardless of direction.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.integer_inequalities",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Integer inequalities",
+        "description": "Use inequality symbols to compare positive and negative integers.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.zero_pairs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Zero pairs",
+        "description": "Represent pairs of opposite integers whose sum is zero.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.add_integers_number_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Add integers on number line",
+        "description": "Add integers by representing movement and direction on a number line.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.add_integers_with_counters",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Add integers with counters",
+        "description": "Add integers using positive and negative counters and zero pairs.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.subtract_as_adding_opposite",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Subtract integers as adding opposite",
+        "description": "Subtract integers by adding the opposite integer and interpreting direction change.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.multiply_integers_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Multiply integers using patterns",
+        "description": "Use repeated addition, patterns and sign reasoning to multiply integers.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.divide_integers_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Divide integers using patterns",
+        "description": "Use inverse relationships, patterns and sign reasoning to divide integers.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.integer_operation_properties",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Integer operation properties",
+        "description": "Apply commutative, associative, inverse and identity properties to integer operations where appropriate.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.order_of_operations_with_integers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Order of operations with integers",
+        "description": "Evaluate expressions involving integer operations and conventional operation order.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.integers.integer_word_problems",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Integer word problems",
+        "description": "Solve contextual problems involving negative numbers and integer operations.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.negative_numbers_extend_number_line",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Negative numbers extend number line",
+        "description": "Negative numbers extend the number line to the left of or below zero.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.zero_is_reference_point",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Zero is reference point",
+        "description": "Zero separates positive and negative directions and often represents a reference value.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.greater_is_right_on_number_line",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Greater integers are right on number line",
+        "description": "On a horizontal number line, greater integers are located further to the right.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.opposites_sum_to_zero",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Opposites sum to zero",
+        "description": "An integer and its opposite have a sum of zero.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.absolute_value_is_distance",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Absolute value is distance",
+        "description": "Absolute value describes distance from zero and is never negative.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.addition_combines_signed_movements",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Addition combines signed movements",
+        "description": "Adding integers combines movements or quantities with direction and magnitude.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.subtraction_adds_opposite",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Subtraction adds opposite",
+        "description": "Subtracting an integer is equivalent to adding its opposite.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.product_sign_depends_on_factors",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Product sign depends on factor signs",
+        "description": "The sign of a product depends on whether the integer factors have like or unlike signs.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.division_inverse_of_multiplication",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Integer division is inverse multiplication",
+        "description": "Integer division can be reasoned about using related integer multiplication facts.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.integers.operation_order_applies_to_integers",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Operation order applies to integers",
+        "description": "The conventional order of operations applies to expressions containing negative integers.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.integers.negative_means_smaller_magnitude",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Negative means smaller magnitude",
+        "description": "Learner assumes a negative number always has smaller magnitude because it is less than zero.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.integers.farther_left_is_greater",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Farther left is greater",
+        "description": "Learner applies whole-number magnitude reasoning and thinks numbers farther left on the number line are greater.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.integers.absolute_value_keeps_negative_sign",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Absolute value keeps negative sign",
+        "description": "Learner treats absolute value bars as having no effect on a negative sign.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.integers.subtract_negative_makes_smaller",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Subtracting negative makes smaller",
+        "description": "Learner assumes subtracting any number must make the result smaller, including when subtracting a negative.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.integers.negative_times_negative_negative",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Negative times negative is negative",
+        "description": "Learner assumes multiplying two negative numbers gives a negative result because both factors are negative.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_contexts.part_of.negative_numbers",
+        "from": "math.integers.integer_contexts",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.positive_negative_zero.part_of.negative_numbers",
+        "from": "math.integers.positive_negative_zero",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integers_number_line.part_of.negative_numbers",
+        "from": "math.integers.integers_on_number_line",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_integers.part_of.negative_numbers",
+        "from": "math.integers.compare_order_integers",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.opposite_numbers.part_of.negative_numbers",
+        "from": "math.integers.opposite_numbers",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.absolute_value.part_of.negative_numbers",
+        "from": "math.integers.absolute_value_distance",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_inequalities.part_of.negative_numbers",
+        "from": "math.integers.integer_inequalities",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.zero_pairs.part_of.integer_operations",
+        "from": "math.integers.zero_pairs",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_integers_line.part_of.integer_operations",
+        "from": "math.integers.add_integers_number_line",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_integers_counters.part_of.integer_operations",
+        "from": "math.integers.add_integers_with_counters",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_add_opposite.part_of.integer_operations",
+        "from": "math.integers.subtract_as_adding_opposite",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_integers_patterns.part_of.integer_operations",
+        "from": "math.integers.multiply_integers_patterns",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_integers_patterns.part_of.integer_operations",
+        "from": "math.integers.divide_integers_patterns",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operation_properties.part_of.integer_operations",
+        "from": "math.integers.integer_operation_properties",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_order_operations.part_of.integer_operations",
+        "from": "math.integers.order_of_operations_with_integers",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_word_problems.part_of.integer_operations",
+        "from": "math.integers.integer_word_problems",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_negative_extends_line.part_of.negative_numbers",
+        "from": "math.kp.integers.negative_numbers_extend_number_line",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_zero_reference.part_of.negative_numbers",
+        "from": "math.kp.integers.zero_is_reference_point",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_greater_right.part_of.negative_numbers",
+        "from": "math.kp.integers.greater_is_right_on_number_line",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_opposites_sum_zero.part_of.integer_operations",
+        "from": "math.kp.integers.opposites_sum_to_zero",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_absolute_value_distance.part_of.negative_numbers",
+        "from": "math.kp.integers.absolute_value_is_distance",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_add_signed_movements.part_of.integer_operations",
+        "from": "math.kp.integers.addition_combines_signed_movements",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_subtraction_adds_opposite.part_of.integer_operations",
+        "from": "math.kp.integers.subtraction_adds_opposite",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_product_sign.part_of.integer_operations",
+        "from": "math.kp.integers.product_sign_depends_on_factors",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_division_inverse_mult.part_of.integer_operations",
+        "from": "math.kp.integers.division_inverse_of_multiplication",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_order_applies_integers.part_of.integer_operations",
+        "from": "math.kp.integers.operation_order_applies_to_integers",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_negative_magnitude.part_of.negative_numbers",
+        "from": "math.misconception.integers.negative_means_smaller_magnitude",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_farther_left_greater.part_of.negative_numbers",
+        "from": "math.misconception.integers.farther_left_is_greater",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_abs_keeps_negative.part_of.negative_numbers",
+        "from": "math.misconception.integers.absolute_value_keeps_negative_sign",
+        "to": "math.number.integers.negative_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_subtract_negative_smaller.part_of.integer_operations",
+        "from": "math.misconception.integers.subtract_negative_makes_smaller",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_neg_times_neg.part_of.integer_operations",
+        "from": "math.misconception.integers.negative_times_negative_negative",
+        "to": "math.number.integers.integer_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.encompasses.contexts",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.integers.integer_contexts",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Negative-number work commonly begins with contexts such as temperature, debt and elevation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.encompasses.sign_zero",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.integers.positive_negative_zero",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distinguishing positive, negative and zero is central to negative numbers.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.encompasses.number_line",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.integers.integers_on_number_line",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Number lines are a core representation for negative numbers.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.encompasses.compare_order",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.integers.compare_order_integers",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing and ordering are core negative-number skills.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.encompasses.opposites",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.integers.opposite_numbers",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Opposite numbers clarify sign and distance from zero.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.encompasses.absolute_value",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.integers.absolute_value_distance",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Absolute value extends integer magnitude reasoning as distance from zero.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.encompasses.inequalities",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.integers.integer_inequalities",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Integer inequalities practise comparison of positive and negative integers.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.zero_pairs",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.zero_pairs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Zero pairs support concrete reasoning about signed addition and subtraction.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.add_number_line",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.add_integers_number_line",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Adding integers on number lines is a core integer-operation representation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.add_counters",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.add_integers_with_counters",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Integer counters directly practise signed quantities and zero pairs.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.subtract_opposite",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.subtract_as_adding_opposite",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Subtracting as adding the opposite is central to integer subtraction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.multiply_patterns",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.multiply_integers_patterns",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sign patterns support multiplication of integers.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.divide_patterns",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.divide_integers_patterns",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Division of integers uses inverse multiplication and sign patterns.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.properties",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.integer_operation_properties",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Properties of operations help structure integer calculations.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.order_ops",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.order_of_operations_with_integers",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Order-of-operations practice with negative values is a common integer-operation extension.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.encompasses.word_problems",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.integers.integer_word_problems",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Integer word problems apply signed-number operations in contexts.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_contexts.requires.comparing_quantities",
+        "from": "math.integers.integer_contexts",
+        "to": "math.number.counting.comparing_quantities",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Integer contexts involve comparing quantities relative to a reference value such as zero.",
+        "failure_signal": "Learner cannot interpret above/below or gain/loss language as quantities relative to a reference.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.positive_negative_zero.requires.contexts",
+        "from": "math.integers.positive_negative_zero",
+        "to": "math.integers.integer_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Positive, negative and zero are meaningful when tied to contextual reference points.",
+        "failure_signal": "Learner treats the sign as decorative rather than indicating direction from zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_number_line.requires.sign_zero",
+        "from": "math.integers.integers_on_number_line",
+        "to": "math.integers.positive_negative_zero",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Locating integers on a number line requires distinguishing positive, negative and zero.",
+        "failure_signal": "Learner places negative numbers on the positive side of zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_integers.requires.number_line",
+        "from": "math.integers.compare_order_integers",
+        "to": "math.integers.integers_on_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Integer comparison depends on understanding order and position on the number line.",
+        "failure_signal": "Learner thinks -8 is greater than -3 because 8 is greater than 3.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.opposites.requires.number_line",
+        "from": "math.integers.opposite_numbers",
+        "to": "math.integers.integers_on_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Opposite numbers are represented as equal distances from zero in opposite directions.",
+        "failure_signal": "Learner cannot identify -5 as the opposite of 5 or locate it symmetrically.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.absolute_value.requires.opposites",
+        "from": "math.integers.absolute_value_distance",
+        "to": "math.integers.opposite_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Absolute value relies on distance from zero, which is clarified by opposite integers.",
+        "failure_signal": "Learner says |−4| is −4 instead of distance 4 from zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_inequalities.requires.compare_order",
+        "from": "math.integers.integer_inequalities",
+        "to": "math.integers.compare_order_integers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Integer inequalities require comparing and ordering integers accurately.",
+        "failure_signal": "Learner reverses inequality meaning when comparing negative integers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.zero_pairs.requires.opposites",
+        "from": "math.integers.zero_pairs",
+        "to": "math.integers.opposite_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Zero pairs pair an integer with its opposite to make zero.",
+        "failure_signal": "Learner cannot explain why +3 and −3 cancel to zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_integers_line.requires.integer_number_line",
+        "from": "math.integers.add_integers_number_line",
+        "to": "math.integers.integers_on_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Adding integers on a number line requires locating integers and moving by signed amounts.",
+        "failure_signal": "Learner cannot interpret negative addends as movement left or downward.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_integers_counters.requires.zero_pairs",
+        "from": "math.integers.add_integers_with_counters",
+        "to": "math.integers.zero_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Counter models for integer addition use zero pairs to simplify signed quantities.",
+        "failure_signal": "Learner combines positive and negative counters without cancelling zero pairs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_opposite.requires.add_line",
+        "from": "math.integers.subtract_as_adding_opposite",
+        "to": "math.integers.add_integers_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Subtracting integers as adding opposites builds on signed addition and direction on the number line.",
+        "failure_signal": "Learner treats subtraction as always moving left, including when subtracting a negative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_integers.requires.repeated_addition",
+        "from": "math.integers.multiply_integers_patterns",
+        "to": "math.number.operations.repeated_addition_multiplication",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Integer multiplication patterns extend whole-number multiplication and repeated signed changes.",
+        "failure_signal": "Learner memorises sign rules without connecting them to patterns or structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_integers.requires.multiply_patterns",
+        "from": "math.integers.divide_integers_patterns",
+        "to": "math.integers.multiply_integers_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Integer division uses inverse relationships from integer multiplication.",
+        "failure_signal": "Learner cannot determine quotient sign from related multiplication facts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_properties.requires.integer_addition",
+        "from": "math.integers.integer_operation_properties",
+        "to": "math.integers.add_integers_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Operation properties with integers build from understanding integer addition and signed quantities.",
+        "failure_signal": "Learner incorrectly applies properties such as commutativity to subtraction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_order_ops.requires.order_ops",
+        "from": "math.integers.order_of_operations_with_integers",
+        "to": "math.number.operations.evaluate_multi_step_expressions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Order of operations with integers extends multi-step expression evaluation to signed values.",
+        "failure_signal": "Learner treats a negative sign as an operation without preserving expression structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_word_problems.requires.subtract_opposite",
+        "from": "math.integers.integer_word_problems",
+        "to": "math.integers.subtract_as_adding_opposite",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Many integer word problems require interpreting signed addition and subtraction in context.",
+        "failure_signal": "Learner cannot choose an operation or direction for gains, losses, rises and falls.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.has_mis.negative_magnitude",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.misconception.integers.negative_means_smaller_magnitude",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.has_mis.left_greater",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.misconception.integers.farther_left_is_greater",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.has_mis.abs_keeps_negative",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.misconception.integers.absolute_value_keeps_negative_sign",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.has_mis.subtract_negative_smaller",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.misconception.integers.subtract_negative_makes_smaller",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.has_mis.neg_times_neg",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.misconception.integers.negative_times_negative_negative",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/integers.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 511,
+    "edges": 913
+  },
+  "graph_counts_after": {
+    "nodes": 542,
+    "edges": 981
+  }
+}

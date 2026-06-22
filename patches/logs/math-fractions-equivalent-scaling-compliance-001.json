@@ -1,0 +1,241 @@
+{
+  "patch_id": "math-fractions-equivalent-scaling-compliance-001",
+  "applied_at": "2026-06-05T20:01:42.255Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 3,
+      "edges_created": 8,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.equivalent_fractions",
+      "updates": {
+        "grain_size": "lesson_sequence",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_note": "Reclassified as a lesson sequence because it encompasses area-model, number-line, scaling, and simplifying lessons."
+        }
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_scale_num_den.part_of.equivalent",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "deprecated_reason": "KP reparented to the specific equivalent-fraction scaling lesson under the canonical KP model."
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_scale_num_den.part_of.equivalent_scaling",
+        "from": "math.kp.fractions.scale_numerator_denominator",
+        "to": "math.fractions.equivalent_fraction_scaling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.nonzero_scale_factor",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Scale factor must be nonzero",
+        "description": "Equivalent-fraction scaling uses the same nonzero factor on numerator and denominator so the represented quantity is preserved.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [
+          "F-10 core"
+        ],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nonzero_scale_factor.part_of.equivalent_scaling",
+        "from": "math.kp.fractions.nonzero_scale_factor",
+        "to": "math.fractions.equivalent_fraction_scaling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.common_factor_identifies_equivalence",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Common factor identifies equivalence",
+        "description": "Two fractions can be recognised as equivalent when the numerator and denominator have both been scaled by the same factor.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [
+          "F-10 core"
+        ],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_common_factor_identifies_equivalence.part_of.equivalent_scaling",
+        "from": "math.kp.fractions.common_factor_identifies_equivalence",
+        "to": "math.fractions.equivalent_fraction_scaling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.inverse_scaling_preserves_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Inverse scaling preserves fraction value",
+        "description": "Dividing numerator and denominator by the same common factor creates an equivalent fraction with the same value.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [
+          "F-10 core"
+        ],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_inverse_scaling_preserves_value.part_of.equivalent_scaling",
+        "from": "math.kp.fractions.inverse_scaling_preserves_value",
+        "to": "math.fractions.equivalent_fraction_scaling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_scaling.uses_representation.area_model",
+        "from": "math.fractions.equivalent_fraction_scaling",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "rationale": "Area models show that repartitioning and scaling can preserve the same whole quantity."
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_scaling.uses_representation.number_line",
+        "from": "math.fractions.equivalent_fraction_scaling",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "rationale": "Number lines show equivalent fractions occupying the same point."
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_scaling.assessed_by.compute",
+        "from": "math.fractions.equivalent_fraction_scaling",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_scaling.assessed_by.explain",
+        "from": "math.fractions.equivalent_fraction_scaling",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2521,
+    "edges": 5243
+  },
+  "graph_counts_after": {
+    "nodes": 2524,
+    "edges": 5251
+  }
+}

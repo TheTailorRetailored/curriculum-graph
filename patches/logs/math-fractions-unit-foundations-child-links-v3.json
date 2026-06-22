@@ -1,0 +1,439 @@
+{
+  "patch_id": "math-fractions-unit-foundations-child-links-v3",
+  "applied_at": "2026-06-06T06:44:42.487Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 7,
+      "edges_created": 16,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.equal_parts_must_be_same_size",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.equal_parts_of_whole",
+        "label": "Equal parts must be the same size",
+        "description": "A whole is partitioned into fractional parts only when the parts are equal-sized.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.equal_parts_cover_the_whole",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.equal_parts_of_whole",
+        "label": "Equal parts cover the whole",
+        "description": "The equal parts used to name a fraction refer to the whole being partitioned, not to unrelated pieces.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.collection_parts_are_equal_groups",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.equal_parts_of_collection",
+        "label": "Collection parts are equal groups",
+        "description": "A unit fraction of a collection means one equal group out of all the equal groups in the collection.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.unit_fraction_of_collection_is_one_group",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.equal_parts_of_collection",
+        "label": "Unit fraction of a collection is one group",
+        "description": "For a collection split into equal groups, 1/n names one of those equal groups.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.unit_fraction_area_model_one_shaded_part",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fraction_area_models",
+        "label": "Unit fraction area model has one shaded part",
+        "description": "In a unit-fraction area model, one equal part is selected or shaded out of all equal parts.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.area_model_denominator_counts_equal_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fraction_area_models",
+        "label": "Area-model denominator counts equal parts",
+        "description": "In an area model, the denominator names how many equal parts the whole is split into.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.area_model_whole_is_reference",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fraction_area_models",
+        "label": "Area-model whole is the reference",
+        "description": "Fraction names in an area model depend on which whole the equal parts come from.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equal_parts_same_size.part_of.equal_parts_whole",
+        "from": "math.kp.fractions.equal_parts_must_be_same_size",
+        "to": "math.fractions.equal_parts_of_whole",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equal_parts_cover_whole.part_of.equal_parts_whole",
+        "from": "math.kp.fractions.equal_parts_cover_the_whole",
+        "to": "math.fractions.equal_parts_of_whole",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_collection_parts_equal_groups.part_of.equal_parts_collection",
+        "from": "math.kp.fractions.collection_parts_are_equal_groups",
+        "to": "math.fractions.equal_parts_of_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_unit_fraction_collection_one_group.part_of.equal_parts_collection",
+        "from": "math.kp.fractions.unit_fraction_of_collection_is_one_group",
+        "to": "math.fractions.equal_parts_of_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_unit_area_one_shaded_part.part_of.unit_area_models",
+        "from": "math.kp.fractions.unit_fraction_area_model_one_shaded_part",
+        "to": "math.fractions.unit_fraction_area_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_area_denominator_counts_parts.part_of.unit_area_models",
+        "from": "math.kp.fractions.area_model_denominator_counts_equal_parts",
+        "to": "math.fractions.unit_fraction_area_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_area_whole_reference.part_of.unit_area_models",
+        "from": "math.kp.fractions.area_model_whole_is_reference",
+        "to": "math.fractions.unit_fraction_area_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_whole.uses_representation.area_model",
+        "from": "math.fractions.equal_parts_of_whole",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models show a whole partitioned into equal parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_whole.assessed_by.model",
+        "from": "math.fractions.equal_parts_of_whole",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model equal partitions of a whole.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_whole.assessed_by.explain",
+        "from": "math.fractions.equal_parts_of_whole",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners explain why unequal parts do not name standard fractions of a whole.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_whole.has_mis.unequal_parts",
+        "from": "math.fractions.equal_parts_of_whole",
+        "to": "math.misconception.fractions.unequal_parts_are_fractions",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "This misconception directly targets the equal-parts condition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_collection.uses_representation.bar_model",
+        "from": "math.fractions.equal_parts_of_collection",
+        "to": "math.representation.bar_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Bar models can show a collection divided into equal groups.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_collection.assessed_by.model",
+        "from": "math.fractions.equal_parts_of_collection",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model one equal group of a collection.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_area_models.uses_representation.area_model",
+        "from": "math.fractions.unit_fraction_area_models",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "The lesson is explicitly about using area models for unit fractions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_area_models.assessed_by.model",
+        "from": "math.fractions.unit_fraction_area_models",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can draw or interpret unit-fraction area models.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_area_models.assessed_by.explain",
+        "from": "math.fractions.unit_fraction_area_models",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain denominator meaning in an area model.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2560,
+    "edges": 5339
+  },
+  "graph_counts_after": {
+    "nodes": 2567,
+    "edges": 5355
+  }
+}

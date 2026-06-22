@@ -1,0 +1,30 @@
+schema_version: 0.1.0
+node_types:
+  - subject
+  - strand
+  - area
+  - topic
+  - knowledge_point
+  - representation
+  - procedure
+  - misconception
+  - task_type
+  - curriculum_standard
+  - pathway
+edge_types:
+  - part_of
+  - requires
+  - encompasses
+  - aligned_to
+  - uses_representation
+  - uses_procedure
+  - has_misconception
+  - assessed_by
+  - contrasts_with
+  - develops_into
+  - supports
+commit_policy:
+  allow_warnings: true
+  block_on_duplicate_warning: true
+  block_on_cycle_warning: true
+  block_on_missing_required_quality_fields: true

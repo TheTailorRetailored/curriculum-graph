@@ -1,0 +1,225 @@
+{
+  "patch_id": "math-decimals-rounding-compliance",
+  "applied_at": "2026-06-07T08:46:35.126Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 3,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.round_to_named_place",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.rounding_decimals",
+        "label": "Round to a named decimal place",
+        "description": "Identify the target place and round the decimal to that place.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.use_next_digit_to_round",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.rounding_decimals",
+        "label": "Use the next digit to round decimals",
+        "description": "Use the digit to the right of the target place to decide whether to keep or increase the target digit.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.rounding_estimates_magnitude",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.rounding_decimals",
+        "label": "Rounding gives a nearby estimate",
+        "description": "Understand that rounding replaces a decimal with a nearby value at a chosen precision.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_round_to_named_place.part_of.rounding_decimals",
+        "from": "math.kp.decimals.round_to_named_place",
+        "to": "math.decimals.rounding_decimals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_use_next_digit_to_round.part_of.rounding_decimals",
+        "from": "math.kp.decimals.use_next_digit_to_round",
+        "to": "math.decimals.rounding_decimals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rounding_estimates_magnitude.part_of.rounding_decimals",
+        "from": "math.kp.decimals.rounding_estimates_magnitude",
+        "to": "math.decimals.rounding_decimals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_decimals.uses_representation.number_line",
+        "from": "math.decimals.rounding_decimals",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Number lines show which benchmark decimal a value is closest to.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_decimals.uses_representation.place_value_chart",
+        "from": "math.decimals.rounding_decimals",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts show the target place and the next digit used for rounding.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_decimals.assessed_by.compute",
+        "from": "math.decimals.rounding_decimals",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can round decimals to specified places.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_decimals.assessed_by.explain",
+        "from": "math.decimals.rounding_decimals",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain the target place and next digit used for rounding.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_decimals.assessed_by.find_error",
+        "from": "math.decimals.rounding_decimals",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding reveals whether learners round by place value rather than changing arbitrary digits.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2626,
+    "edges": 5520
+  },
+  "graph_counts_after": {
+    "nodes": 2629,
+    "edges": 5528
+  }
+}

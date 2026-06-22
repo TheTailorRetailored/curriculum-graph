@@ -1,0 +1,2127 @@
+{
+  "patch_id": "math-linear-relationships-detail-001",
+  "applied_at": "2026-05-25T16:20:03.735Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.coordinate_axes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Coordinate axes",
+        "description": "Identify and use horizontal and vertical axes in the Cartesian coordinate plane.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.ordered_pairs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Ordered pairs",
+        "description": "Interpret ordered pairs as coordinates giving horizontal and vertical positions.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.plot_points_first_quadrant",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Plot points in first quadrant",
+        "description": "Plot and read points in the first quadrant of the coordinate plane.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.four_quadrants",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Four quadrants",
+        "description": "Locate and plot points across all four quadrants using positive and negative coordinates.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.horizontal_vertical_distance",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Horizontal and vertical distance",
+        "description": "Find horizontal and vertical distances between points on a coordinate plane.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.context_points_on_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Context points on graphs",
+        "description": "Interpret coordinate points as paired quantities in a context.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.input_output_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Input output tables",
+        "description": "Represent relationships between two variables using tables of input and output values.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.linear_rules_from_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Linear rules from tables",
+        "description": "Identify and write linear rules from patterns in tables of values.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.graph_linear_rules",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Graph linear rules",
+        "description": "Graph linear relationships from tables, rules or equations.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.proportional_linear_relationships",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Proportional linear relationships",
+        "description": "Recognise proportional relationships as linear relationships passing through the origin.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.nonproportional_linear_relationships",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Nonproportional linear relationships",
+        "description": "Recognise linear relationships with a nonzero starting value or intercept.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.rate_of_change_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Rate of change in tables",
+        "description": "Use tables to identify constant additive change and constant rate of change.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Linear equations from contexts",
+        "description": "Write linear equations to model contextual relationships between two quantities.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient as rate of change",
+        "description": "Interpret gradient as the rate at which one variable changes relative to another.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.gradient_from_two_points",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient from two points",
+        "description": "Calculate gradient using the change in vertical values divided by the change in horizontal values.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.y_intercept_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Y intercept meaning",
+        "description": "Interpret the y-intercept as the output value when the input is zero.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.slope_intercept_form",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Slope intercept form",
+        "description": "Represent linear relationships using slope-intercept form and interpret its parameters.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.x_intercept_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "X intercept meaning",
+        "description": "Interpret the x-intercept as the input value that makes the output zero.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.recognise_nonlinear_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Recognise nonlinear graphs",
+        "description": "Recognise graphs that do not have a constant rate of change or straight-line form.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.compare_linear_nonlinear_rate",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Compare linear and nonlinear rate",
+        "description": "Compare constant rate of change in linear graphs with changing rates in nonlinear graphs.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.quadratic_graph_shape",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Quadratic graph shape",
+        "description": "Recognise quadratic graphs by their parabolic shape and changing rate of change.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.ordered_pair_order_matters",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Ordered pair order matters",
+        "description": "In an ordered pair, the first coordinate and second coordinate describe different axes.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.coordinates_can_be_negative",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Coordinates can be negative",
+        "description": "Coordinate values can be positive, zero or negative depending on location relative to the axes.",
+        "aliases": [],
+        "year_band": "7-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.tables_graphs_equations_connect",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Tables graphs and equations connect",
+        "description": "Tables, graphs and equations can represent the same relationship between variables.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.linear_has_constant_rate",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Linear relationship has constant rate",
+        "description": "A linear relationship changes by a constant amount for equal changes in input.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.proportional_graph_through_origin",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Proportional graph passes through origin",
+        "description": "A proportional linear relationship has a graph that passes through the origin.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.gradient_is_rise_over_run",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient is rise over run",
+        "description": "Gradient compares vertical change to horizontal change between points on a line.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.y_intercept_is_starting_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Y intercept is starting value",
+        "description": "In many contexts, the y-intercept represents the starting value when input is zero.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.slope_intercept_parameters",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Slope intercept parameters have meaning",
+        "description": "In slope-intercept form, the gradient and intercept describe different features of the line.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.nonlinear_rate_changes",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Nonlinear rate changes",
+        "description": "A nonlinear relationship does not have the same rate of change over every equal input interval.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.intercepts_are_axis_crossings",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Intercepts are axis crossings",
+        "description": "Intercepts are points where a graph crosses an axis.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.reverse_ordered_pair",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Reverse ordered pair",
+        "description": "Learner plots or reads coordinates by reversing the x and y values.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.axes_are_interchangeable",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Axes are interchangeable",
+        "description": "Learner treats the horizontal and vertical axes as interchangeable without regard to variable meaning.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.every_line_is_proportional",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Every line is proportional",
+        "description": "Learner assumes every straight-line graph represents a proportional relationship.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.gradient_is_height",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient is height",
+        "description": "Learner identifies gradient using only vertical height rather than comparing vertical and horizontal change.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.curved_graphs_are_not_functions",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Curved graphs are not functions",
+        "description": "Learner assumes nonlinear or curved graphs cannot represent functions or relationships.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_axes.part_of.coordinate_plane",
+        "from": "math.algebra.linear.coordinate_axes",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_pairs.part_of.coordinate_plane",
+        "from": "math.algebra.linear.ordered_pairs",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_first_quadrant.part_of.coordinate_plane",
+        "from": "math.algebra.linear.plot_points_first_quadrant",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.four_quadrants.part_of.coordinate_plane",
+        "from": "math.algebra.linear.four_quadrants",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_vertical_distance.part_of.coordinate_plane",
+        "from": "math.algebra.linear.horizontal_vertical_distance",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_points.part_of.coordinate_plane",
+        "from": "math.algebra.linear.context_points_on_graphs",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.input_output_tables.part_of.linear_functions",
+        "from": "math.algebra.linear.input_output_tables",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_rules_tables.part_of.linear_functions",
+        "from": "math.algebra.linear.linear_rules_from_tables",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_linear_rules.part_of.linear_functions",
+        "from": "math.algebra.linear.graph_linear_rules",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_linear.part_of.linear_functions",
+        "from": "math.algebra.linear.proportional_linear_relationships",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonproportional_linear.part_of.linear_functions",
+        "from": "math.algebra.linear.nonproportional_linear_relationships",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rate_change_tables.part_of.linear_functions",
+        "from": "math.algebra.linear.rate_of_change_tables",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_equations_contexts.part_of.linear_functions",
+        "from": "math.algebra.linear.linear_equations_from_contexts",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_rate.part_of.gradient_intercept",
+        "from": "math.algebra.linear.gradient_as_rate_of_change",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_two_points.part_of.gradient_intercept",
+        "from": "math.algebra.linear.gradient_from_two_points",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept.part_of.gradient_intercept",
+        "from": "math.algebra.linear.y_intercept_meaning",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.slope_intercept.part_of.gradient_intercept",
+        "from": "math.algebra.linear.slope_intercept_form",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_intercept.part_of.gradient_intercept",
+        "from": "math.algebra.linear.x_intercept_meaning",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recognise_nonlinear.part_of.nonlinear",
+        "from": "math.algebra.linear.recognise_nonlinear_graphs",
+        "to": "math.algebra.linear.nonlinear_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_linear_nonlinear.part_of.nonlinear",
+        "from": "math.algebra.linear.compare_linear_nonlinear_rate",
+        "to": "math.algebra.linear.nonlinear_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_shape.part_of.nonlinear",
+        "from": "math.algebra.linear.quadratic_graph_shape",
+        "to": "math.algebra.linear.nonlinear_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_ordered_pair_order.part_of.coordinate",
+        "from": "math.kp.linear.ordered_pair_order_matters",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_coords_negative.part_of.coordinate",
+        "from": "math.kp.linear.coordinates_can_be_negative",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_tables_graphs_equations.part_of.linear_functions",
+        "from": "math.kp.linear.tables_graphs_equations_connect",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_constant_rate.part_of.linear_functions",
+        "from": "math.kp.linear.linear_has_constant_rate",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_prop_origin.part_of.linear_functions",
+        "from": "math.kp.linear.proportional_graph_through_origin",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_gradient_rise_run.part_of.gradient",
+        "from": "math.kp.linear.gradient_is_rise_over_run",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_y_intercept_start.part_of.gradient",
+        "from": "math.kp.linear.y_intercept_is_starting_value",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_slope_intercept_params.part_of.gradient",
+        "from": "math.kp.linear.slope_intercept_parameters",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nonlinear_rate_changes.part_of.nonlinear",
+        "from": "math.kp.linear.nonlinear_rate_changes",
+        "to": "math.algebra.linear.nonlinear_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_intercepts_axis_crossings.part_of.gradient",
+        "from": "math.kp.linear.intercepts_are_axis_crossings",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_reverse_ordered_pair.part_of.coordinate",
+        "from": "math.misconception.linear.reverse_ordered_pair",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_axes_interchangeable.part_of.coordinate",
+        "from": "math.misconception.linear.axes_are_interchangeable",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_every_line_proportional.part_of.linear_functions",
+        "from": "math.misconception.linear.every_line_is_proportional",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_gradient_height.part_of.gradient",
+        "from": "math.misconception.linear.gradient_is_height",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_curved_not_function.part_of.nonlinear",
+        "from": "math.misconception.linear.curved_graphs_are_not_functions",
+        "to": "math.algebra.linear.nonlinear_graphs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate.encompasses.axes",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Axes are foundational parts of coordinate plane work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate.encompasses.ordered_pairs",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Ordered pairs are central to locating points in a coordinate plane.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate.encompasses.first_quadrant",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.algebra.linear.plot_points_first_quadrant",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "First-quadrant plotting is early coordinate-plane practice.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate.encompasses.four_quadrants",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.algebra.linear.four_quadrants",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Four-quadrant plotting extends coordinate plane work to signed coordinates.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate.encompasses.hv_distance",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.algebra.linear.horizontal_vertical_distance",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Horizontal and vertical distances are coordinate-plane applications.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate.encompasses.context_points",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.algebra.linear.context_points_on_graphs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Context points apply coordinates to paired quantities.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.encompasses.input_output",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.input_output_tables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Input-output tables are a core representation of relationships.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.encompasses.rules_tables",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.linear_rules_from_tables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding rules from tables links tabular and symbolic representations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.encompasses.graph_rules",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graphing linear rules is a central linear-functions skill.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.encompasses.proportional",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.proportional_linear_relationships",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Proportional relationships are an important linear case.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.encompasses.nonproportional",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.nonproportional_linear_relationships",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Nonproportional linear relationships contrast constant rate with nonzero initial value.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.encompasses.rate_tables",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.rate_of_change_tables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Constant rate of change is central to linear relationships.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.encompasses.context_equations",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Context equations apply linear relationships symbolically.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient.encompasses.rate",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Gradient is the rate-of-change feature of a linear graph.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient.encompasses.two_points",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.algebra.linear.gradient_from_two_points",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Calculating gradient from two points is a core gradient skill.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient.encompasses.y_intercept",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Y-intercept interpretation is central to linear graph structure.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient.encompasses.slope_intercept",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Slope-intercept form combines gradient and y-intercept in an equation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient.encompasses.x_intercept",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.algebra.linear.x_intercept_meaning",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "X-intercepts extend intercept reasoning to the horizontal axis.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonlinear.encompasses.recognise",
+        "from": "math.algebra.linear.nonlinear_graphs",
+        "to": "math.algebra.linear.recognise_nonlinear_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Recognising nonlinear graphs is foundational for this broad topic.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonlinear.encompasses.compare_rate",
+        "from": "math.algebra.linear.nonlinear_graphs",
+        "to": "math.algebra.linear.compare_linear_nonlinear_rate",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Contrasting rates of change separates linear from nonlinear relationships.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonlinear.encompasses.quadratic_shape",
+        "from": "math.algebra.linear.nonlinear_graphs",
+        "to": "math.algebra.linear.quadratic_graph_shape",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Quadratic graphs are common early nonlinear graphs.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_axes.requires.maps_grids",
+        "from": "math.algebra.linear.coordinate_axes",
+        "to": "math.space.location.maps_grids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Coordinate axes extend grid and map-location reasoning into algebraic coordinates.",
+        "failure_signal": "Learner cannot orient horizontal and vertical reference lines on a grid.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_pairs.requires.axes",
+        "from": "math.algebra.linear.ordered_pairs",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Ordered pairs refer to positions along coordinate axes.",
+        "failure_signal": "Learner cannot connect first and second coordinates to axes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_first_quadrant.requires.ordered_pairs",
+        "from": "math.algebra.linear.plot_points_first_quadrant",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Plotting points requires interpreting ordered pairs.",
+        "failure_signal": "Learner reverses or misreads coordinates when plotting.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.four_quadrants.requires.integers",
+        "from": "math.algebra.linear.four_quadrants",
+        "to": "math.number.integers.negative_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Four-quadrant coordinates require positive and negative numbers on both axes.",
+        "failure_signal": "Learner cannot place points with negative coordinates in the correct quadrant.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hv_distance.requires.four_quadrants",
+        "from": "math.algebra.linear.horizontal_vertical_distance",
+        "to": "math.algebra.linear.four_quadrants",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Coordinate distances require reading positions and differences along axes.",
+        "failure_signal": "Learner counts diagonal movement or subtracts coordinates without considering direction and axis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_points.requires.ordered_pairs",
+        "from": "math.algebra.linear.context_points_on_graphs",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contextual graph points require interpreting coordinates as paired quantities.",
+        "failure_signal": "Learner plots the point but cannot explain what each coordinate means.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.input_output.requires.variables_contexts",
+        "from": "math.algebra.linear.input_output_tables",
+        "to": "math.algebra.expressions.variables_in_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Input-output tables use variables to represent related quantities.",
+        "failure_signal": "Learner lists values but cannot identify input and output variables.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_rules_tables.requires.input_output",
+        "from": "math.algebra.linear.linear_rules_from_tables",
+        "to": "math.algebra.linear.input_output_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Writing rules from tables requires reading input-output pairs.",
+        "failure_signal": "Learner describes a table recursively but cannot express the relationship as a rule.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_linear_rules.requires.plot_first_quadrant",
+        "from": "math.algebra.linear.graph_linear_rules",
+        "to": "math.algebra.linear.plot_points_first_quadrant",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graphing linear rules requires plotting points from a table or equation.",
+        "failure_signal": "Learner creates values but cannot plot them accurately as points.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_linear.requires.proportional_relationships",
+        "from": "math.algebra.linear.proportional_linear_relationships",
+        "to": "math.ratio.proportional_relationships",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Proportional linear relationships build directly from proportional reasoning.",
+        "failure_signal": "Learner treats any increasing straight line as proportional even without passing through the origin.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonproportional_linear.requires.linear_rules",
+        "from": "math.algebra.linear.nonproportional_linear_relationships",
+        "to": "math.algebra.linear.linear_rules_from_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Nonproportional linear relationships require recognising a constant rate plus starting value.",
+        "failure_signal": "Learner expects all linear relationships to be proportional.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rate_change_tables.requires.ratio_rates",
+        "from": "math.algebra.linear.rate_of_change_tables",
+        "to": "math.ratio.unit_rates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rate of change in tables builds from unit-rate reasoning.",
+        "failure_signal": "Learner compares output differences without relating them to input changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_contexts_requires.linear_rules",
+        "from": "math.algebra.linear.linear_equations_from_contexts",
+        "to": "math.algebra.linear.linear_rules_from_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Writing equations from contexts requires identifying a relationship rule between variables.",
+        "failure_signal": "Learner writes an expression that does not model the context's relationship.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_rate.requires.rate_tables",
+        "from": "math.algebra.linear.gradient_as_rate_of_change",
+        "to": "math.algebra.linear.rate_of_change_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Gradient formalises constant rate of change represented in tables and graphs.",
+        "failure_signal": "Learner reads steepness visually but cannot connect it to rate of change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_two_points.requires.gradient_rate",
+        "from": "math.algebra.linear.gradient_from_two_points",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Calculating gradient from two points depends on interpreting gradient as rate of change.",
+        "failure_signal": "Learner subtracts coordinates without forming vertical change over horizontal change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept.requires.graph_rules",
+        "from": "math.algebra.linear.y_intercept_meaning",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Y-intercept interpretation requires reading a linear graph and its axes.",
+        "failure_signal": "Learner identifies the intercept visually but cannot connect it to input zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.slope_intercept.requires.gradient_rate",
+        "from": "math.algebra.linear.slope_intercept_form",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Slope-intercept form requires interpreting the gradient parameter of a line.",
+        "failure_signal": "Learner writes y = mx + b but cannot interpret m or b.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_intercept.requires.y_intercept",
+        "from": "math.algebra.linear.x_intercept_meaning",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "low",
+        "rationale": "X-intercepts extend intercept reasoning to the horizontal axis, though the dependency is representational rather than procedural.",
+        "failure_signal": "Learner confuses which coordinate is zero at an axis crossing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recognise_nonlinear.requires.linear_graphs",
+        "from": "math.algebra.linear.recognise_nonlinear_graphs",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising nonlinear graphs depends on contrasting them with linear graphs.",
+        "failure_signal": "Learner calls any graph with plotted points linear or treats all relationships as straight lines.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_linear_nonlinear.requires.recognise",
+        "from": "math.algebra.linear.compare_linear_nonlinear_rate",
+        "to": "math.algebra.linear.recognise_nonlinear_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing rates requires first recognising linear and nonlinear graph forms.",
+        "failure_signal": "Learner cannot explain why a curve's rate changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_shape.requires.nonlinear",
+        "from": "math.algebra.linear.quadratic_graph_shape",
+        "to": "math.algebra.linear.recognise_nonlinear_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Quadratic graphs are a common nonlinear graph family introduced after recognising nonlinear shape.",
+        "failure_signal": "Learner treats a parabola as a bent line without recognising its changing rate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate.has_mis.reverse_pair",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.misconception.linear.reverse_ordered_pair",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate.has_mis.axes_interchangeable",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.misconception.linear.axes_are_interchangeable",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions.has_mis.every_line_prop",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.misconception.linear.every_line_is_proportional",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient.has_mis.height",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.misconception.linear.gradient_is_height",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonlinear.has_mis.curved_not_function",
+        "from": "math.algebra.linear.nonlinear_graphs",
+        "to": "math.misconception.linear.curved_graphs_are_not_functions",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/linear_relationships.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 609,
+    "edges": 1132
+  },
+  "graph_counts_after": {
+    "nodes": 645,
+    "edges": 1215
+  }
+}

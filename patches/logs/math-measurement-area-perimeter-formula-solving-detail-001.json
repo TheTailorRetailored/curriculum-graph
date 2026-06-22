@@ -1,0 +1,1089 @@
+{
+  "patch_id": "math-measurement-area-perimeter-formula-solving-detail-001",
+  "applied_at": "2026-05-29T17:14:24.185Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 19,
+      "edges_created": 41,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Rectangle perimeter formula",
+        "description": "Use two lengths and two widths to calculate the perimeter of rectangles.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.perimeter.square_perimeter_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Square perimeter formula",
+        "description": "Use four equal side lengths to calculate the perimeter of squares.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.perimeter.missing_side_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Missing side equations for perimeter",
+        "description": "Use perimeter totals and known side lengths to form equations for missing side lengths.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.perimeter.outer_boundary_only",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Outer boundary only in composite perimeter",
+        "description": "Identify only the outside boundary segments when calculating perimeter of composite figures.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.rectangle_missing_dimension",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Rectangle missing dimension from area",
+        "description": "Find a missing rectangle length or width when area and the other dimension are known.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.square_side_from_area",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Square side length from area",
+        "description": "Find the side length of a square when its area is known in appropriate cases.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.triangle_base_height_pairs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Triangle base and height pairs",
+        "description": "Identify matching perpendicular base and height pairs for triangle area calculations.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.triangle_missing_base_height",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Triangle missing base or height",
+        "description": "Find a missing base or height in a triangle area problem when area and the other measure are known.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.parallelogram_base_height_pairs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Parallelogram base and height pairs",
+        "description": "Identify perpendicular base and height pairs for parallelogram area calculations.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.parallelogram_missing_base_height",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Parallelogram missing base or height",
+        "description": "Find a missing base or height in a parallelogram area problem when area and the other measure are known.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.choose_decomposition_strategy",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Choose a decomposition strategy for area",
+        "description": "Choose an efficient way to split a composite figure into familiar shapes for area calculation.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.track_partial_areas",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Track partial areas in composite figures",
+        "description": "Record and combine partial areas systematically when solving composite area problems.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.perimeter_adds_outer_edges",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Perimeter adds outer edges",
+        "description": "Perimeter is found by adding the lengths along the outside boundary of a figure.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.area_formulas_can_find_missing_dimensions",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Area formulas can find missing dimensions",
+        "description": "Area formulas can be rearranged to find an unknown dimension when area and other dimensions are known.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.height_is_perpendicular_to_base",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Height is perpendicular to base",
+        "description": "In triangle and parallelogram area formulas, height is the perpendicular distance to the chosen base.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.composite_area_needs_all_parts_once",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Composite area uses each part once",
+        "description": "Composite area calculations should include each included region exactly once.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.slanted_side_used_as_height",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Slanted side used as height",
+        "description": "Learner uses a slanted side length as the height even though it is not perpendicular to the chosen base.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.forget_to_double_rectangle_sides",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Forget to double rectangle sides",
+        "description": "Learner adds only one length and one width when calculating rectangle perimeter.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.missing_dimension_area_divide_error",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Missing dimension area division error",
+        "description": "Learner uses the wrong inverse operation when finding a missing dimension from area.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_perimeter_formula.part_of.perimeter",
+        "from": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_perimeter_formula.part_of.perimeter",
+        "from": "math.measurement.perimeter.square_perimeter_formula",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_equations.part_of.missing_side_perimeter",
+        "from": "math.measurement.perimeter.missing_side_equations",
+        "to": "math.measurement.length.missing_side_perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outer_boundary_only.part_of.composite_perimeter",
+        "from": "math.measurement.perimeter.outer_boundary_only",
+        "to": "math.measurement.length.composite_polygon_perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_missing_dimension.part_of.rectangle_area",
+        "from": "math.measurement.area.rectangle_missing_dimension",
+        "to": "math.measurement.area.rectangle_area_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_side_from_area.part_of.square_area",
+        "from": "math.measurement.area.square_side_from_area",
+        "to": "math.measurement.area.square_area_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_base_height_pairs.part_of.triangle_area",
+        "from": "math.measurement.area.triangle_base_height_pairs",
+        "to": "math.measurement.area.triangle_area_half_rectangle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_missing_base_height.part_of.triangle_area",
+        "from": "math.measurement.area.triangle_missing_base_height",
+        "to": "math.measurement.area.triangle_area_half_rectangle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_base_height_pairs.part_of.parallelogram_area",
+        "from": "math.measurement.area.parallelogram_base_height_pairs",
+        "to": "math.measurement.area.parallelogram_area_rearrangement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_missing_base_height.part_of.parallelogram_area",
+        "from": "math.measurement.area.parallelogram_missing_base_height",
+        "to": "math.measurement.area.parallelogram_area_rearrangement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_decomposition.part_of.composite_area",
+        "from": "math.measurement.area.choose_decomposition_strategy",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.track_partial_areas.part_of.composite_area",
+        "from": "math.measurement.area.track_partial_areas",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.perimeter_outer_edges.part_of.perimeter",
+        "from": "math.kp.measurement.perimeter_adds_outer_edges",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.area_missing_dimensions.part_of.rectangles_triangles",
+        "from": "math.kp.measurement.area_formulas_can_find_missing_dimensions",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.height_perpendicular.part_of.rectangles_triangles",
+        "from": "math.kp.measurement.height_is_perpendicular_to_base",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.composite_parts_once.part_of.composite_area",
+        "from": "math.kp.measurement.composite_area_needs_all_parts_once",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.slanted_height.part_of.triangle_area",
+        "from": "math.misconception.measurement.slanted_side_used_as_height",
+        "to": "math.measurement.area.triangle_area_half_rectangle",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.forget_double_rect_sides.part_of.perimeter",
+        "from": "math.misconception.measurement.forget_to_double_rectangle_sides",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.missing_dimension_divide.part_of.rectangle_area",
+        "from": "math.misconception.measurement.missing_dimension_area_divide_error",
+        "to": "math.measurement.area.rectangle_area_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.rectangle_formula",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Rectangle perimeter formulas practise calculating total boundary length.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.square_formula",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.perimeter.square_perimeter_formula",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Square perimeter formulas practise equal-side boundary length reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_perimeter.encompasses.equations",
+        "from": "math.measurement.length.missing_side_perimeter",
+        "to": "math.measurement.perimeter.missing_side_equations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Missing-side perimeter problems require forming and solving equations from perimeter totals.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_area.encompasses.missing_dimension",
+        "from": "math.measurement.area.rectangle_area_formula",
+        "to": "math.measurement.area.rectangle_missing_dimension",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Rectangle area formula work includes finding missing dimensions from known area.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_area.encompasses.base_height_pairs",
+        "from": "math.measurement.area.triangle_area_half_rectangle",
+        "to": "math.measurement.area.triangle_base_height_pairs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Triangle area calculations depend on matching perpendicular base-height pairs.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_area.encompasses.base_height_pairs",
+        "from": "math.measurement.area.parallelogram_area_rearrangement",
+        "to": "math.measurement.area.parallelogram_base_height_pairs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Parallelogram area calculations depend on perpendicular base-height pairs.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_area.encompasses.decomposition_strategy",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.choose_decomposition_strategy",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing a decomposition strategy is central to composite area work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_perimeter.requires.polygon_perimeter",
+        "from": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rectangle perimeter formulas specialise polygon perimeter calculation.",
+        "failure_signal": "Learner cannot connect perimeter with adding side lengths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_perimeter.requires.rectangle_perimeter",
+        "from": "math.measurement.perimeter.square_perimeter_formula",
+        "to": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Square perimeter is a special equal-side case of rectangle perimeter reasoning.",
+        "failure_signal": "Learner does not use equal side lengths efficiently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_equations.requires.polygon_perimeter",
+        "from": "math.measurement.perimeter.missing_side_equations",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding missing sides from perimeter requires understanding perimeter as a sum of side lengths.",
+        "failure_signal": "Learner cannot build an equation from known and unknown side lengths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outer_boundary.requires.composite_perimeter",
+        "from": "math.measurement.perimeter.outer_boundary_only",
+        "to": "math.measurement.length.composite_polygon_perimeter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Outer-boundary tracking refines composite polygon perimeter problems.",
+        "failure_signal": "Learner includes interior or shared edges in perimeter.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_missing_dimension.requires.rectangle_area",
+        "from": "math.measurement.area.rectangle_missing_dimension",
+        "to": "math.measurement.area.rectangle_area_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding a missing rectangle dimension requires the rectangle area formula.",
+        "failure_signal": "Learner uses perimeter reasoning or the wrong inverse operation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_side_from_area.requires.square_area",
+        "from": "math.measurement.area.square_side_from_area",
+        "to": "math.measurement.area.square_area_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding square side length from area requires understanding side squared.",
+        "failure_signal": "Learner divides by four or treats area like perimeter.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_base_height.requires.triangle_area",
+        "from": "math.measurement.area.triangle_base_height_pairs",
+        "to": "math.measurement.area.triangle_area_half_rectangle",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Base-height pair reasoning refines triangle area calculation.",
+        "failure_signal": "Learner uses a non-perpendicular side as the height.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_missing_base_height.requires.base_height_pairs",
+        "from": "math.measurement.area.triangle_missing_base_height",
+        "to": "math.measurement.area.triangle_base_height_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding a missing base or height requires identifying the correct corresponding pair.",
+        "failure_signal": "Learner solves for the wrong dimension or forgets the factor of one half.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_base_height.requires.parallelogram_area",
+        "from": "math.measurement.area.parallelogram_base_height_pairs",
+        "to": "math.measurement.area.parallelogram_area_rearrangement",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Parallelogram base-height pair reasoning builds on the area rearrangement idea.",
+        "failure_signal": "Learner uses the slanted side as height.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_missing_base_height.requires.base_height_pairs",
+        "from": "math.measurement.area.parallelogram_missing_base_height",
+        "to": "math.measurement.area.parallelogram_base_height_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding a missing parallelogram base or height requires the correct perpendicular pair.",
+        "failure_signal": "Learner divides by the wrong dimension or uses a slanted side.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decomposition_strategy.requires.decompose_composite",
+        "from": "math.measurement.area.choose_decomposition_strategy",
+        "to": "math.measurement.area.decompose_composite_figures",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing a strategy depends on recognising possible decompositions into familiar shapes.",
+        "failure_signal": "Learner splits the figure into shapes they cannot measure or compute.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.track_partial_areas.requires.recombine_parts",
+        "from": "math.measurement.area.track_partial_areas",
+        "to": "math.measurement.area.recombine_area_parts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Tracking partial areas supports accurate recombination of area parts.",
+        "failure_signal": "Learner omits or double-counts a part area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_area.has_mis.slanted_height",
+        "from": "math.measurement.area.triangle_area_half_rectangle",
+        "to": "math.misconception.measurement.slanted_side_used_as_height",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.has_mis.forget_double_rect",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.misconception.measurement.forget_to_double_rectangle_sides",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_area.has_mis.missing_dimension_divide",
+        "from": "math.measurement.area.rectangle_area_formula",
+        "to": "math.misconception.measurement.missing_dimension_area_divide_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1592,
+    "edges": 3360
+  },
+  "graph_counts_after": {
+    "nodes": 1611,
+    "edges": 3401
+  }
+}

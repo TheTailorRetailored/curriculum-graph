@@ -1,0 +1,1772 @@
+{
+  "patch_id": "math-ratio-rate-proportion-detail-001",
+  "applied_at": "2026-05-25T11:04:35.468Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 68,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.ratio_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Ratio language",
+        "description": "Use ratio language to describe multiplicative comparisons between quantities.",
+        "aliases": [],
+        "year_band": "6-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.part_part_ratios",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Part part ratios",
+        "description": "Represent and interpret ratios comparing one part of a situation with another part.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.part_whole_ratios",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Part whole ratios",
+        "description": "Represent and interpret ratios comparing a part with the whole quantity.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.ratio_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Ratio notation",
+        "description": "Read and write ratios using colon notation, words and ordered pairs of quantities.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.equivalent_ratios",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Equivalent ratios",
+        "description": "Generate and recognise ratios that preserve the same multiplicative relationship.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.ratio_tables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Ratio tables",
+        "description": "Use tables of related pairs to organise and generate equivalent ratios.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.double_number_lines",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Double number lines",
+        "description": "Use aligned number lines to represent equivalent ratios and rate relationships.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.rates_with_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Rates with units",
+        "description": "Interpret rates as comparisons of quantities with different units.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.unit_rates",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Unit rates",
+        "description": "Find and use rates per one unit to compare and solve problems.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.proportional_relationships",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Proportional relationships",
+        "description": "Recognise relationships in which one quantity is a constant multiple of another.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.scale_factor_in_ratios",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Scale factor in ratios",
+        "description": "Use scale factors to move between equivalent ratio pairs and proportional quantities.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.proportional_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Proportional equations",
+        "description": "Represent proportional relationships using equations involving a constant multiplier.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.constant_of_proportionality",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Constant of proportionality",
+        "description": "Identify and interpret the constant multiplier in a proportional relationship.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.direct_variation_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Direct variation graphs",
+        "description": "Represent proportional relationships as graphs through the origin.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.scale_drawings",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Scale drawings",
+        "description": "Use proportional reasoning to interpret and create scale drawings and maps.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.ratio.proportion_problem_solving",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Proportion problem solving",
+        "description": "Solve contextual problems involving equivalent ratios, rates and proportional relationships.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.ratio_compares_quantities",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Ratio compares quantities",
+        "description": "A ratio compares two quantities multiplicatively rather than by their additive difference.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.ratio_order_matters",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Ratio order matters",
+        "description": "Changing the order of the quantities in a ratio changes which comparison is being described.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.equivalent_ratios_preserve_relationship",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Equivalent ratios preserve relationship",
+        "description": "Equivalent ratios preserve the same multiplicative relationship between quantities.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.unit_rate_per_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Unit rate is per one",
+        "description": "A unit rate gives the amount of one quantity for one unit of another quantity.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.rates_include_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Rates include units",
+        "description": "Rates compare quantities measured in different units and should keep those units visible.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.proportional_relationship_constant_multiplier",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Proportional relationship has constant multiplier",
+        "description": "In a proportional relationship, one quantity is always the same multiplier times the other quantity.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.scale_factor_preserves_ratio",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Scale factor preserves ratio",
+        "description": "Scaling both quantities in a ratio by the same nonzero factor preserves the relationship.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.ratio_tables_show_pairs",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Ratio tables show pairs",
+        "description": "Ratio tables organise pairs of values that preserve a ratio or proportional relationship.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.double_number_lines_align_quantities",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Double number lines align quantities",
+        "description": "Double number lines align related quantities so equivalent ratios can be read and scaled.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.ratio.proportional_equations_represent_relationship",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Proportional equations represent relationship",
+        "description": "An equation such as y = kx can represent a proportional relationship between quantities.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.ratio.additive_difference_as_ratio",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Additive difference used as ratio",
+        "description": "Learner uses the difference between quantities when the situation requires a multiplicative ratio comparison.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.ratio.reversing_ratio_order",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Reversing ratio order",
+        "description": "Learner reverses the order of quantities in a ratio and changes the meaning of the comparison.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.ratio.equivalent_ratio_additive_scaling",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Equivalent ratios made by adding",
+        "description": "Learner creates equivalent ratios by adding the same amount to both quantities instead of multiplying by the same factor.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.ratio.unit_rate_without_units",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Unit rate without units",
+        "description": "Learner calculates a rate but drops the units, making the comparison ambiguous.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.ratio.all_linear_relationships_proportional",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "All linear relationships are proportional",
+        "description": "Learner assumes any straight-line or constant-change relationship is proportional, even when it does not pass through the origin or use a constant multiplier from zero.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_language.part_of.ratios_rates",
+        "from": "math.ratio.ratio_language",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_part_ratios.part_of.ratios_rates",
+        "from": "math.ratio.part_part_ratios",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_whole_ratios.part_of.ratios_rates",
+        "from": "math.ratio.part_whole_ratios",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_notation.part_of.ratios_rates",
+        "from": "math.ratio.ratio_notation",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_ratios.part_of.ratios_rates",
+        "from": "math.ratio.equivalent_ratios",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_tables.part_of.ratios_rates",
+        "from": "math.ratio.ratio_tables",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.double_number_lines.part_of.ratios_rates",
+        "from": "math.ratio.double_number_lines",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rates_with_units.part_of.ratios_rates",
+        "from": "math.ratio.rates_with_units",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_rates.part_of.ratios_rates",
+        "from": "math.ratio.unit_rates",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_relationships.part_of.proportional_reasoning",
+        "from": "math.ratio.proportional_relationships",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_factor_ratios.part_of.proportional_reasoning",
+        "from": "math.ratio.scale_factor_in_ratios",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_equations.part_of.proportional_reasoning",
+        "from": "math.ratio.proportional_equations",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_proportionality.part_of.proportional_reasoning",
+        "from": "math.ratio.constant_of_proportionality",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_variation_graphs.part_of.proportional_reasoning",
+        "from": "math.ratio.direct_variation_graphs",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_drawings.part_of.proportional_reasoning",
+        "from": "math.ratio.scale_drawings",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportion_problem_solving.part_of.proportional_reasoning",
+        "from": "math.ratio.proportion_problem_solving",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_ratio_compares.part_of.ratios_rates",
+        "from": "math.kp.ratio.ratio_compares_quantities",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_ratio_order.part_of.ratios_rates",
+        "from": "math.kp.ratio.ratio_order_matters",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equiv_ratios.part_of.ratios_rates",
+        "from": "math.kp.ratio.equivalent_ratios_preserve_relationship",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_unit_rate.part_of.ratios_rates",
+        "from": "math.kp.ratio.unit_rate_per_one",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rates_units.part_of.ratios_rates",
+        "from": "math.kp.ratio.rates_include_units",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_prop_constant_multiplier.part_of.proportional_reasoning",
+        "from": "math.kp.ratio.proportional_relationship_constant_multiplier",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_scale_preserves_ratio.part_of.proportional_reasoning",
+        "from": "math.kp.ratio.scale_factor_preserves_ratio",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_ratio_tables_pairs.part_of.ratios_rates",
+        "from": "math.kp.ratio.ratio_tables_show_pairs",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_double_lines_align.part_of.ratios_rates",
+        "from": "math.kp.ratio.double_number_lines_align_quantities",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_prop_equations.part_of.proportional_reasoning",
+        "from": "math.kp.ratio.proportional_equations_represent_relationship",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_additive_ratio.part_of.ratios_rates",
+        "from": "math.misconception.ratio.additive_difference_as_ratio",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_ratio_order.part_of.ratios_rates",
+        "from": "math.misconception.ratio.reversing_ratio_order",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_additive_equiv.part_of.ratios_rates",
+        "from": "math.misconception.ratio.equivalent_ratio_additive_scaling",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_unit_rate_units.part_of.ratios_rates",
+        "from": "math.misconception.ratio.unit_rate_without_units",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_all_linear_prop.part_of.proportional_reasoning",
+        "from": "math.misconception.ratio.all_linear_relationships_proportional",
+        "to": "math.number.ratio.proportional_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.ratio_language",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.ratio_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Ratio language is foundational for ratio and rate work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.part_part",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.part_part_ratios",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Part-part ratios are a core form of ratio comparison.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.part_whole",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.part_whole_ratios",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Part-whole ratios are related to fractions and support ratio interpretation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.ratio_notation",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.ratio_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Ratio notation is central to representing ratio comparisons.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.equivalent_ratios",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.equivalent_ratios",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Equivalent ratios are central to reasoning with ratios and rates.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.ratio_tables",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.ratio_tables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Ratio tables are a core representation for equivalent ratio pairs.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.double_lines",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.double_number_lines",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Double number lines practise ratio and rate scaling visually.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.rates_units",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.rates_with_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rates with units are a core part of the ratio and rate area.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.encompasses.unit_rates",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.ratio.unit_rates",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Unit rates are central for comparing and solving rate problems.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.encompasses.relationships",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.ratio.proportional_relationships",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Proportional relationships are the core object of proportional reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.encompasses.scale_factor",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.ratio.scale_factor_in_ratios",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Scale factors are central to preserving proportional relationships.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.encompasses.equations",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.ratio.proportional_equations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Equations represent proportional relationships symbolically.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.encompasses.constant",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.ratio.constant_of_proportionality",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The constant of proportionality captures the multiplicative relationship.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.encompasses.graphs",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.ratio.direct_variation_graphs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Graphs through the origin are a key representation of direct proportion.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.encompasses.scale_drawings",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.ratio.scale_drawings",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Scale drawings apply proportional reasoning in measurement and spatial contexts.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.encompasses.problem_solving",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.ratio.proportion_problem_solving",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Problem solving directly practises proportional reasoning across contexts.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_language.requires.multiplicative_comparison",
+        "from": "math.ratio.ratio_language",
+        "to": "math.number.operations.multiplicative_comparison",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Ratio language depends on comparing quantities multiplicatively rather than additively.",
+        "failure_signal": "Learner describes only how many more rather than how many times as many.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_part_requires.ratio_language",
+        "from": "math.ratio.part_part_ratios",
+        "to": "math.ratio.ratio_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Part-part ratios require identifying two quantities to compare using ratio language.",
+        "failure_signal": "Learner cannot state which two parts are being compared.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.part_whole_requires.ratio_language",
+        "from": "math.ratio.part_whole_ratios",
+        "to": "math.ratio.ratio_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Part-whole ratios require identifying a part and the total whole being compared.",
+        "failure_signal": "Learner confuses part-part and part-whole comparisons.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_notation_requires.part_part",
+        "from": "math.ratio.ratio_notation",
+        "to": "math.ratio.part_part_ratios",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Ratio notation requires identifying the ordered quantities in a ratio comparison.",
+        "failure_signal": "Learner writes a colon form without preserving the order of quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_ratios_requires.notation",
+        "from": "math.ratio.equivalent_ratios",
+        "to": "math.ratio.ratio_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Equivalent ratios require interpreting the ratio being scaled or compared.",
+        "failure_signal": "Learner changes one term or adds the same amount to both terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_tables_requires.equivalent_ratios",
+        "from": "math.ratio.ratio_tables",
+        "to": "math.ratio.equivalent_ratios",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Ratio tables organise equivalent ratio pairs generated by scaling.",
+        "failure_signal": "Learner creates rows that do not preserve the ratio relationship.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.double_number_lines_requires.ratio_tables",
+        "from": "math.ratio.double_number_lines",
+        "to": "math.ratio.ratio_tables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Double number lines and ratio tables both align equivalent pairs, with number lines adding spatial magnitude.",
+        "failure_signal": "Learner misaligns corresponding quantities across the two number lines.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rates_units_requires.ratio_language",
+        "from": "math.ratio.rates_with_units",
+        "to": "math.ratio.ratio_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rates compare two quantities, usually with different units, using ratio language.",
+        "failure_signal": "Learner gives a number without identifying the two measured quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_rates_requires.rates_units",
+        "from": "math.ratio.unit_rates",
+        "to": "math.ratio.rates_with_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "A unit rate is a rate expressed per one unit of one quantity.",
+        "failure_signal": "Learner calculates a quotient but cannot say per one what.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_relationships_requires.equivalent_ratios",
+        "from": "math.ratio.proportional_relationships",
+        "to": "math.ratio.equivalent_ratios",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Proportional relationships preserve equivalent ratios across all corresponding pairs.",
+        "failure_signal": "Learner treats a constant additive difference as proportional.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_factor_ratios_requires.equivalent_ratios",
+        "from": "math.ratio.scale_factor_in_ratios",
+        "to": "math.ratio.equivalent_ratios",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Scale factors generate equivalent ratios by multiplying both quantities by the same factor.",
+        "failure_signal": "Learner adds the same amount instead of scaling both quantities multiplicatively.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_equations_requires.proportional_relationships",
+        "from": "math.ratio.proportional_equations",
+        "to": "math.ratio.proportional_relationships",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Equations for proportional relationships require recognising the constant multiplicative relationship.",
+        "failure_signal": "Learner writes an equation that fits one pair but not the proportional relationship.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_requires.proportional_equations",
+        "from": "math.ratio.constant_of_proportionality",
+        "to": "math.ratio.proportional_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The constant of proportionality is the multiplier in a proportional equation.",
+        "failure_signal": "Learner cannot interpret k in y = kx as a rate or scale factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_variation_graphs_requires.constant",
+        "from": "math.ratio.direct_variation_graphs",
+        "to": "math.ratio.constant_of_proportionality",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Direct variation graphs represent proportional relationships and their constant multiplier.",
+        "failure_signal": "Learner identifies any straight line as proportional without checking the origin or multiplier.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_drawings_requires.scale_factor_ratios",
+        "from": "math.ratio.scale_drawings",
+        "to": "math.ratio.scale_factor_in_ratios",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Scale drawings use scale factors to preserve proportional lengths.",
+        "failure_signal": "Learner adds fixed lengths instead of multiplying all lengths by the same scale factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportion_problem_solving_requires.unit_rates",
+        "from": "math.ratio.proportion_problem_solving",
+        "to": "math.ratio.unit_rates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Many proportion problems can be solved by unit-rate or equivalent-ratio reasoning.",
+        "failure_signal": "Learner cannot decide whether to use a unit rate, scale factor or equivalent ratio table.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.has_mis.additive",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.misconception.ratio.additive_difference_as_ratio",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.has_mis.order",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.misconception.ratio.reversing_ratio_order",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.has_mis.additive_equiv",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.misconception.ratio.equivalent_ratio_additive_scaling",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.has_mis.unit_rate_units",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.misconception.ratio.unit_rate_without_units",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.has_mis.all_linear",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.misconception.ratio.all_linear_relationships_proportional",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/ratio_rate_and_proportion.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 480,
+    "edges": 845
+  },
+  "graph_counts_after": {
+    "nodes": 511,
+    "edges": 913
+  }
+}

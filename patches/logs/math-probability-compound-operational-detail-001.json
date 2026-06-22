@@ -1,0 +1,1393 @@
+{
+  "patch_id": "math-probability-compound-operational-detail-001",
+  "applied_at": "2026-06-04T21:11:55.675Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 26,
+      "edges_created": 51,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.table_row_total_consistency",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Table row total consistency",
+        "description": "Check that each row total in a two-way table equals the sum of the cells in that row.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.table_column_total_consistency",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Table column total consistency",
+        "description": "Check that each column total in a two-way table equals the sum of the cells in that column.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.table_grand_total_consistency",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Table grand total consistency",
+        "description": "Check that row totals and column totals agree with the same grand total in a two-way table.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.table_to_venn_conversion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Table to Venn conversion",
+        "description": "Translate a two-way table with two attributes into a Venn diagram showing overlap, single-event regions and outside region.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.venn_to_table_conversion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Venn to table conversion",
+        "description": "Translate a two-event Venn diagram into a two-way table with joint cells and marginal totals.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.symbolic_union_intersection_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Symbolic union and intersection notation",
+        "description": "Connect symbols such as union, intersection and complement to compound-event words and diagram regions.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.disjoint_vs_independent_contrast",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Disjoint versus independent contrast",
+        "description": "Distinguish mutually exclusive events from independent events using overlap and probability-change reasoning.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.choose_addition_or_multiplication_rule",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Choose addition or multiplication rule",
+        "description": "Choose whether a compound event requires adding event probabilities, multiplying along stages, or both.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.at_least_one_complement_strategy",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "At least one complement strategy",
+        "description": "Use the complement of no successes to find the probability of at least one success in a repeated or sequential setting.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.branch_probabilities_sum_to_one",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Branch probabilities sum to one",
+        "description": "Check that probabilities leaving the same tree-diagram branch point sum to one.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.missing_branch_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Missing branch probability",
+        "description": "Find a missing branch probability in a tree diagram using the fact that alternatives from the same branch point sum to one.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.path_probability_reasonableness",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Path probability reasonableness",
+        "description": "Check whether a path probability is reasonable by comparing it with the probabilities of its component branches.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.path_probability_vs_event_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Path probability versus event probability",
+        "description": "Distinguish the probability of one complete path from the probability of an event made of several paths.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.with_replacement_constant_probabilities",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "With-replacement constant probabilities",
+        "description": "Recognise that replacing an item usually keeps the composition and next-trial probabilities unchanged.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.without_replacement_count_update",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Without-replacement count update",
+        "description": "Update favourable and total counts after an item is removed and not replaced.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.dependence_from_changed_sample_space",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Dependence from changed sample space",
+        "description": "Explain dependence in without-replacement situations by showing how the sample space changes after the first outcome.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.independence_from_unchanged_probability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Independence from unchanged probability",
+        "description": "Check independence by comparing whether an event's probability stays the same after information about another event.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.table_totals_must_balance",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Table totals must balance",
+        "description": "In a completed two-way table, row totals and column totals must produce the same grand total.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.branch_alternatives_sum_to_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Branch alternatives sum to one",
+        "description": "Alternative branches from the same point in a probability tree must have probabilities that sum to one.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.disjoint_not_same_as_independent",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Disjoint is not the same as independent",
+        "description": "Disjoint events cannot both happen, while independent events do not change each other's probabilities.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.without_replacement_changes_counts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Without replacement changes counts",
+        "description": "In without-replacement contexts, the total and sometimes favourable counts change after each draw.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.event_can_be_sum_of_paths",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Event can be sum of paths",
+        "description": "A tree-diagram event may contain multiple paths, so its probability is found by summing the probabilities of the relevant complete paths.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.mutually_exclusive_means_independent",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Mutually exclusive means independent",
+        "description": "Learner assumes mutually exclusive events are independent rather than recognising that occurrence of one prevents the other.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.branch_probabilities_do_not_need_sum_one",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Branch probabilities need not sum to one",
+        "description": "Learner assigns branch probabilities from the same stage that do not sum to one.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.no_replacement_counts_unchanged",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "No-replacement counts unchanged",
+        "description": "Learner keeps the same favourable and total counts after a draw without replacement.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.one_path_equals_whole_event",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "One path equals whole event",
+        "description": "Learner uses one tree path as the probability of an event that actually includes multiple paths.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_row_consistency.part_of.fill_tables",
+        "from": "math.probability.compound.table_row_total_consistency",
+        "to": "math.probability.compound.fill_two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_column_consistency.part_of.fill_tables",
+        "from": "math.probability.compound.table_column_total_consistency",
+        "to": "math.probability.compound.fill_two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_grand_consistency.part_of.fill_tables",
+        "from": "math.probability.compound.table_grand_total_consistency",
+        "to": "math.probability.compound.fill_two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_to_venn.part_of.choose_rep",
+        "from": "math.probability.compound.table_to_venn_conversion",
+        "to": "math.probability.compound.choose_table_venn_tree",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_to_table.part_of.choose_rep",
+        "from": "math.probability.compound.venn_to_table_conversion",
+        "to": "math.probability.compound.choose_table_venn_tree",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symbolic_notation.part_of.union_intersection",
+        "from": "math.probability.compound.symbolic_union_intersection_notation",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.disjoint_independent_contrast.part_of.independent_dependent",
+        "from": "math.probability.compound.disjoint_vs_independent_contrast",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_rules.part_of.compound_events",
+        "from": "math.probability.compound.choose_addition_or_multiplication_rule",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.at_least_one.part_of.complement_venn",
+        "from": "math.probability.compound.at_least_one_complement_strategy",
+        "to": "math.probability.compound.event_complement_in_venn",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.branch_sum_one.part_of.tree_branches",
+        "from": "math.probability.compound.branch_probabilities_sum_to_one",
+        "to": "math.probability.compound.tree_diagram_branches",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_branch.part_of.tree_branches",
+        "from": "math.probability.compound.missing_branch_probability",
+        "to": "math.probability.compound.tree_diagram_branches",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.path_reason.part_of.path_product",
+        "from": "math.probability.compound.path_probability_reasonableness",
+        "to": "math.probability.compound.path_probability_product",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.path_vs_event.part_of.sum_paths",
+        "from": "math.probability.compound.path_probability_vs_event_probability",
+        "to": "math.probability.compound.sum_paths_for_event",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.with_replacement_constant.part_of.with_replacement",
+        "from": "math.probability.compound.with_replacement_constant_probabilities",
+        "to": "math.probability.compound.with_replacement_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.without_replacement_update.part_of.without_replacement",
+        "from": "math.probability.compound.without_replacement_count_update",
+        "to": "math.probability.compound.without_replacement_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.changed_space.part_of.dependent_meaning",
+        "from": "math.probability.compound.dependence_from_changed_sample_space",
+        "to": "math.probability.compound.dependent_events_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unchanged_prob.part_of.independent_meaning",
+        "from": "math.probability.compound.independence_from_unchanged_probability",
+        "to": "math.probability.compound.independent_events_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.table_balance.part_of.grand_consistency",
+        "from": "math.kp.probability.table_totals_must_balance",
+        "to": "math.probability.compound.table_grand_total_consistency",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.branch_sum.part_of.branch_sum",
+        "from": "math.kp.probability.branch_alternatives_sum_to_one",
+        "to": "math.probability.compound.branch_probabilities_sum_to_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.disjoint_not_independent.part_of.contrast",
+        "from": "math.kp.probability.disjoint_not_same_as_independent",
+        "to": "math.probability.compound.disjoint_vs_independent_contrast",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.without_replacement_counts.part_of.update",
+        "from": "math.kp.probability.without_replacement_changes_counts",
+        "to": "math.probability.compound.without_replacement_count_update",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.event_sum_paths.part_of.path_vs_event",
+        "from": "math.kp.probability.event_can_be_sum_of_paths",
+        "to": "math.probability.compound.path_probability_vs_event_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.mut_excl_ind.part_of.contrast",
+        "from": "math.misconception.probability.mutually_exclusive_means_independent",
+        "to": "math.probability.compound.disjoint_vs_independent_contrast",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.branch_sum.part_of.branch_sum",
+        "from": "math.misconception.probability.branch_probabilities_do_not_need_sum_one",
+        "to": "math.probability.compound.branch_probabilities_sum_to_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.no_replacement_counts.part_of.update",
+        "from": "math.misconception.probability.no_replacement_counts_unchanged",
+        "to": "math.probability.compound.without_replacement_count_update",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.one_path_event.part_of.path_vs_event",
+        "from": "math.misconception.probability.one_path_equals_whole_event",
+        "to": "math.probability.compound.path_probability_vs_event_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fill_tables.encompasses.grand_consistency",
+        "from": "math.probability.compound.fill_two_way_tables",
+        "to": "math.probability.compound.table_grand_total_consistency",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Grand-total consistency is a key check when filling two-way tables.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tree_branches.encompasses.sum_one",
+        "from": "math.probability.compound.tree_diagram_branches",
+        "to": "math.probability.compound.branch_probabilities_sum_to_one",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Branch probabilities from one stage should cover all alternatives at that branch point.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independence.encompasses.contrast_disjoint",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.disjoint_vs_independent_contrast",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Contrasting independence with disjointness helps prevent a common conceptual confusion.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_paths.encompasses.path_vs_event",
+        "from": "math.probability.compound.sum_paths_for_event",
+        "to": "math.probability.compound.path_probability_vs_event_probability",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Summing paths requires distinguishing a single path from an event with multiple paths.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.row_consistency.requires.table_structure",
+        "from": "math.probability.compound.table_row_total_consistency",
+        "to": "math.probability.compound.two_way_table_structure",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking row totals requires understanding the structure of rows and cells.",
+        "failure_signal": "Learner cannot detect a row total that does not equal its cell sum.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.column_consistency.requires.row_consistency",
+        "from": "math.probability.compound.table_column_total_consistency",
+        "to": "math.probability.compound.table_row_total_consistency",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Column-total checks parallel row-total checks after table structure is understood.",
+        "failure_signal": "Learner completes table entries but leaves inconsistent column totals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grand_consistency.requires.column_consistency",
+        "from": "math.probability.compound.table_grand_total_consistency",
+        "to": "math.probability.compound.table_column_total_consistency",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Grand-total consistency requires checking rows and columns against a common total.",
+        "failure_signal": "Learner obtains different totals depending on whether rows or columns are summed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_to_venn.requires.joint_cell",
+        "from": "math.probability.compound.table_to_venn_conversion",
+        "to": "math.probability.compound.joint_frequency_cell",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The overlap region in a Venn diagram is built from the joint-frequency cell in a two-way table.",
+        "failure_signal": "Learner places marginal totals rather than joint counts in the Venn overlap.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_to_table.requires.venn_regions",
+        "from": "math.probability.compound.venn_to_table_conversion",
+        "to": "math.probability.compound.venn_diagram_regions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Converting from Venn to table requires identifying each diagram region.",
+        "failure_signal": "Learner loses the outside region or double-counts the overlap.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symbolic_notation.requires.and_or",
+        "from": "math.probability.compound.symbolic_union_intersection_notation",
+        "to": "math.probability.compound.and_or_event_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Symbolic notation formalises earlier and/or event language.",
+        "failure_signal": "Learner reverses union and intersection notation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.disjoint_independent.requires.disjoint_diagram",
+        "from": "math.probability.compound.disjoint_vs_independent_contrast",
+        "to": "math.probability.compound.disjoint_events_from_diagram",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contrasting disjointness with independence requires first recognising disjoint events from diagrams.",
+        "failure_signal": "Learner assumes events with no overlap are automatically independent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_rules.requires.addition_rule",
+        "from": "math.probability.compound.choose_addition_or_multiplication_rule",
+        "to": "math.probability.compound.addition_rule_simple",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rule choice requires knowing addition reasoning for unions before comparing it with multiplication reasoning.",
+        "failure_signal": "Learner uses addition when a sequential path product is needed, or multiplication when a union is needed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.at_least_one.requires.complement_probability",
+        "from": "math.probability.compound.at_least_one_complement_strategy",
+        "to": "math.probability.models.complement_probability_simple",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "At-least-one strategies rely on using complements to simplify probability calculations.",
+        "failure_signal": "Learner tries to list many success cases instead of using the no-success complement when appropriate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.branch_sum.requires.tree_branches",
+        "from": "math.probability.compound.branch_probabilities_sum_to_one",
+        "to": "math.probability.compound.tree_diagram_branches",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Branch sum checks depend on interpreting branches from the same stage or node.",
+        "failure_signal": "Learner assigns probabilities from the same branch point that do not cover all alternatives.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_branch.requires.branch_sum",
+        "from": "math.probability.compound.missing_branch_probability",
+        "to": "math.probability.compound.branch_probabilities_sum_to_one",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Missing branch values are found using the sum-to-one relationship among alternatives.",
+        "failure_signal": "Learner cannot infer the remaining probability from known branch probabilities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.path_reason.requires.path_product",
+        "from": "math.probability.compound.path_probability_reasonableness",
+        "to": "math.probability.compound.path_probability_product",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Path probability reasonableness builds on multiplying branch probabilities along a path.",
+        "failure_signal": "Learner reports a path probability larger than one of its component branch probabilities without noticing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.path_vs_event.requires.sum_paths",
+        "from": "math.probability.compound.path_probability_vs_event_probability",
+        "to": "math.probability.compound.sum_paths_for_event",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Distinguishing path from event probability is required when an event is made of several complete paths.",
+        "failure_signal": "Learner gives one path probability when multiple paths satisfy the event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.with_replacement_constant.requires.with_replacement",
+        "from": "math.probability.compound.with_replacement_constant_probabilities",
+        "to": "math.probability.compound.with_replacement_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Constant probabilities are a key feature of many with-replacement contexts.",
+        "failure_signal": "Learner incorrectly changes counts after replacement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.without_update.requires.without_replacement",
+        "from": "math.probability.compound.without_replacement_count_update",
+        "to": "math.probability.compound.without_replacement_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Without replacement requires updating counts after each outcome.",
+        "failure_signal": "Learner keeps denominators and numerators unchanged after removing an item.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.changed_space.requires.without_update",
+        "from": "math.probability.compound.dependence_from_changed_sample_space",
+        "to": "math.probability.compound.without_replacement_count_update",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Dependence in without-replacement settings comes from the changed sample space after an outcome.",
+        "failure_signal": "Learner cannot explain why the second probability depends on the first outcome.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unchanged_probability.requires.independent_meaning",
+        "from": "math.probability.compound.independence_from_unchanged_probability",
+        "to": "math.probability.compound.independent_events_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking for unchanged probability operationalises the meaning of independent events.",
+        "failure_signal": "Learner declares independence from different labels rather than probability comparison.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.contrast.has_mis.mutually_exclusive_independent",
+        "from": "math.probability.compound.disjoint_vs_independent_contrast",
+        "to": "math.misconception.probability.mutually_exclusive_means_independent",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.branch_sum.has_mis.need_not_sum",
+        "from": "math.probability.compound.branch_probabilities_sum_to_one",
+        "to": "math.misconception.probability.branch_probabilities_do_not_need_sum_one",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.without_update.has_mis.counts_unchanged",
+        "from": "math.probability.compound.without_replacement_count_update",
+        "to": "math.misconception.probability.no_replacement_counts_unchanged",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.path_event.has_mis.one_path",
+        "from": "math.probability.compound.path_probability_vs_event_probability",
+        "to": "math.misconception.probability.one_path_equals_whole_event",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/compound_events.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2381,
+    "edges": 4972
+  },
+  "graph_counts_after": {
+    "nodes": 2407,
+    "edges": 5023
+  }
+}

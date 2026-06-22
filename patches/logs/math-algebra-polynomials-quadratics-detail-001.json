@@ -1,0 +1,1589 @@
+{
+  "patch_id": "math-algebra-polynomials-quadratics-detail-001",
+  "applied_at": "2026-05-30T13:48:47.728Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 29,
+      "edges_created": 59,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.polynomials.leading_coefficient",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Leading coefficient of a polynomial",
+        "description": "Identify the leading coefficient of a polynomial written in descending powers.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.polynomials.descending_power_order",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Descending power order",
+        "description": "Write polynomial terms in descending order of exponent to support comparison and operations.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.polynomials.subtract_polynomials_with_negatives",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Subtract polynomials with negatives",
+        "description": "Subtract polynomial expressions while distributing the subtraction sign across all terms.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.polynomials.binomial_area_model",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Binomial area model",
+        "description": "Use an area model or grid to expand the product of two binomials.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.polynomials.perfect_square_trinomial_products",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Perfect square trinomial products",
+        "description": "Recognise and expand products of the form squared binomials that produce perfect square trinomials.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.factor_monic_sum_product",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Factor monic quadratics by sum and product",
+        "description": "Factor monic quadratic trinomials by finding two numbers with the required sum and product.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.factor_nonmonic_ac_method",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Factor nonmonic quadratics by AC method",
+        "description": "Factor nonmonic quadratic trinomials by using the product of the leading coefficient and constant term to split the middle term.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.difference_squares_recognition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Difference squares recognition",
+        "description": "Recognise expressions that are differences of two square terms and factor them accordingly.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.zero_product_property_step",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Zero product property step",
+        "description": "Use the zero-product property to set each factor equal to zero when solving a factorised quadratic equation.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.roots_from_factored_form",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Roots from factored form",
+        "description": "Find the roots of a quadratic equation or function from its factored form.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.discriminant_positive_two_roots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Positive discriminant gives two real roots",
+        "description": "Interpret a positive discriminant as indicating two distinct real roots for a quadratic equation.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.discriminant_zero_repeated_root",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Zero discriminant gives repeated root",
+        "description": "Interpret a zero discriminant as indicating one repeated real root for a quadratic equation.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.discriminant_negative_no_real_roots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Negative discriminant gives no real roots",
+        "description": "Interpret a negative discriminant as indicating no real roots for a quadratic equation.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.leading_coefficient_opening_direction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Leading coefficient and parabola opening",
+        "description": "Use the sign of the leading coefficient to determine whether a parabola opens upward or downward.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.y_intercept_from_constant_term",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Y intercept from constant term",
+        "description": "Identify the y-intercept of a quadratic function in standard form from the constant term.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.axis_symmetry_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Axis of symmetry formula",
+        "description": "Find the axis of symmetry of a quadratic function in standard form using x equals negative b over two a.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.vertex_from_completed_square_form",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Vertex from completed square form",
+        "description": "Identify the vertex of a quadratic function from completed-square or vertex form.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.graph_from_vertex_form",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Graph quadratic from vertex form",
+        "description": "Sketch a quadratic function from vertex form using the vertex, opening direction and transformations.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.graph_from_intercepts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Graph quadratic from intercepts",
+        "description": "Sketch a quadratic function using its x-intercepts, y-intercept and symmetry.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.choose_solving_method",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Choose quadratic solving method",
+        "description": "Choose an efficient method for solving a quadratic equation based on its structure and available information.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.polynomials.leading_term_sets_degree",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Leading term sets polynomial degree",
+        "description": "For a single-variable polynomial in standard order, the leading term determines the degree and leading coefficient.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.quadratics.zero_product_factor_equations",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Zero product sets factors to zero",
+        "description": "If a product equals zero, at least one factor must equal zero, which allows factorised quadratic equations to be solved.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.quadratics.leading_coefficient_controls_opening",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Leading coefficient controls opening direction",
+        "description": "A positive leading coefficient opens a parabola upward, while a negative leading coefficient opens it downward.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.quadratics.constant_term_y_intercept",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Constant term is y intercept in standard form",
+        "description": "In standard form, the constant term gives the y-intercept of the quadratic function.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.quadratics.axis_symmetry_midpoint_roots",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Axis of symmetry is midpoint of roots",
+        "description": "When two real roots exist, the axis of symmetry lies halfway between their x-values.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.polynomials.subtract_only_first_term",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Subtract only first polynomial term",
+        "description": "Learner subtracts only the first term of a polynomial instead of distributing the subtraction sign to every term.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.quadratics.zero_product_without_zero_equation",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Zero product used before equation equals zero",
+        "description": "Learner sets factors equal to zero before the quadratic equation has been written in zero-product form.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.quadratics.discriminant_sign_reversed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Discriminant sign cases reversed",
+        "description": "Learner reverses the meaning of positive, zero and negative discriminant cases for real roots.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.quadratics.constant_term_is_x_intercept",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Constant term is x intercept",
+        "description": "Learner treats the constant term of a quadratic in standard form as an x-intercept instead of the y-intercept.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading_coefficient.part_of.polynomial_terms",
+        "from": "math.algebra.polynomials.leading_coefficient",
+        "to": "math.algebra.polynomials.polynomial_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.descending_order.part_of.polynomial_terms",
+        "from": "math.algebra.polynomials.descending_power_order",
+        "to": "math.algebra.polynomials.polynomial_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_polynomials_negatives.part_of.add_subtract",
+        "from": "math.algebra.polynomials.subtract_polynomials_with_negatives",
+        "to": "math.algebra.polynomials.add_subtract_polynomials",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_area_model.part_of.multiply_binomials",
+        "from": "math.algebra.polynomials.binomial_area_model",
+        "to": "math.algebra.polynomials.multiply_binomials",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perfect_square_products.part_of.special_products",
+        "from": "math.algebra.polynomials.perfect_square_trinomial_products",
+        "to": "math.algebra.polynomials.special_products",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_monic_sum_product.part_of.factor_monic",
+        "from": "math.algebra.quadratics.factor_monic_sum_product",
+        "to": "math.algebra.quadratics.factor_monic_quadratics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_nonmonic_ac.part_of.factor_nonmonic",
+        "from": "math.algebra.quadratics.factor_nonmonic_ac_method",
+        "to": "math.algebra.quadratics.factor_nonmonic_quadratics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.difference_squares_recognition.part_of.difference_squares",
+        "from": "math.algebra.quadratics.difference_squares_recognition",
+        "to": "math.algebra.quadratics.difference_of_squares",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.zero_product_step.part_of.solve_factorisation",
+        "from": "math.algebra.quadratics.zero_product_property_step",
+        "to": "math.algebra.quadratics.solve_by_factorisation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.roots_factored.part_of.solve_factorisation",
+        "from": "math.algebra.quadratics.roots_from_factored_form",
+        "to": "math.algebra.quadratics.solve_by_factorisation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_positive.part_of.discriminant",
+        "from": "math.algebra.quadratics.discriminant_positive_two_roots",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_zero.part_of.discriminant",
+        "from": "math.algebra.quadratics.discriminant_zero_repeated_root",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_negative.part_of.discriminant",
+        "from": "math.algebra.quadratics.discriminant_negative_no_real_roots",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.opening_direction.part_of.parabola_features",
+        "from": "math.algebra.quadratics.leading_coefficient_opening_direction",
+        "to": "math.algebra.quadratics.parabola_features",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_constant.part_of.parabola_features",
+        "from": "math.algebra.quadratics.y_intercept_from_constant_term",
+        "to": "math.algebra.quadratics.parabola_features",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.axis_symmetry_formula.part_of.parabola_features",
+        "from": "math.algebra.quadratics.axis_symmetry_formula",
+        "to": "math.algebra.quadratics.parabola_features",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertex_completed_square.part_of.completing_square",
+        "from": "math.algebra.quadratics.vertex_from_completed_square_form",
+        "to": "math.algebra.quadratics.completing_square_form",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_vertex_form.part_of.vertex_transformations",
+        "from": "math.algebra.quadratics.graph_from_vertex_form",
+        "to": "math.algebra.quadratics.vertex_form_transformations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_intercepts.part_of.quadratic_functions",
+        "from": "math.algebra.quadratics.graph_from_intercepts",
+        "to": "math.algebra.quadratics.quadratic_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_method.part_of.quadratic_equations",
+        "from": "math.algebra.quadratics.choose_solving_method",
+        "to": "math.algebra.quadratics.quadratic_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.leading_term_degree.part_of.polynomial_terms",
+        "from": "math.kp.polynomials.leading_term_sets_degree",
+        "to": "math.algebra.polynomials.polynomial_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.zero_product_factors.part_of.solve_factorisation",
+        "from": "math.kp.quadratics.zero_product_factor_equations",
+        "to": "math.algebra.quadratics.solve_by_factorisation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.leading_coefficient_opening.part_of.opening_direction",
+        "from": "math.kp.quadratics.leading_coefficient_controls_opening",
+        "to": "math.algebra.quadratics.leading_coefficient_opening_direction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.constant_y_intercept.part_of.y_intercept",
+        "from": "math.kp.quadratics.constant_term_y_intercept",
+        "to": "math.algebra.quadratics.y_intercept_from_constant_term",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.axis_midpoint_roots.part_of.axis_symmetry",
+        "from": "math.kp.quadratics.axis_symmetry_midpoint_roots",
+        "to": "math.algebra.quadratics.axis_symmetry_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.subtract_first_term.part_of.add_subtract",
+        "from": "math.misconception.polynomials.subtract_only_first_term",
+        "to": "math.algebra.polynomials.add_subtract_polynomials",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.zero_product_not_zero.part_of.solve_factorisation",
+        "from": "math.misconception.quadratics.zero_product_without_zero_equation",
+        "to": "math.algebra.quadratics.solve_by_factorisation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.discriminant_reversed.part_of.discriminant",
+        "from": "math.misconception.quadratics.discriminant_sign_reversed",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.constant_x_intercept.part_of.y_intercept",
+        "from": "math.misconception.quadratics.constant_term_is_x_intercept",
+        "to": "math.algebra.quadratics.y_intercept_from_constant_term",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.polynomial_terms.encompasses.leading_coefficient",
+        "from": "math.algebra.polynomials.polynomial_terms",
+        "to": "math.algebra.polynomials.leading_coefficient",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Polynomial term analysis includes identifying leading term and leading coefficient.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_binomials.encompasses.area_model",
+        "from": "math.algebra.polynomials.multiply_binomials",
+        "to": "math.algebra.polynomials.binomial_area_model",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Area models directly practise expanding binomial products.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.special_products.encompasses.perfect_square",
+        "from": "math.algebra.polynomials.special_products",
+        "to": "math.algebra.polynomials.perfect_square_trinomial_products",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Perfect square trinomial products are a core special product pattern.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant.encompasses.positive_case",
+        "from": "math.algebra.quadratics.discriminant",
+        "to": "math.algebra.quadratics.discriminant_positive_two_roots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "The positive discriminant case is a core discriminant interpretation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parabola_features.encompasses.opening_direction",
+        "from": "math.algebra.quadratics.parabola_features",
+        "to": "math.algebra.quadratics.leading_coefficient_opening_direction",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Opening direction is a core feature of quadratic graphs.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_equations.encompasses.choose_method",
+        "from": "math.algebra.quadratics.quadratic_equations",
+        "to": "math.algebra.quadratics.choose_solving_method",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Choosing an efficient solving method is part of strategic quadratic-equation work.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading_coefficient.requires.polynomial_terms",
+        "from": "math.algebra.polynomials.leading_coefficient",
+        "to": "math.algebra.polynomials.polynomial_terms",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying a leading coefficient requires recognising polynomial terms and coefficients.",
+        "failure_signal": "Learner cannot identify the term with highest exponent or its coefficient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.descending_order.requires.degree",
+        "from": "math.algebra.polynomials.descending_power_order",
+        "to": "math.algebra.polynomials.degree_of_polynomial",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Writing in descending order depends on comparing powers and identifying degree.",
+        "failure_signal": "Learner orders by coefficient size rather than exponent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_polynomials.requires.add_subtract",
+        "from": "math.algebra.polynomials.subtract_polynomials_with_negatives",
+        "to": "math.algebra.polynomials.add_subtract_polynomials",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Subtraction of polynomials is a specialised case of adding and subtracting polynomials with sign distribution.",
+        "failure_signal": "Learner fails to distribute the negative sign across all terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_area_model.requires.multiply_binomials",
+        "from": "math.algebra.polynomials.binomial_area_model",
+        "to": "math.algebra.polynomials.multiply_binomials",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "An area model is one representation for expanding binomial products after recognising the binomial product structure.",
+        "failure_signal": "Learner cannot account for all four partial products.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perfect_square_products.requires.multiply_binomials",
+        "from": "math.algebra.polynomials.perfect_square_trinomial_products",
+        "to": "math.algebra.polynomials.multiply_binomials",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Perfect-square products are a structured binomial-product case.",
+        "failure_signal": "Learner omits the middle term or doubles incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_monic_sum_product.requires.standard_form",
+        "from": "math.algebra.quadratics.factor_monic_sum_product",
+        "to": "math.algebra.quadratics.standard_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Factoring monic quadratics by sum and product requires recognising coefficients in standard form.",
+        "failure_signal": "Learner uses the wrong sum or product from the quadratic expression.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_nonmonic_ac.requires.factor_monic",
+        "from": "math.algebra.quadratics.factor_nonmonic_ac_method",
+        "to": "math.algebra.quadratics.factor_monic_quadratics",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Nonmonic factorisation extends monic trinomial factorisation patterns.",
+        "failure_signal": "Learner uses b and c only and ignores the leading coefficient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.difference_squares_recognition.requires.special_products",
+        "from": "math.algebra.quadratics.difference_squares_recognition",
+        "to": "math.algebra.polynomials.special_products",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Difference-of-squares recognition depends on special product patterns.",
+        "failure_signal": "Learner applies the pattern to a sum of squares or non-square terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.zero_product_step.requires.factor_monic",
+        "from": "math.algebra.quadratics.zero_product_property_step",
+        "to": "math.algebra.quadratics.factor_monic_quadratics",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Using zero-product solving requires being able to factor a quadratic into linear factors first.",
+        "failure_signal": "Learner sets factors to zero before moving all terms to one side or before factorising.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.roots_factored.requires.zero_product",
+        "from": "math.algebra.quadratics.roots_from_factored_form",
+        "to": "math.algebra.quadratics.zero_product_property_step",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading roots from factored form depends on applying the zero-product property to each factor.",
+        "failure_signal": "Learner gives factor values rather than root values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_positive.requires.discriminant",
+        "from": "math.algebra.quadratics.discriminant_positive_two_roots",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting the positive case depends on understanding the discriminant expression.",
+        "failure_signal": "Learner cannot connect the sign of the discriminant with the number of real roots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_zero.requires.discriminant",
+        "from": "math.algebra.quadratics.discriminant_zero_repeated_root",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The zero case is a core discriminant interpretation after learning the discriminant.",
+        "failure_signal": "Learner treats a repeated root as two distinct roots or no roots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_negative.requires.discriminant",
+        "from": "math.algebra.quadratics.discriminant_negative_no_real_roots",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The negative case is a core discriminant interpretation after learning the discriminant.",
+        "failure_signal": "Learner expects real x-intercepts when the discriminant is negative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.opening_direction.requires.standard_form",
+        "from": "math.algebra.quadratics.leading_coefficient_opening_direction",
+        "to": "math.algebra.quadratics.standard_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading opening direction from the leading coefficient requires identifying a in standard form.",
+        "failure_signal": "Learner uses the constant term or linear coefficient to decide opening direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_constant.requires.standard_form",
+        "from": "math.algebra.quadratics.y_intercept_from_constant_term",
+        "to": "math.algebra.quadratics.standard_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading the y-intercept from c requires recognising standard form coefficients.",
+        "failure_signal": "Learner identifies c as an x-intercept rather than the y-intercept.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.axis_symmetry.requires.standard_form",
+        "from": "math.algebra.quadratics.axis_symmetry_formula",
+        "to": "math.algebra.quadratics.standard_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The axis formula uses coefficients from standard form.",
+        "failure_signal": "Learner substitutes a, b or signs incorrectly in the axis formula.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertex_completed_square.requires.completing_square",
+        "from": "math.algebra.quadratics.vertex_from_completed_square_form",
+        "to": "math.algebra.quadratics.completing_square_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading the vertex from completed-square form requires recognising that form's parameters.",
+        "failure_signal": "Learner reverses signs or gives the wrong coordinate order for the vertex.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_vertex_form.requires.vertex_form",
+        "from": "math.algebra.quadratics.graph_from_vertex_form",
+        "to": "math.algebra.quadratics.vertex_form_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graphing from vertex form depends on interpreting vertex-form transformations.",
+        "failure_signal": "Learner locates the vertex but cannot apply stretch or reflection features.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_intercepts.requires.roots_factored",
+        "from": "math.algebra.quadratics.graph_from_intercepts",
+        "to": "math.algebra.quadratics.roots_from_factored_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graphing from intercepts requires finding x-intercepts from factored form or roots.",
+        "failure_signal": "Learner plots intercepts but cannot use symmetry to sketch the parabola.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_solving_method.requires.quadratic_formula",
+        "from": "math.algebra.quadratics.choose_solving_method",
+        "to": "math.algebra.quadratics.quadratic_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Strategic method choice requires exposure to general formula solving as well as special-case methods.",
+        "failure_signal": "Learner applies the quadratic formula to every case or chooses factorisation when no simple factorisation exists.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_subtract_polynomials.has_mis.subtract_first",
+        "from": "math.algebra.polynomials.add_subtract_polynomials",
+        "to": "math.misconception.polynomials.subtract_only_first_term",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_factorisation.has_mis.zero_not_ready",
+        "from": "math.algebra.quadratics.solve_by_factorisation",
+        "to": "math.misconception.quadratics.zero_product_without_zero_equation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant.has_mis.sign_reversed",
+        "from": "math.algebra.quadratics.discriminant",
+        "to": "math.misconception.quadratics.discriminant_sign_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_constant.has_mis.constant_x",
+        "from": "math.algebra.quadratics.y_intercept_from_constant_term",
+        "to": "math.misconception.quadratics.constant_term_is_x_intercept",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/polynomials_and_quadratics.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1750,
+    "edges": 3683
+  },
+  "graph_counts_after": {
+    "nodes": 1779,
+    "edges": 3742
+  }
+}

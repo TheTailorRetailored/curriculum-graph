@@ -1,0 +1,657 @@
+{
+  "patch_id": "math-measurement-right-trig-ratio-detail-001",
+  "applied_at": "2026-05-29T08:16:40.825Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.measurement.trig.hypotenuse_identification"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 11,
+      "edges_created": 24,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.hypotenuse_identification",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Identify the hypotenuse",
+        "description": "Identify the hypotenuse as the side opposite the right angle in any orientation of a right triangle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.opposite_adjacent_reference_angle",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Opposite and adjacent relative to reference angle",
+        "description": "Identify the opposite and adjacent sides relative to a chosen acute angle in a right triangle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.sine_ratio_definition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Sine ratio definition",
+        "description": "Interpret the sine ratio as opposite side over hypotenuse in a right triangle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.cosine_ratio_definition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Cosine ratio definition",
+        "description": "Interpret the cosine ratio as adjacent side over hypotenuse in a right triangle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.tangent_ratio_definition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Tangent ratio definition",
+        "description": "Interpret the tangent ratio as opposite side over adjacent side in a right triangle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.select_ratio_from_known_sides",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Select ratio from known sides",
+        "description": "Choose sine, cosine or tangent by matching the known and unknown side positions relative to the given angle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.hypotenuse_opposite_right_angle",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Hypotenuse is opposite the right angle",
+        "description": "The hypotenuse is always opposite the right angle and is the longest side of a right triangle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.sine_is_opposite_over_hypotenuse",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Sine is opposite over hypotenuse",
+        "description": "In a right triangle, sine of an acute angle equals opposite side divided by hypotenuse.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.cosine_is_adjacent_over_hypotenuse",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Cosine is adjacent over hypotenuse",
+        "description": "In a right triangle, cosine of an acute angle equals adjacent side divided by hypotenuse.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.tangent_is_opposite_over_adjacent",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Tangent is opposite over adjacent",
+        "description": "In a right triangle, tangent of an acute angle equals opposite side divided by adjacent side.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.opposite_adjacent_fixed_positions",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Opposite and adjacent have fixed positions",
+        "description": "Learner treats opposite and adjacent as fixed left-right or top-bottom positions rather than relative to the chosen angle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hypotenuse_identification.part_of.side_names",
+        "from": "math.measurement.trig.hypotenuse_identification",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.opposite_adjacent_reference.part_of.side_names",
+        "from": "math.measurement.trig.opposite_adjacent_reference_angle",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sine_definition.part_of.trig_ratios",
+        "from": "math.measurement.trig.sine_ratio_definition",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cosine_definition.part_of.trig_ratios",
+        "from": "math.measurement.trig.cosine_ratio_definition",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_definition.part_of.trig_ratios",
+        "from": "math.measurement.trig.tangent_ratio_definition",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_ratio_known_sides.part_of.choose_ratio",
+        "from": "math.measurement.trig.select_ratio_from_known_sides",
+        "to": "math.measurement.trig.choose_trig_ratio",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.hypotenuse.part_of.side_names",
+        "from": "math.kp.measurement.hypotenuse_opposite_right_angle",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.sine_definition.part_of.trig_ratios",
+        "from": "math.kp.measurement.sine_is_opposite_over_hypotenuse",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.cosine_definition.part_of.trig_ratios",
+        "from": "math.kp.measurement.cosine_is_adjacent_over_hypotenuse",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.tangent_definition.part_of.trig_ratios",
+        "from": "math.kp.measurement.tangent_is_opposite_over_adjacent",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.opposite_adjacent_fixed.part_of.side_names",
+        "from": "math.misconception.measurement.opposite_adjacent_fixed_positions",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.side_names.encompasses.hypotenuse_identification",
+        "from": "math.measurement.trig.right_triangle_side_names",
+        "to": "math.measurement.trig.hypotenuse_identification",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying the hypotenuse is central to naming sides in right-triangle trigonometry.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.side_names.encompasses.opposite_adjacent",
+        "from": "math.measurement.trig.right_triangle_side_names",
+        "to": "math.measurement.trig.opposite_adjacent_reference_angle",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Opposite and adjacent side names depend on the reference angle.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_ratios.encompasses.sine_definition",
+        "from": "math.measurement.trig.sin_cos_tan_ratios",
+        "to": "math.measurement.trig.sine_ratio_definition",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The sine ratio is one of the core right-triangle trigonometric ratios.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_ratios.encompasses.cosine_definition",
+        "from": "math.measurement.trig.sin_cos_tan_ratios",
+        "to": "math.measurement.trig.cosine_ratio_definition",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The cosine ratio is one of the core right-triangle trigonometric ratios.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_ratios.encompasses.tangent_definition",
+        "from": "math.measurement.trig.sin_cos_tan_ratios",
+        "to": "math.measurement.trig.tangent_ratio_definition",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The tangent ratio is one of the core right-triangle trigonometric ratios.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_ratio.encompasses.known_sides",
+        "from": "math.measurement.trig.choose_trig_ratio",
+        "to": "math.measurement.trig.select_ratio_from_known_sides",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing the trigonometric ratio depends on matching known and unknown sides.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hypotenuse_identification.requires.classify_angles",
+        "from": "math.measurement.trig.hypotenuse_identification",
+        "to": "math.measurement.angles.classify_angles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying the hypotenuse requires recognising the right angle in a triangle.",
+        "failure_signal": "Learner picks the longest-looking side without using the right angle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.opposite_adjacent.requires.hypotenuse",
+        "from": "math.measurement.trig.opposite_adjacent_reference_angle",
+        "to": "math.measurement.trig.hypotenuse_identification",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Opposite and adjacent side names are determined after the hypotenuse and reference angle are clear.",
+        "failure_signal": "Learner labels sides by diagram position rather than reference angle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sine_definition.requires.side_names",
+        "from": "math.measurement.trig.sine_ratio_definition",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The sine ratio depends on identifying opposite side and hypotenuse.",
+        "failure_signal": "Learner cannot decide which two sides form the sine ratio.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cosine_definition.requires.side_names",
+        "from": "math.measurement.trig.cosine_ratio_definition",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The cosine ratio depends on identifying adjacent side and hypotenuse.",
+        "failure_signal": "Learner cannot decide which two sides form the cosine ratio.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_definition.requires.side_names",
+        "from": "math.measurement.trig.tangent_ratio_definition",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The tangent ratio depends on identifying opposite and adjacent sides.",
+        "failure_signal": "Learner cannot decide which two sides form the tangent ratio.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_ratio.requires.ratio_definitions",
+        "from": "math.measurement.trig.select_ratio_from_known_sides",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing a ratio requires knowing which side pairs belong to sine, cosine and tangent.",
+        "failure_signal": "Learner selects a ratio that does not include the known and unknown side pair.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.side_names.has_mis.opposite_adjacent_fixed",
+        "from": "math.measurement.trig.right_triangle_side_names",
+        "to": "math.misconception.measurement.opposite_adjacent_fixed_positions",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/angles_and_trigonometry.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1569,
+    "edges": 3310
+  },
+  "graph_counts_after": {
+    "nodes": 1580,
+    "edges": 3334
+  }
+}

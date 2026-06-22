@@ -1,0 +1,215 @@
+{
+  "patch_id": "math-fractions-unlike-addition-canonical-kp-repair-v1",
+  "applied_at": "2026-06-05T19:26:07.995Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 4,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.unlike_denominators_are_unlike_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unlike_denominator_fraction_addition",
+        "label": "Unlike denominators name unlike units",
+        "description": "Recognise that fractions with different denominators refer to different-sized fractional units and cannot be added as-is.",
+        "aliases": [
+          "recognise unlike denominators"
+        ],
+        "year_band": "6-7",
+        "pathways": [
+          "math.pathway.f10_core"
+        ],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "confidence": "high",
+          "compliance_note": "Namespaced canonical replacement for legacy bare KP ID under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.choose_common_denominator_for_addition",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unlike_denominator_fraction_addition",
+        "label": "Choose a common denominator for addition",
+        "description": "Identify a denominator that both addends can be rewritten with before adding unlike-denominator fractions.",
+        "aliases": [
+          "find common denominator for addition"
+        ],
+        "year_band": "6-7",
+        "pathways": [
+          "math.pathway.f10_core"
+        ],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "confidence": "high",
+          "compliance_note": "Namespaced canonical replacement for legacy bare KP ID under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.rewrite_addends_with_common_denominator",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unlike_denominator_fraction_addition",
+        "label": "Rewrite addends with a common denominator",
+        "description": "Use equivalent fractions to rewrite each addend so both fractions have the same denominator.",
+        "aliases": [
+          "rewrite fractions with common denominator"
+        ],
+        "year_band": "6-7",
+        "pathways": [
+          "math.pathway.f10_core"
+        ],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "confidence": "high",
+          "compliance_note": "Namespaced canonical replacement for legacy bare KP ID under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.add_common_unit_numerators",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unlike_denominator_fraction_addition",
+        "label": "Add numerators after units match",
+        "description": "Add the numerators once both fractions use the same denominator, keeping the common denominator fixed.",
+        "aliases": [
+          "add numerators after denominators match"
+        ],
+        "year_band": "6-7",
+        "pathways": [
+          "math.pathway.f10_core"
+        ],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "confidence": "high",
+          "compliance_note": "Namespaced canonical replacement for legacy bare KP ID under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.fractions.unlike_denominators_are_unlike_units.part_of.unlike_denominator_fraction_addition",
+        "from": "math.kp.fractions.unlike_denominators_are_unlike_units",
+        "to": "math.fractions.unlike_denominator_fraction_addition",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Lesson-level knowledge points are canonical standalone nodes linked to their parent topic by part_of under contract v0.2.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.fractions.choose_common_denominator_for_addition.part_of.unlike_denominator_fraction_addition",
+        "from": "math.kp.fractions.choose_common_denominator_for_addition",
+        "to": "math.fractions.unlike_denominator_fraction_addition",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Lesson-level knowledge points are canonical standalone nodes linked to their parent topic by part_of under contract v0.2.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.fractions.rewrite_addends_with_common_denominator.part_of.unlike_denominator_fraction_addition",
+        "from": "math.kp.fractions.rewrite_addends_with_common_denominator",
+        "to": "math.fractions.unlike_denominator_fraction_addition",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Lesson-level knowledge points are canonical standalone nodes linked to their parent topic by part_of under contract v0.2.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.fractions.add_common_unit_numerators.part_of.unlike_denominator_fraction_addition",
+        "from": "math.kp.fractions.add_common_unit_numerators",
+        "to": "math.fractions.unlike_denominator_fraction_addition",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Lesson-level knowledge points are canonical standalone nodes linked to their parent topic by part_of under contract v0.2.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2519,
+    "edges": 5239
+  },
+  "graph_counts_after": {
+    "nodes": 2523,
+    "edges": 5243
+  }
+}

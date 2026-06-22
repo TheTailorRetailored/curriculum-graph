@@ -1,0 +1,1037 @@
+{
+  "patch_id": "math-measurement-skeleton-001",
+  "applied_at": "2026-05-23T05:41:37.174Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.measurement.area.rectangles_triangles"
+      },
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.measurement.mass_capacity.measure_contexts"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 20,
+      "edges_created": 36,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.measuring_attributes",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "label": "Measuring attributes",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.time_temperature_money",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "label": "Time, temperature and money",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.angles_trigonometry",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "label": "Angles and trigonometry",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.direct_comparison",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Direct comparison of attributes",
+        "description": "Compare objects by length, mass, capacity, area and duration using informal language and direct comparison.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.informal_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Informal measurement units",
+        "description": "Measure attributes using repeated informal units and recognise the need for equal-sized units.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.metric_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Metric measurement units",
+        "description": "Select and use common metric units for length, mass, capacity, area and volume.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.unit_conversion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Unit conversion",
+        "description": "Convert between related metric units using multiplicative place-value relationships.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.length.perimeter",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Perimeter",
+        "description": "Measure and calculate perimeters of polygons and composite figures.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.rectangles_triangles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Area of rectangles and triangles",
+        "description": "Use arrays, units and formulas to find areas of rectangles, triangles and related shapes.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.composite_figures",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Area of composite figures",
+        "description": "Decompose and recombine shapes to find areas of composite figures.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.circles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Circumference and area of circles",
+        "description": "Use radius, diameter and pi to calculate circumference and area of circles.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.volume.prisms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Volume of prisms",
+        "description": "Use unit cubes, structure and formulas to calculate volume of rectangular and other prisms.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.surface_area.prisms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Surface area of prisms",
+        "description": "Use nets and area formulas to calculate surface area of prisms and composite solids.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.measure_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Mass and capacity in context",
+        "description": "Measure, estimate and compare mass and capacity using appropriate units and instruments.",
+        "aliases": [],
+        "year_band": "K-6",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.reading_clocks",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Reading clocks and calendars",
+        "description": "Read analogue and digital time, calendars and elapsed-time situations.",
+        "aliases": [],
+        "year_band": "1-5",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.time.elapsed_time",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Elapsed time",
+        "description": "Calculate elapsed time across hours, days and calendar intervals.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.money.financial_calculations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Time, temperature and money",
+        "label": "Financial calculations",
+        "description": "Solve practical money, discount, unit price, profit and simple interest problems.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.angle_measure",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angle measure",
+        "description": "Compare, estimate, measure and construct angles in degrees.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.angle_relationships",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angle relationships",
+        "description": "Use angle sums, straight-line angles, vertically opposite angles and parallel-line relationships.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Right triangle trigonometry",
+        "description": "Use sine, cosine and tangent ratios to solve right-triangle problems.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measurement.part_of.math",
+        "from": "math.strand.measurement",
+        "to": "math",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measuring_attributes.part_of.measurement",
+        "from": "math.area.measuring_attributes",
+        "to": "math.strand.measurement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.length_perimeter_area.part_of.measurement",
+        "from": "math.area.length_perimeter_area",
+        "to": "math.strand.measurement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_capacity_mass.part_of.measurement",
+        "from": "math.area.volume_capacity_mass",
+        "to": "math.strand.measurement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.time_temperature_money.part_of.measurement",
+        "from": "math.area.time_temperature_money",
+        "to": "math.strand.measurement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angles_trigonometry.part_of.measurement",
+        "from": "math.area.angles_trigonometry",
+        "to": "math.strand.measurement",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_comparison.part_of.measuring_attributes",
+        "from": "math.measurement.attributes.direct_comparison",
+        "to": "math.area.measuring_attributes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_units.part_of.measuring_attributes",
+        "from": "math.measurement.attributes.informal_units",
+        "to": "math.area.measuring_attributes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.part_of.measuring_attributes",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.area.measuring_attributes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_conversion.part_of.measuring_attributes",
+        "from": "math.measurement.attributes.unit_conversion",
+        "to": "math.area.measuring_attributes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.part_of.length_area",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.area.length_perimeter_area",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_rectangles_triangles.part_of.length_area",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.area.length_perimeter_area",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_composite.part_of.length_area",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.area.length_perimeter_area",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_circles.part_of.length_area",
+        "from": "math.measurement.area.circles",
+        "to": "math.area.length_perimeter_area",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.part_of.volume_mass",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.area.volume_capacity_mass",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area_prisms.part_of.volume_mass",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.area.volume_capacity_mass",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_capacity.part_of.volume_mass",
+        "from": "math.measurement.mass_capacity.measure_contexts",
+        "to": "math.area.volume_capacity_mass",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reading_clocks.part_of.time_money",
+        "from": "math.measurement.time.reading_clocks",
+        "to": "math.area.time_temperature_money",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.part_of.time_money",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.area.time_temperature_money",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial_calculations.part_of.time_money",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.area.time_temperature_money",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.part_of.angles_trig",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.area.angles_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_relationships.part_of.angles_trig",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.area.angles_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_triangle_trig.part_of.angles_trig",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.area.angles_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_units.requires.direct_comparison",
+        "from": "math.measurement.attributes.informal_units",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Measuring with units builds on comparing measurable attributes directly.",
+        "failure_signal": "Learner cannot identify which attribute is being compared before counting units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.requires.informal_units",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Formal units refine the need for consistent equal-sized units developed with informal measurement.",
+        "failure_signal": "Learner counts units without maintaining consistent unit size or attribute focus.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_conversion.requires.metric_units",
+        "from": "math.measurement.attributes.unit_conversion",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Unit conversion requires recognising related metric units and their relative sizes.",
+        "failure_signal": "Learner changes unit labels without scaling the quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.requires.metric_units",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Perimeter calculation depends on measuring length with consistent units.",
+        "failure_signal": "Learner adds side counts without consistent length units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_rectangles_triangles.requires.metric_units",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Area measurement depends on understanding square units and consistent measurement units.",
+        "failure_signal": "Learner counts linear units instead of square units for area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_area.requires.rect_tri_area",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Composite area depends on decomposing figures into familiar rectangles, triangles or related shapes.",
+        "failure_signal": "Learner cannot partition a composite figure into known area components.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circles_area.requires.area_rect_tri",
+        "from": "math.measurement.area.circles",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Circle formulas extend area and perimeter reasoning to curved figures.",
+        "failure_signal": "Learner cannot distinguish linear boundary measure from area measure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.volume_prisms.requires.area_rect_tri",
+        "from": "math.measurement.volume.prisms",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Volume of prisms depends on base area and layers of unit cubes.",
+        "failure_signal": "Learner uses surface measurements but cannot interpret volume as area layers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surface_area.requires.area_rect_tri",
+        "from": "math.measurement.surface_area.prisms",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Surface area of prisms depends on finding areas of faces.",
+        "failure_signal": "Learner lists faces but cannot calculate their areas consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.requires.reading_clocks",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Elapsed-time calculation requires reading and interpreting starting and ending times.",
+        "failure_signal": "Learner can read a clock time but cannot compare two times across an interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial_calc.requires.percent_change",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.number.percentages.percentage_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Many financial calculations use percentages, proportional change and unit rates.",
+        "failure_signal": "Learner cannot identify the base amount or percent rate in money contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_relationships.requires.angle_measure",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Angle relationships depend on understanding angle size and degree measure.",
+        "failure_signal": "Learner cannot estimate or measure an angle before applying angle-sum rules.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_triangle_trig.requires.angle_relationships",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Right-triangle trigonometry builds on angle measure and triangle relationships.",
+        "failure_signal": "Learner cannot identify relevant angles and sides in right triangles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "ontology/mathematics/number/measuring_attributes.yaml",
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "ontology/mathematics/number/volume_capacity_and_mass.yaml",
+    "ontology/mathematics/number/time_temperature_and_money.yaml",
+    "ontology/mathematics/number/angles_and_trigonometry.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 124,
+    "edges": 109
+  },
+  "graph_counts_after": {
+    "nodes": 144,
+    "edges": 145
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "patch_id": "math-fractions-divide-fraction-by-whole-compliance-v2",
+  "applied_at": "2026-06-06T06:01:20.542Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 4,
+      "edges_created": 10,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.fraction_division_by_whole_splits_quantity",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.divide_fraction_by_whole_number",
+        "label": "Fraction division by a whole splits quantity",
+        "description": "Interpret dividing a fraction by a whole number as splitting the fractional quantity into that many equal parts.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.dividing_fraction_by_whole_multiplies_denominator",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.divide_fraction_by_whole_number",
+        "label": "Dividing a fraction by a whole can multiply the denominator",
+        "description": "For simple cases, dividing a fraction by a whole number can be represented by multiplying the denominator by the whole number while preserving the numerator count.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.division_creates_smaller_equal_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.divide_fraction_by_whole_number",
+        "label": "Division creates smaller equal fractional parts",
+        "description": "Recognise that splitting a fractional amount into equal shares creates smaller fractional quantities.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.model_fraction_division_by_whole",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.divide_fraction_by_whole_number",
+        "label": "Model fraction division by a whole number",
+        "description": "Use an area model or number line to show a fractional quantity being partitioned into equal shares.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fraction_division_by_whole_splits.part_of.divide_frac_whole",
+        "from": "math.kp.fractions.fraction_division_by_whole_splits_quantity",
+        "to": "math.fractions.divide_fraction_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_dividing_fraction_by_whole_multiplies_denominator.part_of.divide_frac_whole",
+        "from": "math.kp.fractions.dividing_fraction_by_whole_multiplies_denominator",
+        "to": "math.fractions.divide_fraction_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_division_creates_smaller_equal_parts.part_of.divide_frac_whole",
+        "from": "math.kp.fractions.division_creates_smaller_equal_parts",
+        "to": "math.fractions.divide_fraction_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_model_fraction_division_by_whole.part_of.divide_frac_whole",
+        "from": "math.kp.fractions.model_fraction_division_by_whole",
+        "to": "math.fractions.divide_fraction_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_frac_whole.uses_representation.area_model",
+        "from": "math.fractions.divide_fraction_by_whole_number",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models can show splitting a fractional region into equal shares.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_frac_whole.uses_representation.number_line",
+        "from": "math.fractions.divide_fraction_by_whole_number",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines can show fractional intervals partitioned into equal subintervals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_frac_whole.assessed_by.compute",
+        "from": "math.fractions.divide_fraction_by_whole_number",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can compute simple quotients of a fraction divided by a whole number.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_frac_whole.assessed_by.model",
+        "from": "math.fractions.divide_fraction_by_whole_number",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Modelling is central because learners need to see a fractional quantity being shared equally.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_frac_whole.assessed_by.explain",
+        "from": "math.fractions.divide_fraction_by_whole_number",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain why the resulting shares are smaller equal fractional quantities.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_frac_whole.has_mis.denominator_counts_shaded_parts",
+        "from": "math.fractions.divide_fraction_by_whole_number",
+        "to": "math.misconception.fractions.denominator_counts_shaded_parts",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Learners may misread the denominator when a fractional quantity is repartitioned into smaller equal shares.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2551,
+    "edges": 5318
+  },
+  "graph_counts_after": {
+    "nodes": 2555,
+    "edges": 5328
+  }
+}

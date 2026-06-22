@@ -1,0 +1,857 @@
+{
+  "patch_id": "math-senior-advanced-skeleton-001",
+  "applied_at": "2026-05-23T05:51:25.627Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 17,
+      "edges_created": 30,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.strand.senior_mathematics",
+        "type": "strand",
+        "subject": "Mathematics",
+        "label": "Senior mathematics",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.advanced_functions",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "label": "Advanced functions",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.vectors_matrices",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "label": "Vectors and matrices",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.complex_numbers",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "label": "Complex numbers",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.advanced_statistics_probability",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "label": "Advanced statistics and probability",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.function_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Function notation and composition",
+        "description": "Use function notation, domains, ranges, composition and inverse-function ideas.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exponential_logarithmic_functions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Exponential and logarithmic functions",
+        "description": "Analyse exponential and logarithmic functions, equations and models.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.trigonometric_functions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Trigonometric functions",
+        "description": "Analyse trigonometric functions, identities, equations and transformations.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.limits_continuity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Limits and continuity",
+        "description": "Use informal and formal ideas of limits and continuity for functions.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.differentiation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Differentiation",
+        "description": "Differentiate common functions and interpret derivatives as rates of change and gradients.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.integration",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Integration",
+        "description": "Use antiderivatives and definite integrals to solve area, accumulation and modelling problems.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.vectors.vector_operations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Vectors and matrices",
+        "label": "Vector operations",
+        "description": "Represent and operate with vectors geometrically and algebraically.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.matrices.matrix_operations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Vectors and matrices",
+        "label": "Matrix operations",
+        "description": "Use matrices to represent, transform and solve linear systems and applied problems.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.complex.complex_number_arithmetic",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Complex numbers",
+        "label": "Complex number arithmetic",
+        "description": "Represent and calculate with complex numbers in rectangular and polar forms.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.complex.complex_roots_polynomials",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Complex numbers",
+        "label": "Complex roots of polynomials",
+        "description": "Use complex numbers to solve polynomial equations and interpret roots.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.probability_distributions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Probability distributions",
+        "description": "Analyse discrete and continuous probability distributions in senior contexts.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.stats.statistical_inference",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced statistics and probability",
+        "label": "Statistical inference",
+        "description": "Use confidence, sampling distributions and inference methods to reason from data.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.senior_math.part_of.math",
+        "from": "math.strand.senior_mathematics",
+        "to": "math",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.advanced_functions.part_of.senior",
+        "from": "math.area.advanced_functions",
+        "to": "math.strand.senior_mathematics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculus.part_of.senior",
+        "from": "math.area.calculus",
+        "to": "math.strand.senior_mathematics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vectors_matrices.part_of.senior",
+        "from": "math.area.vectors_matrices",
+        "to": "math.strand.senior_mathematics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complex_numbers.part_of.senior",
+        "from": "math.area.complex_numbers",
+        "to": "math.strand.senior_mathematics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.advanced_stats_prob.part_of.senior",
+        "from": "math.area.advanced_statistics_probability",
+        "to": "math.strand.senior_mathematics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.part_of.advanced_functions",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.part_of.advanced_functions",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_functions.part_of.advanced_functions",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.part_of.calculus",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.part_of.calculus",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.part_of.calculus",
+        "from": "math.senior.calculus.integration",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vector_operations.part_of.vectors_matrices",
+        "from": "math.senior.vectors.vector_operations",
+        "to": "math.area.vectors_matrices",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.matrix_operations.part_of.vectors_matrices",
+        "from": "math.senior.matrices.matrix_operations",
+        "to": "math.area.vectors_matrices",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complex_arithmetic.part_of.complex_numbers",
+        "from": "math.senior.complex.complex_number_arithmetic",
+        "to": "math.area.complex_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complex_roots.part_of.complex_numbers",
+        "from": "math.senior.complex.complex_roots_polynomials",
+        "to": "math.area.complex_numbers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prob_distributions.part_of.advanced_stats_prob",
+        "from": "math.senior.stats.probability_distributions",
+        "to": "math.area.advanced_statistics_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistical_inference.part_of.advanced_stats_prob",
+        "from": "math.senior.stats.statistical_inference",
+        "to": "math.area.advanced_statistics_probability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.requires.quadratic_functions",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.algebra.quadratics.quadratic_functions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Senior function notation builds on interpreting functions and their graphs, including quadratics.",
+        "failure_signal": "Learner cannot distinguish input-output notation from equation-solving notation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log.requires.index_laws",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.number.powers.index_laws",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Exponential and logarithmic functions depend on powers and index laws.",
+        "failure_signal": "Learner cannot connect exponential notation to repeated multiplication or inverse logarithmic relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_functions.requires.right_triangle_trig",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Senior trigonometric functions extend right-triangle trigonometry to functions and graphs.",
+        "failure_signal": "Learner cannot connect sine, cosine and tangent ratios to angle measures and side relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits.requires.function_notation",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.functions.function_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Limits and continuity require interpreting functions near input values and across domains.",
+        "failure_signal": "Learner cannot reason about function behaviour near a point distinct from the function value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.requires.limits",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Differentiation is built from limiting rates of change and tangent gradients.",
+        "failure_signal": "Learner treats derivatives as rules only and cannot interpret rate of change or limiting gradient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.requires.differentiation",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.differentiation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Introductory integration is often developed as the inverse process of differentiation and as accumulation.",
+        "failure_signal": "Learner cannot connect antiderivatives to derivative relationships or accumulation contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vector_operations.requires.coordinates",
+        "from": "math.senior.vectors.vector_operations",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Vector operations use coordinate representations and directed quantities.",
+        "failure_signal": "Learner cannot represent vector components or coordinate displacement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.matrix_operations.requires.simultaneous_equations",
+        "from": "math.senior.matrices.matrix_operations",
+        "to": "math.algebra.equations.simultaneous_linear_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Matrix operations are commonly introduced through linear systems and transformations.",
+        "failure_signal": "Learner cannot interpret rows, columns or matrix equations as structured linear relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complex_arithmetic.requires.quadratic_equations",
+        "from": "math.senior.complex.complex_number_arithmetic",
+        "to": "math.algebra.quadratics.quadratic_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Complex numbers often arise from extending solutions to quadratic equations beyond real roots.",
+        "failure_signal": "Learner treats square roots of negative numbers as impossible rather than as an extension of number systems.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complex_roots.requires.complex_arithmetic",
+        "from": "math.senior.complex.complex_roots_polynomials",
+        "to": "math.senior.complex.complex_number_arithmetic",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Complex polynomial roots require arithmetic and representation of complex numbers.",
+        "failure_signal": "Learner cannot substitute or manipulate complex roots in polynomial equations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.senior_prob_distributions.requires.random_variables",
+        "from": "math.senior.stats.probability_distributions",
+        "to": "math.probability.distributions.random_variables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Senior probability distributions build directly on random-variable representations.",
+        "failure_signal": "Learner cannot connect outcomes, values and probabilities in a distribution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistical_inference.requires.informal_inference",
+        "from": "math.senior.stats.statistical_inference",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Formal inference extends informal reasoning about samples, variability and populations.",
+        "failure_signal": "Learner makes inferential claims without considering sample variability or uncertainty.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "ontology/mathematics/number/vectors_and_matrices.yaml",
+    "ontology/mathematics/number/complex_numbers.yaml",
+    "ontology/mathematics/number/advanced_statistics_and_probability.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 189,
+    "edges": 225
+  },
+  "graph_counts_after": {
+    "nodes": 206,
+    "edges": 255
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "patch_id": "math-fractions-equivalent-scaling-merge-legacy-draft-v1b",
+  "applied_at": "2026-06-05T19:50:06.562Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.topic.generate_equivalent_fractions",
+      "updates": {
+        "status": "merged",
+        "knowledge_points": [],
+        "merged_into": "math.fractions.equivalent_fraction_scaling",
+        "metadata": {
+          "created_by": "system",
+          "review_status": "needs_revision",
+          "confidence": "medium",
+          "compliance_note": "Merged duplicate draft topic into canonical active equivalent-fraction scaling lesson; embedded knowledge_points cleared because standalone KP nodes are authoritative under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.math.add_unlike_encompasses_equivalent_fractions",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "system",
+          "review_status": "needs_revision",
+          "confidence": "medium",
+          "compliance_note": "Deprecated legacy edge from merged draft unlike-denominator topic to merged draft equivalent-fractions topic."
+        }
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.math.add_unlike_requires_equivalent_fractions",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "system",
+          "review_status": "needs_revision",
+          "confidence": "medium",
+          "compliance_note": "Deprecated legacy prerequisite edge from merged draft unlike-denominator topic to merged draft equivalent-fractions topic."
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/mathematics-encompassing.yaml",
+    "ontology/edges/mathematics-prerequisites.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2523,
+    "edges": 5243
+  },
+  "graph_counts_after": {
+    "nodes": 2521,
+    "edges": 5243
+  }
+}

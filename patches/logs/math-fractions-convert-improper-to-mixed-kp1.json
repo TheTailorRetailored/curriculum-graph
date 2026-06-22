@@ -1,0 +1,85 @@
+{
+  "patch_id": "math-fractions-convert-improper-to-mixed-kp1",
+  "applied_at": "2026-06-06T18:30:50.893Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.improper_to_mixed_division_finds_wholes",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.convert_improper_to_mixed",
+        "label": "Division finds wholes in an improper fraction",
+        "description": "Use the denominator as the size of one whole and divide the numerator to find how many wholes are contained in the improper fraction.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_improper_to_mixed_division_finds_wholes.part_of.convert_improper_to_mixed",
+        "from": "math.kp.fractions.improper_to_mixed_division_finds_wholes",
+        "to": "math.fractions.convert_improper_to_mixed",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_improper_to_mixed.assessed_by.compute",
+        "from": "math.fractions.convert_improper_to_mixed",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners convert numerical improper fractions to mixed numbers.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2594,
+    "edges": 5433
+  },
+  "graph_counts_after": {
+    "nodes": 2595,
+    "edges": 5435
+  }
+}

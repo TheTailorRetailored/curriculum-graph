@@ -1,0 +1,2134 @@
+{
+  "patch_id": "math-length-perimeter-area-detail-001",
+  "applied_at": "2026-05-27T03:42:29.321Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.measurement.circles.circumference_area_contexts"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.length.perimeter_as_boundary",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Perimeter as boundary length",
+        "description": "Understand perimeter as the total distance around the boundary of a shape.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.length.measure_perimeter_with_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Measure perimeter with units",
+        "description": "Measure the perimeter of shapes by measuring each side with consistent length units.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Calculate polygon perimeter",
+        "description": "Calculate the perimeter of polygons by adding side lengths.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.length.missing_side_perimeter",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Missing side perimeter",
+        "description": "Find missing side lengths or perimeter values in polygon perimeter problems.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.length.composite_polygon_perimeter",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Composite polygon perimeter",
+        "description": "Calculate perimeters of composite rectilinear figures while tracking only the outside boundary.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.area_as_covering",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Area as covering",
+        "description": "Understand area as the amount of surface covered by a flat region.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.array_model_area",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Array model for area",
+        "description": "Use rows and columns of square units to represent rectangular area.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.rectangle_area_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Rectangle area formula",
+        "description": "Use length times width to calculate the area of rectangles.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.square_area_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Square area formula",
+        "description": "Use side length squared to calculate the area of squares.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.triangle_area_half_rectangle",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Triangle area as half rectangle",
+        "description": "Understand and use triangle area as half the area of a related rectangle or parallelogram.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.parallelogram_area_rearrangement",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Parallelogram area rearrangement",
+        "description": "Use rearrangement to connect parallelogram area to rectangle area.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.decompose_composite_figures",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Decompose composite figures",
+        "description": "Break composite figures into familiar rectangles, triangles or other known shapes.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.recombine_area_parts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Recombine area parts",
+        "description": "Find total area by adding areas of decomposed parts.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.subtract_missing_region",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Subtract missing region",
+        "description": "Find area by subtracting a missing or cut-out region from a larger enclosing shape.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.composite_figures_with_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Composite figures with units",
+        "description": "Track square units consistently when finding areas of composite figures.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.area.area_problem_solving_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Area problem solving contexts",
+        "description": "Solve contextual problems involving area, perimeter and composite figures.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.circles.radius_diameter_relationship",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Radius and diameter relationship",
+        "description": "Use the relationship between radius and diameter in circles.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.circles.circumference_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Circumference formula",
+        "description": "Use diameter, radius and pi to calculate circle circumference.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.circles.circle_area_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Circle area formula",
+        "description": "Use radius and pi to calculate circle area.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.circles.semicircles_quarter_circles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Semicircles and quarter circles",
+        "description": "Find lengths and areas involving semicircles and quarter circles.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.circles.circumference_area_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Circle measurement contexts",
+        "description": "Solve contextual problems involving circumference, circle area, radius and diameter.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.perimeter_boundary_length",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Perimeter is boundary length",
+        "description": "Perimeter measures the total length around the outside boundary of a shape.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.area_surface_coverage",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Area measures surface coverage",
+        "description": "Area measures how much flat surface is covered by a region.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.square_units_two_dimensional",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Square units are two dimensional",
+        "description": "Square units measure area because they cover two-dimensional regions.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.rectangle_area_rows_columns",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Rectangle area uses rows and columns",
+        "description": "Rectangle area can be understood as rows of equal square units times columns of equal square units.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.triangle_half_rectangle",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Triangle area is half related rectangle",
+        "description": "A triangle with the same base and height as a related rectangle has half the rectangle's area.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.composite_area_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Composite area combines parts",
+        "description": "Composite area can be found by adding or subtracting areas of simpler parts.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.radius_half_diameter",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Radius is half diameter",
+        "description": "The radius of a circle is half its diameter, and the diameter is twice its radius.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.circumference_uses_pi_diameter",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Circumference uses pi and diameter",
+        "description": "A circle's circumference is pi times its diameter, or two pi times its radius.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.circle_area_radius_squared",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Circle area uses radius squared",
+        "description": "Circle area depends on the square of the radius, not the diameter alone.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.length_area_units_distinct",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Length and area units differ",
+        "description": "Perimeter uses linear units, while area uses square units.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.perimeter_area_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Perimeter area confusion",
+        "description": "Learner confuses boundary length with surface coverage and uses perimeter and area methods interchangeably.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.count_grid_lines_not_squares",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Count grid lines not squares",
+        "description": "Learner counts grid lines or boundary marks instead of square units when finding area.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.double_count_shared_sides",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Double count shared sides",
+        "description": "Learner includes internal shared sides when finding the outside perimeter of composite figures.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.use_diameter_as_radius",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Use diameter as radius",
+        "description": "Learner substitutes diameter where radius is required in circle formulas.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.area_units_linear_units",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Length, perimeter and area",
+        "label": "Area units written as linear units",
+        "description": "Learner reports area using linear units rather than square units.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter_boundary.part_of.perimeter",
+        "from": "math.measurement.length.perimeter_as_boundary",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measure_perimeter_units.part_of.perimeter",
+        "from": "math.measurement.length.measure_perimeter_with_units",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_polygon_perimeter.part_of.perimeter",
+        "from": "math.measurement.length.calculate_polygon_perimeter",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_perimeter.part_of.perimeter",
+        "from": "math.measurement.length.missing_side_perimeter",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_polygon_perimeter.part_of.perimeter",
+        "from": "math.measurement.length.composite_polygon_perimeter",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_covering.part_of.rect_tri",
+        "from": "math.measurement.area.area_as_covering",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.array_area.part_of.rect_tri",
+        "from": "math.measurement.area.array_model_area",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_formula.part_of.rect_tri",
+        "from": "math.measurement.area.rectangle_area_formula",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_formula.part_of.rect_tri",
+        "from": "math.measurement.area.square_area_formula",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_half_rect.part_of.rect_tri",
+        "from": "math.measurement.area.triangle_area_half_rectangle",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_area.part_of.rect_tri",
+        "from": "math.measurement.area.parallelogram_area_rearrangement",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decompose_composite.part_of.composite_area",
+        "from": "math.measurement.area.decompose_composite_figures",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recombine_area_parts.part_of.composite_area",
+        "from": "math.measurement.area.recombine_area_parts",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_missing_region.part_of.composite_area",
+        "from": "math.measurement.area.subtract_missing_region",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_units.part_of.composite_area",
+        "from": "math.measurement.area.composite_figures_with_units",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_contexts.part_of.composite_area",
+        "from": "math.measurement.area.area_problem_solving_contexts",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.radius_diameter.part_of.circles",
+        "from": "math.measurement.circles.radius_diameter_relationship",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circumference_formula.part_of.circles",
+        "from": "math.measurement.circles.circumference_formula",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_area_formula.part_of.circles",
+        "from": "math.measurement.circles.circle_area_formula",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.semicircles_quarters.part_of.circles",
+        "from": "math.measurement.circles.semicircles_quarter_circles",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_contexts.part_of.circles",
+        "from": "math.measurement.circles.circumference_area_contexts",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_perimeter_boundary.part_of.perimeter",
+        "from": "math.kp.measurement.perimeter_boundary_length",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_area_surface.part_of.rect_tri",
+        "from": "math.kp.measurement.area_surface_coverage",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_square_units_2d.part_of.rect_tri",
+        "from": "math.kp.measurement.square_units_two_dimensional",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rectangle_rows_columns.part_of.rect_tri",
+        "from": "math.kp.measurement.rectangle_area_rows_columns",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_triangle_half_rectangle.part_of.rect_tri",
+        "from": "math.kp.measurement.triangle_half_rectangle",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_composite_parts.part_of.composite_area",
+        "from": "math.kp.measurement.composite_area_parts",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_radius_half_diameter.part_of.circles",
+        "from": "math.kp.measurement.radius_half_diameter",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_circumference_pi.part_of.circles",
+        "from": "math.kp.measurement.circumference_uses_pi_diameter",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_circle_area_radius_sq.part_of.circles",
+        "from": "math.kp.measurement.circle_area_radius_squared",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_length_area_units.part_of.rect_tri",
+        "from": "math.kp.measurement.length_area_units_distinct",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_perimeter_area_confusion.part_of.perimeter",
+        "from": "math.misconception.measurement.perimeter_area_confusion",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_count_grid_lines.part_of.rect_tri",
+        "from": "math.misconception.measurement.count_grid_lines_not_squares",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_double_shared_sides.part_of.perimeter",
+        "from": "math.misconception.measurement.double_count_shared_sides",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_diameter_as_radius.part_of.circles",
+        "from": "math.misconception.measurement.use_diameter_as_radius",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_area_linear_units.part_of.rect_tri",
+        "from": "math.misconception.measurement.area_units_linear_units",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.boundary",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.perimeter_as_boundary",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Understanding perimeter as boundary length is foundational to perimeter work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.measure_units",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.measure_perimeter_with_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Measuring side lengths with units directly practises perimeter measurement.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.calculate_polygon",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Calculating polygon perimeter is a central perimeter procedure.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.missing_side",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.missing_side_perimeter",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Missing-side tasks extend perimeter reasoning to inverse and equation-like contexts.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.composite",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.composite_polygon_perimeter",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Composite polygon perimeter extends perimeter to more complex boundaries.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_tri.encompasses.area_covering",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.area_as_covering",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Area as covering is foundational to rectangle and triangle area measurement.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_tri.encompasses.array_model",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.array_model_area",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Array models support rectangle area formulas through rows and columns of square units.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_tri.encompasses.rectangle_formula",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.rectangle_area_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rectangle area formulas are central to this topic.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_tri.encompasses.square_formula",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.square_area_formula",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Square area is a special rectangle-area case.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_tri.encompasses.triangle_half",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.triangle_area_half_rectangle",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Triangle area is a core extension from rectangle area.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_tri.encompasses.parallelogram",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.parallelogram_area_rearrangement",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Parallelogram rearrangement supports later triangle and composite area reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite.encompasses.decompose",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.decompose_composite_figures",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Decomposing a figure into known shapes is central to composite area.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite.encompasses.recombine",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.recombine_area_parts",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Recombining part areas directly practises composite area calculation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite.encompasses.subtract_missing",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.subtract_missing_region",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Subtracting missing regions is a common composite-area strategy.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite.encompasses.units",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.composite_figures_with_units",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Maintaining square units supports accurate composite area work.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite.encompasses.contexts",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.area_problem_solving_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Contextual area problems apply composite-area decomposition and calculation.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circles.encompasses.radius_diameter",
+        "from": "math.measurement.area.circles",
+        "to": "math.measurement.circles.radius_diameter_relationship",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Radius and diameter are foundational circle measures.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circles.encompasses.circumference",
+        "from": "math.measurement.area.circles",
+        "to": "math.measurement.circles.circumference_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Circumference formula is central to circle boundary measurement.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circles.encompasses.area",
+        "from": "math.measurement.area.circles",
+        "to": "math.measurement.circles.circle_area_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Circle area formula is central to circle area measurement.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circles.encompasses.parts",
+        "from": "math.measurement.area.circles",
+        "to": "math.measurement.circles.semicircles_quarter_circles",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Semicircles and quarter circles extend circle formulas to part-circle figures.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circles.encompasses.contexts",
+        "from": "math.measurement.area.circles",
+        "to": "math.measurement.circles.circumference_area_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Circle contexts apply circumference and area relationships.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter_boundary.requires.length_units",
+        "from": "math.measurement.length.perimeter_as_boundary",
+        "to": "math.measurement.attributes.select_length_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Perimeter as boundary length depends on understanding length units and boundary measurement.",
+        "failure_signal": "Learner treats perimeter as area or counts interior spaces.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measure_perimeter.requires.boundary",
+        "from": "math.measurement.length.measure_perimeter_with_units",
+        "to": "math.measurement.length.perimeter_as_boundary",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Measuring perimeter with units requires recognising which boundary length is being measured.",
+        "failure_signal": "Learner measures a side or interior distance rather than the full outside boundary.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_polygon_perimeter.requires.measure",
+        "from": "math.measurement.length.calculate_polygon_perimeter",
+        "to": "math.measurement.length.measure_perimeter_with_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Calculating polygon perimeter builds on measuring and summing side lengths.",
+        "failure_signal": "Learner omits sides or adds non-boundary dimensions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_perimeter.requires.polygon_perimeter",
+        "from": "math.measurement.length.missing_side_perimeter",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Missing-side perimeter problems require understanding how side lengths sum to a perimeter.",
+        "failure_signal": "Learner cannot use the known perimeter and sides to determine an unknown side.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_perimeter.requires.polygon_perimeter",
+        "from": "math.measurement.length.composite_polygon_perimeter",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Composite polygon perimeter extends polygon perimeter to more complex boundaries.",
+        "failure_signal": "Learner counts shared or internal sides as part of the outer perimeter.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_covering.requires.square_units",
+        "from": "math.measurement.area.area_as_covering",
+        "to": "math.measurement.attributes.square_units_area",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Area as covering builds directly on square-unit area measurement.",
+        "failure_signal": "Learner describes area with length-only language or linear units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.array_area.requires.arrays",
+        "from": "math.measurement.area.array_model_area",
+        "to": "math.number.operations.arrays_multiplication",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Array models for area use row and column structures from multiplication arrays.",
+        "failure_signal": "Learner counts squares one-by-one but cannot use rows and columns to structure area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_formula.requires.array_area",
+        "from": "math.measurement.area.rectangle_area_formula",
+        "to": "math.measurement.area.array_model_area",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The rectangle area formula generalises the array model of rows and columns of square units.",
+        "failure_signal": "Learner memorises length times width without understanding square-unit structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_formula.requires.rectangle_formula",
+        "from": "math.measurement.area.square_area_formula",
+        "to": "math.measurement.area.rectangle_area_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Square area is a special case of rectangle area with equal side lengths.",
+        "failure_signal": "Learner uses perimeter-like addition rather than side times side.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_half.requires.rectangle_formula",
+        "from": "math.measurement.area.triangle_area_half_rectangle",
+        "to": "math.measurement.area.rectangle_area_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Triangle area is commonly derived as half of a related rectangle or parallelogram.",
+        "failure_signal": "Learner uses base times height without halving for triangles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_requires.rectangle_formula",
+        "from": "math.measurement.area.parallelogram_area_rearrangement",
+        "to": "math.measurement.area.rectangle_area_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Parallelogram area can be reasoned by rearranging to a rectangle with the same base and height.",
+        "failure_signal": "Learner uses slanted side length as height without considering perpendicular height.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decompose_composite.requires.rect_tri",
+        "from": "math.measurement.area.decompose_composite_figures",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Composite figure decomposition requires familiarity with areas of simpler component shapes.",
+        "failure_signal": "Learner cannot identify known shapes within a composite figure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recombine_area.requires.decompose",
+        "from": "math.measurement.area.recombine_area_parts",
+        "to": "math.measurement.area.decompose_composite_figures",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Recombining area parts requires decomposing the figure into measurable pieces first.",
+        "failure_signal": "Learner decomposes but does not add part areas correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_region.requires.decompose",
+        "from": "math.measurement.area.subtract_missing_region",
+        "to": "math.measurement.area.decompose_composite_figures",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Subtracting a missing region requires identifying a larger enclosing area and the removed part.",
+        "failure_signal": "Learner adds all visible dimensions rather than subtracting the cut-out region.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_units.requires.area_units",
+        "from": "math.measurement.area.composite_figures_with_units",
+        "to": "math.kp.measurement.square_units_two_dimensional",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Composite area calculations require consistent use of square units across all parts.",
+        "failure_signal": "Learner mixes linear and square units or changes units between parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_contexts.requires.recombine",
+        "from": "math.measurement.area.area_problem_solving_contexts",
+        "to": "math.measurement.area.recombine_area_parts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contextual area problems require selecting and combining appropriate area strategies.",
+        "failure_signal": "Learner computes part areas but cannot decide which areas answer the context question.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.radius_diameter.requires.circles_shape",
+        "from": "math.measurement.circles.radius_diameter_relationship",
+        "to": "math.space.shapes.properties_2d",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Circle measurement requires recognising circle features and their parts.",
+        "failure_signal": "Learner cannot identify centre, radius or diameter on a circle diagram.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circumference_requires.radius_diameter",
+        "from": "math.measurement.circles.circumference_formula",
+        "to": "math.measurement.circles.radius_diameter_relationship",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Circumference formulas use radius or diameter relationships.",
+        "failure_signal": "Learner uses radius and diameter interchangeably in circumference formulas.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_area_requires.radius_diameter",
+        "from": "math.measurement.circles.circle_area_formula",
+        "to": "math.measurement.circles.radius_diameter_relationship",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Circle area formula depends on using radius correctly.",
+        "failure_signal": "Learner substitutes diameter into the radius-squared term.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.semicircles_requires.circle_formulas",
+        "from": "math.measurement.circles.semicircles_quarter_circles",
+        "to": "math.measurement.circles.circle_area_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Semicircle and quarter-circle problems require applying whole-circle formulas to fractional parts.",
+        "failure_signal": "Learner calculates a whole circle but forgets to take the appropriate fraction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_contexts_requires.circumference",
+        "from": "math.measurement.circles.circumference_area_contexts",
+        "to": "math.measurement.circles.circumference_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Circle contexts often require distinguishing boundary length from area before calculating.",
+        "failure_signal": "Learner uses the area formula when the context asks for distance around the circle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.has_mis.area_confusion",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.misconception.measurement.perimeter_area_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_tri.has_mis.grid_lines",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.misconception.measurement.count_grid_lines_not_squares",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.has_mis.shared_sides",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.misconception.measurement.double_count_shared_sides",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circles.has_mis.diameter_radius",
+        "from": "math.measurement.area.circles",
+        "to": "math.misconception.measurement.use_diameter_as_radius",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rect_tri.has_mis.linear_area_units",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.misconception.measurement.area_units_linear_units",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 753,
+    "edges": 1464
+  },
+  "graph_counts_after": {
+    "nodes": 789,
+    "edges": 1547
+  }
+}

@@ -1,0 +1,1200 @@
+{
+  "patch_id": "math-statistics-bivariate-association-detail-001",
+  "applied_at": "2026-06-04T15:53:47.233Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 21,
+      "edges_created": 45,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.case_identifier_for_pairs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Case identifier for paired data",
+        "description": "Identify the person, object, location or time point that links two measurements into a paired data case.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.variable_pairing_integrity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Variable pairing integrity",
+        "description": "Keep the two values from the same case together when organising, plotting or analysing paired data.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Explanatory variable on x-axis",
+        "description": "Place the explanatory variable on the horizontal axis when constructing a scatterplot in a predictive context.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.response_variable_on_y_axis",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Response variable on y-axis",
+        "description": "Place the response variable on the vertical axis when constructing a scatterplot in a predictive context.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.scatterplot_point_as_case",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Scatterplot point as case",
+        "description": "Interpret each point in a scatterplot as one case with two recorded numerical values.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.choose_scatterplot_scale",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Choose scatterplot scale",
+        "description": "Choose axis scales for a scatterplot that show the data range clearly without distorting the relationship.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.overlapping_points_in_scatterplots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Overlapping points in scatterplots",
+        "description": "Recognise when two or more cases have identical or very similar paired values and appear as overlapping points.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.positive_association_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Positive association language",
+        "description": "Describe a positive association as one where larger values of one variable tend to occur with larger values of the other.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.negative_association_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Negative association language",
+        "description": "Describe a negative association as one where larger values of one variable tend to occur with smaller values of the other.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.no_association_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "No association language",
+        "description": "Describe a scatterplot with no clear pattern as showing little or no association between the variables.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.linear_association_detection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Linear association detection",
+        "description": "Decide whether a bivariate pattern is approximately linear enough for linear summaries or a line of best fit to be useful.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.curved_association_detection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Curved association detection",
+        "description": "Recognise bivariate patterns that bend or curve rather than following an approximately straight-line form.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.strong_vs_weak_association",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Strong versus weak association",
+        "description": "Judge association strength by how closely points follow an overall pattern rather than by slope steepness alone.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.outlier_influence_on_correlation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Outlier influence on correlation",
+        "description": "Explain how unusual points can change the apparent strength, direction or fitted line in bivariate data.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.correlation_sign_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation sign interpretation",
+        "description": "Interpret the sign of a correlation coefficient as indicating positive or negative linear association.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.correlation_magnitude_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation magnitude interpretation",
+        "description": "Interpret the magnitude of a correlation coefficient as describing the strength of a linear association.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.correlation_requires_linear_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation requires linear context",
+        "description": "Use correlation coefficient only as a summary of linear association, not as a complete description of every bivariate pattern.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.correlation_between_negative_one_and_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation lies between negative one and one",
+        "description": "A correlation coefficient is between -1 and 1, with sign showing direction and magnitude showing linear strength.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.swapping_variables_has_no_effect",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Swapping variables has no effect",
+        "description": "Learner assumes explanatory and response variables can always be swapped without changing the question, model or interpretation.",
+        "aliases": [],
+        "year_band": "8-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.correlation_for_any_pattern",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation works for any pattern",
+        "description": "Learner treats correlation coefficient as an appropriate summary for curved or non-linear relationships without checking form.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.outlier_should_always_be_ignored_bivariate",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Bivariate outlier should always be ignored",
+        "description": "Learner automatically ignores unusual bivariate points rather than investigating context and influence.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.case_identifier.part_of.paired_data",
+        "from": "math.statistics.bivariate.case_identifier_for_pairs",
+        "to": "math.statistics.bivariate.paired_numerical_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pairing_integrity.part_of.paired_data",
+        "from": "math.statistics.bivariate.variable_pairing_integrity",
+        "to": "math.statistics.bivariate.paired_numerical_data",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_axis.part_of.explanatory_response",
+        "from": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+        "to": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_axis.part_of.explanatory_response",
+        "from": "math.statistics.bivariate.response_variable_on_y_axis",
+        "to": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.point_as_case.part_of.read_scatterplots",
+        "from": "math.statistics.bivariate.scatterplot_point_as_case",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_scatter_scale.part_of.axes_scales",
+        "from": "math.statistics.bivariate.choose_scatterplot_scale",
+        "to": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.overlap_points.part_of.read_scatterplots",
+        "from": "math.statistics.bivariate.overlapping_points_in_scatterplots",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.positive_assoc.part_of.direction",
+        "from": "math.statistics.bivariate.positive_association_language",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_assoc.part_of.direction",
+        "from": "math.statistics.bivariate.negative_association_language",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.no_assoc.part_of.direction",
+        "from": "math.statistics.bivariate.no_association_language",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_detection.part_of.form",
+        "from": "math.statistics.bivariate.linear_association_detection",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.curved_detection.part_of.form",
+        "from": "math.statistics.bivariate.curved_association_detection",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.strong_weak.part_of.strength",
+        "from": "math.statistics.bivariate.strong_vs_weak_association",
+        "to": "math.statistics.bivariate.strength_of_association",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outlier_corr.part_of.clusters_outliers",
+        "from": "math.statistics.bivariate.outlier_influence_on_correlation",
+        "to": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corr_sign.part_of.correlation",
+        "from": "math.statistics.bivariate.correlation_sign_interpretation",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corr_magnitude.part_of.correlation",
+        "from": "math.statistics.bivariate.correlation_magnitude_interpretation",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corr_linear_context.part_of.correlation",
+        "from": "math.statistics.bivariate.correlation_requires_linear_context",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.corr_bounds.part_of.corr_magnitude",
+        "from": "math.kp.statistics.correlation_between_negative_one_and_one",
+        "to": "math.statistics.bivariate.correlation_magnitude_interpretation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.swap_vars.part_of.explanatory_response",
+        "from": "math.misconception.statistics.swapping_variables_has_no_effect",
+        "to": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.corr_any_pattern.part_of.corr_linear_context",
+        "from": "math.misconception.statistics.correlation_for_any_pattern",
+        "to": "math.statistics.bivariate.correlation_requires_linear_context",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.outlier_ignore.part_of.outlier_corr",
+        "from": "math.misconception.statistics.outlier_should_always_be_ignored_bivariate",
+        "to": "math.statistics.bivariate.outlier_influence_on_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.paired.encompasses.case_identifier",
+        "from": "math.statistics.bivariate.paired_numerical_data",
+        "to": "math.statistics.bivariate.case_identifier_for_pairs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Identifying the case is central to recognising paired numerical data.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scatterplots.encompasses.point_case",
+        "from": "math.statistics.bivariate.read_scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_point_as_case",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Interpreting each point as one paired case is central to reading scatterplots.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direction.encompasses.positive_language",
+        "from": "math.statistics.bivariate.direction_of_association",
+        "to": "math.statistics.bivariate.positive_association_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Positive association language is a core part of direction of association.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation.encompasses.sign",
+        "from": "math.statistics.bivariate.correlation_coefficient_intro",
+        "to": "math.statistics.bivariate.correlation_sign_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Correlation interpretation directly practises sign and direction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.case_identifier.requires.unit_observation",
+        "from": "math.statistics.bivariate.case_identifier_for_pairs",
+        "to": "math.statistics.data.unit_of_observation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying paired cases builds on identifying the unit of observation in data collection.",
+        "failure_signal": "Learner pairs values from different people or cases without noticing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pairing_integrity.requires.case_identifier",
+        "from": "math.statistics.bivariate.variable_pairing_integrity",
+        "to": "math.statistics.bivariate.case_identifier_for_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Keeping pairs intact requires knowing what case links the two values.",
+        "failure_signal": "Learner sorts one variable independently and destroys the pairing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_axis.requires.explanatory_response",
+        "from": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+        "to": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Axis assignment in predictive scatterplots depends on distinguishing explanatory and response variables.",
+        "failure_signal": "Learner swaps variables and changes the interpretation of the model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_axis.requires.x_axis",
+        "from": "math.statistics.bivariate.response_variable_on_y_axis",
+        "to": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "After assigning the explanatory variable to x, the response variable is placed on y.",
+        "failure_signal": "Learner places the response variable on the wrong axis in a predictive context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.point_case.requires.pairing_integrity",
+        "from": "math.statistics.bivariate.scatterplot_point_as_case",
+        "to": "math.statistics.bivariate.variable_pairing_integrity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Each scatterplot point represents an intact pair from one case.",
+        "failure_signal": "Learner interprets x and y coordinates as unrelated observations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_scale.requires.axes_scales",
+        "from": "math.statistics.bivariate.choose_scatterplot_scale",
+        "to": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing a suitable scale builds on interpreting scatterplot axes and scales.",
+        "failure_signal": "Learner uses a scale that hides pattern or exaggerates differences.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.overlap_points.requires.point_case",
+        "from": "math.statistics.bivariate.overlapping_points_in_scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_point_as_case",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Overlapping points are multiple cases represented at the same or similar coordinates.",
+        "failure_signal": "Learner assumes one visible point always means one case only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.positive_assoc.requires.read_scatterplots",
+        "from": "math.statistics.bivariate.positive_association_language",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Positive association language depends on reading the overall scatterplot pattern.",
+        "failure_signal": "Learner describes one point instead of the overall upward pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_assoc.requires.positive_assoc",
+        "from": "math.statistics.bivariate.negative_association_language",
+        "to": "math.statistics.bivariate.positive_association_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Negative association is the complementary direction concept after positive association is understood.",
+        "failure_signal": "Learner says any downward pattern is weak or no association rather than negative association.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.no_assoc.requires.negative_assoc",
+        "from": "math.statistics.bivariate.no_association_language",
+        "to": "math.statistics.bivariate.negative_association_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "No-association descriptions require distinguishing both positive and negative directional patterns from no clear pattern.",
+        "failure_signal": "Learner forces a trend onto random scatter.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_detection.requires.direction",
+        "from": "math.statistics.bivariate.linear_association_detection",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Form is assessed after recognising the overall association direction or lack of direction.",
+        "failure_signal": "Learner fits a straight line without checking whether the relationship is roughly linear.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.curved_detection.requires.linear_detection",
+        "from": "math.statistics.bivariate.curved_association_detection",
+        "to": "math.statistics.bivariate.linear_association_detection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Curved form is recognised by contrast with approximately linear form.",
+        "failure_signal": "Learner summarises curved data using a linear trend without qualification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.strong_weak.requires.form",
+        "from": "math.statistics.bivariate.strong_vs_weak_association",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Strength is judged relative to an overall form or pattern.",
+        "failure_signal": "Learner judges strength from steepness instead of tightness around a pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outlier_corr.requires.clusters_outliers",
+        "from": "math.statistics.bivariate.outlier_influence_on_correlation",
+        "to": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Outlier influence depends on first identifying unusual points in the bivariate display.",
+        "failure_signal": "Learner reports correlation or fit without checking unusual influential points.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corr_sign.requires.direction",
+        "from": "math.statistics.bivariate.correlation_sign_interpretation",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The sign of correlation summarises the direction of a linear association.",
+        "failure_signal": "Learner confuses negative correlation with weak correlation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corr_magnitude.requires.strength",
+        "from": "math.statistics.bivariate.correlation_magnitude_interpretation",
+        "to": "math.statistics.bivariate.strength_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Correlation magnitude summarises the strength of a linear association.",
+        "failure_signal": "Learner interprets correlation magnitude as slope or rate of change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corr_linear_context.requires.linear_detection",
+        "from": "math.statistics.bivariate.correlation_requires_linear_context",
+        "to": "math.statistics.bivariate.linear_association_detection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Correlation coefficient is appropriate only when a linear summary is meaningful.",
+        "failure_signal": "Learner reports correlation as a complete summary of a curved pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.explanatory_response.has_mis.swap_vars",
+        "from": "math.statistics.bivariate.explanatory_response_variables",
+        "to": "math.misconception.statistics.swapping_variables_has_no_effect",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corr_linear.has_mis.any_pattern",
+        "from": "math.statistics.bivariate.correlation_requires_linear_context",
+        "to": "math.misconception.statistics.correlation_for_any_pattern",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outlier_corr.has_mis.ignore",
+        "from": "math.statistics.bivariate.outlier_influence_on_correlation",
+        "to": "math.misconception.statistics.outlier_should_always_be_ignored_bivariate",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/bivariate_data_and_inference.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2294,
+    "edges": 4798
+  },
+  "graph_counts_after": {
+    "nodes": 2315,
+    "edges": 4843
+  }
+}

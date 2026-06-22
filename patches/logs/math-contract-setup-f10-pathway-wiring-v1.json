@@ -1,0 +1,205 @@
+{
+  "patch_id": "math-contract-setup-f10-pathway-wiring-v1",
+  "applied_at": "2026-06-05T18:35:59.717Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.number",
+        "message": "Encompassing edge has no nearby prerequisite/support/part relationship."
+      },
+      {
+        "code": "encompasses_target_too_broad",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.number",
+        "message": "Target may be too broad to receive practice credit."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.algebra",
+        "message": "Encompassing edge has no nearby prerequisite/support/part relationship."
+      },
+      {
+        "code": "encompasses_target_too_broad",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.algebra",
+        "message": "Target may be too broad to receive practice credit."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.measurement",
+        "message": "Encompassing edge has no nearby prerequisite/support/part relationship."
+      },
+      {
+        "code": "encompasses_target_too_broad",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.measurement",
+        "message": "Target may be too broad to receive practice credit."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.space",
+        "message": "Encompassing edge has no nearby prerequisite/support/part relationship."
+      },
+      {
+        "code": "encompasses_target_too_broad",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.space",
+        "message": "Target may be too broad to receive practice credit."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.statistics",
+        "message": "Encompassing edge has no nearby prerequisite/support/part relationship."
+      },
+      {
+        "code": "encompasses_target_too_broad",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.statistics",
+        "message": "Target may be too broad to receive practice credit."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.probability",
+        "message": "Encompassing edge has no nearby prerequisite/support/part relationship."
+      },
+      {
+        "code": "encompasses_target_too_broad",
+        "severity": "warning",
+        "edge_id": "edge.pathway.f10_core.encompasses.probability",
+        "message": "Target may be too broad to receive practice credit."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pathway.f10_core.encompasses.number",
+        "from": "math.pathway.f10_core",
+        "to": "math.strand.number",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Under contract v0.2, pathway nodes are authoritative route objects and F-10 core mathematics encompasses the six F-10 strands.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pathway.f10_core.encompasses.algebra",
+        "from": "math.pathway.f10_core",
+        "to": "math.strand.algebra",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Under contract v0.2, pathway nodes are authoritative route objects and F-10 core mathematics encompasses the six F-10 strands.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pathway.f10_core.encompasses.measurement",
+        "from": "math.pathway.f10_core",
+        "to": "math.strand.measurement",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Under contract v0.2, pathway nodes are authoritative route objects and F-10 core mathematics encompasses the six F-10 strands.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pathway.f10_core.encompasses.space",
+        "from": "math.pathway.f10_core",
+        "to": "math.strand.space",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Under contract v0.2, pathway nodes are authoritative route objects and F-10 core mathematics encompasses the six F-10 strands.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pathway.f10_core.encompasses.statistics",
+        "from": "math.pathway.f10_core",
+        "to": "math.strand.statistics",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Under contract v0.2, pathway nodes are authoritative route objects and F-10 core mathematics encompasses the six F-10 strands.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pathway.f10_core.encompasses.probability",
+        "from": "math.pathway.f10_core",
+        "to": "math.strand.probability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Under contract v0.2, pathway nodes are authoritative route objects and F-10 core mathematics encompasses the six F-10 strands.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2510,
+    "edges": 5233
+  },
+  "graph_counts_after": {
+    "nodes": 2510,
+    "edges": 5239
+  }
+}

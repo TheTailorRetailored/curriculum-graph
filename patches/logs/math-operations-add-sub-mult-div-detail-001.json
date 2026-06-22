@@ -1,0 +1,1779 @@
+{
+  "patch_id": "math-operations-add-sub-mult-div-detail-001",
+  "applied_at": "2026-05-23T13:27:01.398Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.number.operations.equal_groups_intro",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 68,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.counting_on_addition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Counting on addition",
+        "description": "Add by starting from one addend and counting on.",
+        "aliases": [],
+        "year_band": "1-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.counting_back_subtraction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Counting back subtraction",
+        "description": "Subtract by counting back from the starting number.",
+        "aliases": [],
+        "year_band": "1-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.number_bonds_to_20",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Number bonds to 20",
+        "description": "Use known pairs that make numbers to 20.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.make_ten_addition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Make ten addition",
+        "description": "Use combinations to ten to simplify addition.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.doubles_near_doubles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Doubles near doubles",
+        "description": "Use doubles and near doubles to derive addition facts.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.partition_addition_subtraction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Partition addition subtraction",
+        "description": "Partition numbers into place-value parts to add or subtract.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.compensation_addition_subtraction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Compensation addition subtraction",
+        "description": "Adjust numbers to make a calculation easier and compensate to preserve value.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.regrouping_addition_subtraction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Regrouping addition subtraction",
+        "description": "Use regrouping when adding or subtracting multi-digit whole numbers.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.equal_groups_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Equal groups intro",
+        "description": "Represent multiplication situations as equal groups.",
+        "aliases": [],
+        "year_band": "2-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.arrays_multiplication",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Arrays multiplication",
+        "description": "Use rows and columns to represent multiplication facts.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.skip_counting_multiplication",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Skip counting multiplication",
+        "description": "Use skip counting to generate multiplication sequences.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.repeated_addition_multiplication",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Repeated addition multiplication",
+        "description": "Connect multiplication to repeated addition of equal groups.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.multiplication_facts_2_5_10",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiplication facts 2 5 10",
+        "description": "Develop fluency with multiplication facts for 2s, 5s and 10s.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.commutative_multiplication_facts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Commutative multiplication facts",
+        "description": "Use factor order to connect related multiplication facts.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.division_sharing_grouping",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Division sharing grouping",
+        "description": "Interpret division as equal sharing and equal grouping.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.inverse_multiplication_division_facts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Inverse multiplication division facts",
+        "description": "Use multiplication facts to derive related division facts.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.addition_combines_quantities",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Addition combines quantities",
+        "description": "Addition joins or combines quantities into a total.",
+        "aliases": [],
+        "year_band": "1-2",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.subtraction_removes_or_compares",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Subtraction removes or compares",
+        "description": "Subtraction can represent taking away, finding difference or finding a missing part.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.facts_can_be_derived",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Facts can be derived",
+        "description": "Unknown facts can be worked out from known related facts.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.place_value_supports_operations",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Place value supports operations",
+        "description": "Tens, hundreds and other place values can be used to structure calculations.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.compensation_preserves_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Compensation preserves value",
+        "description": "An adjustment in a calculation can be balanced to keep the result unchanged.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.multiplication_equal_groups",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiplication uses equal groups",
+        "description": "Multiplication counts equal-sized groups efficiently.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.arrays_show_factors_product",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Arrays show factors and product",
+        "description": "Rows and columns show factors, and the total entries show the product.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.factor_order_product_same",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Factor order gives same product",
+        "description": "Changing the order of two factors does not change the product.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.division_undoes_multiplication",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Division undoes multiplication",
+        "description": "Related multiplication and division facts describe the same equal-group structure.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.operations.fluency_uses_strategy_and_recall",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Fluency uses strategy and recall",
+        "description": "Fact fluency includes accurate recall and efficient derivation strategies.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.counting_all_always_needed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Counting all always needed",
+        "description": "Learner counts every item even when a more efficient strategy is available.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.operation_changes_both_numbers",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Operation changes both numbers",
+        "description": "Learner adjusts both numbers in an operation without preserving the result.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.regrouping_moves_digits_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Regrouping moves digits only",
+        "description": "Learner treats regrouping as moving digits without exchanging place-value units.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.multiplication_means_bigger",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiplication means bigger",
+        "description": "Learner assumes multiplication must always make a number larger.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.operations.division_always_sharing_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Division always sharing only",
+        "description": "Learner recognises sharing situations but not equal grouping situations for division.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_on_addition.part_of.add_sub",
+        "from": "math.number.operations.counting_on_addition",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_back_subtraction.part_of.add_sub",
+        "from": "math.number.operations.counting_back_subtraction",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.number_bonds_to_20.part_of.add_sub",
+        "from": "math.number.operations.number_bonds_to_20",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_ten_addition.part_of.add_sub",
+        "from": "math.number.operations.make_ten_addition",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubles_near_doubles.part_of.add_sub",
+        "from": "math.number.operations.doubles_near_doubles",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partition_addition_subtraction.part_of.add_sub",
+        "from": "math.number.operations.partition_addition_subtraction",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compensation_addition_subtraction.part_of.add_sub",
+        "from": "math.number.operations.compensation_addition_subtraction",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.regrouping_addition_subtraction.part_of.add_sub",
+        "from": "math.number.operations.regrouping_addition_subtraction",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_groups_intro.part_of.mult_div",
+        "from": "math.number.operations.equal_groups_intro",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arrays_multiplication.part_of.mult_div",
+        "from": "math.number.operations.arrays_multiplication",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.skip_counting_multiplication.part_of.mult_div",
+        "from": "math.number.operations.skip_counting_multiplication",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeated_addition_multiplication.part_of.mult_div",
+        "from": "math.number.operations.repeated_addition_multiplication",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_facts_2_5_10.part_of.mult_div",
+        "from": "math.number.operations.multiplication_facts_2_5_10",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.commutative_multiplication_facts.part_of.mult_div",
+        "from": "math.number.operations.commutative_multiplication_facts",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.division_sharing_grouping.part_of.mult_div",
+        "from": "math.number.operations.division_sharing_grouping",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_mult_div_facts.part_of.mult_div",
+        "from": "math.number.operations.inverse_multiplication_division_facts",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_addition_combines.part_of.add_sub",
+        "from": "math.kp.operations.addition_combines_quantities",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_subtraction_removes_compares.part_of.add_sub",
+        "from": "math.kp.operations.subtraction_removes_or_compares",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_facts_derived.part_of.operations",
+        "from": "math.kp.operations.facts_can_be_derived",
+        "to": "math.area.whole_number_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_place_value_operations.part_of.add_sub",
+        "from": "math.kp.operations.place_value_supports_operations",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compensation_preserves.part_of.add_sub",
+        "from": "math.kp.operations.compensation_preserves_value",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mult_equal_groups.part_of.mult_div",
+        "from": "math.kp.operations.multiplication_equal_groups",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_arrays_factors_product.part_of.mult_div",
+        "from": "math.kp.operations.arrays_show_factors_product",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_factor_order_product.part_of.mult_div",
+        "from": "math.kp.operations.factor_order_product_same",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_division_undoes_mult.part_of.mult_div",
+        "from": "math.kp.operations.division_undoes_multiplication",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fluency_strategy_recall.part_of.mult_div",
+        "from": "math.kp.operations.fluency_uses_strategy_and_recall",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_counting_all.part_of.add_sub",
+        "from": "math.misconception.operations.counting_all_always_needed",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_operation_changes_both.part_of.add_sub",
+        "from": "math.misconception.operations.operation_changes_both_numbers",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_regrouping_digits.part_of.add_sub",
+        "from": "math.misconception.operations.regrouping_moves_digits_only",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_mult_bigger.part_of.mult_div",
+        "from": "math.misconception.operations.multiplication_means_bigger",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_division_sharing_only.part_of.mult_div",
+        "from": "math.misconception.operations.division_always_sharing_only",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.encompasses.counting_on",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.operations.counting_on_addition",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Addition strategy work practises counting on as an early efficient strategy.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.encompasses.counting_back",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.operations.counting_back_subtraction",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Subtraction strategy work practises counting back as an early strategy.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.encompasses.number_bonds",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.operations.number_bonds_to_20",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Number bonds support fluent addition and subtraction within 20.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.encompasses.make_ten",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.operations.make_ten_addition",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Make-ten is a central mental addition strategy.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.encompasses.doubles",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.operations.doubles_near_doubles",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Doubles and near doubles support derived addition facts.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.encompasses.partitioning",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.operations.partition_addition_subtraction",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Partitioning is a core place-value strategy for addition and subtraction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.encompasses.compensation",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.operations.compensation_addition_subtraction",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Compensation is an efficient mental strategy for some addition and subtraction tasks.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.encompasses.regrouping",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.operations.regrouping_addition_subtraction",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Regrouping is central to multi-digit written addition and subtraction.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.encompasses.equal_groups",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.equal_groups_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Multiplication and division fact work practises equal-group structure.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.encompasses.arrays",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.arrays_multiplication",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Arrays are a key representation for multiplication facts.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.encompasses.skip_counting",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.skip_counting_multiplication",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Skip counting supports early multiplication fact generation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.encompasses.repeated_addition",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.repeated_addition_multiplication",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Repeated addition helps connect equal groups to multiplication facts.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.encompasses.facts_2_5_10",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.multiplication_facts_2_5_10",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Facts for 2s, 5s and 10s are common early multiplication fact sets.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.encompasses.commutative_facts",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.commutative_multiplication_facts",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Commutativity reduces the number of independent multiplication facts to learn.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.encompasses.division_sharing_grouping",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.division_sharing_grouping",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Division facts are grounded in equal sharing and equal grouping.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.encompasses.inverse_facts",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.inverse_multiplication_division_facts",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Related multiplication and division facts form inverse fact families.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_on_requires.counting_on_number",
+        "from": "math.number.operations.counting_on_addition",
+        "to": "math.number.counting.counting_on_from_number",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Counting-on addition requires continuing the count sequence from a known number.",
+        "failure_signal": "Learner restarts at one instead of counting on from an addend.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_back_requires.counting_forward",
+        "from": "math.number.operations.counting_back_subtraction",
+        "to": "math.number.counting.forward_counting_sequences",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Counting back depends on a stable number sequence and its order.",
+        "failure_signal": "Learner loses the sequence when moving backward from a start number.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.number_bonds_requires.cardinality",
+        "from": "math.number.operations.number_bonds_to_20",
+        "to": "math.number.counting.cardinality",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Number bonds require understanding totals and parts of collections.",
+        "failure_signal": "Learner lists pairs without relating them to a fixed total.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_ten_requires.number_bonds",
+        "from": "math.number.operations.make_ten_addition",
+        "to": "math.number.operations.number_bonds_to_20",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Make-ten addition uses known combinations that complete ten.",
+        "failure_signal": "Learner cannot identify the complement needed to make ten.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubles_requires.number_bonds",
+        "from": "math.number.operations.doubles_near_doubles",
+        "to": "math.number.operations.number_bonds_to_20",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Doubles and near doubles build on fluent small-number combinations.",
+        "failure_signal": "Learner cannot derive near doubles from known doubles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partition_add_sub_requires.tens_ones",
+        "from": "math.number.operations.partition_addition_subtraction",
+        "to": "math.number.place_value.tens_and_ones",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Partitioning for operations uses tens-and-ones structure.",
+        "failure_signal": "Learner partitions numbers by digits without place-value meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compensation_requires.partition",
+        "from": "math.number.operations.compensation_addition_subtraction",
+        "to": "math.number.operations.partition_addition_subtraction",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Compensation relies on understanding how changes to parts affect the whole calculation.",
+        "failure_signal": "Learner adjusts numbers without balancing the adjustment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.regrouping_requires.partition",
+        "from": "math.number.operations.regrouping_addition_subtraction",
+        "to": "math.number.operations.partition_addition_subtraction",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Regrouping multi-digit operations depends on partitioning by place value.",
+        "failure_signal": "Learner regroups digits without exchanging tens and ones or hundreds and tens.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_groups_requires.count_out_quantity",
+        "from": "math.number.operations.equal_groups_intro",
+        "to": "math.number.counting.count_out_given_quantity",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "low",
+        "rationale": "Equal groups can be introduced concretely, and counting out supports making groups of a given size.",
+        "failure_signal": "Learner forms groups with inconsistent quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arrays_requires.equal_groups",
+        "from": "math.number.operations.arrays_multiplication",
+        "to": "math.number.operations.equal_groups_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Arrays organise equal groups into rows and columns.",
+        "failure_signal": "Learner sees an array as scattered objects rather than equal rows or columns.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.skip_counting_multiplication_requires.counting",
+        "from": "math.number.operations.skip_counting_multiplication",
+        "to": "math.number.counting.forward_counting_sequences",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Skip counting uses repeated steps within the count sequence.",
+        "failure_signal": "Learner cannot maintain the sequence by equal jumps.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeated_addition_requires.equal_groups",
+        "from": "math.number.operations.repeated_addition_multiplication",
+        "to": "math.number.operations.equal_groups_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Repeated addition for multiplication requires equal-sized groups.",
+        "failure_signal": "Learner adds unequal groups as if they were a multiplication fact.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.facts_2_5_10_requires.skip_counting",
+        "from": "math.number.operations.multiplication_facts_2_5_10",
+        "to": "math.number.operations.skip_counting_multiplication",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Facts for 2s, 5s and 10s are often generated and checked by skip counting.",
+        "failure_signal": "Learner cannot connect fact products to the related skip-count sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.commutative_facts_requires.arrays",
+        "from": "math.number.operations.commutative_multiplication_facts",
+        "to": "math.number.operations.arrays_multiplication",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Arrays make the same product visible when rows and columns are swapped.",
+        "failure_signal": "Learner treats 3 times 4 and 4 times 3 as unrelated facts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.division_sharing_grouping_requires.equal_groups",
+        "from": "math.number.operations.division_sharing_grouping",
+        "to": "math.number.operations.equal_groups_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Division as sharing or grouping depends on equal group structure.",
+        "failure_signal": "Learner shares unevenly or cannot form equal groups.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_mult_div_requires.division",
+        "from": "math.number.operations.inverse_multiplication_division_facts",
+        "to": "math.number.operations.division_sharing_grouping",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Inverse multiplication and division facts require interpreting related multiplication and division situations.",
+        "failure_signal": "Learner recalls products but cannot use them to find quotients.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.has_mis.counting_all",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.misconception.operations.counting_all_always_needed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.has_mis.operation_changes_both",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.misconception.operations.operation_changes_both_numbers",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.has_mis.regrouping_digits",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.misconception.operations.regrouping_moves_digits_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.has_mis.mult_bigger",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.misconception.operations.multiplication_means_bigger",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.has_mis.division_sharing_only",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.misconception.operations.division_always_sharing_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/whole_number_operations.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 325,
+    "edges": 504
+  },
+  "graph_counts_after": {
+    "nodes": 356,
+    "edges": 572
+  }
+}

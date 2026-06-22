@@ -1,0 +1,113 @@
+{
+  "patch_id": "math-decimals-add-subtract-support-links",
+  "applied_at": "2026-06-07T08:53:02.492Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub_decimals.uses_representation.place_value_chart",
+        "from": "math.decimals.add_subtract_decimals",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts show why like decimal places must align before adding or subtracting.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub_decimals.assessed_by.compute",
+        "from": "math.decimals.add_subtract_decimals",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute decimal sums and differences.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub_decimals.assessed_by.explain",
+        "from": "math.decimals.add_subtract_decimals",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain why decimal points and like place values align.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub_decimals.assessed_by.find_error",
+        "from": "math.decimals.add_subtract_decimals",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Error-finding tasks reveal rightmost-digit alignment errors.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub_decimals.has_mis.align_rightmost",
+        "from": "math.decimals.add_subtract_decimals",
+        "to": "math.misconception.decimals.align_rightmost_digits",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Learners may align the final digits rather than like place values when operating with decimals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2633,
+    "edges": 5539
+  },
+  "graph_counts_after": {
+    "nodes": 2633,
+    "edges": 5544
+  }
+}

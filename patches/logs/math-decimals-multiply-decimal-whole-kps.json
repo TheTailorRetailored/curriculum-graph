@@ -1,0 +1,105 @@
+{
+  "patch_id": "math-decimals-multiply-decimal-whole-kps",
+  "applied_at": "2026-06-07T08:54:38.833Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.multiply_decimal_by_whole_as_repeated_groups",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.multiply_decimal_by_whole_number",
+        "label": "Decimal times whole number can mean repeated groups",
+        "description": "Interpret multiplying a decimal by a whole number as repeated equal decimal-sized groups.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.estimate_decimal_product_magnitude",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.multiply_decimal_by_whole_number",
+        "label": "Estimate decimal product magnitude",
+        "description": "Use place value and estimation to decide whether a decimal product is reasonable.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_whole_repeated_groups.part_of.multiply_decimal_whole",
+        "from": "math.kp.decimals.multiply_decimal_by_whole_as_repeated_groups",
+        "to": "math.decimals.multiply_decimal_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_product_magnitude.part_of.multiply_decimal_whole",
+        "from": "math.kp.decimals.estimate_decimal_product_magnitude",
+        "to": "math.decimals.multiply_decimal_by_whole_number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2633,
+    "edges": 5544
+  },
+  "graph_counts_after": {
+    "nodes": 2635,
+    "edges": 5546
+  }
+}

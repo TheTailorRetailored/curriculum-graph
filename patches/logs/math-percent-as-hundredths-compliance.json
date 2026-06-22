@@ -1,0 +1,217 @@
+{
+  "patch_id": "math-percent-as-hundredths-compliance",
+  "applied_at": "2026-06-08T12:59:09.842Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 8,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.percent_symbol_means_per_hundred",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.percentages.percent_as_hundredths",
+        "label": "Percent symbol means per hundred",
+        "description": "Interpret the percent symbol as a shorthand for parts per hundred.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.percent_can_be_written_over_100",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.percentages.percent_as_hundredths",
+        "label": "Percent can be written as a fraction over 100",
+        "description": "Represent p percent as p parts out of 100 or as p/100.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.percentages.percent_means_per_hundred",
+      "updates": {
+        "parent_topic": "math.percentages.percent_as_hundredths"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_percent_per_hundred.part_of.percent_concepts",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP belongs to the specific percent-as-hundredths micro-topic rather than the broad percent-concepts sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_per_hundred.part_of.percent_as_hundredths",
+        "from": "math.kp.percentages.percent_means_per_hundred",
+        "to": "math.percentages.percent_as_hundredths",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_symbol.part_of.percent_as_hundredths",
+        "from": "math.kp.percentages.percent_symbol_means_per_hundred",
+        "to": "math.percentages.percent_as_hundredths",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_over_100.part_of.percent_as_hundredths",
+        "from": "math.kp.percentages.percent_can_be_written_over_100",
+        "to": "math.percentages.percent_as_hundredths",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_as_hundredths.uses_representation.area_model",
+        "from": "math.percentages.percent_as_hundredths",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models can show percent as parts out of a 100-part whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_as_hundredths.uses_representation.bar_model",
+        "from": "math.percentages.percent_as_hundredths",
+        "to": "math.representation.bar_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Bar models can show percent as a portion of a whole scaled to 100.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_as_hundredths.assessed_by.compute",
+        "from": "math.percentages.percent_as_hundredths",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can rewrite percents as fractions over 100.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_as_hundredths.assessed_by.explain",
+        "from": "math.percentages.percent_as_hundredths",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain percent as per hundred.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_as_hundredths.assessed_by.model",
+        "from": "math.percentages.percent_as_hundredths",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model percents as parts of a 100-part whole.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2638,
+    "edges": 5559
+  },
+  "graph_counts_after": {
+    "nodes": 2640,
+    "edges": 5567
+  }
+}

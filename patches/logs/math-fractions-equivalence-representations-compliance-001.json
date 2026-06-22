@@ -1,0 +1,307 @@
+{
+  "patch_id": "math-fractions-equivalence-representations-compliance-001",
+  "applied_at": "2026-06-05T20:03:28.305Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 5,
+      "edges_created": 11,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.area_models_same_whole",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Area models must use the same whole",
+        "description": "Equivalent fraction area models compare fractions only when the models represent the same-sized whole.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [
+          "F-10 core"
+        ],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_area_models_same_whole.part_of.equivalent_area_models",
+        "from": "math.kp.fractions.area_models_same_whole",
+        "to": "math.fractions.equivalent_area_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.repartitioning_can_preserve_shaded_amount",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Repartitioning can preserve shaded amount",
+        "description": "A whole can be partitioned into more or fewer equal parts while the shaded amount remains unchanged.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [
+          "F-10 core"
+        ],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_repartitioning_can_preserve_shaded_amount.part_of.equivalent_area_models",
+        "from": "math.kp.fractions.repartitioning_can_preserve_shaded_amount",
+        "to": "math.fractions.equivalent_area_models",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_area_models.uses_representation.area_model",
+        "from": "math.fractions.equivalent_area_models",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "rationale": "The lesson is specifically about using area models to show equivalence."
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_area_models.assessed_by.model",
+        "from": "math.fractions.equivalent_area_models",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_area_models.assessed_by.explain",
+        "from": "math.fractions.equivalent_area_models",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.equivalent_fractions_same_number_line_point",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Equivalent fractions share a number-line point",
+        "description": "Equivalent fractions are located at the same point on a number line even when their numerators and denominators are different.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [
+          "F-10 core"
+        ],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equivalent_fractions_same_number_line_point.part_of.equivalent_number_lines",
+        "from": "math.kp.fractions.equivalent_fractions_same_number_line_point",
+        "to": "math.fractions.equivalent_number_lines",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.align_fraction_ticks_for_equivalence",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Align fraction ticks to compare equivalence",
+        "description": "Fractions can be compared for equivalence by aligning subdivisions and checking whether their tick marks land at the same position.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [
+          "F-10 core"
+        ],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_align_fraction_ticks_for_equivalence.part_of.equivalent_number_lines",
+        "from": "math.kp.fractions.align_fraction_ticks_for_equivalence",
+        "to": "math.fractions.equivalent_number_lines",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_distance_from_zero_means_same_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Same distance from zero means same value",
+        "description": "On a number line, fractions at the same distance from zero represent the same value.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [
+          "F-10 core"
+        ],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_distance_from_zero_means_same_value.part_of.equivalent_number_lines",
+        "from": "math.kp.fractions.same_distance_from_zero_means_same_value",
+        "to": "math.fractions.equivalent_number_lines",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_number_lines.uses_representation.number_line",
+        "from": "math.fractions.equivalent_number_lines",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "rationale": "The lesson is specifically about using number lines to show equivalence."
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_number_lines.assessed_by.model",
+        "from": "math.fractions.equivalent_number_lines",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_number_lines.assessed_by.explain",
+        "from": "math.fractions.equivalent_number_lines",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2524,
+    "edges": 5251
+  },
+  "graph_counts_after": {
+    "nodes": 2529,
+    "edges": 5262
+  }
+}

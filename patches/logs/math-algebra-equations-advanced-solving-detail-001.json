@@ -1,0 +1,1368 @@
+{
+  "patch_id": "math-algebra-equations-advanced-solving-detail-001",
+  "applied_at": "2026-05-30T09:46:10.087Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 25,
+      "edges_created": 51,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.clear_denominators",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Clear denominators in equations",
+        "description": "Multiply through by a common denominator to solve linear equations with fractional coefficients or terms.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.decimal_coefficients",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Equations with decimal coefficients",
+        "description": "Solve linear equations involving decimal coefficients by using inverse operations or scaling to equivalent equations.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.distribute_negative_brackets",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Distribute negative brackets in equations",
+        "description": "Expand brackets with a negative factor before solving linear equations.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.expand_then_collect",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Expand then collect in equations",
+        "description": "Expand brackets and then collect like terms before isolating the variable.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.choose_side_for_variable_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Choose side for variable terms",
+        "description": "Choose a useful side to collect variable terms when solving equations with variables on both sides.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.constant_terms_after_variable_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Move constant terms after variable terms",
+        "description": "Move constant terms after collecting variable terms to isolate the unknown in equations with variables on both sides.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.identity_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Identity equations",
+        "description": "Recognise equations that simplify to a true statement and therefore have infinitely many solutions.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.no_solution_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "No solution equations",
+        "description": "Recognise equations that simplify to a false statement and therefore have no solution.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.solution_set_reasoning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Solution set reasoning for equations",
+        "description": "Distinguish one solution, no solution and infinitely many solutions for linear equations.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.literal_one_operation_rearrangement",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "One-operation literal rearrangement",
+        "description": "Rearrange a formula by applying one inverse operation to make a specified variable the subject.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.literal_two_step_rearrangement",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Two-step literal rearrangement",
+        "description": "Rearrange a formula requiring two inverse-operation steps to make a specified variable the subject.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.literal_factorise_to_isolate",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Factorise to isolate a variable",
+        "description": "Factorise expressions to isolate a variable that appears in more than one term of a literal equation.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.literal_variable_in_denominator",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Variable in denominator rearrangement",
+        "description": "Rearrange literal equations where the target variable appears in a denominator, attending to restrictions.",
+        "aliases": [],
+        "year_band": "10-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.context_equations_define_variable",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Define variables in equation contexts",
+        "description": "Define the unknown quantity before writing an equation from a worded or contextual situation.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.context_equations_validate_solution",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Validate contextual equation solutions",
+        "description": "Check whether an algebraic solution is reasonable and meaningful in the original context.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.equations.clearing_denominators_preserves_equivalence",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Clearing denominators preserves equivalence",
+        "description": "Multiplying both sides by the same nonzero common denominator gives an equivalent equation.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.equations.negative_factor_distributes_to_all_terms",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Negative factor distributes to all terms",
+        "description": "A negative factor outside brackets changes the sign of every term inside the brackets when expanded.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.equations.variable_terms_can_cancel",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Variable terms can cancel",
+        "description": "When variable terms cancel from both sides, the remaining statement determines whether there are no solutions or infinitely many solutions.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.equations.literal_rearrangement_reverses_operations",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Literal rearrangement reverses operations",
+        "description": "Making a variable the subject uses inverse operations while preserving equivalence between formulas.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.equations.context_solution_must_fit_constraints",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Context solution must fit constraints",
+        "description": "A solution from an equation must be checked against the meaning and restrictions of the original context.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.equations.clear_only_one_denominator",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Clear only one denominator",
+        "description": "Learner multiplies only one term by the common denominator instead of multiplying every term on both sides.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.equations.negative_bracket_first_term_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Negative bracket changes first term only",
+        "description": "Learner distributes a negative sign to only the first term inside brackets.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.equations.cancelled_variable_means_zero_solution",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Cancelled variable means zero solution",
+        "description": "Learner assumes that when variable terms cancel, the solution must be zero instead of checking the remaining statement.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.equations.rearrange_literal_as_if_numbers",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Rearrange literal equation as if variables are numbers",
+        "description": "Learner applies informal numeric shortcuts to literal equations without preserving equivalence for all variable values.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.equations.context_ignores_domain",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Context ignores domain restrictions",
+        "description": "Learner accepts an algebraic answer that is impossible or meaningless in the original context.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clear_denominators.part_of.rational_coefficients",
+        "from": "math.algebra.equations.clear_denominators",
+        "to": "math.algebra.equations.rational_coefficient_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_coefficients.part_of.rational_coefficients",
+        "from": "math.algebra.equations.decimal_coefficients",
+        "to": "math.algebra.equations.rational_coefficient_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distribute_negative.part_of.brackets",
+        "from": "math.algebra.equations.distribute_negative_brackets",
+        "to": "math.algebra.equations.equations_with_brackets",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_collect.part_of.multi_step",
+        "from": "math.algebra.equations.expand_then_collect",
+        "to": "math.algebra.equations.multi_step_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_side_variable_terms.part_of.variables_both_sides",
+        "from": "math.algebra.equations.choose_side_for_variable_terms",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_terms_after_variable_terms.part_of.variables_both_sides",
+        "from": "math.algebra.equations.constant_terms_after_variable_terms",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identity_equations.part_of.variables_both_sides",
+        "from": "math.algebra.equations.identity_equations",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.no_solution_equations.part_of.variables_both_sides",
+        "from": "math.algebra.equations.no_solution_equations",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solution_set_reasoning.part_of.multi_step",
+        "from": "math.algebra.equations.solution_set_reasoning",
+        "to": "math.algebra.equations.multi_step_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_one_operation.part_of.literal",
+        "from": "math.algebra.equations.literal_one_operation_rearrangement",
+        "to": "math.algebra.equations.rearrange_literal_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_two_step.part_of.literal",
+        "from": "math.algebra.equations.literal_two_step_rearrangement",
+        "to": "math.algebra.equations.rearrange_literal_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_factorise.part_of.literal",
+        "from": "math.algebra.equations.literal_factorise_to_isolate",
+        "to": "math.algebra.equations.rearrange_literal_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_variable_denominator.part_of.literal",
+        "from": "math.algebra.equations.literal_variable_in_denominator",
+        "to": "math.algebra.equations.rearrange_literal_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_define_variable.part_of.missing_value",
+        "from": "math.algebra.equations.context_equations_define_variable",
+        "to": "math.algebra.equations.missing_value_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_validate_solution.part_of.missing_value",
+        "from": "math.algebra.equations.context_equations_validate_solution",
+        "to": "math.algebra.equations.missing_value_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.clear_denominators.part_of.rational_coefficients",
+        "from": "math.kp.equations.clearing_denominators_preserves_equivalence",
+        "to": "math.algebra.equations.rational_coefficient_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.negative_distribution.part_of.brackets",
+        "from": "math.kp.equations.negative_factor_distributes_to_all_terms",
+        "to": "math.algebra.equations.equations_with_brackets",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.variable_terms_cancel.part_of.solution_sets",
+        "from": "math.kp.equations.variable_terms_can_cancel",
+        "to": "math.algebra.equations.solution_set_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.literal_reverse.part_of.literal",
+        "from": "math.kp.equations.literal_rearrangement_reverses_operations",
+        "to": "math.algebra.equations.rearrange_literal_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.context_constraints.part_of.missing_value",
+        "from": "math.kp.equations.context_solution_must_fit_constraints",
+        "to": "math.algebra.equations.missing_value_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.clear_one_denominator.part_of.rational",
+        "from": "math.misconception.equations.clear_only_one_denominator",
+        "to": "math.algebra.equations.rational_coefficient_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.negative_bracket_first.part_of.brackets",
+        "from": "math.misconception.equations.negative_bracket_first_term_only",
+        "to": "math.algebra.equations.equations_with_brackets",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.cancelled_variable_zero.part_of.solution_sets",
+        "from": "math.misconception.equations.cancelled_variable_means_zero_solution",
+        "to": "math.algebra.equations.solution_set_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.literal_as_numbers.part_of.literal",
+        "from": "math.misconception.equations.rearrange_literal_as_if_numbers",
+        "to": "math.algebra.equations.rearrange_literal_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.context_domain.part_of.missing_value",
+        "from": "math.misconception.equations.context_ignores_domain",
+        "to": "math.algebra.equations.missing_value_equations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rational_coefficients.encompasses.clear_denominators",
+        "from": "math.algebra.equations.rational_coefficient_equations",
+        "to": "math.algebra.equations.clear_denominators",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Clearing denominators is a core method for solving equations with rational coefficients.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rational_coefficients.encompasses.decimal_coefficients",
+        "from": "math.algebra.equations.rational_coefficient_equations",
+        "to": "math.algebra.equations.decimal_coefficients",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Decimal coefficient equations are a common rational-coefficient case.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.brackets.encompasses.distribute_negative",
+        "from": "math.algebra.equations.equations_with_brackets",
+        "to": "math.algebra.equations.distribute_negative_brackets",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Negative bracket expansion is a common subcase of equations with brackets.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_both_sides.encompasses.choose_side",
+        "from": "math.algebra.equations.variables_on_both_sides",
+        "to": "math.algebra.equations.choose_side_for_variable_terms",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Choosing which side to collect variable terms on is a common variable-both-sides solving decision.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multi_step.encompasses.solution_set_reasoning",
+        "from": "math.algebra.equations.multi_step_equations",
+        "to": "math.algebra.equations.solution_set_reasoning",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Special solution-set cases often arise in multi-step equations after simplification.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal.encompasses.factorise_isolate",
+        "from": "math.algebra.equations.rearrange_literal_equations",
+        "to": "math.algebra.equations.literal_factorise_to_isolate",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Factorising to isolate a repeated variable is a standard literal-rearrangement subskill.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clear_denominators.requires.rational_coefficients",
+        "from": "math.algebra.equations.clear_denominators",
+        "to": "math.algebra.equations.rational_coefficient_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Clearing denominators is taught after students can recognise and solve rational-coefficient equations.",
+        "failure_signal": "Learner multiplies only selected terms or loses equivalent-equation structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_coefficients.requires.one_step_mult_div",
+        "from": "math.algebra.equations.decimal_coefficients",
+        "to": "math.algebra.equations.one_step_multiply_divide_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Solving with decimal coefficients depends on multiplication and division inverse operations.",
+        "failure_signal": "Learner cannot divide by a decimal coefficient or scale the equation consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distribute_negative.requires.brackets",
+        "from": "math.algebra.equations.distribute_negative_brackets",
+        "to": "math.algebra.equations.equations_with_brackets",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Negative distribution is a special case of expanding brackets in equations.",
+        "failure_signal": "Learner changes only one term's sign or drops the negative factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_collect.requires.collect_like_terms",
+        "from": "math.algebra.equations.expand_then_collect",
+        "to": "math.algebra.equations.collect_like_terms_in_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Expanding then solving requires simplifying like terms after brackets are removed.",
+        "failure_signal": "Learner expands brackets but fails to combine terms before isolating the variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_side_variable_terms.requires.variables_both_sides",
+        "from": "math.algebra.equations.choose_side_for_variable_terms",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing a side for variable terms is a strategic subskill within variables-on-both-sides equations.",
+        "failure_signal": "Learner moves terms inconsistently or creates avoidable negative coefficients without control.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_terms_after_variable_terms.requires.choose_side",
+        "from": "math.algebra.equations.constant_terms_after_variable_terms",
+        "to": "math.algebra.equations.choose_side_for_variable_terms",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Moving constants follows a decision about where variable terms will be collected.",
+        "failure_signal": "Learner moves a variable and constant in the same step without preserving equality.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solution_set_reasoning.requires.variables_both_sides",
+        "from": "math.algebra.equations.solution_set_reasoning",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "No-solution and identity cases often appear when variable terms cancel from both sides.",
+        "failure_signal": "Learner treats every equation as having one numeric solution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identity.requires.solution_set_reasoning",
+        "from": "math.algebra.equations.identity_equations",
+        "to": "math.algebra.equations.solution_set_reasoning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising identity equations requires distinguishing solution-set types.",
+        "failure_signal": "Learner writes one solution instead of all values after simplifying to a true statement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.no_solution.requires.solution_set_reasoning",
+        "from": "math.algebra.equations.no_solution_equations",
+        "to": "math.algebra.equations.solution_set_reasoning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising no-solution equations requires interpreting a false remaining statement.",
+        "failure_signal": "Learner invents a numeric solution after simplifying to a contradiction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_one_operation.requires.inverse_operations",
+        "from": "math.algebra.equations.literal_one_operation_rearrangement",
+        "to": "math.algebra.equations.inverse_operations_for_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Literal rearrangement begins with inverse-operation reasoning.",
+        "failure_signal": "Learner changes formula form without applying equivalent operations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_two_step.requires.literal_one",
+        "from": "math.algebra.equations.literal_two_step_rearrangement",
+        "to": "math.algebra.equations.literal_one_operation_rearrangement",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Two-step rearrangement builds on one-step formula rearrangement.",
+        "failure_signal": "Learner performs inverse operations in an order that does not isolate the variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_factorise.requires.literal_two_step",
+        "from": "math.algebra.equations.literal_factorise_to_isolate",
+        "to": "math.algebra.equations.literal_two_step_rearrangement",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Factorising to isolate a repeated variable is more complex than two-step rearrangement.",
+        "failure_signal": "Learner tries to divide by only one occurrence of the target variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_denominator.requires.clear_denominators",
+        "from": "math.algebra.equations.literal_variable_in_denominator",
+        "to": "math.algebra.equations.clear_denominators",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rearranging with a variable in a denominator requires denominator-clearing logic and attention to nonzero restrictions.",
+        "failure_signal": "Learner multiplies by a variable expression without considering restrictions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_define.requires_missing_value",
+        "from": "math.algebra.equations.context_equations_define_variable",
+        "to": "math.algebra.equations.missing_value_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Defining a variable in context builds on understanding unknown values in equations.",
+        "failure_signal": "Learner writes an equation without identifying what the variable represents.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_validate.requires_check_solution",
+        "from": "math.algebra.equations.context_equations_validate_solution",
+        "to": "math.algebra.equations.check_solutions_by_substitution",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Contextual validation extends algebraic solution checking back into the original situation.",
+        "failure_signal": "Learner accepts a negative length, fractional person count or other impossible answer.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rational_coefficients.has_mis.clear_one_denominator",
+        "from": "math.algebra.equations.rational_coefficient_equations",
+        "to": "math.misconception.equations.clear_only_one_denominator",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.brackets.has_mis.negative_first_only",
+        "from": "math.algebra.equations.equations_with_brackets",
+        "to": "math.misconception.equations.negative_bracket_first_term_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solution_sets.has_mis.cancelled_variable_zero",
+        "from": "math.algebra.equations.solution_set_reasoning",
+        "to": "math.misconception.equations.cancelled_variable_means_zero_solution",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal.has_mis.rearrange_as_numbers",
+        "from": "math.algebra.equations.rearrange_literal_equations",
+        "to": "math.misconception.equations.rearrange_literal_as_if_numbers",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_value.has_mis.ignores_domain",
+        "from": "math.algebra.equations.missing_value_equations",
+        "to": "math.misconception.equations.context_ignores_domain",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1674,
+    "edges": 3526
+  },
+  "graph_counts_after": {
+    "nodes": 1699,
+    "edges": 3577
+  }
+}

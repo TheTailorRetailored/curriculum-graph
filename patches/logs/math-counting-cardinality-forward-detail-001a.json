@@ -1,0 +1,227 @@
+{
+  "patch_id": "math-counting-cardinality-forward-detail-001a",
+  "applied_at": "2026-05-23T06:00:29.899Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 3,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.stable_order_counting",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Stable order counting",
+        "description": "Use number words in their conventional order.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.counting_forward_to_20",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Counting forward to 20",
+        "description": "Count forward by ones from 1 to 20.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.counting_on_from_number",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Counting on from a given number",
+        "description": "Continue a forward count from a stated number.",
+        "aliases": [],
+        "year_band": "1-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stable_order_counting.part_of.forward_counting",
+        "from": "math.number.counting.stable_order_counting",
+        "to": "math.number.counting.forward_counting_sequences",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_forward_to_20.part_of.forward_counting",
+        "from": "math.number.counting.counting_forward_to_20",
+        "to": "math.number.counting.forward_counting_sequences",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_on_from_number.part_of.forward_counting",
+        "from": "math.number.counting.counting_on_from_number",
+        "to": "math.number.counting.forward_counting_sequences",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.forward_counting.encompasses.stable_order",
+        "from": "math.number.counting.forward_counting_sequences",
+        "to": "math.number.counting.stable_order_counting",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Forward counting practises using number words in order.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.forward_counting.encompasses.counting_to_20",
+        "from": "math.number.counting.forward_counting_sequences",
+        "to": "math.number.counting.counting_forward_to_20",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Counting to 20 is a common component of early forward counting.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.forward_counting.encompasses.counting_on",
+        "from": "math.number.counting.forward_counting_sequences",
+        "to": "math.number.counting.counting_on_from_number",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Counting on is a narrower use of the forward count sequence.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_to_20.requires.stable_order",
+        "from": "math.number.counting.counting_forward_to_20",
+        "to": "math.number.counting.stable_order_counting",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Counting to 20 requires the number words in order.",
+        "failure_signal": "Learner cannot keep the count sequence in order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_on.requires.counting_to_20",
+        "from": "math.number.counting.counting_on_from_number",
+        "to": "math.number.counting.counting_forward_to_20",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Counting on requires continuing a known forward sequence.",
+        "failure_signal": "Learner restarts the sequence instead of continuing it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/counting_and_cardinality.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 206,
+    "edges": 255
+  },
+  "graph_counts_after": {
+    "nodes": 209,
+    "edges": 263
+  }
+}

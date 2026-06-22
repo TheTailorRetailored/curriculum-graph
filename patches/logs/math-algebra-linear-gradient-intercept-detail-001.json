@@ -1,0 +1,983 @@
+{
+  "patch_id": "math-algebra-linear-gradient-intercept-detail-001",
+  "applied_at": "2026-05-30T07:20:17.119Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 18,
+      "edges_created": 36,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.gradient_from_graph_rise_run",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient from graph using rise and run",
+        "description": "Calculate gradient from a graph by comparing vertical change and horizontal change between two points on a line.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient formula with coordinate differences",
+        "description": "Calculate gradient from two coordinate points using change in y divided by change in x.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.positive_negative_zero_gradient",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Positive negative and zero gradient",
+        "description": "Interpret positive, negative and zero gradients from equations, tables and graphs.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.undefined_gradient_vertical_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Undefined gradient of vertical lines",
+        "description": "Recognise that vertical lines have undefined gradient because horizontal change is zero.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.y_intercept_from_graph",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Y intercept from graph",
+        "description": "Identify the y-intercept of a line from where its graph crosses the y-axis.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.y_intercept_from_equation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Y intercept from equation",
+        "description": "Identify the y-intercept from a linear equation, especially from slope-intercept form.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.x_intercept_by_setting_y_zero",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "X intercept by setting y to zero",
+        "description": "Find the x-intercept of a linear equation by substituting y equals zero.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.graph_from_slope_intercept_form",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Graph from slope intercept form",
+        "description": "Graph a linear equation by using its gradient and y-intercept from slope-intercept form.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.write_equation_from_gradient_intercept",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Write equation from gradient and intercept",
+        "description": "Write a linear equation when the gradient and y-intercept are known.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.write_equation_from_two_points",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Write equation from two points",
+        "description": "Write a linear equation by first finding the gradient from two points and then finding an intercept.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.positive_gradient_rises_left_to_right",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Positive gradient rises left to right",
+        "description": "A line with positive gradient rises as x increases from left to right.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.zero_gradient_horizontal_line",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Zero gradient is horizontal line",
+        "description": "A horizontal line has zero gradient because its y-value does not change.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.vertical_line_gradient_undefined",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Vertical line gradient is undefined",
+        "description": "A vertical line has undefined gradient because the change in x is zero.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.y_intercept_when_x_zero",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Y intercept occurs when x is zero",
+        "description": "The y-intercept is the point on a graph where x equals zero.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.x_intercept_when_y_zero",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "X intercept occurs when y is zero",
+        "description": "The x-intercept is the point on a graph where y equals zero.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.run_over_rise_for_gradient",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Run over rise for gradient",
+        "description": "Learner calculates gradient as horizontal change divided by vertical change instead of rise over run.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.undefined_gradient_called_zero",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Undefined gradient called zero",
+        "description": "Learner treats the undefined gradient of a vertical line as zero gradient.",
+        "aliases": [],
+        "year_band": "9-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.linear.intercepts_swapped",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Intercepts swapped",
+        "description": "Learner confuses x-intercepts and y-intercepts or substitutes the wrong variable as zero.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_graph_rise_run.part_of.gradient_from_two_points",
+        "from": "math.algebra.linear.gradient_from_graph_rise_run",
+        "to": "math.algebra.linear.gradient_from_two_points",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_formula.part_of.gradient_from_two_points",
+        "from": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "to": "math.algebra.linear.gradient_from_two_points",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_signs.part_of.gradient_intercept",
+        "from": "math.algebra.linear.positive_negative_zero_gradient",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.undefined_gradient.part_of.gradient_intercept",
+        "from": "math.algebra.linear.undefined_gradient_vertical_line",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_graph.part_of.y_intercept",
+        "from": "math.algebra.linear.y_intercept_from_graph",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_equation.part_of.y_intercept",
+        "from": "math.algebra.linear.y_intercept_from_equation",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_intercept_y_zero.part_of.x_intercept",
+        "from": "math.algebra.linear.x_intercept_by_setting_y_zero",
+        "to": "math.algebra.linear.x_intercept_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_from_slope_intercept.part_of.slope_intercept_form",
+        "from": "math.algebra.linear.graph_from_slope_intercept_form",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_equation_gradient_intercept.part_of.slope_intercept_form",
+        "from": "math.algebra.linear.write_equation_from_gradient_intercept",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_equation_two_points.part_of.linear_contexts",
+        "from": "math.algebra.linear.write_equation_from_two_points",
+        "to": "math.algebra.linear.linear_equations_from_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.positive_gradient.part_of.gradient_signs",
+        "from": "math.kp.linear.positive_gradient_rises_left_to_right",
+        "to": "math.algebra.linear.positive_negative_zero_gradient",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.zero_gradient.part_of.gradient_signs",
+        "from": "math.kp.linear.zero_gradient_horizontal_line",
+        "to": "math.algebra.linear.positive_negative_zero_gradient",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.vertical_gradient.part_of.undefined_gradient",
+        "from": "math.kp.linear.vertical_line_gradient_undefined",
+        "to": "math.algebra.linear.undefined_gradient_vertical_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.y_intercept_x_zero.part_of.y_intercept",
+        "from": "math.kp.linear.y_intercept_when_x_zero",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.x_intercept_y_zero.part_of.x_intercept",
+        "from": "math.kp.linear.x_intercept_when_y_zero",
+        "to": "math.algebra.linear.x_intercept_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.run_over_rise.part_of.gradient",
+        "from": "math.misconception.linear.run_over_rise_for_gradient",
+        "to": "math.algebra.linear.gradient_from_two_points",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.undefined_zero.part_of.undefined_gradient",
+        "from": "math.misconception.linear.undefined_gradient_called_zero",
+        "to": "math.algebra.linear.undefined_gradient_vertical_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.intercepts_swapped.part_of.intercepts",
+        "from": "math.misconception.linear.intercepts_swapped",
+        "to": "math.algebra.linear.gradient_intercept",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_from_two_points.encompasses.graph_rise_run",
+        "from": "math.algebra.linear.gradient_from_two_points",
+        "to": "math.algebra.linear.gradient_from_graph_rise_run",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding gradient from a graph practises comparing rise and run between two points.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_from_two_points.encompasses.formula_delta",
+        "from": "math.algebra.linear.gradient_from_two_points",
+        "to": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The coordinate-difference formula is a core method for gradient from two points.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_intercept.encompasses.gradient_signs",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.algebra.linear.positive_negative_zero_gradient",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Interpreting gradient includes recognising the sign and special zero case.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept.encompasses.graph",
+        "from": "math.algebra.linear.y_intercept_meaning",
+        "to": "math.algebra.linear.y_intercept_from_graph",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying where a graph crosses the y-axis directly practises y-intercept meaning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.slope_intercept.encompasses.graph_from_form",
+        "from": "math.algebra.linear.slope_intercept_form",
+        "to": "math.algebra.linear.graph_from_slope_intercept_form",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graphing from slope-intercept form practises interpreting the slope and intercept parameters.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_graph.requires.coordinate_plane",
+        "from": "math.algebra.linear.gradient_from_graph_rise_run",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading rise and run from a graph requires coordinate-plane orientation.",
+        "failure_signal": "Learner cannot locate the two points or compare vertical and horizontal change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_formula.requires.ordered_pairs",
+        "from": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The gradient formula requires interpreting two ordered pairs consistently.",
+        "failure_signal": "Learner swaps x- and y-coordinates or mismatches point order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_signs.requires.gradient_as_rate",
+        "from": "math.algebra.linear.positive_negative_zero_gradient",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sign interpretation builds on gradient as rate of change.",
+        "failure_signal": "Learner cannot connect rising, falling or constant lines with gradient sign.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.undefined_gradient.requires.gradient_formula",
+        "from": "math.algebra.linear.undefined_gradient_vertical_line",
+        "to": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Undefined gradient follows from the change-in-y over change-in-x formula when horizontal change is zero.",
+        "failure_signal": "Learner treats division by zero as zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_graph.requires.coordinate_axes",
+        "from": "math.algebra.linear.y_intercept_from_graph",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding a y-intercept from a graph requires identifying the y-axis.",
+        "failure_signal": "Learner reads the wrong axis crossing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_equation.requires.slope_intercept",
+        "from": "math.algebra.linear.y_intercept_from_equation",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying the y-intercept from an equation is clearest in slope-intercept form.",
+        "failure_signal": "Learner picks the coefficient of x instead of the constant term.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_intercept_y_zero.requires.y_intercept",
+        "from": "math.algebra.linear.x_intercept_by_setting_y_zero",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Intercept-solving builds on understanding axis crossings and which coordinate is zero.",
+        "failure_signal": "Learner sets x to zero when asked for the x-intercept.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_from_slope_intercept.requires.y_intercept_equation",
+        "from": "math.algebra.linear.graph_from_slope_intercept_form",
+        "to": "math.algebra.linear.y_intercept_from_equation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graphing from slope-intercept form requires using the equation's intercept and gradient.",
+        "failure_signal": "Learner plots the intercept but cannot use gradient to locate a second point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_equation_gradient_intercept.requires.slope_intercept",
+        "from": "math.algebra.linear.write_equation_from_gradient_intercept",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Writing an equation from gradient and intercept requires knowing the parameter roles in slope-intercept form.",
+        "failure_signal": "Learner swaps gradient and intercept in the equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_equation_two_points.requires.gradient_formula",
+        "from": "math.algebra.linear.write_equation_from_two_points",
+        "to": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Writing an equation from two points first requires finding the gradient from the coordinate pair.",
+        "failure_signal": "Learner calculates gradient correctly but cannot then determine the intercept.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_from_two_points.has_mis.run_over_rise",
+        "from": "math.algebra.linear.gradient_from_two_points",
+        "to": "math.misconception.linear.run_over_rise_for_gradient",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.undefined_gradient.has_mis.zero",
+        "from": "math.algebra.linear.undefined_gradient_vertical_line",
+        "to": "math.misconception.linear.undefined_gradient_called_zero",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_intercept.has_mis.intercepts_swapped",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.misconception.linear.intercepts_swapped",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/linear_relationships.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1656,
+    "edges": 3490
+  },
+  "graph_counts_after": {
+    "nodes": 1674,
+    "edges": 3526
+  }
+}

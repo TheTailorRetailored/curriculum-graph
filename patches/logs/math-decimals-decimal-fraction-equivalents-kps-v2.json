@@ -1,0 +1,105 @@
+{
+  "patch_id": "math-decimals-decimal-fraction-equivalents-kps-v2",
+  "applied_at": "2026-06-07T08:49:37.784Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.decimal_places_are_tenths_hundredths_thousandths",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.decimal_fraction_equivalents",
+        "label": "Decimal places are tenths hundredths and thousandths",
+        "description": "Recognise that digits in the first three decimal places count tenths, hundredths and thousandths.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.convert_power_of_ten_fraction_to_decimal",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.decimal_fraction_equivalents",
+        "label": "Convert a power-of-ten fraction to a decimal",
+        "description": "Write fractions with denominators 10, 100 or 1000 using decimal notation.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_places_tenths_hundredths_thousandths.part_of.decimal_fraction_equiv",
+        "from": "math.kp.decimals.decimal_places_are_tenths_hundredths_thousandths",
+        "to": "math.decimals.decimal_fraction_equivalents",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_convert_power_ten_fraction.part_of.decimal_fraction_equiv",
+        "from": "math.kp.decimals.convert_power_of_ten_fraction_to_decimal",
+        "to": "math.decimals.decimal_fraction_equivalents",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2629,
+    "edges": 5528
+  },
+  "graph_counts_after": {
+    "nodes": 2631,
+    "edges": 5530
+  }
+}

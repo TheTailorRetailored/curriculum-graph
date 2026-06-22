@@ -1,0 +1,810 @@
+{
+  "patch_id": "math-space-skeleton-001",
+  "applied_at": "2026-05-23T05:43:55.865Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 16,
+      "edges_created": 28,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.shapes_objects",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "label": "Shapes and objects",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.location_position",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "label": "Location and position",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.geometric_reasoning",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "label": "Geometric reasoning",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.identifying_shapes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Identifying shapes and objects",
+        "description": "Recognise, name and sort common two-dimensional shapes and three-dimensional objects.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.properties_2d",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Properties of two-dimensional shapes",
+        "description": "Describe and classify two-dimensional shapes by sides, vertices, angles, parallel lines and symmetry.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.properties_3d",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Properties of three-dimensional objects",
+        "description": "Describe and classify three-dimensional objects by faces, edges, vertices, nets and cross-sections.",
+        "aliases": [],
+        "year_band": "2-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.position_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Position language",
+        "description": "Use everyday and directional language to describe location, movement and position.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.maps_grids",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Maps and grids",
+        "description": "Read, create and interpret simple maps, grids, coordinates and paths.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.location.cartesian_coordinates",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Location and position",
+        "label": "Cartesian coordinates",
+        "description": "Use Cartesian coordinates to locate points, represent shapes and describe spatial relationships.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.flips_slides_turns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Flips, slides and turns",
+        "description": "Describe translations, reflections and rotations using informal and formal language.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.symmetry",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Symmetry",
+        "description": "Identify line, rotational and reflective symmetry in shapes, designs and coordinate settings.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.transformations.coordinate_transformations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Transformations and symmetry",
+        "label": "Coordinate transformations",
+        "description": "Represent translations, reflections, rotations and dilations in the coordinate plane.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.geometric_angle_reasoning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Geometric angle reasoning",
+        "description": "Use properties of angles, lines and polygons to justify geometric relationships.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Congruence",
+        "description": "Identify and justify congruent figures using transformations, side lengths and angle relationships.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Similarity",
+        "description": "Identify and justify similar figures using scale factors, proportional sides and equal angles.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.geometric_proof",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Geometric proof",
+        "description": "Use definitions, theorems and deductive reasoning to prove geometric results.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.space.part_of.math",
+        "from": "math.strand.space",
+        "to": "math",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shapes_objects.part_of.space",
+        "from": "math.area.shapes_objects",
+        "to": "math.strand.space",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.location_position.part_of.space",
+        "from": "math.area.location_position",
+        "to": "math.strand.space",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.transformations_symmetry.part_of.space",
+        "from": "math.area.transformations_symmetry",
+        "to": "math.strand.space",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_reasoning.part_of.space",
+        "from": "math.area.geometric_reasoning",
+        "to": "math.strand.space",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identifying_shapes.part_of.shapes_objects",
+        "from": "math.space.shapes.identifying_shapes",
+        "to": "math.area.shapes_objects",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.part_of.shapes_objects",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.area.shapes_objects",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.part_of.shapes_objects",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.area.shapes_objects",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.position_language.part_of.location_position",
+        "from": "math.space.location.position_language",
+        "to": "math.area.location_position",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.part_of.location_position",
+        "from": "math.space.location.maps_grids",
+        "to": "math.area.location_position",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian_coordinates.part_of.location_position",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.area.location_position",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flips_slides_turns.part_of.transformations",
+        "from": "math.space.transformations.flips_slides_turns",
+        "to": "math.area.transformations_symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.part_of.transformations",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.area.transformations_symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.part_of.transformations",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.area.transformations_symmetry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_angle_reasoning.part_of.geometric_reasoning",
+        "from": "math.space.reasoning.geometric_angle_reasoning",
+        "to": "math.area.geometric_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.part_of.geometric_reasoning",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.area.geometric_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.part_of.geometric_reasoning",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.area.geometric_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_proof.part_of.geometric_reasoning",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.area.geometric_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.requires.identifying_shapes",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Classifying shape properties depends on recognising common shapes.",
+        "failure_signal": "Learner cannot consistently identify or name shapes before describing their properties.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.requires.identifying_shapes",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Classifying objects builds on recognising and distinguishing shapes and objects.",
+        "failure_signal": "Learner confuses flat shapes with solid objects.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.maps_grids.requires.position_language",
+        "from": "math.space.location.maps_grids",
+        "to": "math.space.location.position_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Maps and grids require using location and direction language.",
+        "failure_signal": "Learner cannot follow or describe position and movement instructions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cartesian_coordinates.requires.maps_grids",
+        "from": "math.space.location.cartesian_coordinates",
+        "to": "math.space.location.maps_grids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Cartesian coordinates extend grid-location conventions to ordered pairs and axes.",
+        "failure_signal": "Learner reverses coordinate order or cannot connect grid positions to points.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_transformations.requires.cartesian",
+        "from": "math.space.transformations.coordinate_transformations",
+        "to": "math.space.location.cartesian_coordinates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Coordinate transformations depend on locating and moving points in the coordinate plane.",
+        "failure_signal": "Learner cannot track how coordinates change under a transformation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symmetry.requires.flips_slides_turns",
+        "from": "math.space.transformations.symmetry",
+        "to": "math.space.transformations.flips_slides_turns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Symmetry is closely connected to reflection and rotational transformation ideas.",
+        "failure_signal": "Learner identifies visual balance but cannot connect it to reflection or rotation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_angle_reasoning.requires.angle_relationships",
+        "from": "math.space.reasoning.geometric_angle_reasoning",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Geometric angle reasoning depends on angle measure and angle relationships.",
+        "failure_signal": "Learner cannot apply angle sums or line-angle relationships in geometric arguments.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.requires.coordinate_transformations",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.space.transformations.coordinate_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Congruence is commonly justified through rigid transformations and invariant side and angle measures.",
+        "failure_signal": "Learner cannot explain why figures remain the same size and shape under rigid transformations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.requires.congruence",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.space.reasoning.congruence",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Similarity builds on shape comparison, transformations and proportional scaling after congruence.",
+        "failure_signal": "Learner confuses same shape with same size or cannot use scale factors.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geometric_proof.requires.similarity",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.space.reasoning.similarity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Geometric proof uses prior angle, congruence and similarity reasoning to justify results.",
+        "failure_signal": "Learner states observed relationships without deductive justification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "ontology/mathematics/number/shapes_and_objects.yaml",
+    "ontology/mathematics/number/location_and_position.yaml",
+    "ontology/mathematics/number/transformations_and_symmetry.yaml",
+    "ontology/mathematics/number/geometric_reasoning.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 144,
+    "edges": 145
+  },
+  "graph_counts_after": {
+    "nodes": 160,
+    "edges": 173
+  }
+}

@@ -1,0 +1,1068 @@
+{
+  "patch_id": "math-compound-events-independence-001",
+  "applied_at": "2026-05-28T08:10:41.006Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 18,
+      "edges_created": 41,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.independent_events_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Independent events meaning",
+        "description": "Recognise independent events as events where knowing one occurred does not change the probability of the other.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.dependent_events_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Dependent events meaning",
+        "description": "Recognise dependent events as events where one event changes the probability of another.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.with_replacement_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "With replacement contexts",
+        "description": "Model repeated selections with replacement where outcome probabilities remain stable between selections.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.without_replacement_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Without replacement contexts",
+        "description": "Model repeated selections without replacement where later outcome probabilities can change.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.multiplication_rule_independent",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Multiplication rule for independent events",
+        "description": "Multiply probabilities of independent stages or events to find the probability of both occurring.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.multiplication_rule_dependent",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Multiplication rule for dependent events",
+        "description": "Use stage probabilities that update after earlier events when multiplying for dependent events.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.sequential_events",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Sequential events",
+        "description": "Analyse chance situations with two or more stages in sequence.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.restricted_sample_space_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Restricted sample space introduction",
+        "description": "Recognise when a known event restricts the possible outcomes for another event.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.compare_independent_dependent_contexts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Compare independent and dependent contexts",
+        "description": "Compare contexts to decide whether probabilities remain stable or change across events.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.compound.check_independence_from_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Check independence from data",
+        "description": "Use table or relative frequency evidence to judge whether two events appear independent.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.path_probabilities_multiply",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Path probabilities multiply",
+        "description": "The probability of a complete path through stages is found by multiplying the probabilities along that path when stage probabilities are appropriate.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.mutually_exclusive_no_overlap",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Mutually exclusive means no overlap",
+        "description": "Mutually exclusive events cannot occur together in one trial and have no overlapping outcomes.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.independence_probability_unchanged",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Independence means probability unchanged",
+        "description": "If two events are independent, knowing one occurred does not change the probability of the other.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.without_replacement_changes_probabilities",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Without replacement can change probabilities",
+        "description": "In without-replacement contexts, removing an item can change later probabilities.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.choose_compound_representation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Choose compound representation",
+        "description": "Tables, Venn diagrams and tree diagrams suit different compound-event structures.",
+        "aliases": [],
+        "year_band": "7-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.all_events_mutually_exclusive",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "All events are mutually exclusive",
+        "description": "Learner assumes different named events cannot overlap.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.independent_if_different_events",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Different events are independent",
+        "description": "Learner assumes events are independent just because they are described differently.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.multiply_without_checking_dependence",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Compound events",
+        "label": "Multiply without checking dependence",
+        "description": "Learner multiplies probabilities for compound events without checking whether probabilities change between stages.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_meaning.part_of.ind_dep",
+        "from": "math.probability.compound.independent_events_meaning",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dependent_meaning.part_of.ind_dep",
+        "from": "math.probability.compound.dependent_events_meaning",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.with_replacement.part_of.ind_dep",
+        "from": "math.probability.compound.with_replacement_contexts",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.without_replacement.part_of.ind_dep",
+        "from": "math.probability.compound.without_replacement_contexts",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_independent.part_of.ind_dep",
+        "from": "math.probability.compound.multiplication_rule_independent",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_dependent.part_of.ind_dep",
+        "from": "math.probability.compound.multiplication_rule_dependent",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sequential_events.part_of.ind_dep",
+        "from": "math.probability.compound.sequential_events",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.restricted_space.part_of.ind_dep",
+        "from": "math.probability.compound.restricted_sample_space_intro",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_ind_dep.part_of.ind_dep",
+        "from": "math.probability.compound.compare_independent_dependent_contexts",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_independence_data.part_of.ind_dep",
+        "from": "math.probability.compound.check_independence_from_data",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_path_multiply.part_of.ind_dep",
+        "from": "math.kp.probability.path_probabilities_multiply",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mutually_exclusive.part_of.tables_venn",
+        "from": "math.kp.probability.mutually_exclusive_no_overlap",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_independence_unchanged.part_of.ind_dep",
+        "from": "math.kp.probability.independence_probability_unchanged",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_without_replacement_changes.part_of.ind_dep",
+        "from": "math.kp.probability.without_replacement_changes_probabilities",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_choose_representation.part_of.tables_venn",
+        "from": "math.kp.probability.choose_compound_representation",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_all_mutually_exclusive.part_of.tables_venn",
+        "from": "math.misconception.probability.all_events_mutually_exclusive",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_independent_if_different.part_of.ind_dep",
+        "from": "math.misconception.probability.independent_if_different_events",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_multiply_no_check.part_of.ind_dep",
+        "from": "math.misconception.probability.multiply_without_checking_dependence",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.independent_meaning",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.independent_events_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Meaning of independence is central to independent and dependent event reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.dependent_meaning",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.dependent_events_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Meaning of dependence is central to independent and dependent event reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.with_replacement",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.with_replacement_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "With-replacement contexts often model independent repeated selections.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.without_replacement",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.without_replacement_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Without-replacement contexts often model dependent repeated selections.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.mult_independent",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.multiplication_rule_independent",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Multiplication for independent events is a core calculation skill.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.mult_dependent",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.multiplication_rule_dependent",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Multiplication for dependent events extends path probability reasoning with updated probabilities.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.sequential",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.sequential_events",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Sequential events provide contexts for independence and dependence decisions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.restricted_space",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.restricted_sample_space_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Restricted sample spaces prepare for conditional probability and dependence reasoning.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.compare_contexts",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.compare_independent_dependent_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing contexts helps decide whether probabilities remain stable or change.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.encompasses.check_data",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.check_independence_from_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Checking independence from data applies independence meaning to observed evidence.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_meaning.requires.theoretical",
+        "from": "math.probability.compound.independent_events_meaning",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Independence reasoning requires understanding event probabilities before and after information.",
+        "failure_signal": "Learner cannot tell whether probability changes after another event is known.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dependent_meaning.requires.independent",
+        "from": "math.probability.compound.dependent_events_meaning",
+        "to": "math.probability.compound.independent_events_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Dependence is understood in contrast with independence as changed probability.",
+        "failure_signal": "Learner treats all repeated events as independent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.with_replacement.requires.independent",
+        "from": "math.probability.compound.with_replacement_contexts",
+        "to": "math.probability.compound.independent_events_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "With-replacement contexts often illustrate independence through stable probabilities.",
+        "failure_signal": "Learner changes probabilities even when the situation is reset each time.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.without_replacement.requires.dependent",
+        "from": "math.probability.compound.without_replacement_contexts",
+        "to": "math.probability.compound.dependent_events_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Without-replacement contexts illustrate dependence through changed outcome counts.",
+        "failure_signal": "Learner keeps original probabilities after an item is removed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_independent.requires.tree_outcomes",
+        "from": "math.probability.compound.multiplication_rule_independent",
+        "to": "math.probability.compound.tree_diagram_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Independent multiplication can be represented as path probabilities in a tree diagram.",
+        "failure_signal": "Learner adds stage probabilities or multiplies without representing stages.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_dependent.requires.without_replacement",
+        "from": "math.probability.compound.multiplication_rule_dependent",
+        "to": "math.probability.compound.without_replacement_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Dependent multiplication requires updated probabilities after earlier outcomes.",
+        "failure_signal": "Learner uses the same probability at each stage when counts have changed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sequential.requires.tree_outcomes",
+        "from": "math.probability.compound.sequential_events",
+        "to": "math.probability.compound.tree_diagram_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sequential event analysis depends on staged outcomes.",
+        "failure_signal": "Learner ignores stage order or combines all outcomes as one-stage events.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.restricted_sample_space.requires.dependent",
+        "from": "math.probability.compound.restricted_sample_space_intro",
+        "to": "math.probability.compound.dependent_events_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Restricted sample spaces arise when known information changes the relevant outcome set.",
+        "failure_signal": "Learner continues using the original sample space after a condition is imposed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_contexts.requires.without_replacement",
+        "from": "math.probability.compound.compare_independent_dependent_contexts",
+        "to": "math.probability.compound.without_replacement_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing contexts requires recognising stable and changing probability structures.",
+        "failure_signal": "Learner cannot decide whether a context is independent or dependent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_independence.requires.relative_frequency",
+        "from": "math.probability.compound.check_independence_from_data",
+        "to": "math.probability.models.relative_frequency",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking independence from data uses relative frequencies or table proportions.",
+        "failure_signal": "Learner makes an independence claim without comparing relevant proportions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tables_venn.has_mis.all_mutually_exclusive",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.misconception.probability.all_events_mutually_exclusive",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.has_mis.independent_if_different",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.misconception.probability.independent_if_different_events",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ind_dep.has_mis.multiply_no_check",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.misconception.probability.multiply_without_checking_dependence",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/compound_events.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1238,
+    "edges": 2581
+  },
+  "graph_counts_after": {
+    "nodes": 1256,
+    "edges": 2622
+  }
+}

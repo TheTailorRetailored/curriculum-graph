@@ -1,0 +1,212 @@
+{
+  "patch_id": "math-decimals-place-value-foundations-teaching-links",
+  "applied_at": "2026-06-07T07:00:21.449Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 11,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tenths_decimals.uses_representation.place_value_chart",
+        "from": "math.decimals.tenths_as_decimal_fractions",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts show tenths as the first place to the right of ones.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tenths_decimals.uses_representation.area_model",
+        "from": "math.decimals.tenths_as_decimal_fractions",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models connect tenths to one whole partitioned into ten equal parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hundredths_decimals.uses_representation.place_value_chart",
+        "from": "math.decimals.hundredths_as_decimal_fractions",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts show hundredths as the second place to the right of ones.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hundredths_decimals.uses_representation.area_model",
+        "from": "math.decimals.hundredths_as_decimal_fractions",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Hundredths are naturally represented by a hundred-grid area model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.thousandths_decimals.uses_representation.place_value_chart",
+        "from": "math.decimals.thousandths_as_decimal_fractions",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts show thousandths as the third place to the right of ones.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tenths_decimals.assessed_by.model",
+        "from": "math.decimals.tenths_as_decimal_fractions",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners model tenths as equal parts and decimal notation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tenths_decimals.assessed_by.explain",
+        "from": "math.decimals.tenths_as_decimal_fractions",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners explain the meaning of the tenths place.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hundredths_decimals.assessed_by.model",
+        "from": "math.decimals.hundredths_as_decimal_fractions",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners model hundredths as equal parts and decimal notation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hundredths_decimals.assessed_by.explain",
+        "from": "math.decimals.hundredths_as_decimal_fractions",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners explain the meaning of the hundredths place.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.thousandths_decimals.assessed_by.model",
+        "from": "math.decimals.thousandths_as_decimal_fractions",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners model thousandths using place-value and subdividing hundredths.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.thousandths_decimals.assessed_by.explain",
+        "from": "math.decimals.thousandths_as_decimal_fractions",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners explain how thousandths extend the decimal place-value sequence.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2619,
+    "edges": 5487
+  },
+  "graph_counts_after": {
+    "nodes": 2619,
+    "edges": 5498
+  }
+}

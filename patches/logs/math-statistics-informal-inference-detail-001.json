@@ -1,0 +1,1237 @@
+{
+  "patch_id": "math-statistics-informal-inference-detail-001",
+  "applied_at": "2026-06-04T17:51:10.880Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 23,
+      "edges_created": 45,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.claim_population_identification",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Claim population identification",
+        "description": "Identify the population a statistical claim is intended to describe.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.claim_sample_identification",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Claim sample identification",
+        "description": "Identify the sample that provides evidence for a statistical claim.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.sample_statistic_population_parameter",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Sample statistic and population parameter",
+        "description": "Distinguish a summary calculated from a sample from the corresponding unknown population value it estimates.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.generalisation_scope_from_sample",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Generalisation scope from sample",
+        "description": "Decide how far a conclusion can reasonably generalise from a sample to a population.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.representativeness_check_for_inference",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Representativeness check for inference",
+        "description": "Check whether a sample appears representative enough to support a population claim.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.bias_threats_to_inference",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Bias threats to inference",
+        "description": "Identify how sampling bias, response bias or nonresponse bias can weaken an inference.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.sample_size_effect_on_uncertainty",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Sample size effect on uncertainty",
+        "description": "Explain how larger samples can reduce random sampling variation but do not automatically remove bias.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.sampling_variability_between_samples",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Sampling variability between samples",
+        "description": "Compare results from different samples to recognise natural sample-to-sample variation.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.margin_of_error_as_plausible_range",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Margin of error as plausible range",
+        "description": "Interpret an informal margin of error as giving a range of plausible population values around a sample estimate.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.group_difference_relative_to_variability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Group difference relative to variability",
+        "description": "Compare a difference between groups with within-group variability before making an informal inference.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.informal_evidence_strength_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Informal evidence strength language",
+        "description": "Use language such as weak, moderate or strong evidence when describing how convincing sample data are.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.cautious_population_claim_wording",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Cautious population claim wording",
+        "description": "Write population claims using cautious statistical language that acknowledges uncertainty.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.limitations_statement_for_inference",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Limitations statement for inference",
+        "description": "State relevant limitations of an informal inference, including sample method, bias, sample size and context.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.random_sample_condition_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Random sample condition check",
+        "description": "Check whether a claim based on sample data is supported by a random or otherwise defensible sampling process.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.nonrandom_sample_limitation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Nonrandom sample limitation",
+        "description": "Explain why conclusions from convenience, voluntary response or otherwise nonrandom samples require extra caution.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.supported_vs_unsupported_claim",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Supported versus unsupported statistical claim",
+        "description": "Decide whether a statistical claim is supported, partially supported or not supported by the available sample evidence.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.sample_statistic_estimates_population_parameter",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Sample statistic estimates population parameter",
+        "description": "A sample statistic is used as an estimate of a corresponding population parameter, with uncertainty.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.larger_samples_reduce_random_variation_not_bias",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Larger samples reduce random variation not bias",
+        "description": "Increasing sample size can reduce random sampling variation, but a biased sampling method can still produce biased conclusions.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.representative_samples_support_generalisation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Representative samples support generalisation",
+        "description": "Population generalisations are stronger when the sample is representative of the target population.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.inference_claim_names_sample_population_measure",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Inference claim names sample population and measure",
+        "description": "A clear inference claim identifies the sample, target population, variable or measure, and uncertainty.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.single_sample_exactly_equals_population",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Single sample exactly equals population",
+        "description": "Learner treats one sample result as exactly equal to the population value rather than an estimate with uncertainty.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.margin_of_error_guarantees_truth",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Margin of error guarantees truth",
+        "description": "Learner treats a margin-of-error range as a guarantee rather than an informal uncertainty range.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.bias_cancelled_by_confidence_language",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Bias cancelled by confidence language",
+        "description": "Learner thinks cautious or confident wording can fix bias in the way data were collected.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.claim_population.part_of.sample_claims",
+        "from": "math.statistics.inference.claim_population_identification",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.claim_sample.part_of.sample_claims",
+        "from": "math.statistics.inference.claim_sample_identification",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stat_param.part_of.sample_claims",
+        "from": "math.statistics.inference.sample_statistic_population_parameter",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.generalisation_scope.part_of.sample_claims",
+        "from": "math.statistics.inference.generalisation_scope_from_sample",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.represent_check.part_of.random_inference",
+        "from": "math.statistics.inference.representativeness_check_for_inference",
+        "to": "math.statistics.inference.inference_from_random_samples",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bias_threats.part_of.limits",
+        "from": "math.statistics.inference.bias_threats_to_inference",
+        "to": "math.statistics.inference.limits_of_informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size_uncertainty.part_of.margin_error",
+        "from": "math.statistics.inference.sample_size_effect_on_uncertainty",
+        "to": "math.statistics.inference.margin_of_error_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.between_samples.part_of.sampling_variability",
+        "from": "math.statistics.inference.sampling_variability_between_samples",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plausible_range.part_of.margin_error",
+        "from": "math.statistics.inference.margin_of_error_as_plausible_range",
+        "to": "math.statistics.inference.margin_of_error_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.group_diff_variability.part_of.compare_groups",
+        "from": "math.statistics.inference.group_difference_relative_to_variability",
+        "to": "math.statistics.inference.compare_sample_groups",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evidence_strength.part_of.confidence_language",
+        "from": "math.statistics.inference.informal_evidence_strength_language",
+        "to": "math.statistics.inference.informal_confidence_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cautious_wording.part_of.confidence_language",
+        "from": "math.statistics.inference.cautious_population_claim_wording",
+        "to": "math.statistics.inference.informal_confidence_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limitations_statement.part_of.limits",
+        "from": "math.statistics.inference.limitations_statement_for_inference",
+        "to": "math.statistics.inference.limits_of_informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_condition.part_of.random_inference",
+        "from": "math.statistics.inference.random_sample_condition_check",
+        "to": "math.statistics.inference.inference_from_random_samples",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonrandom_limitation.part_of.limits",
+        "from": "math.statistics.inference.nonrandom_sample_limitation",
+        "to": "math.statistics.inference.limits_of_informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.supported_claim.part_of.informal_inference",
+        "from": "math.statistics.inference.supported_vs_unsupported_claim",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.stat_param.part_of.stat_param",
+        "from": "math.kp.statistics.sample_statistic_estimates_population_parameter",
+        "to": "math.statistics.inference.sample_statistic_population_parameter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.larger_sample.part_of.sample_size_uncertainty",
+        "from": "math.kp.statistics.larger_samples_reduce_random_variation_not_bias",
+        "to": "math.statistics.inference.sample_size_effect_on_uncertainty",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.represent_generalise.part_of.represent_check",
+        "from": "math.kp.statistics.representative_samples_support_generalisation",
+        "to": "math.statistics.inference.representativeness_check_for_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.claim_parts.part_of.cautious_wording",
+        "from": "math.kp.statistics.inference_claim_names_sample_population_measure",
+        "to": "math.statistics.inference.cautious_population_claim_wording",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.single_sample_exact.part_of.stat_param",
+        "from": "math.misconception.statistics.single_sample_exactly_equals_population",
+        "to": "math.statistics.inference.sample_statistic_population_parameter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.margin_guarantee.part_of.plausible_range",
+        "from": "math.misconception.statistics.margin_of_error_guarantees_truth",
+        "to": "math.statistics.inference.margin_of_error_as_plausible_range",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.bias_language.part_of.bias_threats",
+        "from": "math.misconception.statistics.bias_cancelled_by_confidence_language",
+        "to": "math.statistics.inference.bias_threats_to_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_claims.encompasses.claim_population",
+        "from": "math.statistics.inference.sample_to_population_claims",
+        "to": "math.statistics.inference.claim_population_identification",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Identifying the population is central to making a sample-to-population claim.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability.encompasses.between_samples",
+        "from": "math.statistics.inference.sampling_variability",
+        "to": "math.statistics.inference.sampling_variability_between_samples",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing different sample results directly practises sampling variability.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.confidence_language.encompasses.cautious_wording",
+        "from": "math.statistics.inference.informal_confidence_language",
+        "to": "math.statistics.inference.cautious_population_claim_wording",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Cautious wording is a core part of informal confidence language.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.claim_population.requires.target_population",
+        "from": "math.statistics.inference.claim_population_identification",
+        "to": "math.statistics.data.target_population",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Claim-population identification builds on understanding the target population.",
+        "failure_signal": "Learner states a conclusion for a broader or different population than the study targeted.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.claim_sample.requires.population_sample",
+        "from": "math.statistics.inference.claim_sample_identification",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying the evidence sample builds on distinguishing a sample from a population.",
+        "failure_signal": "Learner treats the sample and population as the same group.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stat_param.requires.claim_sample",
+        "from": "math.statistics.inference.sample_statistic_population_parameter",
+        "to": "math.statistics.inference.claim_sample_identification",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Distinguishing a sample statistic from a population value requires identifying the sample first.",
+        "failure_signal": "Learner calls a sample mean or proportion the true population value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.generalisation_scope.requires.claim_population",
+        "from": "math.statistics.inference.generalisation_scope_from_sample",
+        "to": "math.statistics.inference.claim_population_identification",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Generalisation scope depends on the intended target population.",
+        "failure_signal": "Learner generalises beyond the population that the sample can plausibly represent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.represent_check.requires.represent_samples",
+        "from": "math.statistics.inference.representativeness_check_for_inference",
+        "to": "math.statistics.data.representative_samples",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Inference quality depends on whether the sample is representative of the target population.",
+        "failure_signal": "Learner makes population claims from a clearly unrepresentative sample.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bias_threats.requires.sampling_bias",
+        "from": "math.statistics.inference.bias_threats_to_inference",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Understanding bias threats to inference builds on recognising sampling bias.",
+        "failure_signal": "Learner ignores selection, response or nonresponse bias when judging a conclusion.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size_uncertainty.requires.sample_size",
+        "from": "math.statistics.inference.sample_size_effect_on_uncertainty",
+        "to": "math.statistics.data.sample_size",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reasoning about uncertainty depends partly on understanding sample size.",
+        "failure_signal": "Learner assumes a larger sample automatically fixes all inference problems.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.between_samples.requires.sampling_variability",
+        "from": "math.statistics.inference.sampling_variability_between_samples",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing sample-to-sample differences is a direct extension of sampling variability.",
+        "failure_signal": "Learner expects repeated samples to produce exactly the same statistic.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plausible_range.requires.margin_error",
+        "from": "math.statistics.inference.margin_of_error_as_plausible_range",
+        "to": "math.statistics.inference.margin_of_error_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting plausible ranges builds on the idea of margin of error.",
+        "failure_signal": "Learner treats margin of error as a guarantee rather than an uncertainty range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.group_diff_variability.requires.compare_groups",
+        "from": "math.statistics.inference.group_difference_relative_to_variability",
+        "to": "math.statistics.inference.compare_sample_groups",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Informal group comparisons require comparing group differences relative to variation.",
+        "failure_signal": "Learner claims a meaningful difference from a small gap without considering spread or overlap.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evidence_strength.requires.group_diff_variability",
+        "from": "math.statistics.inference.informal_evidence_strength_language",
+        "to": "math.statistics.inference.group_difference_relative_to_variability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Evidence-strength wording depends on judging how large and consistent the sample evidence is.",
+        "failure_signal": "Learner says evidence is strong without considering variability or sample context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cautious_wording.requires.uncertainty",
+        "from": "math.statistics.inference.cautious_population_claim_wording",
+        "to": "math.statistics.inference.informal_confidence_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Cautious population claims rely on informal confidence and uncertainty language.",
+        "failure_signal": "Learner writes absolute claims from sample evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limitations_statement.requires.bias_threats",
+        "from": "math.statistics.inference.limitations_statement_for_inference",
+        "to": "math.statistics.inference.bias_threats_to_inference",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Limitations statements should include relevant bias and sampling concerns.",
+        "failure_signal": "Learner gives a conclusion without naming major limitations in the evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_condition.requires.random_sampling",
+        "from": "math.statistics.inference.random_sample_condition_check",
+        "to": "math.statistics.data.random_sampling_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking random-sample support builds on understanding random sampling.",
+        "failure_signal": "Learner assumes any sample can support a broad population inference.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonrandom_limitation.requires.bias_threats",
+        "from": "math.statistics.inference.nonrandom_sample_limitation",
+        "to": "math.statistics.inference.bias_threats_to_inference",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Nonrandom sample limitations are a major source of inference bias concerns.",
+        "failure_signal": "Learner treats convenience or voluntary-response samples as population-representative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.supported_claim.requires.cautious_wording",
+        "from": "math.statistics.inference.supported_vs_unsupported_claim",
+        "to": "math.statistics.inference.cautious_population_claim_wording",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Judging claim support requires formulating the claim with uncertainty and scope.",
+        "failure_signal": "Learner accepts or rejects a claim without matching it to evidence and uncertainty.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stat_param.has_mis.single_sample_exact",
+        "from": "math.statistics.inference.sample_statistic_population_parameter",
+        "to": "math.misconception.statistics.single_sample_exactly_equals_population",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_range.has_mis.guarantee",
+        "from": "math.statistics.inference.margin_of_error_as_plausible_range",
+        "to": "math.misconception.statistics.margin_of_error_guarantees_truth",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bias_threats.has_mis.language_cancels_bias",
+        "from": "math.statistics.inference.bias_threats_to_inference",
+        "to": "math.misconception.statistics.bias_cancelled_by_confidence_language",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/bivariate_data_and_inference.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2335,
+    "edges": 4881
+  },
+  "graph_counts_after": {
+    "nodes": 2358,
+    "edges": 4926
+  }
+}

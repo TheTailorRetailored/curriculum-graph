@@ -1,0 +1,2134 @@
+{
+  "patch_id": "math-shapes-objects-detail-001",
+  "applied_at": "2026-05-27T07:39:02.299Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.space.shapes.match_sort_shapes",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.match_sort_shapes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Match and sort shapes",
+        "description": "Match, sort and describe shapes and objects using everyday and mathematical attributes.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.name_common_2d_shapes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Name common two-dimensional shapes",
+        "description": "Recognise and name circles, triangles, rectangles, squares and other common two-dimensional shapes.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.name_common_3d_objects",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Name common three-dimensional objects",
+        "description": "Recognise and name cubes, spheres, cones, cylinders, prisms and pyramids in everyday contexts.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.flat_vs_solid",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Flat shapes versus solid objects",
+        "description": "Distinguish flat two-dimensional shapes from solid three-dimensional objects.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.shape_orientation_invariance",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Shape orientation invariance",
+        "description": "Recognise that a shape remains the same type when shown in a different orientation.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.sides_and_vertices",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Sides and vertices",
+        "description": "Identify and count sides and vertices of two-dimensional shapes.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.polygons_non_polygons",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Polygons and non-polygons",
+        "description": "Distinguish polygons from non-polygons using straight sides and closed shape criteria.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.triangle_types",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Triangle types",
+        "description": "Classify triangles by sides and angles using appropriate geometric language.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.quadrilateral_types",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Quadrilateral types",
+        "description": "Classify quadrilaterals such as squares, rectangles, rhombuses, parallelograms, trapezia and kites by their properties.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.parallel_perpendicular_sides",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Parallel and perpendicular sides",
+        "description": "Identify parallel and perpendicular side relationships in two-dimensional shapes.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.shape_symmetry_properties",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Symmetry properties of shapes",
+        "description": "Describe line and rotational symmetry properties of common two-dimensional shapes.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.circle_parts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Circle parts",
+        "description": "Identify centre, radius, diameter and circumference as parts of a circle.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.faces_edges_vertices",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Faces edges and vertices",
+        "description": "Identify and count faces, edges and vertices of three-dimensional objects.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.prisms_and_pyramids",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Prisms and pyramids",
+        "description": "Classify prisms and pyramids by bases, faces, edges and vertices.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.curved_surfaces",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Curved surfaces",
+        "description": "Describe objects with curved surfaces such as spheres, cylinders and cones.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.nets_of_solids",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Nets of solids",
+        "description": "Connect three-dimensional objects with two-dimensional nets that fold to make them.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.views_of_solids",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Views of solids",
+        "description": "Interpret front, side and top views of simple three-dimensional objects.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.build_from_unit_cubes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Build solids from unit cubes",
+        "description": "Build and interpret simple solids made from unit cubes.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.euler_relationship_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Euler relationship introduction",
+        "description": "Explore the relationship between faces, edges and vertices for simple polyhedra.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.shapes.hierarchical_classification",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Hierarchical shape classification",
+        "description": "Classify shapes using inclusive property relationships, such as squares as rectangles and rhombuses.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.objects.plan_views_and_models",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Plan views and models",
+        "description": "Relate simple models of objects to plan views and sketches.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.shape_attributes_define_categories",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Attributes define shape categories",
+        "description": "Shapes and objects can be classified by defining attributes rather than colour, size or orientation.",
+        "aliases": [],
+        "year_band": "K-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.two_d_is_flat",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Two-dimensional shapes are flat",
+        "description": "Two-dimensional shapes are flat figures with length and width but no thickness.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.three_d_is_solid",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Three-dimensional objects are solid",
+        "description": "Three-dimensional objects have length, width and height or depth.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.sides_vertices_shape_features",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Sides and vertices are shape features",
+        "description": "Sides and vertices help describe and classify two-dimensional shapes.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.parallel_sides_property",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Parallel sides are a property",
+        "description": "Parallel side relationships help classify quadrilaterals and other polygons.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.faces_edges_vertices_objects",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Faces edges and vertices describe objects",
+        "description": "Faces, edges and vertices are structural features of many three-dimensional objects.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.nets_show_faces_connected",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Nets show connected faces",
+        "description": "A net shows the faces of a solid arranged so they can fold to form the object.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.shape_classes_can_overlap",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Shape classes can overlap",
+        "description": "A shape can belong to more than one class when it satisfies multiple sets of properties.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.circle_has_centre_radius_diameter",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Circle has centre radius and diameter",
+        "description": "A circle can be described by its centre, radius and diameter.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.views_represent_3d_objects",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Views represent three-dimensional objects",
+        "description": "Front, side and top views can represent different aspects of a three-dimensional object.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.orientation_changes_shape_type",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Orientation changes shape type",
+        "description": "Learner thinks a differently oriented shape is a different kind of shape.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.flat_solid_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Flat solid confusion",
+        "description": "Learner confuses flat shapes with solid objects, such as calling a cube a square.",
+        "aliases": [],
+        "year_band": "K-4",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.square_not_rectangle",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Square is not a rectangle",
+        "description": "Learner treats shape categories as exclusive and does not recognise squares as special rectangles.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.count_faces_edges_vertices_inconsistently",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Count faces edges vertices inconsistently",
+        "description": "Learner double-counts or omits faces, edges or vertices when describing objects.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.net_faces_not_connected",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Shapes and objects",
+        "label": "Net faces not connected correctly",
+        "description": "Learner draws or selects separated or incorrectly connected faces that cannot fold into the object.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.match_sort.part_of.identifying_shapes",
+        "from": "math.space.shapes.match_sort_shapes",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.name_2d.part_of.identifying_shapes",
+        "from": "math.space.shapes.name_common_2d_shapes",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.name_3d.part_of.identifying_shapes",
+        "from": "math.space.shapes.name_common_3d_objects",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flat_solid.part_of.identifying_shapes",
+        "from": "math.space.shapes.flat_vs_solid",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.orientation_invariance.part_of.identifying_shapes",
+        "from": "math.space.shapes.shape_orientation_invariance",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sides_vertices.part_of.properties_2d",
+        "from": "math.space.shapes.sides_and_vertices",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.polygons.part_of.properties_2d",
+        "from": "math.space.shapes.polygons_non_polygons",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_types.part_of.properties_2d",
+        "from": "math.space.shapes.triangle_types",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_types.part_of.properties_2d",
+        "from": "math.space.shapes.quadrilateral_types",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_perpendicular.part_of.properties_2d",
+        "from": "math.space.shapes.parallel_perpendicular_sides",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_symmetry.part_of.properties_2d",
+        "from": "math.space.shapes.shape_symmetry_properties",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_parts.part_of.properties_2d",
+        "from": "math.space.shapes.circle_parts",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.faces_edges_vertices.part_of.properties_3d",
+        "from": "math.space.objects.faces_edges_vertices",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prisms_pyramids.part_of.properties_3d",
+        "from": "math.space.objects.prisms_and_pyramids",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.curved_surfaces.part_of.properties_3d",
+        "from": "math.space.objects.curved_surfaces",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nets_solids.part_of.properties_3d",
+        "from": "math.space.objects.nets_of_solids",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.views_solids.part_of.properties_3d",
+        "from": "math.space.objects.views_of_solids",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_cubes_solids.part_of.properties_3d",
+        "from": "math.space.objects.build_from_unit_cubes",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.euler_intro.part_of.properties_3d",
+        "from": "math.space.objects.euler_relationship_intro",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hierarchical_classification.part_of.properties_2d",
+        "from": "math.space.shapes.hierarchical_classification",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_views.part_of.properties_3d",
+        "from": "math.space.objects.plan_views_and_models",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_shape_attributes.part_of.identifying_shapes",
+        "from": "math.kp.space.shape_attributes_define_categories",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_two_d_flat.part_of.identifying_shapes",
+        "from": "math.kp.space.two_d_is_flat",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_three_d_solid.part_of.identifying_shapes",
+        "from": "math.kp.space.three_d_is_solid",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_sides_vertices.part_of.properties_2d",
+        "from": "math.kp.space.sides_vertices_shape_features",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_parallel_sides.part_of.properties_2d",
+        "from": "math.kp.space.parallel_sides_property",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_faces_edges_vertices.part_of.properties_3d",
+        "from": "math.kp.space.faces_edges_vertices_objects",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_nets_connected.part_of.properties_3d",
+        "from": "math.kp.space.nets_show_faces_connected",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_shape_classes_overlap.part_of.properties_2d",
+        "from": "math.kp.space.shape_classes_can_overlap",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_circle_parts.part_of.properties_2d",
+        "from": "math.kp.space.circle_has_centre_radius_diameter",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_views_3d.part_of.properties_3d",
+        "from": "math.kp.space.views_represent_3d_objects",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_orientation.part_of.identifying_shapes",
+        "from": "math.misconception.space.orientation_changes_shape_type",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_flat_solid.part_of.identifying_shapes",
+        "from": "math.misconception.space.flat_solid_confusion",
+        "to": "math.space.shapes.identifying_shapes",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_square_rectangle.part_of.properties_2d",
+        "from": "math.misconception.space.square_not_rectangle",
+        "to": "math.space.shapes.properties_2d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_count_fev.part_of.properties_3d",
+        "from": "math.misconception.space.count_faces_edges_vertices_inconsistently",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_nets_connected.part_of.properties_3d",
+        "from": "math.misconception.space.net_faces_not_connected",
+        "to": "math.space.shapes.properties_3d",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identifying_shapes.encompasses.match_sort",
+        "from": "math.space.shapes.identifying_shapes",
+        "to": "math.space.shapes.match_sort_shapes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Matching and sorting are core early shape identification practices.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identifying_shapes.encompasses.name_2d",
+        "from": "math.space.shapes.identifying_shapes",
+        "to": "math.space.shapes.name_common_2d_shapes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Naming common 2D shapes is central to shape identification.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identifying_shapes.encompasses.name_3d",
+        "from": "math.space.shapes.identifying_shapes",
+        "to": "math.space.shapes.name_common_3d_objects",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Naming common 3D objects is central to object identification.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identifying_shapes.encompasses.flat_solid",
+        "from": "math.space.shapes.identifying_shapes",
+        "to": "math.space.shapes.flat_vs_solid",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distinguishing flat shapes and solid objects supports accurate identification.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identifying_shapes.encompasses.orientation",
+        "from": "math.space.shapes.identifying_shapes",
+        "to": "math.space.shapes.shape_orientation_invariance",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Recognising shapes across orientations improves robust identification.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.encompasses.sides_vertices",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.sides_and_vertices",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sides and vertices are core 2D shape properties.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.encompasses.polygons",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.polygons_non_polygons",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Polygon criteria support classification of 2D shapes.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.encompasses.triangles",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.triangle_types",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Triangle classification is a key 2D shape property topic.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.encompasses.quadrilaterals",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Quadrilateral classification is central to 2D shape properties.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.encompasses.parallel_perp",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.parallel_perpendicular_sides",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Parallel and perpendicular relationships support property-based classification.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.encompasses.symmetry",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.shape_symmetry_properties",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Symmetry is an important property of many 2D shapes.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.encompasses.circle_parts",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.circle_parts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Circle parts support later circle measurement and geometry.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.encompasses.hierarchical",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.space.shapes.hierarchical_classification",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Hierarchical classification deepens property-based shape reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.encompasses.fev",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.objects.faces_edges_vertices",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Faces, edges and vertices are core properties of 3D objects.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.encompasses.prisms_pyramids",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.objects.prisms_and_pyramids",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Prisms and pyramids are central classes of 3D objects.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.encompasses.curved",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.objects.curved_surfaces",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Curved surfaces distinguish spheres, cylinders and cones from polyhedra.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.encompasses.nets",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.objects.nets_of_solids",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Nets connect 3D object structure to 2D faces.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.encompasses.views",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.objects.views_of_solids",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Views of solids support spatial reasoning about 3D objects.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.encompasses.unit_cubes",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.objects.build_from_unit_cubes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Building solids from unit cubes supports concrete 3D structure reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.encompasses.euler",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.objects.euler_relationship_intro",
+        "type": "encompasses",
+        "confidence": "low",
+        "rationale": "Euler relationships are an optional extension of face-edge-vertex reasoning in simple polyhedra.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.encompasses.plan_views",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.space.objects.plan_views_and_models",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Plan views and models connect 3D objects to 2D representations.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.match_sort.requires.attribute_focus",
+        "from": "math.space.shapes.match_sort_shapes",
+        "to": "math.measurement.attributes.choose_attribute_to_compare",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "low",
+        "rationale": "Sorting shapes uses attribute focus, though early spatial sorting also develops independently.",
+        "failure_signal": "Learner sorts by colour or size when shape property is the target.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.name_2d.requires.match_sort",
+        "from": "math.space.shapes.name_common_2d_shapes",
+        "to": "math.space.shapes.match_sort_shapes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Naming common 2D shapes builds from matching and sorting examples by shape attributes.",
+        "failure_signal": "Learner recognises matches but cannot name common shapes consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.name_3d.requires.match_sort",
+        "from": "math.space.shapes.name_common_3d_objects",
+        "to": "math.space.shapes.match_sort_shapes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Naming common 3D objects builds from sorting and recognising object forms.",
+        "failure_signal": "Learner recognises similar objects but cannot name common solids consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.flat_solid.requires.name_2d",
+        "from": "math.space.shapes.flat_vs_solid",
+        "to": "math.space.shapes.name_common_2d_shapes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Distinguishing flat and solid forms requires recognising examples of flat shapes first.",
+        "failure_signal": "Learner calls solids by names of their faces or treats pictures as objects.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.orientation_invariance.requires.name_2d",
+        "from": "math.space.shapes.shape_orientation_invariance",
+        "to": "math.space.shapes.name_common_2d_shapes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising a shape across orientations builds on recognising the shape in familiar orientations.",
+        "failure_signal": "Learner says a tilted square is not a square or a rotated triangle is a different shape.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sides_vertices.requires.name_2d",
+        "from": "math.space.shapes.sides_and_vertices",
+        "to": "math.space.shapes.name_common_2d_shapes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Identifying sides and vertices builds on recognising common 2D shapes.",
+        "failure_signal": "Learner cannot identify or count sides and corners consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.polygons.requires.sides_vertices",
+        "from": "math.space.shapes.polygons_non_polygons",
+        "to": "math.space.shapes.sides_and_vertices",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Polygon criteria require recognising straight sides, vertices and closed boundaries.",
+        "failure_signal": "Learner treats open shapes or curved shapes as polygons.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_types.requires.polygons",
+        "from": "math.space.shapes.triangle_types",
+        "to": "math.space.shapes.polygons_non_polygons",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Triangle classification requires recognising triangles as three-sided polygons.",
+        "failure_signal": "Learner classifies by appearance only rather than side or angle properties.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_types.requires.polygons",
+        "from": "math.space.shapes.quadrilateral_types",
+        "to": "math.space.shapes.polygons_non_polygons",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Quadrilateral classification requires recognising four-sided polygons and their properties.",
+        "failure_signal": "Learner does not distinguish rectangles, squares and other four-sided shapes by properties.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_perp.requires.quadrilateral",
+        "from": "math.space.shapes.parallel_perpendicular_sides",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Parallel and perpendicular side properties are commonly introduced through quadrilateral classification.",
+        "failure_signal": "Learner identifies sides but not their direction relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_symmetry.requires.properties_2d",
+        "from": "math.space.shapes.shape_symmetry_properties",
+        "to": "math.space.shapes.properties_2d",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Shape symmetry properties require recognising and describing 2D shape structure.",
+        "failure_signal": "Learner identifies a shape but cannot test or describe its symmetry.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_parts.requires.name_2d",
+        "from": "math.space.shapes.circle_parts",
+        "to": "math.space.shapes.name_common_2d_shapes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Circle-part vocabulary builds on recognising circles as 2D shapes.",
+        "failure_signal": "Learner cannot locate the centre, radius or diameter in a circle diagram.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.faces_edges_vertices.requires.name_3d",
+        "from": "math.space.objects.faces_edges_vertices",
+        "to": "math.space.shapes.name_common_3d_objects",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Faces, edges and vertices are properties of recognised 3D objects.",
+        "failure_signal": "Learner confuses faces with edges or vertices or cannot locate them on a solid.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prisms_pyramids.requires.fev",
+        "from": "math.space.objects.prisms_and_pyramids",
+        "to": "math.space.objects.faces_edges_vertices",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Prism and pyramid classification uses base, face, edge and vertex structure.",
+        "failure_signal": "Learner classifies solids by overall appearance only rather than structural features.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.curved_surfaces.requires.name_3d",
+        "from": "math.space.objects.curved_surfaces",
+        "to": "math.space.shapes.name_common_3d_objects",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising curved surfaces builds on recognising common solids such as spheres, cylinders and cones.",
+        "failure_signal": "Learner treats curved surfaces as flat faces or cannot distinguish spheres from cylinders.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nets_solids.requires.fev",
+        "from": "math.space.objects.nets_of_solids",
+        "to": "math.space.objects.faces_edges_vertices",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Nets of solids require understanding the object's faces and how they connect.",
+        "failure_signal": "Learner draws faces but cannot arrange them so they fold into the object.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.views_solids.requires.properties_3d",
+        "from": "math.space.objects.views_of_solids",
+        "to": "math.space.shapes.properties_3d",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting views requires understanding 3D objects and their visible faces.",
+        "failure_signal": "Learner confuses a face view with the full object.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_cubes_solids.requires.volume_cubes",
+        "from": "math.space.objects.build_from_unit_cubes",
+        "to": "math.measurement.volume.unit_cubes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Building solids from unit cubes uses the same unit-cube structure as volume models.",
+        "failure_signal": "Learner cannot infer hidden cubes or keep layers aligned.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.euler_intro.requires.fev",
+        "from": "math.space.objects.euler_relationship_intro",
+        "to": "math.space.objects.faces_edges_vertices",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "low",
+        "rationale": "Euler relationship exploration depends on consistently counting faces, edges and vertices.",
+        "failure_signal": "Learner cannot test relationships because counts are inconsistent.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hierarchical_classification.requires.quadrilateral",
+        "from": "math.space.shapes.hierarchical_classification",
+        "to": "math.space.shapes.quadrilateral_types",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Hierarchical classification builds on knowing quadrilateral properties and recognising overlapping categories.",
+        "failure_signal": "Learner treats square, rectangle and rhombus categories as mutually exclusive without considering definitions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_views.requires.views",
+        "from": "math.space.objects.plan_views_and_models",
+        "to": "math.space.objects.views_of_solids",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Plan views and models build from interpreting front, side and top views of objects.",
+        "failure_signal": "Learner cannot connect a simple model with its plan view or sketch.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identifying_shapes.has_mis.orientation",
+        "from": "math.space.shapes.identifying_shapes",
+        "to": "math.misconception.space.orientation_changes_shape_type",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identifying_shapes.has_mis.flat_solid",
+        "from": "math.space.shapes.identifying_shapes",
+        "to": "math.misconception.space.flat_solid_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_2d.has_mis.square_rectangle",
+        "from": "math.space.shapes.properties_2d",
+        "to": "math.misconception.space.square_not_rectangle",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.has_mis.count_fev",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.misconception.space.count_faces_edges_vertices_inconsistently",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.properties_3d.has_mis.nets_connected",
+        "from": "math.space.shapes.properties_3d",
+        "to": "math.misconception.space.net_faces_not_connected",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/shapes_and_objects.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 861,
+    "edges": 1713
+  },
+  "graph_counts_after": {
+    "nodes": 897,
+    "edges": 1796
+  }
+}

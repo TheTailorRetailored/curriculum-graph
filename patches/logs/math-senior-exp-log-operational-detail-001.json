@@ -1,0 +1,877 @@
+{
+  "patch_id": "math-senior-exp-log-operational-detail-001",
+  "applied_at": "2026-06-05T15:38:27.357Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 16,
+      "edges_created": 32,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.valid_base_conditions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Valid exponential and logarithmic base conditions",
+        "description": "Recognise that an exponential or logarithmic base is usually positive and not equal to one.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.y_intercept_as_initial_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Y-intercept as exponential initial value",
+        "description": "Interpret the y-intercept of an exponential model as its initial value when the input is zero.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.log_argument_positive_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Log argument positive check",
+        "description": "Check that each logarithm argument is positive before using logarithm laws or accepting a solution.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.log_base_change_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Log base change context",
+        "description": "Use change-of-base reasoning to evaluate or compare logarithms when the calculator or context uses a different base.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.log_equation_extraneous_solution_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Log equation extraneous solution check",
+        "description": "Check candidate solutions of logarithmic equations for invalid logarithm arguments.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Isolate power in exponential equation",
+        "description": "Isolate the exponential expression before taking logarithms to solve an exponential equation.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Solve time in exponential growth model",
+        "description": "Solve for time in an exponential growth or decay model using logarithms and interpret the result in context.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.doubling_time_model",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Doubling time model",
+        "description": "Find or interpret the time required for an exponential growth quantity to double.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.half_life_model",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Half-life model",
+        "description": "Find or interpret the time required for an exponential decay quantity to halve.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Asymptote after vertical shift",
+        "description": "Identify how a vertical shift changes the horizontal asymptote of an exponential graph or vertical asymptote of a logarithmic graph.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.valid_exp_log_base_conditions",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Valid exponential and log bases",
+        "description": "For standard exponential and logarithmic functions, the base is positive and not equal to one.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.log_arguments_must_be_positive",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Log arguments must be positive",
+        "description": "Every logarithm argument in a real-valued logarithmic expression must be positive.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.doubling_half_life_solve_with_logs",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Doubling and half-life use logarithms",
+        "description": "Doubling-time and half-life questions can be solved by setting the exponential ratio to 2 or one half and taking logarithms.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.functions.base_one_as_exponential",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Base one as exponential growth",
+        "description": "Learner treats base one as a valid growth or decay base rather than recognising it gives a constant function.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.functions.take_log_before_isolating_power",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Take log before isolating power",
+        "description": "Learner takes logarithms of an equation before isolating the exponential expression, leading to invalid transformations.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.functions.vertical_shift_does_not_move_asymptote",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Vertical shift does not move asymptote",
+        "description": "Learner applies vertical graph shifts but leaves the relevant asymptote at its parent-function position.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_base_conditions.part_of.exp_log",
+        "from": "math.senior.functions.exp_log.valid_base_conditions",
+        "to": "math.senior.functions.exponential_logarithmic_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_initial.part_of.initial_value",
+        "from": "math.senior.functions.exp_log.y_intercept_as_initial_value",
+        "to": "math.senior.functions.exp_log.exponential_initial_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_arg_positive.part_of.log_domain",
+        "from": "math.senior.functions.exp_log.log_argument_positive_check",
+        "to": "math.senior.functions.domain_from_log_argument",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.change_base_context.part_of.change_base",
+        "from": "math.senior.functions.exp_log.log_base_change_context",
+        "to": "math.senior.functions.exp_log.change_of_base_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_extraneous.part_of.solve_log_check",
+        "from": "math.senior.functions.exp_log.log_equation_extraneous_solution_check",
+        "to": "math.senior.functions.exp_log.solve_log_equations_check_domain",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.isolate_power.part_of.solve_exp_logs",
+        "from": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "to": "math.senior.functions.exp_log.solve_exponential_equations_with_logs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_time.part_of.modelling",
+        "from": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "to": "math.senior.functions.exp_log.exp_log_modelling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubling.part_of.modelling",
+        "from": "math.senior.functions.exp_log.doubling_time_model",
+        "to": "math.senior.functions.exp_log.exp_log_modelling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.half_life.part_of.modelling",
+        "from": "math.senior.functions.exp_log.half_life_model",
+        "to": "math.senior.functions.exp_log.exp_log_modelling",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shift_asymptote.part_of.exp_shift",
+        "from": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "to": "math.senior.functions.exp_log.exponential_vertical_shift_asymptote",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.valid_base.part_of.valid_base",
+        "from": "math.kp.senior.functions.valid_exp_log_base_conditions",
+        "to": "math.senior.functions.exp_log.valid_base_conditions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.log_args_positive.part_of.log_check",
+        "from": "math.kp.senior.functions.log_arguments_must_be_positive",
+        "to": "math.senior.functions.exp_log.log_argument_positive_check",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.doubling_half.part_of.doubling",
+        "from": "math.kp.senior.functions.doubling_half_life_solve_with_logs",
+        "to": "math.senior.functions.exp_log.doubling_time_model",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.base_one.part_of.valid_base",
+        "from": "math.misconception.senior.functions.base_one_as_exponential",
+        "to": "math.senior.functions.exp_log.valid_base_conditions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.log_before_isolate.part_of.isolate_power",
+        "from": "math.misconception.senior.functions.take_log_before_isolating_power",
+        "to": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.shift_asymptote.part_of.shift_asymptote",
+        "from": "math.misconception.senior.functions.vertical_shift_does_not_move_asymptote",
+        "to": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log.encompasses.valid_base",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.valid_base_conditions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Valid base conditions are foundational to exponential and logarithmic functions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_model.encompasses.doubling",
+        "from": "math.senior.functions.exp_log.exp_log_modelling",
+        "to": "math.senior.functions.exp_log.doubling_time_model",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Doubling time is a common exponential modelling application.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_exp.encompasses.isolate_power",
+        "from": "math.senior.functions.exp_log.solve_exponential_equations_with_logs",
+        "to": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Solving exponential equations with logs generally requires isolating the exponential term first.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_base.requires.function_form",
+        "from": "math.senior.functions.exp_log.valid_base_conditions",
+        "to": "math.senior.functions.exp_log.exponential_function_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Base constraints are introduced as part of interpreting exponential function form.",
+        "failure_signal": "Learner treats any real base as equally valid in standard exponentials and logarithms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_initial.requires.exp_initial",
+        "from": "math.senior.functions.exp_log.y_intercept_as_initial_value",
+        "to": "math.senior.functions.exp_log.exponential_initial_value",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting a y-intercept as an initial value builds on recognising the initial-value parameter.",
+        "failure_signal": "Learner identifies the wrong intercept or treats the asymptote as the initial value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_arg_positive.requires.domain_restrictions",
+        "from": "math.senior.functions.exp_log.log_argument_positive_check",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Logarithm argument checks are a specific domain restriction.",
+        "failure_signal": "Learner accepts logarithms of zero or negative expressions in real-valued contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.change_base_context.requires.change_base",
+        "from": "math.senior.functions.exp_log.log_base_change_context",
+        "to": "math.senior.functions.exp_log.change_of_base_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Using change of base in context requires knowing the change-of-base formula.",
+        "failure_signal": "Learner changes bases without preserving the logarithm value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_extraneous.requires.log_arg_positive",
+        "from": "math.senior.functions.exp_log.log_equation_extraneous_solution_check",
+        "to": "math.senior.functions.exp_log.log_argument_positive_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking extraneous log solutions requires verifying all log arguments are positive.",
+        "failure_signal": "Learner accepts candidate solutions that make a logarithm argument non-positive.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.isolate_power.requires.solve_exp_logs",
+        "from": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "to": "math.senior.functions.exp_log.solve_exponential_equations_with_logs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Isolating the exponential term is a procedural subskill within solving exponential equations using logarithms.",
+        "failure_signal": "Learner takes logs of sums or unisolated expressions invalidly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_time.requires.isolate_power",
+        "from": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "to": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Solving for time in exponential models requires isolating the exponential term and using logarithms.",
+        "failure_signal": "Learner cannot isolate the time exponent or interpret its units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubling.requires.solve_time",
+        "from": "math.senior.functions.exp_log.doubling_time_model",
+        "to": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Doubling-time questions are a special case of solving for time in exponential growth.",
+        "failure_signal": "Learner substitutes final value instead of a factor of two or gives a time without context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.half_life.requires.solve_time",
+        "from": "math.senior.functions.exp_log.half_life_model",
+        "to": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Half-life questions are a special case of solving for time in exponential decay.",
+        "failure_signal": "Learner uses doubling reasoning for a halving context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shift_asymptote.requires.transformations",
+        "from": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "to": "math.senior.functions.exp_log.exponential_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising shifted asymptotes depends on graph transformation reasoning.",
+        "failure_signal": "Learner shifts the curve but leaves the asymptote unchanged.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_base.has_mis.base_one",
+        "from": "math.senior.functions.exp_log.valid_base_conditions",
+        "to": "math.misconception.senior.functions.base_one_as_exponential",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.isolate_power.has_mis.log_before_isolate",
+        "from": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "to": "math.misconception.senior.functions.take_log_before_isolating_power",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shift_asymptote.has_mis.no_move",
+        "from": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "to": "math.misconception.senior.functions.vertical_shift_does_not_move_asymptote",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2494,
+    "edges": 5197
+  },
+  "graph_counts_after": {
+    "nodes": 2510,
+    "edges": 5229
+  }
+}

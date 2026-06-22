@@ -1,0 +1,96 @@
+{
+  "patch_id": "math-ratio-notation-support",
+  "applied_at": "2026-06-08T20:15:54.759Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_notation.uses_representation.bar_model",
+        "from": "math.ratio.ratio_notation",
+        "to": "math.representation.bar_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Bar models help map ratio terms to labelled quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_notation.assessed_by.explain",
+        "from": "math.ratio.ratio_notation",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain what each term means.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_notation.assessed_by.find_error",
+        "from": "math.ratio.ratio_notation",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Error tasks reveal reversed ratio order.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_notation.has_mis.reversing_order",
+        "from": "math.ratio.ratio_notation",
+        "to": "math.misconception.ratio.reversing_ratio_order",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Learners often reverse ratio order when translating language to notation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2661,
+    "edges": 1489
+  },
+  "graph_counts_after": {
+    "nodes": 2661,
+    "edges": 1493
+  }
+}

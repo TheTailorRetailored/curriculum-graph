@@ -1,0 +1,218 @@
+{
+  "patch_id": "math-fractions-greater-than-one-compliance",
+  "applied_at": "2026-06-06T15:15:25.866Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 8,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.one_whole_is_all_fraction_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.fractions_greater_than_one",
+        "label": "One whole is all fraction units",
+        "description": "Recognise that one whole is reached when all equal fractional units in the whole have been counted.",
+        "aliases": [
+          "one whole as fraction units"
+        ],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.more_units_than_one_whole_exceeds_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.fractions_greater_than_one",
+        "label": "More units than one whole exceeds one",
+        "description": "Recognise that a fraction is greater than one when the counted fractional units go beyond one whole.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.fractions_can_exceed_one",
+      "updates": {
+        "parent_topic": "math.fractions.fractions_greater_than_one"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_fractions_exceed_one.part_of.mixed_improper",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific fractions-greater-than-one micro-topic rather than the broad mixed/improper sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fractions_exceed_one.part_of.fractions_gt_one",
+        "from": "math.kp.fractions.fractions_can_exceed_one",
+        "to": "math.fractions.fractions_greater_than_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_one_whole_all_units.part_of.fractions_gt_one",
+        "from": "math.kp.fractions.one_whole_is_all_fraction_units",
+        "to": "math.fractions.fractions_greater_than_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_more_units_exceeds_one.part_of.fractions_gt_one",
+        "from": "math.kp.fractions.more_units_than_one_whole_exceeds_one",
+        "to": "math.fractions.fractions_greater_than_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fractions_gt_one.uses_representation.number_line",
+        "from": "math.fractions.fractions_greater_than_one",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Number lines show fractions continuing beyond one whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fractions_gt_one.uses_representation.area_model",
+        "from": "math.fractions.fractions_greater_than_one",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area models can show more than one whole using repeated wholes or shaded units beyond the first whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fractions_gt_one.assessed_by.model",
+        "from": "math.fractions.fractions_greater_than_one",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model a fraction greater than one with number lines or area models.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fractions_gt_one.assessed_by.explain",
+        "from": "math.fractions.fractions_greater_than_one",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain how a fraction can represent more than one whole.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fractions_gt_one.has_mis.improper_invalid",
+        "from": "math.fractions.fractions_greater_than_one",
+        "to": "math.misconception.fractions.improper_fractions_are_invalid",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Learners may reject fractions greater than one because they expect numerator to be smaller than denominator.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2588,
+    "edges": 5411
+  },
+  "graph_counts_after": {
+    "nodes": 2590,
+    "edges": 5419
+  }
+}

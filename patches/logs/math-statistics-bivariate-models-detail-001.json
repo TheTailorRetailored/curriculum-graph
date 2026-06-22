@@ -1,0 +1,1058 @@
+{
+  "patch_id": "math-statistics-bivariate-models-detail-001",
+  "applied_at": "2026-06-04T15:56:33.349Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 20,
+      "edges_created": 38,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.lurking_variable_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Lurking variable introduction",
+        "description": "Recognise that an unmeasured variable may help explain an association between two observed variables.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.causal_claim_evidence_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Causal claim evidence introduction",
+        "description": "Distinguish an association-based claim from a causal claim that would require stronger design evidence.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.draw_line_through_middle_of_points",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Draw line through middle of points",
+        "description": "Draw a visual line of best fit through the middle of a roughly linear scatterplot while balancing points above and below.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.balanced_residuals_visual",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Balanced residuals visual check",
+        "description": "Use the pattern of vertical distances from a fitted line to judge whether a visual line of best fit is reasonably balanced.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.interpolation_within_data_range",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Interpolation within data range",
+        "description": "Use a fitted relationship to estimate a value within the observed range of explanatory-variable values.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Extrapolation beyond data range",
+        "description": "Recognise that predictions beyond the observed data range are extrapolations and are usually less reliable.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Prediction from line of best fit",
+        "description": "Use a line of best fit to make and interpret approximate predictions in context.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.slope_units_in_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Slope units in context",
+        "description": "Interpret the units of slope as change in the response variable per one unit of the explanatory variable.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.intercept_context_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Intercept context meaning",
+        "description": "Interpret the y-intercept of a fitted line in context and decide whether that interpretation is meaningful for the data range.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.residual_calculation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Residual calculation",
+        "description": "Calculate a residual as observed response value minus predicted response value.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.residual_sign_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Residual sign interpretation",
+        "description": "Interpret positive and negative residuals as observed values above or below a fitted line.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.residual_plot_pattern_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Residual plot pattern introduction",
+        "description": "Use a residual plot to check whether a linear model leaves systematic pattern behind.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.sample_context_for_bivariate_claims",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Sample context for bivariate claims",
+        "description": "State the sampled group and data-collection context when making a claim about a bivariate relationship.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.extrapolation_less_reliable",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Extrapolation is less reliable",
+        "description": "Predictions beyond the observed range of data are less reliable because the relationship may not continue in the same way.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.slope_is_response_per_explanatory_unit",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Slope is response per explanatory unit",
+        "description": "In a fitted line, slope describes the predicted change in the response variable for each one-unit increase in the explanatory variable.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.residual_sign_shows_over_under_prediction",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Residual sign shows over or under prediction",
+        "description": "A positive residual means the observed response is above the model prediction; a negative residual means it is below.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.causal_claims_need_design_evidence",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Causal claims need design evidence",
+        "description": "A causal claim needs stronger design evidence than an observed association in a scatterplot or correlation alone.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.extrapolation_as_reliable_as_interpolation",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Extrapolation as reliable as interpolation",
+        "description": "Learner treats predictions beyond the observed data range as just as reliable as predictions within the data range.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.best_fit_line_must_cross_origin",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Best-fit line must cross origin",
+        "description": "Learner assumes a line of best fit should pass through the origin even when the data and context do not support that.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.model_prediction_is_exact",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Model prediction is exact",
+        "description": "Learner treats a fitted-model prediction as an exact observed value rather than an estimate with uncertainty and residual error.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.lurking_variable.part_of.corr_causation",
+        "from": "math.statistics.bivariate.lurking_variable_intro",
+        "to": "math.statistics.bivariate.correlation_vs_causation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.causal_evidence.part_of.corr_causation",
+        "from": "math.statistics.bivariate.causal_claim_evidence_intro",
+        "to": "math.statistics.bivariate.correlation_vs_causation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.draw_line_middle.part_of.best_fit",
+        "from": "math.statistics.bivariate.draw_line_through_middle_of_points",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balanced_residuals.part_of.best_fit",
+        "from": "math.statistics.bivariate.balanced_residuals_visual",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpolation.part_of.best_fit",
+        "from": "math.statistics.bivariate.interpolation_within_data_range",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolation.part_of.best_fit",
+        "from": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prediction_line.part_of.best_fit",
+        "from": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.slope_units.part_of.slope_intercept",
+        "from": "math.statistics.bivariate.slope_units_in_context",
+        "to": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.intercept_context.part_of.slope_intercept",
+        "from": "math.statistics.bivariate.intercept_context_meaning",
+        "to": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_calc.part_of.residuals",
+        "from": "math.statistics.bivariate.residual_calculation",
+        "to": "math.statistics.bivariate.residuals_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_sign.part_of.residuals",
+        "from": "math.statistics.bivariate.residual_sign_interpretation",
+        "to": "math.statistics.bivariate.residuals_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_plot.part_of.residuals",
+        "from": "math.statistics.bivariate.residual_plot_pattern_intro",
+        "to": "math.statistics.bivariate.residuals_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_context.part_of.sample_claims",
+        "from": "math.statistics.bivariate.sample_context_for_bivariate_claims",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.extrap_less_reliable.part_of.extrapolation",
+        "from": "math.kp.statistics.extrapolation_less_reliable",
+        "to": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.slope_units.part_of.slope_units",
+        "from": "math.kp.statistics.slope_is_response_per_explanatory_unit",
+        "to": "math.statistics.bivariate.slope_units_in_context",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.residual_sign.part_of.residual_sign",
+        "from": "math.kp.statistics.residual_sign_shows_over_under_prediction",
+        "to": "math.statistics.bivariate.residual_sign_interpretation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.causal_evidence.part_of.causal_evidence",
+        "from": "math.kp.statistics.causal_claims_need_design_evidence",
+        "to": "math.statistics.bivariate.causal_claim_evidence_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.extrap_reliable.part_of.extrapolation",
+        "from": "math.misconception.statistics.extrapolation_as_reliable_as_interpolation",
+        "to": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.origin_line.part_of.best_fit",
+        "from": "math.misconception.statistics.best_fit_line_must_cross_origin",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.prediction_exact.part_of.prediction",
+        "from": "math.misconception.statistics.model_prediction_is_exact",
+        "to": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.best_fit.encompasses.prediction",
+        "from": "math.statistics.bivariate.line_of_best_fit_visual",
+        "to": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Making approximate predictions is a core use of a line of best fit.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residuals.encompasses.residual_calc",
+        "from": "math.statistics.bivariate.residuals_intro",
+        "to": "math.statistics.bivariate.residual_calculation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Calculating residuals directly practises the meaning of residuals.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.lurking_variable.requires.corr_causation",
+        "from": "math.statistics.bivariate.lurking_variable_intro",
+        "to": "math.statistics.bivariate.correlation_vs_causation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Lurking variables help explain why association alone does not prove causation.",
+        "failure_signal": "Learner treats an observed association as causal without considering other explanations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.causal_evidence.requires.lurking_variable",
+        "from": "math.statistics.bivariate.causal_claim_evidence_intro",
+        "to": "math.statistics.bivariate.lurking_variable_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Causal evidence discussions build on recognising possible alternative explanations such as lurking variables.",
+        "failure_signal": "Learner makes causal claims from observational scatterplots alone.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.draw_line_middle.requires.linear_detection",
+        "from": "math.statistics.bivariate.draw_line_through_middle_of_points",
+        "to": "math.statistics.bivariate.linear_association_detection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A line of best fit is useful only for roughly linear scatterplots.",
+        "failure_signal": "Learner draws a line through curved or patternless data without checking form.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balanced_residuals.requires.draw_line_middle",
+        "from": "math.statistics.bivariate.balanced_residuals_visual",
+        "to": "math.statistics.bivariate.draw_line_through_middle_of_points",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Balancing residuals visually refines a line through the middle of the points.",
+        "failure_signal": "Learner draws a line through only extreme points or one side of the cloud.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpolation.requires.best_fit",
+        "from": "math.statistics.bivariate.interpolation_within_data_range",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpolation uses a fitted trend within the observed range of x-values.",
+        "failure_signal": "Learner makes predictions without checking whether the input lies inside the observed range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolation.requires.interpolation",
+        "from": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "to": "math.statistics.bivariate.interpolation_within_data_range",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Extrapolation is best understood by contrast with interpolation within the observed range.",
+        "failure_signal": "Learner treats a far outside prediction as equally supported by the data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prediction_line.requires.interpolation",
+        "from": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "to": "math.statistics.bivariate.interpolation_within_data_range",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Prediction from a line of best fit usually begins with supported interpolation within the data range.",
+        "failure_signal": "Learner reads prediction from the wrong axis or outside the model context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.slope_units.requires.slope_context",
+        "from": "math.statistics.bivariate.slope_units_in_context",
+        "to": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Slope unit interpretation is part of contextual interpretation of fitted line parameters.",
+        "failure_signal": "Learner states slope as a unitless number or reverses numerator and denominator units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.intercept_context.requires.slope_units",
+        "from": "math.statistics.bivariate.intercept_context_meaning",
+        "to": "math.statistics.bivariate.slope_units_in_context",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "After interpreting slope, learners interpret the intercept and assess whether x equals zero is meaningful.",
+        "failure_signal": "Learner gives an unrealistic intercept interpretation outside the data context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_calc.requires.prediction_line",
+        "from": "math.statistics.bivariate.residual_calculation",
+        "to": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Residual calculation requires an observed value and a model prediction.",
+        "failure_signal": "Learner subtracts coordinates or reverses observed and predicted values without interpretation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_sign.requires.residual_calc",
+        "from": "math.statistics.bivariate.residual_sign_interpretation",
+        "to": "math.statistics.bivariate.residual_calculation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Residual sign follows from the observed-minus-predicted calculation.",
+        "failure_signal": "Learner cannot connect a residual sign to whether a point is above or below the fitted line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_plot.requires.residual_sign",
+        "from": "math.statistics.bivariate.residual_plot_pattern_intro",
+        "to": "math.statistics.bivariate.residual_sign_interpretation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Residual plot interpretation builds on residual size and sign for individual points.",
+        "failure_signal": "Learner ignores systematic residual patterns that suggest a poor linear model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_context.requires.sample_claims",
+        "from": "math.statistics.bivariate.sample_context_for_bivariate_claims",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Bivariate claims should state the sample context before generalising to a population.",
+        "failure_signal": "Learner generalises a relationship without naming the sample or data collection context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolation.has_mis.reliable",
+        "from": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "to": "math.misconception.statistics.extrapolation_as_reliable_as_interpolation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.best_fit.has_mis.origin",
+        "from": "math.statistics.bivariate.line_of_best_fit_visual",
+        "to": "math.misconception.statistics.best_fit_line_must_cross_origin",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prediction.has_mis.exact",
+        "from": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "to": "math.misconception.statistics.model_prediction_is_exact",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/bivariate_data_and_inference.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2315,
+    "edges": 4843
+  },
+  "graph_counts_after": {
+    "nodes": 2335,
+    "edges": 4881
+  }
+}

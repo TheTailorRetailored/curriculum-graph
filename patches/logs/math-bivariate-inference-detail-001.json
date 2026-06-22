@@ -1,0 +1,2127 @@
+{
+  "patch_id": "math-bivariate-inference-detail-001",
+  "applied_at": "2026-05-28T06:53:22.474Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.paired_numerical_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Paired numerical data",
+        "description": "Recognise paired numerical data as two measurements recorded for each case or individual.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Explanatory and response variables",
+        "description": "Distinguish explanatory and response variables in a bivariate statistical context.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.plot_paired_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Plot paired data",
+        "description": "Plot paired numerical data as points on coordinate axes.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Scatterplot axes and scales",
+        "description": "Choose and interpret axes, labels and scales for scatterplots.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.read_scatterplots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Read scatterplots",
+        "description": "Read individual points and overall visual patterns in scatterplots.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Scatterplot clusters and outliers",
+        "description": "Identify clusters, gaps and unusual points in scatterplots.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.direction_of_association",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Direction of association",
+        "description": "Describe positive, negative or no association in paired numerical data.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.form_of_association",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Form of association",
+        "description": "Describe whether an association appears linear, curved or has another form.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.strength_of_association",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Strength of association",
+        "description": "Describe how tightly paired data follow an overall pattern.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation coefficient introduction",
+        "description": "Interpret correlation coefficient as a numerical summary of direction and strength for linear association.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.correlation_vs_causation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation versus causation",
+        "description": "Distinguish statistical association from evidence of cause-and-effect.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Line of best fit visual estimate",
+        "description": "Use a visual line of best fit to summarise a roughly linear bivariate pattern.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Interpret slope and intercept in context",
+        "description": "Interpret slope and intercept of a fitted linear model in the context of paired data.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.residuals_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Residuals introduction",
+        "description": "Interpret residuals as vertical differences between observed values and model predictions.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.sample_to_population_claims",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Sample to population claims",
+        "description": "Use sample data cautiously to make claims about a population.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.sampling_variability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Sampling variability",
+        "description": "Recognise that different samples from the same population can produce different results.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.informal_confidence_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Informal confidence language",
+        "description": "Use cautious language to express uncertainty in informal statistical claims.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.margin_of_error_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Margin of error introduction",
+        "description": "Interpret margin of error informally as a range of plausible error around a sample estimate.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.compare_sample_groups",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Compare sample groups",
+        "description": "Compare sample groups while considering sample size, variability and overlap.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.inference_from_random_samples",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Inference from random samples",
+        "description": "Use random samples as evidence for population claims while recognising uncertainty.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.limits_of_informal_inference",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Limits of informal inference",
+        "description": "Recognise limits of claims based on sample design, variability, bias and context.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.paired_data_preserve_cases",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Paired data preserve cases",
+        "description": "Each point in a bivariate data set represents two values from the same case or individual.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.scatterplots_show_pairs",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Scatterplots show paired values",
+        "description": "Scatterplots display paired numerical values as coordinate points.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.association_has_direction_form_strength",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Association has direction form and strength",
+        "description": "Association is described using direction, form, strength and unusual points.",
+        "aliases": [],
+        "year_band": "8-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.correlation_summarises_linear_association",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation summarises linear association",
+        "description": "Correlation describes direction and strength of a linear association, not all patterns.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.correlation_not_causation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation is not causation",
+        "description": "A correlation alone does not establish that one variable causes the other.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.line_of_best_fit_models_trend",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Line of best fit models trend",
+        "description": "A line of best fit summarises an overall linear trend and does not usually pass through every point.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.residual_is_observed_minus_predicted",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Residual is observed minus predicted",
+        "description": "A residual compares an observed response value with the value predicted by a model.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.samples_vary_naturally",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Samples vary naturally",
+        "description": "Different samples can give different estimates even when drawn from the same population.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.inference_claims_need_uncertainty",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Inference claims need uncertainty",
+        "description": "Claims from samples should acknowledge uncertainty, sample design and variability.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.random_samples_support_population_claims",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Random samples support population claims",
+        "description": "Random samples can support population claims better than convenience samples, though uncertainty remains.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.unpaired_values_as_points",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Unpaired values treated as points",
+        "description": "Learner plots two unrelated lists as if values in matching positions form meaningful pairs.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.correlation_means_causation",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Correlation means causation",
+        "description": "Learner assumes an association proves that one variable causes the other.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.strong_correlation_from_two_points",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Strong correlation from two points",
+        "description": "Learner judges strong association from too few points or isolated aligned points.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.line_best_fit_must_hit_all_points",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Line of best fit must hit all points",
+        "description": "Learner thinks a line of best fit must pass through every data point or the most points possible.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.statistics.sample_claim_without_uncertainty",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Sample claim without uncertainty",
+        "description": "Learner states a population claim from sample data as certain and exact.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.paired_data.part_of.scatterplots",
+        "from": "math.statistics.bivariate.paired_numerical_data",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.explanatory_response.part_of.scatterplots",
+        "from": "math.statistics.bivariate.explanatory_response_variables",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_paired.part_of.scatterplots",
+        "from": "math.statistics.bivariate.plot_paired_data",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.axes_scales.part_of.scatterplots",
+        "from": "math.statistics.bivariate.scatterplot_axes_scales",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scatter.part_of.scatterplots",
+        "from": "math.statistics.bivariate.read_scatterplots",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatter_clusters.part_of.scatterplots",
+        "from": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direction_assoc.part_of.association",
+        "from": "math.statistics.bivariate.direction_of_association",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.form_assoc.part_of.association",
+        "from": "math.statistics.bivariate.form_of_association",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.strength_assoc.part_of.association",
+        "from": "math.statistics.bivariate.strength_of_association",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_coeff.part_of.association",
+        "from": "math.statistics.bivariate.correlation_coefficient_intro",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_causation.part_of.association",
+        "from": "math.statistics.bivariate.correlation_vs_causation",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.best_fit_visual.part_of.association",
+        "from": "math.statistics.bivariate.line_of_best_fit_visual",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.slope_intercept_context.part_of.association",
+        "from": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residuals_intro.part_of.association",
+        "from": "math.statistics.bivariate.residuals_intro",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_population_claims.part_of.informal_inference",
+        "from": "math.statistics.inference.sample_to_population_claims",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability.part_of.informal_inference",
+        "from": "math.statistics.inference.sampling_variability",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_confidence.part_of.informal_inference",
+        "from": "math.statistics.inference.informal_confidence_language",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_error_intro.part_of.informal_inference",
+        "from": "math.statistics.inference.margin_of_error_intro",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_sample_groups.part_of.informal_inference",
+        "from": "math.statistics.inference.compare_sample_groups",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_sample_inference.part_of.informal_inference",
+        "from": "math.statistics.inference.inference_from_random_samples",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_inference.part_of.informal_inference",
+        "from": "math.statistics.inference.limits_of_informal_inference",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_paired_cases.part_of.scatterplots",
+        "from": "math.kp.statistics.paired_data_preserve_cases",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_scatter_pairs.part_of.scatterplots",
+        "from": "math.kp.statistics.scatterplots_show_pairs",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_assoc_features.part_of.association",
+        "from": "math.kp.statistics.association_has_direction_form_strength",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_correlation_linear.part_of.association",
+        "from": "math.kp.statistics.correlation_summarises_linear_association",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_correlation_not_causation.part_of.association",
+        "from": "math.kp.statistics.correlation_not_causation",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_best_fit_trend.part_of.association",
+        "from": "math.kp.statistics.line_of_best_fit_models_trend",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_residual_observed_predicted.part_of.association",
+        "from": "math.kp.statistics.residual_is_observed_minus_predicted",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_samples_vary.part_of.inference",
+        "from": "math.kp.statistics.samples_vary_naturally",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_inference_uncertainty.part_of.inference",
+        "from": "math.kp.statistics.inference_claims_need_uncertainty",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_random_samples_claims.part_of.inference",
+        "from": "math.kp.statistics.random_samples_support_population_claims",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_unpaired_points.part_of.scatterplots",
+        "from": "math.misconception.statistics.unpaired_values_as_points",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_correlation_causation.part_of.association",
+        "from": "math.misconception.statistics.correlation_means_causation",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_strong_two_points.part_of.association",
+        "from": "math.misconception.statistics.strong_correlation_from_two_points",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_best_fit_hits_all.part_of.association",
+        "from": "math.misconception.statistics.line_best_fit_must_hit_all_points",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_sample_claim_no_uncertainty.part_of.inference",
+        "from": "math.misconception.statistics.sample_claim_without_uncertainty",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.paired_data",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.paired_numerical_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Paired numerical data are the data structure represented in scatterplots.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.explanatory_response",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Explanatory and response variables support interpretation of bivariate scatterplots.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.plot_paired",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.plot_paired_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Plotting paired data directly practises scatterplot construction.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.axes_scales",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Axes and scales are essential scatterplot conventions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.read_scatter",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading scatterplots is central to bivariate display interpretation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.clusters_outliers",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Clusters and outliers are important scatterplot features.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.encompasses.direction",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Direction is a core descriptor of association.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.encompasses.form",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Form is a core descriptor of association patterns.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.encompasses.strength",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.strength_of_association",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Strength describes how tightly points follow an association pattern.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.encompasses.correlation_coefficient",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Correlation coefficient formalises linear association strength and direction.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.encompasses.correlation_causation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.correlation_vs_causation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Correlation-versus-causation reasoning is central to interpreting association responsibly.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.encompasses.best_fit",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Lines of best fit summarise roughly linear association visually.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.encompasses.slope_intercept",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Slope and intercept interpretation connects fitted lines to bivariate context.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.encompasses.residuals",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.residuals_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Residuals extend model interpretation by comparing observations with predictions.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.encompasses.sample_population_claims",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sample-to-population claims are central to informal inference.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.encompasses.sampling_variability",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sampling variability is central to informal inference.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.encompasses.confidence_language",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.informal_confidence_language",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Informal confidence language helps express uncertainty in claims.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.encompasses.margin_error",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.margin_of_error_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Margin of error is an accessible bridge toward formal inference.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.encompasses.compare_groups",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.compare_sample_groups",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing sample groups applies informal inference to group differences.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.encompasses.random_samples",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.inference_from_random_samples",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Random samples support stronger population inference than convenience samples.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.encompasses.limits",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.limits_of_informal_inference",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Understanding limits of inference helps avoid overclaiming from sample data.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.paired_data.requires.two_variable_data",
+        "from": "math.statistics.bivariate.paired_numerical_data",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Paired numerical data requires recognising numerical variables and how data are recorded.",
+        "failure_signal": "Learner treats paired values as separate unconnected lists.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.explanatory_response.requires.paired_data",
+        "from": "math.statistics.bivariate.explanatory_response_variables",
+        "to": "math.statistics.bivariate.paired_numerical_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Explanatory and response variables are identified within paired bivariate data contexts.",
+        "failure_signal": "Learner cannot say which variable is used to help explain or predict the other.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_paired.requires.coordinate_plane",
+        "from": "math.statistics.bivariate.plot_paired_data",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Plotting paired data requires locating ordered pairs on coordinate axes.",
+        "failure_signal": "Learner cannot turn paired values into plotted coordinate points.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatter_axes.requires.plot_paired",
+        "from": "math.statistics.bivariate.scatterplot_axes_scales",
+        "to": "math.statistics.bivariate.plot_paired_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Axes and scales are chosen to plot paired data clearly.",
+        "failure_signal": "Learner plots points but uses unreadable or inconsistent axes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scatter.requires.axes",
+        "from": "math.statistics.bivariate.read_scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading scatterplots requires interpreting axes, scales and plotted points.",
+        "failure_signal": "Learner reads points without attending to axes or scale values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatter_clusters.requires.read_scatter",
+        "from": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising clusters and outliers builds from reading scatterplots accurately.",
+        "failure_signal": "Learner sees individual points but not unusual points or clustered regions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direction_assoc.requires.read_scatter",
+        "from": "math.statistics.bivariate.direction_of_association",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Direction of association is inferred from the overall scatterplot pattern.",
+        "failure_signal": "Learner describes a single point rather than the overall direction of the data cloud.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.form_assoc.requires.direction",
+        "from": "math.statistics.bivariate.form_of_association",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Form of association builds on recognising an overall association pattern.",
+        "failure_signal": "Learner calls every pattern linear without considering curvature or other form.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.strength_assoc.requires.form",
+        "from": "math.statistics.bivariate.strength_of_association",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Strength is judged relative to how closely points follow the observed form.",
+        "failure_signal": "Learner judges strength from slope steepness rather than scatter around the pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_coeff.requires.strength",
+        "from": "math.statistics.bivariate.correlation_coefficient_intro",
+        "to": "math.statistics.bivariate.strength_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Correlation coefficient formalises visual strength and direction for linear association.",
+        "failure_signal": "Learner interprets correlation without understanding visual association strength.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_causation.requires.correlation",
+        "from": "math.statistics.bivariate.correlation_vs_causation",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Correlation-versus-causation reasoning builds from interpreting association and correlation.",
+        "failure_signal": "Learner treats any correlation as causal evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.best_fit.requires.linear_association",
+        "from": "math.statistics.bivariate.line_of_best_fit_visual",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A line of best fit is useful when a scatterplot has an approximately linear form.",
+        "failure_signal": "Learner draws a fitted line for non-linear or patternless data without justification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.slope_intercept.requires.linear_functions",
+        "from": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting slope and intercept in fitted lines requires linear-function meaning.",
+        "failure_signal": "Learner states slope and intercept numerically without contextual meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residuals.requires.best_fit",
+        "from": "math.statistics.bivariate.residuals_intro",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Residuals compare observed values with values predicted by a fitted line.",
+        "failure_signal": "Learner cannot identify prediction error for a point relative to a model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_population_claims.requires.sampling",
+        "from": "math.statistics.inference.sample_to_population_claims",
+        "to": "math.statistics.data.sampling",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Sample-to-population claims require understanding samples, populations and representativeness.",
+        "failure_signal": "Learner makes a population claim from any data set without considering sample design.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability.requires.variability",
+        "from": "math.statistics.inference.sampling_variability",
+        "to": "math.statistics.summaries.variability_in_repeated_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sampling variability builds on recognising natural variability in repeated data or samples.",
+        "failure_signal": "Learner expects all samples from a population to give identical summaries.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.confidence_language.requires.sample_claims",
+        "from": "math.statistics.inference.informal_confidence_language",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Informal confidence language expresses uncertainty in sample-to-population claims.",
+        "failure_signal": "Learner states sample-based claims as exact facts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_error.requires.sampling_variability",
+        "from": "math.statistics.inference.margin_of_error_intro",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Margin of error is an informal summary of uncertainty from sampling variability.",
+        "failure_signal": "Learner treats a sample estimate as exact without a plausible range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_sample_groups.requires.compare_distributions",
+        "from": "math.statistics.inference.compare_sample_groups",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing sample groups uses distribution comparison plus uncertainty from sampling.",
+        "failure_signal": "Learner compares groups using a single statistic without considering overlap or variability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_samples_inference.requires.random_sampling",
+        "from": "math.statistics.inference.inference_from_random_samples",
+        "to": "math.statistics.data.random_sampling_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Inference from random samples depends on understanding why random selection supports population claims.",
+        "failure_signal": "Learner treats convenience samples as equally strong evidence as random samples.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_inference.requires.bias",
+        "from": "math.statistics.inference.limits_of_informal_inference",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Limits of inference depend on identifying bias, sample design problems and uncertainty.",
+        "failure_signal": "Learner overgeneralises from biased or limited data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.has_mis.unpaired_values",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.misconception.statistics.unpaired_values_as_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.has_mis.correlation_causation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.misconception.statistics.correlation_means_causation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.has_mis.strong_two_points",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.misconception.statistics.strong_correlation_from_two_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.has_mis.best_fit_hits_all",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.misconception.statistics.line_best_fit_must_hit_all_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference.has_mis.no_uncertainty",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.misconception.statistics.sample_claim_without_uncertainty",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/bivariate_data_and_inference.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1113,
+    "edges": 2294
+  },
+  "graph_counts_after": {
+    "nodes": 1149,
+    "edges": 2377
+  }
+}

@@ -1,0 +1,1557 @@
+{
+  "patch_id": "math-probability-distributions-detail-001",
+  "applied_at": "2026-06-04T07:24:08.002Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.probability.distributions.bar_chart_representation"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 28,
+      "edges_created": 58,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.outcome_value_mapping",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Outcome value mapping",
+        "description": "Map each outcome of a chance process to the numerical value assigned by a random variable.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.random_variable_support",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Random variable support",
+        "description": "Identify the set of possible values a discrete random variable can take.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.event_from_random_variable_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Event from random variable value",
+        "description": "Translate statements such as X equals 2 or X is at least 3 into events in the underlying sample space.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.distribution_table_representation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Distribution table representation",
+        "description": "Represent a discrete random variable using a table pairing each possible value with its probability.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.probability_mass_function_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Probability mass function notation",
+        "description": "Use notation such as P(X equals x) to describe probabilities assigned to values of a discrete random variable.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.nonnegative_probability_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Nonnegative probability check",
+        "description": "Check that every probability in a discrete distribution is zero or positive.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.probability_sum_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Probability sum check",
+        "description": "Check that the probabilities across all possible values of a discrete random variable sum to one.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.missing_probability_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Missing probability value in distribution",
+        "description": "Find a missing probability in a discrete distribution by using the requirement that all probabilities sum to one.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.cumulative_probability_discrete",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Cumulative probability for discrete random variables",
+        "description": "Find probabilities such as P(X less than or equal to k) by summing the probabilities of relevant discrete values.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.distribution_from_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Build distribution from context",
+        "description": "Construct a discrete probability distribution from a contextual chance process by identifying values and probabilities.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.bar_chart_representation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Discrete distribution bar chart",
+        "description": "Represent a discrete probability distribution using a bar chart with values on one axis and probabilities on the other.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.expected_value_formula",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Expected value formula",
+        "description": "Calculate expected value by summing each possible value multiplied by its probability.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.expected_value_long_run_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Expected value long-run interpretation",
+        "description": "Interpret expected value as a long-run average over many repetitions, not necessarily a value that occurs on one trial.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.expected_gain_loss",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Expected gain or loss",
+        "description": "Calculate and interpret expected gain or loss in games, decisions and financial contexts.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.fair_game_expected_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Fair game expected value",
+        "description": "Use expected value to decide whether a simple game is fair, favourable or unfavourable.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.compare_distributions_expected_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Compare distributions by expected value",
+        "description": "Compare discrete distributions using expected value as a measure of centre or long-run average outcome.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.variance_intro_discrete",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Variance of a discrete random variable introduction",
+        "description": "Calculate and interpret variance as the expected squared distance from the mean for a discrete random variable.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.standard_deviation_intro_discrete",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Standard deviation of a discrete random variable introduction",
+        "description": "Interpret standard deviation as the typical spread of values around the expected value for a discrete random variable.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.compare_distributions_spread",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Compare distributions by spread",
+        "description": "Compare discrete distributions using variance or standard deviation as measures of spread.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.distributions.expected_value_reasonableness",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Expected value reasonableness check",
+        "description": "Check whether an expected value is reasonable by comparing it with the possible values and their probabilities.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.discrete_distribution_probabilities_valid",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Discrete distribution probabilities are valid",
+        "description": "Every probability in a discrete distribution must be nonnegative and the full set of probabilities must sum to one.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.expected_value_sum_xp",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Expected value is sum of x times probability",
+        "description": "For a discrete random variable, expected value is found by summing each value multiplied by its probability.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.fair_game_expected_value_zero",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Fair game has zero expected gain",
+        "description": "A fair game in gain-loss terms has expected gain equal to zero for the player after costs and payoffs are included.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.standard_deviation_measures_spread",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Standard deviation measures spread",
+        "description": "For a distribution, standard deviation describes spread around the expected value in the original units of the random variable.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.random_variable_is_random_outcome_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Random variable is just the random outcome",
+        "description": "Learner treats a random variable as the physical random outcome itself rather than a numerical rule applied to outcomes.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.probabilities_need_not_sum_one",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Probabilities need not sum to one",
+        "description": "Learner accepts a listed probability distribution even when the probabilities are negative or do not sum to one.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.expected_value_most_likely_outcome",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Expected value is most likely outcome",
+        "description": "Learner interprets expected value as the most likely individual outcome rather than the long-run weighted average.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.fair_game_equal_chance_to_win",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Fair game means equal chance to win",
+        "description": "Learner judges monetary game fairness only by equal chance of winning, ignoring payoff sizes and costs.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outcome_value_mapping.part_of.random_variable_meaning",
+        "from": "math.probability.distributions.outcome_value_mapping",
+        "to": "math.probability.distributions.random_variable_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.support.part_of.random_variable_meaning",
+        "from": "math.probability.distributions.random_variable_support",
+        "to": "math.probability.distributions.random_variable_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_from_rv.part_of.random_variable_meaning",
+        "from": "math.probability.distributions.event_from_random_variable_value",
+        "to": "math.probability.distributions.random_variable_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distribution_table.part_of.discrete_distribution",
+        "from": "math.probability.distributions.distribution_table_representation",
+        "to": "math.probability.distributions.discrete_probability_distribution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pmf_notation.part_of.discrete_distribution",
+        "from": "math.probability.distributions.probability_mass_function_notation",
+        "to": "math.probability.distributions.discrete_probability_distribution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonnegative_check.part_of.sum_to_one",
+        "from": "math.probability.distributions.nonnegative_probability_check",
+        "to": "math.probability.distributions.probabilities_sum_to_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_check.part_of.sum_to_one",
+        "from": "math.probability.distributions.probability_sum_check",
+        "to": "math.probability.distributions.probabilities_sum_to_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_probability.part_of.sum_to_one",
+        "from": "math.probability.distributions.missing_probability_value",
+        "to": "math.probability.distributions.probabilities_sum_to_one",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cumulative_discrete.part_of.discrete_distribution",
+        "from": "math.probability.distributions.cumulative_probability_discrete",
+        "to": "math.probability.distributions.discrete_probability_distribution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distribution_context.part_of.discrete_distribution",
+        "from": "math.probability.distributions.distribution_from_context",
+        "to": "math.probability.distributions.discrete_probability_distribution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bar_chart.part_of.discrete_distribution",
+        "from": "math.probability.distributions.bar_chart_representation",
+        "to": "math.probability.distributions.discrete_probability_distribution",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_formula.part_of.expected_intro",
+        "from": "math.probability.distributions.expected_value_formula",
+        "to": "math.probability.distributions.expected_value_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_long_run.part_of.expected_intro",
+        "from": "math.probability.distributions.expected_value_long_run_interpretation",
+        "to": "math.probability.distributions.expected_value_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_gain_loss.part_of.expected_intro",
+        "from": "math.probability.distributions.expected_gain_loss",
+        "to": "math.probability.distributions.expected_value_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_game_ev.part_of.expected_intro",
+        "from": "math.probability.distributions.fair_game_expected_value",
+        "to": "math.probability.distributions.expected_value_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_ev.part_of.expected_intro",
+        "from": "math.probability.distributions.compare_distributions_expected_value",
+        "to": "math.probability.distributions.expected_value_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variance_intro.part_of.random_variables",
+        "from": "math.probability.distributions.variance_intro_discrete",
+        "to": "math.probability.distributions.random_variables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.std_dev_intro.part_of.random_variables",
+        "from": "math.probability.distributions.standard_deviation_intro_discrete",
+        "to": "math.probability.distributions.random_variables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_spread.part_of.random_variables",
+        "from": "math.probability.distributions.compare_distributions_spread",
+        "to": "math.probability.distributions.random_variables",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ev_reasonableness.part_of.expected_intro",
+        "from": "math.probability.distributions.expected_value_reasonableness",
+        "to": "math.probability.distributions.expected_value_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.valid_probs.part_of.sum_check",
+        "from": "math.kp.probability.discrete_distribution_probabilities_valid",
+        "to": "math.probability.distributions.probability_sum_check",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.ev_formula.part_of.expected_formula",
+        "from": "math.kp.probability.expected_value_sum_xp",
+        "to": "math.probability.distributions.expected_value_formula",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.fair_game_zero.part_of.fair_game_ev",
+        "from": "math.kp.probability.fair_game_expected_value_zero",
+        "to": "math.probability.distributions.fair_game_expected_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.std_dev_spread.part_of.std_dev",
+        "from": "math.kp.probability.standard_deviation_measures_spread",
+        "to": "math.probability.distributions.standard_deviation_intro_discrete",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.rv_outcome.part_of.mapping",
+        "from": "math.misconception.probability.random_variable_is_random_outcome_only",
+        "to": "math.probability.distributions.outcome_value_mapping",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.probs_not_sum_one.part_of.sum_check",
+        "from": "math.misconception.probability.probabilities_need_not_sum_one",
+        "to": "math.probability.distributions.probability_sum_check",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.ev_most_likely.part_of.long_run",
+        "from": "math.misconception.probability.expected_value_most_likely_outcome",
+        "to": "math.probability.distributions.expected_value_long_run_interpretation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.fair_equal_win.part_of.fair_game_ev",
+        "from": "math.misconception.probability.fair_game_equal_chance_to_win",
+        "to": "math.probability.distributions.fair_game_expected_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_variable_meaning.encompasses.mapping",
+        "from": "math.probability.distributions.random_variable_meaning",
+        "to": "math.probability.distributions.outcome_value_mapping",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Mapping outcomes to values directly practises the meaning of a random variable.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discrete_distribution.encompasses.table",
+        "from": "math.probability.distributions.discrete_probability_distribution",
+        "to": "math.probability.distributions.distribution_table_representation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distribution tables are a central representation for discrete probability distributions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_to_one.encompasses.sum_check",
+        "from": "math.probability.distributions.probabilities_sum_to_one",
+        "to": "math.probability.distributions.probability_sum_check",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Checking the probability sum directly practises distribution validity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_intro.encompasses.expected_formula",
+        "from": "math.probability.distributions.expected_value_intro",
+        "to": "math.probability.distributions.expected_value_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The expected value formula is central to introductory expected value work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_variables.encompasses.variance",
+        "from": "math.probability.distributions.random_variables",
+        "to": "math.probability.distributions.variance_intro_discrete",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Variance is a common extension when working with discrete random variables and distributions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mapping.requires.sample_space",
+        "from": "math.probability.distributions.outcome_value_mapping",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Mapping outcomes to values requires knowing the underlying sample space.",
+        "failure_signal": "Learner assigns values without identifying the outcomes being mapped.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.support.requires.mapping",
+        "from": "math.probability.distributions.random_variable_support",
+        "to": "math.probability.distributions.outcome_value_mapping",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The support is the set of values produced by the outcome-to-value mapping.",
+        "failure_signal": "Learner lists outcomes rather than possible random variable values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_rv.requires.support",
+        "from": "math.probability.distributions.event_from_random_variable_value",
+        "to": "math.probability.distributions.random_variable_support",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Events involving a random variable require knowing the values the variable can take.",
+        "failure_signal": "Learner cannot translate X greater than 2 into matching outcomes or values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distribution_table.requires.support",
+        "from": "math.probability.distributions.distribution_table_representation",
+        "to": "math.probability.distributions.random_variable_support",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A distribution table lists the support values and their probabilities.",
+        "failure_signal": "Learner omits possible values or includes impossible values in the distribution table.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pmf_notation.requires.distribution_table",
+        "from": "math.probability.distributions.probability_mass_function_notation",
+        "to": "math.probability.distributions.distribution_table_representation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "PMF notation formalises the same value-probability pairs shown in a distribution table.",
+        "failure_signal": "Learner treats P(X=x) as a value of X rather than a probability assigned to a value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonnegative_check.requires.valid_probability",
+        "from": "math.probability.distributions.nonnegative_probability_check",
+        "to": "math.probability.models.valid_probability_values",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Distribution probabilities must each be valid probability values.",
+        "failure_signal": "Learner accepts a negative probability entry in a distribution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_check.requires.nonnegative",
+        "from": "math.probability.distributions.probability_sum_check",
+        "to": "math.probability.distributions.nonnegative_probability_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking a distribution is valid includes checking nonnegative entries and total probability one.",
+        "failure_signal": "Learner checks only the total and misses a negative probability entry.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_probability.requires.sum_check",
+        "from": "math.probability.distributions.missing_probability_value",
+        "to": "math.probability.distributions.probability_sum_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding a missing probability uses the sum-to-one requirement.",
+        "failure_signal": "Learner subtracts from 100 after using decimal probabilities or ignores one probability entry.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cumulative_discrete.requires.distribution_table",
+        "from": "math.probability.distributions.cumulative_probability_discrete",
+        "to": "math.probability.distributions.distribution_table_representation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Cumulative discrete probabilities are found by summing relevant entries in the distribution table.",
+        "failure_signal": "Learner uses a single probability instead of summing all values in the range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distribution_context.requires.event_rv",
+        "from": "math.probability.distributions.distribution_from_context",
+        "to": "math.probability.distributions.event_from_random_variable_value",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Building a distribution from context requires translating value statements into underlying events.",
+        "failure_signal": "Learner assigns probabilities to values without counting the outcomes that generate them.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bar_chart.requires.distribution_table",
+        "from": "math.probability.distributions.bar_chart_representation",
+        "to": "math.probability.distributions.distribution_table_representation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A discrete distribution bar chart is drawn from value-probability pairs in a distribution table.",
+        "failure_signal": "Learner plots outcomes, counts or cumulative totals instead of probabilities by value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_formula.requires.distribution_table",
+        "from": "math.probability.distributions.expected_value_formula",
+        "to": "math.probability.distributions.distribution_table_representation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Expected value is calculated from the values and probabilities in the distribution.",
+        "failure_signal": "Learner averages the values without weighting by probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_long_run.requires.expected_formula",
+        "from": "math.probability.distributions.expected_value_long_run_interpretation",
+        "to": "math.probability.distributions.expected_value_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting expected value follows from calculating it as a weighted average.",
+        "failure_signal": "Learner expects the exact expected value to occur on the next trial.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_gain_loss.requires.expected_long_run",
+        "from": "math.probability.distributions.expected_gain_loss",
+        "to": "math.probability.distributions.expected_value_long_run_interpretation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Expected gain/loss applies expected value to payoff distributions.",
+        "failure_signal": "Learner ignores costs or payoff sizes when evaluating the long-run average gain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_game_ev.requires.expected_gain_loss",
+        "from": "math.probability.distributions.fair_game_expected_value",
+        "to": "math.probability.distributions.expected_gain_loss",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Fair-game evaluation uses expected gain or loss after costs and payoffs are included.",
+        "failure_signal": "Learner judges fairness by equal chance of winning rather than expected gain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_ev.requires.expected_long_run",
+        "from": "math.probability.distributions.compare_distributions_expected_value",
+        "to": "math.probability.distributions.expected_value_long_run_interpretation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing expected values depends on interpreting expected value as centre or long-run average.",
+        "failure_signal": "Learner chooses a distribution based only on the maximum possible outcome.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variance_requires.expected_value",
+        "from": "math.probability.distributions.variance_intro_discrete",
+        "to": "math.probability.distributions.expected_value_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Variance is calculated from distances from the expected value.",
+        "failure_signal": "Learner computes spread without reference to the mean or expected value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.std_dev_requires.variance",
+        "from": "math.probability.distributions.standard_deviation_intro_discrete",
+        "to": "math.probability.distributions.variance_intro_discrete",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Standard deviation is the square root of variance and returns spread to original units.",
+        "failure_signal": "Learner interprets variance and standard deviation interchangeably without units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_spread.requires.std_dev",
+        "from": "math.probability.distributions.compare_distributions_spread",
+        "to": "math.probability.distributions.standard_deviation_intro_discrete",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing spread relies on interpreting standard deviation or variance across distributions.",
+        "failure_signal": "Learner says distributions with equal expected value are identical despite different spreads.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ev_reasonableness.requires.expected_formula",
+        "from": "math.probability.distributions.expected_value_reasonableness",
+        "to": "math.probability.distributions.expected_value_formula",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reasonableness checks compare the calculated expected value with the possible values and probabilities.",
+        "failure_signal": "Learner accepts an expected value far outside the range of possible values without question.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_variable_meaning.has_mis.outcome_only",
+        "from": "math.probability.distributions.random_variable_meaning",
+        "to": "math.misconception.probability.random_variable_is_random_outcome_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_check.has_mis.probs_not_sum",
+        "from": "math.probability.distributions.probability_sum_check",
+        "to": "math.misconception.probability.probabilities_need_not_sum_one",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_long_run.has_mis.ev_most_likely",
+        "from": "math.probability.distributions.expected_value_long_run_interpretation",
+        "to": "math.misconception.probability.expected_value_most_likely_outcome",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expected_long_run.has_mis.ev_must_occur",
+        "from": "math.probability.distributions.expected_value_long_run_interpretation",
+        "to": "math.misconception.probability.expected_value_must_occur",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_game_ev.has_mis.equal_chance_win",
+        "from": "math.probability.distributions.fair_game_expected_value",
+        "to": "math.misconception.probability.fair_game_equal_chance_to_win",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/conditional_probability.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2159,
+    "edges": 4524
+  },
+  "graph_counts_after": {
+    "nodes": 2187,
+    "edges": 4582
+  }
+}

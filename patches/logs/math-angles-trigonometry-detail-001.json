@@ -1,0 +1,2146 @@
+{
+  "patch_id": "math-angles-trigonometry-detail-001",
+  "applied_at": "2026-05-27T07:15:07.881Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.measurement.trig.sin_cos_tan_ratios"
+      },
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.kp.measurement.trig_ratios_link_sides_angles"
+      },
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.misconception.measurement.protractor_wrong_scale"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.angle_as_turn",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angle as turn",
+        "description": "Understand an angle as the amount of turn between two rays or directions.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.compare_estimate_angles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Compare and estimate angles",
+        "description": "Compare angle sizes and estimate angles using benchmark turns and degrees.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.classify_angles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Classify angles",
+        "description": "Classify angles as acute, right, obtuse, straight, reflex or full turn.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.degrees_as_angle_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Degrees as angle units",
+        "description": "Use degrees as standard units for measuring angle size.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.measure_with_protractor",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Measure angles with protractor",
+        "description": "Use a protractor to measure angles accurately in degrees.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.construct_with_protractor",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Construct angles with protractor",
+        "description": "Construct angles of specified sizes using a protractor and ruler.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.reflex_angles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Reflex angles",
+        "description": "Measure and reason about angles greater than 180 degrees and less than 360 degrees.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.angle_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angle notation",
+        "description": "Name and represent angles using symbols, vertex notation and diagrams.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.angles_on_straight_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angles on a straight line",
+        "description": "Use the fact that adjacent angles on a straight line sum to 180 degrees.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.complementary_supplementary_angles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Complementary and supplementary angles",
+        "description": "Identify and use complementary and supplementary angle relationships.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.angles_around_point",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angles around a point",
+        "description": "Use the fact that angles around a point sum to 360 degrees.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.vertically_opposite_angles",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Vertically opposite angles",
+        "description": "Recognise and use equality of vertically opposite angles formed by intersecting lines.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.triangle_angle_sum",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Triangle angle sum",
+        "description": "Use the fact that interior angles of a triangle sum to 180 degrees.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.quadrilateral_angle_sum",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Quadrilateral angle sum",
+        "description": "Use the fact that interior angles of a quadrilateral sum to 360 degrees.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.parallel_lines_transversal",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Parallel lines and transversals",
+        "description": "Use corresponding, alternate and co-interior angle relationships in parallel-line diagrams.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.angles.angle_chasing_multi_step",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Multi step angle chasing",
+        "description": "Use multiple angle relationships to solve unknown-angle problems in diagrams.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.right_triangle_side_names",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Right triangle side names",
+        "description": "Identify hypotenuse, opposite side and adjacent side relative to a chosen acute angle.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Sine cosine and tangent ratios",
+        "description": "Define sine, cosine and tangent as ratios of side lengths in right triangles.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.choose_trig_ratio",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Choose trigonometric ratio",
+        "description": "Choose the appropriate sine, cosine or tangent ratio from the known and unknown sides.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.find_missing_side",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Find missing side with trigonometry",
+        "description": "Use trigonometric ratios to calculate missing side lengths in right triangles.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.trig.find_missing_angle",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Find missing angle with inverse trigonometry",
+        "description": "Use inverse trigonometric functions to calculate missing acute angles in right triangles.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.angle_is_turn",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angle is amount of turn",
+        "description": "An angle measures the amount of turn between two rays or directions.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.protractor_center_baseline",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Protractor uses centre and baseline",
+        "description": "Accurate protractor measurement requires placing the centre and baseline correctly.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.angle_benchmarks",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angle benchmarks support estimation",
+        "description": "Right, straight and full-turn angles provide benchmarks for estimating angle size.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.straight_line_180",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Straight line is 180 degrees",
+        "description": "Adjacent angles on a straight line sum to 180 degrees.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.full_turn_360",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Full turn is 360 degrees",
+        "description": "Angles around a point make a full turn of 360 degrees.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.triangle_sum_180",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Triangle angles sum to 180 degrees",
+        "description": "The interior angles of a triangle sum to 180 degrees.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.parallel_lines_angle_pairs",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Parallel lines create angle pairs",
+        "description": "Parallel lines cut by a transversal create corresponding, alternate and co-interior angle relationships.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.hypotenuse_opposite_adjacent_relative",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Opposite and adjacent depend on angle",
+        "description": "Opposite and adjacent side names depend on which acute angle is chosen, while the hypotenuse is opposite the right angle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.trig_ratios_link_sides_angles",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Trigonometric ratios link sides and angles",
+        "description": "Sine, cosine and tangent connect acute angle size to ratios of right-triangle side lengths.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.inverse_trig_finds_angles",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Inverse trigonometry finds angles",
+        "description": "Inverse sine, cosine and tangent can find an angle when an appropriate side ratio is known.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.angle_size_side_length",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Angle size depends on side length",
+        "description": "Learner thinks longer drawn arms make a larger angle even when the turn is unchanged.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.protractor_wrong_scale",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Use wrong protractor scale",
+        "description": "Learner reads the incorrect protractor scale or ignores the baseline direction.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.reflex_angle_as_acute",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Reflex angle read as acute",
+        "description": "Learner reports only the smaller angle when the intended angle is reflex.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.parallel_angle_pair_confusion",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Parallel angle pair confusion",
+        "description": "Learner misidentifies corresponding, alternate or co-interior angle relationships in parallel-line diagrams.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.hypotenuse_fixed_position",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Angles and trigonometry",
+        "label": "Hypotenuse has fixed diagram position",
+        "description": "Learner identifies the hypotenuse by visual position rather than as the side opposite the right angle.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_turn.part_of.angle_measure",
+        "from": "math.measurement.angles.angle_as_turn",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_estimate_angles.part_of.angle_measure",
+        "from": "math.measurement.angles.compare_estimate_angles",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.classify_angles.part_of.angle_measure",
+        "from": "math.measurement.angles.classify_angles",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.degrees_units.part_of.angle_measure",
+        "from": "math.measurement.angles.degrees_as_angle_units",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measure_protractor.part_of.angle_measure",
+        "from": "math.measurement.angles.measure_with_protractor",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_protractor.part_of.angle_measure",
+        "from": "math.measurement.angles.construct_with_protractor",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reflex_angles.part_of.angle_measure",
+        "from": "math.measurement.angles.reflex_angles",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_notation.part_of.angle_measure",
+        "from": "math.measurement.angles.angle_notation",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.straight_line.part_of.angle_relationships",
+        "from": "math.measurement.angles.angles_on_straight_line",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comp_supp.part_of.angle_relationships",
+        "from": "math.measurement.angles.complementary_supplementary_angles",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angles_around_point.part_of.angle_relationships",
+        "from": "math.measurement.angles.angles_around_point",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertically_opposite.part_of.angle_relationships",
+        "from": "math.measurement.angles.vertically_opposite_angles",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_sum.part_of.angle_relationships",
+        "from": "math.measurement.angles.triangle_angle_sum",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_sum.part_of.angle_relationships",
+        "from": "math.measurement.angles.quadrilateral_angle_sum",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_transversal.part_of.angle_relationships",
+        "from": "math.measurement.angles.parallel_lines_transversal",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_chasing.part_of.angle_relationships",
+        "from": "math.measurement.angles.angle_chasing_multi_step",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.side_names.part_of.right_trig",
+        "from": "math.measurement.trig.right_triangle_side_names",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_ratios.part_of.right_trig",
+        "from": "math.measurement.trig.sin_cos_tan_ratios",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_ratio.part_of.right_trig",
+        "from": "math.measurement.trig.choose_trig_ratio",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_side.part_of.right_trig",
+        "from": "math.measurement.trig.find_missing_side",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_angle.part_of.right_trig",
+        "from": "math.measurement.trig.find_missing_angle",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_angle_turn.part_of.angle_measure",
+        "from": "math.kp.measurement.angle_is_turn",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_protractor.part_of.angle_measure",
+        "from": "math.kp.measurement.protractor_center_baseline",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_angle_benchmarks.part_of.angle_measure",
+        "from": "math.kp.measurement.angle_benchmarks",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_straight_180.part_of.relationships",
+        "from": "math.kp.measurement.straight_line_180",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_full_turn.part_of.relationships",
+        "from": "math.kp.measurement.full_turn_360",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_triangle_sum.part_of.relationships",
+        "from": "math.kp.measurement.triangle_sum_180",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_parallel_pairs.part_of.relationships",
+        "from": "math.kp.measurement.parallel_lines_angle_pairs",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_hyp_opp_adj.part_of.right_trig",
+        "from": "math.kp.measurement.hypotenuse_opposite_adjacent_relative",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_trig_links.part_of.right_trig",
+        "from": "math.kp.measurement.trig_ratios_link_sides_angles",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_inverse_trig.part_of.right_trig",
+        "from": "math.kp.measurement.inverse_trig_finds_angles",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_angle_side_length.part_of.angle_measure",
+        "from": "math.misconception.measurement.angle_size_side_length",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_protractor_scale.part_of.angle_measure",
+        "from": "math.misconception.measurement.protractor_wrong_scale",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_reflex_acute.part_of.angle_measure",
+        "from": "math.misconception.measurement.reflex_angle_as_acute",
+        "to": "math.measurement.angles.angle_measure",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_parallel_pair.part_of.relationships",
+        "from": "math.misconception.measurement.parallel_angle_pair_confusion",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_hyp_position.part_of.right_trig",
+        "from": "math.misconception.measurement.hypotenuse_fixed_position",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.encompasses.angle_turn",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.measurement.angles.angle_as_turn",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Angle-as-turn is foundational to angle measurement.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.encompasses.compare_estimate",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.measurement.angles.compare_estimate_angles",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing and estimating angle size directly practises angle measure.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.encompasses.classify",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.measurement.angles.classify_angles",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Classifying angles is a core application of angle-size benchmarks.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.encompasses.degrees",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.measurement.angles.degrees_as_angle_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Degrees are the standard unit for this angle-measure progression.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.encompasses.protractor_measure",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.measurement.angles.measure_with_protractor",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Protractor measurement directly practises measuring angles in degrees.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.encompasses.construct",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.measurement.angles.construct_with_protractor",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Constructing specified angles applies angle measurement in reverse.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.encompasses.reflex",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.measurement.angles.reflex_angles",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Reflex angles extend angle measurement beyond 180 degrees.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.encompasses.notation",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.measurement.angles.angle_notation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Angle notation supports communicating measured and unknown angles.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.encompasses.straight_line",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.angles_on_straight_line",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Straight-line angle sums are core angle relationships.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.encompasses.comp_supp",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.complementary_supplementary_angles",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Complementary and supplementary relationships are core angle-sum cases.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.encompasses.around_point",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.angles_around_point",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Angles around a point extend sum reasoning to a full turn.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.encompasses.vertically_opposite",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.vertically_opposite_angles",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Vertically opposite angles are a standard line-intersection relationship.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.encompasses.triangle_sum",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.triangle_angle_sum",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Triangle angle sum is a major geometric angle relationship.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.encompasses.quadrilateral_sum",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.quadrilateral_angle_sum",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Quadrilateral angle sum extends triangle-sum reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.encompasses.parallel_lines",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.parallel_lines_transversal",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Parallel-line relationships are central to angle reasoning in diagrams.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.encompasses.angle_chasing",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.measurement.angles.angle_chasing_multi_step",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Multi-step angle chasing applies several angle relationships together.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_trig.encompasses.side_names",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Side names are required for using right-triangle trigonometric ratios.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_trig.encompasses.ratios",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sine, cosine and tangent ratios are the core content of right-triangle trigonometry.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_trig.encompasses.choose_ratio",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.measurement.trig.choose_trig_ratio",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing the appropriate ratio is central to solving right-triangle problems.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_trig.encompasses.find_side",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.measurement.trig.find_missing_side",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding missing sides is a core right-triangle trigonometry application.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_trig.encompasses.find_angle",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.measurement.trig.find_missing_angle",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Finding missing angles applies inverse trigonometric reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_turn.requires.position_language",
+        "from": "math.measurement.angles.angle_as_turn",
+        "to": "math.space.location.position_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Angle as turn builds on spatial direction and position language.",
+        "failure_signal": "Learner cannot describe a turn or orientation change between directions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_estimate.requires.angle_turn",
+        "from": "math.measurement.angles.compare_estimate_angles",
+        "to": "math.measurement.angles.angle_as_turn",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Comparing angle size requires recognising angles as amounts of turn.",
+        "failure_signal": "Learner compares side length instead of turn size.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.classify_angles.requires.compare",
+        "from": "math.measurement.angles.classify_angles",
+        "to": "math.measurement.angles.compare_estimate_angles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Angle classification depends on comparing angles with benchmark sizes.",
+        "failure_signal": "Learner cannot distinguish acute, right and obtuse angles reliably.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.degrees.requires.angle_turn",
+        "from": "math.measurement.angles.degrees_as_angle_units",
+        "to": "math.measurement.angles.angle_as_turn",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Degrees quantify angle size as amount of turn.",
+        "failure_signal": "Learner treats degree measure as side length or unrelated labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measure_protractor.requires.degrees",
+        "from": "math.measurement.angles.measure_with_protractor",
+        "to": "math.measurement.angles.degrees_as_angle_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Protractor measurement requires using degrees as angle units.",
+        "failure_signal": "Learner reads marks without relating them to degree measure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_protractor.requires.measure",
+        "from": "math.measurement.angles.construct_with_protractor",
+        "to": "math.measurement.angles.measure_with_protractor",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Constructing angles with a protractor reverses the measuring process.",
+        "failure_signal": "Learner cannot align the baseline or mark the intended degree size.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reflex.requires.classify",
+        "from": "math.measurement.angles.reflex_angles",
+        "to": "math.measurement.angles.classify_angles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reflex angles extend angle classification beyond straight angles.",
+        "failure_signal": "Learner reports the smaller angle rather than the reflex angle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_notation.requires.measure",
+        "from": "math.measurement.angles.angle_notation",
+        "to": "math.measurement.angles.measure_with_protractor",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "low",
+        "rationale": "Angle notation is usually introduced alongside measured and unknown angles, though it can be taught earlier.",
+        "failure_signal": "Learner cannot identify which angle is named by a vertex or symbol.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.straight_line.requires.degrees",
+        "from": "math.measurement.angles.angles_on_straight_line",
+        "to": "math.measurement.angles.degrees_as_angle_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Straight-line angle sums require knowing degree measure and the 180-degree straight angle benchmark.",
+        "failure_signal": "Learner cannot use 180 degrees as the total on a straight line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comp_supp.requires.straight_line",
+        "from": "math.measurement.angles.complementary_supplementary_angles",
+        "to": "math.measurement.angles.angles_on_straight_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Supplementary angle reasoning builds directly from straight-line angle sums.",
+        "failure_signal": "Learner confuses complementary and supplementary totals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.around_point.requires.straight_line",
+        "from": "math.measurement.angles.angles_around_point",
+        "to": "math.measurement.angles.angles_on_straight_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Angles around a point extend straight-line angle-sum reasoning to a full turn.",
+        "failure_signal": "Learner uses 180 degrees instead of 360 degrees around a point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertically_opposite.requires.straight_line",
+        "from": "math.measurement.angles.vertically_opposite_angles",
+        "to": "math.measurement.angles.angles_on_straight_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Vertically opposite angle equality can be reasoned from straight-line supplementary pairs.",
+        "failure_signal": "Learner treats adjacent and vertically opposite angles as interchangeable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_sum.requires.straight_line",
+        "from": "math.measurement.angles.triangle_angle_sum",
+        "to": "math.measurement.angles.angles_on_straight_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Triangle angle sum can be reasoned from straight-line and parallel-line relationships.",
+        "failure_signal": "Learner cannot use 180 degrees as the total for triangle interior angles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrilateral_sum.requires.triangle_sum",
+        "from": "math.measurement.angles.quadrilateral_angle_sum",
+        "to": "math.measurement.angles.triangle_angle_sum",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Quadrilateral angle sum can be decomposed into two triangle angle sums.",
+        "failure_signal": "Learner does not connect quadrilateral angle total to two triangles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_transversal.requires.vertically_opposite",
+        "from": "math.measurement.angles.parallel_lines_transversal",
+        "to": "math.measurement.angles.vertically_opposite_angles",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Parallel-line angle reasoning builds on line-intersection angle relationships.",
+        "failure_signal": "Learner cannot identify equal or supplementary angle pairs in line diagrams.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_chasing.requires.parallel",
+        "from": "math.measurement.angles.angle_chasing_multi_step",
+        "to": "math.measurement.angles.parallel_lines_transversal",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Multi-step angle chasing combines parallel-line, triangle and straight-line relationships.",
+        "failure_signal": "Learner applies one relationship but cannot chain multiple relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.side_names.requires.angle_relationships",
+        "from": "math.measurement.trig.right_triangle_side_names",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Right-triangle side naming depends on recognising right angles and chosen acute angles in triangles.",
+        "failure_signal": "Learner cannot identify hypotenuse, opposite and adjacent sides relative to an angle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_ratios.requires.side_names",
+        "from": "math.measurement.trig.sin_cos_tan_ratios",
+        "to": "math.measurement.trig.right_triangle_side_names",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Trigonometric ratios require naming side relationships relative to the chosen angle.",
+        "failure_signal": "Learner writes ratios using the wrong sides.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_ratio.requires.ratios",
+        "from": "math.measurement.trig.choose_trig_ratio",
+        "to": "math.measurement.trig.sin_cos_tan_ratios",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Choosing a trigonometric ratio requires knowing which side pairs each ratio connects.",
+        "failure_signal": "Learner cannot choose sine, cosine or tangent from known and unknown sides.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_side.requires.choose_ratio",
+        "from": "math.measurement.trig.find_missing_side",
+        "to": "math.measurement.trig.choose_trig_ratio",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving for a missing side requires selecting and applying the appropriate ratio.",
+        "failure_signal": "Learner chooses a ratio but cannot set up or solve the equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.find_angle.requires.choose_ratio",
+        "from": "math.measurement.trig.find_missing_angle",
+        "to": "math.measurement.trig.choose_trig_ratio",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Solving for an angle requires selecting a ratio and using inverse trigonometry.",
+        "failure_signal": "Learner uses direct trig functions instead of inverse functions for angles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.has_mis.side_length",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.misconception.measurement.angle_size_side_length",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.has_mis.protractor_scale",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.misconception.measurement.protractor_wrong_scale",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_measure.has_mis.reflex_acute",
+        "from": "math.measurement.angles.angle_measure",
+        "to": "math.misconception.measurement.reflex_angle_as_acute",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relationships.has_mis.parallel_pairs",
+        "from": "math.measurement.angles.angle_relationships",
+        "to": "math.misconception.measurement.parallel_angle_pair_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_trig.has_mis.hyp_position",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.misconception.measurement.hypotenuse_fixed_position",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/angles_and_trigonometry.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 825,
+    "edges": 1630
+  },
+  "graph_counts_after": {
+    "nodes": 861,
+    "edges": 1713
+  }
+}

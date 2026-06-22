@@ -1,0 +1,821 @@
+{
+  "patch_id": "math-statistics-skeleton-001",
+  "applied_at": "2026-05-23T05:45:41.923Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.statistics.data.questions_categories"
+      },
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.statistics.summaries.centre_mean_median_mode"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 16,
+      "edges_created": 28,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.data_collection",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "label": "Data collection",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.data_displays",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "label": "Data displays",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.data_summaries",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "label": "Data summaries and variation",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.bivariate_inference",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "label": "Bivariate data and inference",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.questions_categories",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Statistical questions and categories",
+        "description": "Pose questions, classify categorical responses and connect questions to data that can answer them.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.collecting_data",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Collecting data",
+        "description": "Collect, record and organise categorical and numerical data from observations, surveys and experiments.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.data.sampling",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data collection",
+        "label": "Sampling and representativeness",
+        "description": "Interpret samples, populations, bias and representativeness in data collection contexts.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.picture_bar_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Picture graphs and bar graphs",
+        "description": "Create and interpret picture graphs, bar graphs and simple frequency displays.",
+        "aliases": [],
+        "year_band": "1-5",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.line_plots_dot_plots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Line plots and dot plots",
+        "description": "Represent numerical data using line plots and dot plots, including repeated values and clusters.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.displays.histograms_boxplots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data displays",
+        "label": "Histograms and box plots",
+        "description": "Represent and interpret distributions using histograms, stem-and-leaf plots and box plots.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Measures of centre",
+        "description": "Use mean, median and mode to summarise and compare data sets.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.spread_variability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Spread and variability",
+        "description": "Describe variation using range, interquartile range, spread, outliers and distribution shape.",
+        "aliases": [],
+        "year_band": "6-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.summaries.comparing_distributions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Data summaries and variation",
+        "label": "Comparing distributions",
+        "description": "Compare distributions using centre, spread, shape, outliers and context.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.scatterplots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Scatterplots",
+        "description": "Create and interpret scatterplots for paired numerical data.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.bivariate.association_correlation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Association and correlation",
+        "description": "Describe association, direction, form, strength and outliers in bivariate data.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.statistics.inference.informal_inference",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Informal statistical inference",
+        "description": "Use samples, variability and distributions to make informal claims about populations.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistics.part_of.math",
+        "from": "math.strand.statistics",
+        "to": "math",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_collection.part_of.statistics",
+        "from": "math.area.data_collection",
+        "to": "math.strand.statistics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_displays.part_of.statistics",
+        "from": "math.area.data_displays",
+        "to": "math.strand.statistics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_summaries.part_of.statistics",
+        "from": "math.area.data_summaries",
+        "to": "math.strand.statistics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate_inference.part_of.statistics",
+        "from": "math.area.bivariate_inference",
+        "to": "math.strand.statistics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stat_questions.part_of.data_collection",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.area.data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.part_of.data_collection",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.area.data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.part_of.data_collection",
+        "from": "math.statistics.data.sampling",
+        "to": "math.area.data_collection",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar_graphs.part_of.displays",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.area.data_displays",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_dot_plots.part_of.displays",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.area.data_displays",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_boxplots.part_of.displays",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.area.data_displays",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.part_of.summaries",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.area.data_summaries",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.part_of.summaries",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.area.data_summaries",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.part_of.summaries",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.area.data_summaries",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.part_of.bivariate",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.area.bivariate_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association_correlation.part_of.bivariate",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.area.bivariate_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_inference.part_of.bivariate",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.area.bivariate_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.requires.questions",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.questions_categories",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Collecting useful data depends on posing a question and identifying response categories or variables.",
+        "failure_signal": "Learner collects unrelated responses that do not answer the intended question.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar_graphs.requires.collecting_data",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.data.collecting_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Creating displays requires organised data to represent.",
+        "failure_signal": "Learner can draw graph features but cannot connect them to collected data values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_dot_plots.requires.picture_bar",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Dot and line plots extend earlier data display conventions to numerical distributions.",
+        "failure_signal": "Learner cannot map data values to positions or frequencies in a display.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hist_boxplots.requires.line_dot",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Histograms and box plots build on organising numerical data and reading distribution displays.",
+        "failure_signal": "Learner confuses individual data values with grouped intervals or summary displays.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre.requires.line_dot",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Measures of centre depend on organising and interpreting numerical data values.",
+        "failure_signal": "Learner calculates a summary without knowing what data values it represents.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread.requires.centre",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reasoning about variation is developed alongside and after summaries of typical values.",
+        "failure_signal": "Learner compares only averages without noticing distribution spread or outliers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_distributions.requires.spread",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Comparing distributions requires attention to both centre and spread.",
+        "failure_signal": "Learner claims groups differ based only on a single typical value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.requires.collecting_data",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.collecting_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Sampling concepts depend on understanding data collection and who or what the data represent.",
+        "failure_signal": "Learner treats any small set of data as representative without considering the population.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.requires.coordinate_plane",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Scatterplots require plotting ordered pairs on coordinate axes.",
+        "failure_signal": "Learner cannot represent paired data as points using two variables.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association.requires.scatterplots",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Association and correlation are interpreted from bivariate data displays such as scatterplots.",
+        "failure_signal": "Learner describes individual points but not overall direction, form or strength.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_inference.requires.sampling",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.data.sampling",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Informal inference depends on samples, populations and variability.",
+        "failure_signal": "Learner makes population claims without considering sample quality or variability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "ontology/mathematics/number/data_collection.yaml",
+    "ontology/mathematics/number/data_displays.yaml",
+    "ontology/mathematics/number/data_summaries_and_variation.yaml",
+    "ontology/mathematics/number/bivariate_data_and_inference.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 160,
+    "edges": 173
+  },
+  "graph_counts_after": {
+    "nodes": 176,
+    "edges": 201
+  }
+}

@@ -1,0 +1,311 @@
+{
+  "patch_id": "math-contract-setup-core-teaching-layer-v1",
+  "applied_at": "2026-06-05T18:46:07.003Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 13,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.representation.number_line",
+        "type": "representation",
+        "subject": "Mathematics",
+        "label": "Number line",
+        "description": "A one-dimensional representation of numerical values and relative position, used for counting, magnitude, operations, fractions, decimals, integers and real numbers.",
+        "aliases": [
+          "number-line model"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable representation"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.representation.area_model",
+        "type": "representation",
+        "subject": "Mathematics",
+        "label": "Area model",
+        "description": "A region-based model used to represent multiplication, division, fractions, proportional reasoning, algebraic products and probability areas.",
+        "aliases": [
+          "rectangle model",
+          "array area model"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable representation"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.representation.bar_model",
+        "type": "representation",
+        "subject": "Mathematics",
+        "label": "Bar model",
+        "description": "A part-whole or comparison diagram using bars to represent quantities and relationships in arithmetic, fractions, ratios and algebraic situations.",
+        "aliases": [
+          "tape diagram"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable representation"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.representation.coordinate_graph",
+        "type": "representation",
+        "subject": "Mathematics",
+        "label": "Coordinate graph",
+        "description": "A two-dimensional coordinate-grid representation used for location, relations, functions, transformations, data and modelling.",
+        "aliases": [
+          "Cartesian graph"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable representation"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.representation.table",
+        "type": "representation",
+        "subject": "Mathematics",
+        "label": "Table",
+        "description": "A row-and-column representation for organising values, input-output pairs, frequency counts, measurements, probabilities and statistical summaries.",
+        "aliases": [
+          "value table",
+          "data table",
+          "function table"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable representation"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.procedure.common_denominator_method",
+        "type": "procedure",
+        "subject": "Mathematics",
+        "label": "Common denominator method",
+        "description": "Rewrite fractions using a shared denominator so their numerators can be compared, added or subtracted as like units.",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable procedure"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.procedure.inverse_operations_method",
+        "type": "procedure",
+        "subject": "Mathematics",
+        "label": "Inverse operations method",
+        "description": "Solve equations or undo transformations by applying inverse operations in a valid order while preserving equality.",
+        "aliases": [
+          "undoing method",
+          "balance method"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable procedure"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.procedure.graph_interpretation_method",
+        "type": "procedure",
+        "subject": "Mathematics",
+        "label": "Graph interpretation method",
+        "description": "Read a graph by identifying axes, scale, variables, key features, trends, intercepts and contextual meaning.",
+        "aliases": [
+          "read a graph",
+          "interpret graph features"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable procedure"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.task_type.compute",
+        "type": "task_type",
+        "subject": "Mathematics",
+        "label": "Compute",
+        "description": "Find a numerical, algebraic or symbolic result by carrying out a calculation or procedure.",
+        "aliases": [
+          "calculate",
+          "evaluate"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable task type"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.task_type.explain",
+        "type": "task_type",
+        "subject": "Mathematics",
+        "label": "Explain",
+        "description": "State reasoning, justify a step, describe a relationship, or connect a representation to a mathematical idea.",
+        "aliases": [
+          "justify",
+          "reason"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable task type"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.task_type.model",
+        "type": "task_type",
+        "subject": "Mathematics",
+        "label": "Model",
+        "description": "Represent a situation mathematically using diagrams, expressions, equations, graphs, tables or probability/statistical structures.",
+        "aliases": [
+          "represent",
+          "mathematise"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable task type"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.task_type.interpret_graph",
+        "type": "task_type",
+        "subject": "Mathematics",
+        "label": "Interpret graph",
+        "description": "Read, describe and make inferences from a graph or plotted representation in mathematical or contextual terms.",
+        "aliases": [
+          "read graph",
+          "interpret plotted data"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable task type"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.task_type.find_error",
+        "type": "task_type",
+        "subject": "Mathematics",
+        "label": "Find error",
+        "description": "Identify and explain a mathematical mistake, misconception, invalid assumption or incorrect step in a worked example or response.",
+        "aliases": [
+          "error analysis",
+          "diagnose mistake"
+        ],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_validated",
+          "contract_role": "core reusable task type"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2510,
+    "edges": 5239
+  },
+  "graph_counts_after": {
+    "nodes": 2523,
+    "edges": 5239
+  }
+}

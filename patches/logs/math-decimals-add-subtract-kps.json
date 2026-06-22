@@ -1,0 +1,134 @@
+{
+  "patch_id": "math-decimals-add-subtract-kps",
+  "applied_at": "2026-06-07T08:52:09.088Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 3,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.kp.decimals.align_like_place_values",
+      "updates": {
+        "parent_topic": "math.decimals.add_subtract_decimals"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_align_place_values.part_of.dec_ops",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific add/subtract decimals lesson rather than the broad decimal operations sequence."
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.align_decimal_points_for_addition_subtraction",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.add_subtract_decimals",
+        "label": "Align decimal points for addition and subtraction",
+        "description": "Line up decimal points so digits with the same place value are in the same column.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.regroup_decimal_place_values",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.add_subtract_decimals",
+        "label": "Regroup decimal place values",
+        "description": "Regroup ones, tenths, hundredths or thousandths when adding or subtracting decimals.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_align_like_place_values.part_of.add_sub_decimals",
+        "from": "math.kp.decimals.align_like_place_values",
+        "to": "math.decimals.add_subtract_decimals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_align_decimal_points.part_of.add_sub_decimals",
+        "from": "math.kp.decimals.align_decimal_points_for_addition_subtraction",
+        "to": "math.decimals.add_subtract_decimals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_regroup_decimal_place_values.part_of.add_sub_decimals",
+        "from": "math.kp.decimals.regroup_decimal_place_values",
+        "to": "math.decimals.add_subtract_decimals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2631,
+    "edges": 5536
+  },
+  "graph_counts_after": {
+    "nodes": 2633,
+    "edges": 5539
+  }
+}

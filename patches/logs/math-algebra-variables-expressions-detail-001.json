@@ -1,0 +1,1418 @@
+{
+  "patch_id": "math-algebra-variables-expressions-detail-001",
+  "applied_at": "2026-05-30T13:42:47.488Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 25,
+      "edges_created": 54,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.variable_as_varying_quantity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Variable as varying quantity",
+        "description": "Interpret a variable as a quantity that can vary across possible values, not only as one hidden number.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.term_signs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Term signs in expressions",
+        "description": "Identify the sign attached to each term when reading or simplifying algebraic expressions.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.coefficient_signs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Coefficient signs",
+        "description": "Interpret positive and negative coefficients, including implied coefficients such as negative one.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.implicit_multiplication",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Implicit multiplication notation",
+        "description": "Read omitted multiplication signs in algebraic notation, such as 3x, ab and 2(x + 1).",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.variable_powers_in_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Variable powers in terms",
+        "description": "Identify powers on variables and distinguish terms such as x, x squared and x cubed.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.substitution_order_of_operations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Substitution with order of operations",
+        "description": "Evaluate expressions after substitution by applying conventional order of operations.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.substitution_parentheses_for_negatives",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Substitution parentheses for negatives",
+        "description": "Substitute negative values using parentheses so powers and products are interpreted correctly.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.evaluate_formulas_with_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Evaluate formulas with units",
+        "description": "Substitute values into formulas and interpret the result with appropriate measurement or contextual units.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.collect_like_terms_with_negatives",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Collect like terms with negatives",
+        "description": "Simplify expressions by combining like terms that include negative coefficients or subtraction signs.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.collect_multi_variable_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Collect multi variable terms",
+        "description": "Collect like terms in expressions involving more than one variable or variable power.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.simplify_constants_and_variable_terms",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Simplify constants and variable terms",
+        "description": "Simplify expressions by separately collecting constant terms and each group of like variable terms.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.expand_negative_single_brackets",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Expand negative single brackets",
+        "description": "Expand a single bracket when the outside factor is negative or includes a negative coefficient.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.expand_then_collect_expressions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Expand then collect expressions",
+        "description": "Expand brackets and then collect like terms to simplify algebraic expressions.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.factor_numeric_common_factor",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Factor numeric common factor",
+        "description": "Factorise an expression by taking out a common numerical factor from all terms.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.factor_variable_common_factor",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Factor variable common factor",
+        "description": "Factorise an expression by taking out a common variable factor from all terms.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.check_factorisation_by_expanding",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Check factorisation by expanding",
+        "description": "Check a factorised expression by expanding it back to the original expression.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.term_sign_belongs_to_term",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Term sign belongs to the term",
+        "description": "The plus or minus sign before a term is part of that term when simplifying an expression.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.negative_substitution_needs_parentheses",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Negative substitution needs parentheses",
+        "description": "Negative values should be substituted with parentheses when they are multiplied or raised to powers.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.coefficients_add_for_like_terms",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Coefficients add for like terms",
+        "description": "When collecting like terms, the variable part stays the same and the coefficients are added or subtracted.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.unlike_terms_do_not_combine",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Unlike terms do not combine",
+        "description": "Terms with different variable parts or different powers cannot be collected as a single like term.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.expressions.factorisation_reverses_expansion",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Factorisation reverses expansion",
+        "description": "Factorising writes a sum or difference as a product, reversing the distributive expansion process.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.variable_always_single_unknown",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Variable always single unknown",
+        "description": "Learner assumes a variable can only represent one hidden number rather than a varying quantity or generalised value.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.ignore_term_sign",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Ignore term sign",
+        "description": "Learner moves or combines a term without carrying its preceding plus or minus sign.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.negative_substitution_power_error",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Negative substitution power error",
+        "description": "Learner evaluates powers of substituted negative values without using parentheses, leading to sign errors.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.expressions.factor_common_term_not_all_terms",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Common factor not in all terms",
+        "description": "Learner factors out a number or variable that is not common to every term of the expression.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_varying.part_of.variables_unknowns",
+        "from": "math.algebra.expressions.variable_as_varying_quantity",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.term_signs.part_of.terms_coefficients",
+        "from": "math.algebra.expressions.term_signs",
+        "to": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coefficient_signs.part_of.terms_coefficients",
+        "from": "math.algebra.expressions.coefficient_signs",
+        "to": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.implicit_multiplication.part_of.conventions",
+        "from": "math.algebra.expressions.implicit_multiplication",
+        "to": "math.algebra.expressions.algebraic_conventions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_powers.part_of.terms_coefficients",
+        "from": "math.algebra.expressions.variable_powers_in_terms",
+        "to": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_order.part_of.evaluate_expressions",
+        "from": "math.algebra.expressions.substitution_order_of_operations",
+        "to": "math.algebra.expressions.evaluate_algebraic_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_parentheses.part_of.negative_values",
+        "from": "math.algebra.expressions.substitution_parentheses_for_negatives",
+        "to": "math.algebra.expressions.substitute_negative_values",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_formulas_units.part_of.formulas",
+        "from": "math.algebra.expressions.evaluate_formulas_with_units",
+        "to": "math.algebra.expressions.substitute_into_formulas",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collect_negatives.part_of.collect_like_terms",
+        "from": "math.algebra.expressions.collect_like_terms_with_negatives",
+        "to": "math.algebra.expressions.collect_like_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collect_multi_variable.part_of.collect_like_terms",
+        "from": "math.algebra.expressions.collect_multi_variable_terms",
+        "to": "math.algebra.expressions.collect_like_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_constants_variables.part_of.simplifying",
+        "from": "math.algebra.expressions.simplify_constants_and_variable_terms",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_negative_brackets.part_of.expand_single",
+        "from": "math.algebra.expressions.expand_negative_single_brackets",
+        "to": "math.algebra.expressions.expand_single_brackets",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_collect_expressions.part_of.expand_simplify",
+        "from": "math.algebra.expressions.expand_then_collect_expressions",
+        "to": "math.algebra.expressions.expand_and_simplify",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_numeric_common.part_of.factor_common",
+        "from": "math.algebra.expressions.factor_numeric_common_factor",
+        "to": "math.algebra.expressions.factor_out_common_factor",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_variable_common.part_of.factor_common",
+        "from": "math.algebra.expressions.factor_variable_common_factor",
+        "to": "math.algebra.expressions.factor_out_common_factor",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_factorisation.part_of.factor_common",
+        "from": "math.algebra.expressions.check_factorisation_by_expanding",
+        "to": "math.algebra.expressions.factor_out_common_factor",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.term_sign.part_of.term_signs",
+        "from": "math.kp.expressions.term_sign_belongs_to_term",
+        "to": "math.algebra.expressions.term_signs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.negative_parentheses.part_of.sub_negative",
+        "from": "math.kp.expressions.negative_substitution_needs_parentheses",
+        "to": "math.algebra.expressions.substitution_parentheses_for_negatives",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.coefficients_add.part_of.collect",
+        "from": "math.kp.expressions.coefficients_add_for_like_terms",
+        "to": "math.algebra.expressions.collect_like_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.unlike_not_combine.part_of.like_unlike",
+        "from": "math.kp.expressions.unlike_terms_do_not_combine",
+        "to": "math.algebra.expressions.like_and_unlike_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.factor_reverse_expansion.part_of.factor_common",
+        "from": "math.kp.expressions.factorisation_reverses_expansion",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.variable_single_unknown.part_of.variables",
+        "from": "math.misconception.expressions.variable_always_single_unknown",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.ignore_term_sign.part_of.term_signs",
+        "from": "math.misconception.expressions.ignore_term_sign",
+        "to": "math.algebra.expressions.term_signs",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.combine_unlike_terms.part_of.like_terms",
+        "from": "math.misconception.expressions.combine_unlike_terms",
+        "to": "math.algebra.expressions.like_and_unlike_terms",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.negative_power_error.part_of.sub_negative",
+        "from": "math.misconception.expressions.negative_substitution_power_error",
+        "to": "math.algebra.expressions.substitution_parentheses_for_negatives",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.factor_not_all_terms.part_of.factor_common",
+        "from": "math.misconception.expressions.factor_common_term_not_all_terms",
+        "to": "math.algebra.expressions.factor_out_common_factor",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.encompasses.varying_quantity",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.algebra.expressions.variable_as_varying_quantity",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Interpreting variables as varying quantities directly extends early unknown-value work.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.terms_coefficients.encompasses.term_signs",
+        "from": "math.algebra.expressions.terms_coefficients_constants",
+        "to": "math.algebra.expressions.term_signs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Reading terms, coefficients and constants includes tracking each term's sign.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_conventions.encompasses.implicit_multiplication",
+        "from": "math.algebra.expressions.algebraic_conventions",
+        "to": "math.algebra.expressions.implicit_multiplication",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Implicit multiplication notation is a core algebraic convention.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_expressions.encompasses.substitution_order",
+        "from": "math.algebra.expressions.evaluate_algebraic_expressions",
+        "to": "math.algebra.expressions.substitution_order_of_operations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating algebraic expressions requires applying order of operations after substitution.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collect_like_terms.encompasses.collect_negatives",
+        "from": "math.algebra.expressions.collect_like_terms",
+        "to": "math.algebra.expressions.collect_like_terms_with_negatives",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Collecting terms with negative coefficients is a common subcase of collecting like terms.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_single.encompasses.negative_brackets",
+        "from": "math.algebra.expressions.expand_single_brackets",
+        "to": "math.algebra.expressions.expand_negative_single_brackets",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Negative outside factors are a common single-bracket expansion case.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_common.encompasses.variable_common",
+        "from": "math.algebra.expressions.factor_out_common_factor",
+        "to": "math.algebra.expressions.factor_variable_common_factor",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Factoring a common variable factor directly practises common-factor factorisation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_varying.requires.variable_notation",
+        "from": "math.algebra.expressions.variable_as_varying_quantity",
+        "to": "math.algebra.expressions.variable_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting variables as varying quantities requires reading letters as variables.",
+        "failure_signal": "Learner treats each letter as a fixed object label rather than a value placeholder.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.term_signs.requires.terms_coefficients",
+        "from": "math.algebra.expressions.term_signs",
+        "to": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Term-sign tracking depends on identifying terms in an expression.",
+        "failure_signal": "Learner separates the sign from the term when simplifying.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coefficient_signs.requires.term_signs",
+        "from": "math.algebra.expressions.coefficient_signs",
+        "to": "math.algebra.expressions.term_signs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Signed coefficients require understanding that the sign belongs to the term.",
+        "failure_signal": "Learner reads -x as x or misses the implied coefficient of -1.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.implicit_multiplication.requires.variable_notation",
+        "from": "math.algebra.expressions.implicit_multiplication",
+        "to": "math.algebra.expressions.variable_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Implicit multiplication notation depends on reading variables and coefficients as algebraic symbols.",
+        "failure_signal": "Learner reads 3x as a two-digit or concatenated object rather than 3 times x.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_powers.requires.algebraic_conventions",
+        "from": "math.algebra.expressions.variable_powers_in_terms",
+        "to": "math.algebra.expressions.algebraic_conventions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Variable powers build on algebraic notation conventions.",
+        "failure_signal": "Learner treats x squared as 2x or as x plus x.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_order.requires.substitution",
+        "from": "math.algebra.expressions.substitution_order_of_operations",
+        "to": "math.algebra.expressions.substitution",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Order-of-operations evaluation follows replacing variables with values.",
+        "failure_signal": "Learner substitutes correctly but evaluates in the wrong order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sub_parentheses_negatives.requires.sub_negative",
+        "from": "math.algebra.expressions.substitution_parentheses_for_negatives",
+        "to": "math.algebra.expressions.substitute_negative_values",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Parentheses with negatives is a precision subskill within substituting negative values.",
+        "failure_signal": "Learner computes -3 squared instead of (-3) squared when required by substitution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_formulas_units.requires.sub_formulas",
+        "from": "math.algebra.expressions.evaluate_formulas_with_units",
+        "to": "math.algebra.expressions.substitute_into_formulas",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Interpreting units follows substituting known values into a formula.",
+        "failure_signal": "Learner calculates a value but cannot interpret what the value measures.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collect_negatives.requires.term_signs",
+        "from": "math.algebra.expressions.collect_like_terms_with_negatives",
+        "to": "math.algebra.expressions.term_signs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Collecting like terms with subtraction depends on keeping term signs attached.",
+        "failure_signal": "Learner combines coefficients with the wrong sign.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collect_multi_variable.requires.variable_powers",
+        "from": "math.algebra.expressions.collect_multi_variable_terms",
+        "to": "math.algebra.expressions.variable_powers_in_terms",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Multi-variable and powered terms require recognising which variable parts match.",
+        "failure_signal": "Learner combines x and x squared or x and y as like terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplify_constants_variables.requires.collect_like_terms",
+        "from": "math.algebra.expressions.simplify_constants_and_variable_terms",
+        "to": "math.algebra.expressions.collect_like_terms",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Separating constants and variable terms is a structured collecting-like-terms step.",
+        "failure_signal": "Learner combines constants with variable terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_negative_requires.distributive",
+        "from": "math.algebra.expressions.expand_negative_single_brackets",
+        "to": "math.algebra.expressions.distributive_property_algebra",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Expanding negative brackets depends on distributing a factor to every term.",
+        "failure_signal": "Learner changes only the first term's sign inside brackets.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_collect_expressions.requires.expand_single",
+        "from": "math.algebra.expressions.expand_then_collect_expressions",
+        "to": "math.algebra.expressions.expand_single_brackets",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Expand-then-collect work requires first expanding single brackets accurately.",
+        "failure_signal": "Learner tries to collect terms before removing brackets or expands incompletely.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_numeric_common.requires.terms_coefficients",
+        "from": "math.algebra.expressions.factor_numeric_common_factor",
+        "to": "math.algebra.expressions.terms_coefficients_constants",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Factoring a numerical common factor depends on identifying numerical coefficients in each term.",
+        "failure_signal": "Learner selects a number that is not a factor of every coefficient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_variable_common.requires.variable_powers",
+        "from": "math.algebra.expressions.factor_variable_common_factor",
+        "to": "math.algebra.expressions.variable_powers_in_terms",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Factoring variable common factors requires comparing variable powers across terms.",
+        "failure_signal": "Learner removes a variable factor that is not present in every term.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_factorisation.requires.expand_single",
+        "from": "math.algebra.expressions.check_factorisation_by_expanding",
+        "to": "math.algebra.expressions.expand_single_brackets",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking factorisation by expansion requires expanding the factorised product back out.",
+        "failure_signal": "Learner cannot verify whether the factorised expression is equivalent to the original.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.has_mis.single_unknown",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.misconception.expressions.variable_always_single_unknown",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.term_signs.has_mis.ignore_sign",
+        "from": "math.algebra.expressions.term_signs",
+        "to": "math.misconception.expressions.ignore_term_sign",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.like_terms.has_mis.combine_unlike",
+        "from": "math.algebra.expressions.like_and_unlike_terms",
+        "to": "math.misconception.expressions.combine_unlike_terms",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sub_negative.has_mis.power_error",
+        "from": "math.algebra.expressions.substitution_parentheses_for_negatives",
+        "to": "math.misconception.expressions.negative_substitution_power_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_common.has_mis.not_all_terms",
+        "from": "math.algebra.expressions.factor_out_common_factor",
+        "to": "math.misconception.expressions.factor_common_term_not_all_terms",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/variables_and_expressions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1725,
+    "edges": 3629
+  },
+  "graph_counts_after": {
+    "nodes": 1750,
+    "edges": 3683
+  }
+}

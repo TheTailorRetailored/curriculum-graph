@@ -1,0 +1,439 @@
+{
+  "patch_id": "math-fractions-unit-notation-line-size-compliance",
+  "applied_at": "2026-06-06T09:57:44.968Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 7,
+      "edges_created": 16,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.unit_fraction_numerator_is_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fraction_notation",
+        "label": "Unit fraction numerator is one",
+        "description": "A unit fraction has numerator 1 because it names one equal part.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.denominator_counts_equal_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fraction_notation",
+        "label": "Denominator counts equal parts",
+        "description": "The denominator tells how many equal parts make one whole.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.fraction_bar_separates_part_and_whole_counts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fraction_notation",
+        "label": "Fraction bar separates part and whole counts",
+        "description": "Read the fraction bar as separating the numerator from the denominator rather than as two unrelated whole numbers.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.number_line_unit_interval_partitioned_equally",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fractions_on_number_line",
+        "label": "Number-line unit interval is partitioned equally",
+        "description": "Locate unit fractions by splitting the interval from 0 to 1 into equal-length parts.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.unit_fraction_point_is_one_part_from_zero",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fractions_on_number_line",
+        "label": "Unit fraction point is one part from zero",
+        "description": "The point for 1/n is one equal interval to the right of zero on the 0-to-1 number line.",
+        "aliases": [],
+        "year_band": "3-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.larger_denominator_means_more_equal_parts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fraction_size",
+        "label": "Larger denominator means more equal parts",
+        "description": "For unit fractions of the same whole, a larger denominator means the whole is split into more equal parts.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.more_equal_parts_make_smaller_unit",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.unit_fraction_size",
+        "label": "More equal parts make a smaller unit",
+        "description": "For the same whole, splitting it into more equal parts makes each one part smaller.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_unit_fraction_numerator_one.part_of.unit_notation",
+        "from": "math.kp.fractions.unit_fraction_numerator_is_one",
+        "to": "math.fractions.unit_fraction_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_denominator_counts_equal_parts.part_of.unit_notation",
+        "from": "math.kp.fractions.denominator_counts_equal_parts",
+        "to": "math.fractions.unit_fraction_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_fraction_bar_part_whole_counts.part_of.unit_notation",
+        "from": "math.kp.fractions.fraction_bar_separates_part_and_whole_counts",
+        "to": "math.fractions.unit_fraction_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_number_line_unit_interval_equal_parts.part_of.unit_number_line",
+        "from": "math.kp.fractions.number_line_unit_interval_partitioned_equally",
+        "to": "math.fractions.unit_fractions_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_unit_fraction_point_one_part_zero.part_of.unit_number_line",
+        "from": "math.kp.fractions.unit_fraction_point_is_one_part_from_zero",
+        "to": "math.fractions.unit_fractions_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_larger_denominator_more_parts.part_of.unit_size",
+        "from": "math.kp.fractions.larger_denominator_means_more_equal_parts",
+        "to": "math.fractions.unit_fraction_size",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_more_parts_smaller_unit.part_of.unit_size",
+        "from": "math.kp.fractions.more_equal_parts_make_smaller_unit",
+        "to": "math.fractions.unit_fraction_size",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_notation.assessed_by.compute",
+        "from": "math.fractions.unit_fraction_notation",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can read and write unit fractions from notation prompts.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_notation.assessed_by.explain",
+        "from": "math.fractions.unit_fraction_notation",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners explain numerator and denominator roles in unit fractions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_number_line.uses_representation.number_line",
+        "from": "math.fractions.unit_fractions_on_number_line",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "The lesson is explicitly about placing unit fractions on a number line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_number_line.assessed_by.model",
+        "from": "math.fractions.unit_fractions_on_number_line",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model unit fractions on a number line.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_number_line.assessed_by.interpret_graph",
+        "from": "math.fractions.unit_fractions_on_number_line",
+        "to": "math.task_type.interpret_graph",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners interpret points and intervals on a number line as unit fractions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_size.uses_representation.area_model",
+        "from": "math.fractions.unit_fraction_size",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area models can show that more equal parts make each part smaller when the whole is fixed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_size.uses_representation.number_line",
+        "from": "math.fractions.unit_fraction_size",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines can compare unit-fraction lengths from zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_size.assessed_by.explain",
+        "from": "math.fractions.unit_fraction_size",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners explain why 1/n gets smaller as n increases for the same whole.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_size.has_mis.larger_denominator_larger_fraction",
+        "from": "math.fractions.unit_fraction_size",
+        "to": "math.misconception.fractions.larger_denominator_larger_fraction",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "This misconception directly contradicts unit-fraction size reasoning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2567,
+    "edges": 5355
+  },
+  "graph_counts_after": {
+    "nodes": 2574,
+    "edges": 5371
+  }
+}

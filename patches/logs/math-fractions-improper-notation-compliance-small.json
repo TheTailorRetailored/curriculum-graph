@@ -1,0 +1,216 @@
+{
+  "patch_id": "math-fractions-improper-notation-compliance-small",
+  "applied_at": "2026-06-06T15:54:20.621Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 8,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.improper_fraction_counts_fraction_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.improper_fraction_notation",
+        "label": "Improper fraction counts fraction units beyond one",
+        "description": "Interpret an improper fraction as a count of equal fractional units that can reach or exceed one whole.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.improper_fraction_can_equal_one",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.improper_fraction_notation",
+        "label": "Improper fraction can equal one whole",
+        "description": "Recognise that a fraction with numerator equal to denominator represents exactly one whole.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.improper_numerator_at_least_denominator",
+      "updates": {
+        "parent_topic": "math.fractions.improper_fraction_notation"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_improper_num_den.part_of.mixed_improper",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific improper-fraction notation lesson rather than the broad mixed/improper sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_improper_counts_units.part_of.improper_notation",
+        "from": "math.kp.fractions.improper_fraction_counts_fraction_units",
+        "to": "math.fractions.improper_fraction_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_improper_can_equal_one.part_of.improper_notation",
+        "from": "math.kp.fractions.improper_fraction_can_equal_one",
+        "to": "math.fractions.improper_fraction_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_improper_num_den.part_of.improper_notation",
+        "from": "math.kp.fractions.improper_numerator_at_least_denominator",
+        "to": "math.fractions.improper_fraction_notation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.improper_notation.uses_representation.number_line",
+        "from": "math.fractions.improper_fraction_notation",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Number lines show improper fractions as locations at or beyond one whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.improper_notation.uses_representation.area_model",
+        "from": "math.fractions.improper_fraction_notation",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area models can show improper fractions as more than one whole or exactly one whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.improper_notation.assessed_by.explain",
+        "from": "math.fractions.improper_fraction_notation",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain why fractions with numerator at least denominator are valid quantities.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.improper_notation.assessed_by.model",
+        "from": "math.fractions.improper_fraction_notation",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can model improper fractions with diagrams or number lines.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.improper_notation.has_mis.invalid",
+        "from": "math.fractions.improper_fraction_notation",
+        "to": "math.misconception.fractions.improper_fractions_are_invalid",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Learners may reject improper fractions because the numerator is not smaller than the denominator.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2592,
+    "edges": 5425
+  },
+  "graph_counts_after": {
+    "nodes": 2594,
+    "edges": 5433
+  }
+}

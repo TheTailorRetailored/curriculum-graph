@@ -1,0 +1,1779 @@
+{
+  "patch_id": "math-decimals-percentages-detail-001",
+  "applied_at": "2026-05-24T16:19:02.968Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.kp.percentages.decimal_fraction_percent_equivalence"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 68,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.tenths_as_decimal_fractions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Tenths as decimal fractions",
+        "description": "Represent tenths using fraction notation, decimal notation and place-value language.",
+        "aliases": [],
+        "year_band": "4-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.hundredths_as_decimal_fractions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Hundredths as decimal fractions",
+        "description": "Represent hundredths using fraction notation, decimal notation and place-value language.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.thousandths_as_decimal_fractions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Thousandths as decimal fractions",
+        "description": "Represent thousandths using fraction notation, decimal notation and place-value language.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.decimal_point_place_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimal point place value",
+        "description": "Interpret the decimal point as separating ones from tenths and smaller decimal places.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.decimals_on_number_line",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimals on number line",
+        "description": "Locate decimal numbers on number lines between whole numbers.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.compare_order_decimals",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Compare and order decimals",
+        "description": "Compare and order decimal numbers using place-value reasoning.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.rounding_decimals",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Rounding decimals",
+        "description": "Round decimals to specified places using place value and number-line reasoning.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.decimal_fraction_equivalents",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimal fraction equivalents",
+        "description": "Connect fractions with denominators 10, 100 and 1000 to decimal notation.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.add_subtract_decimals",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Add and subtract decimals",
+        "description": "Add and subtract decimal numbers by aligning like place-value units.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.multiply_decimal_by_whole_number",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Multiply decimal by whole number",
+        "description": "Multiply decimal quantities by whole numbers using place value, scaling and estimation.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.decimals.divide_decimal_by_whole_number",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Divide decimal by whole number",
+        "description": "Divide decimal quantities by whole numbers using place value, sharing and estimation.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.percentages.percent_as_hundredths",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percent as hundredths",
+        "description": "Interpret percent as a quantity per hundred and as a fraction with denominator 100.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.percentages.fraction_decimal_percent_equivalents",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Fraction decimal percent equivalents",
+        "description": "Convert and connect common fraction, decimal and percent representations.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.percentages.benchmark_percentages",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Benchmark percentages",
+        "description": "Use benchmark percentages such as 10%, 25%, 50%, 75% and 100% to reason about quantities.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.percentages.percent_of_quantity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percent of quantity",
+        "description": "Find a percentage of a quantity using fractions, decimals or proportional reasoning.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.percentages.percentage_increase_decrease",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percentage increase and decrease",
+        "description": "Model and calculate increases and decreases by a percentage of an original quantity.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.decimal_places_are_fractional_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimal places are fractional units",
+        "description": "Decimal places name fractional units such as tenths, hundredths and thousandths.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.decimal_point_separates_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimal point separates units",
+        "description": "The decimal point separates ones from tenths and smaller decimal-place units.",
+        "aliases": [],
+        "year_band": "4-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.trailing_zeros_preserve_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Trailing zeros preserve decimal value",
+        "description": "Zeros added to the right of a decimal can preserve value while showing place-value precision.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.compare_decimals_by_place_value",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Compare decimals by place value",
+        "description": "Decimal comparison depends on comparing like place-value units from left to right.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.align_like_place_values",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Align like place values",
+        "description": "Decimal addition and subtraction align ones with ones, tenths with tenths and so on.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.percent_means_per_hundred",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percent means per hundred",
+        "description": "A percent describes a quantity out of, or per, one hundred.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.decimal_fraction_percent_equivalence",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimals fractions and percents can be equivalent",
+        "description": "Decimals, fractions and percents can name the same quantity using different representations.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.percent_of_uses_base_quantity",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percent of uses base quantity",
+        "description": "Finding a percent of a quantity requires identifying the base quantity the percent applies to.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.percentage_change_uses_original",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percentage change uses original amount",
+        "description": "A percentage increase or decrease is calculated relative to an original amount.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.percentages.change_multiplier_represents_result",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Change multiplier represents result",
+        "description": "A percent increase or decrease can be represented by a multiplier that gives the final amount.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.decimals.longer_decimal_is_larger",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Longer decimal is larger",
+        "description": "Learner compares decimals by number of digits rather than by place value.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.decimals.decimal_digits_as_whole_number",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimal digits read as whole number",
+        "description": "Learner treats digits after the decimal point as a separate whole number rather than fractional place values.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.decimals.align_rightmost_digits",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Align rightmost digits for decimal operations",
+        "description": "Learner aligns decimal numbers by their final digit instead of by place value or decimal point.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.percentages.percent_always_less_than_whole",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percent is always less than the whole",
+        "description": "Learner assumes percentages cannot exceed 100% or represent more than one whole.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.percentages.percentage_change_uses_final_as_base",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percentage change uses final as base",
+        "description": "Learner uses the final amount rather than the original amount as the base for percentage change.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tenths_decimals.part_of.dec_place_value",
+        "from": "math.decimals.tenths_as_decimal_fractions",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hundredths_decimals.part_of.dec_place_value",
+        "from": "math.decimals.hundredths_as_decimal_fractions",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.thousandths_decimals.part_of.dec_place_value",
+        "from": "math.decimals.thousandths_as_decimal_fractions",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_point_place.part_of.dec_place_value",
+        "from": "math.decimals.decimal_point_place_value",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimals_number_line.part_of.dec_place_value",
+        "from": "math.decimals.decimals_on_number_line",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_decimals.part_of.dec_place_value",
+        "from": "math.decimals.compare_order_decimals",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_decimals.part_of.dec_place_value",
+        "from": "math.decimals.rounding_decimals",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_fraction_equiv.part_of.dec_place_value",
+        "from": "math.decimals.decimal_fraction_equivalents",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub_decimals.part_of.dec_ops",
+        "from": "math.decimals.add_subtract_decimals",
+        "to": "math.number.decimals.decimal_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_decimal_whole.part_of.dec_ops",
+        "from": "math.decimals.multiply_decimal_by_whole_number",
+        "to": "math.number.decimals.decimal_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_decimal_whole.part_of.dec_ops",
+        "from": "math.decimals.divide_decimal_by_whole_number",
+        "to": "math.number.decimals.decimal_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_hundredths.part_of.percent_concepts",
+        "from": "math.percentages.percent_as_hundredths",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frac_dec_percent_equiv.part_of.percent_concepts",
+        "from": "math.percentages.fraction_decimal_percent_equivalents",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.benchmark_percentages.part_of.percent_concepts",
+        "from": "math.percentages.benchmark_percentages",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_of_quantity.part_of.percent_concepts",
+        "from": "math.percentages.percent_of_quantity",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_increase_decrease.part_of.percent_change",
+        "from": "math.percentages.percentage_increase_decrease",
+        "to": "math.number.percentages.percentage_change",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_places_units.part_of.dec_place_value",
+        "from": "math.kp.decimals.decimal_places_are_fractional_units",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_point_units.part_of.dec_place_value",
+        "from": "math.kp.decimals.decimal_point_separates_units",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_trailing_zeros.part_of.dec_place_value",
+        "from": "math.kp.decimals.trailing_zeros_preserve_value",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compare_decimals_place.part_of.dec_place_value",
+        "from": "math.kp.decimals.compare_decimals_by_place_value",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_align_place_values.part_of.dec_ops",
+        "from": "math.kp.decimals.align_like_place_values",
+        "to": "math.number.decimals.decimal_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_per_hundred.part_of.percent_concepts",
+        "from": "math.kp.percentages.percent_means_per_hundred",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equivalence.part_of.percent_concepts",
+        "from": "math.kp.percentages.decimal_fraction_percent_equivalence",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_base_quantity.part_of.percent_concepts",
+        "from": "math.kp.percentages.percent_of_uses_base_quantity",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_percent_change_original.part_of.percent_change",
+        "from": "math.kp.percentages.percentage_change_uses_original",
+        "to": "math.number.percentages.percentage_change",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_change_multiplier.part_of.percent_change",
+        "from": "math.kp.percentages.change_multiplier_represents_result",
+        "to": "math.number.percentages.percentage_change",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_longer_decimal.part_of.dec_place_value",
+        "from": "math.misconception.decimals.longer_decimal_is_larger",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_decimal_digits_whole.part_of.dec_place_value",
+        "from": "math.misconception.decimals.decimal_digits_as_whole_number",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_align_rightmost.part_of.dec_ops",
+        "from": "math.misconception.decimals.align_rightmost_digits",
+        "to": "math.number.decimals.decimal_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_percent_less_than_whole.part_of.percent_concepts",
+        "from": "math.misconception.percentages.percent_always_less_than_whole",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_percent_change_final_base.part_of.percent_change",
+        "from": "math.misconception.percentages.percentage_change_uses_final_as_base",
+        "to": "math.number.percentages.percentage_change",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.encompasses.tenths",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.decimals.tenths_as_decimal_fractions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tenths are the first decimal fractional unit in decimal place-value work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.encompasses.hundredths",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.decimals.hundredths_as_decimal_fractions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Hundredths are a core decimal place-value unit and bridge to percent.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.encompasses.thousandths",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.decimals.thousandths_as_decimal_fractions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Thousandths extend decimal place-value structure beyond hundredths.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.encompasses.decimal_point",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.decimals.decimal_point_place_value",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The decimal point structures decimal place-value interpretation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.encompasses.number_line",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.decimals.decimals_on_number_line",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Number lines support decimal magnitude and location.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.encompasses.compare_order",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.decimals.compare_order_decimals",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing and ordering decimals directly practises decimal place value.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.encompasses.rounding",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.decimals.rounding_decimals",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Rounding decimals applies place-value and magnitude reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.encompasses.decimal_fraction_equiv",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.decimals.decimal_fraction_equivalents",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Decimal place value is grounded in fractions with powers-of-ten denominators.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_ops.encompasses.add_sub",
+        "from": "math.number.decimals.decimal_operations",
+        "to": "math.decimals.add_subtract_decimals",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Decimal addition and subtraction are central decimal operations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_ops.encompasses.multiply_whole",
+        "from": "math.number.decimals.decimal_operations",
+        "to": "math.decimals.multiply_decimal_by_whole_number",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Multiplying decimals by whole numbers extends whole-number multiplication and decimal place value.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_ops.encompasses.divide_whole",
+        "from": "math.number.decimals.decimal_operations",
+        "to": "math.decimals.divide_decimal_by_whole_number",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Dividing decimals by whole numbers extends sharing and decimal place value.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_concepts.encompasses.percent_hundredths",
+        "from": "math.number.percentages.percent_concepts",
+        "to": "math.percentages.percent_as_hundredths",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Percent as hundredths is the core meaning of percent notation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_concepts.encompasses.equivalents",
+        "from": "math.number.percentages.percent_concepts",
+        "to": "math.percentages.fraction_decimal_percent_equivalents",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Percent concepts require moving among fraction, decimal and percent representations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_concepts.encompasses.benchmarks",
+        "from": "math.number.percentages.percent_concepts",
+        "to": "math.percentages.benchmark_percentages",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Benchmark percentages support estimation and flexible percent reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_concepts.encompasses.percent_of_quantity",
+        "from": "math.number.percentages.percent_concepts",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding percent of a quantity is a core application of percent concepts.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_change.encompasses.increase_decrease",
+        "from": "math.number.percentages.percentage_change",
+        "to": "math.percentages.percentage_increase_decrease",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Percentage increase and decrease directly practise percentage change.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tenths_decimals.requires.unit_tenths",
+        "from": "math.decimals.tenths_as_decimal_fractions",
+        "to": "math.fractions.unit_fraction_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Tenths as decimals build on interpreting tenths as fractional units.",
+        "failure_signal": "Learner writes decimals without relating them to one-tenth units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hundredths_decimals.requires.tenths",
+        "from": "math.decimals.hundredths_as_decimal_fractions",
+        "to": "math.decimals.tenths_as_decimal_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Hundredths extend the tenths place by subdividing tenths into ten equal parts.",
+        "failure_signal": "Learner cannot explain why 0.10 equals one tenth or ten hundredths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.thousandths_decimals.requires.hundredths",
+        "from": "math.decimals.thousandths_as_decimal_fractions",
+        "to": "math.decimals.hundredths_as_decimal_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Thousandths extend the decimal place-value sequence beyond hundredths.",
+        "failure_signal": "Learner treats thousandths as larger than hundredths because 1000 is larger than 100.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_point_requires.hundredths",
+        "from": "math.decimals.decimal_point_place_value",
+        "to": "math.decimals.hundredths_as_decimal_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Decimal-point interpretation depends on understanding places to the right of ones.",
+        "failure_signal": "Learner reads 3.45 as two unrelated whole numbers 3 and 45.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_number_line.requires.decimal_point",
+        "from": "math.decimals.decimals_on_number_line",
+        "to": "math.decimals.decimal_point_place_value",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Locating decimals on number lines requires interpreting decimal notation as magnitude.",
+        "failure_signal": "Learner places 0.7 after 0.65 based on digit length rather than magnitude.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_decimals.requires.number_line",
+        "from": "math.decimals.compare_order_decimals",
+        "to": "math.decimals.decimals_on_number_line",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Number-line magnitude supports comparing and ordering decimal values.",
+        "failure_signal": "Learner thinks 0.62 is greater than 0.7 because 62 is greater than 7.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_decimals.requires.compare_order",
+        "from": "math.decimals.rounding_decimals",
+        "to": "math.decimals.compare_order_decimals",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rounding decimals depends on comparing a value to nearby benchmark decimal values.",
+        "failure_signal": "Learner rounds by changing digits without considering place or magnitude.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_fraction_equiv.requires.hundredths",
+        "from": "math.decimals.decimal_fraction_equivalents",
+        "to": "math.decimals.hundredths_as_decimal_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Decimal-fraction equivalence uses tenths and hundredths as powers-of-ten fractional units.",
+        "failure_signal": "Learner cannot connect 0.25 with 25/100.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub_decimals.requires.decimal_point",
+        "from": "math.decimals.add_subtract_decimals",
+        "to": "math.decimals.decimal_point_place_value",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Adding and subtracting decimals requires aligning like decimal place values.",
+        "failure_signal": "Learner aligns the last digits rather than the decimal points or place values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_decimal_whole.requires.mult_whole",
+        "from": "math.decimals.multiply_decimal_by_whole_number",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Multiplying decimals by whole numbers extends multiplication facts and place-value scaling.",
+        "failure_signal": "Learner calculates digits but cannot estimate the product magnitude.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.divide_decimal_whole.requires.division_whole",
+        "from": "math.decimals.divide_decimal_by_whole_number",
+        "to": "math.number.operations.division_sharing_grouping",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Dividing decimals by whole numbers extends equal sharing to decimal quantities.",
+        "failure_signal": "Learner cannot interpret 1.2 divided by 3 as sharing a decimal quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_hundredths.requires.hundredths",
+        "from": "math.percentages.percent_as_hundredths",
+        "to": "math.decimals.hundredths_as_decimal_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Percent as per hundred depends on interpreting hundredths.",
+        "failure_signal": "Learner cannot relate 37% to 37 hundredths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frac_dec_percent_equiv.requires.decimal_fraction_equiv",
+        "from": "math.percentages.fraction_decimal_percent_equivalents",
+        "to": "math.decimals.decimal_fraction_equivalents",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Fraction-decimal-percent equivalence builds on decimal and fraction equivalence for hundredths.",
+        "failure_signal": "Learner treats 0.5, 1/2 and 50% as unrelated quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.benchmark_percentages.requires.percent_hundredths",
+        "from": "math.percentages.benchmark_percentages",
+        "to": "math.percentages.percent_as_hundredths",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Benchmark percentages require interpreting common percents as parts per hundred.",
+        "failure_signal": "Learner cannot use 50% as half or 25% as one quarter.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_of_quantity.requires.benchmarks",
+        "from": "math.percentages.percent_of_quantity",
+        "to": "math.percentages.benchmark_percentages",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Finding percent of a quantity builds from benchmark percent reasoning to more general cases.",
+        "failure_signal": "Learner cannot identify the base quantity or estimate a reasonable percent amount.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_change_requires.percent_of_quantity",
+        "from": "math.percentages.percentage_increase_decrease",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Percentage increase and decrease require finding a percent of the original amount and applying it as a change.",
+        "failure_signal": "Learner changes by the percent number itself rather than by the percent of the base amount.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.has_mis.longer_decimal",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.misconception.decimals.longer_decimal_is_larger",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_place.has_mis.decimal_digits_whole",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.misconception.decimals.decimal_digits_as_whole_number",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dec_ops.has_mis.align_rightmost",
+        "from": "math.number.decimals.decimal_operations",
+        "to": "math.misconception.decimals.align_rightmost_digits",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_concepts.has_mis.less_than_whole",
+        "from": "math.number.percentages.percent_concepts",
+        "to": "math.misconception.percentages.percent_always_less_than_whole",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_change.has_mis.final_base",
+        "from": "math.number.percentages.percentage_change",
+        "to": "math.misconception.percentages.percentage_change_uses_final_as_base",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 449,
+    "edges": 777
+  },
+  "graph_counts_after": {
+    "nodes": 480,
+    "edges": 845
+  }
+}

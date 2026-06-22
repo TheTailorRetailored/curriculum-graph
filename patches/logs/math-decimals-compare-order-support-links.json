@@ -1,0 +1,151 @@
+{
+  "patch_id": "math-decimals-compare-order-support-links",
+  "applied_at": "2026-06-07T08:45:42.070Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 6,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.longer_decimal_not_always_larger",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.compare_order_decimals",
+        "label": "Longer decimal is not always larger",
+        "description": "Judge decimal magnitude by place value rather than by the number of digits.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_longer_decimal_not_always_larger.part_of.compare_order_decimals",
+        "from": "math.kp.decimals.longer_decimal_not_always_larger",
+        "to": "math.decimals.compare_order_decimals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_decimals.uses_representation.number_line",
+        "from": "math.decimals.compare_order_decimals",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Number lines show decimal order by magnitude and position.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_decimals.uses_representation.place_value_chart",
+        "from": "math.decimals.compare_order_decimals",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts align corresponding decimal places for comparison.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_decimals.assessed_by.compute",
+        "from": "math.decimals.compare_order_decimals",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can compare and order lists of decimal values.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_decimals.assessed_by.explain",
+        "from": "math.decimals.compare_order_decimals",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should justify decimal comparisons using place-value reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_decimals.assessed_by.find_error",
+        "from": "math.decimals.compare_order_decimals",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Error-finding reveals whole-number reasoning applied to decimal digits.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2625,
+    "edges": 5514
+  },
+  "graph_counts_after": {
+    "nodes": 2626,
+    "edges": 5520
+  }
+}

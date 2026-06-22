@@ -1,0 +1,43 @@
+{
+  "patch_id": "math-fractions-unit-foundations-compliance",
+  "applied_at": "2026-06-06T09:54:42.127Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 2
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.unit_fractions",
+      "updates": {
+        "grain_size": "lesson_sequence",
+        "description": "Recognise and interpret unit fractions as one equal part of a whole or collection, using area models, notation, number lines, and unit-size reasoning."
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.whole_split_equal_parts",
+      "updates": {}
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2567,
+    "edges": 5355
+  },
+  "graph_counts_after": {
+    "nodes": 2567,
+    "edges": 5355
+  }
+}

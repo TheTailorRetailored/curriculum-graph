@@ -1,0 +1,1388 @@
+{
+  "patch_id": "math-senior-calculus-integration-detail-001",
+  "applied_at": "2026-05-28T14:54:09.136Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 23,
+      "edges_created": 54,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.antiderivative_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Antiderivative meaning",
+        "description": "Interpret an antiderivative as a function whose derivative is the original function.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.indefinite_integral_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Indefinite integral notation",
+        "description": "Interpret indefinite integral notation and the role of the constant of integration.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.basic_antiderivative_rules",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Basic antiderivative rules",
+        "description": "Use basic reverse differentiation rules to find antiderivatives of powers and simple functions.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.integral_constant_initial_conditions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Constant of integration and initial conditions",
+        "description": "Use an initial condition to determine the constant of integration in an antiderivative.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.definite_integral_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Definite integral notation",
+        "description": "Interpret lower and upper bounds and integrand notation in definite integrals.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.signed_area_under_curve",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Signed area under a curve",
+        "description": "Interpret definite integrals as signed area between a graph and the horizontal axis.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.accumulation_function_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Accumulation function meaning",
+        "description": "Interpret accumulation functions as totals built from rates over an interval.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Fundamental theorem of calculus introduction",
+        "description": "Connect differentiation and integration through accumulation and antiderivatives.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.evaluate_definite_integrals",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Evaluate definite integrals",
+        "description": "Use antiderivatives and bounds to evaluate definite integrals exactly where possible.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.area_between_curves_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Area between curves introduction",
+        "description": "Calculate area between two curves over an interval using upper minus lower functions.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.u_substitution_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "U-substitution introduction",
+        "description": "Use simple substitution to reverse the chain rule in integration.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.integration_by_parts_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Integration by parts introduction",
+        "description": "Use integration by parts as a reverse product-rule strategy in simple cases.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.numerical_integration_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Numerical integration introduction",
+        "description": "Approximate definite integrals using simple numerical methods such as rectangles or trapezoids.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.senior.calculus.differential_equations_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Differential equations introduction",
+        "description": "Model simple relationships involving an unknown function and its derivative.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.antiderivative_reverses_derivative",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Antiderivative reverses derivative",
+        "description": "An antiderivative differentiates back to the original function.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.indefinite_integrals_need_constant",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Indefinite integrals need constant",
+        "description": "A family of antiderivatives differs by an arbitrary constant of integration.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.definite_integral_accumulates_signed_area",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Definite integral accumulates signed area",
+        "description": "A definite integral accumulates signed area or total change over an interval.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.ftc_links_rate_and_accumulation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "FTC links rate and accumulation",
+        "description": "The fundamental theorem of calculus connects a rate function with accumulated change and antiderivatives.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.area_between_curves_upper_minus_lower",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Area between curves uses upper minus lower",
+        "description": "Area between curves over an interval is found by integrating upper function minus lower function.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.calculus.substitution_reverses_chain_rule",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Substitution reverses chain rule",
+        "description": "U-substitution recognises a composite structure that can be integrated by reversing the chain rule.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.calculus.omits_constant_of_integration",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Omits constant of integration",
+        "description": "Learner gives a single antiderivative for an indefinite integral and omits the arbitrary constant.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.calculus.definite_integral_always_positive_area",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "Definite integral always positive area",
+        "description": "Learner treats every definite integral as positive geometric area rather than signed area or accumulation.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.senior.calculus.ftc_as_formula_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Calculus",
+        "label": "FTC as formula only",
+        "description": "Learner applies the fundamental theorem of calculus mechanically without connecting rate, accumulation and antiderivative.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.antiderivative_meaning.part_of.integration",
+        "from": "math.senior.calculus.antiderivative_meaning",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indefinite_integral_notation.part_of.integration",
+        "from": "math.senior.calculus.indefinite_integral_notation",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_antiderivative_rules.part_of.integration",
+        "from": "math.senior.calculus.basic_antiderivative_rules",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integral_constant_initial.part_of.integration",
+        "from": "math.senior.calculus.integral_constant_initial_conditions",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definite_integral_notation.part_of.integration",
+        "from": "math.senior.calculus.definite_integral_notation",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.signed_area.part_of.integration",
+        "from": "math.senior.calculus.signed_area_under_curve",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.accumulation_function.part_of.integration",
+        "from": "math.senior.calculus.accumulation_function_meaning",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ftc_intro.part_of.integration",
+        "from": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_definite_integrals.part_of.integration",
+        "from": "math.senior.calculus.evaluate_definite_integrals",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_between_curves.part_of.integration",
+        "from": "math.senior.calculus.area_between_curves_intro",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.u_substitution.part_of.integration",
+        "from": "math.senior.calculus.u_substitution_intro",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration_by_parts.part_of.integration",
+        "from": "math.senior.calculus.integration_by_parts_intro",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_integration.part_of.integration",
+        "from": "math.senior.calculus.numerical_integration_intro",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differential_equations.part_of.integration",
+        "from": "math.senior.calculus.differential_equations_intro",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_antiderivative_reverses.part_of.integration",
+        "from": "math.kp.senior.calculus.antiderivative_reverses_derivative",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_constant_integration.part_of.integration",
+        "from": "math.kp.senior.calculus.indefinite_integrals_need_constant",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_definite_signed_area.part_of.integration",
+        "from": "math.kp.senior.calculus.definite_integral_accumulates_signed_area",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_ftc_links.part_of.integration",
+        "from": "math.kp.senior.calculus.ftc_links_rate_and_accumulation",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_area_upper_lower.part_of.integration",
+        "from": "math.kp.senior.calculus.area_between_curves_upper_minus_lower",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_substitution_chain.part_of.integration",
+        "from": "math.kp.senior.calculus.substitution_reverses_chain_rule",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_omit_constant.part_of.integration",
+        "from": "math.misconception.senior.calculus.omits_constant_of_integration",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_definite_positive.part_of.integration",
+        "from": "math.misconception.senior.calculus.definite_integral_always_positive_area",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_ftc_formula_only.part_of.integration",
+        "from": "math.misconception.senior.calculus.ftc_as_formula_only",
+        "to": "math.senior.calculus.integration",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.antiderivative_meaning",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.antiderivative_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Antiderivative meaning is foundational to integration as reverse differentiation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.indefinite_notation",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.indefinite_integral_notation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Indefinite integral notation expresses families of antiderivatives.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.antiderivative_rules",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.basic_antiderivative_rules",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Basic antiderivative rules directly practise introductory integration.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.constant_initial",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.integral_constant_initial_conditions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Initial conditions determine a particular antiderivative from a family.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.definite_notation",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.definite_integral_notation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Definite integral notation is central to area and accumulation calculations.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.signed_area",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.signed_area_under_curve",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Signed area is a core interpretation of definite integrals.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.accumulation",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.accumulation_function_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Accumulation is a core interpretation of integration.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.ftc",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The fundamental theorem connects integration and differentiation.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.evaluate_definite",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.evaluate_definite_integrals",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating definite integrals is a central integration skill.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.area_between",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.area_between_curves_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Area between curves extends definite-integral area reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.u_substitution",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.u_substitution_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Substitution is a core introductory integration technique.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.parts",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.integration_by_parts_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Integration by parts extends integration strategy for products of functions.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.numerical",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.numerical_integration_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Numerical methods approximate definite integrals where exact antiderivatives are unavailable or unnecessary.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.diff_eq",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.differential_equations_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Simple differential equations use derivatives and antiderivatives in modelling contexts.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.antiderivative_meaning.requires.derivative_notation",
+        "from": "math.senior.calculus.antiderivative_meaning",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Antiderivative meaning requires knowing what derivative relationship is being reversed.",
+        "failure_signal": "Learner cannot verify an antiderivative by differentiating it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indefinite_notation.requires.antiderivative_meaning",
+        "from": "math.senior.calculus.indefinite_integral_notation",
+        "to": "math.senior.calculus.antiderivative_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Indefinite integral notation names a family of antiderivatives.",
+        "failure_signal": "Learner treats the integral symbol as a single-number calculation only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_antiderivative_rules.requires.power_rule",
+        "from": "math.senior.calculus.basic_antiderivative_rules",
+        "to": "math.senior.calculus.power_rule",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Basic antiderivative rules reverse common derivative rules such as the power rule.",
+        "failure_signal": "Learner applies differentiation rules instead of reverse differentiation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_initial.requires.indefinite_notation",
+        "from": "math.senior.calculus.integral_constant_initial_conditions",
+        "to": "math.senior.calculus.indefinite_integral_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Initial conditions select one member of an antiderivative family.",
+        "failure_signal": "Learner omits the constant or cannot solve for it from a condition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definite_notation.requires.integral_notation",
+        "from": "math.senior.calculus.definite_integral_notation",
+        "to": "math.senior.calculus.indefinite_integral_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Definite integral notation extends integral notation with bounds and a definite value.",
+        "failure_signal": "Learner confuses bounds with variables or constants of integration.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.signed_area.requires.definite_notation",
+        "from": "math.senior.calculus.signed_area_under_curve",
+        "to": "math.senior.calculus.definite_integral_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Signed area interpretation requires understanding interval bounds and integrands.",
+        "failure_signal": "Learner reports all below-axis contributions as positive without context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.accumulation.requires.signed_area",
+        "from": "math.senior.calculus.accumulation_function_meaning",
+        "to": "math.senior.calculus.signed_area_under_curve",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Accumulation builds on interpreting definite integrals as accumulated signed quantities over intervals.",
+        "failure_signal": "Learner cannot connect area under a rate graph to total change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ftc_intro.requires.accumulation",
+        "from": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "to": "math.senior.calculus.accumulation_function_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The fundamental theorem connects accumulation functions with derivatives and antiderivatives.",
+        "failure_signal": "Learner applies endpoint subtraction without seeing the rate-accumulation connection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_definite.requires.ftc",
+        "from": "math.senior.calculus.evaluate_definite_integrals",
+        "to": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Exact evaluation of definite integrals uses antiderivatives and the fundamental theorem.",
+        "failure_signal": "Learner cannot evaluate with bounds or reverses endpoint order incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_between.requires.evaluate_definite",
+        "from": "math.senior.calculus.area_between_curves_intro",
+        "to": "math.senior.calculus.evaluate_definite_integrals",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Area between curves applies definite integral evaluation to differences of functions.",
+        "failure_signal": "Learner subtracts lower from upper inconsistently or ignores intersection intervals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.u_substitution.requires.chain_rule",
+        "from": "math.senior.calculus.u_substitution_intro",
+        "to": "math.senior.calculus.chain_rule_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Substitution is a reverse-chain-rule integration strategy.",
+        "failure_signal": "Learner chooses substitutions without matching an inner derivative pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration_by_parts.requires.product_rule",
+        "from": "math.senior.calculus.integration_by_parts_intro",
+        "to": "math.senior.calculus.product_and_quotient_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Integration by parts reverses product-rule reasoning.",
+        "failure_signal": "Learner cannot connect parts selection to the product rule structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_integration.requires.signed_area",
+        "from": "math.senior.calculus.numerical_integration_intro",
+        "to": "math.senior.calculus.signed_area_under_curve",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Numerical integration approximates accumulated area over intervals.",
+        "failure_signal": "Learner approximates heights without connecting them to area or interval width.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differential_equations.requires.antiderivatives",
+        "from": "math.senior.calculus.differential_equations_intro",
+        "to": "math.senior.calculus.antiderivative_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Simple differential equations often require recovering a function from derivative information.",
+        "failure_signal": "Learner cannot solve a simple rate equation by finding a function with the given derivative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.has_mis.omit_constant",
+        "from": "math.senior.calculus.integration",
+        "to": "math.misconception.senior.calculus.omits_constant_of_integration",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.has_mis.definite_positive",
+        "from": "math.senior.calculus.integration",
+        "to": "math.misconception.senior.calculus.definite_integral_always_positive_area",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.has_mis.ftc_formula_only",
+        "from": "math.senior.calculus.integration",
+        "to": "math.misconception.senior.calculus.ftc_as_formula_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/calculus.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1350,
+    "edges": 2839
+  },
+  "graph_counts_after": {
+    "nodes": 1373,
+    "edges": 2893
+  }
+}

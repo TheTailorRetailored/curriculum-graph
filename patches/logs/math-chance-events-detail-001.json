@@ -1,0 +1,2122 @@
+{
+  "patch_id": "math-chance-events-detail-001",
+  "applied_at": "2026-05-28T07:12:36.930Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.kp.probability.event_must_be_clear"
+      },
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.probability.chance.everyday_chance_words",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 82,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.everyday_chance_words",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Everyday chance words",
+        "description": "Use everyday words such as might, will, never, maybe, likely and unlikely to discuss chance.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.possible_impossible_events",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Possible and impossible events",
+        "description": "Classify simple events as possible or impossible in familiar contexts.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.certain_and_impossible",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Certain and impossible events",
+        "description": "Distinguish events that must happen from events that cannot happen.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.likely_unlikely_language",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Likely and unlikely language",
+        "description": "Use likely and unlikely to compare the chance of familiar events.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.compare_chance_words",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Compare chance words",
+        "description": "Order and compare chance words from impossible through unlikely, even chance, likely and certain.",
+        "aliases": [],
+        "year_band": "2-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.event_descriptions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Event descriptions",
+        "description": "Describe an event clearly enough that its occurrence can be judged.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.outcome_vs_event",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Outcome versus event",
+        "description": "Distinguish a single outcome from an event that may include one or more outcomes.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.fair_unfair_situations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Fair and unfair chance situations",
+        "description": "Judge simple chance situations as fair or unfair based on possible outcomes.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.identify_trial",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Identify a trial",
+        "description": "Recognise one repetition of a chance experiment as a trial.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.predict_before_trial",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Predict before a trial",
+        "description": "Make a prediction about a chance experiment before observing the outcome.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.record_trial_outcomes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Record trial outcomes",
+        "description": "Record outcomes from repeated trials of a simple chance experiment.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.tally_outcomes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Tally chance outcomes",
+        "description": "Use tally marks or simple tables to count outcomes from chance experiments.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.compare_predicted_observed",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Compare predicted and observed outcomes",
+        "description": "Compare predictions with observed outcomes after conducting chance trials.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.repeat_trials_for_stability",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Repeat trials for stability",
+        "description": "Recognise that more repeated trials can make observed patterns more stable.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.list_all_outcomes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "List all outcomes",
+        "description": "List all possible outcomes for simple chance situations without omission or duplication.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.organised_sample_spaces",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Organised sample spaces",
+        "description": "Use organised lists, tables or diagrams to represent possible outcomes.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.equally_likely_outcomes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Equally likely outcomes",
+        "description": "Recognise when outcomes in a simple sample space are equally likely.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.favourable_outcomes",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Favourable outcomes",
+        "description": "Identify the outcomes in a sample space that satisfy a given event.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.event_complement_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Event complement introduction",
+        "description": "Recognise the complement of an event as outcomes where the event does not occur.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.mutually_exclusive_simple_events",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Mutually exclusive simple events",
+        "description": "Recognise simple events that cannot happen at the same time in one trial.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.chance.sample_space_checks",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Sample space checks",
+        "description": "Check whether a sample space is complete, non-overlapping and appropriate for the situation.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.chance_language_orders_likelihood",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Chance language orders likelihood",
+        "description": "Chance words can be ordered from impossible to certain to compare likelihood qualitatively.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.event_must_be_clear",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Events must be clear",
+        "description": "An event should be described clearly enough that it is possible to decide whether it occurred.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.trial_has_one_observed_outcome",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "A trial has one observed outcome",
+        "description": "Each trial of a simple chance experiment produces one observed outcome.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.repeated_trials_show_variation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Repeated trials show variation",
+        "description": "Outcomes can vary from trial to trial even when the same experiment is repeated.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.more_trials_stabilise_patterns",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "More trials stabilise patterns",
+        "description": "With more trials, observed outcome proportions often become more stable.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.sample_space_lists_possible_outcomes",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Sample space lists possible outcomes",
+        "description": "A sample space lists the possible outcomes for a chance situation.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.favourable_outcomes_define_event",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Favourable outcomes define an event",
+        "description": "An event can be described by the outcomes in the sample space that satisfy it.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.equally_likely_is_not_automatic",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Equally likely is not automatic",
+        "description": "Outcomes are equally likely only when the chance mechanism gives each outcome the same chance.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.complement_is_not_event",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Complement is not the event",
+        "description": "The complement of an event is the set of outcomes where that event does not occur.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.sample_spaces_need_no_duplicates",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Sample spaces need no duplicates",
+        "description": "A well-formed simple sample space should avoid missing outcomes and duplicate outcomes.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.likely_means_certain",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Likely means certain",
+        "description": "Learner treats a likely event as if it must happen.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.impossible_vs_unlikely",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Impossible confused with unlikely",
+        "description": "Learner describes very unlikely events as impossible even when they can occur.",
+        "aliases": [],
+        "year_band": "1-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.one_trial_proves_likelihood",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "One trial proves likelihood",
+        "description": "Learner treats the result of one trial as proof of what is likely in the long run.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.sample_space_missing_outcomes",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "Sample space missing outcomes",
+        "description": "Learner omits possible outcomes or includes duplicates when listing a sample space.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.all_outcomes_equally_likely",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Chance and events",
+        "label": "All listed outcomes equally likely",
+        "description": "Learner assumes all listed outcomes are equally likely even when the chance mechanism is uneven.",
+        "aliases": [],
+        "year_band": "4-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.everyday_chance.part_of.language",
+        "from": "math.probability.chance.everyday_chance_words",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.possible_impossible.part_of.language",
+        "from": "math.probability.chance.possible_impossible_events",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.certain_impossible.part_of.language",
+        "from": "math.probability.chance.certain_and_impossible",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.likely_unlikely.part_of.language",
+        "from": "math.probability.chance.likely_unlikely_language",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_chance_words.part_of.language",
+        "from": "math.probability.chance.compare_chance_words",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_descriptions.part_of.language",
+        "from": "math.probability.chance.event_descriptions",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outcome_event.part_of.language",
+        "from": "math.probability.chance.outcome_vs_event",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_unfair.part_of.language",
+        "from": "math.probability.chance.fair_unfair_situations",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_trial.part_of.experiments",
+        "from": "math.probability.chance.identify_trial",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.predict_before_trial.part_of.experiments",
+        "from": "math.probability.chance.predict_before_trial",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_outcomes.part_of.experiments",
+        "from": "math.probability.chance.record_trial_outcomes",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_outcomes.part_of.experiments",
+        "from": "math.probability.chance.tally_outcomes",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_predicted_observed.part_of.experiments",
+        "from": "math.probability.chance.compare_predicted_observed",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeat_trials.part_of.experiments",
+        "from": "math.probability.chance.repeat_trials_for_stability",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.list_all_outcomes.part_of.sample_spaces",
+        "from": "math.probability.chance.list_all_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.organised_sample_spaces.part_of.sample_spaces",
+        "from": "math.probability.chance.organised_sample_spaces",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely.part_of.sample_spaces",
+        "from": "math.probability.chance.equally_likely_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_outcomes.part_of.sample_spaces",
+        "from": "math.probability.chance.favourable_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_complement.part_of.sample_spaces",
+        "from": "math.probability.chance.event_complement_intro",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mutually_exclusive.part_of.sample_spaces",
+        "from": "math.probability.chance.mutually_exclusive_simple_events",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_space_checks.part_of.sample_spaces",
+        "from": "math.probability.chance.sample_space_checks",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_chance_order.part_of.language",
+        "from": "math.kp.probability.chance_language_orders_likelihood",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_event_clear.part_of.language",
+        "from": "math.kp.probability.event_must_be_clear",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_trial_one_outcome.part_of.experiments",
+        "from": "math.kp.probability.trial_has_one_observed_outcome",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_repeated_trials_variation.part_of.experiments",
+        "from": "math.kp.probability.repeated_trials_show_variation",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_more_trials_stable.part_of.experiments",
+        "from": "math.kp.probability.more_trials_stabilise_patterns",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_sample_space_outcomes.part_of.sample_spaces",
+        "from": "math.kp.probability.sample_space_lists_possible_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_favourable_event.part_of.sample_spaces",
+        "from": "math.kp.probability.favourable_outcomes_define_event",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equally_not_auto.part_of.sample_spaces",
+        "from": "math.kp.probability.equally_likely_is_not_automatic",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_complement_not_event.part_of.sample_spaces",
+        "from": "math.kp.probability.complement_is_not_event",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_no_duplicates.part_of.sample_spaces",
+        "from": "math.kp.probability.sample_spaces_need_no_duplicates",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_likely_certain.part_of.language",
+        "from": "math.misconception.probability.likely_means_certain",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_impossible_unlikely.part_of.language",
+        "from": "math.misconception.probability.impossible_vs_unlikely",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_one_trial.part_of.experiments",
+        "from": "math.misconception.probability.one_trial_proves_likelihood",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_missing_outcomes.part_of.sample_spaces",
+        "from": "math.misconception.probability.sample_space_missing_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_all_equally_likely.part_of.sample_spaces",
+        "from": "math.misconception.probability.all_outcomes_equally_likely",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.encompasses.everyday_words",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.everyday_chance_words",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Everyday chance words are foundational to qualitative chance language.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.encompasses.possible_impossible",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.possible_impossible_events",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Possible and impossible are core chance-language categories.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.encompasses.certain_impossible",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.certain_and_impossible",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Certain and impossible anchor the ends of the chance-language continuum.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.encompasses.likely_unlikely",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.likely_unlikely_language",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Likely and unlikely support comparative chance descriptions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.encompasses.compare_words",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.compare_chance_words",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Ordering chance words practices qualitative likelihood comparison.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.encompasses.event_descriptions",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.event_descriptions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Chance language depends on clear event descriptions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.encompasses.outcome_event",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Outcome-versus-event language supports more precise probability reasoning.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.encompasses.fair_unfair",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.fair_unfair_situations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Fairness judgments use qualitative chance comparison in simple situations.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experiments.encompasses.identify_trial",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.identify_trial",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying a trial is central to conducting chance experiments.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experiments.encompasses.predict",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.predict_before_trial",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Predictions are a common component of simple chance investigations.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experiments.encompasses.record",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.record_trial_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Recording outcomes is central to chance experiments.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experiments.encompasses.tally",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.tally_outcomes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Tallying outcomes supports organising repeated trial results.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experiments.encompasses.predicted_observed",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.compare_predicted_observed",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing predictions and observations is a common chance-experiment task.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experiments.encompasses.repeat_trials",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.repeat_trials_for_stability",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Repeated trials show variation and emerging stability in chance experiments.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.list_outcomes",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.list_all_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Listing all outcomes is central to sample-space reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.organised",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.organised_sample_spaces",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Organised representations support complete sample spaces.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.equally_likely",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.equally_likely_outcomes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Equally likely outcomes connect sample spaces to probability models.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.favourable",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.favourable_outcomes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Favourable outcomes define events within sample spaces.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.complement",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.event_complement_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Complements partition a sample space into event and not-event outcomes.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.mutually_exclusive",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.mutually_exclusive_simple_events",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mutually exclusive events rely on understanding which outcomes can occur together in one trial.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.checks",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.sample_space_checks",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Checking completeness and non-duplication improves sample-space reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.possible_impossible.requires.everyday",
+        "from": "math.probability.chance.possible_impossible_events",
+        "to": "math.probability.chance.everyday_chance_words",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Possible and impossible classifications build from everyday chance language.",
+        "failure_signal": "Learner uses chance words without deciding whether an event can occur.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.certain_impossible.requires.possible",
+        "from": "math.probability.chance.certain_and_impossible",
+        "to": "math.probability.chance.possible_impossible_events",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Certain and impossible reasoning extends possible/impossible event classification.",
+        "failure_signal": "Learner confuses must happen, might happen and cannot happen.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.likely_unlikely.requires.possible",
+        "from": "math.probability.chance.likely_unlikely_language",
+        "to": "math.probability.chance.possible_impossible_events",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Likely and unlikely apply to events that can occur but vary in likelihood.",
+        "failure_signal": "Learner calls an impossible event unlikely rather than impossible.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_words.requires.likely",
+        "from": "math.probability.chance.compare_chance_words",
+        "to": "math.probability.chance.likely_unlikely_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Ordering chance words requires distinguishing likely, unlikely, certain and impossible language.",
+        "failure_signal": "Learner cannot order qualitative likelihood terms consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_descriptions.requires.compare_words",
+        "from": "math.probability.chance.event_descriptions",
+        "to": "math.probability.chance.compare_chance_words",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Clear event descriptions make qualitative likelihood judgments meaningful.",
+        "failure_signal": "Learner describes events so vaguely that occurrence cannot be judged.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outcome_event.requires.event_desc",
+        "from": "math.probability.chance.outcome_vs_event",
+        "to": "math.probability.chance.event_descriptions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Outcome-versus-event distinction requires clear event descriptions.",
+        "failure_signal": "Learner treats one outcome and a set of outcomes as the same idea.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_unfair.requires.equally_likely",
+        "from": "math.probability.chance.fair_unfair_situations",
+        "to": "math.probability.chance.equally_likely_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "low",
+        "rationale": "Fairness judgments often depend on whether outcomes or players have equal chances, though early fairness can be informal.",
+        "failure_signal": "Learner judges fairness by preference rather than chance structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_trial.requires.event_desc",
+        "from": "math.probability.chance.identify_trial",
+        "to": "math.probability.chance.event_descriptions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying a trial requires understanding what chance situation and event are being observed.",
+        "failure_signal": "Learner cannot distinguish one trial from a whole experiment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.predict_trial.requires.compare_words",
+        "from": "math.probability.chance.predict_before_trial",
+        "to": "math.probability.chance.compare_chance_words",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Predictions use qualitative likelihood reasoning before observing outcomes.",
+        "failure_signal": "Learner predicts without linking to possible outcomes or likelihood.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_outcomes.requires.identify_trial",
+        "from": "math.probability.chance.record_trial_outcomes",
+        "to": "math.probability.chance.identify_trial",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recording outcomes requires recognising each trial and its result.",
+        "failure_signal": "Learner mixes multiple trials or records non-outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_outcomes.requires.record",
+        "from": "math.probability.chance.tally_outcomes",
+        "to": "math.probability.chance.record_trial_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Tallying chance outcomes organises recorded trial results.",
+        "failure_signal": "Learner records outcomes but cannot count frequencies consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_pred_obs.requires.tally",
+        "from": "math.probability.chance.compare_predicted_observed",
+        "to": "math.probability.chance.tally_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing predicted and observed outcomes requires recorded outcome frequencies.",
+        "failure_signal": "Learner compares prediction to memory rather than recorded results.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeat_trials.requires.compare_pred_obs",
+        "from": "math.probability.chance.repeat_trials_for_stability",
+        "to": "math.probability.chance.compare_predicted_observed",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Repeated trials extend comparison of predicted and observed outcomes across more data.",
+        "failure_signal": "Learner overgeneralises from very few trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.list_outcomes.requires.outcome_event",
+        "from": "math.probability.chance.list_all_outcomes",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Listing all outcomes requires distinguishing possible single outcomes from events.",
+        "failure_signal": "Learner lists events rather than distinct possible outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.organised_sample_space.requires.list",
+        "from": "math.probability.chance.organised_sample_spaces",
+        "to": "math.probability.chance.list_all_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Organised sample spaces build from listing possible outcomes systematically.",
+        "failure_signal": "Learner cannot organise outcomes without omissions or duplicates.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely.requires.sample_space",
+        "from": "math.probability.chance.equally_likely_outcomes",
+        "to": "math.probability.chance.organised_sample_spaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Judging equally likely outcomes requires a clear sample space and chance mechanism.",
+        "failure_signal": "Learner assumes outcomes are equally likely just because they are listed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable.requires.sample_space",
+        "from": "math.probability.chance.favourable_outcomes",
+        "to": "math.probability.chance.organised_sample_spaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Identifying favourable outcomes requires a represented sample space.",
+        "failure_signal": "Learner counts favourable outcomes without identifying the full outcome set.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement.requires.favourable",
+        "from": "math.probability.chance.event_complement_intro",
+        "to": "math.probability.chance.favourable_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Complements are defined relative to the event outcomes and the full sample space.",
+        "failure_signal": "Learner treats the complement as an opposite word rather than non-event outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mutually_exclusive.requires.outcome_event",
+        "from": "math.probability.chance.mutually_exclusive_simple_events",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Mutually exclusive events require understanding whether events can share outcomes in one trial.",
+        "failure_signal": "Learner thinks all different events are mutually exclusive.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_space_checks.requires.organised",
+        "from": "math.probability.chance.sample_space_checks",
+        "to": "math.probability.chance.organised_sample_spaces",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking a sample space requires an organised representation to inspect for omissions and duplicates.",
+        "failure_signal": "Learner accepts incomplete or duplicated sample spaces as valid.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.has_mis.likely_certain",
+        "from": "math.probability.chance.language",
+        "to": "math.misconception.probability.likely_means_certain",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.language.has_mis.impossible_unlikely",
+        "from": "math.probability.chance.language",
+        "to": "math.misconception.probability.impossible_vs_unlikely",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experiments.has_mis.one_trial",
+        "from": "math.probability.chance.experiments",
+        "to": "math.misconception.probability.one_trial_proves_likelihood",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.has_mis.missing_outcomes",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.misconception.probability.sample_space_missing_outcomes",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.has_mis.all_equally_likely",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.misconception.probability.all_outcomes_equally_likely",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1149,
+    "edges": 2377
+  },
+  "graph_counts_after": {
+    "nodes": 1185,
+    "edges": 2459
+  }
+}

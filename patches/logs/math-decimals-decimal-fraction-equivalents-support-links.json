@@ -1,0 +1,129 @@
+{
+  "patch_id": "math-decimals-decimal-fraction-equivalents-support-links",
+  "applied_at": "2026-06-07T08:50:17.741Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_fraction_equiv.uses_representation.place_value_chart",
+        "from": "math.decimals.decimal_fraction_equivalents",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Place-value charts show tenths, hundredths and thousandths as decimal places.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_fraction_equiv.uses_representation.area_model",
+        "from": "math.decimals.decimal_fraction_equivalents",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Area models connect tenths and hundredths to fractional parts of a whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_fraction_equiv.uses_representation.number_line",
+        "from": "math.decimals.decimal_fraction_equivalents",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines show equivalent fraction and decimal names at the same point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_fraction_equiv.assessed_by.compute",
+        "from": "math.decimals.decimal_fraction_equivalents",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can convert between decimal notation and power-of-ten fractions.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_fraction_equiv.assessed_by.model",
+        "from": "math.decimals.decimal_fraction_equivalents",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can model decimal-fraction equivalents using area or number-line representations.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_fraction_equiv.assessed_by.explain",
+        "from": "math.decimals.decimal_fraction_equivalents",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain why a decimal and a fraction with denominator 10, 100 or 1000 name the same quantity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2631,
+    "edges": 5530
+  },
+  "graph_counts_after": {
+    "nodes": 2631,
+    "edges": 5536
+  }
+}

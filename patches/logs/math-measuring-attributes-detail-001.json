@@ -1,0 +1,2146 @@
+{
+  "patch_id": "math-measuring-attributes-detail-001",
+  "applied_at": "2026-05-27T03:38:32.181Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.kp.measurement.number_unit_pair"
+      },
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.kp.measurement.unit_size_inverse_relation"
+      },
+      {
+        "code": "no_prerequisites",
+        "severity": "warning",
+        "node_id": "math.measurement.attributes.compare_duration_directly",
+        "message": "Topic has no hard prerequisites and is not marked foundational."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.choose_attribute_to_compare",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Choose attribute to compare",
+        "description": "Identify which measurable attribute is being compared, such as length, mass, capacity, area or duration.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.compare_length_directly",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Compare length directly",
+        "description": "Compare the length, height or width of objects by aligning them and using comparison language.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.compare_mass_directly",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Compare mass directly",
+        "description": "Compare object mass by hefting or balance experiences and describe heavier, lighter or same mass.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.compare_capacity_directly",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Compare capacity directly",
+        "description": "Compare container capacity by filling, pouring or direct matching experiences.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.compare_duration_directly",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Compare duration directly",
+        "description": "Compare durations using everyday events and language such as longer, shorter, earlier and later.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.iterate_informal_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Iterate informal units",
+        "description": "Measure by placing informal units end to end or repeatedly using one unit.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.no_gaps_or_overlaps",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "No gaps or overlaps",
+        "description": "Measure accurately by placing units with no gaps or overlaps along or over the attribute.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.same_size_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Same size units",
+        "description": "Recognise that repeated units must be the same size to produce a meaningful measure.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.count_units_as_measure",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Count units as measure",
+        "description": "Use the count of equal units as the numerical measure of an attribute.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.choose_informal_unit",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Choose informal unit",
+        "description": "Choose an informal unit that suits the attribute and size of the object being measured.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.select_length_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Select length units",
+        "description": "Select appropriate metric units for measuring length, distance, height or width.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.select_mass_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Select mass units",
+        "description": "Select appropriate metric units for measuring mass in everyday contexts.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.select_capacity_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Select capacity units",
+        "description": "Select appropriate metric units for measuring capacity or liquid volume.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.select_time_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Select time units",
+        "description": "Select appropriate units for measuring duration such as seconds, minutes, hours, days and weeks.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.square_units_area",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Square units for area",
+        "description": "Use square units to measure how much surface a flat region covers.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.estimate_with_metric_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Estimate with metric units",
+        "description": "Estimate measures using familiar benchmarks for common metric units.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.metric_prefixes_base_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Metric prefixes and base units",
+        "description": "Relate common metric prefixes and base units such as milli, centi, kilo, metre, gram and litre.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.convert_length_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Convert length units",
+        "description": "Convert between related metric length units such as millimetres, centimetres, metres and kilometres.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.convert_mass_capacity_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Convert mass and capacity units",
+        "description": "Convert between related metric units for mass and capacity, such as grams, kilograms, millilitres and litres.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.convert_area_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Convert area units",
+        "description": "Convert between related square units while accounting for two-dimensional scaling.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.attributes.conversion_reasonableness",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Conversion reasonableness",
+        "description": "Check whether converted measurements are reasonable given the relative sizes of units.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.attribute_focus",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Measurement needs attribute focus",
+        "description": "A measurement comparison must focus on a single attribute such as length, mass, capacity or duration.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.direct_comparison_alignment",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Direct comparison needs alignment",
+        "description": "For length comparison, objects should be aligned at a common starting point.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.equal_units_needed",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Equal units are needed",
+        "description": "Measurement units must be equal-sized for a count of units to be meaningful.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.unit_iteration_counts",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Unit iteration counts repeats",
+        "description": "Repeatedly placing the same unit measures how many unit lengths, areas or quantities fit the attribute.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.number_unit_pair",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Measurement is number and unit",
+        "description": "A complete measurement includes both a number and a unit.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.unit_size_inverse_relation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Smaller units give larger counts",
+        "description": "For the same object, using a smaller unit gives a larger number of units.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.metric_units_standardised",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Metric units are standardised",
+        "description": "Metric units are standard units that allow measurements to be communicated and compared consistently.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.square_units_cover_area",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Square units cover area",
+        "description": "Area is measured by counting equal square units that cover a flat region.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.conversion_scales_quantity",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Conversion scales the number",
+        "description": "Converting units changes the numerical value according to the relative size of the units while preserving the quantity.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.estimate_before_measure",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Estimate before measuring",
+        "description": "Estimating before measuring supports unit choice and reasonableness checking.",
+        "aliases": [],
+        "year_band": "2-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.compare_different_attributes",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Compare different attributes",
+        "description": "Learner compares objects using different attributes, such as judging mass from height or capacity from width alone.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.bigger_number_always_bigger_measure",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Bigger number always bigger measure",
+        "description": "Learner assumes the larger number always means a larger measure without considering the unit size.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.gaps_do_not_matter",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Gaps do not matter",
+        "description": "Learner leaves gaps or overlaps between units and still treats the count as accurate.",
+        "aliases": [],
+        "year_band": "1-3",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.unit_label_without_quantity",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Unit label without quantity",
+        "description": "Learner gives a number without a unit or uses a unit label without connecting it to the measured attribute.",
+        "aliases": [],
+        "year_band": "2-6",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.convert_by_changing_label_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Measuring attributes",
+        "label": "Convert by changing label only",
+        "description": "Learner changes the unit label during conversion without scaling the numerical value.",
+        "aliases": [],
+        "year_band": "5-9",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_attribute.part_of.direct_comparison",
+        "from": "math.measurement.attributes.choose_attribute_to_compare",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_length.part_of.direct_comparison",
+        "from": "math.measurement.attributes.compare_length_directly",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mass.part_of.direct_comparison",
+        "from": "math.measurement.attributes.compare_mass_directly",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_capacity.part_of.direct_comparison",
+        "from": "math.measurement.attributes.compare_capacity_directly",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_duration.part_of.direct_comparison",
+        "from": "math.measurement.attributes.compare_duration_directly",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.iterate_informal.part_of.informal_units",
+        "from": "math.measurement.attributes.iterate_informal_units",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.no_gaps.part_of.informal_units",
+        "from": "math.measurement.attributes.no_gaps_or_overlaps",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_size_units.part_of.informal_units",
+        "from": "math.measurement.attributes.same_size_units",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.count_units_measure.part_of.informal_units",
+        "from": "math.measurement.attributes.count_units_as_measure",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_informal_unit.part_of.informal_units",
+        "from": "math.measurement.attributes.choose_informal_unit",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_length_units.part_of.metric_units",
+        "from": "math.measurement.attributes.select_length_units",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_mass_units.part_of.metric_units",
+        "from": "math.measurement.attributes.select_mass_units",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_capacity_units.part_of.metric_units",
+        "from": "math.measurement.attributes.select_capacity_units",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_time_units.part_of.metric_units",
+        "from": "math.measurement.attributes.select_time_units",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_units_area.part_of.metric_units",
+        "from": "math.measurement.attributes.square_units_area",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_metric.part_of.metric_units",
+        "from": "math.measurement.attributes.estimate_with_metric_units",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_prefixes.part_of.conversion",
+        "from": "math.measurement.attributes.metric_prefixes_base_units",
+        "to": "math.measurement.attributes.unit_conversion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_length.part_of.conversion",
+        "from": "math.measurement.attributes.convert_length_units",
+        "to": "math.measurement.attributes.unit_conversion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_mass_capacity.part_of.conversion",
+        "from": "math.measurement.attributes.convert_mass_capacity_units",
+        "to": "math.measurement.attributes.unit_conversion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_area.part_of.conversion",
+        "from": "math.measurement.attributes.convert_area_units",
+        "to": "math.measurement.attributes.unit_conversion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.conversion_reasonableness.part_of.conversion",
+        "from": "math.measurement.attributes.conversion_reasonableness",
+        "to": "math.measurement.attributes.unit_conversion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_attribute_focus.part_of.direct_comparison",
+        "from": "math.kp.measurement.attribute_focus",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_direct_alignment.part_of.direct_comparison",
+        "from": "math.kp.measurement.direct_comparison_alignment",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equal_units.part_of.informal_units",
+        "from": "math.kp.measurement.equal_units_needed",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_iteration_counts.part_of.informal_units",
+        "from": "math.kp.measurement.unit_iteration_counts",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_number_unit_pair.part_of.metric_units",
+        "from": "math.kp.measurement.number_unit_pair",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_unit_size_inverse.part_of.metric_units",
+        "from": "math.kp.measurement.unit_size_inverse_relation",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_metric_standardised.part_of.metric_units",
+        "from": "math.kp.measurement.metric_units_standardised",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_square_units_area.part_of.metric_units",
+        "from": "math.kp.measurement.square_units_cover_area",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_conversion_scales.part_of.conversion",
+        "from": "math.kp.measurement.conversion_scales_quantity",
+        "to": "math.measurement.attributes.unit_conversion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_estimate_before_measure.part_of.metric_units",
+        "from": "math.kp.measurement.estimate_before_measure",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_compare_diff_attributes.part_of.direct_comparison",
+        "from": "math.misconception.measurement.compare_different_attributes",
+        "to": "math.measurement.attributes.direct_comparison",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_bigger_number_measure.part_of.metric_units",
+        "from": "math.misconception.measurement.bigger_number_always_bigger_measure",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_gaps_matter.part_of.informal_units",
+        "from": "math.misconception.measurement.gaps_do_not_matter",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_unit_label_quantity.part_of.metric_units",
+        "from": "math.misconception.measurement.unit_label_without_quantity",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_convert_label_only.part_of.conversion",
+        "from": "math.misconception.measurement.convert_by_changing_label_only",
+        "to": "math.measurement.attributes.unit_conversion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_comparison.encompasses.choose_attribute",
+        "from": "math.measurement.attributes.direct_comparison",
+        "to": "math.measurement.attributes.choose_attribute_to_compare",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing the attribute is central to direct comparison of measurable properties.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_comparison.encompasses.length",
+        "from": "math.measurement.attributes.direct_comparison",
+        "to": "math.measurement.attributes.compare_length_directly",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Direct length comparison is a core early measurement activity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_comparison.encompasses.mass",
+        "from": "math.measurement.attributes.direct_comparison",
+        "to": "math.measurement.attributes.compare_mass_directly",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mass comparison is a direct-comparison measurement case.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_comparison.encompasses.capacity",
+        "from": "math.measurement.attributes.direct_comparison",
+        "to": "math.measurement.attributes.compare_capacity_directly",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Capacity comparison is a direct-comparison measurement case.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_comparison.encompasses.duration",
+        "from": "math.measurement.attributes.direct_comparison",
+        "to": "math.measurement.attributes.compare_duration_directly",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Duration comparison applies direct comparison language to time intervals.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_units.encompasses.iterate",
+        "from": "math.measurement.attributes.informal_units",
+        "to": "math.measurement.attributes.iterate_informal_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Unit iteration is the core action in informal measurement.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_units.encompasses.no_gaps",
+        "from": "math.measurement.attributes.informal_units",
+        "to": "math.measurement.attributes.no_gaps_or_overlaps",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Avoiding gaps and overlaps is essential for accurate informal unit measurement.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_units.encompasses.same_size",
+        "from": "math.measurement.attributes.informal_units",
+        "to": "math.measurement.attributes.same_size_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Equal-sized units are foundational to meaningful measurement with units.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_units.encompasses.count_units",
+        "from": "math.measurement.attributes.informal_units",
+        "to": "math.measurement.attributes.count_units_as_measure",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Counting units converts unit iteration into a numerical measure.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_units.encompasses.choose_unit",
+        "from": "math.measurement.attributes.informal_units",
+        "to": "math.measurement.attributes.choose_informal_unit",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Choosing an appropriate informal unit supports efficient and meaningful measurement.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.encompasses.length_units",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.measurement.attributes.select_length_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Length units are a central class of metric measurement units.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.encompasses.mass_units",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.measurement.attributes.select_mass_units",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mass units are common metric units in measurement contexts.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.encompasses.capacity_units",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.measurement.attributes.select_capacity_units",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Capacity units are common metric units in liquid-volume contexts.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.encompasses.time_units",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.measurement.attributes.select_time_units",
+        "type": "encompasses",
+        "confidence": "low",
+        "rationale": "Time units are standard measurement units, though they are not metric in the same prefix structure as length, mass and capacity.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.encompasses.square_units",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.measurement.attributes.square_units_area",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Square units extend metric unit ideas to area measurement.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.encompasses.estimation",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.measurement.attributes.estimate_with_metric_units",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Estimating with known units supports selecting and using metric units.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_conversion.encompasses.prefixes",
+        "from": "math.measurement.attributes.unit_conversion",
+        "to": "math.measurement.attributes.metric_prefixes_base_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Metric prefixes and base units underpin metric unit conversions.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_conversion.encompasses.length",
+        "from": "math.measurement.attributes.unit_conversion",
+        "to": "math.measurement.attributes.convert_length_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Length-unit conversion is a central unit-conversion case.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_conversion.encompasses.mass_capacity",
+        "from": "math.measurement.attributes.unit_conversion",
+        "to": "math.measurement.attributes.convert_mass_capacity_units",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mass and capacity conversions extend metric conversion across common attributes.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_conversion.encompasses.area",
+        "from": "math.measurement.attributes.unit_conversion",
+        "to": "math.measurement.attributes.convert_area_units",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Area-unit conversion is a later and more complex application of unit conversion.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_conversion.encompasses.reasonableness",
+        "from": "math.measurement.attributes.unit_conversion",
+        "to": "math.measurement.attributes.conversion_reasonableness",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Reasonableness checking supports accurate unit conversion.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_attribute.requires.comparing_quantities",
+        "from": "math.measurement.attributes.choose_attribute_to_compare",
+        "to": "math.number.counting.comparing_quantities",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Attribute comparison builds on recognising quantities as comparable in some respect.",
+        "failure_signal": "Learner compares objects globally without identifying the relevant measurable attribute.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_length.requires.choose_attribute",
+        "from": "math.measurement.attributes.compare_length_directly",
+        "to": "math.measurement.attributes.choose_attribute_to_compare",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Direct length comparison requires selecting length, height or width as the attribute of interest.",
+        "failure_signal": "Learner compares overall size rather than aligning a specific length dimension.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mass.requires.choose_attribute",
+        "from": "math.measurement.attributes.compare_mass_directly",
+        "to": "math.measurement.attributes.choose_attribute_to_compare",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Mass comparison requires focusing on heaviness rather than visual size.",
+        "failure_signal": "Learner assumes the taller or larger-looking object is heavier.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_capacity.requires.choose_attribute",
+        "from": "math.measurement.attributes.compare_capacity_directly",
+        "to": "math.measurement.attributes.choose_attribute_to_compare",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Capacity comparison requires focusing on how much a container can hold.",
+        "failure_signal": "Learner compares container height or width only without considering capacity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_duration.requires.sequence_events",
+        "from": "math.measurement.attributes.compare_duration_directly",
+        "to": "math.number.counting.stable_order_counting",
+        "type": "requires",
+        "strength": "weak",
+        "confidence": "low",
+        "rationale": "Duration comparison uses ordering and sequence language, though it develops alongside early time concepts.",
+        "failure_signal": "Learner cannot compare which event lasted longer or shorter.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.iterate_informal.requires.length_compare",
+        "from": "math.measurement.attributes.iterate_informal_units",
+        "to": "math.measurement.attributes.compare_length_directly",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Informal unit iteration builds on comparing and attending to a measurable attribute such as length.",
+        "failure_signal": "Learner places units without tracking the attribute being measured.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.no_gaps.requires.iterate",
+        "from": "math.measurement.attributes.no_gaps_or_overlaps",
+        "to": "math.measurement.attributes.iterate_informal_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Avoiding gaps and overlaps refines unit iteration for accuracy.",
+        "failure_signal": "Learner leaves spaces or stacks units but still counts them as accurate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_size.requires.no_gaps",
+        "from": "math.measurement.attributes.same_size_units",
+        "to": "math.measurement.attributes.no_gaps_or_overlaps",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Equal-sized unit reasoning follows from attending to how units are placed and counted.",
+        "failure_signal": "Learner mixes different unit sizes and treats the count as comparable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.count_units.requires.same_size",
+        "from": "math.measurement.attributes.count_units_as_measure",
+        "to": "math.measurement.attributes.same_size_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Counting units as a measure is only meaningful when the units are equal sized and consistently placed.",
+        "failure_signal": "Learner reports a count but cannot explain the unit or consistency of units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_informal.requires.count_units",
+        "from": "math.measurement.attributes.choose_informal_unit",
+        "to": "math.measurement.attributes.count_units_as_measure",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing an informal unit depends on understanding that the unit count represents the measure.",
+        "failure_signal": "Learner chooses a unit too large, too small or unrelated to the attribute.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_length_units.requires.informal_units",
+        "from": "math.measurement.attributes.select_length_units",
+        "to": "math.measurement.attributes.informal_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Metric length-unit selection builds on measuring length with consistent informal units.",
+        "failure_signal": "Learner chooses unrelated units or confuses length with area or mass.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_mass_units.requires.compare_mass",
+        "from": "math.measurement.attributes.select_mass_units",
+        "to": "math.measurement.attributes.compare_mass_directly",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Selecting mass units builds on attending specifically to mass as the measured attribute.",
+        "failure_signal": "Learner chooses grams or kilograms based only on object size, not mass context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_capacity_units.requires.compare_capacity",
+        "from": "math.measurement.attributes.select_capacity_units",
+        "to": "math.measurement.attributes.compare_capacity_directly",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Selecting capacity units requires recognising capacity as the attribute being measured.",
+        "failure_signal": "Learner uses length or mass units for capacity contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.select_time_units.requires.duration",
+        "from": "math.measurement.attributes.select_time_units",
+        "to": "math.measurement.attributes.compare_duration_directly",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Selecting time units builds on comparing durations and time intervals.",
+        "failure_signal": "Learner selects units that are not appropriate for the duration scale.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_units.requires.same_size",
+        "from": "math.measurement.attributes.square_units_area",
+        "to": "math.measurement.attributes.same_size_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Square-unit area measurement extends equal-unit reasoning to covering surfaces.",
+        "failure_signal": "Learner counts side lengths instead of square units covering the region.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_metric.requires.metric_units",
+        "from": "math.measurement.attributes.estimate_with_metric_units",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Estimating with metric units requires familiarity with common standard units and benchmarks.",
+        "failure_signal": "Learner gives estimates with unreasonable units or scales.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_prefixes.requires.place_value",
+        "from": "math.measurement.attributes.metric_prefixes_base_units",
+        "to": "math.number.place_value.powers_of_ten_scaling",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Metric prefixes and conversions depend on powers-of-ten scaling.",
+        "failure_signal": "Learner treats centi, milli and kilo as labels without magnitude relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_length.requires.prefixes",
+        "from": "math.measurement.attributes.convert_length_units",
+        "to": "math.measurement.attributes.metric_prefixes_base_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Length-unit conversions require knowing metric unit relationships and prefixes.",
+        "failure_signal": "Learner changes metres to centimetres without multiplying or dividing appropriately.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_mass_capacity.requires.prefixes",
+        "from": "math.measurement.attributes.convert_mass_capacity_units",
+        "to": "math.measurement.attributes.metric_prefixes_base_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Mass and capacity conversions require metric unit relationships for grams, kilograms, millilitres and litres.",
+        "failure_signal": "Learner confuses grams with litres or applies the wrong scale factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_area.requires.square_units",
+        "from": "math.measurement.attributes.convert_area_units",
+        "to": "math.measurement.attributes.square_units_area",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Area-unit conversion requires understanding square units before scaling between them.",
+        "failure_signal": "Learner converts square units using a linear scale factor rather than an area scale factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.conversion_reasonableness.requires.conversions",
+        "from": "math.measurement.attributes.conversion_reasonableness",
+        "to": "math.measurement.attributes.convert_length_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reasonableness checking uses known conversion relationships to judge whether a result is plausible.",
+        "failure_signal": "Learner accepts converted values with impossible magnitude changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_comparison.has_mis.compare_attributes",
+        "from": "math.measurement.attributes.direct_comparison",
+        "to": "math.misconception.measurement.compare_different_attributes",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.has_mis.bigger_number",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.misconception.measurement.bigger_number_always_bigger_measure",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_units.has_mis.gaps",
+        "from": "math.measurement.attributes.informal_units",
+        "to": "math.misconception.measurement.gaps_do_not_matter",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.metric_units.has_mis.unit_label",
+        "from": "math.measurement.attributes.metric_units",
+        "to": "math.misconception.measurement.unit_label_without_quantity",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_conversion.has_mis.label_only",
+        "from": "math.measurement.attributes.unit_conversion",
+        "to": "math.misconception.measurement.convert_by_changing_label_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/measuring_attributes.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 717,
+    "edges": 1381
+  },
+  "graph_counts_after": {
+    "nodes": 753,
+    "edges": 1464
+  }
+}

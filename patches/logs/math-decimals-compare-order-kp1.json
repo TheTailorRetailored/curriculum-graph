@@ -1,0 +1,68 @@
+{
+  "patch_id": "math-decimals-compare-order-kp1",
+  "applied_at": "2026-06-07T08:45:13.461Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.compare_like_place_values_left_to_right",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.compare_order_decimals",
+        "label": "Compare like place values left to right",
+        "description": "Compare decimals by checking corresponding place values from left to right.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compare_like_places.part_of.compare_order_decimals",
+        "from": "math.kp.decimals.compare_like_place_values_left_to_right",
+        "to": "math.decimals.compare_order_decimals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2624,
+    "edges": 5513
+  },
+  "graph_counts_after": {
+    "nodes": 2625,
+    "edges": 5514
+  }
+}

@@ -1,0 +1,1563 @@
+{
+  "patch_id": "math-number-skeleton-001",
+  "applied_at": "2026-05-22T17:10:54.690Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 31,
+      "edges_created": 55,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.counting_cardinality",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "label": "Counting and cardinality",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.whole_number_operations",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "label": "Whole number operations",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.integers",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "label": "Integers",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.ratio_rate_proportion",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "label": "Ratio, rate and proportion",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.powers_roots",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "label": "Powers, roots and indices",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.forward_counting_sequences",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Forward counting sequences",
+        "description": "Count forward by ones and regular skip-counts using spoken number sequences, collections and number lines.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.one_to_one_correspondence",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "One-to-one correspondence",
+        "description": "Match one count word to one object when counting collections.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.cardinality",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Cardinality of collections",
+        "description": "Recognise that the last count word gives the total number of objects in a counted collection.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.subitising",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Subitising small collections",
+        "description": "Recognise the quantity in small collections without counting one by one.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.comparing_quantities",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Comparing quantities",
+        "description": "Compare collections and numbers using more, less, equal, greater than and less than language and symbols.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.two_digit_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Two-digit place value",
+        "description": "Represent and interpret tens and ones in two-digit numbers.",
+        "aliases": [],
+        "year_band": "1-2",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.three_digit_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Three-digit place value",
+        "description": "Represent and interpret hundreds, tens and ones in three-digit numbers.",
+        "aliases": [],
+        "year_band": "2-3",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.large_whole_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Large whole numbers",
+        "description": "Read, write, order and represent whole numbers into the thousands, millions and beyond.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.place_value.rounding_estimation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Place value",
+        "label": "Rounding and estimation",
+        "description": "Round numbers and use estimation to judge reasonableness of results.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.addition_subtraction_strategies",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Addition and subtraction strategies",
+        "description": "Use counting, partitioning, compensation and written strategies for addition and subtraction.",
+        "aliases": [],
+        "year_band": "1-5",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.multiplication_division_facts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiplication and division facts",
+        "description": "Develop fluent recall and strategy-based derivation of multiplication and related division facts.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.multiplicative_thinking",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Multiplicative thinking",
+        "description": "Interpret multiplication, division, grouping, arrays and scaling situations multiplicatively.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.operations.order_of_operations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Whole number operations",
+        "label": "Order of operations",
+        "description": "Evaluate numerical expressions using conventional operation order and grouping symbols.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.fractions.mixed_numbers_improper_fractions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Mixed numbers and improper fractions",
+        "description": "Connect mixed numbers and improper fractions as equivalent representations of quantities greater than one.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.fractions.fraction_operations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "label": "Fraction operations",
+        "description": "Add, subtract, multiply and divide fractions using models, equivalence and efficient procedures.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.decimals.decimal_place_value",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimal place value",
+        "description": "Represent, compare and order decimal numbers using tenths, hundredths, thousandths and beyond.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.decimals.decimal_operations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Decimal operations",
+        "description": "Use estimation, place value and algorithms to operate with decimal numbers.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.percentages.percent_concepts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percent concepts",
+        "description": "Interpret percentages as hundredths, rates and comparative quantities.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.percentages.percentage_change",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "label": "Percentage change",
+        "description": "Solve increase, decrease, discount, markup and simple interest problems involving percentages.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.integers.negative_numbers",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Negative numbers",
+        "description": "Interpret, compare and order negative numbers in contexts and on number lines.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.integers.integer_operations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Integers",
+        "label": "Integer operations",
+        "description": "Add, subtract, multiply and divide integers using number-line, pattern and structure-based reasoning.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.ratio.ratios_and_rates",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Ratios and rates",
+        "description": "Represent and solve comparison, sharing, rate and unit-rate problems.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.ratio.proportional_reasoning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Ratio, rate and proportion",
+        "label": "Proportional reasoning",
+        "description": "Use equivalent ratios, scale factors and proportional relationships to solve problems.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.powers.index_laws",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Powers, roots and indices",
+        "label": "Index laws",
+        "description": "Apply laws of indices to simplify and evaluate expressions involving powers.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.powers.scientific_notation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Powers, roots and indices",
+        "label": "Scientific notation",
+        "description": "Represent, compare and calculate with very large and very small numbers using powers of ten.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.powers.surds_and_roots",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Powers, roots and indices",
+        "label": "Surds and roots",
+        "description": "Interpret square roots and other roots, including exact surd forms and approximations.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counting_cardinality.part_of.number",
+        "from": "math.area.counting_cardinality",
+        "to": "math.strand.number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.place_value.part_of.number",
+        "from": "math.area.place_value",
+        "to": "math.strand.number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.whole_number_operations.part_of.number",
+        "from": "math.area.whole_number_operations",
+        "to": "math.strand.number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimals_percentages.part_of.number",
+        "from": "math.area.decimals_percentages",
+        "to": "math.strand.number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integers.part_of.number",
+        "from": "math.area.integers",
+        "to": "math.strand.number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_rate_proportion.part_of.number",
+        "from": "math.area.ratio_rate_proportion",
+        "to": "math.strand.number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.powers_roots.part_of.number",
+        "from": "math.area.powers_roots",
+        "to": "math.strand.number",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.forward_counting.part_of.counting_cardinality",
+        "from": "math.number.counting.forward_counting_sequences",
+        "to": "math.area.counting_cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one_correspondence.part_of.counting_cardinality",
+        "from": "math.number.counting.one_to_one_correspondence",
+        "to": "math.area.counting_cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.part_of.counting_cardinality",
+        "from": "math.number.counting.cardinality",
+        "to": "math.area.counting_cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subitising.part_of.counting_cardinality",
+        "from": "math.number.counting.subitising",
+        "to": "math.area.counting_cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_quantities.part_of.counting_cardinality",
+        "from": "math.number.counting.comparing_quantities",
+        "to": "math.area.counting_cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_digit_place_value.part_of.place_value",
+        "from": "math.number.place_value.two_digit_numbers",
+        "to": "math.area.place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.three_digit_place_value.part_of.place_value",
+        "from": "math.number.place_value.three_digit_numbers",
+        "to": "math.area.place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole_numbers.part_of.place_value",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.area.place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_estimation.part_of.place_value",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.area.place_value",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub_strategies.part_of.operations",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.area.whole_number_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div_facts.part_of.operations",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.area.whole_number_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.part_of.operations",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.area.whole_number_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.order_of_operations.part_of.operations",
+        "from": "math.number.operations.order_of_operations",
+        "to": "math.area.whole_number_operations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_numbers.part_of.fractions",
+        "from": "math.number.fractions.mixed_numbers_improper_fractions",
+        "to": "math.area.fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fraction_operations.part_of.fractions",
+        "from": "math.number.fractions.fraction_operations",
+        "to": "math.area.fractions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_place_value.part_of.decimals_percentages",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.area.decimals_percentages",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_operations.part_of.decimals_percentages",
+        "from": "math.number.decimals.decimal_operations",
+        "to": "math.area.decimals_percentages",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_concepts.part_of.decimals_percentages",
+        "from": "math.number.percentages.percent_concepts",
+        "to": "math.area.decimals_percentages",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percentage_change.part_of.decimals_percentages",
+        "from": "math.number.percentages.percentage_change",
+        "to": "math.area.decimals_percentages",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_numbers.part_of.integers",
+        "from": "math.number.integers.negative_numbers",
+        "to": "math.area.integers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.part_of.integers",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.area.integers",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.part_of.ratio",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.area.ratio_rate_proportion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.part_of.ratio",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.area.ratio_rate_proportion",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.index_laws.part_of.powers_roots",
+        "from": "math.number.powers.index_laws",
+        "to": "math.area.powers_roots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scientific_notation.part_of.powers_roots",
+        "from": "math.number.powers.scientific_notation",
+        "to": "math.area.powers_roots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surds_roots.part_of.powers_roots",
+        "from": "math.number.powers.surds_and_roots",
+        "to": "math.area.powers_roots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.requires.one_to_one",
+        "from": "math.number.counting.cardinality",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Understanding that the last count word gives the total depends on coordinating one count word per object.",
+        "failure_signal": "Learner recites count words but double-counts or skips objects and cannot state the total reliably.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_quantities.requires.cardinality",
+        "from": "math.number.counting.comparing_quantities",
+        "to": "math.number.counting.cardinality",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Comparing quantities depends on knowing the total size of each collection or represented number.",
+        "failure_signal": "Learner compares by visual spread or object size rather than quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_digit_place_value.requires.cardinality",
+        "from": "math.number.place_value.two_digit_numbers",
+        "to": "math.number.counting.cardinality",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Place value builds on stable counting and quantity recognition.",
+        "failure_signal": "Learner reads digits but cannot connect them to grouped quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.three_digit_place_value.requires.two_digit",
+        "from": "math.number.place_value.three_digit_numbers",
+        "to": "math.number.place_value.two_digit_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Hundreds-tens-ones notation extends the tens-and-ones structure of two-digit numbers.",
+        "failure_signal": "Learner treats each digit independently rather than as place-based units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.large_whole_numbers.requires.three_digit",
+        "from": "math.number.place_value.large_whole_numbers",
+        "to": "math.number.place_value.three_digit_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Large number notation generalises the place-value structure developed with hundreds, tens and ones.",
+        "failure_signal": "Learner misreads multi-digit numbers or cannot explain the value of digits in larger places.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_estimation.requires.place_value",
+        "from": "math.number.place_value.rounding_estimation",
+        "to": "math.number.place_value.three_digit_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Rounding and estimation depend on interpreting the magnitude and place values of numbers.",
+        "failure_signal": "Learner rounds by isolated digits without considering the place being rounded or number magnitude.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_sub.requires.two_digit_place_value",
+        "from": "math.number.operations.addition_subtraction_strategies",
+        "to": "math.number.place_value.two_digit_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Efficient addition and subtraction strategies use tens-and-ones partitioning and regrouping.",
+        "failure_signal": "Learner applies digit-wise steps without regard to place value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mult_div.requires.add_sub",
+        "from": "math.number.operations.multiplication_division_facts",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Early multiplication and division facts build from repeated addition, grouping and subtraction structures.",
+        "failure_signal": "Learner cannot connect arrays or equal groups to additive counting strategies.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplicative_thinking.requires.mult_div_facts",
+        "from": "math.number.operations.multiplicative_thinking",
+        "to": "math.number.operations.multiplication_division_facts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Broader multiplicative reasoning depends on coordinated equal-group and inverse-operation thinking.",
+        "failure_signal": "Learner solves scaling or comparison problems additively when multiplicative reasoning is needed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.order_operations.requires.add_sub",
+        "from": "math.number.operations.order_of_operations",
+        "to": "math.number.operations.addition_subtraction_strategies",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Order of operations depends on interpreting operations and grouping in numerical expressions.",
+        "failure_signal": "Learner cannot distinguish operation symbols or grouped operations before applying conventions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_numbers.requires.equivalent_fractions",
+        "from": "math.number.fractions.mixed_numbers_improper_fractions",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Converting and comparing mixed and improper forms depends on understanding equivalent fractional quantities.",
+        "failure_signal": "Learner treats mixed and improper forms as unrelated notations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fraction_operations.requires.equivalent_fractions",
+        "from": "math.number.fractions.fraction_operations",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Adding, subtracting and comparing many fractions require generating or interpreting equivalent fractions.",
+        "failure_signal": "Learner adds denominators or cannot create common-unit representations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_place_value.requires.fractions",
+        "from": "math.number.decimals.decimal_place_value",
+        "to": "math.fractions.equivalent_fractions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Decimal place value is often introduced through tenths and hundredths as fractional units.",
+        "failure_signal": "Learner treats decimals as whole-number strings rather than units smaller than one.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_operations.requires.decimal_place_value",
+        "from": "math.number.decimals.decimal_operations",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Operating with decimals depends on aligning and interpreting place values correctly.",
+        "failure_signal": "Learner ignores decimal alignment or magnitude when calculating.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_concepts.requires.decimal_place_value",
+        "from": "math.number.percentages.percent_concepts",
+        "to": "math.number.decimals.decimal_place_value",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Percent concepts draw on hundredths and decimal-fraction representations.",
+        "failure_signal": "Learner cannot relate 25%, 0.25 and 25 hundredths as equivalent representations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percentage_change.requires.percent_concepts",
+        "from": "math.number.percentages.percentage_change",
+        "to": "math.number.percentages.percent_concepts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Percentage change problems require interpreting percentages as proportional changes to a base amount.",
+        "failure_signal": "Learner applies percent numbers without identifying the base or direction of change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integer_operations.requires.negative_numbers",
+        "from": "math.number.integers.integer_operations",
+        "to": "math.number.integers.negative_numbers",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Integer operations require interpreting negative numbers and their order before combining them.",
+        "failure_signal": "Learner applies whole-number magnitude rules without considering sign or direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratios_rates.requires.multiplicative_thinking",
+        "from": "math.number.ratio.ratios_and_rates",
+        "to": "math.number.operations.multiplicative_thinking",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Ratio and rate problems require multiplicative comparison and equal-group thinking.",
+        "failure_signal": "Learner uses additive differences when a multiplicative comparison is required.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_reasoning.requires.ratios_rates",
+        "from": "math.number.ratio.proportional_reasoning",
+        "to": "math.number.ratio.ratios_and_rates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Proportional reasoning extends ratio and rate representations to equivalent relationships and scaling.",
+        "failure_signal": "Learner uses additive differences rather than multiplicative scale factors.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.index_laws.requires.order_operations",
+        "from": "math.number.powers.index_laws",
+        "to": "math.number.operations.order_of_operations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Working with powers and index laws depends on interpreting expressions and operation conventions.",
+        "failure_signal": "Learner confuses repeated multiplication with multiplication by the exponent or misorders operations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scientific_notation.requires.index_laws",
+        "from": "math.number.powers.scientific_notation",
+        "to": "math.number.powers.index_laws",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Scientific notation depends on powers of ten and index notation.",
+        "failure_signal": "Learner cannot connect movement of place value to powers of ten.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.surds_roots.requires.index_laws",
+        "from": "math.number.powers.surds_and_roots",
+        "to": "math.number.powers.index_laws",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Roots and surds connect to powers and inverse operations with exponents.",
+        "failure_signal": "Learner treats roots as unrelated symbols rather than inverse relationships to powers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "ontology/mathematics/number/counting_and_cardinality.yaml",
+    "ontology/mathematics/number/place_value.yaml",
+    "ontology/mathematics/number/whole_number_operations.yaml",
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/mathematics/number/integers.yaml",
+    "ontology/mathematics/number/ratio_rate_and_proportion.yaml",
+    "ontology/mathematics/number/powers_roots_and_indices.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 68,
+    "edges": 9
+  },
+  "graph_counts_after": {
+    "nodes": 99,
+    "edges": 64
+  }
+}

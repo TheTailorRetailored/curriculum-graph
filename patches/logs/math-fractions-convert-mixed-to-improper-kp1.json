@@ -1,0 +1,68 @@
+{
+  "patch_id": "math-fractions-convert-mixed-to-improper-kp1",
+  "applied_at": "2026-06-07T04:28:10.944Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.mixed_to_improper_convert_wholes_to_fraction_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.convert_mixed_to_improper",
+        "label": "Convert wholes into fraction units",
+        "description": "Use the denominator to convert each whole in a mixed number into that many fractional units.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mixed_to_improper_convert_wholes.part_of.convert_mixed_to_improper",
+        "from": "math.kp.fractions.mixed_to_improper_convert_wholes_to_fraction_units",
+        "to": "math.fractions.convert_mixed_to_improper",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2608,
+    "edges": 5469
+  },
+  "graph_counts_after": {
+    "nodes": 2609,
+    "edges": 5470
+  }
+}

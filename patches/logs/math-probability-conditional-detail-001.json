@@ -1,0 +1,1630 @@
+{
+  "patch_id": "math-probability-conditional-detail-001",
+  "applied_at": "2026-06-02T20:15:45.749Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "id_label_mismatch",
+        "severity": "warning",
+        "message": "ID slug may not match label.",
+        "node_id": "math.probability.conditional.word_problem_event_definition"
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 29,
+      "edges_created": 61,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.read_given_condition_order",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Read given condition order",
+        "description": "Identify which event is being conditioned on in statements such as probability of A given B.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.condition_as_filter",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Condition as filter",
+        "description": "Interpret the given event as a filter that restricts the sample space before calculating probability.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.denominator_from_given_event",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Denominator from given event",
+        "description": "Choose the count or probability of the given event as the denominator in a conditional probability calculation.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.numerator_joint_condition_and_target",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Numerator is joint condition and target",
+        "description": "Choose the count or probability satisfying both the given event and the target event as the numerator.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.ratio_from_restricted_counts",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Conditional ratio from restricted counts",
+        "description": "Calculate a conditional probability as favourable outcomes within the restricted sample space divided by the restricted total.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.formula_intersection_numerator",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Formula intersection numerator",
+        "description": "Interpret the numerator P(A and B) in the conditional probability formula as the intersection of the target and given events.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.nonzero_given_event_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Nonzero given event check",
+        "description": "Check that the given event has nonzero probability before using a conditional probability formula.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.row_condition_from_table",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Row condition from table",
+        "description": "Calculate a conditional probability from a two-way table when the given event is represented by a row total.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.column_condition_from_table",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Column condition from table",
+        "description": "Calculate a conditional probability from a two-way table when the given event is represented by a column total.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.compare_reverse_conditionals_table",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Compare reverse conditionals in a table",
+        "description": "Compare P(A given B) and P(B given A) in a two-way table by using different denominators.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.tree_second_branch_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Second branch as conditional probability",
+        "description": "Interpret a second-stage branch probability in a tree diagram as conditional on the first-stage outcome.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.joint_from_tree_path",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Joint probability from tree path",
+        "description": "Use a complete path in a tree diagram to find the joint probability of a sequence of events.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.conditional_from_tree_joint_ratio",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Conditional from tree joint ratio",
+        "description": "Recover a conditional probability from a tree diagram by dividing a relevant joint path probability by the probability of the given event.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.update_probability_after_information",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Update probability after information",
+        "description": "Revise a probability estimate when new information restricts the possible outcomes.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.compare_conditional_to_marginal",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Compare conditional to marginal probability",
+        "description": "Compare a conditional probability with the corresponding marginal probability to judge whether information changes likelihood.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.independence_table_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Independence check from a two-way table",
+        "description": "Use conditional and marginal probabilities from a two-way table to decide whether two events appear independent.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.word_problem_event_definition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Define events in conditional word problems",
+        "description": "Define target and given events clearly before setting up a conditional probability calculation.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.natural_frequency_bayes_table",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Natural frequency Bayes table",
+        "description": "Use natural frequencies in a table to organise base rates, true positives, false positives and posterior probabilities.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.base_rate_partition",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Base rate partition",
+        "description": "Partition a population by prior categories before applying conditional probabilities in a Bayes context.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.posterior_probability_interpretation",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Posterior probability interpretation",
+        "description": "Interpret the reversed conditional probability after observing evidence in a Bayes context.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.diagnostic_test_false_positive_context",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Diagnostic test false positive context",
+        "description": "Model contexts where a positive result can arise from both true positives and false positives.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.probability.conditional.reasonableness_check",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Conditional probability reasonableness check",
+        "description": "Check whether a conditional probability answer is reasonable by comparing it with the restricted sample space, marginal probabilities and context.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.conditional_numerator_satisfies_both_events",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Conditional numerator satisfies both events",
+        "description": "The numerator in a conditional probability count must satisfy both the target event and the given event.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.conditioning_event_must_be_possible",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Conditioning event must be possible",
+        "description": "A conditional probability is defined only when the given event has nonzero probability.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.second_tree_branch_is_conditional",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Second tree branch is conditional",
+        "description": "A later branch in a tree diagram is interpreted in the context of the earlier branch outcomes.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.probability.bayes_reverses_condition_with_base_rates",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Bayes reverses condition with base rates",
+        "description": "Bayes reasoning uses base rates and conditional evidence probabilities to estimate a reversed conditional probability.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.given_event_order_reversed",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Given event order reversed",
+        "description": "Learner reads P(A given B) as if A is the condition and B is the target event.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.conditional_ignores_base_rate",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Conditional ignores base rate",
+        "description": "Learner estimates a reversed conditional probability from test accuracy or evidence likelihood alone, ignoring the base rate.",
+        "aliases": [],
+        "year_band": "11-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.probability.independence_means_mutually_exclusive",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Probability",
+        "area": "Conditional probability",
+        "label": "Independence means mutually exclusive",
+        "description": "Learner treats independent events as if they cannot happen together, confusing independence with mutual exclusivity.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_given_order.part_of.given_language",
+        "from": "math.probability.conditional.read_given_condition_order",
+        "to": "math.probability.conditional.given_event_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.condition_filter.part_of.restricted_spaces",
+        "from": "math.probability.conditional.condition_as_filter",
+        "to": "math.probability.conditional.restricted_sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.denominator_given.part_of.restricted_spaces",
+        "from": "math.probability.conditional.denominator_from_given_event",
+        "to": "math.probability.conditional.restricted_sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerator_joint.part_of.formula",
+        "from": "math.probability.conditional.numerator_joint_condition_and_target",
+        "to": "math.probability.conditional.formula_p_a_given_b",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_counts.part_of.calculations",
+        "from": "math.probability.conditional.ratio_from_restricted_counts",
+        "to": "math.probability.conditional.calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.intersection_numerator.part_of.formula",
+        "from": "math.probability.conditional.formula_intersection_numerator",
+        "to": "math.probability.conditional.formula_p_a_given_b",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonzero_given.part_of.formula",
+        "from": "math.probability.conditional.nonzero_given_event_check",
+        "to": "math.probability.conditional.formula_p_a_given_b",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.row_condition.part_of.table_conditionals",
+        "from": "math.probability.conditional.row_condition_from_table",
+        "to": "math.probability.conditional.two_way_table_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.column_condition.part_of.table_conditionals",
+        "from": "math.probability.conditional.column_condition_from_table",
+        "to": "math.probability.conditional.two_way_table_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reverse_table.part_of.reverse_conditionals",
+        "from": "math.probability.conditional.compare_reverse_conditionals_table",
+        "to": "math.probability.conditional.reverse_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.second_branch.part_of.tree_conditionals",
+        "from": "math.probability.conditional.tree_second_branch_meaning",
+        "to": "math.probability.conditional.tree_diagram_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.joint_tree.part_of.tree_conditionals",
+        "from": "math.probability.conditional.joint_from_tree_path",
+        "to": "math.probability.conditional.tree_diagram_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cond_tree_ratio.part_of.tree_conditionals",
+        "from": "math.probability.conditional.conditional_from_tree_joint_ratio",
+        "to": "math.probability.conditional.tree_diagram_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.update_info.part_of.calculations",
+        "from": "math.probability.conditional.update_probability_after_information",
+        "to": "math.probability.conditional.calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cond_marginal.part_of.independence_conditionals",
+        "from": "math.probability.conditional.compare_conditional_to_marginal",
+        "to": "math.probability.conditional.independence_using_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independence_table.part_of.independence_conditionals",
+        "from": "math.probability.conditional.independence_table_check",
+        "to": "math.probability.conditional.independence_using_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.word_problem_events.part_of.given_language",
+        "from": "math.probability.conditional.word_problem_event_definition",
+        "to": "math.probability.conditional.given_event_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_freq_bayes.part_of.bayes_intro",
+        "from": "math.probability.conditional.natural_frequency_bayes_table",
+        "to": "math.probability.conditional.bayes_formula_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.base_rate_partition.part_of.bayes_intro",
+        "from": "math.probability.conditional.base_rate_partition",
+        "to": "math.probability.conditional.bayes_formula_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.posterior_interpretation.part_of.bayes_intro",
+        "from": "math.probability.conditional.posterior_probability_interpretation",
+        "to": "math.probability.conditional.bayes_formula_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.false_positive.part_of.bayes_intro",
+        "from": "math.probability.conditional.diagnostic_test_false_positive_context",
+        "to": "math.probability.conditional.bayes_formula_intro",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reasonableness.part_of.calculations",
+        "from": "math.probability.conditional.reasonableness_check",
+        "to": "math.probability.conditional.calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.numerator_both.part_of.numerator_joint",
+        "from": "math.kp.probability.conditional_numerator_satisfies_both_events",
+        "to": "math.probability.conditional.numerator_joint_condition_and_target",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.nonzero.part_of.nonzero_given",
+        "from": "math.kp.probability.conditioning_event_must_be_possible",
+        "to": "math.probability.conditional.nonzero_given_event_check",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.second_branch.part_of.second_branch",
+        "from": "math.kp.probability.second_tree_branch_is_conditional",
+        "to": "math.probability.conditional.tree_second_branch_meaning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.bayes_base_rates.part_of.natural_freq",
+        "from": "math.kp.probability.bayes_reverses_condition_with_base_rates",
+        "to": "math.probability.conditional.natural_frequency_bayes_table",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.given_order.part_of.read_order",
+        "from": "math.misconception.probability.given_event_order_reversed",
+        "to": "math.probability.conditional.read_given_condition_order",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.base_rate.part_of.bayes_table",
+        "from": "math.misconception.probability.conditional_ignores_base_rate",
+        "to": "math.probability.conditional.natural_frequency_bayes_table",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.independence_mut_ex.part_of.independence_conditionals",
+        "from": "math.misconception.probability.independence_means_mutually_exclusive",
+        "to": "math.probability.conditional.independence_using_conditionals",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.given_language.encompasses.read_order",
+        "from": "math.probability.conditional.given_event_language",
+        "to": "math.probability.conditional.read_given_condition_order",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading the order of target and given events directly practises given-event language.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.restricted_spaces.encompasses.denominator",
+        "from": "math.probability.conditional.restricted_sample_spaces",
+        "to": "math.probability.conditional.denominator_from_given_event",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing the given-event denominator directly practises restricted sample-space reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_conditionals.encompasses.row_condition",
+        "from": "math.probability.conditional.two_way_table_conditionals",
+        "to": "math.probability.conditional.row_condition_from_table",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Row-condition calculations are a core form of table-based conditional probability.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tree_conditionals.encompasses.second_branch",
+        "from": "math.probability.conditional.tree_diagram_conditionals",
+        "to": "math.probability.conditional.tree_second_branch_meaning",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Second-stage branch interpretation is central to tree-diagram conditional probability.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bayes.encompasses.natural_frequency_table",
+        "from": "math.probability.conditional.bayes_formula_intro",
+        "to": "math.probability.conditional.natural_frequency_bayes_table",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Natural-frequency tables are a common way to practise Bayes reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_given.requires.compound_language",
+        "from": "math.probability.conditional.read_given_condition_order",
+        "to": "math.probability.compound.and_or_event_language",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Given-event language builds on interpreting event statements and compound event wording.",
+        "failure_signal": "Learner cannot identify target and condition events in a probability statement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.condition_filter.requires.restricted_intro",
+        "from": "math.probability.conditional.condition_as_filter",
+        "to": "math.probability.compound.restricted_sample_space_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Conditional filtering builds on the idea of restricting a sample space in compound events.",
+        "failure_signal": "Learner continues to use the original sample space after a condition is given.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.denominator_given.requires.condition_filter",
+        "from": "math.probability.conditional.denominator_from_given_event",
+        "to": "math.probability.conditional.condition_as_filter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The given-event denominator follows from treating the condition as the restricted sample space.",
+        "failure_signal": "Learner divides by the original total rather than the condition total.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerator_joint.requires.denominator_given",
+        "from": "math.probability.conditional.numerator_joint_condition_and_target",
+        "to": "math.probability.conditional.denominator_from_given_event",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "After selecting the restricted denominator, the numerator must satisfy both the target and condition.",
+        "failure_signal": "Learner counts all target outcomes rather than target outcomes inside the condition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_counts.requires.numerator_joint",
+        "from": "math.probability.conditional.ratio_from_restricted_counts",
+        "to": "math.probability.conditional.numerator_joint_condition_and_target",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The restricted count ratio uses the joint numerator over the given-event denominator.",
+        "failure_signal": "Learner forms a ratio with numerator or denominator from the wrong sample space.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.formula_intersection.requires.union_intersection",
+        "from": "math.probability.conditional.formula_intersection_numerator",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "The formula numerator uses the intersection of the target and given events.",
+        "failure_signal": "Learner uses union instead of intersection in the conditional probability formula.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonzero_given.requires.valid_values",
+        "from": "math.probability.conditional.nonzero_given_event_check",
+        "to": "math.probability.models.valid_probability_values",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking nonzero probability depends on understanding valid probability values and endpoints.",
+        "failure_signal": "Learner divides by zero or treats an impossible given event as conditionable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.row_condition.requires.row_col_denominator",
+        "from": "math.probability.conditional.row_condition_from_table",
+        "to": "math.probability.compound.row_column_denominator_selection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Row-condition calculations rely on selecting the row total as the condition denominator.",
+        "failure_signal": "Learner uses the grand total for a row-conditioned probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.column_condition.requires.row_condition",
+        "from": "math.probability.conditional.column_condition_from_table",
+        "to": "math.probability.conditional.row_condition_from_table",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Column-condition calculations are parallel to row-condition calculations with a different denominator orientation.",
+        "failure_signal": "Learner cannot switch denominator orientation when the condition is a column event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reverse_table.requires.column_condition",
+        "from": "math.probability.conditional.compare_reverse_conditionals_table",
+        "to": "math.probability.conditional.column_condition_from_table",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing reverse conditionals requires calculating conditionals with different denominators.",
+        "failure_signal": "Learner assumes P(A given B) and P(B given A) must match.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.second_branch.requires.tree_branch_probabilities",
+        "from": "math.probability.conditional.tree_second_branch_meaning",
+        "to": "math.probability.compound.branch_probability_after_outcome",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Second-stage tree conditionals build on updating branch probabilities after prior outcomes.",
+        "failure_signal": "Learner treats all second-stage branches as unconditional probabilities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.joint_tree.requires.path_product",
+        "from": "math.probability.conditional.joint_from_tree_path",
+        "to": "math.probability.compound.path_probability_product",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Joint path probabilities are found by multiplying probabilities along a complete path.",
+        "failure_signal": "Learner adds branch probabilities along a tree path.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cond_tree_ratio.requires.joint_tree",
+        "from": "math.probability.conditional.conditional_from_tree_joint_ratio",
+        "to": "math.probability.conditional.joint_from_tree_path",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recovering a conditional probability from tree paths depends on identifying joint probabilities first.",
+        "failure_signal": "Learner uses a joint probability directly as a conditional probability without normalising by the condition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.update_info.requires.condition_filter",
+        "from": "math.probability.conditional.update_probability_after_information",
+        "to": "math.probability.conditional.condition_as_filter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Updating probabilities after information is the practical effect of conditioning on a restricted sample space.",
+        "failure_signal": "Learner ignores new information when estimating probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cond_marginal.requires.update_info",
+        "from": "math.probability.conditional.compare_conditional_to_marginal",
+        "to": "math.probability.conditional.update_probability_after_information",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Comparing conditional and marginal probabilities checks whether new information changed likelihood.",
+        "failure_signal": "Learner cannot decide whether conditioning changed the probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independence_table.requires.cond_marginal",
+        "from": "math.probability.conditional.independence_table_check",
+        "to": "math.probability.conditional.compare_conditional_to_marginal",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Independence can be checked by comparing conditional probabilities with marginal probabilities.",
+        "failure_signal": "Learner identifies independence from event labels rather than probability comparison.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.word_problem_events.requires.read_given",
+        "from": "math.probability.conditional.word_problem_event_definition",
+        "to": "math.probability.conditional.read_given_condition_order",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Word-problem setup requires identifying which event is target and which event is given.",
+        "failure_signal": "Learner calculates a reverse conditional or an unconditional probability from the wording.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.base_rate_partition.requires.reverse_conditionals",
+        "from": "math.probability.conditional.base_rate_partition",
+        "to": "math.probability.conditional.reverse_conditionals",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Bayesian base-rate partitioning is used to reason about reversed conditionals.",
+        "failure_signal": "Learner reverses a conditional without accounting for different group sizes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_freq_bayes.requires.base_rate",
+        "from": "math.probability.conditional.natural_frequency_bayes_table",
+        "to": "math.probability.conditional.base_rate_partition",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "A natural-frequency Bayes table begins by partitioning the population using base rates.",
+        "failure_signal": "Learner fills evidence counts without first splitting the base population.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.posterior.requires.natural_freq",
+        "from": "math.probability.conditional.posterior_probability_interpretation",
+        "to": "math.probability.conditional.natural_frequency_bayes_table",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Posterior interpretation follows from reading the reversed conditional from the natural-frequency table.",
+        "failure_signal": "Learner interprets a likelihood as the posterior probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.false_positive.requires.natural_freq",
+        "from": "math.probability.conditional.diagnostic_test_false_positive_context",
+        "to": "math.probability.conditional.natural_frequency_bayes_table",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Diagnostic-test contexts require separating true positives from false positives in a natural-frequency model.",
+        "failure_signal": "Learner treats every positive result as a true positive.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reasonableness.requires.ratio_counts",
+        "from": "math.probability.conditional.reasonableness_check",
+        "to": "math.probability.conditional.ratio_from_restricted_counts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reasonableness checks compare the answer against the restricted sample space and context.",
+        "failure_signal": "Learner accepts a conditional probability that is inconsistent with the restricted counts or context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_given.has_mis.order_reversed",
+        "from": "math.probability.conditional.read_given_condition_order",
+        "to": "math.misconception.probability.given_event_order_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.denominator_given.has_mis.original_total",
+        "from": "math.probability.conditional.denominator_from_given_event",
+        "to": "math.misconception.probability.conditional_uses_original_total",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reverse_table.has_mis.reverse_same",
+        "from": "math.probability.conditional.compare_reverse_conditionals_table",
+        "to": "math.misconception.probability.reverse_conditionals_same",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bayes_table.has_mis.base_rate",
+        "from": "math.probability.conditional.natural_frequency_bayes_table",
+        "to": "math.misconception.probability.conditional_ignores_base_rate",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independence_cond.has_mis.mut_exclusive",
+        "from": "math.probability.conditional.independence_using_conditionals",
+        "to": "math.misconception.probability.independence_means_mutually_exclusive",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/conditional_probability.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2130,
+    "edges": 4463
+  },
+  "graph_counts_after": {
+    "nodes": 2159,
+    "edges": 4524
+  }
+}

@@ -1,0 +1,1275 @@
+{
+  "patch_id": "math-algebra-skeleton-001",
+  "applied_at": "2026-05-23T05:38:53.602Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 25,
+      "edges_created": 45,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.patterns_relations",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "label": "Patterns and relations",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.variables_expressions",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "label": "Variables and expressions",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.equations_inequalities",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "label": "Equations and inequalities",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.area.polynomials_quadratics",
+        "type": "area",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "label": "Polynomials and quadratics",
+        "aliases": [],
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.repeating_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Repeating patterns",
+        "description": "Identify, copy, extend and describe repeating patterns using objects, sounds, movements and symbols.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.growing_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Growing patterns",
+        "description": "Represent and extend growing patterns using tables, diagrams and verbal rules.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.number_patterns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Number patterns",
+        "description": "Recognise, continue and describe additive and multiplicative number patterns.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.patterns.generalising_rules",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Patterns and relations",
+        "label": "Generalising pattern rules",
+        "description": "Use words, tables and symbols to express general rules for patterns.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.variables_as_unknowns",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Variables as unknowns",
+        "description": "Interpret letters and symbols as unknown values in number sentences and simple contexts.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.substitution",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Substitution into expressions",
+        "description": "Evaluate algebraic expressions by substituting given values for variables.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.simplifying_expressions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Simplifying expressions",
+        "description": "Collect like terms and use algebraic conventions to simplify expressions.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.expressions.expanding_factorising",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Variables and expressions",
+        "label": "Expanding and factorising",
+        "description": "Use distributive structure to expand and factorise algebraic expressions.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.number_sentences",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Number sentences and equality",
+        "description": "Represent and solve simple number sentences while interpreting the equals sign relationally.",
+        "aliases": [],
+        "year_band": "2-5",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.one_step_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "One-step equations",
+        "description": "Solve one-step linear equations using inverse operations and balance reasoning.",
+        "aliases": [],
+        "year_band": "6-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.multi_step_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Multi-step linear equations",
+        "description": "Solve linear equations requiring more than one inverse operation, including brackets and like terms.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.inequalities",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Linear inequalities",
+        "description": "Represent, solve and graph simple linear inequalities.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.equations.simultaneous_linear_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Equations and inequalities",
+        "label": "Simultaneous linear equations",
+        "description": "Solve pairs of linear equations using graphical, substitution and elimination methods.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.coordinate_plane",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Coordinate plane",
+        "description": "Locate, describe and plot points in the Cartesian plane.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.linear_functions_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Linear functions and graphs",
+        "description": "Represent linear relationships using tables, rules, equations and graphs.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.gradient_intercept",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Gradient and intercepts",
+        "description": "Interpret gradient, intercepts and rate of change in linear graphs and equations.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.linear.nonlinear_graphs",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Linear relationships",
+        "label": "Nonlinear graphs",
+        "description": "Recognise and interpret common nonlinear graphs including quadratic, reciprocal and exponential forms.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.polynomials.polynomial_operations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Polynomial operations",
+        "description": "Add, subtract, multiply and factor simple polynomial expressions.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.quadratic_expressions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Quadratic expressions",
+        "description": "Recognise, expand, factorise and transform quadratic expressions.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_sequence",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.quadratic_equations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Quadratic equations",
+        "description": "Solve quadratic equations using factorisation, completing the square, graphing and formula methods.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.algebra.quadratics.quadratic_functions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Algebra",
+        "area": "Polynomials and quadratics",
+        "label": "Quadratic functions",
+        "description": "Analyse quadratic functions using graphs, intercepts, vertex form and transformations.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "grain_size": "course_unit",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebra.part_of.math",
+        "from": "math.strand.algebra",
+        "to": "math",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.patterns_relations.part_of.algebra",
+        "from": "math.area.patterns_relations",
+        "to": "math.strand.algebra",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_expressions.part_of.algebra",
+        "from": "math.area.variables_expressions",
+        "to": "math.strand.algebra",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equations_inequalities.part_of.algebra",
+        "from": "math.area.equations_inequalities",
+        "to": "math.strand.algebra",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_relationships.part_of.algebra",
+        "from": "math.area.linear_relationships",
+        "to": "math.strand.algebra",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.polynomials_quadratics.part_of.algebra",
+        "from": "math.area.polynomials_quadratics",
+        "to": "math.strand.algebra",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeating_patterns.part_of.patterns_relations",
+        "from": "math.algebra.patterns.repeating_patterns",
+        "to": "math.area.patterns_relations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.growing_patterns.part_of.patterns_relations",
+        "from": "math.algebra.patterns.growing_patterns",
+        "to": "math.area.patterns_relations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.number_patterns.part_of.patterns_relations",
+        "from": "math.algebra.patterns.number_patterns",
+        "to": "math.area.patterns_relations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.generalising_rules.part_of.patterns_relations",
+        "from": "math.algebra.patterns.generalising_rules",
+        "to": "math.area.patterns_relations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.part_of.variables_expressions",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.area.variables_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution.part_of.variables_expressions",
+        "from": "math.algebra.expressions.substitution",
+        "to": "math.area.variables_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplifying_expressions.part_of.variables_expressions",
+        "from": "math.algebra.expressions.simplifying_expressions",
+        "to": "math.area.variables_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expanding_factorising.part_of.variables_expressions",
+        "from": "math.algebra.expressions.expanding_factorising",
+        "to": "math.area.variables_expressions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.number_sentences.part_of.equations",
+        "from": "math.algebra.equations.number_sentences",
+        "to": "math.area.equations_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_step_equations.part_of.equations",
+        "from": "math.algebra.equations.one_step_equations",
+        "to": "math.area.equations_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multi_step_equations.part_of.equations",
+        "from": "math.algebra.equations.multi_step_equations",
+        "to": "math.area.equations_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inequalities.part_of.equations",
+        "from": "math.algebra.equations.inequalities",
+        "to": "math.area.equations_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simultaneous_equations.part_of.equations",
+        "from": "math.algebra.equations.simultaneous_linear_equations",
+        "to": "math.area.equations_inequalities",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_plane.part_of.linear_relationships",
+        "from": "math.algebra.linear.coordinate_plane",
+        "to": "math.area.linear_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions_graphs.part_of.linear_relationships",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.area.linear_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_intercept.part_of.linear_relationships",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.area.linear_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonlinear_graphs.part_of.linear_relationships",
+        "from": "math.algebra.linear.nonlinear_graphs",
+        "to": "math.area.linear_relationships",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.polynomial_operations.part_of.polynomials",
+        "from": "math.algebra.polynomials.polynomial_operations",
+        "to": "math.area.polynomials_quadratics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_expressions.part_of.polynomials",
+        "from": "math.algebra.quadratics.quadratic_expressions",
+        "to": "math.area.polynomials_quadratics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_equations.part_of.polynomials",
+        "from": "math.algebra.quadratics.quadratic_equations",
+        "to": "math.area.polynomials_quadratics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_functions.part_of.polynomials",
+        "from": "math.algebra.quadratics.quadratic_functions",
+        "to": "math.area.polynomials_quadratics",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.growing_patterns.requires.repeating_patterns",
+        "from": "math.algebra.patterns.growing_patterns",
+        "to": "math.algebra.patterns.repeating_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Growing patterns extend earlier pattern recognition and continuation skills.",
+        "failure_signal": "Learner cannot identify a repeating or changing unit in a pattern sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.number_patterns.requires.growing_patterns",
+        "from": "math.algebra.patterns.number_patterns",
+        "to": "math.algebra.patterns.growing_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Number patterns build from recognising and extending structured pattern changes.",
+        "failure_signal": "Learner cannot describe how a pattern changes from one term to the next.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.generalising_rules.requires.number_patterns",
+        "from": "math.algebra.patterns.generalising_rules",
+        "to": "math.algebra.patterns.number_patterns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "General rules depend on recognising the structure of number patterns across multiple terms.",
+        "failure_signal": "Learner can continue a pattern but cannot state a rule that works for any term.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variables_unknowns.requires.number_sentences",
+        "from": "math.algebra.expressions.variables_as_unknowns",
+        "to": "math.algebra.equations.number_sentences",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Variables as unknowns build on interpreting equality and missing values in number sentences.",
+        "failure_signal": "Learner treats the equals sign as an instruction to calculate rather than a relation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution.requires.variables_unknowns",
+        "from": "math.algebra.expressions.substitution",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Substitution requires interpreting variables as values that can be replaced in expressions.",
+        "failure_signal": "Learner cannot replace a variable with a given value consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simplifying.requires.substitution",
+        "from": "math.algebra.expressions.simplifying_expressions",
+        "to": "math.algebra.expressions.substitution",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Simplifying expressions depends on understanding variables and algebraic expression structure.",
+        "failure_signal": "Learner combines unlike terms or treats variables as labels without value meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expanding_factorising.requires.simplifying",
+        "from": "math.algebra.expressions.expanding_factorising",
+        "to": "math.algebra.expressions.simplifying_expressions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Expanding and factorising require fluent manipulation of terms and coefficients.",
+        "failure_signal": "Learner distributes across brackets incorrectly or cannot identify common factors.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_step_equations.requires.variables_unknowns",
+        "from": "math.algebra.equations.one_step_equations",
+        "to": "math.algebra.expressions.variables_as_unknowns",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving one-step equations requires interpreting a variable as an unknown to determine.",
+        "failure_signal": "Learner substitutes guesses without maintaining equality or inverse structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multi_step_equations.requires.one_step",
+        "from": "math.algebra.equations.multi_step_equations",
+        "to": "math.algebra.equations.one_step_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Multi-step equations extend inverse-operation reasoning from one-step equations.",
+        "failure_signal": "Learner performs operations on one side only or loses track of equality.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inequalities.requires.one_step_equations",
+        "from": "math.algebra.equations.inequalities",
+        "to": "math.algebra.equations.one_step_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Linear inequalities use similar inverse-operation reasoning to equations, with additional order constraints.",
+        "failure_signal": "Learner solves the boundary equation but cannot interpret the solution set or inequality direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simultaneous.requires.linear_functions_graphs",
+        "from": "math.algebra.equations.simultaneous_linear_equations",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Simultaneous linear equations depend on interpreting two linear relationships and their intersection.",
+        "failure_signal": "Learner solves a single equation but cannot coordinate two equations at once.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_functions_graphs.requires.coordinate_plane",
+        "from": "math.algebra.linear.linear_functions_graphs",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Graphing and interpreting linear relationships require plotting and reading points in the coordinate plane.",
+        "failure_signal": "Learner cannot connect ordered pairs to points on a graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_intercept.requires.linear_functions_graphs",
+        "from": "math.algebra.linear.gradient_intercept",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Gradient and intercepts are structural features of linear relationships.",
+        "failure_signal": "Learner can draw a line but cannot interpret rate of change or starting value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonlinear_graphs.requires.linear_functions_graphs",
+        "from": "math.algebra.linear.nonlinear_graphs",
+        "to": "math.algebra.linear.linear_functions_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Nonlinear graph interpretation builds on earlier function and graph representations, including contrast with linearity.",
+        "failure_signal": "Learner treats all graphs as if they have constant rate of change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.polynomial_operations.requires.expanding_factorising",
+        "from": "math.algebra.polynomials.polynomial_operations",
+        "to": "math.algebra.expressions.expanding_factorising",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Polynomial operations extend expression manipulation, expansion and factorisation.",
+        "failure_signal": "Learner cannot manipulate products or sums of algebraic terms consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_expressions.requires.polynomial_operations",
+        "from": "math.algebra.quadratics.quadratic_expressions",
+        "to": "math.algebra.polynomials.polynomial_operations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Quadratic expressions are a central class of polynomials requiring polynomial operations.",
+        "failure_signal": "Learner cannot identify or manipulate second-degree terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_equations.requires.quadratic_expressions",
+        "from": "math.algebra.quadratics.quadratic_equations",
+        "to": "math.algebra.quadratics.quadratic_expressions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving quadratic equations depends on recognising and transforming quadratic expressions.",
+        "failure_signal": "Learner cannot factorise or transform a quadratic expression to find roots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_functions.requires.quadratic_equations",
+        "from": "math.algebra.quadratics.quadratic_functions",
+        "to": "math.algebra.quadratics.quadratic_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Analysing quadratic functions uses roots, intercepts and transformations from quadratic equations.",
+        "failure_signal": "Learner cannot connect equation roots to graph intercepts or vertex features.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "ontology/mathematics/number/patterns_and_relations.yaml",
+    "ontology/mathematics/number/variables_and_expressions.yaml",
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "ontology/mathematics/number/linear_relationships.yaml",
+    "ontology/mathematics/number/polynomials_and_quadratics.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 99,
+    "edges": 64
+  },
+  "graph_counts_after": {
+    "nodes": 124,
+    "edges": 109
+  }
+}

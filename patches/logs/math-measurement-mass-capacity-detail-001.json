@@ -1,0 +1,1157 @@
+{
+  "patch_id": "math-measurement-mass-capacity-detail-001",
+  "applied_at": "2026-05-30T07:05:59.004Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 21,
+      "edges_created": 43,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.direct_mass_comparison",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Direct mass comparison",
+        "description": "Compare the mass of objects directly using heavier, lighter and about the same language.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.balance_scale_comparison",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Balance scale comparison",
+        "description": "Use a balance scale to compare object masses and interpret which side is heavier.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.mass_benchmarks",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Mass benchmarks",
+        "description": "Use familiar objects as benchmarks for estimating grams and kilograms.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.read_mass_scales",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Read mass scales",
+        "description": "Read mass values from scales with labelled and unlabelled intervals.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.grams_kilograms_conversion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Grams and kilograms conversion",
+        "description": "Convert between grams and kilograms in measurement contexts.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.direct_capacity_comparison",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Direct capacity comparison",
+        "description": "Compare container capacities directly by filling, pouring and ordering.",
+        "aliases": [],
+        "year_band": "K-3",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "foundational": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.capacity_benchmarks",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Capacity benchmarks",
+        "description": "Use familiar containers as benchmarks for estimating millilitres and litres.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.read_capacity_scales",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Read capacity scales",
+        "description": "Read capacity values from measuring jugs and containers with scale markings.",
+        "aliases": [],
+        "year_band": "3-6",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.millilitres_litres_conversion",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Millilitres and litres conversion",
+        "description": "Convert between millilitres and litres in capacity contexts.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.choose_mass_capacity_units",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Choose mass and capacity units",
+        "description": "Choose suitable metric units for measuring or estimating mass and capacity in context.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.scale_interval_reasoning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Scale interval reasoning",
+        "description": "Determine the value of each interval on a measurement scale before reading mass or capacity.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.measurement.mass_capacity.contextual_reasonableness",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Reasonableness of mass and capacity measurements",
+        "description": "Check whether a measured or estimated mass or capacity is reasonable for the object or container.",
+        "aliases": [],
+        "year_band": "3-8",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.balance_scale_lower_side_heavier",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Lower balance side is heavier",
+        "description": "On a balance scale, the lower side indicates the object or collection with greater mass.",
+        "aliases": [],
+        "year_band": "1-4",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.capacity_is_how_much_container_holds",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Capacity is how much a container holds",
+        "description": "Capacity measures how much a container can hold, not only its height or appearance.",
+        "aliases": [],
+        "year_band": "K-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.scale_interval_value_matters",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Scale interval value matters",
+        "description": "Measurement scales must be read using the value represented by each interval, not by counting marks as ones.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.metric_mass_capacity_thousand_relationships",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Metric mass and capacity thousand relationships",
+        "description": "One kilogram equals one thousand grams, and one litre equals one thousand millilitres.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.measurement.unit_choice_depends_on_size",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Unit choice depends on size",
+        "description": "Suitable mass and capacity units depend on the size of the object or amount being measured.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.larger_object_always_heavier",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Larger object is always heavier",
+        "description": "Learner assumes the visually larger object must have greater mass regardless of material or density.",
+        "aliases": [],
+        "year_band": "K-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.taller_container_always_holds_more",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Taller container always holds more",
+        "description": "Learner assumes the taller container has greater capacity without considering width or shape.",
+        "aliases": [],
+        "year_band": "K-5",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.count_scale_marks_as_ones",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Count scale marks as ones",
+        "description": "Learner reads a measurement scale by counting marks as ones instead of using the scale interval value.",
+        "aliases": [],
+        "year_band": "3-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.measurement.metric_thousand_conversion_error",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Measurement",
+        "area": "Volume, capacity and mass",
+        "label": "Metric thousand conversion error",
+        "description": "Learner confuses multiplication and division by one thousand when converting grams, kilograms, millilitres or litres.",
+        "aliases": [],
+        "year_band": "5-8",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_mass_comparison.part_of.compare_mass",
+        "from": "math.measurement.mass_capacity.direct_mass_comparison",
+        "to": "math.measurement.mass_capacity.compare_mass_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balance_scale_comparison.part_of.compare_mass",
+        "from": "math.measurement.mass_capacity.balance_scale_comparison",
+        "to": "math.measurement.mass_capacity.compare_mass_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_benchmarks.part_of.estimate_mass_capacity",
+        "from": "math.measurement.mass_capacity.mass_benchmarks",
+        "to": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_mass_scales.part_of.read_scales",
+        "from": "math.measurement.mass_capacity.read_mass_scales",
+        "to": "math.measurement.mass_capacity.read_scales",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grams_kilograms_conversion.part_of.convert_contexts",
+        "from": "math.measurement.mass_capacity.grams_kilograms_conversion",
+        "to": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direct_capacity_comparison.part_of.compare_capacity",
+        "from": "math.measurement.mass_capacity.direct_capacity_comparison",
+        "to": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.capacity_benchmarks.part_of.estimate_mass_capacity",
+        "from": "math.measurement.mass_capacity.capacity_benchmarks",
+        "to": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_capacity_scales.part_of.read_scales",
+        "from": "math.measurement.mass_capacity.read_capacity_scales",
+        "to": "math.measurement.mass_capacity.read_scales",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.millilitres_litres_conversion.part_of.convert_contexts",
+        "from": "math.measurement.mass_capacity.millilitres_litres_conversion",
+        "to": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_units.part_of.measure_contexts",
+        "from": "math.measurement.mass_capacity.choose_mass_capacity_units",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_interval_reasoning.part_of.read_scales",
+        "from": "math.measurement.mass_capacity.scale_interval_reasoning",
+        "to": "math.measurement.mass_capacity.read_scales",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.contextual_reasonableness.part_of.measure_contexts",
+        "from": "math.measurement.mass_capacity.contextual_reasonableness",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.balance_lower_heavier.part_of.compare_mass",
+        "from": "math.kp.measurement.balance_scale_lower_side_heavier",
+        "to": "math.measurement.mass_capacity.compare_mass_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.capacity_holds.part_of.compare_capacity",
+        "from": "math.kp.measurement.capacity_is_how_much_container_holds",
+        "to": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.scale_interval_value.part_of.read_scales",
+        "from": "math.kp.measurement.scale_interval_value_matters",
+        "to": "math.measurement.mass_capacity.read_scales",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.metric_thousand.part_of.convert_contexts",
+        "from": "math.kp.measurement.metric_mass_capacity_thousand_relationships",
+        "to": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp.unit_choice_size.part_of.measure_contexts",
+        "from": "math.kp.measurement.unit_choice_depends_on_size",
+        "to": "math.measurement.mass_capacity.measure_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.larger_object_heavier.part_of.compare_mass",
+        "from": "math.misconception.measurement.larger_object_always_heavier",
+        "to": "math.measurement.mass_capacity.compare_mass_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.taller_container_more.part_of.compare_capacity",
+        "from": "math.misconception.measurement.taller_container_always_holds_more",
+        "to": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.count_scale_marks.part_of.read_scales",
+        "from": "math.misconception.measurement.count_scale_marks_as_ones",
+        "to": "math.measurement.mass_capacity.read_scales",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis.metric_conversion_error.part_of.convert_contexts",
+        "from": "math.misconception.measurement.metric_thousand_conversion_error",
+        "to": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mass.encompasses.direct_mass",
+        "from": "math.measurement.mass_capacity.compare_mass_contexts",
+        "to": "math.measurement.mass_capacity.direct_mass_comparison",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Direct comparison is a core way to compare mass in early measurement contexts.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mass.encompasses.balance_scale",
+        "from": "math.measurement.mass_capacity.compare_mass_contexts",
+        "to": "math.measurement.mass_capacity.balance_scale_comparison",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Balance-scale comparison directly practises comparing mass.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_capacity.encompasses.direct_capacity",
+        "from": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "to": "math.measurement.mass_capacity.direct_capacity_comparison",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Filling and pouring directly practise comparing container capacity.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_mass_capacity.encompasses.mass_benchmarks",
+        "from": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "to": "math.measurement.mass_capacity.mass_benchmarks",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mass benchmarks support estimation of mass in context.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_mass_capacity.encompasses.capacity_benchmarks",
+        "from": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "to": "math.measurement.mass_capacity.capacity_benchmarks",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Capacity benchmarks support estimation of capacity in context.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scales.encompasses.scale_interval_reasoning",
+        "from": "math.measurement.mass_capacity.read_scales",
+        "to": "math.measurement.mass_capacity.scale_interval_reasoning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading measurement scales requires interpreting the interval value.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_contexts.encompasses.grams_kilograms",
+        "from": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "to": "math.measurement.mass_capacity.grams_kilograms_conversion",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Gram-kilogram conversion is a core mass conversion context.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_contexts.encompasses.ml_l",
+        "from": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "to": "math.measurement.mass_capacity.millilitres_litres_conversion",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Millilitre-litre conversion is a core capacity conversion context.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balance_scale.requires.direct_mass",
+        "from": "math.measurement.mass_capacity.balance_scale_comparison",
+        "to": "math.measurement.mass_capacity.direct_mass_comparison",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Balance-scale comparison extends direct mass comparison using an instrument.",
+        "failure_signal": "Learner cannot interpret which side of the scale indicates greater mass.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mass_benchmarks.requires.compare_mass",
+        "from": "math.measurement.mass_capacity.mass_benchmarks",
+        "to": "math.measurement.mass_capacity.compare_mass_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Mass benchmarks require experience comparing and ordering masses in context.",
+        "failure_signal": "Learner chooses unrealistic mass estimates for familiar objects.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_interval.requires.read_scales",
+        "from": "math.measurement.mass_capacity.scale_interval_reasoning",
+        "to": "math.measurement.mass_capacity.read_scales",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Scale interval reasoning is an explicit subskill of reading measurement scales.",
+        "failure_signal": "Learner cannot infer unlabelled interval values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_mass_scales.requires.scale_interval",
+        "from": "math.measurement.mass_capacity.read_mass_scales",
+        "to": "math.measurement.mass_capacity.scale_interval_reasoning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading mass scales requires understanding the value represented by scale intervals.",
+        "failure_signal": "Learner reads each tick mark as one unit regardless of labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.capacity_benchmarks.requires.compare_capacity",
+        "from": "math.measurement.mass_capacity.capacity_benchmarks",
+        "to": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Capacity benchmarks require experience comparing container capacities in context.",
+        "failure_signal": "Learner chooses unrealistic capacity estimates for familiar containers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_capacity_scales.requires.scale_interval",
+        "from": "math.measurement.mass_capacity.read_capacity_scales",
+        "to": "math.measurement.mass_capacity.scale_interval_reasoning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reading capacity scales requires understanding the value represented by scale intervals.",
+        "failure_signal": "Learner reads each mark as one millilitre or one litre without checking labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grams_kilograms.requires.metric_units",
+        "from": "math.measurement.mass_capacity.grams_kilograms_conversion",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Gram-kilogram conversion depends on metric unit relationships.",
+        "failure_signal": "Learner multiplies or divides by the wrong power of ten.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ml_litres.requires.metric_units",
+        "from": "math.measurement.mass_capacity.millilitres_litres_conversion",
+        "to": "math.measurement.attributes.metric_units",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Millilitre-litre conversion depends on metric unit relationships.",
+        "failure_signal": "Learner confuses millilitres with litres or applies the wrong conversion factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_units.requires.benchmarks",
+        "from": "math.measurement.mass_capacity.choose_mass_capacity_units",
+        "to": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Choosing suitable units depends on having benchmarks for likely mass and capacity sizes.",
+        "failure_signal": "Learner measures a bottle in kilograms or a person in millilitres.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reasonableness.requires.estimate",
+        "from": "math.measurement.mass_capacity.contextual_reasonableness",
+        "to": "math.measurement.mass_capacity.estimate_mass_capacity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Reasonableness checks rely on estimation benchmarks for mass and capacity.",
+        "failure_signal": "Learner accepts implausible measurements or conversions without checking context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mass.has_mis.larger_heavier",
+        "from": "math.measurement.mass_capacity.compare_mass_contexts",
+        "to": "math.misconception.measurement.larger_object_always_heavier",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_capacity.has_mis.taller_more",
+        "from": "math.measurement.mass_capacity.compare_capacity_contexts",
+        "to": "math.misconception.measurement.taller_container_always_holds_more",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scales.has_mis.count_marks",
+        "from": "math.measurement.mass_capacity.read_scales",
+        "to": "math.misconception.measurement.count_scale_marks_as_ones",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_contexts.has_mis.metric_conversion",
+        "from": "math.measurement.mass_capacity.convert_mass_capacity_contexts",
+        "to": "math.misconception.measurement.metric_thousand_conversion_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/volume_capacity_and_mass.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 1611,
+    "edges": 3401
+  },
+  "graph_counts_after": {
+    "nodes": 1632,
+    "edges": 3444
+  }
+}

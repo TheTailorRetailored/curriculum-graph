@@ -1,0 +1,418 @@
+{
+  "patch_id": "math-fractions-same-denominator-ops-compliance-v2",
+  "applied_at": "2026-06-06T04:13:08.560Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 6,
+      "edges_created": 16,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.add_same_denominator_numerators",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.same_denominator_fraction_addition",
+        "label": "Add numerators when denominators match",
+        "description": "When fractions have the same denominator, add the numerators because they count the same-sized fractional units.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.keep_denominator_when_adding_same_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.same_denominator_fraction_addition",
+        "label": "Keep denominator when adding same units",
+        "description": "The denominator stays the same in same-denominator addition because the unit size does not change.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_denominator_addition_common_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.same_denominator_fraction_addition",
+        "label": "Same denominator addition uses common units",
+        "description": "In same-denominator addition, both addends are counts of the same-sized fractional unit.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.subtract_same_denominator_numerators",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.same_denominator_fraction_subtraction",
+        "label": "Subtract numerators when denominators match",
+        "description": "When fractions have the same denominator, subtract the numerators because they count the same-sized fractional units.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.keep_denominator_when_subtracting_same_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.same_denominator_fraction_subtraction",
+        "label": "Keep denominator when subtracting same units",
+        "description": "The denominator stays the same in same-denominator subtraction because the unit size does not change.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.same_denominator_subtraction_common_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.same_denominator_fraction_subtraction",
+        "label": "Same denominator subtraction uses common units",
+        "description": "In same-denominator subtraction, both fractions are counts of the same-sized fractional unit.",
+        "aliases": [],
+        "year_band": "5-6",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_same_den_add_common_units.part_of.same_den_add",
+        "from": "math.kp.fractions.same_denominator_addition_common_units",
+        "to": "math.fractions.same_denominator_fraction_addition",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_add_same_den_numerators.part_of.same_den_add",
+        "from": "math.kp.fractions.add_same_denominator_numerators",
+        "to": "math.fractions.same_denominator_fraction_addition",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_keep_denominator_add.part_of.same_den_add",
+        "from": "math.kp.fractions.keep_denominator_when_adding_same_units",
+        "to": "math.fractions.same_denominator_fraction_addition",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_sub_same_den_common_units.part_of.same_den_sub",
+        "from": "math.kp.fractions.same_denominator_subtraction_common_units",
+        "to": "math.fractions.same_denominator_fraction_subtraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_subtract_same_den_numerators.part_of.same_den_sub",
+        "from": "math.kp.fractions.subtract_same_denominator_numerators",
+        "to": "math.fractions.same_denominator_fraction_subtraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_keep_denominator_sub.part_of.same_den_sub",
+        "from": "math.kp.fractions.keep_denominator_when_subtracting_same_units",
+        "to": "math.fractions.same_denominator_fraction_subtraction",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_add.uses_representation.area_model",
+        "from": "math.fractions.same_denominator_fraction_addition",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models show equal fractional units being combined.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_add.uses_representation.number_line",
+        "from": "math.fractions.same_denominator_fraction_addition",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines show addition as movement by equal fractional unit lengths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_sub.uses_representation.area_model",
+        "from": "math.fractions.same_denominator_fraction_subtraction",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models show removing equal fractional units from a same-denominator fraction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_sub.uses_representation.number_line",
+        "from": "math.fractions.same_denominator_fraction_subtraction",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines show subtraction as movement back by equal fractional unit lengths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_add.assessed_by.compute",
+        "from": "math.fractions.same_denominator_fraction_addition",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute sums of fractions with the same denominator.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_add.assessed_by.explain",
+        "from": "math.fractions.same_denominator_fraction_addition",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain why the denominator stays the same.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_add.assessed_by.find_error",
+        "from": "math.fractions.same_denominator_fraction_addition",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Error-finding reveals the common misconception of adding denominators.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_sub.assessed_by.compute",
+        "from": "math.fractions.same_denominator_fraction_subtraction",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compute differences of fractions with the same denominator.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_sub.assessed_by.explain",
+        "from": "math.fractions.same_denominator_fraction_subtraction",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can explain subtraction as removing a count of same-sized fractional units.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_den_add.has_mis.add_denominators",
+        "from": "math.fractions.same_denominator_fraction_addition",
+        "to": "math.misconception.fractions.add_denominators_when_adding",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "This is the central predictable error in same-denominator addition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2533,
+    "edges": 5272
+  },
+  "graph_counts_after": {
+    "nodes": 2539,
+    "edges": 5288
+  }
+}

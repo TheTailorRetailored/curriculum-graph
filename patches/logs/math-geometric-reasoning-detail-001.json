@@ -1,0 +1,2127 @@
+{
+  "patch_id": "math-geometric-reasoning-detail-001",
+  "applied_at": "2026-05-28T05:05:05.843Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 36,
+      "edges_created": 83,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.angle_facts_as_reasons",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Angle facts as reasons",
+        "description": "Use named angle facts as reasons when explaining geometric relationships.",
+        "aliases": [],
+        "year_band": "6-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.parallel_line_angle_reasoning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Parallel line angle reasoning",
+        "description": "Use corresponding, alternate and co-interior angle facts to justify unknown angles.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.polygon_angle_reasoning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Polygon angle reasoning",
+        "description": "Use triangle, quadrilateral and polygon angle sums to justify angle relationships.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.angle_chasing_explanations",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Angle chasing explanations",
+        "description": "Write step-by-step explanations for multi-step unknown-angle problems.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Meaning of congruence",
+        "description": "Recognise congruent figures as figures with the same size and shape.",
+        "aliases": [],
+        "year_band": "7-9",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.rigid_motion_congruence",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Rigid motion congruence",
+        "description": "Use translations, reflections and rotations to justify that figures are congruent.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Corresponding parts in congruent figures",
+        "description": "Identify matching sides and angles in congruent figures using correspondence.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Triangle congruence criteria",
+        "description": "Use triangle congruence criteria such as SSS, SAS, ASA and RHS to justify congruence.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.congruence_problem_solving",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Congruence problem solving",
+        "description": "Use congruence to solve for unknown sides, angles and geometric relationships.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity_meaning",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Meaning of similarity",
+        "description": "Recognise similar figures as figures with the same shape and proportional corresponding side lengths.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.scale_factor_between_figures",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Scale factor between figures",
+        "description": "Find and interpret the scale factor between similar figures.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Corresponding sides and angles in similar figures",
+        "description": "Identify corresponding sides and equal corresponding angles in similar figures.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Triangle similarity criteria",
+        "description": "Use AA, SAS and SSS similarity criteria to justify similar triangles.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.similarity_missing_lengths",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Similarity missing lengths",
+        "description": "Use similar figures and scale factors to solve for missing side lengths.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.indirect_measurement_similarity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Indirect measurement with similarity",
+        "description": "Use similar triangles and scale factors to solve indirect measurement problems.",
+        "aliases": [],
+        "year_band": "9-11",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.definitions_theorems_assumptions",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Definitions theorems and assumptions",
+        "description": "Distinguish definitions, accepted facts, assumptions and conclusions in geometric arguments.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.if_then_statements_geometry",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "If then statements in geometry",
+        "description": "Use conditional statements to express geometric relationships and implications.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.two_column_proofs_intro",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Two column proof introduction",
+        "description": "Organise statements and reasons in a two-column geometric proof format.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.proofs_with_congruence",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Proofs using congruence",
+        "description": "Use congruence facts and criteria to prove geometric relationships.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.proofs_with_similarity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Proofs using similarity",
+        "description": "Use similarity facts and criteria to prove geometric relationships and proportional results.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.space.reasoning.counterexamples_geometry",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Counterexamples in geometry",
+        "description": "Use counterexamples to disprove overgeneralised geometric claims.",
+        "aliases": [],
+        "year_band": "8-12",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.geometric_reasons_must_be_named",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Geometric reasons must be named",
+        "description": "A geometric explanation should name the fact, definition or theorem used to support each step.",
+        "aliases": [],
+        "year_band": "7-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.parallel_angle_reasons",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Parallel angle reasons justify equality or supplements",
+        "description": "Parallel-line angle facts justify why certain angles are equal or supplementary.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.congruence_preserves_all_lengths_angles",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Congruence preserves all lengths and angles",
+        "description": "Congruent figures have equal corresponding side lengths and equal corresponding angles.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.correspondence_controls_comparison",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Correspondence controls comparison",
+        "description": "Side and angle comparisons depend on matching the correct corresponding parts of figures.",
+        "aliases": [],
+        "year_band": "7-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.congruence_criteria_are_sufficient_conditions",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Congruence criteria are sufficient conditions",
+        "description": "Triangle congruence criteria give enough information to conclude that two triangles are congruent.",
+        "aliases": [],
+        "year_band": "8-10",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.similarity_preserves_angles_scales_lengths",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Similarity preserves angles and scales lengths",
+        "description": "Similar figures have equal corresponding angles and proportional corresponding side lengths.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.scale_factor_multiplies_lengths",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Scale factor multiplies lengths",
+        "description": "A scale factor multiplies corresponding lengths from one similar figure to another.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.proof_links_statements_reasons",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Proof links statements and reasons",
+        "description": "A proof connects each statement to a valid reason in a logical sequence.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.counterexample_disproves_general_claim",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Counterexample disproves a general claim",
+        "description": "One valid counterexample is enough to disprove a universal geometric claim.",
+        "aliases": [],
+        "year_band": "8-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.space.proof_conclusion_matches_given_goal",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Proof conclusion matches the goal",
+        "description": "The final conclusion of a proof should match the relationship that was required to be shown.",
+        "aliases": [],
+        "year_band": "9-12",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.angle_fact_without_reason",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Angle fact without reason",
+        "description": "Learner states an angle value or relationship without naming the geometric fact that justifies it.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.congruence_same_shape_only",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Congruence means same shape only",
+        "description": "Learner treats same shape as enough for congruence without requiring same size.",
+        "aliases": [],
+        "year_band": "7-10",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.mismatched_corresponding_parts",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Mismatched corresponding parts",
+        "description": "Learner compares non-corresponding sides or angles when using congruence or similarity.",
+        "aliases": [],
+        "year_band": "7-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.scale_factor_additive",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Scale factor treated as additive",
+        "description": "Learner adds a fixed amount to side lengths instead of multiplying by a scale factor.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.space.proof_as_visual_observation",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Space",
+        "area": "Geometric reasoning",
+        "label": "Proof as visual observation",
+        "description": "Learner treats what appears true in a diagram as a proof without deductive justification.",
+        "aliases": [],
+        "year_band": "8-12",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_facts_reasons.part_of.geo_angle_reasoning",
+        "from": "math.space.reasoning.angle_facts_as_reasons",
+        "to": "math.space.reasoning.geometric_angle_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_line_reasoning.part_of.geo_angle_reasoning",
+        "from": "math.space.reasoning.parallel_line_angle_reasoning",
+        "to": "math.space.reasoning.geometric_angle_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.polygon_angle_reasoning.part_of.geo_angle_reasoning",
+        "from": "math.space.reasoning.polygon_angle_reasoning",
+        "to": "math.space.reasoning.geometric_angle_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_chasing_explanations.part_of.geo_angle_reasoning",
+        "from": "math.space.reasoning.angle_chasing_explanations",
+        "to": "math.space.reasoning.geometric_angle_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence_meaning.part_of.congruence",
+        "from": "math.space.reasoning.congruence_meaning",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rigid_motion_congruence.part_of.congruence",
+        "from": "math.space.reasoning.rigid_motion_congruence",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corresponding_parts_congruence.part_of.congruence",
+        "from": "math.space.reasoning.corresponding_parts_congruence",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_congruence_criteria.part_of.congruence",
+        "from": "math.space.reasoning.triangle_congruence_criteria",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence_problem_solving.part_of.congruence",
+        "from": "math.space.reasoning.congruence_problem_solving",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity_meaning.part_of.similarity",
+        "from": "math.space.reasoning.similarity_meaning",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_factor_figures.part_of.similarity",
+        "from": "math.space.reasoning.scale_factor_between_figures",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corresponding_similarity.part_of.similarity",
+        "from": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_similarity_criteria.part_of.similarity",
+        "from": "math.space.reasoning.triangle_similarity_criteria",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity_missing_lengths.part_of.similarity",
+        "from": "math.space.reasoning.similarity_missing_lengths",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indirect_measurement_similarity.part_of.similarity",
+        "from": "math.space.reasoning.indirect_measurement_similarity",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definitions_theorems.part_of.proof",
+        "from": "math.space.reasoning.definitions_theorems_assumptions",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.if_then_statements.part_of.proof",
+        "from": "math.space.reasoning.if_then_statements_geometry",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_column_proofs.part_of.proof",
+        "from": "math.space.reasoning.two_column_proofs_intro",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proofs_congruence.part_of.proof",
+        "from": "math.space.reasoning.proofs_with_congruence",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proofs_similarity.part_of.proof",
+        "from": "math.space.reasoning.proofs_with_similarity",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counterexamples_geometry.part_of.proof",
+        "from": "math.space.reasoning.counterexamples_geometry",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_named_reasons.part_of.geo_angle_reasoning",
+        "from": "math.kp.space.geometric_reasons_must_be_named",
+        "to": "math.space.reasoning.geometric_angle_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_parallel_reasons.part_of.geo_angle_reasoning",
+        "from": "math.kp.space.parallel_angle_reasons",
+        "to": "math.space.reasoning.geometric_angle_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_congruence_preserves.part_of.congruence",
+        "from": "math.kp.space.congruence_preserves_all_lengths_angles",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_correspondence_controls.part_of.congruence",
+        "from": "math.kp.space.correspondence_controls_comparison",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_congruence_criteria.part_of.congruence",
+        "from": "math.kp.space.congruence_criteria_are_sufficient_conditions",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_similarity_preserves.part_of.similarity",
+        "from": "math.kp.space.similarity_preserves_angles_scales_lengths",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_scale_factor_multiplies.part_of.similarity",
+        "from": "math.kp.space.scale_factor_multiplies_lengths",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_proof_links.part_of.proof",
+        "from": "math.kp.space.proof_links_statements_reasons",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_counterexample.part_of.proof",
+        "from": "math.kp.space.counterexample_disproves_general_claim",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_proof_goal.part_of.proof",
+        "from": "math.kp.space.proof_conclusion_matches_given_goal",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_angle_fact_no_reason.part_of.geo_angle_reasoning",
+        "from": "math.misconception.space.angle_fact_without_reason",
+        "to": "math.space.reasoning.geometric_angle_reasoning",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_congruence_same_shape.part_of.congruence",
+        "from": "math.misconception.space.congruence_same_shape_only",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_mismatched_corresponding.part_of.congruence",
+        "from": "math.misconception.space.mismatched_corresponding_parts",
+        "to": "math.space.reasoning.congruence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_scale_additive.part_of.similarity",
+        "from": "math.misconception.space.scale_factor_additive",
+        "to": "math.space.reasoning.similarity",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_visual_observation.part_of.proof",
+        "from": "math.misconception.space.proof_as_visual_observation",
+        "to": "math.space.reasoning.geometric_proof",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geo_angle.encompasses.angle_facts_reasons",
+        "from": "math.space.reasoning.geometric_angle_reasoning",
+        "to": "math.space.reasoning.angle_facts_as_reasons",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Using named angle facts as reasons is central to geometric angle reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geo_angle.encompasses.parallel_line_reasoning",
+        "from": "math.space.reasoning.geometric_angle_reasoning",
+        "to": "math.space.reasoning.parallel_line_angle_reasoning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Parallel-line angle reasoning is a core geometric angle reasoning context.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geo_angle.encompasses.polygon_angle_reasoning",
+        "from": "math.space.reasoning.geometric_angle_reasoning",
+        "to": "math.space.reasoning.polygon_angle_reasoning",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Polygon angle reasoning applies angle-sum facts to geometric arguments.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geo_angle.encompasses.angle_chasing_explanations",
+        "from": "math.space.reasoning.geometric_angle_reasoning",
+        "to": "math.space.reasoning.angle_chasing_explanations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Angle-chasing explanations combine multiple angle facts with reasons.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.encompasses.meaning",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.space.reasoning.congruence_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Meaning of congruence is foundational to all congruence reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.encompasses.rigid_motion",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.space.reasoning.rigid_motion_congruence",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rigid motion is a central way to justify congruence.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.encompasses.corresponding_parts",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Corresponding parts are essential when using congruence.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.encompasses.triangle_criteria",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Triangle congruence criteria are a key congruence reasoning tool.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.encompasses.problem_solving",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.space.reasoning.congruence_problem_solving",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Congruence problem solving applies congruence facts to unknowns and relationships.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.encompasses.meaning",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.space.reasoning.similarity_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Meaning of similarity is foundational to similarity reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.encompasses.scale_factor",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.space.reasoning.scale_factor_between_figures",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Scale factor is central to comparing similar figures.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.encompasses.corresponding",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Corresponding sides and angles are essential in similarity reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.encompasses.triangle_criteria",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Triangle similarity criteria are a key similarity reasoning tool.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.encompasses.missing_lengths",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.space.reasoning.similarity_missing_lengths",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Missing-length problems apply scale factor and proportional side reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.encompasses.indirect_measurement",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.space.reasoning.indirect_measurement_similarity",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Indirect measurement is a common application of similarity.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proof.encompasses.definitions_theorems",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.space.reasoning.definitions_theorems_assumptions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Proof depends on distinguishing definitions, assumptions and accepted facts.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proof.encompasses.if_then",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.space.reasoning.if_then_statements_geometry",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Conditional statements are common in geometric proof structure.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proof.encompasses.two_column",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.space.reasoning.two_column_proofs_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Two-column proof is a common format for linking statements and reasons.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proof.encompasses.congruence_proofs",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.space.reasoning.proofs_with_congruence",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Congruence proofs are a major family of geometric proofs.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proof.encompasses.similarity_proofs",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.space.reasoning.proofs_with_similarity",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Similarity proofs are a major family of geometric proofs and proportional arguments.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proof.encompasses.counterexamples",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.space.reasoning.counterexamples_geometry",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Counterexamples support reasoning about when geometric claims are false.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_facts_reasons.requires.angle_relationships",
+        "from": "math.space.reasoning.angle_facts_as_reasons",
+        "to": "math.measurement.angles.angle_relationships",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Using angle facts as reasons requires knowing angle relationships.",
+        "failure_signal": "Learner uses informal statements rather than named angle facts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_line_reasoning.requires.parallel_angles",
+        "from": "math.space.reasoning.parallel_line_angle_reasoning",
+        "to": "math.measurement.angles.parallel_lines_transversal",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Parallel-line angle reasoning depends on corresponding, alternate and co-interior angle facts.",
+        "failure_signal": "Learner misidentifies angle pairs or cannot justify equal and supplementary relationships.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.polygon_angle_reasoning.requires.triangle_sum",
+        "from": "math.space.reasoning.polygon_angle_reasoning",
+        "to": "math.measurement.angles.triangle_angle_sum",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Polygon angle reasoning builds from triangle and quadrilateral angle sums.",
+        "failure_signal": "Learner cannot break polygon reasoning into known angle-sum facts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.angle_chasing_explanations.requires.angle_facts",
+        "from": "math.space.reasoning.angle_chasing_explanations",
+        "to": "math.space.reasoning.angle_facts_as_reasons",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Angle-chasing explanations require using angle facts as named reasons across multiple steps.",
+        "failure_signal": "Learner finds values but cannot justify the reasoning chain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence_meaning.requires.shape_properties",
+        "from": "math.space.reasoning.congruence_meaning",
+        "to": "math.space.shapes.properties_2d",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Understanding congruence requires recognising shape properties that can match exactly.",
+        "failure_signal": "Learner treats similar-looking figures as congruent without comparing size and shape.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rigid_motion_congruence.requires.rigid_transformations",
+        "from": "math.space.reasoning.rigid_motion_congruence",
+        "to": "math.space.transformations.rigid_transformations_congruence",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Rigid motion congruence depends on transformations that preserve size and shape.",
+        "failure_signal": "Learner cannot connect translations, reflections or rotations to congruence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corresponding_parts_congruence.requires.congruence_meaning",
+        "from": "math.space.reasoning.corresponding_parts_congruence",
+        "to": "math.space.reasoning.congruence_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Corresponding parts reasoning builds from the meaning of congruence.",
+        "failure_signal": "Learner matches sides or angles by visual position rather than correspondence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_congruence_criteria.requires.corresponding_parts",
+        "from": "math.space.reasoning.triangle_congruence_criteria",
+        "to": "math.space.reasoning.corresponding_parts_congruence",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Triangle congruence criteria depend on identifying corresponding sides and angles.",
+        "failure_signal": "Learner applies a criterion to mismatched or insufficient information.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence_problem_solving.requires.triangle_criteria",
+        "from": "math.space.reasoning.congruence_problem_solving",
+        "to": "math.space.reasoning.triangle_congruence_criteria",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Congruence problem solving often uses triangle congruence criteria and corresponding parts.",
+        "failure_signal": "Learner proves congruence but cannot use it to solve unknowns.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity_meaning.requires.dilations_similarity",
+        "from": "math.space.reasoning.similarity_meaning",
+        "to": "math.space.transformations.dilations_similarity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Similarity is connected to dilations that preserve shape while changing size.",
+        "failure_signal": "Learner confuses similar with congruent or visually similar only.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scale_factor_figures.requires.similarity_meaning",
+        "from": "math.space.reasoning.scale_factor_between_figures",
+        "to": "math.space.reasoning.similarity_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Scale factor between figures requires understanding the relationship between similar figures.",
+        "failure_signal": "Learner identifies similar figures but cannot quantify the scale factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.corresponding_similarity.requires.scale_factor",
+        "from": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "to": "math.space.reasoning.scale_factor_between_figures",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Correspondence in similar figures is needed to apply scale factors and equal angles correctly.",
+        "failure_signal": "Learner uses a correct scale factor on non-corresponding sides.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_similarity_criteria.requires.corresponding_similarity",
+        "from": "math.space.reasoning.triangle_similarity_criteria",
+        "to": "math.space.reasoning.corresponding_sides_angles_similarity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Triangle similarity criteria require matching corresponding sides and angles.",
+        "failure_signal": "Learner applies AA, SAS or SSS similarity to mismatched parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity_missing_lengths.requires.triangle_criteria",
+        "from": "math.space.reasoning.similarity_missing_lengths",
+        "to": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Missing-length similarity problems rely on justified similarity and proportional sides.",
+        "failure_signal": "Learner sets up proportions with non-corresponding sides or additive changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indirect_measurement.requires.missing_lengths",
+        "from": "math.space.reasoning.indirect_measurement_similarity",
+        "to": "math.space.reasoning.similarity_missing_lengths",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Indirect measurement applies similar-triangle missing-length reasoning to contexts.",
+        "failure_signal": "Learner identifies similar triangles but cannot connect the missing length to the context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definitions_theorems.requires.angle_explanations",
+        "from": "math.space.reasoning.definitions_theorems_assumptions",
+        "to": "math.space.reasoning.angle_chasing_explanations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Distinguishing definitions, assumptions and conclusions builds from writing reasoned geometric explanations.",
+        "failure_signal": "Learner mixes given facts, definitions and conclusions in an argument.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.if_then_geometry.requires.definitions",
+        "from": "math.space.reasoning.if_then_statements_geometry",
+        "to": "math.space.reasoning.definitions_theorems_assumptions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "If-then statements require recognising conditions and conclusions in geometric facts.",
+        "failure_signal": "Learner cannot distinguish hypothesis from conclusion.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_column_intro.requires.if_then",
+        "from": "math.space.reasoning.two_column_proofs_intro",
+        "to": "math.space.reasoning.if_then_statements_geometry",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Two-column proofs require linking statements and reasons in a logical sequence.",
+        "failure_signal": "Learner writes true statements without valid reasons or sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proofs_congruence.requires.congruence_problem_solving",
+        "from": "math.space.reasoning.proofs_with_congruence",
+        "to": "math.space.reasoning.congruence_problem_solving",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Proofs using congruence depend on understanding congruence criteria and corresponding parts.",
+        "failure_signal": "Learner can solve congruence problems but cannot structure a proof.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proofs_similarity.requires.indirect_measurement",
+        "from": "math.space.reasoning.proofs_with_similarity",
+        "to": "math.space.reasoning.triangle_similarity_criteria",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Proofs using similarity depend on similarity criteria and proportional corresponding parts.",
+        "failure_signal": "Learner asserts similarity without proving the needed criteria.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.counterexamples.requires.if_then",
+        "from": "math.space.reasoning.counterexamples_geometry",
+        "to": "math.space.reasoning.if_then_statements_geometry",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Counterexamples require understanding the general claim that is being disproved.",
+        "failure_signal": "Learner gives an example that supports a claim rather than disproves it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.geo_angle.has_mis.no_reason",
+        "from": "math.space.reasoning.geometric_angle_reasoning",
+        "to": "math.misconception.space.angle_fact_without_reason",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.has_mis.same_shape_only",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.misconception.space.congruence_same_shape_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.congruence.has_mis.mismatched_parts",
+        "from": "math.space.reasoning.congruence",
+        "to": "math.misconception.space.mismatched_corresponding_parts",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.similarity.has_mis.scale_additive",
+        "from": "math.space.reasoning.similarity",
+        "to": "math.misconception.space.scale_factor_additive",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proof.has_mis.visual_observation",
+        "from": "math.space.reasoning.geometric_proof",
+        "to": "math.misconception.space.proof_as_visual_observation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/geometric_reasoning.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 969,
+    "edges": 1962
+  },
+  "graph_counts_after": {
+    "nodes": 1005,
+    "edges": 2045
+  }
+}

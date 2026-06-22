@@ -1,0 +1,1297 @@
+{
+  "patch_id": "math-counting-cardinality-one-to-one-cardinality-detail-002",
+  "applied_at": "2026-05-23T08:14:32.576Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 24,
+      "edges_created": 48,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.touch_one_object_per_word",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Touch one object per count word",
+        "description": "Pair each spoken count word with one object in a collection.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.move_objects_as_counted",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Move objects as counted",
+        "description": "Move or separate objects to show which have already been counted.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.scan_scattered_collection",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Scan a scattered collection",
+        "description": "Use a planned visual path to count objects that are not in a line.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.keep_counting_direction",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Keep a counting direction",
+        "description": "Count across a collection in a consistent direction to avoid losing track.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.match_words_to_objects",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Match count words to objects",
+        "description": "Coordinate spoken number words with object tags while counting.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "lesson_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.last_word_total",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Last count word gives the total",
+        "description": "Use the final count word to state how many objects are in the collection.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.answer_how_many",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Answer how many after counting",
+        "description": "Answer a how-many question by reporting the counted total.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.count_out_given_quantity",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Count out a given quantity",
+        "description": "Produce a requested number of objects by counting to the target amount.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.same_total_when_rearranged",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Same total when rearranged",
+        "description": "Recognise that rearranging counted objects does not change the total.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.number.counting.recount_to_check_total",
+        "type": "topic",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Recount to check a total",
+        "description": "Count a collection again to verify or correct a stated total.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "grain_size": "micro_topic",
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.one_word_one_object",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "One word matches one object",
+        "description": "Each spoken count word is paired with exactly one object.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.each_object_once",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Each object is counted once",
+        "description": "A correct count includes each object once and only once.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.counted_items_tracked",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Counted items are tracked",
+        "description": "The learner keeps track of which objects have already been counted.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.arrangement_supports_tracking",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Arrangement can support tracking",
+        "description": "Moving or arranging objects can help track a count accurately.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.all_objects_included",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "All objects are included in the count",
+        "description": "A count is complete only when every object in the collection is included.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.final_word_total",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Final word states the total",
+        "description": "The last number word names the total quantity in the collection.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.how_many_uses_total",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "How-many answers use the total",
+        "description": "A how-many question is answered with the total found by counting.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.count_out_stops_at_target",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Count out stops at target",
+        "description": "Counting out a quantity stops when the requested total is reached.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.rearranging_preserves_total",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Rearranging preserves the total",
+        "description": "Changing object positions does not change the number of objects.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.counting.recount_checks_total",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Recount checks total",
+        "description": "Counting again can confirm or correct a stated total.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.counting.one_word_many_objects",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "One word can match many objects",
+        "description": "Learner pairs one spoken count word with more than one object.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.counting.object_counted_twice",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Object counted twice",
+        "description": "Learner includes the same object more than once in a count.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.counting.last_word_names_last_object",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Last word names the last object",
+        "description": "Learner treats the final count word as a label for the last object rather than the total.",
+        "aliases": [],
+        "year_band": "K-1",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.misconception.counting.spacing_changes_total",
+        "type": "misconception",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Counting and cardinality",
+        "label": "Spacing changes the total",
+        "description": "Learner thinks spreading objects out changes how many there are.",
+        "aliases": [],
+        "year_band": "K-2",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.touch_one_object_per_word.part_of.one_to_one",
+        "from": "math.number.counting.touch_one_object_per_word",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.move_objects_as_counted.part_of.one_to_one",
+        "from": "math.number.counting.move_objects_as_counted",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scan_scattered_collection.part_of.one_to_one",
+        "from": "math.number.counting.scan_scattered_collection",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.keep_counting_direction.part_of.one_to_one",
+        "from": "math.number.counting.keep_counting_direction",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.match_words_to_objects.part_of.one_to_one",
+        "from": "math.number.counting.match_words_to_objects",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.last_word_total.part_of.cardinality",
+        "from": "math.number.counting.last_word_total",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.answer_how_many.part_of.cardinality",
+        "from": "math.number.counting.answer_how_many",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.count_out_given_quantity.part_of.cardinality",
+        "from": "math.number.counting.count_out_given_quantity",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_total_when_rearranged.part_of.cardinality",
+        "from": "math.number.counting.same_total_when_rearranged",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recount_to_check_total.part_of.cardinality",
+        "from": "math.number.counting.recount_to_check_total",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_one_word_one_object.part_of.one_to_one",
+        "from": "math.kp.counting.one_word_one_object",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_each_object_once.part_of.one_to_one",
+        "from": "math.kp.counting.each_object_once",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_counted_items_tracked.part_of.one_to_one",
+        "from": "math.kp.counting.counted_items_tracked",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_arrangement_supports_tracking.part_of.one_to_one",
+        "from": "math.kp.counting.arrangement_supports_tracking",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_all_objects_included.part_of.one_to_one",
+        "from": "math.kp.counting.all_objects_included",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_final_word_total.part_of.cardinality",
+        "from": "math.kp.counting.final_word_total",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_how_many_uses_total.part_of.cardinality",
+        "from": "math.kp.counting.how_many_uses_total",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_count_out_stops_at_target.part_of.cardinality",
+        "from": "math.kp.counting.count_out_stops_at_target",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_rearranging_preserves_total.part_of.cardinality",
+        "from": "math.kp.counting.rearranging_preserves_total",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_recount_checks_total.part_of.cardinality",
+        "from": "math.kp.counting.recount_checks_total",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_one_word_many_objects.part_of.one_to_one",
+        "from": "math.misconception.counting.one_word_many_objects",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_object_counted_twice.part_of.one_to_one",
+        "from": "math.misconception.counting.object_counted_twice",
+        "to": "math.number.counting.one_to_one_correspondence",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_last_word_names_last_object.part_of.cardinality",
+        "from": "math.misconception.counting.last_word_names_last_object",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mis_spacing_changes_total.part_of.cardinality",
+        "from": "math.misconception.counting.spacing_changes_total",
+        "to": "math.number.counting.cardinality",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one.encompasses.touch_one_object_per_word",
+        "from": "math.number.counting.one_to_one_correspondence",
+        "to": "math.number.counting.touch_one_object_per_word",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "One-to-one counting directly practises matching one count word to one object.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one.encompasses.move_objects_as_counted",
+        "from": "math.number.counting.one_to_one_correspondence",
+        "to": "math.number.counting.move_objects_as_counted",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Moving counted objects is a common strategy for maintaining one-to-one tracking.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one.encompasses.scan_scattered_collection",
+        "from": "math.number.counting.one_to_one_correspondence",
+        "to": "math.number.counting.scan_scattered_collection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Counting scattered objects practises applying one-to-one matching in less organised layouts.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one.encompasses.keep_counting_direction",
+        "from": "math.number.counting.one_to_one_correspondence",
+        "to": "math.number.counting.keep_counting_direction",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "A consistent direction supports accurate one-to-one tracking but is not always required.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one.encompasses.match_words_to_objects",
+        "from": "math.number.counting.one_to_one_correspondence",
+        "to": "math.number.counting.match_words_to_objects",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Coordinating count words and objects is the central practice of one-to-one correspondence.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.encompasses.last_word_total",
+        "from": "math.number.counting.cardinality",
+        "to": "math.number.counting.last_word_total",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Cardinality directly practises interpreting the final count word as the total.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.encompasses.answer_how_many",
+        "from": "math.number.counting.cardinality",
+        "to": "math.number.counting.answer_how_many",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Answering how many after counting is a central use of cardinality.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.encompasses.count_out_given_quantity",
+        "from": "math.number.counting.cardinality",
+        "to": "math.number.counting.count_out_given_quantity",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Counting out a given quantity requires using the target number as a total.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.encompasses.same_total_when_rearranged",
+        "from": "math.number.counting.cardinality",
+        "to": "math.number.counting.same_total_when_rearranged",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Conservation after rearrangement applies the idea that the total is a property of the collection.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.encompasses.recount_to_check_total",
+        "from": "math.number.counting.cardinality",
+        "to": "math.number.counting.recount_to_check_total",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Recounting can practise verifying a stated total, though not every cardinality task requires it.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.touch_one_object.requires.stable_order",
+        "from": "math.number.counting.touch_one_object_per_word",
+        "to": "math.number.counting.stable_order_counting",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Pairing objects with count words requires a stable sequence of count words.",
+        "failure_signal": "Learner touches objects but does not maintain the count sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.match_words_to_objects.requires.touch_one_object",
+        "from": "math.number.counting.match_words_to_objects",
+        "to": "math.number.counting.touch_one_object_per_word",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Coordinating words and objects requires one object per spoken word.",
+        "failure_signal": "Learner says count words and points to objects out of sync.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.move_objects.requires.touch_one_object",
+        "from": "math.number.counting.move_objects_as_counted",
+        "to": "math.number.counting.touch_one_object_per_word",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Moving counted objects is a strategy built on identifying each object as it is counted.",
+        "failure_signal": "Learner moves objects without linking each move to a count word.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scan_scattered.requires.touch_one_object",
+        "from": "math.number.counting.scan_scattered_collection",
+        "to": "math.number.counting.touch_one_object_per_word",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Counting scattered objects requires applying one-to-one tagging beyond a simple line.",
+        "failure_signal": "Learner loses track of objects in scattered layouts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.keep_direction.requires.scan_scattered",
+        "from": "math.number.counting.keep_counting_direction",
+        "to": "math.number.counting.scan_scattered_collection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Maintaining a direction is a strategy for scanning scattered or arranged collections.",
+        "failure_signal": "Learner changes path and loses track of counted objects.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.last_word_total.requires.match_words",
+        "from": "math.number.counting.last_word_total",
+        "to": "math.number.counting.match_words_to_objects",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The final word can represent the total only after the collection has been counted accurately.",
+        "failure_signal": "Learner gives a final word without connecting it to the whole collection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.answer_how_many.requires.last_word_total",
+        "from": "math.number.counting.answer_how_many",
+        "to": "math.number.counting.last_word_total",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Answering how many requires using the final count word as the total.",
+        "failure_signal": "Learner recounts or gives an unrelated number when asked how many.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.count_out_quantity.requires.last_word_total",
+        "from": "math.number.counting.count_out_given_quantity",
+        "to": "math.number.counting.last_word_total",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Counting out a requested quantity requires knowing when the target total has been reached.",
+        "failure_signal": "Learner does not stop at the requested quantity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_total_rearranged.requires.last_word_total",
+        "from": "math.number.counting.same_total_when_rearranged",
+        "to": "math.number.counting.last_word_total",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Recognising the same total after rearrangement depends on treating the total as a collection property.",
+        "failure_signal": "Learner changes the total after the same objects are rearranged.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recount_check.requires.answer_how_many",
+        "from": "math.number.counting.recount_to_check_total",
+        "to": "math.number.counting.answer_how_many",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "medium",
+        "rationale": "Checking a total requires first understanding that a count gives a reportable total.",
+        "failure_signal": "Learner recounts without comparing the result to the stated total.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one.has_mis.one_word_many_objects",
+        "from": "math.number.counting.one_to_one_correspondence",
+        "to": "math.misconception.counting.one_word_many_objects",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one.has_mis.object_counted_twice",
+        "from": "math.number.counting.one_to_one_correspondence",
+        "to": "math.misconception.counting.object_counted_twice",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.has_mis.last_word_object",
+        "from": "math.number.counting.cardinality",
+        "to": "math.misconception.counting.last_word_names_last_object",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cardinality.has_mis.spacing_total",
+        "from": "math.number.counting.cardinality",
+        "to": "math.misconception.counting.spacing_changes_total",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/counting_and_cardinality.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 213,
+    "edges": 268
+  },
+  "graph_counts_after": {
+    "nodes": 237,
+    "edges": 316
+  }
+}

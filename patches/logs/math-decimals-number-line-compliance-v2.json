@@ -1,0 +1,225 @@
+{
+  "patch_id": "math-decimals-number-line-compliance-v2",
+  "applied_at": "2026-06-07T08:15:07.149Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 3,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.decimals_lie_between_whole_numbers",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.decimals_on_number_line",
+        "label": "Decimals lie between whole numbers on a number line",
+        "description": "Locate decimal values between adjacent whole numbers according to their magnitude.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.partition_number_line_by_decimal_place",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.decimals_on_number_line",
+        "label": "Partition number line by decimal place",
+        "description": "Use tenths, hundredths, or thousandths partitions to locate decimal numbers accurately.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.decimals.number_line_position_shows_magnitude",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Decimals and percentages",
+        "parent_topic": "math.decimals.decimals_on_number_line",
+        "label": "Number-line position shows decimal magnitude",
+        "description": "A decimal farther to the right on a number line represents a greater value.",
+        "aliases": [],
+        "year_band": "4-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimals_between_wholes.part_of.decimals_on_number_line",
+        "from": "math.kp.decimals.decimals_lie_between_whole_numbers",
+        "to": "math.decimals.decimals_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_number_line_partitions.part_of.decimals_on_number_line",
+        "from": "math.kp.decimals.partition_number_line_by_decimal_place",
+        "to": "math.decimals.decimals_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_decimal_number_line_magnitude.part_of.decimals_on_number_line",
+        "from": "math.kp.decimals.number_line_position_shows_magnitude",
+        "to": "math.decimals.decimals_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimals_on_number_line.uses_representation.number_line",
+        "from": "math.decimals.decimals_on_number_line",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Number lines are the central representation for locating decimal magnitudes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimals_on_number_line.uses_representation.place_value_chart",
+        "from": "math.decimals.decimals_on_number_line",
+        "to": "math.representation.place_value_chart",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Place-value charts support partitioning number-line intervals by tenths, hundredths, and thousandths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimals_on_number_line.assessed_by.model",
+        "from": "math.decimals.decimals_on_number_line",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model decimal values by placing them on number lines.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimals_on_number_line.assessed_by.interpret_graph",
+        "from": "math.decimals.decimals_on_number_line",
+        "to": "math.task_type.interpret_graph",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can interpret positions and intervals on decimal number lines.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimals_on_number_line.assessed_by.explain",
+        "from": "math.decimals.decimals_on_number_line",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners should explain how the partition size determines the decimal location.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2621,
+    "edges": 5505
+  },
+  "graph_counts_after": {
+    "nodes": 2624,
+    "edges": 5513
+  }
+}

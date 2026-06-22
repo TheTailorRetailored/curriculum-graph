@@ -1,0 +1,117 @@
+{
+  "patch_id": "math-fractions-denominator-unit-smaller-kp",
+  "applied_at": "2026-06-06T12:26:06.652Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.more_denominator_parts_make_smaller_units",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.denominator_names_unit_size",
+        "label": "More denominator parts make smaller units",
+        "description": "When the same whole is split into more equal parts, each fractional unit is smaller.",
+        "aliases": [],
+        "year_band": "3-5",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_more_denominator_parts_smaller_units.part_of.denominator_unit_size",
+        "from": "math.kp.fractions.more_denominator_parts_make_smaller_units",
+        "to": "math.fractions.denominator_names_unit_size",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.denominator_unit_size.uses_representation.area_model",
+        "from": "math.fractions.denominator_names_unit_size",
+        "to": "math.representation.area_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Area models show how increasing denominator partitions the whole into smaller equal units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.denominator_unit_size.assessed_by.explain",
+        "from": "math.fractions.denominator_names_unit_size",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain what denominator size implies about each fractional unit.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.denominator_unit_size.has_mis.denominator_shaded",
+        "from": "math.fractions.denominator_names_unit_size",
+        "to": "math.misconception.fractions.denominator_counts_shaded_parts",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "This topic directly addresses the misconception that the denominator counts selected or shaded parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2581,
+    "edges": 5389
+  },
+  "graph_counts_after": {
+    "nodes": 2582,
+    "edges": 5393
+  }
+}

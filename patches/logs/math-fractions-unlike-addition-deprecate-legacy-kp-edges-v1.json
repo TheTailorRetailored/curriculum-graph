@@ -1,0 +1,82 @@
+{
+  "patch_id": "math-fractions-unlike-addition-deprecate-legacy-kp-edges-v1",
+  "applied_at": "2026-06-05T19:26:51.068Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "update_edge",
+      "id": "edge.kp.recognise_unlike_denominators.part_of.unlike_denominator_fraction_addition",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "needs_revision",
+          "confidence": "high",
+          "compliance_note": "Deprecated dangling legacy KP edge after replacing bare KP ID with namespaced canonical KP node under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp.find_common_denominator.part_of.unlike_denominator_fraction_addition",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "needs_revision",
+          "confidence": "high",
+          "compliance_note": "Deprecated dangling legacy KP edge after replacing bare KP ID with namespaced canonical KP node under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp.rewrite_fractions_with_common_denominator.part_of.unlike_denominator_fraction_addition",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "needs_revision",
+          "confidence": "high",
+          "compliance_note": "Deprecated dangling legacy KP edge after replacing bare KP ID with namespaced canonical KP node under contract v0.2."
+        }
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp.add_numerators_after_matching_denominators.part_of.unlike_denominator_fraction_addition",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "needs_revision",
+          "confidence": "high",
+          "compliance_note": "Deprecated dangling legacy KP edge after replacing bare KP ID with namespaced canonical KP node under contract v0.2."
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2523,
+    "edges": 5243
+  },
+  "graph_counts_after": {
+    "nodes": 2523,
+    "edges": 5243
+  }
+}

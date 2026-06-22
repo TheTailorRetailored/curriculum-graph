@@ -1,0 +1,403 @@
+{
+  "patch_id": "math-fractions-mixed-improper-number-line-compare-compliance",
+  "applied_at": "2026-06-06T19:56:12.415Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 6,
+      "edges_created": 15,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.mixed_number_line_whole_interval",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.mixed_numbers_on_number_line",
+        "label": "Mixed number lies in its whole-number interval",
+        "description": "Locate a mixed number between consecutive whole numbers using its whole-number part.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.mixed_number_fraction_part_offsets_from_whole",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.mixed_numbers_on_number_line",
+        "label": "Fraction part offsets from the whole number",
+        "description": "Place the fractional part of a mixed number as a distance from the whole-number starting point.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.improper_and_mixed_forms_same_number_line_point",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.mixed_numbers_on_number_line",
+        "label": "Improper and mixed forms can share a number-line point",
+        "description": "Recognise equivalent improper-fraction and mixed-number forms as the same location on a number line.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.compare_mixed_improper_by_common_form",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_mixed_and_improper",
+        "label": "Compare mixed and improper fractions by common form",
+        "description": "Convert one or both quantities to a common form before comparing mixed-number and improper-fraction representations.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.compare_mixed_improper_by_quantity_not_notation",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_mixed_and_improper",
+        "label": "Compare quantities rather than notation forms",
+        "description": "Compare the represented values, not whether a number is written as a mixed number or an improper fraction.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.fractions.equivalent_mixed_improper_forms_compare_equal",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Fractions",
+        "parent_topic": "math.fractions.compare_mixed_and_improper",
+        "label": "Equivalent mixed and improper forms compare equal",
+        "description": "Identify when a mixed number and an improper fraction name the same quantity and therefore are equal.",
+        "aliases": [],
+        "year_band": "5-7",
+        "pathways": [],
+        "observable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mixed_line_whole_interval.part_of.mixed_numbers_on_number_line",
+        "from": "math.kp.fractions.mixed_number_line_whole_interval",
+        "to": "math.fractions.mixed_numbers_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mixed_line_fraction_offset.part_of.mixed_numbers_on_number_line",
+        "from": "math.kp.fractions.mixed_number_fraction_part_offsets_from_whole",
+        "to": "math.fractions.mixed_numbers_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_mixed_improper_same_line_point.part_of.mixed_numbers_on_number_line",
+        "from": "math.kp.fractions.improper_and_mixed_forms_same_number_line_point",
+        "to": "math.fractions.mixed_numbers_on_number_line",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compare_common_form.part_of.compare_mixed_improper",
+        "from": "math.kp.fractions.compare_mixed_improper_by_common_form",
+        "to": "math.fractions.compare_mixed_and_improper",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_compare_quantity_not_notation.part_of.compare_mixed_improper",
+        "from": "math.kp.fractions.compare_mixed_improper_by_quantity_not_notation",
+        "to": "math.fractions.compare_mixed_and_improper",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_equiv_mixed_improper_compare_equal.part_of.compare_mixed_improper",
+        "from": "math.kp.fractions.equivalent_mixed_improper_forms_compare_equal",
+        "to": "math.fractions.compare_mixed_and_improper",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_numbers_on_number_line.uses_representation.number_line",
+        "from": "math.fractions.mixed_numbers_on_number_line",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "The lesson is specifically about locating mixed and improper forms on number lines.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_numbers_on_number_line.assessed_by.model",
+        "from": "math.fractions.mixed_numbers_on_number_line",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can model mixed numbers and improper fractions by placing them on a number line.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_numbers_on_number_line.assessed_by.interpret_graph",
+        "from": "math.fractions.mixed_numbers_on_number_line",
+        "to": "math.task_type.interpret_graph",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners interpret number-line locations as mixed or improper fraction quantities.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_numbers_on_number_line.assessed_by.explain",
+        "from": "math.fractions.mixed_numbers_on_number_line",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners explain why the mixed and improper forms land at the same point when equivalent.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mixed_improper.uses_representation.number_line",
+        "from": "math.fractions.compare_mixed_and_improper",
+        "to": "math.representation.number_line",
+        "type": "uses_representation",
+        "confidence": "medium",
+        "rationale": "Number lines support comparing values written in mixed and improper forms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mixed_improper.assessed_by.compute",
+        "from": "math.fractions.compare_mixed_and_improper",
+        "to": "math.task_type.compute",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners can compare or order mixed and improper fraction values numerically.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mixed_improper.assessed_by.explain",
+        "from": "math.fractions.compare_mixed_and_improper",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should justify comparisons based on represented quantity rather than notation type.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mixed_improper.assessed_by.find_error",
+        "from": "math.fractions.compare_mixed_and_improper",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding tasks reveal when learners compare surface notation rather than value.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_mixed_improper.has_mis.mixed_unrelated",
+        "from": "math.fractions.compare_mixed_and_improper",
+        "to": "math.misconception.fractions.mixed_number_parts_unrelated",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Learners may treat mixed-number parts or mixed/improper forms as unrelated notations rather than values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2602,
+    "edges": 5454
+  },
+  "graph_counts_after": {
+    "nodes": 2608,
+    "edges": 5469
+  }
+}

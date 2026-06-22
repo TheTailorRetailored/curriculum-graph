@@ -1,0 +1,96 @@
+{
+  "patch_id": "math-fractions-non-unit-structure-compliance",
+  "applied_at": "2026-06-06T10:43:51.133Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 3
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.non_unit_fractions",
+      "updates": {
+        "grain_size": "lesson_sequence"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.numerator_counts_units",
+      "updates": {
+        "parent_topic": "math.fractions.numerator_counts_parts"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.fractions.denominator_names_unit",
+      "updates": {
+        "parent_topic": "math.fractions.denominator_names_unit_size"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_numerator_counts_units.part_of.nonunit",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific numerator-counts-parts child topic rather than the broad non-unit-fractions sequence."
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_denominator_names_unit.part_of.nonunit",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP now belongs to the specific denominator-names-unit-size child topic rather than the broad non-unit-fractions sequence."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_numerator_counts_units.part_of.numerator_counts_parts",
+        "from": "math.kp.fractions.numerator_counts_units",
+        "to": "math.fractions.numerator_counts_parts",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_denominator_names_unit.part_of.denominator_unit_size",
+        "from": "math.kp.fractions.denominator_names_unit",
+        "to": "math.fractions.denominator_names_unit_size",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2574,
+    "edges": 5371
+  },
+  "graph_counts_after": {
+    "nodes": 2574,
+    "edges": 5373
+  }
+}

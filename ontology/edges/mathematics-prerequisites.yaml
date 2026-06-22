@@ -1,0 +1,17 @@
+edges:
+  - id: edge.math.add_unlike_requires_equivalent_fractions
+    from: math.topic.add_fractions_unlike_denominators
+    to: math.topic.generate_equivalent_fractions
+    type: requires
+    strength: hard
+    confidence: medium
+    rationale: Students need to rewrite fractions into equivalent forms before they
+      can add fractions with unlike denominators.
+    failure_signal: Student cannot produce equivalent fractions with a shared denominator.
+    status: deprecated
+    metadata:
+      created_by: system
+      review_status: needs_revision
+      confidence: medium
+      compliance_note: Deprecated legacy prerequisite edge from merged draft
+        unlike-denominator topic to merged draft equivalent-fractions topic.

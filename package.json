@@ -1,0 +1,38 @@
+{
+  "name": "curriculum-graph",
+  "version": "0.1.0",
+  "description": "Graph-aware MCP server for constructing a K-12 curriculum ontology.",
+  "license": "MIT",
+  "author": "Lachlan Bridges",
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "main": "dist/server.js",
+  "bin": {
+    "curriculum-graph-mcp": "dist/server.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "lint": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "dev": "tsx src/server.ts",
+    "dev:http": "tsx src/httpServer.ts",
+    "dev:web": "tsx src/webServer.ts",
+    "start:http": "node dist/src/httpServer.js",
+    "start:web": "node dist/src/webServer.js",
+    "export:json": "tsx src/cli/exportJson.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "fast-glob": "^3.3.3",
+    "yaml": "^2.7.0",
+    "zod": "^3.24.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "vitest": "^4.1.9"
+  }
+}

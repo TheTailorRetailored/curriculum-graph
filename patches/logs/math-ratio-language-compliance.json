@@ -1,0 +1,156 @@
+{
+  "patch_id": "math-ratio-language-compliance",
+  "applied_at": "2026-06-08T18:23:57.526Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 2
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.kp.ratio.ratio_compares_quantities",
+      "updates": {
+        "parent_topic": "math.ratio.ratio_language"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.kp.ratio.ratio_order_matters",
+      "updates": {
+        "parent_topic": "math.ratio.ratio_language"
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_ratio_compares.part_of.ratios_rates",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP belongs to the specific ratio-language micro-topic rather than the broad ratios-and-rates course unit."
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.kp_ratio_order.part_of.ratios_rates",
+      "updates": {
+        "status": "deprecated",
+        "rationale": "KP belongs to the specific ratio-language micro-topic rather than the broad ratios-and-rates course unit."
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_ratio_compares.part_of.ratio_language",
+        "from": "math.kp.ratio.ratio_compares_quantities",
+        "to": "math.ratio.ratio_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.kp_ratio_order.part_of.ratio_language",
+        "from": "math.kp.ratio.ratio_order_matters",
+        "to": "math.ratio.ratio_language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_language.uses_representation.bar_model",
+        "from": "math.ratio.ratio_language",
+        "to": "math.representation.bar_model",
+        "type": "uses_representation",
+        "confidence": "high",
+        "rationale": "Bar models show two quantities as multiplicative comparison units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_language.assessed_by.explain",
+        "from": "math.ratio.ratio_language",
+        "to": "math.task_type.explain",
+        "type": "assessed_by",
+        "confidence": "high",
+        "rationale": "Learners should explain which quantities are being compared and in what order.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_language.assessed_by.model",
+        "from": "math.ratio.ratio_language",
+        "to": "math.task_type.model",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Learners can model a verbal ratio comparison using a bar model or labelled quantities.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ratio_language.assessed_by.find_error",
+        "from": "math.ratio.ratio_language",
+        "to": "math.task_type.find_error",
+        "type": "assessed_by",
+        "confidence": "medium",
+        "rationale": "Error-finding tasks reveal additive-comparison and reversed-order misunderstandings.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/ratio_rate_and_proportion.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2653,
+    "edges": 1466
+  },
+  "graph_counts_after": {
+    "nodes": 2653,
+    "edges": 1472
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "patch_id": "math-decimals-place-value-chart-seed",
+  "applied_at": "2026-06-07T06:57:21.659Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.representation.place_value_chart",
+        "type": "representation",
+        "subject": "Mathematics",
+        "strand": "Number",
+        "area": "Number representation",
+        "label": "Place value chart",
+        "description": "A table that organises digits by place-value units such as ones, tenths, hundredths, and thousandths.",
+        "aliases": [
+          "place-value table"
+        ],
+        "year_band": "2-7",
+        "pathways": [],
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/number_representation.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2612,
+    "edges": 5481
+  },
+  "graph_counts_after": {
+    "nodes": 2613,
+    "edges": 5481
+  }
+}
