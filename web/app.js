@@ -156,6 +156,25 @@ function neighbourhoodIds() {
   return ids;
 }
 
+function assignNeighbourhoodLayout() {
+  const selected = state.selectedId ? byId(state.selectedId) : null;
+  if (!selected || state.filteredNodes.length < 2) return;
+  const rect = canvas.getBoundingClientRect();
+  const centerX = rect.width / 2;
+  const centerY = rect.height / 2;
+  const radius = Math.min(rect.width, rect.height) * 0.2;
+  selected.x = centerX;
+  selected.y = centerY;
+  const neighbours = state.filteredNodes
+    .filter((node) => node.id !== selected.id)
+    .sort((a, b) => a.label.localeCompare(b.label));
+  neighbours.forEach((node, index) => {
+    const angle = -Math.PI / 2 + (index / neighbours.length) * Math.PI * 2;
+    node.x = centerX + Math.cos(angle) * radius;
+    node.y = centerY + Math.sin(angle) * radius;
+  });
+}
+
 function applyFilters() {
   const neighbourhood = neighbourhoodIds();
   state.filteredNodes = state.nodes.filter((node) => {
@@ -168,6 +187,7 @@ function applyFilters() {
   });
   const visible = new Set(state.filteredNodes.map((node) => node.id));
   state.filteredEdges = state.edges.filter((edge) => visible.has(edge.from) && visible.has(edge.to));
+  if (state.mode === "neighbourhood") assignNeighbourhoodLayout();
   updateMetrics();
   document.querySelector("#emptyState").hidden = state.filteredNodes.length !== 0;
   draw();
@@ -241,10 +261,16 @@ function draw() {
   if (state.showLabels && state.scale > 0.42) {
     ctx.font = `${Math.max(10, 12 / state.scale)}px Inter, sans-serif`;
     ctx.fillStyle = "#26302a";
+    const selected = state.selectedId ? byId(state.selectedId) : null;
     for (const node of state.filteredNodes) {
-      if (!["subject", "strand", "area"].includes(node.type) && node.id !== state.selectedId) continue;
-      ctx.fillText(node.label, node.x + nodeRadius(node) + 4 / state.scale, node.y + 4 / state.scale);
+      const labelNeighbourhood = state.mode === "neighbourhood";
+      if (!labelNeighbourhood && !["subject", "strand", "area"].includes(node.type) && node.id !== state.selectedId) continue;
+      const labelLeft = labelNeighbourhood && selected && node.id !== selected.id && node.x < selected.x;
+      ctx.textAlign = labelLeft ? "right" : "left";
+      const labelX = node.x + (labelLeft ? -1 : 1) * (nodeRadius(node) + 4 / state.scale);
+      ctx.fillText(node.label, labelX, node.y + 4 / state.scale);
     }
+    ctx.textAlign = "left";
   }
 
   ctx.restore();
@@ -347,6 +373,7 @@ document.querySelectorAll(".mode-button").forEach((button) => {
     document.querySelectorAll(".mode-button").forEach((item) => item.classList.remove("active"));
     button.classList.add("active");
     state.mode = button.dataset.mode;
+    if (state.mode === "overview") assignLayout();
     applyFilters();
   });
 });

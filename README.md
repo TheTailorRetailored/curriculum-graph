@@ -5,16 +5,16 @@ it. The graph is stored as readable YAML; a TypeScript MCP server lets an LLM
 search and validate it, and the local explorer makes the relationships easier
 to inspect by hand.
 
-The current graph has 2,661 nodes and 1,493 edges. Most of the detailed work is
-in mathematics, with an early English scaffold. Topics can be connected to
-prerequisites, smaller knowledge points, misconceptions, representations and
-assessment task types.
+The evolving graph has over 2,500 nodes and over 1,400 edges. Most of the
+detailed work is in mathematics, with an early English scaffold. Topics can be
+connected to prerequisites, smaller knowledge points, misconceptions,
+representations and assessment task types.
 
 > This is an alpha. Much of the ontology is still draft or AI-generated and has
 > not been checked by a subject specialist. It should not be treated as teaching
 > or assessment advice.
 
-![Curriculum Graph explorer](docs/images/curriculum-graph-explorer.png)
+![Curriculum Graph neighbourhood view](docs/images/curriculum-graph-neighbourhood.png)
 
 ## What the graph is for
 
