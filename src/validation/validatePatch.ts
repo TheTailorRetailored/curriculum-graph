@@ -50,6 +50,14 @@ export function validatePatch(graph: GraphIndex, patch: Patch | unknown, strictn
       if (!result.success) blocking_errors.push(...result.error.issues.map((issue) => ({ code: "edge_schema", severity: "error" as const, message: issue.message, path: `${op.edge?.id}.${issue.path.join(".")}`, edge_id: op.edge?.id })));
       if (!isValidEdgeId(op.edge.id)) blocking_errors.push({ code: "invalid_edge_id", severity: "error", message: `Invalid edge id: ${op.edge.id}`, edge_id: op.edge.id });
       if (graph.edgesById.has(op.edge.id)) blocking_errors.push({ code: "duplicate_edge_id", severity: "error", message: `Edge id already exists: ${op.edge.id}`, edge_id: op.edge.id });
+      if (op.edge.type === "requires" && ["strong", "weak", "helpful"].includes(op.edge.strength ?? "")) {
+        warnings.push({
+          code: "legacy_requires_strength",
+          severity: "warning",
+          message: `Requires strength '${op.edge.strength}' is accepted for compatibility but canonical values are hard, medium, soft.`,
+          edge_id: op.edge.id
+        });
+      }
       if (!projectedNodes.has(op.edge.from)) blocking_errors.push({ code: "missing_edge_from", severity: "error", message: `Missing edge endpoint: ${op.edge.from}`, edge_id: op.edge.id });
       if (!projectedNodes.has(op.edge.to)) blocking_errors.push({ code: "missing_edge_to", severity: "error", message: `Missing edge endpoint: ${op.edge.to}`, edge_id: op.edge.id });
       warnings.push(...checkYearBandDirection(op.edge, projectedNodes.get(op.edge.from), projectedNodes.get(op.edge.to)));
@@ -69,13 +77,18 @@ export function validatePatch(graph: GraphIndex, patch: Patch | unknown, strictn
   }
 
   if (strictness === "strict") {
-    for (const warning of warnings.filter((issue) => ["id_label_mismatch", "no_prerequisites"].includes(issue.code))) blocking_errors.push({ ...warning, severity: "error" });
+    for (const warning of warnings.filter((issue) => ["id_label_mismatch", "legacy_requires_strength", "no_prerequisites"].includes(issue.code))) {
+      blocking_errors.push({ ...warning, severity: "error" });
+    }
   }
+  const returnedWarnings = strictness === "strict"
+    ? warnings.filter((issue) => !["id_label_mismatch", "legacy_requires_strength", "no_prerequisites"].includes(issue.code))
+    : warnings;
 
   return {
     valid: blocking_errors.length === 0,
     blocking_errors,
-    warnings,
+    warnings: returnedWarnings,
     suggested_fixes: blocking_errors.length ? ["Resolve blocking errors, then validate again."] : [],
     summary: {
       nodes_created: createdNodes.length,

@@ -29,7 +29,7 @@ export const EDGE_TYPES = [
 export const STATUSES = ["draft", "active", "deprecated", "merged", "blocked"] as const;
 export const REVIEW_STATUSES = ["ai_generated", "ai_validated", "human_reviewed", "approved", "needs_revision"] as const;
 export const GRAIN_SIZES = ["container", "course_unit", "lesson_sequence", "lesson_topic", "micro_topic", "atomic"] as const;
-export const STRENGTHS = ["hard", "strong", "medium", "weak", "helpful"] as const;
+export const STRENGTHS = ["hard", "strong", "medium", "soft", "weak", "helpful"] as const;
 export const CONFIDENCES = ["low", "medium", "high"] as const;
 export const PATCH_OPS = [
   "create_node",

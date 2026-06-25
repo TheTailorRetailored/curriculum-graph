@@ -7,7 +7,8 @@ import { exportJson } from "../export/exportJson.js";
 import { exportJsonLd } from "../export/exportJsonLd.js";
 import { exportYamlBundle } from "../export/exportYamlBundle.js";
 import { validatePatch } from "../validation/validatePatch.js";
-import { EDGE_TYPES, NODE_TYPES } from "../schema/constants.js";
+import { EDGE_TYPES } from "../schema/constants.js";
+import { getSchemaSection } from "../schema/schemaSections.js";
 
 type ToolHandler = (args: unknown, graph: GraphIndex) => Promise<unknown> | unknown;
 
@@ -37,7 +38,7 @@ export const toolDefinitions = [
 export const toolHandlers: Record<string, ToolHandler> = {
   get_schema(args) {
     const section = z.object({ section: z.string().default("all") }).parse(args ?? {}).section;
-    return { schema_version: "0.1.0", section, content: { node_types: NODE_TYPES, edge_types: EDGE_TYPES } };
+    return { schema_version: "0.1.0", section, content: getSchemaSection(section) };
   },
   search_nodes(args, graph) {
     return { results: searchNodes(graph, z.object({ query: z.string(), subject: z.string().optional(), strand: z.string().optional(), area: z.string().optional(), types: z.array(z.string()).optional(), limit: z.number().optional() }).parse(args)) };

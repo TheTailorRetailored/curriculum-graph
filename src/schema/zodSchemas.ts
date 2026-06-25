@@ -64,11 +64,8 @@ export const edgeSchema = z.object({
   metadata: metadataSchema
 }).passthrough().superRefine((edge, ctx) => {
   if (edge.type === "requires") {
-    for (const field of ["strength", "confidence", "rationale"] as const) {
+    for (const field of ["strength", "confidence", "rationale", "failure_signal"] as const) {
       if (!edge[field]) ctx.addIssue({ code: z.ZodIssueCode.custom, path: [field], message: `requires edge requires ${field}` });
-    }
-    if ((edge.strength === "hard" || edge.strength === "strong") && !edge.failure_signal) {
-      ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["failure_signal"], message: "hard or strong requires edge requires failure_signal" });
     }
   }
   if (edge.type === "encompasses") {
