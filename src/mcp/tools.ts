@@ -10,7 +10,12 @@ import { validatePatch } from "../validation/validatePatch.js";
 import { EDGE_TYPES } from "../schema/constants.js";
 import { getSchemaSection } from "../schema/schemaSections.js";
 
-type ToolHandler = (args: unknown, graph: GraphIndex) => Promise<unknown> | unknown;
+type ToolContext = {
+  allowWrites?: boolean;
+  rootDir?: string;
+};
+
+type ToolHandler = (args: unknown, graph: GraphIndex, context?: ToolContext) => Promise<unknown> | unknown;
 
 function countsBy<T extends string>(values: T[]): Record<string, number> {
   return values.reduce<Record<string, number>>((counts, value) => {
@@ -20,6 +25,7 @@ function countsBy<T extends string>(values: T[]): Record<string, number> {
 }
 
 export const toolDefinitions = [
+  { name: "health_check", description: "Report server health, graph load status, write mode, and graph counts.", inputSchema: { type: "object", properties: {} } },
   { name: "get_schema", description: "Return ontology schema, validation rules, and examples.", inputSchema: { type: "object", properties: { section: { type: "string" } } } },
   { name: "search_nodes", description: "Find existing nodes before creating new ones.", inputSchema: { type: "object", properties: { query: { type: "string" }, subject: { type: "string" }, strand: { type: "string" }, area: { type: "string" }, types: { type: "array", items: { type: "string" } }, limit: { type: "number" } }, required: ["query"] } },
   { name: "get_node", description: "Return a full node and directly attached edges.", inputSchema: { type: "object", properties: { id: { type: "string" }, include_edges: { type: "boolean" } }, required: ["id"] } },
@@ -36,6 +42,17 @@ export const toolDefinitions = [
 ];
 
 export const toolHandlers: Record<string, ToolHandler> = {
+  health_check(_args, graph, context) {
+    return {
+      ok: true,
+      graph_loaded: true,
+      ontology_access: context?.allowWrites ? "read-write" : "read-only",
+      graph_root: context?.rootDir,
+      node_count: graph.nodes.length,
+      edge_count: graph.edges.length,
+      generated_at: new Date().toISOString()
+    };
+  },
   get_schema(args) {
     const section = z.object({ section: z.string().default("all") }).parse(args ?? {}).section;
     return { schema_version: "0.1.0", section, content: getSchemaSection(section) };

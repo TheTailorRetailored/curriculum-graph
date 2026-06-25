@@ -41,6 +41,7 @@ export async function loadGraph(rootDir = process.cwd()): Promise<GraphIndex> {
       nodes.push(node);
       nodePathById.set(node.id, path.relative(rootDir, file).replace(/\\/g, "/"));
       for (const kp of node.knowledge_points ?? []) {
+        if (typeof kp === "string") continue;
         const kpNode = nodeSchema.parse({
           ...kp,
           type: "knowledge_point",

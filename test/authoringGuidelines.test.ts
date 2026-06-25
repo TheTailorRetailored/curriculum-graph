@@ -4,6 +4,7 @@ import { readResource, resources } from "../src/mcp/resources.js";
 import { toolHandlers } from "../src/mcp/tools.js";
 import { loadGraph } from "../src/graph/loadGraph.js";
 import { validatePatch } from "../src/validation/validatePatch.js";
+import { checkEncompassingEdge } from "../src/validation/edgeSemantics.js";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -21,6 +22,10 @@ describe("authoring guidelines", () => {
     const resource = readResource("curriculum://style/edge-semantics");
     expect(resource.text).toContain("requires");
     expect(resource.text).toContain("target concept -> prerequisite concept");
+  });
+
+  it("exposes a health_check tool", () => {
+    expect(toolHandlers.health_check).toBeDefined();
   });
 
   it("includes the constitution in get_schema", async () => {
@@ -137,31 +142,17 @@ describe("authoring guidelines", () => {
   });
 
   it("phrases encompasses nearby-relation warning as advisory", async () => {
-    const graph = await loadGraph(root);
-    const result = validatePatch(graph, {
-      patch_id: "patch.test.encompasses.advisory",
-      phase: "test",
-      target: { subject: "Mathematics", area: "Advanced functions" },
-      created_by: "test",
-      operations: [
-        {
-          op: "create_edge",
-          edge: {
-            id: "edge.test_function_notation_encompasses_evaluate_functions",
-            from: "math.senior.functions.function_notation",
-            to: "math.senior.functions.evaluate_functions",
-            type: "encompasses",
-            weight: 0.7,
-            confidence: "medium",
-            rationale: "Function notation is a course-unit level topic that intentionally covers evaluating functions.",
-            status: "draft",
-            metadata: { created_by: "test", review_status: "ai_generated" }
-          }
-        }
-      ],
-      commit_message: "Probe encompasses warning wording."
-    });
-    const warning = result.warnings.find((issue) => issue.code === "encompasses_without_nearby_relation");
+    const warning = checkEncompassingEdge({
+      id: "edge.test_function_notation_encompasses_evaluate_functions",
+      from: "math.senior.functions.function_notation",
+      to: "math.senior.functions.evaluate_functions",
+      type: "encompasses",
+      weight: 0.7,
+      confidence: "medium",
+      rationale: "Function notation is a course-unit level topic that intentionally covers evaluating functions.",
+      status: "draft",
+      metadata: { created_by: "test", review_status: "ai_generated" }
+    })[0];
     expect(warning?.message).toContain("is valid");
     expect(warning?.message).toContain("consider adding");
   });

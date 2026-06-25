@@ -20,6 +20,8 @@ export const embeddedKnowledgePointSchema = z.object({
   status: z.enum(STATUSES)
 }).passthrough();
 
+export const topicKnowledgePointSchema = z.union([embeddedKnowledgePointSchema, z.string().regex(ID_PATTERN)]);
+
 export const nodeSchema = z.object({
   id: z.string().regex(ID_PATTERN),
   type: z.enum(NODE_TYPES),
@@ -37,7 +39,7 @@ export const nodeSchema = z.object({
   observable: z.boolean().optional(),
   assessable: z.boolean().optional(),
   status: z.enum(STATUSES),
-  knowledge_points: z.array(embeddedKnowledgePointSchema).optional().default([]),
+  knowledge_points: z.array(topicKnowledgePointSchema).optional().default([]),
   metadata: metadataSchema
 }).passthrough().superRefine((node, ctx) => {
   if (node.type === "topic") {

@@ -1,0 +1,373 @@
+{
+  "patch_id": "patch.math.advanced_functions.inverse_functions.003",
+  "applied_at": "2026-06-25T08:50:32.111Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 21,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_relation_meaning.part_of.advanced_functions",
+        "from": "math.senior.functions.inverse_relation_meaning",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_function_notation.part_of.advanced_functions",
+        "from": "math.senior.functions.inverse_function_notation",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_from_ordered_pairs.part_of.advanced_functions",
+        "from": "math.senior.functions.inverse_from_ordered_pairs",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_graph_reflection.part_of.advanced_functions",
+        "from": "math.senior.functions.inverse_graph_reflection",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_line_test.part_of.advanced_functions",
+        "from": "math.senior.functions.horizontal_line_test",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.restrict_domain_for_inverse.part_of.advanced_functions",
+        "from": "math.senior.functions.restrict_domain_for_inverse",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_inverse_steps.part_of.advanced_functions",
+        "from": "math.senior.functions.algebraic_inverse_steps",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.inverse_relation_meaning",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.inverse_relation_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Inverse relation meaning is a core conceptual component of the broader function notation and composition unit.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.inverse_function_notation",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.inverse_function_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Inverse function notation is a standard notation component of inverse-function work within the function notation unit.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.inverse_from_ordered_pairs",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.inverse_from_ordered_pairs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding an inverse from ordered pairs is a concrete subskill for understanding inverses as swapped input-output pairs.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.inverse_graph_reflection",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.inverse_graph_reflection",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graph reflection across y = x is a standard representation of inverse relations and functions.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.horizontal_line_test",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.horizontal_line_test",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The horizontal line test is a key inverse-function diagnostic covered in inverse-function work.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.restrict_domain_for_inverse",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.restrict_domain_for_inverse",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Restricting a domain to make an inverse a function is a specialised application of inverse-function and domain reasoning.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.algebraic_inverse_steps",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.algebraic_inverse_steps",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Algebraically finding an inverse is a common procedural application within inverse-function work.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_relation_meaning.requires.input_output_notation",
+        "from": "math.senior.functions.inverse_relation_meaning",
+        "to": "math.senior.functions.input_output_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding an inverse as reversing input-output pairs depends on interpreting functions as assigning outputs to inputs.",
+        "failure_signal": "Learner cannot explain what is being reversed when an inverse relation swaps coordinates or undoes a function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_function_notation.requires.inverse_relation_meaning",
+        "from": "math.senior.functions.inverse_function_notation",
+        "to": "math.senior.functions.inverse_relation_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Inverse function notation is meaningful only after the learner understands the inverse as a relation that reverses inputs and outputs.",
+        "failure_signal": "Learner reads f^{-1} as a reciprocal or cannot connect the notation to reversed input-output pairs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_from_ordered_pairs.requires.inverse_relation_meaning",
+        "from": "math.senior.functions.inverse_from_ordered_pairs",
+        "to": "math.senior.functions.inverse_relation_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Finding an inverse from ordered pairs requires understanding that inverse relations swap each input-output pair.",
+        "failure_signal": "Learner leaves ordered pairs unchanged or swaps only selected pairs without preserving the relation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_graph_reflection.requires.inverse_from_ordered_pairs",
+        "from": "math.senior.functions.inverse_graph_reflection",
+        "to": "math.senior.functions.inverse_from_ordered_pairs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Graph reflection across y = x generalises the ordered-pair reversal rule for inverse relations.",
+        "failure_signal": "Learner reflects points in the wrong line or cannot explain why coordinates are swapped on the inverse graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_line_test.requires.inverse_relation_meaning",
+        "from": "math.senior.functions.horizontal_line_test",
+        "to": "math.senior.functions.inverse_relation_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The horizontal line test is used to decide whether reversing a function's input-output relation will still give a function.",
+        "failure_signal": "Learner applies the test mechanically without connecting multiple outputs for one input in the inverse relation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.restrict_domain_for_inverse.requires.horizontal_line_test",
+        "from": "math.senior.functions.restrict_domain_for_inverse",
+        "to": "math.senior.functions.horizontal_line_test",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Restricting a domain for an inverse depends on detecting where the original function fails one-to-one behaviour.",
+        "failure_signal": "Learner chooses arbitrary domain restrictions or cannot justify why a selected branch gives an inverse function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_inverse_steps.requires.inverse_function_notation",
+        "from": "math.senior.functions.algebraic_inverse_steps",
+        "to": "math.senior.functions.inverse_function_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Algebraically finding an inverse requires knowing that f^{-1} denotes the function obtained by reversing input-output roles.",
+        "failure_signal": "Learner treats f^{-1}(x) as 1/f(x) or solves for x without reinterpreting the result as an inverse function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2661,
+    "edges": 1537
+  },
+  "graph_counts_after": {
+    "nodes": 2661,
+    "edges": 1558
+  }
+}

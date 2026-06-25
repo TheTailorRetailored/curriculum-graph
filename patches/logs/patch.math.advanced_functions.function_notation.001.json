@@ -1,0 +1,257 @@
+{
+  "patch_id": "patch.math.advanced_functions.function_notation.001",
+  "applied_at": "2026-06-25T08:44:53.926Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 14,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.input_output_notation.part_of.advanced_functions",
+        "from": "math.senior.functions.input_output_notation",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_functions.part_of.advanced_functions",
+        "from": "math.senior.functions.evaluate_functions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_composition_meaning.part_of.advanced_functions",
+        "from": "math.senior.functions.function_composition_meaning",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_outer_inner_order.part_of.advanced_functions",
+        "from": "math.senior.functions.compose_outer_inner_order",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_composite_functions.part_of.advanced_functions",
+        "from": "math.senior.functions.evaluate_composite_functions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.input_output_notation",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.input_output_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Input-output notation is a central included idea in a function notation and composition unit.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.evaluate_functions",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.evaluate_functions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating functions is a core skill covered by a function notation and composition unit.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.function_composition_meaning",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.function_composition_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Understanding composition is a core concept covered by a function notation and composition unit.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.compose_outer_inner_order",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Outer-inner order is a specific subskill within function composition work.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.evaluate_composite_functions",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.evaluate_composite_functions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating composite functions is a core application within a function notation and composition unit.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_functions.requires.input_output_notation",
+        "from": "math.senior.functions.evaluate_functions",
+        "to": "math.senior.functions.input_output_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Evaluating a function at a given input requires understanding that function notation asks for the output assigned to that input.",
+        "failure_signal": "Learner treats f(3) as multiplication or as a label rather than substituting 3 as the input and finding the corresponding output.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_composition_meaning.requires.evaluate_functions",
+        "from": "math.senior.functions.function_composition_meaning",
+        "to": "math.senior.functions.evaluate_functions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Composition is the idea of using one function's output as another function's input, which depends on being able to evaluate a single function output.",
+        "failure_signal": "Learner describes composition symbolically but cannot explain or trace how an inner output becomes an outer input.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_outer_inner_order.requires.function_composition_meaning",
+        "from": "math.senior.functions.compose_outer_inner_order",
+        "to": "math.senior.functions.function_composition_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Identifying outer and inner functions depends on understanding composition as ordered input-output nesting.",
+        "failure_signal": "Learner reverses f(g(x)) and g(f(x)) or cannot say which function is applied first.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_composite_functions.requires.compose_outer_inner_order",
+        "from": "math.senior.functions.evaluate_composite_functions",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Evaluating a composite function requires knowing which function to apply first and which output is then passed to the outer function.",
+        "failure_signal": "Learner substitutes into the outer function first or evaluates both functions separately without nesting the result.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2661,
+    "edges": 1493
+  },
+  "graph_counts_after": {
+    "nodes": 2661,
+    "edges": 1507
+  }
+}

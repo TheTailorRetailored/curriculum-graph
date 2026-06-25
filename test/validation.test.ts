@@ -76,7 +76,13 @@ async function writeMinimalOntologyFixture(temp: string) {
             assessable: true,
             status: "draft"
           }
-        ]
+        ],
+        metadata: { created_by: "ai", review_status: "ai_generated" }
+      },
+      {
+        ...topic("math.topic.references_independent_kp", "References independent knowledge point"),
+        knowledge_points: ["math.kp.find_common_denominator"],
+        metadata: { created_by: "ai", review_status: "ai_generated" }
       }
     ]
   }), "utf8");
@@ -173,6 +179,19 @@ describe("curriculum graph validation", () => {
       expect(result.committed).toBe(true);
       const reloaded = await loadGraph(temp);
       expect(getNode(reloaded, "math.kp.find_common_denominator")?.node.label).toBe("Find a shared denominator");
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
+  it("loads topic knowledge point references without treating them as embedded nodes", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      const node = getNode(graph, "math.topic.references_independent_kp")?.node;
+      expect(node?.knowledge_points).toEqual(["math.kp.find_common_denominator"]);
+      expect(graph.nodes.filter((candidate) => candidate.id === "math.kp.find_common_denominator")).toHaveLength(1);
     } finally {
       await rm(temp, { recursive: true, force: true });
     }

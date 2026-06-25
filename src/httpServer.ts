@@ -56,12 +56,13 @@ app.use("/mcp", (req: ExpressRequest, res: ExpressResponse, next: NextFunction) 
 });
 
 app.post("/mcp", async (req: ExpressRequest, res: ExpressResponse) => {
-  const server = await createCurriculumGraphServer(rootDir, { allowWrites });
-  const transport = new StreamableHTTPServerTransport({
-    sessionIdGenerator: undefined
-  });
-
+  let server: Awaited<ReturnType<typeof createCurriculumGraphServer>> | undefined;
+  let transport: StreamableHTTPServerTransport | undefined;
   try {
+    server = await createCurriculumGraphServer(rootDir, { allowWrites });
+    transport = new StreamableHTTPServerTransport({
+      sessionIdGenerator: undefined
+    });
     await server.connect(transport);
     await transport.handleRequest(req as never, res as never, req.body);
   } catch (error) {
@@ -69,14 +70,18 @@ app.post("/mcp", async (req: ExpressRequest, res: ExpressResponse) => {
     if (!res.headersSent) {
       res.status(500).json({
         jsonrpc: "2.0",
-        error: { code: -32603, message: "Internal server error" },
+        error: {
+          code: -32603,
+          message: "Internal server error",
+          data: error instanceof Error ? error.message : String(error)
+        },
         id: null
       });
     }
   } finally {
     res.on("close", () => {
-      void transport.close();
-      void server.close();
+      void transport?.close();
+      void server?.close();
     });
   }
 });

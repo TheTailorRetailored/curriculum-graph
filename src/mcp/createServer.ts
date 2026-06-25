@@ -7,7 +7,7 @@ import {
   ListToolsRequestSchema,
   ReadResourceRequestSchema
 } from "@modelcontextprotocol/sdk/types.js";
-import { loadGraph } from "../graph/loadGraph.js";
+import { GraphIndex, loadGraph } from "../graph/loadGraph.js";
 import { getPrompt, prompts } from "./prompts.js";
 import { readResource, resources } from "./resources.js";
 import { toolDefinitions, toolHandlers } from "./tools.js";
@@ -26,7 +26,7 @@ export function assertToolAllowed(name: string, allowWrites = false) {
 
 export async function createCurriculumGraphServer(rootDir = process.cwd(), options: { allowWrites?: boolean } = {}) {
   const allowWrites = options.allowWrites ?? false;
-  let graph = await loadGraph(rootDir);
+  let graph: GraphIndex | null = null;
 
   const server = new Server(
     { name: "curriculum-graph", version: "0.1.0" },
@@ -38,8 +38,25 @@ export async function createCurriculumGraphServer(rootDir = process.cwd(), optio
     assertToolAllowed(request.params.name, allowWrites);
     const handler = toolHandlers[request.params.name];
     if (!handler) throw new Error(`Unknown tool: ${request.params.name}`);
-    if (request.params.name === "apply_patch") graph = await loadGraph(rootDir);
-    const result = await handler(request.params.arguments ?? {}, graph);
+    try {
+      graph = await loadGraph(rootDir);
+    } catch (error) {
+      if (request.params.name === "health_check") {
+        return {
+          content: [{
+            type: "text",
+            text: JSON.stringify({
+              ok: false,
+              graph_loaded: false,
+              ontology_access: allowWrites ? "read-write" : "read-only",
+              error: error instanceof Error ? error.message : String(error)
+            }, null, 2)
+          }]
+        };
+      }
+      throw new Error(`Graph load failed before ${request.params.name}: ${error instanceof Error ? error.message : String(error)}`);
+    }
+    const result = await handler(request.params.arguments ?? {}, graph, { allowWrites, rootDir });
     if (request.params.name === "apply_patch") graph = await loadGraph(rootDir);
     return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] };
   });

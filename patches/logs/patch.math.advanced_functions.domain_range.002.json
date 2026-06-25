@@ -1,0 +1,520 @@
+{
+  "patch_id": "patch.math.advanced_functions.domain_range.002",
+  "applied_at": "2026-06-25T08:48:20.137Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 30,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_meaning.part_of.advanced_functions",
+        "from": "math.senior.functions.domain_meaning",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_meaning.part_of.advanced_functions",
+        "from": "math.senior.functions.range_meaning",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_restrictions.part_of.advanced_functions",
+        "from": "math.senior.functions.domain_restrictions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_graph.part_of.advanced_functions",
+        "from": "math.senior.functions.range_from_graph",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_from_denominator.part_of.advanced_functions",
+        "from": "math.senior.functions.domain_from_denominator",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_from_even_root.part_of.advanced_functions",
+        "from": "math.senior.functions.domain_from_even_root",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_from_log_argument.part_of.advanced_functions",
+        "from": "math.senior.functions.domain_from_log_argument",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_notation_domain.part_of.advanced_functions",
+        "from": "math.senior.functions.interval_notation_domain",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_turning_points.part_of.advanced_functions",
+        "from": "math.senior.functions.range_from_turning_points",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_asymptote.part_of.advanced_functions",
+        "from": "math.senior.functions.range_from_asymptote",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.domain_meaning",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.domain_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Domain meaning is a core included idea in a function notation unit because it specifies allowable inputs.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.range_meaning",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.range_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Range meaning is a core included idea in a function notation unit because it specifies possible outputs.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.domain_restrictions",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Domain restrictions are a central application of domain meaning in algebraic function work.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.range_from_graph",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.range_from_graph",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading range from a graph is a core graphical application of the range concept.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.domain_from_denominator",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.domain_from_denominator",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding domain restrictions from denominators is a specific algebraic subskill within domain work.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.domain_from_even_root",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.domain_from_even_root",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding domain restrictions from even roots is a specific algebraic subskill within domain work.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.domain_from_log_argument",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.domain_from_log_argument",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Finding domain restrictions from logarithm arguments is a later specialised domain subskill that connects function notation with logarithmic functions.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.interval_notation_domain",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.interval_notation_domain",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interval notation is a conventional way to express domains in senior function work.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.range_from_turning_points",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.range_from_turning_points",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Using turning points to determine range is a graph-based range subskill for common senior functions.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.range_from_asymptote",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.range_from_asymptote",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Using asymptotes to determine range is a specialised range subskill for transformed reciprocal, exponential and logarithmic functions.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_meaning.requires.input_output_notation",
+        "from": "math.senior.functions.domain_meaning",
+        "to": "math.senior.functions.input_output_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding domain as allowable inputs depends on interpreting functions as input-output relationships.",
+        "failure_signal": "Learner describes the domain as x-values in a formula without connecting it to which inputs the function can accept.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_meaning.requires.input_output_notation",
+        "from": "math.senior.functions.range_meaning",
+        "to": "math.senior.functions.input_output_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding range as possible outputs depends on interpreting a function as assigning outputs to inputs.",
+        "failure_signal": "Learner confuses output values with input restrictions or describes range as the set of x-values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_restrictions.requires.domain_meaning",
+        "from": "math.senior.functions.domain_restrictions",
+        "to": "math.senior.functions.domain_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Identifying domain restrictions requires first understanding that the domain is the set of allowable inputs.",
+        "failure_signal": "Learner can manipulate the formula but cannot explain why certain inputs must be excluded.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_graph.requires.range_meaning",
+        "from": "math.senior.functions.range_from_graph",
+        "to": "math.senior.functions.range_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Reading range from a graph requires knowing that the range is the set of output values attained by the function.",
+        "failure_signal": "Learner reads horizontal extent or x-values when asked for the range of a graphed function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_from_denominator.requires.domain_restrictions",
+        "from": "math.senior.functions.domain_from_denominator",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Finding restrictions from denominators is a specific case of identifying inputs that make an expression undefined.",
+        "failure_signal": "Learner simplifies or substitutes without excluding denominator-zero values from the domain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_from_even_root.requires.domain_restrictions",
+        "from": "math.senior.functions.domain_from_even_root",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Finding restrictions from even roots is a specific case of identifying inputs that keep the expression real-valued.",
+        "failure_signal": "Learner allows inputs that make an even-root radicand negative in a real-valued function context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_from_log_argument.requires.domain_restrictions",
+        "from": "math.senior.functions.domain_from_log_argument",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Finding restrictions from logarithm arguments is a specific case of identifying inputs that make a function expression defined.",
+        "failure_signal": "Learner allows zero or negative logarithm arguments when giving the domain of a log function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_notation_domain.requires.domain_meaning",
+        "from": "math.senior.functions.interval_notation_domain",
+        "to": "math.senior.functions.domain_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Writing a domain in interval notation depends on knowing which input values are included or excluded.",
+        "failure_signal": "Learner writes interval notation without matching it to the allowable input set or boundary inclusions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_turning_points.requires.range_from_graph",
+        "from": "math.senior.functions.range_from_turning_points",
+        "to": "math.senior.functions.range_from_graph",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Using turning points to determine range extends the ability to read output extent from a graph by locating extrema.",
+        "failure_signal": "Learner identifies a turning point but cannot use it to decide the minimum or maximum output value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_asymptote.requires.range_from_graph",
+        "from": "math.senior.functions.range_from_asymptote",
+        "to": "math.senior.functions.range_from_graph",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Using an asymptote to determine range extends graph-based range reasoning to output values approached but not attained.",
+        "failure_signal": "Learner includes the asymptote value as an attained output or cannot exclude an unreachable boundary value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2661,
+    "edges": 1507
+  },
+  "graph_counts_after": {
+    "nodes": 2661,
+    "edges": 1537
+  }
+}
