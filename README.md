@@ -5,10 +5,21 @@ it. The graph is stored as readable YAML; a TypeScript MCP server lets an LLM
 search and validate it, and the local explorer makes the relationships easier
 to inspect by hand.
 
-The evolving graph has over 2,500 nodes and over 1,400 edges. Most of the
+CurriculumGraph is primarily a diagnostic/adaptive learner-state graph, not a
+textbook table-of-contents graph. Courses, units, standards, pathways, reports,
+and app maps are projections over the core graph. Topics are teaching handles;
+knowledge points are first-class mastery claims; misconceptions are first-class
+diagnostic errors; and task types are evidence handles. Future learner state
+should be tracked mainly against knowledge points, with topic mastery computed
+from task and diagnostic evidence.
+
+The evolving graph has over 2,500 nodes and over 2,000 edges. Most of the
 detailed work is in mathematics, with an early English scaffold. Topics can be
-connected to prerequisites, smaller knowledge points, misconceptions,
-representations and assessment task types.
+connected to diagnostic prerequisites, first-class knowledge points,
+misconceptions, representations, procedures, and assessment task types.
+
+See [docs/GRAPH_MODEL.md](docs/GRAPH_MODEL.md) for the frozen diagnostic graph
+model.
 
 > This is an alpha. Much of the ontology is still draft or AI-generated and has
 > not been checked by a subject specialist. It should not be treated as teaching
@@ -85,6 +96,14 @@ patches/logs/*.json ─> validator/patcher      └── JSON / JSON-LD / YAML 
 ```
 
 The ontology is the source of truth. Generated indexes and build output are deliberately excluded from version control.
+
+Architecture and authoring docs:
+
+- [Graph model](docs/GRAPH_MODEL.md)
+- [Schema](docs/SCHEMA.md)
+- [Authoring guide](docs/AUTHORING_GUIDE.md)
+- [Validation](docs/VALIDATION.md)
+- [Migration](docs/MIGRATION.md)
 
 ## Safe authoring flow
 
