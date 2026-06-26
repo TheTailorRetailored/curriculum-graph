@@ -24,6 +24,21 @@ export function assertToolAllowed(name: string, allowWrites = false) {
   }
 }
 
+function toolError(name: string, errorType: string, error: unknown, extra: Record<string, unknown> = {}) {
+  return {
+    content: [{
+      type: "text" as const,
+      text: JSON.stringify({
+        ok: false,
+        tool: name,
+        error_type: errorType,
+        error: error instanceof Error ? error.message : String(error),
+        ...extra
+      }, null, 2)
+    }]
+  };
+}
+
 export async function createCurriculumGraphServer(rootDir = process.cwd(), options: { allowWrites?: boolean } = {}) {
   const allowWrites = options.allowWrites ?? false;
   let graph: GraphIndex | null = null;
@@ -35,13 +50,19 @@ export async function createCurriculumGraphServer(rootDir = process.cwd(), optio
 
   server.setRequestHandler(ListToolsRequestSchema, async () => ({ tools: availableToolDefinitions(allowWrites) }));
   server.setRequestHandler(CallToolRequestSchema, async (request) => {
-    assertToolAllowed(request.params.name, allowWrites);
-    const handler = toolHandlers[request.params.name];
-    if (!handler) throw new Error(`Unknown tool: ${request.params.name}`);
+    const toolName = request.params.name;
+    try {
+      assertToolAllowed(toolName, allowWrites);
+    } catch (error) {
+      return toolError(toolName, "tool_not_allowed", error, { ontology_access: allowWrites ? "read-write" : "read-only" });
+    }
+
+    const handler = toolHandlers[toolName];
+    if (!handler) return toolError(toolName, "unknown_tool", `Unknown tool: ${toolName}`);
     try {
       graph = await loadGraph(rootDir);
     } catch (error) {
-      if (request.params.name === "health_check") {
+      if (toolName === "health_check") {
         return {
           content: [{
             type: "text",
@@ -54,11 +75,22 @@ export async function createCurriculumGraphServer(rootDir = process.cwd(), optio
           }]
         };
       }
-      throw new Error(`Graph load failed before ${request.params.name}: ${error instanceof Error ? error.message : String(error)}`);
+      return toolError(toolName, "graph_load_failed", error, { ontology_access: allowWrites ? "read-write" : "read-only" });
     }
-    const result = await handler(request.params.arguments ?? {}, graph, { allowWrites, rootDir });
-    if (request.params.name === "apply_patch") graph = await loadGraph(rootDir);
-    return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] };
+
+    try {
+      const result = await handler(request.params.arguments ?? {}, graph, { allowWrites, rootDir });
+      if (toolName === "apply_patch") {
+        try {
+          graph = await loadGraph(rootDir);
+        } catch (error) {
+          return toolError(toolName, "graph_reload_failed_after_apply", error, { result });
+        }
+      }
+      return { content: [{ type: "text", text: JSON.stringify(result, null, 2) }] };
+    } catch (error) {
+      return toolError(toolName, "tool_execution_failed", error);
+    }
   });
 
   server.setRequestHandler(ListResourcesRequestSchema, async () => ({ resources }));

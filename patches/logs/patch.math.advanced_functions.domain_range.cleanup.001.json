@@ -1,0 +1,282 @@
+{
+  "patch_id": "patch.math.advanced_functions.domain_range.cleanup.001",
+  "applied_at": "2026-06-25T12:56:36.673Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 11,
+      "nodes_updated": 7
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_restrictions.encompasses.domain_from_denominator",
+        "from": "math.senior.functions.domain_restrictions",
+        "to": "math.senior.functions.domain_from_denominator",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Denominator-zero restrictions are a standard specific case within domain restriction work.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_restrictions.encompasses.domain_from_even_root",
+        "from": "math.senior.functions.domain_restrictions",
+        "to": "math.senior.functions.domain_from_even_root",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Even-root radicand restrictions are a standard specific case within real-valued domain restriction work.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_restrictions.encompasses.domain_from_log_argument",
+        "from": "math.senior.functions.domain_restrictions",
+        "to": "math.senior.functions.domain_from_log_argument",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Logarithm argument restrictions are a later specific case within domain restriction work for logarithmic functions.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_restrictions.encompasses.interval_notation_domain",
+        "from": "math.senior.functions.domain_restrictions",
+        "to": "math.senior.functions.interval_notation_domain",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interval notation is a standard representation for communicating domain restrictions precisely.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_graph.encompasses.range_from_turning_points",
+        "from": "math.senior.functions.range_from_graph",
+        "to": "math.senior.functions.range_from_turning_points",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Turning points are a specific graph feature used to determine range boundaries.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_graph.encompasses.range_from_asymptote",
+        "from": "math.senior.functions.range_from_graph",
+        "to": "math.senior.functions.range_from_asymptote",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Asymptotic behaviour is a specific graph feature used to determine range exclusions or boundary behaviour.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_notation_domain.requires.domain_restrictions",
+        "from": "math.senior.functions.interval_notation_domain",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Writing a domain in interval notation depends on first identifying the excluded and included input intervals.",
+        "failure_signal": "Learner knows which values are excluded but writes interval endpoints, unions or inclusions incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.domain_restrictions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.domain_inputs_range_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.domain_from_denominator",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.denominator_cannot_be_zero"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.domain_from_even_root",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.even_root_radicand_nonnegative"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.domain_from_log_argument",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_arguments_must_be_positive"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.range_from_graph",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.domain_inputs_range_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.range_from_turning_points",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.domain_inputs_range_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.range_from_asymptote",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_asymptote_not_reached"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_from_denominator.has_misconception.denominator_restriction_ignored",
+        "from": "math.senior.functions.domain_from_denominator",
+        "to": "math.misconception.senior.functions.denominator_restriction_ignored",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Ignoring denominator-zero exclusions is the central misconception in denominator-based domain restrictions.",
+        "failure_signal": "Learner includes values that make the denominator zero or cancels a factor and forgets the original excluded value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.domain_from_log_argument.has_misconception.ignore_log_domain",
+        "from": "math.senior.functions.domain_from_log_argument",
+        "to": "math.misconception.senior.functions.ignore_log_domain",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Logarithmic domain restrictions directly diagnose the misconception that log arguments need not be positive.",
+        "failure_signal": "Learner allows zero or negative values of the logarithm argument when giving the function's domain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_graph.has_misconception.domain_range_confused",
+        "from": "math.senior.functions.range_from_graph",
+        "to": "math.misconception.senior.functions.domain_range_confused",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Reading range from graphs directly exposes confusion between horizontal input extent and vertical output extent.",
+        "failure_signal": "Learner reports x-values or horizontal span when asked for the range from a graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_from_asymptote.has_misconception.asymptote_as_intercept",
+        "from": "math.senior.functions.range_from_asymptote",
+        "to": "math.misconception.senior.functions.asymptote_as_intercept",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Range-from-asymptote tasks diagnose whether the learner treats approached boundary values as attained outputs.",
+        "failure_signal": "Learner includes the asymptote value in the range even when the graph approaches but never reaches it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1850
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1861
+  }
+}

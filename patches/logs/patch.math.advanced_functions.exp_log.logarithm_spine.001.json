@@ -1,0 +1,776 @@
+{
+  "patch_id": "patch.math.advanced_functions.exp_log.logarithm_spine.001",
+  "applied_at": "2026-06-25T11:48:00.580Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 46,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithm_meaning_inverse.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithmic_exponential_form_conversion.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.logarithmic_exponential_form_conversion",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_base_argument_conditions.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_base_argument_conditions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_base_conditions.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.valid_base_conditions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_argument_positive_check.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_argument_positive_check",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithm_laws.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.logarithm_laws",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_product_law_applications.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_product_law_applications",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_quotient_law_applications.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_quotient_law_applications",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_power_law_applications.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_power_law_applications",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.change_of_base_formula.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.change_of_base_formula",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_base_change_context.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_base_change_context",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithmic_function_graphs.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.logarithmic_function_graphs",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_graph_inverse_exponential.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_graph_inverse_exponential",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_vertical_asymptote_domain.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_vertical_asymptote_domain",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_equations_using_logs.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_equations_using_logs",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_equation_isolate_power.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_exponential_equations_with_logs.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.solve_exponential_equations_with_logs",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_log_equations_check_domain.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.solve_log_equations_check_domain",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_equation_extraneous_solution_check.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.log_equation_extraneous_solution_check",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.logarithm_meaning_inverse",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Understanding logarithms as inverses of exponentiation is a central conceptual component of the exponential and logarithmic functions unit.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.logarithm_laws",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.logarithm_laws",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Logarithm laws are a core procedural and structural component of logarithm work in the unit.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.logarithmic_function_graphs",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.logarithmic_function_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graphing logarithmic functions is a core representational component of the unit.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.exponential_equations_using_logs",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.exponential_equations_using_logs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Using logarithms to solve exponential equations is a standard procedural application connecting the two function families.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.solve_log_equations_check_domain",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.solve_log_equations_check_domain",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Solving logarithmic equations with domain checking is a core application of logarithm meaning and restrictions.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.change_of_base_formula",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.change_of_base_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Change of base is a useful specialised logarithm tool for calculation and comparison within the unit.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithm_meaning_inverse.requires.exponential_function_form",
+        "from": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "to": "math.senior.functions.exp_log.exponential_function_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interpreting logarithms as inverse operations depends on understanding exponential form and the role of the base and exponent.",
+        "failure_signal": "Learner cannot translate a logarithmic statement into an equivalent exponential statement or explain what exponent is being asked for.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithmic_exponential_form_conversion.requires.logarithm_meaning_inverse",
+        "from": "math.senior.functions.exp_log.logarithmic_exponential_form_conversion",
+        "to": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Converting between logarithmic and exponential form requires understanding a logarithm as the exponent that produces a value from a base.",
+        "failure_signal": "Learner swaps the base, argument and exponent positions or memorises a pattern without preserving the meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_base_argument_conditions.requires.logarithm_meaning_inverse",
+        "from": "math.senior.functions.exp_log.log_base_argument_conditions",
+        "to": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Base and argument restrictions are meaningful once logarithms are understood as inverses of valid exponential functions.",
+        "failure_signal": "Learner allows zero, negative, or one as a base, or allows nonpositive arguments in real logarithms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_base_conditions.requires.log_base_argument_conditions",
+        "from": "math.senior.functions.exp_log.valid_base_conditions",
+        "to": "math.senior.functions.exp_log.log_base_argument_conditions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising valid exponential and logarithmic bases is a specific part of the broader base and argument condition work.",
+        "failure_signal": "Learner treats base one or negative bases as standard real logarithmic bases without qualification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_argument_positive_check.requires.log_base_argument_conditions",
+        "from": "math.senior.functions.exp_log.log_argument_positive_check",
+        "to": "math.senior.functions.exp_log.log_base_argument_conditions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Checking that a logarithm argument is positive is a specific application of logarithm domain restrictions.",
+        "failure_signal": "Learner applies log laws or accepts solutions without verifying that each original logarithm argument is positive.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithm_laws.requires.logarithm_meaning_inverse",
+        "from": "math.senior.functions.exp_log.logarithm_laws",
+        "to": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Logarithm laws are interpretable as consequences of exponent laws once logarithms are understood as inverse exponent operations.",
+        "failure_signal": "Learner memorises log rules but cannot explain why multiplication inside a log becomes addition of logs for matching bases.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithm_laws.requires.index_laws",
+        "from": "math.senior.functions.exp_log.logarithm_laws",
+        "to": "math.number.powers.index_laws",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Logarithm laws mirror index laws, so learners need fluency with products, quotients and powers of matching bases.",
+        "failure_signal": "Learner misapplies product, quotient or power rules because the corresponding index-law structure is not understood.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_product_law_applications.requires.logarithm_laws",
+        "from": "math.senior.functions.exp_log.log_product_law_applications",
+        "to": "math.senior.functions.exp_log.logarithm_laws",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Applying the product law is a specific use of the general logarithm laws.",
+        "failure_signal": "Learner expands log(ab) incorrectly or combines logarithms without checking the product structure and valid arguments.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_quotient_law_applications.requires.logarithm_laws",
+        "from": "math.senior.functions.exp_log.log_quotient_law_applications",
+        "to": "math.senior.functions.exp_log.logarithm_laws",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Applying the quotient law is a specific use of the general logarithm laws.",
+        "failure_signal": "Learner expands log(a/b) with the wrong sign or combines logarithms without preserving numerator and denominator roles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_power_law_applications.requires.logarithm_laws",
+        "from": "math.senior.functions.exp_log.log_power_law_applications",
+        "to": "math.senior.functions.exp_log.logarithm_laws",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Applying the power law is a specific use of the general logarithm laws.",
+        "failure_signal": "Learner leaves exponents inside logarithms without recognising the coefficient form, or moves coefficients incorrectly into powers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.change_of_base_formula.requires.logarithm_meaning_inverse",
+        "from": "math.senior.functions.exp_log.change_of_base_formula",
+        "to": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The change of base formula depends on treating logarithms in different bases as equivalent exponent questions expressible in a common base.",
+        "failure_signal": "Learner treats change of base as arbitrary calculator syntax and cannot set up or interpret the ratio of logarithms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_base_change_context.requires.change_of_base_formula",
+        "from": "math.senior.functions.exp_log.log_base_change_context",
+        "to": "math.senior.functions.exp_log.change_of_base_formula",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Using base-change reasoning in context depends on knowing the change of base formula as a valid logarithm rewrite.",
+        "failure_signal": "Learner changes bases without preserving the value of the logarithm or cannot explain why a calculator base is acceptable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithmic_function_graphs.requires.logarithm_meaning_inverse",
+        "from": "math.senior.functions.exp_log.logarithmic_function_graphs",
+        "to": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Analysing logarithmic graphs depends on understanding logarithms as inverse to exponential functions and interpreting their domain and range behaviour.",
+        "failure_signal": "Learner sketches a generic curve without connecting the log graph to exponential inversion or domain restrictions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_graph_inverse_exponential.requires.logarithmic_function_graphs",
+        "from": "math.senior.functions.exp_log.log_graph_inverse_exponential",
+        "to": "math.senior.functions.exp_log.logarithmic_function_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting a log graph as the inverse of an exponential graph builds on recognising logarithmic graph features.",
+        "failure_signal": "Learner reflects in the wrong line or cannot connect swapped domain and range between exponential and logarithmic graphs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_vertical_asymptote_domain.requires.logarithmic_function_graphs",
+        "from": "math.senior.functions.exp_log.log_vertical_asymptote_domain",
+        "to": "math.senior.functions.exp_log.logarithmic_function_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Identifying the vertical asymptote and domain is a specific graph-feature task for logarithmic functions.",
+        "failure_signal": "Learner allows nonpositive inputs or treats the vertical asymptote as an intercept or ordinary graph point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_equation_isolate_power.requires.exponential_function_form",
+        "from": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "to": "math.senior.functions.exp_log.exponential_function_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Isolating the exponential expression depends on recognising which part of the equation is the exponential term to be solved.",
+        "failure_signal": "Learner takes logs before isolating the power term or applies logarithms to sums and products incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_equations_using_logs.requires.logarithm_meaning_inverse",
+        "from": "math.senior.functions.exp_log.exponential_equations_using_logs",
+        "to": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Using logarithms to solve exponential equations depends on understanding logs as inverse operations to exponentiation.",
+        "failure_signal": "Learner takes logarithms mechanically without isolating the exponent or cannot explain why a logarithm extracts exponent information.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_exponential_equations_with_logs.requires.exponential_equations_using_logs",
+        "from": "math.senior.functions.exp_log.solve_exponential_equations_with_logs",
+        "to": "math.senior.functions.exp_log.exponential_equations_using_logs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving non-common-base exponential equations with logarithms builds on the general method of applying logarithms as inverse operations.",
+        "failure_signal": "Learner cannot choose a logarithmic method when common bases are not available or mishandles the resulting logarithmic expression.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_log_equations_check_domain.requires.logarithm_laws",
+        "from": "math.senior.functions.exp_log.solve_log_equations_check_domain",
+        "to": "math.senior.functions.exp_log.logarithm_laws",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Many logarithmic equations require combining, expanding or simplifying logs using log laws before solving.",
+        "failure_signal": "Learner cannot combine logarithmic terms or applies log laws invalidly when attempting to solve.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_log_equations_check_domain.requires.log_argument_positive_check",
+        "from": "math.senior.functions.exp_log.solve_log_equations_check_domain",
+        "to": "math.senior.functions.exp_log.log_argument_positive_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving logarithmic equations requires rejecting candidates that make any original logarithm argument nonpositive.",
+        "failure_signal": "Learner accepts extraneous solutions that make a logarithm argument zero or negative in the original equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_equation_extraneous_solution_check.requires.solve_log_equations_check_domain",
+        "from": "math.senior.functions.exp_log.log_equation_extraneous_solution_check",
+        "to": "math.senior.functions.exp_log.solve_log_equations_check_domain",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Checking for extraneous solutions is a focused subskill within solving logarithmic equations with domain restrictions.",
+        "failure_signal": "Learner solves the transformed algebraic equation but does not test candidates in the original logarithmic equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1635
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1681
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "patch_id": "patch.math.calculus.differentiation_foundations.001",
+  "applied_at": "2026-06-25T13:59:22.420Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 30,
+      "nodes_updated": 8
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.average_rate_of_change.part_of.calculus",
+        "from": "math.senior.calculus.average_rate_of_change",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.difference_quotient.part_of.calculus",
+        "from": "math.senior.calculus.difference_quotient",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.instantaneous_rate_of_change.part_of.calculus",
+        "from": "math.senior.calculus.instantaneous_rate_of_change",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.secant_to_tangent_limit.part_of.calculus",
+        "from": "math.senior.calculus.secant_to_tangent_limit",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_as_tangent_gradient.part_of.calculus",
+        "from": "math.senior.calculus.derivative_as_tangent_gradient",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_notation.part_of.calculus",
+        "from": "math.senior.calculus.derivative_notation",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_from_first_principles.part_of.calculus",
+        "from": "math.senior.calculus.derivative_from_first_principles",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiability_implies_continuity.part_of.calculus",
+        "from": "math.senior.calculus.differentiability_implies_continuity",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.average_rate_of_change",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.average_rate_of_change",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Average rate of change is the secant-gradient foundation from which instantaneous rate is developed.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.instantaneous_rate_of_change",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.instantaneous_rate_of_change",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Instantaneous rate of change is a core interpretation of the derivative in differentiation.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.derivative_as_tangent_gradient",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivative_as_tangent_gradient",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The tangent-gradient interpretation is a central graphical meaning of the derivative.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.derivative_notation",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Derivative notation is the symbolic language used throughout differentiation tasks.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.derivative_from_first_principles",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivative_from_first_principles",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "First-principles differentiation connects the derivative definition to limits and difference quotients.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.average_rate_of_change.encompasses.difference_quotient",
+        "from": "math.senior.calculus.average_rate_of_change",
+        "to": "math.senior.calculus.difference_quotient",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The difference quotient is the symbolic expression of average rate of change over a small input interval.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.instantaneous_rate_of_change.encompasses.secant_to_tangent_limit",
+        "from": "math.senior.calculus.instantaneous_rate_of_change",
+        "to": "math.senior.calculus.secant_to_tangent_limit",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The secant-to-tangent limiting process is the graphical bridge from average to instantaneous rate of change.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_from_first_principles.encompasses.difference_quotient",
+        "from": "math.senior.calculus.derivative_from_first_principles",
+        "to": "math.senior.calculus.difference_quotient",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "First-principles derivative work uses the difference quotient as the expression whose limit is taken.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.average_rate_of_change.requires.graph_linear_rules",
+        "from": "math.senior.calculus.average_rate_of_change",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Average rate of change is interpreted as a secant gradient, so learners need prior graph-gradient reasoning from linear relationships.",
+        "failure_signal": "Learner can compute endpoint values but cannot interpret rise over run as a rate or gradient over the interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.difference_quotient.requires.average_rate_of_change",
+        "from": "math.senior.calculus.difference_quotient",
+        "to": "math.senior.calculus.average_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The difference quotient formalises average rate of change using function notation and an input increment.",
+        "failure_signal": "Learner cannot connect f(x+h)-f(x) over h to change in output over change in input.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.difference_quotient.requires.evaluate_function_at_expression",
+        "from": "math.senior.calculus.difference_quotient",
+        "to": "math.senior.functions.evaluate_function_at_expression",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Simplifying a difference quotient requires evaluating a function at expressions such as x+h.",
+        "failure_signal": "Learner can evaluate f(x) but makes substitution errors when forming f(x+h).",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.instantaneous_rate_of_change.requires.average_rate_of_change",
+        "from": "math.senior.calculus.instantaneous_rate_of_change",
+        "to": "math.senior.calculus.average_rate_of_change",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Instantaneous rate of change is developed as the limiting value of average rates over shrinking intervals.",
+        "failure_signal": "Learner treats the instantaneous rate as the slope over a visible interval rather than as a limiting local rate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.instantaneous_rate_of_change.requires.limits_continuity",
+        "from": "math.senior.calculus.instantaneous_rate_of_change",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Instantaneous rate is defined through a limiting process, so limit reasoning is required.",
+        "failure_signal": "Learner can compute average rates but cannot reason about what happens as the interval length tends to zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.secant_to_tangent_limit.requires.instantaneous_rate_of_change",
+        "from": "math.senior.calculus.secant_to_tangent_limit",
+        "to": "math.senior.calculus.instantaneous_rate_of_change",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The secant-to-tangent picture represents instantaneous rate as the limiting secant gradient.",
+        "failure_signal": "Learner draws a tangent but cannot explain it as the limiting position of secant lines.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_as_tangent_gradient.requires.secant_to_tangent_limit",
+        "from": "math.senior.calculus.derivative_as_tangent_gradient",
+        "to": "math.senior.calculus.secant_to_tangent_limit",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding the derivative as tangent gradient follows from seeing the tangent as the limit of secant gradients.",
+        "failure_signal": "Learner treats tangent gradient as a memorised fact without connecting it to nearby rates of change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_notation.requires.instantaneous_rate_of_change",
+        "from": "math.senior.calculus.derivative_notation",
+        "to": "math.senior.calculus.instantaneous_rate_of_change",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Derivative notation denotes an instantaneous rate or derivative function, so its interpretation depends on the derivative concept.",
+        "failure_signal": "Learner reads dy/dx or f'(x) as a fraction or label without connecting it to rate of change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_from_first_principles.requires.difference_quotient",
+        "from": "math.senior.calculus.derivative_from_first_principles",
+        "to": "math.senior.calculus.difference_quotient",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "First-principles differentiation takes the limit of the difference quotient as the increment tends to zero.",
+        "failure_signal": "Learner cannot form or simplify the quotient before taking the limiting value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_from_first_principles.requires.limit_notation",
+        "from": "math.senior.calculus.derivative_from_first_principles",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "First-principles derivative definitions are expressed using limit notation as h approaches zero.",
+        "failure_signal": "Learner writes a difference quotient but cannot interpret or apply the limiting step.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiability_implies_continuity.requires.derivative_from_first_principles",
+        "from": "math.senior.calculus.differentiability_implies_continuity",
+        "to": "math.senior.calculus.derivative_from_first_principles",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Understanding why differentiability implies continuity relies on the derivative as a limiting local behaviour, not just a rule calculation.",
+        "failure_signal": "Learner assumes differentiability and continuity are unrelated properties or that continuity automatically implies differentiability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.average_rate_of_change",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_is_limit_of_rates"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.difference_quotient",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_limits_difference_quotient"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.instantaneous_rate_of_change",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_is_limit_of_rates"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.secant_to_tangent_limit",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_is_limit_of_rates",
+          "math.kp.senior.calculus.derivative_is_tangent_gradient"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.derivative_as_tangent_gradient",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_is_tangent_gradient"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.derivative_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.derivative_from_first_principles",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_limits_difference_quotient"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.differentiability_implies_continuity",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.continuity_links_value_and_limit",
+          "math.kp.senior.calculus.derivative_is_limit_of_rates"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.instantaneous_rate_of_change.has_misconception.derivative_as_average_rate",
+        "from": "math.senior.calculus.instantaneous_rate_of_change",
+        "to": "math.misconception.senior.calculus.derivative_as_average_rate",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Instantaneous-rate tasks directly expose the misconception that the derivative is just an average rate over a finite interval.",
+        "failure_signal": "Learner reports a secant slope over a visible interval when asked for the rate at a point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_as_tangent_gradient.has_misconception.derivative_is_y_value",
+        "from": "math.senior.calculus.derivative_as_tangent_gradient",
+        "to": "math.misconception.senior.calculus.derivative_is_y_value",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Tangent-gradient interpretation directly diagnoses whether the learner confuses derivative value with the function's y-value.",
+        "failure_signal": "Learner gives the graph's y-coordinate at the point rather than the tangent gradient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_notation.has_misconception.derivative_is_y_value",
+        "from": "math.senior.calculus.derivative_notation",
+        "to": "math.misconception.senior.calculus.derivative_is_y_value",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Derivative notation can reveal whether the learner treats f'(a) as a function value rather than a rate or gradient at that input.",
+        "failure_signal": "Learner evaluates f(a) or reports an output value when asked for f'(a).",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1949
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1979
+  }
+}

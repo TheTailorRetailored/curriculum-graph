@@ -1,0 +1,572 @@
+{
+  "patch_id": "patch.math.advanced_functions.trig.foundations_spine.001",
+  "applied_at": "2026-06-25T12:07:23.234Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 33,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.radian_measure.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.radian_measure",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.degree_radian_conversion.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.degree_radian_conversion",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arc_length_radian_formula.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.arc_length_radian_formula",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coterminal_angles.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.coterminal_angles",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_circle_coordinates.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.unit_circle_coordinates",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sine_cosine_unit_circle.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reference_angles.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.reference_angles",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrant_signs.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.quadrant_signs",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exact_unit_circle_values.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.exact_unit_circle_values",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_on_unit_circle.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.tangent_on_unit_circle",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.radian_measure",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.radian_measure",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Radian measure is a central foundation for treating trigonometry as functions of real-valued angle inputs.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.unit_circle_coordinates",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.unit_circle_coordinates",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Unit-circle coordinates provide the core representation for extending trigonometry beyond right triangles.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.sine_cosine_unit_circle",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Defining sine and cosine on the unit circle is a central concept in senior trigonometric functions.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.reference_angles",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.reference_angles",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reference angles are a common subskill for exact trigonometric values and quadrant reasoning.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.exact_unit_circle_values",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.exact_unit_circle_values",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Exact unit-circle values are a core fluency target for senior trigonometric function work.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.tangent_on_unit_circle",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.tangent_on_unit_circle",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tangent on the unit circle connects tangent values to sine, cosine and undefined cases.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.radian_measure.encompasses.degree_radian_conversion",
+        "from": "math.senior.functions.trig.radian_measure",
+        "to": "math.senior.functions.trig.degree_radian_conversion",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Degree-radian conversion is a standard subskill within learning radian measure.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.radian_measure.encompasses.arc_length_radian_formula",
+        "from": "math.senior.functions.trig.radian_measure",
+        "to": "math.senior.functions.trig.arc_length_radian_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The arc-length formula is a concrete application of radian measure as an arc-radius relationship.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.radian_measure.encompasses.coterminal_angles",
+        "from": "math.senior.functions.trig.radian_measure",
+        "to": "math.senior.functions.trig.coterminal_angles",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Coterminal angles are a rotation-based subskill used when reasoning with radian or degree angle measures.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_circle_coordinates.encompasses.quadrant_signs",
+        "from": "math.senior.functions.trig.unit_circle_coordinates",
+        "to": "math.senior.functions.trig.quadrant_signs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Quadrant signs are a direct consequence of coordinate signs on the unit circle.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sine_cosine_unit_circle.encompasses.exact_unit_circle_values",
+        "from": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "to": "math.senior.functions.trig.exact_unit_circle_values",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Exact values are a specific fluency target once sine and cosine are defined by unit-circle coordinates.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sine_cosine_unit_circle.encompasses.tangent_on_unit_circle",
+        "from": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "to": "math.senior.functions.trig.tangent_on_unit_circle",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tangent values on the unit circle are built from sine and cosine coordinate relationships.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.radian_measure.requires.right_triangle_trig",
+        "from": "math.senior.functions.trig.radian_measure",
+        "to": "math.measurement.trig.right_triangle_trigonometry",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Radian measure in senior trigonometry builds on prior angle and trigonometric-ratio work, though it extends beyond right triangles.",
+        "failure_signal": "Learner can manipulate radians symbolically but cannot connect angle measure to trigonometric ratios or geometric angle contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.degree_radian_conversion.requires.radian_measure",
+        "from": "math.senior.functions.trig.degree_radian_conversion",
+        "to": "math.senior.functions.trig.radian_measure",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Converting between degrees and radians requires understanding radians as an alternative angle measure.",
+        "failure_signal": "Learner uses conversion factors mechanically but cannot explain why pi radians corresponds to a half-turn.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.arc_length_radian_formula.requires.radian_measure",
+        "from": "math.senior.functions.trig.arc_length_radian_formula",
+        "to": "math.senior.functions.trig.radian_measure",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The arc-length formula uses the definition of radian measure as arc length divided by radius.",
+        "failure_signal": "Learner uses degree measures directly in s = r theta or cannot relate theta to the arc-radius ratio.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coterminal_angles.requires.radian_measure",
+        "from": "math.senior.functions.trig.coterminal_angles",
+        "to": "math.senior.functions.trig.radian_measure",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Coterminal angle reasoning in senior trigonometry depends on treating full rotations as 2 pi radians or 360 degrees.",
+        "failure_signal": "Learner cannot generate equivalent angles by adding or subtracting full rotations in radian measure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_circle_coordinates.requires.radian_measure",
+        "from": "math.senior.functions.trig.unit_circle_coordinates",
+        "to": "math.senior.functions.trig.radian_measure",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Using the unit circle for functions depends on locating angles around a circle, usually in radian measure for senior function work.",
+        "failure_signal": "Learner can name coordinates but cannot connect angle input around the circle to a radian or rotational position.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sine_cosine_unit_circle.requires.unit_circle_coordinates",
+        "from": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "to": "math.senior.functions.trig.unit_circle_coordinates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Defining sine and cosine on the unit circle requires interpreting points on the unit circle as coordinate pairs.",
+        "failure_signal": "Learner cannot explain why cosine is the x-coordinate and sine is the y-coordinate for an angle position.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrant_signs.requires.unit_circle_coordinates",
+        "from": "math.senior.functions.trig.quadrant_signs",
+        "to": "math.senior.functions.trig.unit_circle_coordinates",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Quadrant signs for sine, cosine and tangent depend on the signs of x- and y-coordinates on the unit circle.",
+        "failure_signal": "Learner assigns signs by memorised quadrant labels without connecting them to coordinate signs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reference_angles.requires.quadrant_signs",
+        "from": "math.senior.functions.trig.reference_angles",
+        "to": "math.senior.functions.trig.quadrant_signs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reference-angle reasoning depends on combining an acute reference magnitude with the correct quadrant sign information.",
+        "failure_signal": "Learner finds the reference angle magnitude but gives the wrong sign for the actual quadrant.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exact_unit_circle_values.requires.sine_cosine_unit_circle",
+        "from": "math.senior.functions.trig.exact_unit_circle_values",
+        "to": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Exact unit-circle values depend on understanding sine and cosine as coordinates for special angle positions.",
+        "failure_signal": "Learner recalls isolated values but cannot place them on the unit circle or assign them to sine versus cosine.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exact_unit_circle_values.requires.reference_angles",
+        "from": "math.senior.functions.trig.exact_unit_circle_values",
+        "to": "math.senior.functions.trig.reference_angles",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reference angles help extend exact special-angle values beyond the first quadrant with the correct signs.",
+        "failure_signal": "Learner gives correct first-quadrant exact values but fails for angles in other quadrants.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_on_unit_circle.requires.sine_cosine_unit_circle",
+        "from": "math.senior.functions.trig.tangent_on_unit_circle",
+        "to": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Tangent on the unit circle is interpreted through the ratio of sine to cosine and where cosine is zero.",
+        "failure_signal": "Learner gives tangent values without connecting them to sine over cosine or misses undefined tangent positions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1690
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1723
+  }
+}

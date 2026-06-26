@@ -1,0 +1,114 @@
+{
+  "patch_id": "patch.math.advanced_functions.inverse_cleanup.001",
+  "applied_at": "2026-06-25T13:38:08.598Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.horizontal_line_test",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.inverse_reverses_inputs_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.restrict_domain_for_inverse",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.inverse_reverses_inputs_outputs",
+          "math.kp.senior.functions.domain_inputs_range_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.inverse_from_ordered_pairs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.inverse_reverses_inputs_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.inverse_graph_reflection",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.inverse_graph_reflects_y_equals_x"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.algebraic_inverse_steps",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.inverse_reverses_inputs_outputs",
+          "math.kp.senior.functions.inverse_not_reciprocal"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.restrict_domain_for_inverse.requires.domain_meaning",
+        "from": "math.senior.functions.restrict_domain_for_inverse",
+        "to": "math.senior.functions.domain_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Choosing a restricted domain for an inverse requires understanding the original function's allowable input set and how branch choices restrict those inputs.",
+        "failure_signal": "Learner chooses a branch visually but cannot express the corresponding input restriction or allowed domain interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_inverse_steps.requires.variables_on_both_sides",
+        "from": "math.senior.functions.algebraic_inverse_steps",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Finding an inverse formula by swapping variables and solving often requires rearranging an equation with variables on both sides or in nontrivial positions.",
+        "failure_signal": "Learner understands inverse notation but cannot isolate the output variable after swapping x and y.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1861
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1863
+  }
+}

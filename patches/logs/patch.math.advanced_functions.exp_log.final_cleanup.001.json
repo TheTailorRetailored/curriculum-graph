@@ -1,0 +1,832 @@
+{
+  "patch_id": "patch.math.advanced_functions.exp_log.final_cleanup.001",
+  "applied_at": "2026-06-25T13:42:30.519Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 42,
+      "nodes_updated": 12
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_transformations.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_transformations",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithmic_transformations.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.logarithmic_transformations",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_base_e_meaning.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.natural_base_e_meaning",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_exponential_function.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.natural_exponential_function",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_log_function.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.natural_log_function",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_modelling.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exp_log_modelling",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.model_parameters_context.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.model_parameters_context",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_vertical_shift_asymptote.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_vertical_shift_asymptote",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.asymptote_after_vertical_shift.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_time_in_growth_model.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubling_time_model.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.doubling_time_model",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.half_life_model.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.half_life_model",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.exponential_transformations",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.exponential_transformations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Exponential transformations are a standard graph-analysis component within the exponential and logarithmic functions unit.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.logarithmic_transformations",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.logarithmic_transformations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Logarithmic transformations extend log graph analysis using function transformation ideas.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.natural_exponential_function",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.natural_exponential_function",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The natural exponential function is a standard later special case of exponential functions and continuous growth modelling.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.natural_log_function",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.natural_log_function",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The natural logarithm is the inverse function associated with the natural exponential function and a standard later log topic.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.exp_log_modelling",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.exp_log_modelling",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Exponential and logarithmic modelling is an applied endpoint of the unit, connecting growth, decay and inverse relationships to context.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_transformations.encompasses.exponential_vertical_shift_asymptote",
+        "from": "math.senior.functions.exp_log.exponential_transformations",
+        "to": "math.senior.functions.exp_log.exponential_vertical_shift_asymptote",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Vertical shift and its effect on the horizontal asymptote is a specific transformation subskill for exponential graphs.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_vertical_shift_asymptote.encompasses.asymptote_after_vertical_shift",
+        "from": "math.senior.functions.exp_log.exponential_vertical_shift_asymptote",
+        "to": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Determining the shifted asymptote is the concrete observable subskill within exponential vertical-shift analysis.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_exponential_function.encompasses.natural_base_e_meaning",
+        "from": "math.senior.functions.exp_log.natural_exponential_function",
+        "to": "math.senior.functions.exp_log.natural_base_e_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Understanding the base e is a conceptual subskill within work on the natural exponential function.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_modelling.encompasses.model_parameters_context",
+        "from": "math.senior.functions.exp_log.exp_log_modelling",
+        "to": "math.senior.functions.exp_log.model_parameters_context",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interpreting model parameters in context is a core subskill in exponential and logarithmic modelling.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_modelling.encompasses.solve_time_in_growth_model",
+        "from": "math.senior.functions.exp_log.exp_log_modelling",
+        "to": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Solving for time in a growth or decay model is a common modelling task within exponential/logarithmic applications.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_time_in_growth_model.encompasses.doubling_time_model",
+        "from": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "to": "math.senior.functions.exp_log.doubling_time_model",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Doubling-time model tasks are a specific case of solving or interpreting time in exponential growth models.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_time_in_growth_model.encompasses.half_life_model",
+        "from": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "to": "math.senior.functions.exp_log.half_life_model",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Half-life model tasks are a specific case of solving or interpreting time in exponential decay models.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_transformations.requires.exponential_graph_features",
+        "from": "math.senior.functions.exp_log.exponential_transformations",
+        "to": "math.senior.functions.exp_log.exponential_graph_features",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Transforming exponential graphs requires recognising the base graph features before interpreting shifts, stretches or reflections.",
+        "failure_signal": "Learner applies transformations without preserving or identifying intercepts, monotonicity or asymptotic behaviour of the base exponential graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_transformations.requires.function_transformations",
+        "from": "math.senior.functions.exp_log.exponential_transformations",
+        "to": "math.senior.functions.function_transformations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Exponential transformations use the general language of translations, stretches and reflections applied to a specific function family.",
+        "failure_signal": "Learner recognises exponential shape but cannot separate vertical shift, horizontal shift, reflection or stretch effects.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_vertical_shift_asymptote.requires.exponential_transformations",
+        "from": "math.senior.functions.exp_log.exponential_vertical_shift_asymptote",
+        "to": "math.senior.functions.exp_log.exponential_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Tracking how a vertical shift changes the horizontal asymptote is a specific exponential transformation task.",
+        "failure_signal": "Learner shifts points on the graph but leaves the horizontal asymptote at its original value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.asymptote_after_vertical_shift.requires.exponential_vertical_shift_asymptote",
+        "from": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "to": "math.senior.functions.exp_log.exponential_vertical_shift_asymptote",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Determining the new asymptote after a vertical shift is a focused subskill within vertical-shift asymptote reasoning.",
+        "failure_signal": "Learner gives the original asymptote rather than adding the vertical shift to the asymptote value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithmic_transformations.requires.logarithmic_function_graphs",
+        "from": "math.senior.functions.exp_log.logarithmic_transformations",
+        "to": "math.senior.functions.exp_log.logarithmic_function_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Transforming logarithmic graphs requires recognising the base log graph and its domain/asymptote behaviour first.",
+        "failure_signal": "Learner applies shifts or reflections but loses the vertical asymptote or invalid-input restriction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithmic_transformations.requires.function_transformations",
+        "from": "math.senior.functions.exp_log.logarithmic_transformations",
+        "to": "math.senior.functions.function_transformations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Logarithmic transformations use the general language of translations, stretches and reflections applied to log graphs.",
+        "failure_signal": "Learner knows the log parent graph but cannot interpret transformed formulas as graph changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_base_e_meaning.requires.exponential_function_form",
+        "from": "math.senior.functions.exp_log.natural_base_e_meaning",
+        "to": "math.senior.functions.exp_log.exponential_function_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding e as a special exponential base builds on general exponential function form and base interpretation.",
+        "failure_signal": "Learner treats e as a variable or arbitrary constant rather than as a special base for continuous growth contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_exponential_function.requires.natural_base_e_meaning",
+        "from": "math.senior.functions.exp_log.natural_exponential_function",
+        "to": "math.senior.functions.exp_log.natural_base_e_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interpreting the natural exponential function requires recognising e as the base and understanding its role in continuous exponential models.",
+        "failure_signal": "Learner can manipulate e^x syntactically but cannot identify it as an exponential function with base e or connect it to growth contexts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.natural_log_function.requires.natural_exponential_function",
+        "from": "math.senior.functions.exp_log.natural_log_function",
+        "to": "math.senior.functions.exp_log.natural_exponential_function",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The natural logarithm is the inverse of the natural exponential function, so its meaning depends on understanding e^x first.",
+        "failure_signal": "Learner treats ln as a separate calculator operation without recognising it as log base e or inverse to e^x.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_modelling.requires.exponential_growth_decay",
+        "from": "math.senior.functions.exp_log.exp_log_modelling",
+        "to": "math.senior.functions.exp_log.exponential_growth_decay",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Choosing exponential or logarithmic models requires understanding multiplicative growth and decay behaviour in context.",
+        "failure_signal": "Learner models multiplicative change linearly or cannot identify when exponential growth or decay is appropriate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.model_parameters_context.requires.exp_log_modelling",
+        "from": "math.senior.functions.exp_log.model_parameters_context",
+        "to": "math.senior.functions.exp_log.exp_log_modelling",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting parameters in context is a focused modelling subskill after choosing or recognising an exponential/logarithmic model.",
+        "failure_signal": "Learner fits a formula but cannot explain what initial value, growth factor, asymptote, time unit or scale parameter means in the situation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_time_in_growth_model.requires.solve_exponential_equations_with_logs",
+        "from": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "to": "math.senior.functions.exp_log.solve_exponential_equations_with_logs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving for time in exponential models usually requires applying logarithms to solve an exponential equation.",
+        "failure_signal": "Learner sets up the growth model but cannot isolate the time variable using logarithms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_time_in_growth_model.requires.exp_log_modelling",
+        "from": "math.senior.functions.exp_log.solve_time_in_growth_model",
+        "to": "math.senior.functions.exp_log.exp_log_modelling",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Solving for time in a model requires interpreting the equation and the resulting time value in context, not just solving symbolically.",
+        "failure_signal": "Learner solves for t but cannot interpret the time unit or reasonableness of the solution in the model context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubling_time_model.requires.doubling_time",
+        "from": "math.senior.functions.exp_log.doubling_time_model",
+        "to": "math.senior.functions.exp_log.doubling_time",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Doubling-time modelling builds on the concept of a fixed doubling time in exponential growth.",
+        "failure_signal": "Learner recognises growth but cannot use a doubling interval to construct or interpret the model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.half_life_model.requires.halving_time",
+        "from": "math.senior.functions.exp_log.half_life_model",
+        "to": "math.senior.functions.exp_log.halving_time",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Half-life modelling builds on the concept of a fixed halving time in exponential decay.",
+        "failure_signal": "Learner recognises decay but cannot use a half-life interval to construct or interpret the model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_transformations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.transformations_change_graph_features"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.logarithmic_transformations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.transformations_change_graph_features"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_vertical_shift_asymptote",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_asymptote_not_reached"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_asymptote_not_reached"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.natural_base_e_meaning",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.e_models_continuous_growth"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.natural_exponential_function",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.e_models_continuous_growth"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.natural_log_function",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.logarithm_answers_exponent_question"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exp_log_modelling",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.growth_factor_is_multiplier"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.model_parameters_context",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.growth_factor_is_multiplier"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.solve_time_in_growth_model",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.doubling_half_life_solve_with_logs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.doubling_time_model",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.doubling_half_life_solve_with_logs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.half_life_model",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.doubling_half_life_solve_with_logs"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_vertical_shift_asymptote.has_misconception.vertical_shift_does_not_move_asymptote",
+        "from": "math.senior.functions.exp_log.exponential_vertical_shift_asymptote",
+        "to": "math.misconception.senior.functions.vertical_shift_does_not_move_asymptote",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Vertical-shift asymptote tasks directly diagnose the misconception that only the curve points move while the asymptote remains fixed.",
+        "failure_signal": "Learner shifts the exponential graph but leaves the horizontal asymptote at y = 0 instead of shifting it with the graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.asymptote_after_vertical_shift.has_misconception.vertical_shift_does_not_move_asymptote",
+        "from": "math.senior.functions.exp_log.asymptote_after_vertical_shift",
+        "to": "math.misconception.senior.functions.vertical_shift_does_not_move_asymptote",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Determining the shifted asymptote is the most specific place where this misconception appears.",
+        "failure_signal": "Learner gives the original horizontal asymptote after applying a vertical translation to the exponential function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_modelling.has_misconception.growth_rate_growth_factor_confusion",
+        "from": "math.senior.functions.exp_log.exp_log_modelling",
+        "to": "math.misconception.senior.functions.growth_rate_growth_factor_confusion",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Contextual modelling often reveals confusion between stated rates and the multiplicative factors used in exponential models.",
+        "failure_signal": "Learner writes a contextual growth or decay model using a percentage rate as the multiplier instead of converting it to the correct factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1863
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1905
+  }
+}

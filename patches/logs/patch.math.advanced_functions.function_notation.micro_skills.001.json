@@ -1,0 +1,485 @@
+{
+  "patch_id": "patch.math.advanced_functions.function_notation.micro_skills.001",
+  "applied_at": "2026-06-25T12:53:17.808Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 24,
+      "nodes_updated": 6
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_machine_view.part_of.advanced_functions",
+        "from": "math.senior.functions.function_machine_view",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_function_at_expression.part_of.advanced_functions",
+        "from": "math.senior.functions.evaluate_function_at_expression",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_from_table.part_of.advanced_functions",
+        "from": "math.senior.functions.composition_from_table",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_from_graph.part_of.advanced_functions",
+        "from": "math.senior.functions.composition_from_graph",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_domain_restrictions.part_of.advanced_functions",
+        "from": "math.senior.functions.composite_domain_restrictions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.function_machine_view",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.function_machine_view",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The function-machine view is a conceptual representation inside the broader function notation unit, emphasising input-output process meaning.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.evaluate_function_at_expression",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.evaluate_function_at_expression",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating a function at an algebraic expression is a function-notation subskill extending ordinary evaluation.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.composition_from_table",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.composition_from_table",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating composite functions from tables is a representational subskill within function composition work.",
+        "weight": 0.3,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.composition_from_graph",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.composition_from_graph",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating composite functions from graphs is a representational subskill within function composition work.",
+        "weight": 0.3,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.composite_domain_restrictions",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.composite_domain_restrictions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Composite-domain restrictions are a later function-composition subskill within the function notation and composition unit.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_functions.encompasses.evaluate_function_at_expression",
+        "from": "math.senior.functions.evaluate_functions",
+        "to": "math.senior.functions.evaluate_function_at_expression",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating at an algebraic expression is a specific extension of evaluating functions at given inputs.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_composition_meaning.encompasses.composition_from_table",
+        "from": "math.senior.functions.function_composition_meaning",
+        "to": "math.senior.functions.composition_from_table",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Table-based composition is a concrete representation of the composition idea using tabular input-output values.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_composition_meaning.encompasses.composition_from_graph",
+        "from": "math.senior.functions.function_composition_meaning",
+        "to": "math.senior.functions.composition_from_graph",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graph-based composition is a concrete representation of the composition idea using graph-read input-output values.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_composition_meaning.encompasses.composite_domain_restrictions",
+        "from": "math.senior.functions.function_composition_meaning",
+        "to": "math.senior.functions.composite_domain_restrictions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Composite-domain restrictions are a later application of the composition idea involving valid inner outputs and outer inputs.",
+        "weight": 0.3,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_machine_view.requires.input_output_notation",
+        "from": "math.senior.functions.function_machine_view",
+        "to": "math.senior.functions.input_output_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The function-machine view depends on interpreting function notation as assigning outputs to inputs rather than as a static equation label.",
+        "failure_signal": "Learner describes the function machine as a formula to solve rather than as a process mapping input values to output values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_function_at_expression.requires.evaluate_functions",
+        "from": "math.senior.functions.evaluate_function_at_expression",
+        "to": "math.senior.functions.evaluate_functions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Evaluating a function at an expression extends ordinary function evaluation by substituting an algebraic expression as the input.",
+        "failure_signal": "Learner can evaluate f(3) but cannot substitute x+1 or 2t into the function rule correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_from_table.requires.compose_outer_inner_order",
+        "from": "math.senior.functions.composition_from_table",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Table-based composition requires selecting the inner function output first and then using it as the outer function input.",
+        "failure_signal": "Learner reads the two tables in the wrong order or uses the original input directly in the outer table.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_from_graph.requires.compose_outer_inner_order",
+        "from": "math.senior.functions.composition_from_graph",
+        "to": "math.senior.functions.compose_outer_inner_order",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Graph-based composition requires tracing the inner output and then reading the outer function at that value.",
+        "failure_signal": "Learner reads both function values at the same original x-value instead of feeding the inner output into the outer graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_domain_restrictions.requires.function_composition_meaning",
+        "from": "math.senior.functions.composite_domain_restrictions",
+        "to": "math.senior.functions.function_composition_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Composite-domain restrictions depend on understanding that the inner function output becomes the input to the outer function.",
+        "failure_signal": "Learner checks only the original input domain and ignores whether the inner output is valid for the outer function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_domain_restrictions.requires.domain_restrictions",
+        "from": "math.senior.functions.composite_domain_restrictions",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Determining a composite domain requires applying domain restriction reasoning to both the inner function and the outer function's allowed inputs.",
+        "failure_signal": "Learner forms the composite rule but includes inputs that make the inner function invalid or make the outer function receive an invalid input.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.evaluate_functions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.function_assigns_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.function_machine_view",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.function_assigns_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.evaluate_function_at_expression",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.function_assigns_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.composition_from_table",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.composition_applies_inner_first"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.composition_from_graph",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.composition_applies_inner_first"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.composite_domain_restrictions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.composition_applies_inner_first",
+          "math.kp.senior.functions.domain_inputs_range_outputs"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_machine_view.has_misconception.function_as_equation_only",
+        "from": "math.senior.functions.function_machine_view",
+        "to": "math.misconception.senior.functions.function_as_equation_only",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Learners who treat functions only as equations often fail to interpret a function machine as an input-output process.",
+        "failure_signal": "Learner says the machine is something to solve rather than a process that transforms each input into an output.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_from_table.has_misconception.composition_order_reversed",
+        "from": "math.senior.functions.composition_from_table",
+        "to": "math.misconception.senior.functions.composition_order_reversed",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Table-based composition directly exposes order reversal when the learner reads the outer table before the inner table.",
+        "failure_signal": "Learner uses the original input in the outer table first or swaps f(g(x)) with g(f(x)) while reading tables.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composition_from_graph.has_misconception.composition_order_reversed",
+        "from": "math.senior.functions.composition_from_graph",
+        "to": "math.misconception.senior.functions.composition_order_reversed",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Graph-based composition directly exposes order reversal when the learner reads the two graph outputs in the wrong order.",
+        "failure_signal": "Learner reads both graphs at the original x-value or traces from the outer graph before finding the inner output.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_domain_restrictions.has_misconception.composition_order_reversed",
+        "from": "math.senior.functions.composite_domain_restrictions",
+        "to": "math.misconception.senior.functions.composition_order_reversed",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Reversing composition order often leads to checking the wrong inner-output restrictions when determining a composite domain.",
+        "failure_signal": "Learner applies the domain restrictions for g(f(x)) when asked for f(g(x)), or checks the outer domain against the original input rather than the inner output.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1826
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1850
+  }
+}

@@ -1,0 +1,565 @@
+{
+  "patch_id": "patch.math.advanced_functions.exp_log.exponential_spine.001",
+  "applied_at": "2026-06-25T11:40:10.370Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 33,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_function_form.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_function_form",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_initial_value.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_initial_value",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_base_growth_factor.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_base_growth_factor",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_as_initial_value.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.y_intercept_as_initial_value",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_growth_decay.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_growth_decay",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_growth_decay_models.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.percent_growth_decay_models",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubling_time.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.doubling_time",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.halving_time.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.halving_time",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_graph_features.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_graph_features",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_horizontal_asymptote.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_horizontal_asymptote",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_domain_range.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_domain_range",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rewrite_to_common_base.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.rewrite_to_common_base",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_equations_common_base.part_of.advanced_functions",
+        "from": "math.senior.functions.exp_log.exponential_equations_common_base",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.exponential_function_form",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.exponential_function_form",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Exponential function form is a central starting point for the exponential side of the exponential and logarithmic functions unit.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.exponential_growth_decay",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.exponential_growth_decay",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Growth and decay models are core applications of exponential functions in the unit.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.exponential_graph_features",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.exponential_graph_features",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graph features are a core representational component of exponential function analysis.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.exponential_equations_common_base",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.exponential_equations_common_base",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Common-base exponential equations are a standard procedural component before logarithmic solution methods.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.percent_growth_decay_models",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.percent_growth_decay_models",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Converting percentage growth and decay rates into exponential models is a common modelling subskill in the unit.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.doubling_time",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.doubling_time",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Doubling time is a specific modelling subskill for exponential growth contexts.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exp_log_functions.encompasses.halving_time",
+        "from": "math.senior.functions.exponential_logarithmic_functions",
+        "to": "math.senior.functions.exp_log.halving_time",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Halving time is a specific modelling subskill for exponential decay contexts.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_function_form.requires.index_laws",
+        "from": "math.senior.functions.exp_log.exponential_function_form",
+        "to": "math.number.powers.index_laws",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting exponential function notation depends on understanding powers and index notation.",
+        "failure_signal": "Learner treats the exponent as a multiplier or cannot interpret how changing the input changes the power.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_initial_value.requires.exponential_function_form",
+        "from": "math.senior.functions.exp_log.exponential_initial_value",
+        "to": "math.senior.functions.exp_log.exponential_function_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Identifying the initial value depends on interpreting the parameters in an exponential function form.",
+        "failure_signal": "Learner cannot locate the starting value or leading coefficient in an exponential rule or model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_base_growth_factor.requires.exponential_function_form",
+        "from": "math.senior.functions.exp_log.exponential_base_growth_factor",
+        "to": "math.senior.functions.exp_log.exponential_function_form",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interpreting the base as a growth or decay factor depends on recognising the base and exponent roles in exponential form.",
+        "failure_signal": "Learner treats the base as an additive rate or confuses the leading coefficient with the repeated multiplier.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_as_initial_value.requires.exponential_initial_value",
+        "from": "math.senior.functions.exp_log.y_intercept_as_initial_value",
+        "to": "math.senior.functions.exp_log.exponential_initial_value",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting the y-intercept as initial value extends the parameter idea to the graph at input zero.",
+        "failure_signal": "Learner reads the intercept as a generic graph point without connecting it to the model's starting amount.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_growth_decay.requires.exponential_base_growth_factor",
+        "from": "math.senior.functions.exp_log.exponential_growth_decay",
+        "to": "math.senior.functions.exp_log.exponential_base_growth_factor",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Growth and decay modelling depends on interpreting the exponential base as the repeated multiplier between equal input steps.",
+        "failure_signal": "Learner models growth or decay by adding or subtracting a fixed amount rather than multiplying by a fixed factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_growth_decay_models.requires.exponential_base_growth_factor",
+        "from": "math.senior.functions.exp_log.percent_growth_decay_models",
+        "to": "math.senior.functions.exp_log.exponential_base_growth_factor",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Converting a percentage growth or decay rate requires interpreting the resulting multiplier as the exponential base or factor.",
+        "failure_signal": "Learner uses 5 as the multiplier for 5 percent growth instead of 1.05, or uses 0.05 instead of 0.95 for 5 percent decay.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubling_time.requires.exponential_growth_decay",
+        "from": "math.senior.functions.exp_log.doubling_time",
+        "to": "math.senior.functions.exp_log.exponential_growth_decay",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Doubling time is a specific property of exponential growth models based on repeated multiplicative change.",
+        "failure_signal": "Learner treats doubling as adding the original amount once rather than reaching a factor of two through the exponential model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.halving_time.requires.exponential_growth_decay",
+        "from": "math.senior.functions.exp_log.halving_time",
+        "to": "math.senior.functions.exp_log.exponential_growth_decay",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Halving time is a specific property of exponential decay models based on repeated multiplicative change.",
+        "failure_signal": "Learner treats halving as subtracting a fixed amount rather than reaching a factor of one half through the exponential model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_graph_features.requires.exponential_function_form",
+        "from": "math.senior.functions.exp_log.exponential_graph_features",
+        "to": "math.senior.functions.exp_log.exponential_function_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Analysing exponential graph features depends on recognising the function form and how its parameters control output behaviour.",
+        "failure_signal": "Learner sketches a generic curve without connecting intercept, monotonicity or end behaviour to the exponential rule.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_horizontal_asymptote.requires.exponential_graph_features",
+        "from": "math.senior.functions.exp_log.exponential_horizontal_asymptote",
+        "to": "math.senior.functions.exp_log.exponential_graph_features",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Identifying the horizontal asymptote is a specific graph-feature task for exponential functions.",
+        "failure_signal": "Learner treats the asymptote as an intercept or as a value the graph must eventually cross.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_domain_range.requires.exponential_graph_features",
+        "from": "math.senior.functions.exp_log.exponential_domain_range",
+        "to": "math.senior.functions.exp_log.exponential_graph_features",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Determining exponential domain and range depends on understanding the graph's intercepts, asymptote and long-run behaviour.",
+        "failure_signal": "Learner gives all real numbers as the range for an unshifted positive exponential or includes the asymptote value as an attained output.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rewrite_to_common_base.requires.index_laws",
+        "from": "math.senior.functions.exp_log.rewrite_to_common_base",
+        "to": "math.number.powers.index_laws",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Rewriting exponential expressions to a common base depends on fluency with equivalent powers and index laws.",
+        "failure_signal": "Learner cannot rewrite values such as 8 and 32 as powers of 2 or mishandles exponent laws when matching bases.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_equations_common_base.requires.rewrite_to_common_base",
+        "from": "math.senior.functions.exp_log.exponential_equations_common_base",
+        "to": "math.senior.functions.exp_log.rewrite_to_common_base",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving common-base exponential equations requires first rewriting both sides with matching bases where possible.",
+        "failure_signal": "Learner equates exponents before making bases equal or cannot transform both sides into comparable powers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1596
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1629
+  }
+}

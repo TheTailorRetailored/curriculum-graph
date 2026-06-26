@@ -1,0 +1,320 @@
+{
+  "patch_id": "patch.math.advanced_functions.exp_log.logarithm_diagnostics.001",
+  "applied_at": "2026-06-25T11:49:32.575Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 9,
+      "nodes_updated": 15
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.logarithm_meaning_inverse",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.logarithm_answers_exponent_question"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.logarithmic_exponential_form_conversion",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.logarithm_answers_exponent_question"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_base_argument_conditions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.valid_exp_log_base_conditions",
+          "math.kp.senior.functions.log_arguments_must_be_positive"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.valid_base_conditions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.valid_exp_log_base_conditions"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_argument_positive_check",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_arguments_must_be_positive"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.logarithm_laws",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_laws_come_from_index_laws"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_product_law_applications",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_laws_come_from_index_laws"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_quotient_law_applications",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_laws_come_from_index_laws"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_power_law_applications",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_laws_come_from_index_laws"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.change_of_base_formula",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.change_of_base_enables_calculation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_base_change_context",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.change_of_base_enables_calculation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.logarithmic_function_graphs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_arguments_must_be_positive"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_vertical_asymptote_domain",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_arguments_must_be_positive"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.solve_log_equations_check_domain",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_solutions_must_satisfy_domain"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_equation_extraneous_solution_check",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.log_solutions_must_satisfy_domain"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_base_argument_conditions.has_misconception.ignore_log_domain",
+        "from": "math.senior.functions.exp_log.log_base_argument_conditions",
+        "to": "math.misconception.senior.functions.ignore_log_domain",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Ignoring logarithm domain is directly diagnosed when identifying valid bases and positive arguments.",
+        "failure_signal": "Learner allows zero or negative arguments or invalid bases when interpreting a logarithmic expression.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_argument_positive_check.has_misconception.ignore_log_domain",
+        "from": "math.senior.functions.exp_log.log_argument_positive_check",
+        "to": "math.misconception.senior.functions.ignore_log_domain",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Checking positivity of log arguments targets the misconception that logarithms can be manipulated without domain restrictions.",
+        "failure_signal": "Learner applies logarithm laws before verifying that every original argument is positive.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.logarithm_laws.has_misconception.log_distributes_over_sum",
+        "from": "math.senior.functions.exp_log.logarithm_laws",
+        "to": "math.misconception.senior.functions.log_distributes_over_sum",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "The false rule log of a sum equals sum of logs is a central misconception when learning valid logarithm laws.",
+        "failure_signal": "Learner expands log(a + b) as log(a) + log(b) or combines log terms into a sum inside one logarithm.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_product_law_applications.has_misconception.log_distributes_over_sum",
+        "from": "math.senior.functions.exp_log.log_product_law_applications",
+        "to": "math.misconception.senior.functions.log_distributes_over_sum",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Product-law applications are where learners often overgeneralise the product law to sums inside a logarithm.",
+        "failure_signal": "Learner treats a sum inside a log as though it were a product that can be separated into added logarithms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_base_conditions.has_misconception.base_one_as_exponential",
+        "from": "math.senior.functions.exp_log.valid_base_conditions",
+        "to": "math.misconception.senior.functions.base_one_as_exponential",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Base-one confusion is specifically diagnosed when recognising valid exponential and logarithmic base conditions.",
+        "failure_signal": "Learner treats base one as a valid exponential growth or logarithmic base rather than recognising the resulting degeneracy.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_equation_isolate_power.has_misconception.take_log_before_isolating_power",
+        "from": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+        "to": "math.misconception.senior.functions.take_log_before_isolating_power",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Taking logs before isolating the exponential term is directly diagnosed in the isolate-power step before logarithmic solving.",
+        "failure_signal": "Learner takes logarithms across a sum or unisolated expression and creates invalid transformations before solving.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_log_equations_check_domain.has_misconception.log_solution_domain_not_checked",
+        "from": "math.senior.functions.exp_log.solve_log_equations_check_domain",
+        "to": "math.misconception.senior.functions.log_solution_domain_not_checked",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Failing to check the original log-domain restrictions is a central diagnostic misconception in solving logarithmic equations.",
+        "failure_signal": "Learner accepts an algebraic solution that makes one of the original logarithm arguments zero or negative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_equation_extraneous_solution_check.has_misconception.log_solution_domain_not_checked",
+        "from": "math.senior.functions.exp_log.log_equation_extraneous_solution_check",
+        "to": "math.misconception.senior.functions.log_solution_domain_not_checked",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Extraneous-solution checking is the most specific remediation target for accepting invalid logarithmic equation solutions.",
+        "failure_signal": "Learner does not substitute candidate solutions back into the original logarithmic arguments to test positivity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.log_vertical_asymptote_domain.has_misconception.ignore_log_domain",
+        "from": "math.senior.functions.exp_log.log_vertical_asymptote_domain",
+        "to": "math.misconception.senior.functions.ignore_log_domain",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Log graph domain and vertical-asymptote work reveals whether the learner respects positive argument restrictions graphically.",
+        "failure_signal": "Learner graphs or describes a logarithmic function across nonpositive argument values or misses the boundary asymptote.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1681
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1690
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "patch_id": "patch.math.advanced_functions.exp_log.exponential_diagnostics.001",
+  "applied_at": "2026-06-25T11:41:56.625Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 9
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_function_form",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_constant_ratio"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_base_growth_factor",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.growth_factor_is_multiplier"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_growth_decay",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_constant_ratio",
+          "math.kp.senior.functions.growth_factor_is_multiplier"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.percent_growth_decay_models",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.growth_factor_is_multiplier"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.doubling_time",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.doubling_time_constant_for_exponential"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.halving_time",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.doubling_time_constant_for_exponential"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_graph_features",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_asymptote_not_reached"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_horizontal_asymptote",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_asymptote_not_reached"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_domain_range",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_asymptote_not_reached"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_growth_decay.has_misconception.exponential_as_linear_growth",
+        "from": "math.senior.functions.exp_log.exponential_growth_decay",
+        "to": "math.misconception.senior.functions.exponential_as_linear_growth",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Treating exponential change as repeated addition is the central misconception when modelling growth and decay multiplicatively.",
+        "failure_signal": "Learner adds a fixed amount each period instead of multiplying by a fixed factor for each equal input step.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_growth_decay_models.has_misconception.growth_rate_growth_factor_confusion",
+        "from": "math.senior.functions.exp_log.percent_growth_decay_models",
+        "to": "math.misconception.senior.functions.growth_rate_growth_factor_confusion",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Percentage growth and decay models specifically diagnose confusion between a stated percentage rate and the multiplicative growth or decay factor used in the model.",
+        "failure_signal": "Learner writes a 5 percent growth model with factor 5 or 0.05 instead of 1.05, or a 5 percent decay model with 0.05 instead of 0.95.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.doubling_time.has_misconception.doubling_time_linear_addition",
+        "from": "math.senior.functions.exp_log.doubling_time",
+        "to": "math.misconception.senior.functions.doubling_time_linear_addition",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Doubling-time tasks commonly reveal whether the learner is reasoning multiplicatively or treating growth as repeated addition.",
+        "failure_signal": "Learner predicts equal additive increases over each doubling interval rather than a constant multiplicative factor of two.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.halving_time.has_misconception.doubling_time_linear_addition",
+        "from": "math.senior.functions.exp_log.halving_time",
+        "to": "math.misconception.senior.functions.doubling_time_linear_addition",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Although named for doubling, the same additive-time misconception appears in half-life tasks when learners subtract a fixed amount rather than halve repeatedly.",
+        "failure_signal": "Learner predicts equal additive decreases over each half-life interval rather than repeated multiplication by one half.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_horizontal_asymptote.has_misconception.asymptote_as_intercept",
+        "from": "math.senior.functions.exp_log.exponential_horizontal_asymptote",
+        "to": "math.misconception.senior.functions.asymptote_as_intercept",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "The misconception that an asymptote is an intercept is most directly diagnosed when identifying the horizontal asymptote of an exponential graph.",
+        "failure_signal": "Learner marks the asymptote as a point the graph crosses or includes the asymptote value as an ordinary output value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.exponential_domain_range.has_misconception.asymptote_as_intercept",
+        "from": "math.senior.functions.exp_log.exponential_domain_range",
+        "to": "math.misconception.senior.functions.asymptote_as_intercept",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Incorrectly treating the asymptote as attained directly affects range descriptions for exponential functions.",
+        "failure_signal": "Learner includes the asymptote value in the range for a graph that approaches but does not attain it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1629
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1635
+  }
+}

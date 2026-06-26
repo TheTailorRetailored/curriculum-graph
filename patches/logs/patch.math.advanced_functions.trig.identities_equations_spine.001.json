@@ -1,0 +1,658 @@
+{
+  "patch_id": "patch.math.advanced_functions.trig.identities_equations_spine.001",
+  "applied_at": "2026-06-25T12:23:04.239Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 38,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_identities.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.basic_trig_identities",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_quotient_identities.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.reciprocal_quotient_identities",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pythagorean_identity.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.pythagorean_identity",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_difference_identities_intro.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.sum_difference_identities_intro",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identity_proof_strategy.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.identity_proof_strategy",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_equations.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.basic_trig_equations",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_trig_equations_on_interval.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.solve_trig_equations_on_interval",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.general_trig_solutions.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.general_trig_solutions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.general_solution_notation.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.general_solution_notation",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_trig_functions.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.inverse_trig_functions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_trig_principal_values.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.inverse_trig_principal_values",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.basic_trig_identities",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.basic_trig_identities",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Basic trigonometric identities are a core algebraic component of the trigonometric functions unit.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.pythagorean_identity",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.pythagorean_identity",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The Pythagorean identity is a central identity used in simplifying and proving trigonometric expressions.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.basic_trig_equations",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.basic_trig_equations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Solving basic trigonometric equations is a core procedural component of the trigonometric functions unit.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.general_trig_solutions",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.general_trig_solutions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "General solution forms express the full periodic solution behaviour of trigonometric equations.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.inverse_trig_functions",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.inverse_trig_functions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Inverse trigonometric functions are a later component of the unit connecting function inverses to trig equation solving and principal values.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_identities.encompasses.reciprocal_quotient_identities",
+        "from": "math.senior.functions.trig.basic_trig_identities",
+        "to": "math.senior.functions.trig.reciprocal_quotient_identities",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reciprocal and quotient relationships are specific identity families within basic trigonometric identities.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_identities.encompasses.pythagorean_identity",
+        "from": "math.senior.functions.trig.basic_trig_identities",
+        "to": "math.senior.functions.trig.pythagorean_identity",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The Pythagorean identity is a core identity within the basic trigonometric identity toolkit.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_identities.encompasses.sum_difference_identities_intro",
+        "from": "math.senior.functions.trig.basic_trig_identities",
+        "to": "math.senior.functions.trig.sum_difference_identities_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Sum and difference identities are an extension of the identity toolkit after the basic reciprocal, quotient and Pythagorean relationships.",
+        "weight": 0.3,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_identities.encompasses.identity_proof_strategy",
+        "from": "math.senior.functions.trig.basic_trig_identities",
+        "to": "math.senior.functions.trig.identity_proof_strategy",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identity proof strategy is an application of the trigonometric identity toolkit to equivalent-expression reasoning.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_equations.encompasses.solve_trig_equations_on_interval",
+        "from": "math.senior.functions.trig.basic_trig_equations",
+        "to": "math.senior.functions.trig.solve_trig_equations_on_interval",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Solving equations on a specified interval is a concrete subskill within basic trigonometric equation solving.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.general_trig_solutions.encompasses.general_solution_notation",
+        "from": "math.senior.functions.trig.general_trig_solutions",
+        "to": "math.senior.functions.trig.general_solution_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "General solution notation is the formal notation subskill for expressing periodic trigonometric solution families.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_trig_functions.encompasses.inverse_trig_principal_values",
+        "from": "math.senior.functions.trig.inverse_trig_functions",
+        "to": "math.senior.functions.trig.inverse_trig_principal_values",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Principal values are the key output convention for inverse trigonometric functions.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_identities.requires.sine_cosine_unit_circle",
+        "from": "math.senior.functions.trig.basic_trig_identities",
+        "to": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Basic trigonometric identities are meaningful when sine and cosine are understood as functions with coordinate-based relationships.",
+        "failure_signal": "Learner manipulates symbols without knowing what sine and cosine represent or when an identity should hold.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reciprocal_quotient_identities.requires.basic_trig_identities",
+        "from": "math.senior.functions.trig.reciprocal_quotient_identities",
+        "to": "math.senior.functions.trig.basic_trig_identities",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Reciprocal and quotient identities are specific members of the basic trigonometric identity family.",
+        "failure_signal": "Learner cannot rewrite secant, cosecant, cotangent or tangent in terms of sine and cosine.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pythagorean_identity.requires.sine_cosine_unit_circle",
+        "from": "math.senior.functions.trig.pythagorean_identity",
+        "to": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The Pythagorean identity follows from the unit-circle coordinate relationship between sine and cosine.",
+        "failure_signal": "Learner memorises the identity but cannot connect it to x^2 + y^2 = 1 on the unit circle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_difference_identities_intro.requires.basic_trig_identities",
+        "from": "math.senior.functions.trig.sum_difference_identities_intro",
+        "to": "math.senior.functions.trig.basic_trig_identities",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Sum and difference identities extend the identity toolkit and require prior familiarity with equivalent trigonometric relationships.",
+        "failure_signal": "Learner treats compound-angle identities as unrelated formulas and cannot use them coherently with simpler identities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identity_proof_strategy.requires.basic_trig_identities",
+        "from": "math.senior.functions.trig.identity_proof_strategy",
+        "to": "math.senior.functions.trig.basic_trig_identities",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Proving trigonometric identities depends on choosing and applying known identities while preserving equivalence.",
+        "failure_signal": "Learner substitutes numerical examples or changes both sides without a valid chain of equivalent transformations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identity_proof_strategy.requires.pythagorean_identity",
+        "from": "math.senior.functions.trig.identity_proof_strategy",
+        "to": "math.senior.functions.trig.pythagorean_identity",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Many introductory identity proofs require recognising and applying the Pythagorean identity or its rearrangements.",
+        "failure_signal": "Learner cannot transform expressions involving sin^2 and cos^2 into equivalent forms during a proof.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_equations.requires.exact_unit_circle_values",
+        "from": "math.senior.functions.trig.basic_trig_equations",
+        "to": "math.senior.functions.trig.exact_unit_circle_values",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving basic trigonometric equations requires knowing which angle values produce common sine, cosine and tangent outputs.",
+        "failure_signal": "Learner can isolate the trig function but cannot identify angles matching values such as 0, 1/2, sqrt(2)/2 or -1.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_equations.requires.trig_function_graphs",
+        "from": "math.senior.functions.trig.basic_trig_equations",
+        "to": "math.senior.functions.trig.trig_function_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Graph reasoning helps identify all solutions over an interval and explains the periodic repetition of trigonometric equation solutions.",
+        "failure_signal": "Learner finds one solution but cannot see or locate the other solutions on a graph or interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_trig_equations_on_interval.requires.basic_trig_equations",
+        "from": "math.senior.functions.trig.solve_trig_equations_on_interval",
+        "to": "math.senior.functions.trig.basic_trig_equations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Solving on a specified interval is a focused version of basic trigonometric equation solving with interval restrictions.",
+        "failure_signal": "Learner solves the equation generally or finds a reference angle but does not list all and only solutions in the interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.general_trig_solutions.requires.solve_trig_equations_on_interval",
+        "from": "math.senior.functions.trig.general_trig_solutions",
+        "to": "math.senior.functions.trig.solve_trig_equations_on_interval",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "General solution families extend finite interval solutions by expressing all periodic repeats.",
+        "failure_signal": "Learner lists several solutions but cannot express the infinite repeating family with an integer parameter.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.general_trig_solutions.requires.coterminal_angles",
+        "from": "math.senior.functions.trig.general_trig_solutions",
+        "to": "math.senior.functions.trig.coterminal_angles",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "General trigonometric solution forms rely on adding full rotations or function periods to generate coterminal or repeating angle families.",
+        "failure_signal": "Learner cannot generate equivalent angle solutions by adding multiples of a period.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.general_solution_notation.requires.general_trig_solutions",
+        "from": "math.senior.functions.trig.general_solution_notation",
+        "to": "math.senior.functions.trig.general_trig_solutions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "General solution notation formalises the periodic solution family using an integer parameter.",
+        "failure_signal": "Learner understands that solutions repeat but cannot write a correct expression such as x = a + 2πn or x = a + πn.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_trig_functions.requires.inverse_function_notation",
+        "from": "math.senior.functions.trig.inverse_trig_functions",
+        "to": "math.senior.functions.inverse_function_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Inverse trigonometric functions use inverse-function notation and require distinguishing inverse functions from reciprocals.",
+        "failure_signal": "Learner reads sin^{-1}(x) as 1/sin(x) or cannot explain inverse trig as returning an angle value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_trig_functions.requires.sine_cosine_unit_circle",
+        "from": "math.senior.functions.trig.inverse_trig_functions",
+        "to": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Inverse trigonometric functions return angle values corresponding to sine, cosine or tangent values, so unit-circle meaning is required.",
+        "failure_signal": "Learner treats inverse trig as algebraic cancellation without connecting the output to an angle on the unit circle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_trig_principal_values.requires.inverse_trig_functions",
+        "from": "math.senior.functions.trig.inverse_trig_principal_values",
+        "to": "math.senior.functions.trig.inverse_trig_functions",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Principal values are the restricted-output convention used by inverse trigonometric functions.",
+        "failure_signal": "Learner gives all possible angles as outputs of an inverse trig function rather than the principal value returned by the function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1781
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1819
+  }
+}

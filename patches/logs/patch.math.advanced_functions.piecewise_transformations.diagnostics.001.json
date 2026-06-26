@@ -1,0 +1,224 @@
+{
+  "patch_id": "patch.math.advanced_functions.piecewise_transformations.diagnostics.001",
+  "applied_at": "2026-06-25T11:36:56.787Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 5,
+      "nodes_updated": 9
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.piecewise_rule_selected_by_input_interval",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Piecewise rule selected by input interval",
+        "description": "A piecewise function's rule is chosen by checking which interval contains the input value.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.function_transformations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.transformations_change_graph_features"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.transformation_vertical_translation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.transformations_change_graph_features"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.transformation_horizontal_translation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.horizontal_transformations_reverse_sign"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.transformation_reflection_axes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.transformations_change_graph_features"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.transformation_stretches_compressions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.transformations_change_graph_features"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.compose_transformations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.transformations_change_graph_features"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.piecewise_function_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.piecewise_rule_selected_by_input_interval"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.piecewise_boundary_values",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.piecewise_rule_selected_by_input_interval",
+          "math.kp.inequalities.closed_boundary_includes_endpoint"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.piecewise_graph_segments",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.piecewise_rule_selected_by_input_interval",
+          "math.kp.inequalities.closed_boundary_includes_endpoint"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.transformation_horizontal_translation.has_misconception.horizontal_shift_sign_reversed",
+        "from": "math.senior.functions.transformation_horizontal_translation",
+        "to": "math.misconception.senior.functions.horizontal_shift_sign_reversed",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Horizontal shift sign reversal is specifically diagnosed when interpreting inside-the-function translation notation.",
+        "failure_signal": "Learner says f(x - h) shifts left by h or f(x + h) shifts right by h without checking the input transformation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_function_notation.has_misconception.piecewise_wrong_interval",
+        "from": "math.senior.functions.piecewise_function_notation",
+        "to": "math.misconception.senior.functions.piecewise_wrong_interval",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Choosing the wrong interval is the central diagnostic misconception for interpreting piecewise notation.",
+        "failure_signal": "Learner substitutes into the first or visually nearest rule rather than the rule whose interval contains the input.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_boundary_values.has_misconception.piecewise_wrong_interval",
+        "from": "math.senior.functions.piecewise_boundary_values",
+        "to": "math.misconception.senior.functions.piecewise_wrong_interval",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Boundary values are where the wrong-interval misconception commonly appears because endpoint inclusion determines which branch applies.",
+        "failure_signal": "Learner evaluates both boundary rules or chooses the open endpoint branch for the included boundary value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_boundary_values.requires.closed_boundary_includes_endpoint",
+        "from": "math.senior.functions.piecewise_boundary_values",
+        "to": "math.kp.inequalities.closed_boundary_includes_endpoint",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Evaluating a piecewise function at a boundary depends on recognising that a closed endpoint includes the boundary input.",
+        "failure_signal": "Learner treats open and closed boundary symbols the same or chooses the branch with an open endpoint at the input value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_graph_segments.requires.closed_boundary_includes_endpoint",
+        "from": "math.senior.functions.piecewise_graph_segments",
+        "to": "math.kp.inequalities.closed_boundary_includes_endpoint",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Graphing piecewise segments requires marking included and excluded endpoints correctly.",
+        "failure_signal": "Learner draws all segment endpoints the same way or marks open endpoints as included points.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2661,
+    "edges": 1591
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1596
+  }
+}

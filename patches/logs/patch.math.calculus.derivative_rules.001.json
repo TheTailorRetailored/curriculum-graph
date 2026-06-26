@@ -1,0 +1,540 @@
+{
+  "patch_id": "patch.math.calculus.derivative_rules.001",
+  "applied_at": "2026-06-25T14:09:51.575Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 27,
+      "nodes_updated": 6
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.power_rule.part_of.calculus",
+        "from": "math.senior.calculus.power_rule",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_difference_derivative_rules.part_of.calculus",
+        "from": "math.senior.calculus.sum_difference_derivative_rules",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.product_and_quotient_rules.part_of.calculus",
+        "from": "math.senior.calculus.product_and_quotient_rules",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chain_rule_intro.part_of.calculus",
+        "from": "math.senior.calculus.chain_rule_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_exponential_log_functions.part_of.calculus",
+        "from": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_trig_functions.part_of.calculus",
+        "from": "math.senior.calculus.derivatives_of_trig_functions",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.power_rule",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.power_rule",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The power rule is the first major symbolic differentiation rule after the derivative concept is introduced.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.sum_difference_derivative_rules",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.sum_difference_derivative_rules",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sum and difference rules extend symbolic differentiation to combinations of functions.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.product_and_quotient_rules",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.product_and_quotient_rules",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Product and quotient rules cover common non-additive combinations of differentiable functions.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.chain_rule_intro",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.chain_rule_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The chain rule is a central symbolic differentiation rule for composite functions.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.derivatives_of_exponential_log_functions",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Exponential and logarithmic derivatives are a standard special-function component of differentiation.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.derivatives_of_trig_functions",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivatives_of_trig_functions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Trigonometric derivatives are a standard special-function component of differentiation.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.power_rule.requires.derivative_notation",
+        "from": "math.senior.calculus.power_rule",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Using the power rule requires recognising derivative notation and what output the rule is producing.",
+        "failure_signal": "Learner applies exponent manipulation without knowing whether they are finding f'(x), dy/dx or a derivative value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.power_rule.requires.derivative_from_first_principles",
+        "from": "math.senior.calculus.power_rule",
+        "to": "math.senior.calculus.derivative_from_first_principles",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "The power rule is motivated by first-principles differentiation, even when later used as a procedural shortcut.",
+        "failure_signal": "Learner memorises the rule but cannot connect it to the limiting definition of derivative in simple power cases.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sum_difference_derivative_rules.requires.power_rule",
+        "from": "math.senior.calculus.sum_difference_derivative_rules",
+        "to": "math.senior.calculus.power_rule",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Sum and difference differentiation rules are typically applied after learners can differentiate individual terms such as powers of x.",
+        "failure_signal": "Learner understands term-by-term structure but cannot differentiate the component power terms correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.product_and_quotient_rules.requires.power_rule",
+        "from": "math.senior.calculus.product_and_quotient_rules",
+        "to": "math.senior.calculus.power_rule",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Product and quotient rules require differentiating component functions, commonly including powers and polynomial terms.",
+        "failure_signal": "Learner sets up the product or quotient rule but differentiates the factors incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.product_and_quotient_rules.requires.derivative_notation",
+        "from": "math.senior.calculus.product_and_quotient_rules",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Product and quotient rules use derivative notation to track each function and its derivative within the rule.",
+        "failure_signal": "Learner confuses u, v, u' and v' or cannot identify which pieces are differentiated.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chain_rule_intro.requires.function_composition_meaning",
+        "from": "math.senior.calculus.chain_rule_intro",
+        "to": "math.senior.functions.function_composition_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The chain rule differentiates composite functions, so learners must recognise inner and outer functions first.",
+        "failure_signal": "Learner differentiates the outer form but cannot identify the inner function or how it is nested inside the composite.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chain_rule_intro.requires.derivative_notation",
+        "from": "math.senior.calculus.chain_rule_intro",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The chain rule requires tracking derivative notation for the outer function and the inner derivative.",
+        "failure_signal": "Learner can identify a composite function but cannot express or interpret the derivative as outer derivative times inner derivative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_exponential_log_functions.requires.natural_exponential_function",
+        "from": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "to": "math.senior.functions.exp_log.natural_exponential_function",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Derivative rules for e^x and related exponential functions depend on recognising the natural exponential function and its role in continuous growth.",
+        "failure_signal": "Learner treats e^x as an arbitrary power expression rather than as the exponential function with its own derivative behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_exponential_log_functions.requires.natural_log_function",
+        "from": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "to": "math.senior.functions.exp_log.natural_log_function",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Derivative rules for logarithms require recognising ln as the natural logarithm and inverse to e^x.",
+        "failure_signal": "Learner applies generic log manipulation without recognising the specific role of ln in calculus derivative rules.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_exponential_log_functions.requires.chain_rule_intro",
+        "from": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "to": "math.senior.calculus.chain_rule_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Many exponential and logarithmic derivative problems include composite inputs that require the chain rule.",
+        "failure_signal": "Learner differentiates e^{g(x)} or ln(g(x)) but omits multiplication by the derivative of the inner function.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_trig_functions.requires.trig_function_graphs",
+        "from": "math.senior.calculus.derivatives_of_trig_functions",
+        "to": "math.senior.functions.trig.trig_function_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Trigonometric derivative rules are easier to interpret when learners understand sine and cosine graph behaviour and rates of change.",
+        "failure_signal": "Learner memorises trig derivative rules but cannot connect signs or zero derivatives to graph behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_trig_functions.requires.chain_rule_intro",
+        "from": "math.senior.calculus.derivatives_of_trig_functions",
+        "to": "math.senior.calculus.chain_rule_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Many trigonometric derivative tasks involve composite angle expressions that require the chain rule.",
+        "failure_signal": "Learner differentiates sin(kx) or cos(g(x)) as if the input were x and omits the inner derivative factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.power_rule",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.sum_difference_derivative_rules",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.product_and_quotient_rules",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.chain_rule_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.chain_rule_handles_composites"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.derivatives_of_exponential_log_functions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates",
+          "math.kp.senior.calculus.chain_rule_handles_composites"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.derivatives_of_trig_functions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates",
+          "math.kp.senior.calculus.chain_rule_handles_composites"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chain_rule_intro.has_misconception.chain_rule_forgets_inner_derivative",
+        "from": "math.senior.calculus.chain_rule_intro",
+        "to": "math.misconception.senior.calculus.chain_rule_forgets_inner_derivative",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Forgetting the inner derivative is the central misconception when first applying the chain rule to composite functions.",
+        "failure_signal": "Learner differentiates f(g(x)) as f'(g(x)) but omits multiplication by g'(x).",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_exponential_log_functions.has_misconception.chain_rule_forgets_inner_derivative",
+        "from": "math.senior.calculus.derivatives_of_exponential_log_functions",
+        "to": "math.misconception.senior.calculus.chain_rule_forgets_inner_derivative",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Composite exponential and logarithmic derivatives often reveal missing-inner-derivative chain rule errors.",
+        "failure_signal": "Learner differentiates e^{g(x)} or ln(g(x)) without multiplying by g'(x).",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivatives_of_trig_functions.has_misconception.chain_rule_forgets_inner_derivative",
+        "from": "math.senior.calculus.derivatives_of_trig_functions",
+        "to": "math.misconception.senior.calculus.chain_rule_forgets_inner_derivative",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Composite trigonometric derivative tasks often reveal missing-inner-derivative chain rule errors.",
+        "failure_signal": "Learner differentiates sin(g(x)) or cos(g(x)) while treating the input expression as if it were just x.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1979
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 2006
+  }
+}

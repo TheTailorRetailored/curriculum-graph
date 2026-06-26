@@ -1,0 +1,198 @@
+{
+  "patch_id": "patch.math.advanced_functions.trig.foundations_diagnostics.001",
+  "applied_at": "2026-06-25T12:08:36.131Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 9
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.radian_measure",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.radian_measure_arc_ratio"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.degree_radian_conversion",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.pi_radians_equals_180_degrees"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.arc_length_radian_formula",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.radian_measure_arc_ratio"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.unit_circle_coordinates",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.unit_circle_defines_sin_cos"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.sine_cosine_unit_circle",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.unit_circle_defines_sin_cos"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.reference_angles",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.reference_angle_magnitude"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.quadrant_signs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.reference_angle_magnitude"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.exact_unit_circle_values",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.unit_circle_defines_sin_cos",
+          "math.kp.senior.trig.reference_angle_magnitude"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.tangent_on_unit_circle",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.tangent_period_pi"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.radian_measure.has_misconception.degrees_radians_confused",
+        "from": "math.senior.functions.trig.radian_measure",
+        "to": "math.misconception.senior.trig.degrees_radians_confused",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Confusing degree and radian units is directly diagnosed when interpreting radian measure as a distinct angle measure.",
+        "failure_signal": "Learner evaluates or locates an angle as if a radian value were a degree value, or mixes degree and radian units in one expression.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.degree_radian_conversion.has_misconception.degrees_radians_confused",
+        "from": "math.senior.functions.trig.degree_radian_conversion",
+        "to": "math.misconception.senior.trig.degrees_radians_confused",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Degree-radian conversion specifically targets the misconception that the two units can be interchanged without conversion.",
+        "failure_signal": "Learner treats pi as 180 without tracking units or converts by an inverted factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reference_angles.has_misconception.reference_angle_wrong_quadrant",
+        "from": "math.senior.functions.trig.reference_angles",
+        "to": "math.misconception.senior.trig.reference_angle_wrong_quadrant",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Reference-angle work directly diagnoses whether the learner combines acute-angle magnitude with correct quadrant placement and sign.",
+        "failure_signal": "Learner finds the correct reference angle but assigns the sign or terminal quadrant incorrectly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadrant_signs.has_misconception.reference_angle_wrong_quadrant",
+        "from": "math.senior.functions.trig.quadrant_signs",
+        "to": "math.misconception.senior.trig.reference_angle_wrong_quadrant",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Incorrect quadrant signs explain errors where the reference angle magnitude is known but sine, cosine or tangent sign is wrong.",
+        "failure_signal": "Learner gives a first-quadrant magnitude with the wrong sign for the actual quadrant.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_on_unit_circle.has_misconception.tangent_period_two_pi",
+        "from": "math.senior.functions.trig.tangent_on_unit_circle",
+        "to": "math.misconception.senior.trig.tangent_period_two_pi",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "The tangent unit-circle relationship leads into recognising that tangent repeats after pi rather than two pi.",
+        "failure_signal": "Learner assumes tangent repeats like sine and cosine and gives equivalent angles only modulo two pi.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1723
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1728
+  }
+}

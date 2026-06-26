@@ -1,0 +1,465 @@
+{
+  "patch_id": "patch.math.advanced_functions.piecewise_transformations.001",
+  "applied_at": "2026-06-25T11:26:38.397Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 27,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parent_function_families.part_of.advanced_functions",
+        "from": "math.senior.functions.parent_function_families",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_transformations.part_of.advanced_functions",
+        "from": "math.senior.functions.function_transformations",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_transformations.part_of.advanced_functions",
+        "from": "math.senior.functions.compose_transformations",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.transformation_vertical_translation.part_of.advanced_functions",
+        "from": "math.senior.functions.transformation_vertical_translation",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.transformation_horizontal_translation.part_of.advanced_functions",
+        "from": "math.senior.functions.transformation_horizontal_translation",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.transformation_reflection_axes.part_of.advanced_functions",
+        "from": "math.senior.functions.transformation_reflection_axes",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.transformation_stretches_compressions.part_of.advanced_functions",
+        "from": "math.senior.functions.transformation_stretches_compressions",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_function_notation.part_of.advanced_functions",
+        "from": "math.senior.functions.piecewise_function_notation",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_boundary_values.part_of.advanced_functions",
+        "from": "math.senior.functions.piecewise_boundary_values",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_graph_segments.part_of.advanced_functions",
+        "from": "math.senior.functions.piecewise_graph_segments",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.parent_function_families",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.parent_function_families",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Parent function families give the base graphs used when describing transformations within the broader function notation unit.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.function_transformations",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.function_transformations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Function transformations are a major graph-based application of function notation and function families.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.compose_transformations",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.compose_transformations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Composing transformations is a later subskill within graph transformation work in the broader function notation unit.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.encompasses.piecewise_function_notation",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.functions.piecewise_function_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Piecewise notation is a function-notation application involving different rules on different domain intervals.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_transformations.encompasses.transformation_vertical_translation",
+        "from": "math.senior.functions.function_transformations",
+        "to": "math.senior.functions.transformation_vertical_translation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Vertical translation is a core graph transformation included in function transformation work.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_transformations.encompasses.transformation_horizontal_translation",
+        "from": "math.senior.functions.function_transformations",
+        "to": "math.senior.functions.transformation_horizontal_translation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Horizontal translation is a core graph transformation included in function transformation work.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_transformations.encompasses.transformation_reflection_axes",
+        "from": "math.senior.functions.function_transformations",
+        "to": "math.senior.functions.transformation_reflection_axes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reflections in coordinate axes are standard graph transformations covered in function transformation work.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_transformations.encompasses.transformation_stretches_compressions",
+        "from": "math.senior.functions.function_transformations",
+        "to": "math.senior.functions.transformation_stretches_compressions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Stretches and compressions are standard graph transformations covered in function transformation work.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_transformations.encompasses.compose_transformations",
+        "from": "math.senior.functions.function_transformations",
+        "to": "math.senior.functions.compose_transformations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Composing transformations is an extension of recognising and applying individual function transformations.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_function_notation.encompasses.piecewise_boundary_values",
+        "from": "math.senior.functions.piecewise_function_notation",
+        "to": "math.senior.functions.piecewise_boundary_values",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Boundary-value evaluation is a specific subskill within piecewise function notation.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_function_notation.encompasses.piecewise_graph_segments",
+        "from": "math.senior.functions.piecewise_function_notation",
+        "to": "math.senior.functions.piecewise_graph_segments",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graphing piecewise segments is a specific graphical subskill within piecewise function notation.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_transformations.requires.parent_function_families",
+        "from": "math.senior.functions.function_transformations",
+        "to": "math.senior.functions.parent_function_families",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Describing a transformation depends on recognising the base or parent function being transformed.",
+        "failure_signal": "Learner describes the transformed graph without identifying what original graph or family it is being compared with.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compose_transformations.requires.function_transformations",
+        "from": "math.senior.functions.compose_transformations",
+        "to": "math.senior.functions.function_transformations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Composing transformations depends on recognising individual translations, reflections, stretches and compressions before applying them together.",
+        "failure_signal": "Learner applies multiple changes as a single unexplained rule or cannot separate the effects of individual transformations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_function_notation.requires.domain_meaning",
+        "from": "math.senior.functions.piecewise_function_notation",
+        "to": "math.senior.functions.domain_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Piecewise function notation depends on using domain conditions to decide which rule applies to a given input.",
+        "failure_signal": "Learner ignores interval conditions and chooses a rule by position or appearance rather than by the input's domain interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_function_notation.requires.evaluate_functions",
+        "from": "math.senior.functions.piecewise_function_notation",
+        "to": "math.senior.functions.evaluate_functions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Evaluating a piecewise function requires ordinary function evaluation after selecting the correct rule for the input.",
+        "failure_signal": "Learner selects the correct branch but cannot substitute into the selected expression correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_boundary_values.requires.piecewise_function_notation",
+        "from": "math.senior.functions.piecewise_boundary_values",
+        "to": "math.senior.functions.piecewise_function_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Checking boundary values requires understanding how piecewise rules and interval endpoints determine which expression is active.",
+        "failure_signal": "Learner evaluates both boundary formulas without using open or closed endpoint conditions to decide inclusion.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.piecewise_graph_segments.requires.piecewise_function_notation",
+        "from": "math.senior.functions.piecewise_graph_segments",
+        "to": "math.senior.functions.piecewise_function_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Graphing piecewise segments requires interpreting each rule together with the domain interval where it applies.",
+        "failure_signal": "Learner draws all rules across the whole graph or omits endpoint inclusion information for each segment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2661,
+    "edges": 1564
+  },
+  "graph_counts_after": {
+    "nodes": 2661,
+    "edges": 1591
+  }
+}

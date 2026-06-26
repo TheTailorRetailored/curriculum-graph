@@ -1,0 +1,835 @@
+{
+  "patch_id": "patch.math.calculus.limits_continuity.spine.001",
+  "applied_at": "2026-06-25T13:47:23.537Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 44,
+      "nodes_updated": 9
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limit_notation.part_of.calculus",
+        "from": "math.senior.calculus.limit_notation",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graphical_limits.part_of.calculus",
+        "from": "math.senior.calculus.graphical_limits",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_limits.part_of.calculus",
+        "from": "math.senior.calculus.numerical_limits",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_sided_limits.part_of.calculus",
+        "from": "math.senior.calculus.one_sided_limits",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limit_from_left_right_agreement.part_of.calculus",
+        "from": "math.senior.calculus.limit_from_left_right_agreement",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_by_substitution.part_of.calculus",
+        "from": "math.senior.calculus.limits_by_substitution",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_limit_simplification.part_of.calculus",
+        "from": "math.senior.calculus.algebraic_limit_simplification",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_at_a_point.part_of.calculus",
+        "from": "math.senior.calculus.continuity_at_a_point",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_three_conditions.part_of.calculus",
+        "from": "math.senior.calculus.continuity_three_conditions",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discontinuity_types_intro.part_of.calculus",
+        "from": "math.senior.calculus.discontinuity_types_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.removable_discontinuity_hole.part_of.calculus",
+        "from": "math.senior.calculus.removable_discontinuity_hole",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.jump_discontinuity_limits.part_of.calculus",
+        "from": "math.senior.calculus.jump_discontinuity_limits",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.infinite_discontinuity_vertical_asymptote.part_of.calculus",
+        "from": "math.senior.calculus.infinite_discontinuity_vertical_asymptote",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.encompasses.limit_notation",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Limit notation is the entry point for expressing and interpreting limiting behaviour in the limits and continuity unit.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.encompasses.graphical_limits",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.graphical_limits",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graphical limits are a core representation for building informal limit understanding.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.encompasses.numerical_limits",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.numerical_limits",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Numerical tables are a common supporting representation for estimating limiting behaviour.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.encompasses.one_sided_limits",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.one_sided_limits",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "One-sided limits are essential for deciding whether a two-sided limit exists at a point.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.encompasses.limits_by_substitution",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.limits_by_substitution",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Direct substitution is a standard method for evaluating limits at points of continuity.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.encompasses.algebraic_limit_simplification",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.algebraic_limit_simplification",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Algebraic simplification is a common method for evaluating limits when direct substitution initially fails.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.encompasses.continuity_at_a_point",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.continuity_at_a_point",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Continuity at a point is a central application of limit meaning, linking nearby behaviour to actual function value.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.encompasses.discontinuity_types_intro",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.discontinuity_types_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Classifying discontinuities follows from comparing function values, limits and one-sided behaviour.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_sided_limits.encompasses.limit_from_left_right_agreement",
+        "from": "math.senior.calculus.one_sided_limits",
+        "to": "math.senior.calculus.limit_from_left_right_agreement",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Checking left-right agreement is the concrete subskill that determines whether a two-sided limit exists.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_at_a_point.encompasses.continuity_three_conditions",
+        "from": "math.senior.calculus.continuity_at_a_point",
+        "to": "math.senior.calculus.continuity_three_conditions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The three conditions give the observable checklist for continuity at a point.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discontinuity_types_intro.encompasses.removable_discontinuity_hole",
+        "from": "math.senior.calculus.discontinuity_types_intro",
+        "to": "math.senior.calculus.removable_discontinuity_hole",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "A removable discontinuity is a key introductory discontinuity type connected to limit-value mismatch.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discontinuity_types_intro.encompasses.jump_discontinuity_limits",
+        "from": "math.senior.calculus.discontinuity_types_intro",
+        "to": "math.senior.calculus.jump_discontinuity_limits",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "A jump discontinuity is a key introductory discontinuity type explained by unequal one-sided limits.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discontinuity_types_intro.encompasses.infinite_discontinuity_vertical_asymptote",
+        "from": "math.senior.calculus.discontinuity_types_intro",
+        "to": "math.senior.calculus.infinite_discontinuity_vertical_asymptote",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Infinite discontinuity at a vertical asymptote is a key introductory discontinuity type involving unbounded nearby behaviour.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limit_notation.requires.function_notation",
+        "from": "math.senior.calculus.limit_notation",
+        "to": "math.senior.functions.function_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Limit notation is interpreted over functions and input values, so learners need basic function notation first.",
+        "failure_signal": "Learner reads limit notation as a formula to evaluate without tracking the approaching input value or function behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graphical_limits.requires.limit_notation",
+        "from": "math.senior.calculus.graphical_limits",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading a limit from a graph requires knowing what limit notation is asking about as the input approaches a value.",
+        "failure_signal": "Learner reports the plotted point value rather than the approached y-value from nearby graph behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_limits.requires.limit_notation",
+        "from": "math.senior.calculus.numerical_limits",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Using numerical tables for limits depends on interpreting nearby input values as evidence of limiting behaviour.",
+        "failure_signal": "Learner uses only the exact table entry at the target input rather than values approaching from nearby inputs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_sided_limits.requires.limit_notation",
+        "from": "math.senior.calculus.one_sided_limits",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "One-sided limits refine ordinary limit notation by specifying the side from which inputs approach the value.",
+        "failure_signal": "Learner cannot distinguish approach from the left from approach from the right in notation or graph behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limit_from_left_right_agreement.requires.one_sided_limits",
+        "from": "math.senior.calculus.limit_from_left_right_agreement",
+        "to": "math.senior.calculus.one_sided_limits",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Determining whether a two-sided limit exists requires comparing the left-hand and right-hand limits.",
+        "failure_signal": "Learner claims a two-sided limit exists after checking only one side, or ignores a mismatch between sides.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_by_substitution.requires.limit_notation",
+        "from": "math.senior.calculus.limits_by_substitution",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Direct substitution is a limit-evaluation method, so learners must first understand what the limiting expression asks for.",
+        "failure_signal": "Learner substitutes mechanically without interpreting whether direct substitution is valid or meaningful for the function at the point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_by_substitution.requires.evaluate_functions",
+        "from": "math.senior.calculus.limits_by_substitution",
+        "to": "math.senior.functions.evaluate_functions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Direct substitution in a limit uses ordinary function evaluation at the target input when continuity permits it.",
+        "failure_signal": "Learner understands the limit request but makes substitution errors or treats f(a) notation as multiplication.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_limit_simplification.requires.limits_by_substitution",
+        "from": "math.senior.calculus.algebraic_limit_simplification",
+        "to": "math.senior.calculus.limits_by_substitution",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Algebraic simplification is used after direct substitution reveals an expression needing rewrite before the limit can be evaluated.",
+        "failure_signal": "Learner stops at an indeterminate form or cancels/rearranges without preserving the limiting expression's behaviour near the point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_at_a_point.requires.limit_from_left_right_agreement",
+        "from": "math.senior.calculus.continuity_at_a_point",
+        "to": "math.senior.calculus.limit_from_left_right_agreement",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Continuity at a point requires the two-sided limit to exist before comparing that limit with the function value.",
+        "failure_signal": "Learner checks the function value but ignores that the left and right limits disagree or that the limit does not exist.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.continuity_three_conditions.requires.continuity_at_a_point",
+        "from": "math.senior.calculus.continuity_three_conditions",
+        "to": "math.senior.calculus.continuity_at_a_point",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The three-condition checklist formalises the continuity-at-a-point idea into observable criteria.",
+        "failure_signal": "Learner remembers isolated conditions but cannot apply them together to decide continuity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discontinuity_types_intro.requires.continuity_at_a_point",
+        "from": "math.senior.calculus.discontinuity_types_intro",
+        "to": "math.senior.calculus.continuity_at_a_point",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising discontinuity types builds on knowing what continuity at a point would require.",
+        "failure_signal": "Learner can say a graph is broken but cannot relate the break to a failed continuity condition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.removable_discontinuity_hole.requires.discontinuity_types_intro",
+        "from": "math.senior.calculus.removable_discontinuity_hole",
+        "to": "math.senior.calculus.discontinuity_types_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "A removable discontinuity is a specific discontinuity type where nearby values approach a common value despite a missing or mismatched function value.",
+        "failure_signal": "Learner treats a hole as meaning no limit exists rather than distinguishing limit behaviour from the function value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.jump_discontinuity_limits.requires.one_sided_limits",
+        "from": "math.senior.calculus.jump_discontinuity_limits",
+        "to": "math.senior.calculus.one_sided_limits",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Jump discontinuities are identified by comparing finite but unequal one-sided limits.",
+        "failure_signal": "Learner sees a jump but cannot explain the mismatch using left-hand and right-hand limits.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.infinite_discontinuity_vertical_asymptote.requires.graphical_limits",
+        "from": "math.senior.calculus.infinite_discontinuity_vertical_asymptote",
+        "to": "math.senior.calculus.graphical_limits",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising infinite discontinuity at a vertical asymptote depends on interpreting unbounded graph behaviour near a point.",
+        "failure_signal": "Learner treats a vertical asymptote as an ordinary large function value or finite jump rather than unbounded nearby behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.limit_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.limit_describes_nearby_behavior"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.graphical_limits",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.limit_describes_nearby_behavior"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.numerical_limits",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.limit_describes_nearby_behavior"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.one_sided_limits",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.two_sided_limit_needs_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.limit_from_left_right_agreement",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.two_sided_limit_needs_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.limits_by_substitution",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.limit_describes_nearby_behavior"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.continuity_at_a_point",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.continuity_links_value_and_limit"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.continuity_three_conditions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.continuity_links_value_and_limit"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.removable_discontinuity_hole",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.continuity_links_value_and_limit"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graphical_limits.has_misconception.limit_equals_function_value",
+        "from": "math.senior.calculus.graphical_limits",
+        "to": "math.misconception.senior.calculus.limit_equals_function_value",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Graphical limit tasks directly diagnose the misconception that the limit must equal the plotted function value at the point.",
+        "failure_signal": "Learner reads the filled point value or says no limit exists at a hole despite nearby graph values approaching a common value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.removable_discontinuity_hole.has_misconception.limit_equals_function_value",
+        "from": "math.senior.calculus.removable_discontinuity_hole",
+        "to": "math.misconception.senior.calculus.limit_equals_function_value",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "A removable hole is the canonical context where a limit can exist even if the function value is missing or different.",
+        "failure_signal": "Learner says the limit does not exist solely because the graph has a hole or because f(a) differs from the approached value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_sided_limits.has_misconception.one_sided_limit_ignored",
+        "from": "math.senior.calculus.one_sided_limits",
+        "to": "math.misconception.senior.calculus.one_sided_limit_ignored",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "One-sided limit tasks directly diagnose whether the learner checks approach behaviour from both sides where needed.",
+        "failure_signal": "Learner decides the two-sided limit from only the left or right behaviour near the point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limit_from_left_right_agreement.has_misconception.one_sided_limit_ignored",
+        "from": "math.senior.calculus.limit_from_left_right_agreement",
+        "to": "math.misconception.senior.calculus.one_sided_limit_ignored",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Left-right agreement is the specific subskill for correcting one-sided-only limit conclusions.",
+        "failure_signal": "Learner reports a two-sided limit even though the left-hand and right-hand limiting values differ.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1905
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1949
+  }
+}

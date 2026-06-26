@@ -1,14 +1,32 @@
 import path from "node:path";
-import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, rename, rm, writeFile } from "node:fs/promises";
 import YAML from "yaml";
 import { CurriculumEdge, CurriculumNode, PatchOperation } from "../schema/zodSchemas.js";
 import { GraphIndex } from "./loadGraph.js";
 
-function areaFileForNode(rootDir: string, node: CurriculumNode): string {
+export function areaFileForNode(rootDir: string, node: CurriculumNode): string {
   const subjectDir = node.subject === "english" || node.id.startsWith("eng.") ? "english" : "mathematics";
   const areaSlug = (node.area ?? "misc").toLowerCase().replace(/[^a-z0-9]+/g, "_").replace(/^_|_$/g, "");
   if (subjectDir === "mathematics") return path.join(rootDir, "ontology", subjectDir, "number", `${areaSlug}.yaml`);
   return path.join(rootDir, "ontology", subjectDir, "skeleton", `${areaSlug}.yaml`);
+}
+
+export function patchEdgeFile(rootDir: string, filename = "patch-edges.yaml"): string {
+  return path.join(rootDir, "ontology", "edges", filename);
+}
+
+export async function writeTextFileAtomic(file: string, content: string): Promise<void> {
+  await mkdir(path.dirname(file), { recursive: true });
+  const suffix = `${process.pid}.${Date.now()}.${Math.random().toString(36).slice(2)}`;
+  const temp = `${file}.${suffix}.tmp`;
+  await writeFile(temp, content, "utf8");
+
+  try {
+    await rename(temp, file);
+  } catch (error) {
+    await rm(temp, { force: true });
+    throw error;
+  }
 }
 
 async function readYamlDocument(file: string): Promise<Record<string, unknown>> {
@@ -31,7 +49,7 @@ export async function appendNodes(rootDir: string, nodes: CurriculumNode[]): Pro
     const doc = await readYamlDocument(file);
     const existing = Array.isArray(doc.nodes) ? doc.nodes : [];
     doc.nodes = [...existing, node];
-    await writeFile(file, YAML.stringify(doc), "utf8");
+    await writeTextFileAtomic(file, YAML.stringify(doc));
     changed.add(path.relative(rootDir, file).replace(/\\/g, "/"));
   }
   return [...changed];
@@ -39,12 +57,12 @@ export async function appendNodes(rootDir: string, nodes: CurriculumNode[]): Pro
 
 export async function appendEdges(rootDir: string, edges: CurriculumEdge[], filename = "patch-edges.yaml"): Promise<string[]> {
   if (edges.length === 0) return [];
-  const file = path.join(rootDir, "ontology", "edges", filename);
+  const file = patchEdgeFile(rootDir, filename);
   await mkdir(path.dirname(file), { recursive: true });
   const doc = await readYamlDocument(file);
   const existing = Array.isArray(doc.edges) ? doc.edges : [];
   doc.edges = [...existing, ...edges];
-  await writeFile(file, YAML.stringify(doc), "utf8");
+  await writeTextFileAtomic(file, YAML.stringify(doc));
   return [path.relative(rootDir, file).replace(/\\/g, "/")];
 }
 
@@ -95,7 +113,7 @@ export async function updateNodes(rootDir: string, graph: GraphIndex, operations
       }
     }
 
-    await writeFile(file, YAML.stringify(doc), "utf8");
+    await writeTextFileAtomic(file, YAML.stringify(doc));
     changed.add(sourcePath.replace(/\\/g, "/"));
   }
 
@@ -134,7 +152,7 @@ export async function updateEdges(rootDir: string, graph: GraphIndex, operations
     }
 
     doc.edges = edges;
-    await writeFile(file, YAML.stringify(doc), "utf8");
+    await writeTextFileAtomic(file, YAML.stringify(doc));
     changed.add(sourcePath.replace(/\\/g, "/"));
   }
 

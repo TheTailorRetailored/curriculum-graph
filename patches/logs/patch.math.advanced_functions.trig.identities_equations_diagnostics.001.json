@@ -1,0 +1,249 @@
+{
+  "patch_id": "patch.math.advanced_functions.trig.identities_equations_diagnostics.001",
+  "applied_at": "2026-06-25T12:24:38.952Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 7,
+      "nodes_updated": 11
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.basic_trig_identities",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.identities_preserve_equivalence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.reciprocal_quotient_identities",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.identities_preserve_equivalence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.pythagorean_identity",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.identities_preserve_equivalence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.sum_difference_identities_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.identities_preserve_equivalence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.identity_proof_strategy",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.identities_preserve_equivalence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.basic_trig_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.solutions_repeat_periodically"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.solve_trig_equations_on_interval",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.solutions_repeat_periodically"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.general_trig_solutions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.solutions_repeat_periodically"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.general_solution_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.solutions_repeat_periodically"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.inverse_trig_functions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.inverse_trig_outputs_principal_values"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.inverse_trig_principal_values",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.inverse_trig_outputs_principal_values"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identity_proof_strategy.has_misconception.identity_proof_checks_examples_only",
+        "from": "math.senior.functions.trig.identity_proof_strategy",
+        "to": "math.misconception.senior.trig.identity_proof_checks_examples_only",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Checking a few numerical examples is a common false substitute for proving an identity by equivalent transformations.",
+        "failure_signal": "Learner verifies both sides for selected angle values but does not produce a valid algebraic chain showing equivalence for all allowed inputs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_trig_equations.has_misconception.missing_periodic_solutions",
+        "from": "math.senior.functions.trig.basic_trig_equations",
+        "to": "math.misconception.senior.trig.missing_periodic_solutions",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Basic trigonometric equations often reveal the misconception that a single inverse or reference angle gives all solutions.",
+        "failure_signal": "Learner gives only one solution to sin x = a or cos x = a when multiple solutions exist in the requested domain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solve_trig_equations_on_interval.has_misconception.missing_periodic_solutions",
+        "from": "math.senior.functions.trig.solve_trig_equations_on_interval",
+        "to": "math.misconception.senior.trig.missing_periodic_solutions",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Solving over an interval directly diagnoses whether the learner finds all and only periodic repeats in that interval.",
+        "failure_signal": "Learner finds the reference-angle solution but omits another solution in the interval or includes a solution outside the interval.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.general_trig_solutions.has_misconception.missing_periodic_solutions",
+        "from": "math.senior.functions.trig.general_trig_solutions",
+        "to": "math.misconception.senior.trig.missing_periodic_solutions",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "General solution work is the most direct remediation target for missing repeated solution families.",
+        "failure_signal": "Learner lists a finite set of angles but cannot express the infinite family using periodicity.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.general_solution_notation.has_misconception.missing_periodic_solutions",
+        "from": "math.senior.functions.trig.general_solution_notation",
+        "to": "math.misconception.senior.trig.missing_periodic_solutions",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "General solution notation specifically targets errors in expressing all periodic solutions with an integer parameter.",
+        "failure_signal": "Learner writes one branch of a solution family but omits the second branch or uses the wrong period in the integer-parameter expression.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_trig_functions.has_misconception.inverse_trig_gives_all_solutions",
+        "from": "math.senior.functions.trig.inverse_trig_functions",
+        "to": "math.misconception.senior.trig.inverse_trig_gives_all_solutions",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Learners often misread inverse trigonometric functions as returning all angles rather than a function value selected by a restricted range.",
+        "failure_signal": "Learner treats arcsin or arccos output as the complete solution set of a trigonometric equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inverse_trig_principal_values.has_misconception.inverse_trig_gives_all_solutions",
+        "from": "math.senior.functions.trig.inverse_trig_principal_values",
+        "to": "math.misconception.senior.trig.inverse_trig_gives_all_solutions",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Principal-value work is the specific point where learners must distinguish the inverse-trig function output from all possible equation solutions.",
+        "failure_signal": "Learner gives multiple angles as the value of arcsin(a) or fails to recognise the calculator's returned principal value convention.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1819
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1826
+  }
+}

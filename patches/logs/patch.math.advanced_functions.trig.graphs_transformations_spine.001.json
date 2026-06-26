@@ -1,0 +1,783 @@
+{
+  "patch_id": "patch.math.advanced_functions.trig.graphs_transformations_spine.001",
+  "applied_at": "2026-06-25T12:11:47.362Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 46,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_function_graphs.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.trig_function_graphs",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sine_graph_key_points.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.sine_graph_key_points",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cosine_graph_key_points.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.cosine_graph_key_points",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_function_graph.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.tangent_function_graph",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_graph_asymptotes.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.tangent_graph_asymptotes",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_period_midline.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.amplitude_period_midline",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_from_coefficient.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.amplitude_from_coefficient",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.period_from_coefficient.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.period_from_coefficient",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.midline_from_vertical_shift.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.midline_from_vertical_shift",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.phase_shift.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.phase_shift",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.phase_shift_from_expression.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.phase_shift_from_expression",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_transformations.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.trig_transformations",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_sinusoid_from_parameters.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.graph_sinusoid_from_parameters",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.periodic_modelling.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.periodic_modelling",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sinusoidal_model_from_extrema.part_of.advanced_functions",
+        "from": "math.senior.functions.trig.sinusoidal_model_from_extrema",
+        "to": "math.area.advanced_functions",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.trig_function_graphs",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.trig_function_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graphing sine, cosine and tangent functions is a central representational component of the trigonometric functions unit.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.amplitude_period_midline",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.amplitude_period_midline",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Amplitude, period and midline are core graph features for sinusoidal functions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.phase_shift",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.phase_shift",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Phase shift is a standard horizontal-translation feature in sinusoidal graph analysis.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.tangent_function_graph",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.tangent_function_graph",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The tangent graph is a core trigonometric-function graph with distinctive period and asymptote behaviour.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.trig_transformations",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.trig_transformations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Transformations of trigonometric graphs are a core application of function transformation ideas within trig functions.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trigonometric_functions.encompasses.periodic_modelling",
+        "from": "math.senior.functions.trigonometric_functions",
+        "to": "math.senior.functions.trig.periodic_modelling",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Periodic modelling is an applied endpoint of sinusoidal function graph and parameter work.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_function_graphs.encompasses.sine_graph_key_points",
+        "from": "math.senior.functions.trig.trig_function_graphs",
+        "to": "math.senior.functions.trig.sine_graph_key_points",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sine graph key points are a specific subskill within graphing trigonometric functions.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_function_graphs.encompasses.cosine_graph_key_points",
+        "from": "math.senior.functions.trig.trig_function_graphs",
+        "to": "math.senior.functions.trig.cosine_graph_key_points",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Cosine graph key points are a specific subskill within graphing trigonometric functions.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_function_graphs.encompasses.tangent_function_graph",
+        "from": "math.senior.functions.trig.trig_function_graphs",
+        "to": "math.senior.functions.trig.tangent_function_graph",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The tangent graph is a specific graph type within the broader trigonometric graph family.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_period_midline.encompasses.amplitude_from_coefficient",
+        "from": "math.senior.functions.trig.amplitude_period_midline",
+        "to": "math.senior.functions.trig.amplitude_from_coefficient",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading amplitude from a coefficient is a specific subskill inside amplitude, period and midline work.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_period_midline.encompasses.period_from_coefficient",
+        "from": "math.senior.functions.trig.amplitude_period_midline",
+        "to": "math.senior.functions.trig.period_from_coefficient",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading period from an input coefficient is a specific subskill inside amplitude, period and midline work.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_period_midline.encompasses.midline_from_vertical_shift",
+        "from": "math.senior.functions.trig.amplitude_period_midline",
+        "to": "math.senior.functions.trig.midline_from_vertical_shift",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading midline from vertical shift is a specific subskill inside amplitude, period and midline work.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.phase_shift.encompasses.phase_shift_from_expression",
+        "from": "math.senior.functions.trig.phase_shift",
+        "to": "math.senior.functions.trig.phase_shift_from_expression",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Determining phase shift from an expression is a concrete subskill within phase-shift reasoning.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_transformations.encompasses.graph_sinusoid_from_parameters",
+        "from": "math.senior.functions.trig.trig_transformations",
+        "to": "math.senior.functions.trig.graph_sinusoid_from_parameters",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Graphing a sinusoid from parameters is a core application of trigonometric transformations.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.periodic_modelling.encompasses.sinusoidal_model_from_extrema",
+        "from": "math.senior.functions.trig.periodic_modelling",
+        "to": "math.senior.functions.trig.sinusoidal_model_from_extrema",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Building a sinusoidal model from extrema is a specific modelling subskill within periodic modelling.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_function_graphs.requires.sine_cosine_unit_circle",
+        "from": "math.senior.functions.trig.trig_function_graphs",
+        "to": "math.senior.functions.trig.sine_cosine_unit_circle",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Graphing sine and cosine functions depends on understanding their unit-circle definitions and repeated coordinate behaviour.",
+        "failure_signal": "Learner plots a generic wave without connecting graph values to sine and cosine values from angle inputs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sine_graph_key_points.requires.trig_function_graphs",
+        "from": "math.senior.functions.trig.sine_graph_key_points",
+        "to": "math.senior.functions.trig.trig_function_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Identifying sine graph key points is a focused subskill within general trigonometric graphing.",
+        "failure_signal": "Learner knows the graph is periodic but cannot locate zeros, maxima and minima over one period.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cosine_graph_key_points.requires.trig_function_graphs",
+        "from": "math.senior.functions.trig.cosine_graph_key_points",
+        "to": "math.senior.functions.trig.trig_function_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Identifying cosine graph key points is a focused subskill within general trigonometric graphing.",
+        "failure_signal": "Learner shifts or orders cosine key points incorrectly over one period.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_function_graph.requires.tangent_on_unit_circle",
+        "from": "math.senior.functions.trig.tangent_function_graph",
+        "to": "math.senior.functions.trig.tangent_on_unit_circle",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Analysing the tangent graph depends on understanding tangent as sine over cosine and recognising where it is undefined.",
+        "failure_signal": "Learner graphs tangent as a sine-like wave or misses vertical asymptotes where cosine is zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_graph_asymptotes.requires.tangent_function_graph",
+        "from": "math.senior.functions.trig.tangent_graph_asymptotes",
+        "to": "math.senior.functions.trig.tangent_function_graph",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Identifying tangent graph asymptotes is a specific graph-feature task within the tangent function graph.",
+        "failure_signal": "Learner marks tangent asymptotes as intercepts or draws continuous branches through undefined inputs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_period_midline.requires.trig_function_graphs",
+        "from": "math.senior.functions.trig.amplitude_period_midline",
+        "to": "math.senior.functions.trig.trig_function_graphs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Amplitude, period and midline are graph features of sinusoidal functions, so learners need baseline sine/cosine graph behaviour first.",
+        "failure_signal": "Learner cannot distinguish vertical size, horizontal repeat length and centre line on a sinusoidal graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_from_coefficient.requires.amplitude_period_midline",
+        "from": "math.senior.functions.trig.amplitude_from_coefficient",
+        "to": "math.senior.functions.trig.amplitude_period_midline",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading amplitude from a coefficient is a formula-based specialisation of amplitude reasoning.",
+        "failure_signal": "Learner confuses the vertical coefficient with period or midline rather than amplitude scale.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.period_from_coefficient.requires.amplitude_period_midline",
+        "from": "math.senior.functions.trig.period_from_coefficient",
+        "to": "math.senior.functions.trig.amplitude_period_midline",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading period from an input coefficient is a formula-based specialisation of period reasoning.",
+        "failure_signal": "Learner treats the input coefficient as the period directly or confuses it with amplitude.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.midline_from_vertical_shift.requires.amplitude_period_midline",
+        "from": "math.senior.functions.trig.midline_from_vertical_shift",
+        "to": "math.senior.functions.trig.amplitude_period_midline",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading midline from vertical shift is a formula-based specialisation of midline reasoning.",
+        "failure_signal": "Learner treats the vertical shift as amplitude or as a maximum/minimum rather than the centre line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.phase_shift.requires.trig_function_graphs",
+        "from": "math.senior.functions.trig.phase_shift",
+        "to": "math.senior.functions.trig.trig_function_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Phase shift is a horizontal transformation of a known trigonometric graph, so baseline graph behaviour is needed first.",
+        "failure_signal": "Learner identifies a horizontal movement but cannot relate it to the starting position or key points of the base graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.phase_shift_from_expression.requires.phase_shift",
+        "from": "math.senior.functions.trig.phase_shift_from_expression",
+        "to": "math.senior.functions.trig.phase_shift",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Determining phase shift from a formula depends on understanding phase shift as horizontal graph displacement.",
+        "failure_signal": "Learner reads the sign or constant inside the expression directly without solving for the baseline input position.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_transformations.requires.amplitude_period_midline",
+        "from": "math.senior.functions.trig.trig_transformations",
+        "to": "math.senior.functions.trig.amplitude_period_midline",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Trigonometric transformations require interpreting amplitude, period and midline as parameter-controlled graph features.",
+        "failure_signal": "Learner applies transformations without separating vertical scale, horizontal scale and vertical shift effects.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trig_transformations.requires.phase_shift",
+        "from": "math.senior.functions.trig.trig_transformations",
+        "to": "math.senior.functions.trig.phase_shift",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Horizontal transformation of trigonometric graphs depends on phase-shift reasoning.",
+        "failure_signal": "Learner correctly handles amplitude or period but places the graph at the wrong horizontal position.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_sinusoid_from_parameters.requires.trig_transformations",
+        "from": "math.senior.functions.trig.graph_sinusoid_from_parameters",
+        "to": "math.senior.functions.trig.trig_transformations",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Graphing a sinusoid from parameters requires combining the individual transformation effects into a coherent graph.",
+        "failure_signal": "Learner can identify separate parameters but cannot sketch the resulting sinusoidal graph accurately.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.periodic_modelling.requires.graph_sinusoid_from_parameters",
+        "from": "math.senior.functions.trig.periodic_modelling",
+        "to": "math.senior.functions.trig.graph_sinusoid_from_parameters",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Periodic modelling uses sinusoidal graphs and parameters to represent repeating contextual behaviour.",
+        "failure_signal": "Learner can sketch a sinusoid from a formula but cannot map contextual period, amplitude or midline to model parameters.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sinusoidal_model_from_extrema.requires.periodic_modelling",
+        "from": "math.senior.functions.trig.sinusoidal_model_from_extrema",
+        "to": "math.senior.functions.trig.periodic_modelling",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Building a sinusoidal model from extrema is a specific modelling task using maximum, minimum and period information from context.",
+        "failure_signal": "Learner identifies extrema but cannot convert them into amplitude, midline and phase information for a model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1728
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1774
+  }
+}

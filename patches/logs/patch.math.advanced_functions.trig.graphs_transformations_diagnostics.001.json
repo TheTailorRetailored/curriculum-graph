@@ -1,0 +1,287 @@
+{
+  "patch_id": "patch.math.advanced_functions.trig.graphs_transformations_diagnostics.001",
+  "applied_at": "2026-06-25T12:13:09.491Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 7,
+      "nodes_updated": 15
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.trig_function_graphs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.sine_graph_key_points",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.cosine_graph_key_points",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.tangent_function_graph",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.tangent_period_pi"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.tangent_graph_asymptotes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.tangent_period_pi"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.amplitude_period_midline",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.amplitude_from_coefficient",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.period_from_coefficient",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.midline_from_vertical_shift",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.phase_shift",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.phase_shift_from_inside_expression"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.phase_shift_from_expression",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.phase_shift_from_inside_expression"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.trig_transformations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph",
+          "math.kp.senior.trig.phase_shift_from_inside_expression"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.graph_sinusoid_from_parameters",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph",
+          "math.kp.senior.trig.phase_shift_from_inside_expression"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.periodic_modelling",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.sinusoidal_model_from_extrema",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.sinusoidal_parameters_describe_graph"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_period_midline.has_misconception.amplitude_period_swapped",
+        "from": "math.senior.functions.trig.amplitude_period_midline",
+        "to": "math.misconception.senior.trig.amplitude_period_swapped",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Confusing amplitude and period is directly diagnosed when identifying core sinusoidal graph features.",
+        "failure_signal": "Learner reports horizontal repeat length as amplitude or vertical half-height as period.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.amplitude_from_coefficient.has_misconception.amplitude_period_swapped",
+        "from": "math.senior.functions.trig.amplitude_from_coefficient",
+        "to": "math.misconception.senior.trig.amplitude_period_swapped",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Reading amplitude from a coefficient reveals whether the learner is confusing the vertical scale factor with the period parameter.",
+        "failure_signal": "Learner uses the input coefficient or horizontal stretch information when asked for amplitude.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.period_from_coefficient.has_misconception.amplitude_period_swapped",
+        "from": "math.senior.functions.trig.period_from_coefficient",
+        "to": "math.misconception.senior.trig.amplitude_period_swapped",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Reading period from a coefficient reveals whether the learner is confusing horizontal repeat length with vertical scale.",
+        "failure_signal": "Learner uses the vertical coefficient or amplitude value when asked for period, or treats the input coefficient as the period directly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.phase_shift.has_misconception.phase_shift_sign_reversed",
+        "from": "math.senior.functions.trig.phase_shift",
+        "to": "math.misconception.senior.trig.phase_shift_sign_reversed",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Phase-shift sign reversal is the central misconception when interpreting horizontal shifts of sinusoidal graphs.",
+        "failure_signal": "Learner reads the sign inside the function as the movement direction without solving for the baseline input position.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.phase_shift_from_expression.has_misconception.phase_shift_sign_reversed",
+        "from": "math.senior.functions.trig.phase_shift_from_expression",
+        "to": "math.misconception.senior.trig.phase_shift_sign_reversed",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Determining phase shift from an expression is the most specific point where sign reversal errors occur.",
+        "failure_signal": "Learner says sin(x - c) shifts left by c or fails to account for a coefficient inside the argument.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_function_graph.has_misconception.tangent_period_two_pi",
+        "from": "math.senior.functions.trig.tangent_function_graph",
+        "to": "math.misconception.senior.trig.tangent_period_two_pi",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "The tangent graph directly diagnoses whether the learner recognises tangent's period as pi rather than two pi.",
+        "failure_signal": "Learner spaces tangent branches or repeated values over two pi instead of pi.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tangent_graph_asymptotes.has_misconception.tangent_period_two_pi",
+        "from": "math.senior.functions.trig.tangent_graph_asymptotes",
+        "to": "math.misconception.senior.trig.tangent_period_two_pi",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Tangent asymptote spacing is affected by the misconception that tangent has the same two-pi period as sine and cosine.",
+        "failure_signal": "Learner places tangent asymptotes according to a two-pi repeating pattern rather than a pi repeating pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 1774
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 1781
+  }
+}

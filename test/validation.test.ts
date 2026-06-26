@@ -167,6 +167,26 @@ describe("curriculum graph validation", () => {
     }
   });
 
+  it("rolls back ontology files when a post-write graph reload fails", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      const result = await applyGraphPatch(graph, patch([
+        { op: "update_node", id: "math.strand.number", updates: { status: "not_a_status" } }
+      ]), { allow_warnings: true });
+
+      expect(result.committed).toBe(false);
+      expect(result.error).toMatch(/Invalid enum value|status/);
+
+      const reloaded = await loadGraph(temp);
+      expect(getNode(reloaded, "math.strand.number")?.node.status).toBe("active");
+      await expect(readFile(path.join(temp, "patches", "rejected", `${result.patch_id}.failed.json`), "utf8")).resolves.toContain("not_a_status");
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
   it("persists embedded knowledge point updates to their parent topic file", async () => {
     const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
     try {
