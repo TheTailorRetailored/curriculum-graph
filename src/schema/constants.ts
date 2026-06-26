@@ -16,6 +16,7 @@ export const EDGE_TYPES = [
   "part_of",
   "requires",
   "encompasses",
+  "targets_knowledge_point",
   "aligned_to",
   "uses_representation",
   "uses_procedure",
@@ -26,8 +27,18 @@ export const EDGE_TYPES = [
   "supports"
 ] as const;
 
+export const NODE_ROLES = [
+  "learner_state",
+  "mastery_claim",
+  "diagnostic_error",
+  "curriculum_view",
+  "pathway_view",
+  "standard_alignment",
+  "assessment_view"
+] as const;
+
 export const STATUSES = ["draft", "active", "deprecated", "merged", "blocked"] as const;
-export const REVIEW_STATUSES = ["ai_generated", "ai_validated", "human_reviewed", "approved", "needs_revision"] as const;
+export const REVIEW_STATUSES = ["ai_generated", "ai_validated", "human_reviewed", "approved", "needs_revision", "derived"] as const;
 export const GRAIN_SIZES = ["container", "course_unit", "lesson_sequence", "lesson_topic", "micro_topic", "atomic"] as const;
 export const STRENGTHS = ["hard", "strong", "medium", "soft", "weak", "helpful"] as const;
 export const CONFIDENCES = ["low", "medium", "high"] as const;

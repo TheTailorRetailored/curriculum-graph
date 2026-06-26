@@ -1,0 +1,110 @@
+{
+  "patch_id": "patch.math.calculus.derivative_applications.extrema_diagnostics.001",
+  "applied_at": "2026-06-26T09:55:05.826Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.derivative_sign_increasing_decreasing",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.positive_derivative_increasing"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.stationary_points_from_derivative_zero",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.positive_derivative_increasing"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.local_max_min_first_derivative_test",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.positive_derivative_increasing"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.second_derivative_concavity_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.derivative_function_maps_inputs_to_rates"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.optimisation_context_constraints",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.positive_derivative_increasing"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stationary_points_from_derivative_zero.has_misconception.stationary_point_always_extreme",
+        "from": "math.senior.calculus.stationary_points_from_derivative_zero",
+        "to": "math.misconception.senior.calculus.stationary_point_always_extreme",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Stationary-point tasks directly expose the misconception that every derivative-zero point must be a local maximum or minimum.",
+        "failure_signal": "Learner concludes that f'(a)=0 is sufficient to classify a local extremum without checking sign change or graph behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.local_max_min_first_derivative_test.has_misconception.stationary_point_always_extreme",
+        "from": "math.senior.calculus.local_max_min_first_derivative_test",
+        "to": "math.misconception.senior.calculus.stationary_point_always_extreme",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "The first derivative test is the specific remediation target for distinguishing extrema from non-extreme stationary points.",
+        "failure_signal": "Learner does not check the derivative sign on both sides of a stationary point before classifying it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 2024
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 2026
+  }
+}

@@ -1,0 +1,735 @@
+{
+  "patch_id": "patch.math.calculus.integration_methods_applications.001",
+  "applied_at": "2026-06-26T12:14:26.105Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 37,
+      "nodes_updated": 10
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_between_curves_intro.part_of.calculus",
+        "from": "math.senior.calculus.area_between_curves_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.u_substitution_intro.part_of.calculus",
+        "from": "math.senior.calculus.u_substitution_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration_by_parts_intro.part_of.calculus",
+        "from": "math.senior.calculus.integration_by_parts_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_integration_intro.part_of.calculus",
+        "from": "math.senior.calculus.numerical_integration_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differential_equations_intro.part_of.calculus",
+        "from": "math.senior.calculus.differential_equations_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.left_right_rectangle_approximation.part_of.calculus",
+        "from": "math.senior.calculus.left_right_rectangle_approximation",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trapezoidal_rule_intro.part_of.calculus",
+        "from": "math.senior.calculus.trapezoidal_rule_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.net_area_vs_total_area.part_of.calculus",
+        "from": "math.senior.calculus.net_area_vs_total_area",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definite_integral_reversal_bounds.part_of.calculus",
+        "from": "math.senior.calculus.definite_integral_reversal_bounds",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integral_units_accumulation.part_of.calculus",
+        "from": "math.senior.calculus.integral_units_accumulation",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.area_between_curves_intro",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.area_between_curves_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Area between curves is a standard extension of definite-integral area reasoning.",
+        "weight": 0.3,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.u_substitution_intro",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.u_substitution_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "U-substitution is an introductory method for integrating composite expressions by reversing the chain rule.",
+        "weight": 0.3,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.integration_by_parts_intro",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.integration_by_parts_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Integration by parts is a later introductory method for integrals connected to the product rule.",
+        "weight": 0.25,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.numerical_integration_intro",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.numerical_integration_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Numerical integration introduces approximation methods for definite integrals when exact antiderivatives are unavailable or unnecessary.",
+        "weight": 0.3,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.differential_equations_intro",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.differential_equations_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Introductory differential equations connect rates, antiderivatives and initial conditions in modelling contexts.",
+        "weight": 0.25,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.signed_area_under_curve.encompasses.net_area_vs_total_area",
+        "from": "math.senior.calculus.signed_area_under_curve",
+        "to": "math.senior.calculus.net_area_vs_total_area",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distinguishing net signed area from total geometric area is a focused subskill within signed-area interpretation.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definite_integral_notation.encompasses.definite_integral_reversal_bounds",
+        "from": "math.senior.calculus.definite_integral_notation",
+        "to": "math.senior.calculus.definite_integral_reversal_bounds",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reversing bounds is a specific notation and sign convention for definite integrals.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_integration_intro.encompasses.left_right_rectangle_approximation",
+        "from": "math.senior.calculus.numerical_integration_intro",
+        "to": "math.senior.calculus.left_right_rectangle_approximation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Left and right rectangle sums are the entry-level numerical approximation methods for definite integrals.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_integration_intro.encompasses.trapezoidal_rule_intro",
+        "from": "math.senior.calculus.numerical_integration_intro",
+        "to": "math.senior.calculus.trapezoidal_rule_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The trapezoidal rule is a standard numerical integration method following rectangle approximations.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.accumulation_function_meaning.encompasses.integral_units_accumulation",
+        "from": "math.senior.calculus.accumulation_function_meaning",
+        "to": "math.senior.calculus.integral_units_accumulation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interpreting integral units is a focused accumulation subskill connecting rate units and input units to accumulated units.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_between_curves_intro.requires.evaluate_definite_integrals",
+        "from": "math.senior.calculus.area_between_curves_intro",
+        "to": "math.senior.calculus.evaluate_definite_integrals",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Area between curves requires evaluating definite integrals over intervals after setting up upper-minus-lower expressions.",
+        "failure_signal": "Learner identifies the two curves but cannot compute the definite integral that gives the area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_between_curves_intro.requires.signed_area_under_curve",
+        "from": "math.senior.calculus.area_between_curves_intro",
+        "to": "math.senior.calculus.signed_area_under_curve",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Area between curves builds on signed-area interpretation, with attention to which curve is above the other.",
+        "failure_signal": "Learner subtracts in the wrong order or gives a negative area when a positive geometric area is requested.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.u_substitution_intro.requires.chain_rule_intro",
+        "from": "math.senior.calculus.u_substitution_intro",
+        "to": "math.senior.calculus.chain_rule_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "U-substitution is the integration-side reversal of the chain rule, so recognising composite structure and inner derivatives is required.",
+        "failure_signal": "Learner chooses a substitution but cannot account for the differential or inner derivative factor.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.u_substitution_intro.requires.basic_antiderivative_rules",
+        "from": "math.senior.calculus.u_substitution_intro",
+        "to": "math.senior.calculus.basic_antiderivative_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "After substitution, learners still need basic antiderivative rules to integrate the transformed expression.",
+        "failure_signal": "Learner identifies a useful substitution but cannot complete the resulting antiderivative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration_by_parts_intro.requires.product_and_quotient_rules",
+        "from": "math.senior.calculus.integration_by_parts_intro",
+        "to": "math.senior.calculus.product_and_quotient_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Integration by parts reverses the product rule conceptually, so familiarity with product-rule structure supports the method.",
+        "failure_signal": "Learner cannot identify the two factors or how differentiating one and integrating the other changes the expression.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration_by_parts_intro.requires.basic_antiderivative_rules",
+        "from": "math.senior.calculus.integration_by_parts_intro",
+        "to": "math.senior.calculus.basic_antiderivative_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Integration by parts requires computing simpler antiderivatives as part of the method.",
+        "failure_signal": "Learner sets up the integration-by-parts structure but cannot integrate the selected dv term.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.numerical_integration_intro.requires.definite_integral_notation",
+        "from": "math.senior.calculus.numerical_integration_intro",
+        "to": "math.senior.calculus.definite_integral_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Numerical integration approximates definite integrals over specified intervals, so notation and bounds must be understood.",
+        "failure_signal": "Learner computes rectangles or trapezoids without connecting them to an interval or definite integral approximation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.left_right_rectangle_approximation.requires.numerical_integration_intro",
+        "from": "math.senior.calculus.left_right_rectangle_approximation",
+        "to": "math.senior.calculus.numerical_integration_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Left and right rectangle methods are specific numerical integration approximations introduced after the general approximation idea.",
+        "failure_signal": "Learner calculates sample heights but cannot form a rectangle-sum approximation to the integral.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.trapezoidal_rule_intro.requires.left_right_rectangle_approximation",
+        "from": "math.senior.calculus.trapezoidal_rule_intro",
+        "to": "math.senior.calculus.left_right_rectangle_approximation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "The trapezoidal rule refines area approximation ideas after learners understand partitioning an interval and using sample heights.",
+        "failure_signal": "Learner cannot relate the trapezoid heights and width to the interval partition used in an integral approximation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.net_area_vs_total_area.requires.signed_area_under_curve",
+        "from": "math.senior.calculus.net_area_vs_total_area",
+        "to": "math.senior.calculus.signed_area_under_curve",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Distinguishing net from total area requires first understanding signed contributions above and below the axis.",
+        "failure_signal": "Learner adds or subtracts all regions the same way regardless of whether the graph lies above or below the axis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definite_integral_reversal_bounds.requires.definite_integral_notation",
+        "from": "math.senior.calculus.definite_integral_reversal_bounds",
+        "to": "math.senior.calculus.definite_integral_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The sign change under reversed bounds is a notation and orientation convention for definite integrals.",
+        "failure_signal": "Learner treats ∫_a^b and ∫_b^a as identical rather than negatives of one another.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integral_units_accumulation.requires.accumulation_function_meaning",
+        "from": "math.senior.calculus.integral_units_accumulation",
+        "to": "math.senior.calculus.accumulation_function_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Integral units are interpreted through accumulation: rate units multiplied by input units produce accumulated quantity units.",
+        "failure_signal": "Learner gives the integral the same units as the integrand instead of multiplying by the input variable's units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differential_equations_intro.requires.derivative_notation",
+        "from": "math.senior.calculus.differential_equations_intro",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Introductory differential equations are expressed using derivative notation for rates of change.",
+        "failure_signal": "Learner cannot interpret dy/dx or dy/dt as the rate relationship specified by the equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differential_equations_intro.requires.integral_constant_initial_conditions",
+        "from": "math.senior.calculus.differential_equations_intro",
+        "to": "math.senior.calculus.integral_constant_initial_conditions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Solving simple differential equations often uses antiderivatives plus an initial condition to determine the constant.",
+        "failure_signal": "Learner integrates the rate equation but omits or cannot determine the constant from the initial condition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.area_between_curves_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.area_between_curves_upper_minus_lower"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.u_substitution_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.substitution_reverses_chain_rule"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.integration_by_parts_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.antiderivative_reverses_derivative"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.numerical_integration_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.definite_integral_accumulates_signed_area"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.differential_equations_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.antiderivative_reverses_derivative",
+          "math.kp.senior.calculus.indefinite_integrals_need_constant"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.left_right_rectangle_approximation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.definite_integral_accumulates_signed_area"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.trapezoidal_rule_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.definite_integral_accumulates_signed_area"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.net_area_vs_total_area",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.definite_integral_accumulates_signed_area"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.definite_integral_reversal_bounds",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.reversing_integral_bounds_changes_sign"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.integral_units_accumulation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.integral_units_multiply_units"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_between_curves_intro.has_misconception.definite_integral_always_positive_area",
+        "from": "math.senior.calculus.area_between_curves_intro",
+        "to": "math.misconception.senior.calculus.definite_integral_always_positive_area",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Area-between-curves tasks can reveal confusion between signed integral values and positive geometric area.",
+        "failure_signal": "Learner reports a negative geometric area or ignores which curve is upper versus lower.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.net_area_vs_total_area.has_misconception.definite_integral_always_positive_area",
+        "from": "math.senior.calculus.net_area_vs_total_area",
+        "to": "math.misconception.senior.calculus.definite_integral_always_positive_area",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Net-area versus total-area tasks directly diagnose the misconception that all definite-integral area contributions are positive.",
+        "failure_signal": "Learner gives total geometric area when asked for net signed area, or gives net area when total area is requested.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integral_units_accumulation.has_misconception.integral_units_same_as_function",
+        "from": "math.senior.calculus.integral_units_accumulation",
+        "to": "math.misconception.senior.calculus.integral_units_same_as_function",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Integral-units tasks directly diagnose whether the learner understands accumulation units as integrand units times input units.",
+        "failure_signal": "Learner says integrating velocity over time has velocity units rather than distance units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 2065
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 2102
+  }
+}

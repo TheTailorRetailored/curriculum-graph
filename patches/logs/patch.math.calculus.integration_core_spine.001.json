@@ -1,0 +1,677 @@
+{
+  "patch_id": "patch.math.calculus.integration_core_spine.001",
+  "applied_at": "2026-06-26T12:12:00.610Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 34,
+      "nodes_updated": 9
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.antiderivative_meaning.part_of.calculus",
+        "from": "math.senior.calculus.antiderivative_meaning",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indefinite_integral_notation.part_of.calculus",
+        "from": "math.senior.calculus.indefinite_integral_notation",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_antiderivative_rules.part_of.calculus",
+        "from": "math.senior.calculus.basic_antiderivative_rules",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integral_constant_initial_conditions.part_of.calculus",
+        "from": "math.senior.calculus.integral_constant_initial_conditions",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definite_integral_notation.part_of.calculus",
+        "from": "math.senior.calculus.definite_integral_notation",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.signed_area_under_curve.part_of.calculus",
+        "from": "math.senior.calculus.signed_area_under_curve",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.accumulation_function_meaning.part_of.calculus",
+        "from": "math.senior.calculus.accumulation_function_meaning",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fundamental_theorem_calculus_intro.part_of.calculus",
+        "from": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_definite_integrals.part_of.calculus",
+        "from": "math.senior.calculus.evaluate_definite_integrals",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.antiderivative_meaning",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.antiderivative_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Antiderivative meaning is the conceptual entry point for integration as the inverse process of differentiation.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.indefinite_integral_notation",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.indefinite_integral_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Indefinite integral notation is the symbolic language for representing families of antiderivatives.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.basic_antiderivative_rules",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.basic_antiderivative_rules",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Basic antiderivative rules provide the first procedural toolkit for finding simple indefinite integrals.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.integral_constant_initial_conditions",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.integral_constant_initial_conditions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Constants of integration and initial conditions are central to interpreting antiderivative families in context.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.definite_integral_notation",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.definite_integral_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Definite integral notation is the symbolic language for bounded accumulation and signed area tasks.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.signed_area_under_curve",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.signed_area_under_curve",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Signed area under a curve is a core interpretation of the definite integral.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.accumulation_function_meaning",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.accumulation_function_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Accumulation functions connect definite integrals to changing accumulated quantities and rates.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.fundamental_theorem_calculus_intro",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The fundamental theorem of calculus links antiderivatives, rates and accumulation within introductory integration.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integration.encompasses.evaluate_definite_integrals",
+        "from": "math.senior.calculus.integration",
+        "to": "math.senior.calculus.evaluate_definite_integrals",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evaluating definite integrals is a standard procedural application of the fundamental theorem and antiderivative rules.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.antiderivative_meaning.requires.derivative_function_maps_inputs_to_rates",
+        "from": "math.senior.calculus.antiderivative_meaning",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding an antiderivative as a function whose derivative is the original function requires interpreting derivative notation and derivative-function meaning.",
+        "failure_signal": "Learner can reverse a rule procedurally but cannot explain what it means for F'(x) to equal f(x).",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indefinite_integral_notation.requires.antiderivative_meaning",
+        "from": "math.senior.calculus.indefinite_integral_notation",
+        "to": "math.senior.calculus.antiderivative_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Indefinite integral notation represents a family of antiderivatives, so the antiderivative concept must be established first.",
+        "failure_signal": "Learner treats the indefinite integral symbol as a formula command without recognising the output as an antiderivative family.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_antiderivative_rules.requires.power_rule",
+        "from": "math.senior.calculus.basic_antiderivative_rules",
+        "to": "math.senior.calculus.power_rule",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Basic antiderivative rules are often taught as reversals of derivative rules such as the power rule.",
+        "failure_signal": "Learner cannot check an antiderivative by differentiating or reverses powers without accounting for the derivative rule.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.basic_antiderivative_rules.requires.indefinite_integral_notation",
+        "from": "math.senior.calculus.basic_antiderivative_rules",
+        "to": "math.senior.calculus.indefinite_integral_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Applying antiderivative rules requires understanding the notation and output form of an indefinite integral.",
+        "failure_signal": "Learner can guess an antiderivative but omits notation or fails to express the family of functions being represented.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integral_constant_initial_conditions.requires.indefinite_integral_notation",
+        "from": "math.senior.calculus.integral_constant_initial_conditions",
+        "to": "math.senior.calculus.indefinite_integral_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The constant of integration arises from indefinite integral notation representing a family of antiderivatives.",
+        "failure_signal": "Learner writes a single antiderivative without +C or cannot explain why initial conditions determine C.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.definite_integral_notation.requires.signed_area_under_curve",
+        "from": "math.senior.calculus.definite_integral_notation",
+        "to": "math.senior.calculus.signed_area_under_curve",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Definite integral notation is most meaningful when connected to bounded signed area or accumulation over an interval.",
+        "failure_signal": "Learner can copy integral bounds but cannot interpret the interval or signed area being accumulated.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.signed_area_under_curve.requires.graphical_limits",
+        "from": "math.senior.calculus.signed_area_under_curve",
+        "to": "math.senior.calculus.graphical_limits",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Signed-area reasoning uses graphical interpretation of function behaviour above and below the axis over intervals.",
+        "failure_signal": "Learner sees the graph but cannot distinguish positive and negative contributions to area-like accumulation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.accumulation_function_meaning.requires.definite_integral_notation",
+        "from": "math.senior.calculus.accumulation_function_meaning",
+        "to": "math.senior.calculus.definite_integral_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Accumulation functions are expressed using definite integral notation with a variable upper bound or changing interval.",
+        "failure_signal": "Learner cannot interpret the variable bound as changing the accumulated amount.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fundamental_theorem_calculus_intro.requires.antiderivative_meaning",
+        "from": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "to": "math.senior.calculus.antiderivative_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The fundamental theorem relates definite integrals to antiderivatives, so antiderivative meaning is necessary.",
+        "failure_signal": "Learner applies F(b)-F(a) without recognising F as an antiderivative of the integrand.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fundamental_theorem_calculus_intro.requires.accumulation_function_meaning",
+        "from": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "to": "math.senior.calculus.accumulation_function_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The theorem links rates and accumulated change, so accumulation-function meaning supports more than formula use.",
+        "failure_signal": "Learner can recite F(b)-F(a) but cannot explain how integrating a rate gives accumulated change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_definite_integrals.requires.fundamental_theorem_calculus_intro",
+        "from": "math.senior.calculus.evaluate_definite_integrals",
+        "to": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Evaluating definite integrals symbolically uses the fundamental theorem to compute antiderivative values at bounds.",
+        "failure_signal": "Learner finds an antiderivative but does not evaluate it at the upper and lower bounds and subtract correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.evaluate_definite_integrals.requires.basic_antiderivative_rules",
+        "from": "math.senior.calculus.evaluate_definite_integrals",
+        "to": "math.senior.calculus.basic_antiderivative_rules",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Symbolic definite integral evaluation requires finding an antiderivative using basic antiderivative rules in introductory cases.",
+        "failure_signal": "Learner understands bounds and subtraction but cannot find the needed antiderivative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.antiderivative_meaning",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.antiderivative_reverses_derivative"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.indefinite_integral_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.indefinite_integrals_need_constant"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.basic_antiderivative_rules",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.antiderivative_reverses_derivative",
+          "math.kp.senior.calculus.indefinite_integrals_need_constant"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.integral_constant_initial_conditions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.indefinite_integrals_need_constant"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.definite_integral_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.definite_integral_accumulates_signed_area"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.signed_area_under_curve",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.definite_integral_accumulates_signed_area"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.accumulation_function_meaning",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.definite_integral_accumulates_signed_area",
+          "math.kp.senior.calculus.ftc_links_rate_and_accumulation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.fundamental_theorem_calculus_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.ftc_links_rate_and_accumulation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.evaluate_definite_integrals",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.ftc_links_rate_and_accumulation"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.indefinite_integral_notation.has_misconception.omits_constant_of_integration",
+        "from": "math.senior.calculus.indefinite_integral_notation",
+        "to": "math.misconception.senior.calculus.omits_constant_of_integration",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Indefinite integral notation is the first place where omitting the constant of integration becomes visible.",
+        "failure_signal": "Learner writes a single antiderivative for an indefinite integral without +C.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.integral_constant_initial_conditions.has_misconception.omits_constant_of_integration",
+        "from": "math.senior.calculus.integral_constant_initial_conditions",
+        "to": "math.misconception.senior.calculus.omits_constant_of_integration",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Initial-condition tasks diagnose whether the learner understands the role of the arbitrary constant in an antiderivative family.",
+        "failure_signal": "Learner cannot use an initial condition to solve for C or ignores C entirely before applying the condition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.signed_area_under_curve.has_misconception.definite_integral_always_positive_area",
+        "from": "math.senior.calculus.signed_area_under_curve",
+        "to": "math.misconception.senior.calculus.definite_integral_always_positive_area",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Signed-area tasks directly diagnose the misconception that definite integrals always return positive geometric area.",
+        "failure_signal": "Learner makes all below-axis contributions positive when asked for a definite integral.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fundamental_theorem_calculus_intro.has_misconception.ftc_as_formula_only",
+        "from": "math.senior.calculus.fundamental_theorem_calculus_intro",
+        "to": "math.misconception.senior.calculus.ftc_as_formula_only",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Introductory FTC tasks diagnose whether the learner sees the theorem as a link between rate and accumulation rather than only a substitution formula.",
+        "failure_signal": "Learner applies F(b)-F(a) mechanically but cannot explain the accumulated quantity or rate relationship.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 2031
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 2065
+  }
+}

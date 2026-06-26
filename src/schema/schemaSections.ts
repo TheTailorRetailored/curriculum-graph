@@ -1,4 +1,4 @@
-import { EDGE_TYPES, GRAIN_SIZES, NODE_TYPES, PATCH_OPS, STATUSES, STRENGTHS } from "./constants.js";
+import { EDGE_TYPES, GRAIN_SIZES, NODE_ROLES, NODE_TYPES, PATCH_OPS, STATUSES, STRENGTHS } from "./constants.js";
 import { authoringGuidelines } from "./authoringGuidelines.js";
 
 export const nodeSchemaSection = {
@@ -7,6 +7,24 @@ export const nodeSchemaSection = {
   required_all_nodes: ["id", "type", "label", "status", "metadata.created_by", "metadata.review_status"],
   required_topic_fields: ["id", "type", "subject", "strand", "area", "label", "description", "year_band", "grain_size", "status", "metadata"],
   required_knowledge_point_fields: ["id", "type", "label", "description", "observable", "assessable", "status", "metadata"],
+  role_model: {
+    allowed_roles: NODE_ROLES,
+    explicit_role_field: "role",
+    derived_field: "effective_role",
+    principle: "The core graph models learnable states and diagnostic dependencies. Courses, units, standards, reports, pathways, and app maps are projections/views over that graph.",
+    inference_rules: {
+      knowledge_point: "mastery_claim",
+      misconception: "diagnostic_error",
+      task_type: "assessment_view",
+      curriculum_standard: "standard_alignment",
+      pathway: "pathway_view",
+      subject_strand_area: "curriculum_view",
+      topic_container_course_unit_lesson_sequence: "curriculum_view",
+      topic_lesson_topic_micro_topic_atomic: "learner_state",
+      representation_procedure: "learner_state"
+    },
+    migration_note: "Do not bulk-add roles to every YAML node. Use role_audit_report to review suggested semantic roles area by area."
+  },
   allowed_statuses: STATUSES,
   allowed_grain_sizes: GRAIN_SIZES,
   example: {
@@ -43,6 +61,11 @@ export const edgeSchemaSection = {
   encompasses_edges: {
     required_fields: ["weight", "confidence", "rationale"],
     weight_range: "0.01 to 1.00"
+  },
+  targets_knowledge_point_edges: {
+    meaning: "from learner_state/topic/procedure/representation to knowledge_point; teaches, targets, or directly supports evidence for an observable mastery claim",
+    derived_from: "node.knowledge_points",
+    note: "Patch authors do not need to create this edge manually when knowledge_points arrays are present. The loader materializes derived edges in memory."
   },
   examples: {
     requires: {
@@ -134,7 +157,10 @@ export const validationSchemaSection = {
     "Hard requires cycles are blocking errors.",
     "Every requires edge must include strength, confidence, rationale, and failure_signal.",
     "Every encompasses edge must include weight, confidence, and rationale.",
-    "Knowledge points must be observable.",
+    "role must be valid when provided; missing roles are interpreted through effective_role inference.",
+    "Knowledge points in new patches must be observable and assessable.",
+    "targets_knowledge_point edges must target knowledge_point nodes.",
+    "has_misconception edges must target misconception nodes.",
     "AI-created nodes and edges must include metadata.created_by and metadata.review_status."
   ],
   warning_conditions: [
@@ -144,7 +170,10 @@ export const validationSchemaSection = {
     "Topics may have too many or too few knowledge points for their grain size.",
     "Early year-band topics may suspiciously require much later topics.",
     "Encompasses edges may target nodes too broad for practice credit.",
-    "High encompasses weight without high confidence is suspicious."
+    "High encompasses weight without high confidence is suspicious.",
+    "requires edges involving curriculum_view nodes are usually broad course ordering rather than diagnostic dependency.",
+    "curriculum_standard / standard_alignment nodes should not participate in requires edges or direct diagnostic links.",
+    "Duplicate node.knowledge_points refs and explicit targets_knowledge_point edges are non-fatal but should be canonicalised to one derived edge."
   ],
   strictness_modes: {
     loose: {
@@ -190,6 +219,7 @@ export function getSchemaSection(section: string) {
       return {
         node_types: NODE_TYPES,
         edge_types: EDGE_TYPES,
+        node_roles: NODE_ROLES,
         sections: ["constitution", "nodes", "edges", "patch", "validation", "examples"],
         constitution_summary: authoringGuidelines.core_idea,
         patch_shape: patchSchemaSection.patch_shape

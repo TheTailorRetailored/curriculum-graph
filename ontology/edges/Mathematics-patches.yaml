@@ -20911,3 +20911,1193 @@ edges:
     metadata:
       created_by: assistant
       review_status: ai_generated
+  - id: edge.derivative_sign_increasing_decreasing.part_of.calculus
+    from: math.senior.calculus.derivative_sign_increasing_decreasing
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.stationary_points_from_derivative_zero.part_of.calculus
+    from: math.senior.calculus.stationary_points_from_derivative_zero
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.local_max_min_first_derivative_test.part_of.calculus
+    from: math.senior.calculus.local_max_min_first_derivative_test
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.second_derivative_concavity_intro.part_of.calculus
+    from: math.senior.calculus.second_derivative_concavity_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.optimisation_context_constraints.part_of.calculus
+    from: math.senior.calculus.optimisation_context_constraints
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differentiation.encompasses.derivative_sign_increasing_decreasing
+    from: math.senior.calculus.differentiation
+    to: math.senior.calculus.derivative_sign_increasing_decreasing
+    type: encompasses
+    confidence: high
+    rationale: Using derivative sign to determine increasing and decreasing
+      intervals is a central application of derivative meaning.
+    weight: 0.45
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differentiation.encompasses.stationary_points_from_derivative_zero
+    from: math.senior.calculus.differentiation
+    to: math.senior.calculus.stationary_points_from_derivative_zero
+    type: encompasses
+    confidence: high
+    rationale: Finding stationary points from derivative zero is a standard
+      derivative-analysis task.
+    weight: 0.4
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differentiation.encompasses.local_max_min_first_derivative_test
+    from: math.senior.calculus.differentiation
+    to: math.senior.calculus.local_max_min_first_derivative_test
+    type: encompasses
+    confidence: high
+    rationale: The first derivative test is a standard method for classifying local
+      extrema using derivative sign changes.
+    weight: 0.4
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differentiation.encompasses.second_derivative_concavity_intro
+    from: math.senior.calculus.differentiation
+    to: math.senior.calculus.second_derivative_concavity_intro
+    type: encompasses
+    confidence: high
+    rationale: Second-derivative concavity is a later derivative-analysis topic
+      using rates of change of the derivative.
+    weight: 0.35
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differentiation.encompasses.optimisation_context_constraints
+    from: math.senior.calculus.differentiation
+    to: math.senior.calculus.optimisation_context_constraints
+    type: encompasses
+    confidence: high
+    rationale: Optimisation with contextual constraints is a major application of
+      derivative analysis to modelling problems.
+    weight: 0.35
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.derivative_sign_increasing_decreasing.requires.derivative_as_tangent_gradient
+    from: math.senior.calculus.derivative_sign_increasing_decreasing
+    to: math.senior.calculus.derivative_as_tangent_gradient
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Interpreting derivative sign as increasing or decreasing depends on
+      understanding the derivative as local slope or tangent gradient.
+    failure_signal: Learner can compute f'(x) but cannot connect positive or
+      negative derivative values to graph direction.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.stationary_points_from_derivative_zero.requires.derivative_sign_increasing_decreasing
+    from: math.senior.calculus.stationary_points_from_derivative_zero
+    to: math.senior.calculus.derivative_sign_increasing_decreasing
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Stationary-point analysis uses derivative values and signs to locate
+      points where the local rate is zero.
+    failure_signal: Learner solves f'(x)=0 mechanically but cannot interpret why
+      these inputs are candidates for turning behaviour.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.stationary_points_from_derivative_zero.requires.power_rule
+    from: math.senior.calculus.stationary_points_from_derivative_zero
+    to: math.senior.calculus.power_rule
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Finding stationary points in introductory polynomial examples
+      requires differentiating with rules such as the power rule.
+    failure_signal: Learner knows stationary points occur when f'(x)=0 but cannot
+      form the derivative equation correctly.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.local_max_min_first_derivative_test.requires.stationary_points_from_derivative_zero
+    from: math.senior.calculus.local_max_min_first_derivative_test
+    to: math.senior.calculus.stationary_points_from_derivative_zero
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: The first derivative test classifies candidate stationary points
+      found from derivative-zero or undefined derivative conditions.
+    failure_signal: Learner tries to classify extrema without first identifying
+      candidate critical points.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.local_max_min_first_derivative_test.requires.derivative_sign_increasing_decreasing
+    from: math.senior.calculus.local_max_min_first_derivative_test
+    to: math.senior.calculus.derivative_sign_increasing_decreasing
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: The first derivative test depends on detecting derivative sign
+      changes around a candidate point.
+    failure_signal: Learner identifies f'(x)=0 but cannot decide whether the
+      function changes from increasing to decreasing or vice versa.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.second_derivative_concavity_intro.requires.derivative_sign_increasing_decreasing
+    from: math.senior.calculus.second_derivative_concavity_intro
+    to: math.senior.calculus.derivative_sign_increasing_decreasing
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Concavity reasoning builds on understanding how derivative values
+      change as the input changes.
+    failure_signal: Learner can identify increasing/decreasing intervals but cannot
+      interpret an increasing derivative as concave up behaviour.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.optimisation_context_constraints.requires.local_max_min_first_derivative_test
+    from: math.senior.calculus.optimisation_context_constraints
+    to: math.senior.calculus.local_max_min_first_derivative_test
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Optimisation problems require identifying and checking candidates for
+      maximum or minimum values under contextual constraints.
+    failure_signal: Learner sets f'(x)=0 but does not verify whether the candidate
+      gives the needed maximum or minimum in the feasible domain.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.optimisation_context_constraints.requires.domain_restrictions
+    from: math.senior.calculus.optimisation_context_constraints
+    to: math.senior.functions.domain_restrictions
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Contextual optimisation requires identifying feasible input
+      constraints and interpreting endpoints or restricted domains.
+    failure_signal: Learner optimises an expression outside the allowed physical or
+      contextual domain.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.stationary_points_from_derivative_zero.has_misconception.stationary_point_always_extreme
+    from: math.senior.calculus.stationary_points_from_derivative_zero
+    to: math.misconception.senior.calculus.stationary_point_always_extreme
+    type: has_misconception
+    confidence: high
+    rationale: Stationary-point tasks directly expose the misconception that every
+      derivative-zero point must be a local maximum or minimum.
+    failure_signal: Learner concludes that f'(a)=0 is sufficient to classify a local
+      extremum without checking sign change or graph behaviour.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.local_max_min_first_derivative_test.has_misconception.stationary_point_always_extreme
+    from: math.senior.calculus.local_max_min_first_derivative_test
+    to: math.misconception.senior.calculus.stationary_point_always_extreme
+    type: has_misconception
+    confidence: high
+    rationale: The first derivative test is the specific remediation target for
+      distinguishing extrema from non-extreme stationary points.
+    failure_signal: Learner does not check the derivative sign on both sides of a
+      stationary point before classifying it.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.related_rates_intro.part_of.calculus
+    from: math.senior.calculus.related_rates_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differentiation.encompasses.related_rates_intro
+    from: math.senior.calculus.differentiation
+    to: math.senior.calculus.related_rates_intro
+    type: encompasses
+    confidence: medium
+    rationale: Related rates is an introductory implicit-rate application of
+      differentiation and the chain rule.
+    weight: 0.3
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.related_rates_intro.requires.chain_rule_intro
+    from: math.senior.calculus.related_rates_intro
+    to: math.senior.calculus.chain_rule_intro
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Related rates problems use the chain rule to differentiate
+      relationships between quantities that change with time.
+    failure_signal: Learner differentiates a relationship but omits multiplying by
+      rates such as dx/dt or dy/dt.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.related_rates_intro.requires.derivative_notation
+    from: math.senior.calculus.related_rates_intro
+    to: math.senior.calculus.derivative_notation
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Related rates problems require interpreting derivative notation for
+      rates of change with respect to time.
+    failure_signal: Learner cannot distinguish x, dx/dt and dV/dt or cannot state
+      which quantity's rate is being found.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.related_rates_intro.has_misconception.chain_rule_forgets_inner_derivative
+    from: math.senior.calculus.related_rates_intro
+    to: math.misconception.senior.calculus.chain_rule_forgets_inner_derivative
+    type: has_misconception
+    confidence: medium
+    rationale: Related rates errors often come from applying ordinary
+      differentiation without the time-rate factors required by the chain rule.
+    failure_signal: Learner differentiates x^2 + y^2 = r^2 as 2x + 2y = 2r rather
+      than including dx/dt, dy/dt and dr/dt terms.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.antiderivative_meaning.part_of.calculus
+    from: math.senior.calculus.antiderivative_meaning
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.indefinite_integral_notation.part_of.calculus
+    from: math.senior.calculus.indefinite_integral_notation
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.basic_antiderivative_rules.part_of.calculus
+    from: math.senior.calculus.basic_antiderivative_rules
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integral_constant_initial_conditions.part_of.calculus
+    from: math.senior.calculus.integral_constant_initial_conditions
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.definite_integral_notation.part_of.calculus
+    from: math.senior.calculus.definite_integral_notation
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.signed_area_under_curve.part_of.calculus
+    from: math.senior.calculus.signed_area_under_curve
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.accumulation_function_meaning.part_of.calculus
+    from: math.senior.calculus.accumulation_function_meaning
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.fundamental_theorem_calculus_intro.part_of.calculus
+    from: math.senior.calculus.fundamental_theorem_calculus_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.evaluate_definite_integrals.part_of.calculus
+    from: math.senior.calculus.evaluate_definite_integrals
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.antiderivative_meaning
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.antiderivative_meaning
+    type: encompasses
+    confidence: high
+    rationale: Antiderivative meaning is the conceptual entry point for integration
+      as the inverse process of differentiation.
+    weight: 0.45
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.indefinite_integral_notation
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.indefinite_integral_notation
+    type: encompasses
+    confidence: high
+    rationale: Indefinite integral notation is the symbolic language for
+      representing families of antiderivatives.
+    weight: 0.35
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.basic_antiderivative_rules
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.basic_antiderivative_rules
+    type: encompasses
+    confidence: high
+    rationale: Basic antiderivative rules provide the first procedural toolkit for
+      finding simple indefinite integrals.
+    weight: 0.45
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.integral_constant_initial_conditions
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.integral_constant_initial_conditions
+    type: encompasses
+    confidence: high
+    rationale: Constants of integration and initial conditions are central to
+      interpreting antiderivative families in context.
+    weight: 0.35
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.definite_integral_notation
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.definite_integral_notation
+    type: encompasses
+    confidence: high
+    rationale: Definite integral notation is the symbolic language for bounded
+      accumulation and signed area tasks.
+    weight: 0.4
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.signed_area_under_curve
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.signed_area_under_curve
+    type: encompasses
+    confidence: high
+    rationale: Signed area under a curve is a core interpretation of the definite
+      integral.
+    weight: 0.45
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.accumulation_function_meaning
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.accumulation_function_meaning
+    type: encompasses
+    confidence: high
+    rationale: Accumulation functions connect definite integrals to changing
+      accumulated quantities and rates.
+    weight: 0.35
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.fundamental_theorem_calculus_intro
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.fundamental_theorem_calculus_intro
+    type: encompasses
+    confidence: high
+    rationale: The fundamental theorem of calculus links antiderivatives, rates and
+      accumulation within introductory integration.
+    weight: 0.45
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.evaluate_definite_integrals
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.evaluate_definite_integrals
+    type: encompasses
+    confidence: high
+    rationale: Evaluating definite integrals is a standard procedural application of
+      the fundamental theorem and antiderivative rules.
+    weight: 0.4
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.antiderivative_meaning.requires.derivative_function_maps_inputs_to_rates
+    from: math.senior.calculus.antiderivative_meaning
+    to: math.senior.calculus.derivative_notation
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Understanding an antiderivative as a function whose derivative is the
+      original function requires interpreting derivative notation and
+      derivative-function meaning.
+    failure_signal: Learner can reverse a rule procedurally but cannot explain what
+      it means for F'(x) to equal f(x).
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.indefinite_integral_notation.requires.antiderivative_meaning
+    from: math.senior.calculus.indefinite_integral_notation
+    to: math.senior.calculus.antiderivative_meaning
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Indefinite integral notation represents a family of antiderivatives,
+      so the antiderivative concept must be established first.
+    failure_signal: Learner treats the indefinite integral symbol as a formula
+      command without recognising the output as an antiderivative family.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.basic_antiderivative_rules.requires.power_rule
+    from: math.senior.calculus.basic_antiderivative_rules
+    to: math.senior.calculus.power_rule
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Basic antiderivative rules are often taught as reversals of
+      derivative rules such as the power rule.
+    failure_signal: Learner cannot check an antiderivative by differentiating or
+      reverses powers without accounting for the derivative rule.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.basic_antiderivative_rules.requires.indefinite_integral_notation
+    from: math.senior.calculus.basic_antiderivative_rules
+    to: math.senior.calculus.indefinite_integral_notation
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Applying antiderivative rules requires understanding the notation and
+      output form of an indefinite integral.
+    failure_signal: Learner can guess an antiderivative but omits notation or fails
+      to express the family of functions being represented.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integral_constant_initial_conditions.requires.indefinite_integral_notation
+    from: math.senior.calculus.integral_constant_initial_conditions
+    to: math.senior.calculus.indefinite_integral_notation
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: The constant of integration arises from indefinite integral notation
+      representing a family of antiderivatives.
+    failure_signal: Learner writes a single antiderivative without +C or cannot
+      explain why initial conditions determine C.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.definite_integral_notation.requires.signed_area_under_curve
+    from: math.senior.calculus.definite_integral_notation
+    to: math.senior.calculus.signed_area_under_curve
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: Definite integral notation is most meaningful when connected to
+      bounded signed area or accumulation over an interval.
+    failure_signal: Learner can copy integral bounds but cannot interpret the
+      interval or signed area being accumulated.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.signed_area_under_curve.requires.graphical_limits
+    from: math.senior.calculus.signed_area_under_curve
+    to: math.senior.calculus.graphical_limits
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: Signed-area reasoning uses graphical interpretation of function
+      behaviour above and below the axis over intervals.
+    failure_signal: Learner sees the graph but cannot distinguish positive and
+      negative contributions to area-like accumulation.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.accumulation_function_meaning.requires.definite_integral_notation
+    from: math.senior.calculus.accumulation_function_meaning
+    to: math.senior.calculus.definite_integral_notation
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Accumulation functions are expressed using definite integral notation
+      with a variable upper bound or changing interval.
+    failure_signal: Learner cannot interpret the variable bound as changing the
+      accumulated amount.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.fundamental_theorem_calculus_intro.requires.antiderivative_meaning
+    from: math.senior.calculus.fundamental_theorem_calculus_intro
+    to: math.senior.calculus.antiderivative_meaning
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: The fundamental theorem relates definite integrals to
+      antiderivatives, so antiderivative meaning is necessary.
+    failure_signal: Learner applies F(b)-F(a) without recognising F as an
+      antiderivative of the integrand.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.fundamental_theorem_calculus_intro.requires.accumulation_function_meaning
+    from: math.senior.calculus.fundamental_theorem_calculus_intro
+    to: math.senior.calculus.accumulation_function_meaning
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: The theorem links rates and accumulated change, so
+      accumulation-function meaning supports more than formula use.
+    failure_signal: Learner can recite F(b)-F(a) but cannot explain how integrating
+      a rate gives accumulated change.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.evaluate_definite_integrals.requires.fundamental_theorem_calculus_intro
+    from: math.senior.calculus.evaluate_definite_integrals
+    to: math.senior.calculus.fundamental_theorem_calculus_intro
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Evaluating definite integrals symbolically uses the fundamental
+      theorem to compute antiderivative values at bounds.
+    failure_signal: Learner finds an antiderivative but does not evaluate it at the
+      upper and lower bounds and subtract correctly.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.evaluate_definite_integrals.requires.basic_antiderivative_rules
+    from: math.senior.calculus.evaluate_definite_integrals
+    to: math.senior.calculus.basic_antiderivative_rules
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Symbolic definite integral evaluation requires finding an
+      antiderivative using basic antiderivative rules in introductory cases.
+    failure_signal: Learner understands bounds and subtraction but cannot find the
+      needed antiderivative.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.indefinite_integral_notation.has_misconception.omits_constant_of_integration
+    from: math.senior.calculus.indefinite_integral_notation
+    to: math.misconception.senior.calculus.omits_constant_of_integration
+    type: has_misconception
+    confidence: high
+    rationale: Indefinite integral notation is the first place where omitting the
+      constant of integration becomes visible.
+    failure_signal: Learner writes a single antiderivative for an indefinite
+      integral without +C.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integral_constant_initial_conditions.has_misconception.omits_constant_of_integration
+    from: math.senior.calculus.integral_constant_initial_conditions
+    to: math.misconception.senior.calculus.omits_constant_of_integration
+    type: has_misconception
+    confidence: high
+    rationale: Initial-condition tasks diagnose whether the learner understands the
+      role of the arbitrary constant in an antiderivative family.
+    failure_signal: Learner cannot use an initial condition to solve for C or
+      ignores C entirely before applying the condition.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.signed_area_under_curve.has_misconception.definite_integral_always_positive_area
+    from: math.senior.calculus.signed_area_under_curve
+    to: math.misconception.senior.calculus.definite_integral_always_positive_area
+    type: has_misconception
+    confidence: high
+    rationale: Signed-area tasks directly diagnose the misconception that definite
+      integrals always return positive geometric area.
+    failure_signal: Learner makes all below-axis contributions positive when asked
+      for a definite integral.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.fundamental_theorem_calculus_intro.has_misconception.ftc_as_formula_only
+    from: math.senior.calculus.fundamental_theorem_calculus_intro
+    to: math.misconception.senior.calculus.ftc_as_formula_only
+    type: has_misconception
+    confidence: high
+    rationale: Introductory FTC tasks diagnose whether the learner sees the theorem
+      as a link between rate and accumulation rather than only a substitution
+      formula.
+    failure_signal: Learner applies F(b)-F(a) mechanically but cannot explain the
+      accumulated quantity or rate relationship.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.area_between_curves_intro.part_of.calculus
+    from: math.senior.calculus.area_between_curves_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.u_substitution_intro.part_of.calculus
+    from: math.senior.calculus.u_substitution_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration_by_parts_intro.part_of.calculus
+    from: math.senior.calculus.integration_by_parts_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.numerical_integration_intro.part_of.calculus
+    from: math.senior.calculus.numerical_integration_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differential_equations_intro.part_of.calculus
+    from: math.senior.calculus.differential_equations_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.left_right_rectangle_approximation.part_of.calculus
+    from: math.senior.calculus.left_right_rectangle_approximation
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.trapezoidal_rule_intro.part_of.calculus
+    from: math.senior.calculus.trapezoidal_rule_intro
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.net_area_vs_total_area.part_of.calculus
+    from: math.senior.calculus.net_area_vs_total_area
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.definite_integral_reversal_bounds.part_of.calculus
+    from: math.senior.calculus.definite_integral_reversal_bounds
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integral_units_accumulation.part_of.calculus
+    from: math.senior.calculus.integral_units_accumulation
+    to: math.area.calculus
+    type: part_of
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.area_between_curves_intro
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.area_between_curves_intro
+    type: encompasses
+    confidence: high
+    rationale: Area between curves is a standard extension of definite-integral area
+      reasoning.
+    weight: 0.3
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.u_substitution_intro
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.u_substitution_intro
+    type: encompasses
+    confidence: high
+    rationale: U-substitution is an introductory method for integrating composite
+      expressions by reversing the chain rule.
+    weight: 0.3
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.integration_by_parts_intro
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.integration_by_parts_intro
+    type: encompasses
+    confidence: medium
+    rationale: Integration by parts is a later introductory method for integrals
+      connected to the product rule.
+    weight: 0.25
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.numerical_integration_intro
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.numerical_integration_intro
+    type: encompasses
+    confidence: high
+    rationale: Numerical integration introduces approximation methods for definite
+      integrals when exact antiderivatives are unavailable or unnecessary.
+    weight: 0.3
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration.encompasses.differential_equations_intro
+    from: math.senior.calculus.integration
+    to: math.senior.calculus.differential_equations_intro
+    type: encompasses
+    confidence: medium
+    rationale: Introductory differential equations connect rates, antiderivatives
+      and initial conditions in modelling contexts.
+    weight: 0.25
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.signed_area_under_curve.encompasses.net_area_vs_total_area
+    from: math.senior.calculus.signed_area_under_curve
+    to: math.senior.calculus.net_area_vs_total_area
+    type: encompasses
+    confidence: high
+    rationale: Distinguishing net signed area from total geometric area is a focused
+      subskill within signed-area interpretation.
+    weight: 0.45
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.definite_integral_notation.encompasses.definite_integral_reversal_bounds
+    from: math.senior.calculus.definite_integral_notation
+    to: math.senior.calculus.definite_integral_reversal_bounds
+    type: encompasses
+    confidence: high
+    rationale: Reversing bounds is a specific notation and sign convention for
+      definite integrals.
+    weight: 0.35
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.numerical_integration_intro.encompasses.left_right_rectangle_approximation
+    from: math.senior.calculus.numerical_integration_intro
+    to: math.senior.calculus.left_right_rectangle_approximation
+    type: encompasses
+    confidence: high
+    rationale: Left and right rectangle sums are the entry-level numerical
+      approximation methods for definite integrals.
+    weight: 0.45
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.numerical_integration_intro.encompasses.trapezoidal_rule_intro
+    from: math.senior.calculus.numerical_integration_intro
+    to: math.senior.calculus.trapezoidal_rule_intro
+    type: encompasses
+    confidence: high
+    rationale: The trapezoidal rule is a standard numerical integration method
+      following rectangle approximations.
+    weight: 0.4
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.accumulation_function_meaning.encompasses.integral_units_accumulation
+    from: math.senior.calculus.accumulation_function_meaning
+    to: math.senior.calculus.integral_units_accumulation
+    type: encompasses
+    confidence: high
+    rationale: Interpreting integral units is a focused accumulation subskill
+      connecting rate units and input units to accumulated units.
+    weight: 0.35
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.area_between_curves_intro.requires.evaluate_definite_integrals
+    from: math.senior.calculus.area_between_curves_intro
+    to: math.senior.calculus.evaluate_definite_integrals
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Area between curves requires evaluating definite integrals over
+      intervals after setting up upper-minus-lower expressions.
+    failure_signal: Learner identifies the two curves but cannot compute the
+      definite integral that gives the area.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.area_between_curves_intro.requires.signed_area_under_curve
+    from: math.senior.calculus.area_between_curves_intro
+    to: math.senior.calculus.signed_area_under_curve
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Area between curves builds on signed-area interpretation, with
+      attention to which curve is above the other.
+    failure_signal: Learner subtracts in the wrong order or gives a negative area
+      when a positive geometric area is requested.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.u_substitution_intro.requires.chain_rule_intro
+    from: math.senior.calculus.u_substitution_intro
+    to: math.senior.calculus.chain_rule_intro
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: U-substitution is the integration-side reversal of the chain rule, so
+      recognising composite structure and inner derivatives is required.
+    failure_signal: Learner chooses a substitution but cannot account for the
+      differential or inner derivative factor.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.u_substitution_intro.requires.basic_antiderivative_rules
+    from: math.senior.calculus.u_substitution_intro
+    to: math.senior.calculus.basic_antiderivative_rules
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: After substitution, learners still need basic antiderivative rules to
+      integrate the transformed expression.
+    failure_signal: Learner identifies a useful substitution but cannot complete the
+      resulting antiderivative.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration_by_parts_intro.requires.product_and_quotient_rules
+    from: math.senior.calculus.integration_by_parts_intro
+    to: math.senior.calculus.product_and_quotient_rules
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: Integration by parts reverses the product rule conceptually, so
+      familiarity with product-rule structure supports the method.
+    failure_signal: Learner cannot identify the two factors or how differentiating
+      one and integrating the other changes the expression.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integration_by_parts_intro.requires.basic_antiderivative_rules
+    from: math.senior.calculus.integration_by_parts_intro
+    to: math.senior.calculus.basic_antiderivative_rules
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Integration by parts requires computing simpler antiderivatives as
+      part of the method.
+    failure_signal: Learner sets up the integration-by-parts structure but cannot
+      integrate the selected dv term.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.numerical_integration_intro.requires.definite_integral_notation
+    from: math.senior.calculus.numerical_integration_intro
+    to: math.senior.calculus.definite_integral_notation
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Numerical integration approximates definite integrals over specified
+      intervals, so notation and bounds must be understood.
+    failure_signal: Learner computes rectangles or trapezoids without connecting
+      them to an interval or definite integral approximation.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.left_right_rectangle_approximation.requires.numerical_integration_intro
+    from: math.senior.calculus.left_right_rectangle_approximation
+    to: math.senior.calculus.numerical_integration_intro
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Left and right rectangle methods are specific numerical integration
+      approximations introduced after the general approximation idea.
+    failure_signal: Learner calculates sample heights but cannot form a
+      rectangle-sum approximation to the integral.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.trapezoidal_rule_intro.requires.left_right_rectangle_approximation
+    from: math.senior.calculus.trapezoidal_rule_intro
+    to: math.senior.calculus.left_right_rectangle_approximation
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: The trapezoidal rule refines area approximation ideas after learners
+      understand partitioning an interval and using sample heights.
+    failure_signal: Learner cannot relate the trapezoid heights and width to the
+      interval partition used in an integral approximation.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.net_area_vs_total_area.requires.signed_area_under_curve
+    from: math.senior.calculus.net_area_vs_total_area
+    to: math.senior.calculus.signed_area_under_curve
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Distinguishing net from total area requires first understanding
+      signed contributions above and below the axis.
+    failure_signal: Learner adds or subtracts all regions the same way regardless of
+      whether the graph lies above or below the axis.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.definite_integral_reversal_bounds.requires.definite_integral_notation
+    from: math.senior.calculus.definite_integral_reversal_bounds
+    to: math.senior.calculus.definite_integral_notation
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: The sign change under reversed bounds is a notation and orientation
+      convention for definite integrals.
+    failure_signal: Learner treats ∫_a^b and ∫_b^a as identical rather than
+      negatives of one another.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integral_units_accumulation.requires.accumulation_function_meaning
+    from: math.senior.calculus.integral_units_accumulation
+    to: math.senior.calculus.accumulation_function_meaning
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: "Integral units are interpreted through accumulation: rate units
+      multiplied by input units produce accumulated quantity units."
+    failure_signal: Learner gives the integral the same units as the integrand
+      instead of multiplying by the input variable's units.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differential_equations_intro.requires.derivative_notation
+    from: math.senior.calculus.differential_equations_intro
+    to: math.senior.calculus.derivative_notation
+    type: requires
+    strength: hard
+    confidence: high
+    rationale: Introductory differential equations are expressed using derivative
+      notation for rates of change.
+    failure_signal: Learner cannot interpret dy/dx or dy/dt as the rate relationship
+      specified by the equation.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.differential_equations_intro.requires.integral_constant_initial_conditions
+    from: math.senior.calculus.differential_equations_intro
+    to: math.senior.calculus.integral_constant_initial_conditions
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Solving simple differential equations often uses antiderivatives plus
+      an initial condition to determine the constant.
+    failure_signal: Learner integrates the rate equation but omits or cannot
+      determine the constant from the initial condition.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.area_between_curves_intro.has_misconception.definite_integral_always_positive_area
+    from: math.senior.calculus.area_between_curves_intro
+    to: math.misconception.senior.calculus.definite_integral_always_positive_area
+    type: has_misconception
+    confidence: medium
+    rationale: Area-between-curves tasks can reveal confusion between signed
+      integral values and positive geometric area.
+    failure_signal: Learner reports a negative geometric area or ignores which curve
+      is upper versus lower.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.net_area_vs_total_area.has_misconception.definite_integral_always_positive_area
+    from: math.senior.calculus.net_area_vs_total_area
+    to: math.misconception.senior.calculus.definite_integral_always_positive_area
+    type: has_misconception
+    confidence: high
+    rationale: Net-area versus total-area tasks directly diagnose the misconception
+      that all definite-integral area contributions are positive.
+    failure_signal: Learner gives total geometric area when asked for net signed
+      area, or gives net area when total area is requested.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.integral_units_accumulation.has_misconception.integral_units_same_as_function
+    from: math.senior.calculus.integral_units_accumulation
+    to: math.misconception.senior.calculus.integral_units_same_as_function
+    type: has_misconception
+    confidence: high
+    rationale: Integral-units tasks directly diagnose whether the learner
+      understands accumulation units as integrand units times input units.
+    failure_signal: Learner says integrating velocity over time has velocity units
+      rather than distance units.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.algebraic_limit_simplification.has_misconception.limit_equals_function_value
+    from: math.senior.calculus.algebraic_limit_simplification
+    to: math.misconception.senior.calculus.limit_equals_function_value
+    type: has_misconception
+    confidence: medium
+    rationale: Algebraic limit simplification tasks diagnose whether the learner
+      treats the limit as the substituted function value rather than nearby
+      behaviour after rewriting.
+    failure_signal: Learner stops at the undefined substituted value or concludes
+      the limit does not exist without simplifying the expression around the
+      point.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.discontinuity_types_intro.has_misconception.limit_equals_function_value
+    from: math.senior.calculus.discontinuity_types_intro
+    to: math.misconception.senior.calculus.limit_equals_function_value
+    type: has_misconception
+    confidence: high
+    rationale: Classifying discontinuities depends on distinguishing the function
+      value from nearby limiting behaviour.
+    failure_signal: Learner misclassifies a hole or removable discontinuity because
+      they focus only on the plotted value at the point.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.jump_discontinuity_limits.has_misconception.one_sided_limit_ignored
+    from: math.senior.calculus.jump_discontinuity_limits
+    to: math.misconception.senior.calculus.one_sided_limit_ignored
+    type: has_misconception
+    confidence: high
+    rationale: Jump discontinuity tasks directly diagnose whether the learner checks
+      both one-sided limits before deciding that a two-sided limit exists.
+    failure_signal: Learner reports a single limit at the jump by looking from only
+      one side or by averaging the sides.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.infinite_discontinuity_vertical_asymptote.has_misconception.limit_equals_function_value
+    from: math.senior.calculus.infinite_discontinuity_vertical_asymptote
+    to: math.misconception.senior.calculus.limit_equals_function_value
+    type: has_misconception
+    confidence: medium
+    rationale: Vertical-asymptote tasks diagnose whether the learner treats
+      unbounded nearby behaviour as a finite value at the input.
+    failure_signal: Learner reports a large y-value or an undefined function value
+      instead of recognising the infinite limiting behaviour near the asymptote.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated

@@ -1,0 +1,124 @@
+{
+  "patch_id": "patch.math.calculus.related_rates_intro.001",
+  "applied_at": "2026-06-26T09:55:42.766Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.related_rates_intro.part_of.calculus",
+        "from": "math.senior.calculus.related_rates_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.related_rates_intro",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.related_rates_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Related rates is an introductory implicit-rate application of differentiation and the chain rule.",
+        "weight": 0.3,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.related_rates_intro.requires.chain_rule_intro",
+        "from": "math.senior.calculus.related_rates_intro",
+        "to": "math.senior.calculus.chain_rule_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Related rates problems use the chain rule to differentiate relationships between quantities that change with time.",
+        "failure_signal": "Learner differentiates a relationship but omits multiplying by rates such as dx/dt or dy/dt.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.related_rates_intro.requires.derivative_notation",
+        "from": "math.senior.calculus.related_rates_intro",
+        "to": "math.senior.calculus.derivative_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Related rates problems require interpreting derivative notation for rates of change with respect to time.",
+        "failure_signal": "Learner cannot distinguish x, dx/dt and dV/dt or cannot state which quantity's rate is being found.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.related_rates_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.chain_rule_handles_composites"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.related_rates_intro.has_misconception.chain_rule_forgets_inner_derivative",
+        "from": "math.senior.calculus.related_rates_intro",
+        "to": "math.misconception.senior.calculus.chain_rule_forgets_inner_derivative",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Related rates errors often come from applying ordinary differentiation without the time-rate factors required by the chain rule.",
+        "failure_signal": "Learner differentiates x^2 + y^2 = r^2 as 2x + 2y = 2r rather than including dx/dt, dy/dt and dr/dt terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 2026
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 2031
+  }
+}

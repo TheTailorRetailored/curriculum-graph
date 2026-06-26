@@ -2,6 +2,7 @@ import { GraphIndex } from "../graph/loadGraph.js";
 import { detectCycles } from "../graph/graphAlgorithms.js";
 import { edgeSchema, nodeSchema, Patch, patchSchema, ValidationIssue, ValidationResult } from "../schema/zodSchemas.js";
 import { isValidEdgeId, isValidNodeId, slugLooksLikeLabel } from "../util/ids.js";
+import { withEffectiveRole } from "../graph/roles.js";
 import { detectDuplicateNode } from "./duplicateDetection.js";
 import { checkEncompassingEdge } from "./edgeSemantics.js";
 import { checkGranularity } from "./granularityChecks.js";
@@ -39,11 +40,12 @@ export function validatePatch(graph: GraphIndex, patch: Patch | unknown, strictn
       const result = nodeSchema.safeParse(op.node);
       if (!result.success) blocking_errors.push(...result.error.issues.map((issue) => ({ code: "node_schema", severity: "error" as const, message: issue.message, path: `${op.node?.id}.${issue.path.join(".")}`, node_id: op.node?.id })));
       if (!isValidNodeId(op.node.id)) blocking_errors.push({ code: "invalid_id", severity: "error", message: `Invalid node id: ${op.node.id}`, node_id: op.node.id });
+      if (op.node.type === "knowledge_point" && op.node.assessable !== true) blocking_errors.push({ code: "knowledge_point_not_assessable", severity: "error", message: "Knowledge point nodes must be assessable.", node_id: op.node.id });
       if (!slugLooksLikeLabel(op.node.id, op.node.label)) warnings.push({ code: "id_label_mismatch", severity: "warning", message: "ID slug may not match label.", node_id: op.node.id });
       if (op.op === "create_node") {
         for (const issue of detectDuplicateNode(graph, op.node, op)) (issue.severity === "error" ? blocking_errors : warnings).push(issue);
       }
-      projectedNodes.set(op.node.id, op.node);
+      projectedNodes.set(op.node.id, withEffectiveRole(op.node));
     }
     if (op.edge) {
       const result = edgeSchema.safeParse(op.edge);
@@ -60,6 +62,29 @@ export function validatePatch(graph: GraphIndex, patch: Patch | unknown, strictn
       }
       if (!projectedNodes.has(op.edge.from)) blocking_errors.push({ code: "missing_edge_from", severity: "error", message: `Missing edge endpoint: ${op.edge.from}`, edge_id: op.edge.id });
       if (!projectedNodes.has(op.edge.to)) blocking_errors.push({ code: "missing_edge_to", severity: "error", message: `Missing edge endpoint: ${op.edge.to}`, edge_id: op.edge.id });
+      const fromNode = projectedNodes.get(op.edge.from);
+      const toNode = projectedNodes.get(op.edge.to);
+      if (op.edge.type === "targets_knowledge_point" && toNode && toNode.type !== "knowledge_point") {
+        blocking_errors.push({ code: "targets_knowledge_point_target_not_kp", severity: "error", message: "targets_knowledge_point edges must target knowledge_point nodes.", edge_id: op.edge.id });
+      }
+      if (op.edge.type === "has_misconception" && toNode && toNode.type !== "misconception") {
+        blocking_errors.push({ code: "has_misconception_target_not_misconception", severity: "error", message: "has_misconception edges must target misconception nodes.", edge_id: op.edge.id });
+      }
+      if (op.edge.type === "aligned_to" && toNode && toNode.type !== "curriculum_standard") {
+        warnings.push({ code: "aligned_to_target_not_standard", severity: "warning", message: "aligned_to edges should target curriculum_standard nodes.", edge_id: op.edge.id });
+      }
+      if (op.edge.type === "targets_knowledge_point" && fromNode?.knowledge_points?.some((kp) => (typeof kp === "string" ? kp : kp.id) === op.edge?.to)) {
+        warnings.push({ code: "duplicate_targets_knowledge_point_ref", severity: "warning", message: "This targets_knowledge_point edge duplicates a node.knowledge_points reference; prefer the derived edge.", edge_id: op.edge.id });
+      }
+      if (op.edge.type === "requires" && (fromNode?.effective_role === "curriculum_view" || toNode?.effective_role === "curriculum_view")) {
+        warnings.push({ code: "requires_involves_curriculum_view", severity: "warning", message: "requires should represent diagnostic dependencies; curriculum_view nodes usually need supports, develops_into, or pathway sequencing instead.", edge_id: op.edge.id });
+      }
+      if (op.edge.type === "requires" && (fromNode?.effective_role === "standard_alignment" || toNode?.effective_role === "standard_alignment")) {
+        warnings.push({ code: "requires_involves_standard_alignment", severity: "warning", message: "Curriculum standards should not usually participate in requires edges.", edge_id: op.edge.id });
+      }
+      if ((fromNode?.effective_role === "standard_alignment" || toNode?.effective_role === "standard_alignment") && ["targets_knowledge_point", "has_misconception"].includes(op.edge.type)) {
+        warnings.push({ code: "standard_alignment_has_direct_diagnostic_link", severity: "warning", message: "Standards should map onto internal graph nodes rather than having KPs or misconceptions directly attached.", edge_id: op.edge.id });
+      }
       warnings.push(...checkYearBandDirection(op.edge, projectedNodes.get(op.edge.from), projectedNodes.get(op.edge.to)));
       warnings.push(...checkEncompassingEdge(op.edge, projectedNodes.get(op.edge.to), projectedEdges));
     }

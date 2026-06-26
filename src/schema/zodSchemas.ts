@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { CONFIDENCES, EDGE_ID_PATTERN, EDGE_TYPES, GRAIN_SIZES, ID_PATTERN, NODE_TYPES, PATCH_OPS, REVIEW_STATUSES, STATUSES, STRENGTHS } from "./constants.js";
+import { CONFIDENCES, EDGE_ID_PATTERN, EDGE_TYPES, GRAIN_SIZES, ID_PATTERN, NODE_ROLES, NODE_TYPES, PATCH_OPS, REVIEW_STATUSES, STATUSES, STRENGTHS } from "./constants.js";
 
 export const metadataSchema = z.object({
   created_by: z.string().min(1),
@@ -29,6 +29,8 @@ export const nodeSchema = z.object({
   strand: z.string().optional(),
   area: z.string().optional(),
   parent_topic: z.string().regex(ID_PATTERN).optional(),
+  role: z.enum(NODE_ROLES).optional(),
+  effective_role: z.enum(NODE_ROLES).optional(),
   label: z.string().min(1),
   description: z.string().optional(),
   aliases: z.array(z.string()).optional().default([]),

@@ -1,0 +1,136 @@
+{
+  "patch_id": "patch.math.calculus.limit_discontinuity_diagnostics.001",
+  "applied_at": "2026-06-26T12:18:47.975Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.algebraic_limit_simplification",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.limit_describes_nearby_behavior"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.discontinuity_types_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.continuity_links_value_and_limit",
+          "math.kp.senior.calculus.two_sided_limit_needs_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.jump_discontinuity_limits",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.two_sided_limit_needs_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.calculus.infinite_discontinuity_vertical_asymptote",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.calculus.limit_describes_nearby_behavior"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.algebraic_limit_simplification.has_misconception.limit_equals_function_value",
+        "from": "math.senior.calculus.algebraic_limit_simplification",
+        "to": "math.misconception.senior.calculus.limit_equals_function_value",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Algebraic limit simplification tasks diagnose whether the learner treats the limit as the substituted function value rather than nearby behaviour after rewriting.",
+        "failure_signal": "Learner stops at the undefined substituted value or concludes the limit does not exist without simplifying the expression around the point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discontinuity_types_intro.has_misconception.limit_equals_function_value",
+        "from": "math.senior.calculus.discontinuity_types_intro",
+        "to": "math.misconception.senior.calculus.limit_equals_function_value",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Classifying discontinuities depends on distinguishing the function value from nearby limiting behaviour.",
+        "failure_signal": "Learner misclassifies a hole or removable discontinuity because they focus only on the plotted value at the point.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.jump_discontinuity_limits.has_misconception.one_sided_limit_ignored",
+        "from": "math.senior.calculus.jump_discontinuity_limits",
+        "to": "math.misconception.senior.calculus.one_sided_limit_ignored",
+        "type": "has_misconception",
+        "confidence": "high",
+        "rationale": "Jump discontinuity tasks directly diagnose whether the learner checks both one-sided limits before deciding that a two-sided limit exists.",
+        "failure_signal": "Learner reports a single limit at the jump by looking from only one side or by averaging the sides.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.infinite_discontinuity_vertical_asymptote.has_misconception.limit_equals_function_value",
+        "from": "math.senior.calculus.infinite_discontinuity_vertical_asymptote",
+        "to": "math.misconception.senior.calculus.limit_equals_function_value",
+        "type": "has_misconception",
+        "confidence": "medium",
+        "rationale": "Vertical-asymptote tasks diagnose whether the learner treats unbounded nearby behaviour as a finite value at the input.",
+        "failure_signal": "Learner reports a large y-value or an undefined function value instead of recognising the infinite limiting behaviour near the asymptote.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 2102
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 2106
+  }
+}

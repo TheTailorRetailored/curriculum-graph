@@ -1,0 +1,329 @@
+{
+  "patch_id": "patch.math.calculus.derivative_applications.extrema_structure.001",
+  "applied_at": "2026-06-26T09:54:32.010Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 18,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_sign_increasing_decreasing.part_of.calculus",
+        "from": "math.senior.calculus.derivative_sign_increasing_decreasing",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stationary_points_from_derivative_zero.part_of.calculus",
+        "from": "math.senior.calculus.stationary_points_from_derivative_zero",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.local_max_min_first_derivative_test.part_of.calculus",
+        "from": "math.senior.calculus.local_max_min_first_derivative_test",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.second_derivative_concavity_intro.part_of.calculus",
+        "from": "math.senior.calculus.second_derivative_concavity_intro",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.optimisation_context_constraints.part_of.calculus",
+        "from": "math.senior.calculus.optimisation_context_constraints",
+        "to": "math.area.calculus",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.derivative_sign_increasing_decreasing",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.derivative_sign_increasing_decreasing",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Using derivative sign to determine increasing and decreasing intervals is a central application of derivative meaning.",
+        "weight": 0.45,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.stationary_points_from_derivative_zero",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.stationary_points_from_derivative_zero",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding stationary points from derivative zero is a standard derivative-analysis task.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.local_max_min_first_derivative_test",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.local_max_min_first_derivative_test",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The first derivative test is a standard method for classifying local extrema using derivative sign changes.",
+        "weight": 0.4,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.second_derivative_concavity_intro",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.second_derivative_concavity_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Second-derivative concavity is a later derivative-analysis topic using rates of change of the derivative.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.encompasses.optimisation_context_constraints",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.optimisation_context_constraints",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Optimisation with contextual constraints is a major application of derivative analysis to modelling problems.",
+        "weight": 0.35,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.derivative_sign_increasing_decreasing.requires.derivative_as_tangent_gradient",
+        "from": "math.senior.calculus.derivative_sign_increasing_decreasing",
+        "to": "math.senior.calculus.derivative_as_tangent_gradient",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interpreting derivative sign as increasing or decreasing depends on understanding the derivative as local slope or tangent gradient.",
+        "failure_signal": "Learner can compute f'(x) but cannot connect positive or negative derivative values to graph direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stationary_points_from_derivative_zero.requires.derivative_sign_increasing_decreasing",
+        "from": "math.senior.calculus.stationary_points_from_derivative_zero",
+        "to": "math.senior.calculus.derivative_sign_increasing_decreasing",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Stationary-point analysis uses derivative values and signs to locate points where the local rate is zero.",
+        "failure_signal": "Learner solves f'(x)=0 mechanically but cannot interpret why these inputs are candidates for turning behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stationary_points_from_derivative_zero.requires.power_rule",
+        "from": "math.senior.calculus.stationary_points_from_derivative_zero",
+        "to": "math.senior.calculus.power_rule",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Finding stationary points in introductory polynomial examples requires differentiating with rules such as the power rule.",
+        "failure_signal": "Learner knows stationary points occur when f'(x)=0 but cannot form the derivative equation correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.local_max_min_first_derivative_test.requires.stationary_points_from_derivative_zero",
+        "from": "math.senior.calculus.local_max_min_first_derivative_test",
+        "to": "math.senior.calculus.stationary_points_from_derivative_zero",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The first derivative test classifies candidate stationary points found from derivative-zero or undefined derivative conditions.",
+        "failure_signal": "Learner tries to classify extrema without first identifying candidate critical points.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.local_max_min_first_derivative_test.requires.derivative_sign_increasing_decreasing",
+        "from": "math.senior.calculus.local_max_min_first_derivative_test",
+        "to": "math.senior.calculus.derivative_sign_increasing_decreasing",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "The first derivative test depends on detecting derivative sign changes around a candidate point.",
+        "failure_signal": "Learner identifies f'(x)=0 but cannot decide whether the function changes from increasing to decreasing or vice versa.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.second_derivative_concavity_intro.requires.derivative_sign_increasing_decreasing",
+        "from": "math.senior.calculus.second_derivative_concavity_intro",
+        "to": "math.senior.calculus.derivative_sign_increasing_decreasing",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Concavity reasoning builds on understanding how derivative values change as the input changes.",
+        "failure_signal": "Learner can identify increasing/decreasing intervals but cannot interpret an increasing derivative as concave up behaviour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.optimisation_context_constraints.requires.local_max_min_first_derivative_test",
+        "from": "math.senior.calculus.optimisation_context_constraints",
+        "to": "math.senior.calculus.local_max_min_first_derivative_test",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Optimisation problems require identifying and checking candidates for maximum or minimum values under contextual constraints.",
+        "failure_signal": "Learner sets f'(x)=0 but does not verify whether the candidate gives the needed maximum or minimum in the feasible domain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.optimisation_context_constraints.requires.domain_restrictions",
+        "from": "math.senior.calculus.optimisation_context_constraints",
+        "to": "math.senior.functions.domain_restrictions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Contextual optimisation requires identifying feasible input constraints and interpreting endpoints or restricted domains.",
+        "failure_signal": "Learner optimises an expression outside the allowed physical or contextual domain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 2006
+  },
+  "graph_counts_after": {
+    "nodes": 2662,
+    "edges": 2024
+  }
+}
