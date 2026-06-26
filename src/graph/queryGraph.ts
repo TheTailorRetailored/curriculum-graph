@@ -1,7 +1,7 @@
 import { EDGE_TYPES } from "../schema/constants.js";
 import { CurriculumEdge, CurriculumNode } from "../schema/zodSchemas.js";
 import { jaccard, normalizeText, tokenize } from "../util/text.js";
-import { matchesRoleFilter, NodeRoleFilter, roleAwareCoverageWarnings } from "./coverage.js";
+import { buildRoleAuditReport, matchesRoleFilter, NodeRoleFilter, roleAwareCoverageWarnings } from "./coverage.js";
 import { GraphIndex } from "./loadGraph.js";
 
 export type SearchNodesInput = NodeRoleFilter & {
@@ -94,6 +94,11 @@ export function getAreaMap(graph: GraphIndex, input: NodeRoleFilter & { subject?
     existing_edges,
     nearby_nodes: existing_nodes.slice(0, 50),
     known_gaps,
+    role_audit: {
+      total: existing_nodes.length,
+      results: buildRoleAuditReport(graph, input).slice(0, 200),
+      applied: false
+    },
     warnings,
     examples: input.include_examples ? existing_nodes.filter((node) => node.type === "topic").slice(0, 3) : []
   };

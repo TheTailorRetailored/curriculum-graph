@@ -13,6 +13,7 @@ export type CoverageInput = NodeRoleFilter & {
   subject?: string;
   strand?: string;
   area?: string;
+  role_audit_limit?: number;
 };
 
 type NodeCoverage = {
@@ -171,6 +172,7 @@ export function buildCoverageReport(graph: GraphIndex, input: CoverageInput) {
   const edges = graph.edges.filter((edge) => nodeIds.has(edge.from) || nodeIds.has(edge.to));
   const coverage = nodes.filter((node) => node.type === "topic" || node.effective_role === "curriculum_view" || node.effective_role === "learner_state").map((node) => nodeCoverage(graph, node));
   const warnings = nodes.flatMap((node) => roleAwareCoverageWarnings(graph, node));
+  const roleAudit = buildRoleAuditReport(graph, input);
 
   return {
     node_counts: countsBy(nodes.map((node) => node.type)),
@@ -187,6 +189,11 @@ export function buildCoverageReport(graph: GraphIndex, input: CoverageInput) {
       .map((node) => node.id),
     orphan_nodes: orphanNodeIds(graph, nodes),
     coverage,
+    role_audit: {
+      total: roleAudit.length,
+      results: roleAudit.slice(0, input.role_audit_limit ?? 200),
+      applied: false
+    },
     warnings,
     acara_alignment_counts: {}
   };
@@ -249,4 +256,3 @@ function countsBy<T extends string>(values: T[]): Record<string, number> {
     return counts;
   }, {});
 }
-

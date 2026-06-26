@@ -37,7 +37,7 @@ export const toolDefinitions = [
   { name: "apply_patch", description: "Validate and commit a patch.", inputSchema: { type: "object", properties: { patch: { type: "object" }, strictness: { type: "string" }, allow_warnings: { type: "boolean" } }, required: ["patch"] } },
   { name: "detect_cycles", description: "Detect prerequisite cycles.", inputSchema: { type: "object", properties: { edge_type: { type: "string" }, strengths: { type: "array", items: { type: "string" } }, subject: { type: "string" } } } },
   { name: "impact_analysis", description: "Show downstream dependencies before changing a node.", inputSchema: { type: "object", properties: { node_id: { type: "string" }, edge_types: { type: "array", items: { type: "string" } }, depth: { type: "number" } }, required: ["node_id"] } },
-  { name: "coverage_report", description: "Report coverage by subject, strand, area, year band, role, or pathway.", inputSchema: { type: "object", properties: { subject: { type: "string" }, strand: { type: "string" }, area: { type: "string" }, role: { type: "string" }, roles: { type: "array", items: { type: "string" } }, effective_role: { type: "string" }, effective_roles: { type: "array", items: { type: "string" } } } } },
+  { name: "coverage_report", description: "Report coverage by subject, strand, area, year band, role, or pathway.", inputSchema: { type: "object", properties: { subject: { type: "string" }, strand: { type: "string" }, area: { type: "string" }, role: { type: "string" }, roles: { type: "array", items: { type: "string" } }, effective_role: { type: "string" }, effective_roles: { type: "array", items: { type: "string" } }, role_audit_limit: { type: "number" } } } },
   { name: "role_audit_report", description: "Report inferred node roles and migration suggestions without applying changes.", inputSchema: { type: "object", properties: { subject: { type: "string" }, strand: { type: "string" }, area: { type: "string" }, role: { type: "string" }, roles: { type: "array", items: { type: "string" } }, effective_role: { type: "string" }, effective_roles: { type: "array", items: { type: "string" } }, limit: { type: "number" } } } },
   { name: "critique_patch", description: "Run deterministic and heuristic critique on a patch.", inputSchema: { type: "object", properties: { patch: { type: "object" }, focus: { type: "array", items: { type: "string" } } }, required: ["patch"] } },
   { name: "export_graph", description: "Export graph to JSON, JSON-LD, or YAML.", inputSchema: { type: "object", properties: { format: { type: "string" }, subject: { type: "string" }, include_drafts: { type: "boolean" }, include_derived_edges: { type: "boolean" }, role: { type: "string" }, roles: { type: "array", items: { type: "string" } }, effective_role: { type: "string" }, effective_roles: { type: "array", items: { type: "string" } } } } }
@@ -95,7 +95,7 @@ export const toolHandlers: Record<string, ToolHandler> = {
     return { node_id: input.node_id, downstream_count: dependent_nodes.length, high_impact: dependent_nodes.length >= 20, dependent_nodes };
   },
   coverage_report(args, graph) {
-    const input = z.object({ subject: z.string().optional(), strand: z.string().optional(), area: z.string().optional(), ...roleFilterSchema }).parse(args ?? {});
+    const input = z.object({ subject: z.string().optional(), strand: z.string().optional(), area: z.string().optional(), ...roleFilterSchema, role_audit_limit: z.number().optional() }).parse(args ?? {});
     return buildCoverageReport(graph, input);
   },
   role_audit_report(args, graph) {

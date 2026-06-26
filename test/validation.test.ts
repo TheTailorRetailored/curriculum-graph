@@ -432,6 +432,33 @@ describe("curriculum graph validation", () => {
     }
   });
 
+  it("includes role audit rows in coverage reports for cached tool clients", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      const report = buildCoverageReport(graph, { subject: "mathematics", area: "Fractions", role_audit_limit: 20 });
+      expect(report.role_audit.applied).toBe(false);
+      expect(report.role_audit.results.length).toBeLessThanOrEqual(20);
+      expect(report.role_audit.results.some((item) => item.node_id === "math.topic.fractions_course_unit")).toBe(true);
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
+  it("includes role audit rows in area maps for cached tool clients", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      const areaMap = getAreaMap(graph, { subject: "mathematics", area: "Fractions" });
+      expect(areaMap.role_audit.applied).toBe(false);
+      expect(areaMap.role_audit.results.some((item) => item.node_id === "math.topic.fractions_course_unit")).toBe(true);
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
   it("returns useful area map context", async () => {
     const graph = await loadGraph(root);
     const areaMap = getAreaMap(graph, { subject: "mathematics", area: "Fractions", include_examples: true });
