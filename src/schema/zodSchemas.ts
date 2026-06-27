@@ -96,6 +96,8 @@ export const patchOperationSchema = z.object({
   if (operation.op === "deprecate_node" && !operation.rationale) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["rationale"], message: "deprecate_node requires rationale" });
   if (operation.op === "update_edge" && !operation.id && !operation.edge?.id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["id"], message: "update_edge requires id or edge.id" });
   if (operation.op === "update_edge" && !operation.updates && !operation.edge) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["updates"], message: "update_edge requires updates or edge" });
+  if (operation.op === "delete_edge" && !operation.id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["id"], message: "delete_edge requires id" });
+  if (operation.op === "delete_edge" && !operation.rationale) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["rationale"], message: "delete_edge requires rationale" });
 });
 
 export const patchSchema = z.object({

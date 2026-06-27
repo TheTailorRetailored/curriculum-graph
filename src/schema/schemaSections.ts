@@ -115,7 +115,7 @@ export const patchSchemaSection = {
     split_node: { required: ["op", "id", "updates", "rationale"] },
     create_edge: { required: ["op", "edge"] },
     update_edge: { required: ["op", "id or edge.id", "updates or edge"] },
-    delete_edge: { required: ["op", "id", "rationale"] }
+    delete_edge: { required: ["op", "id", "rationale"], behavior: "Soft-deletes the edge by setting status to deprecated and recording deletion_rationale." }
   },
   examples: {
     create_requires_edge_patch: {

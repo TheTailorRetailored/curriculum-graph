@@ -30,7 +30,14 @@ type NodeCoverage = {
   effective_misconceptions: string[];
   encompassed_child_count: number;
   requires_edge_count: number;
+  incoming_requires_edge_count: number;
+  deprecated_requires_edge_count: number;
+  deprecated_incoming_requires_edge_count: number;
 };
+
+function isActiveEdge(edge: CurriculumEdge): boolean {
+  return !["deprecated", "merged"].includes(edge.status);
+}
 
 function kpId(value: CurriculumNode["knowledge_points"][number]): string {
   return typeof value === "string" ? value : value.id;
@@ -40,13 +47,13 @@ export function directKnowledgePointIds(graph: GraphIndex, nodeId: string): stri
   const node = graph.nodesById.get(nodeId);
   const ids = new Set<string>((node?.knowledge_points ?? []).map(kpId));
   for (const edge of graph.edges) {
-    if (edge.from === nodeId && edge.type === "targets_knowledge_point") ids.add(edge.to);
+    if (isActiveEdge(edge) && edge.from === nodeId && edge.type === "targets_knowledge_point") ids.add(edge.to);
   }
   return [...ids];
 }
 
 export function directMisconceptionIds(graph: GraphIndex, nodeId: string): string[] {
-  return [...new Set(graph.edges.filter((edge) => edge.from === nodeId && edge.type === "has_misconception").map((edge) => edge.to))];
+  return [...new Set(graph.edges.filter((edge) => isActiveEdge(edge) && edge.from === nodeId && edge.type === "has_misconception").map((edge) => edge.to))];
 }
 
 function encompassedDescendants(graph: GraphIndex, nodeId: string): string[] {
@@ -55,7 +62,7 @@ function encompassedDescendants(graph: GraphIndex, nodeId: string): string[] {
   while (frontier.length > 0) {
     const current = frontier.shift() as string;
     for (const edge of graph.edges) {
-      if (edge.type !== "encompasses" || edge.from !== current || descendants.has(edge.to)) continue;
+      if (!isActiveEdge(edge) || edge.type !== "encompasses" || edge.from !== current || descendants.has(edge.to)) continue;
       descendants.add(edge.to);
       frontier.push(edge.to);
     }
@@ -113,8 +120,11 @@ export function nodeCoverage(graph: GraphIndex, node: CurriculumNode): NodeCover
     effective_knowledge_points: effectiveKps,
     direct_misconceptions: directMisconceptions,
     effective_misconceptions: effectiveMisconceptions,
-    encompassed_child_count: graph.edges.filter((edge) => edge.from === node.id && edge.type === "encompasses").length,
-    requires_edge_count: graph.edges.filter((edge) => edge.from === node.id && edge.type === "requires").length
+    encompassed_child_count: graph.edges.filter((edge) => isActiveEdge(edge) && edge.from === node.id && edge.type === "encompasses").length,
+    requires_edge_count: graph.edges.filter((edge) => isActiveEdge(edge) && edge.from === node.id && edge.type === "requires").length,
+    incoming_requires_edge_count: graph.edges.filter((edge) => isActiveEdge(edge) && edge.to === node.id && edge.type === "requires").length,
+    deprecated_requires_edge_count: graph.edges.filter((edge) => !isActiveEdge(edge) && edge.from === node.id && edge.type === "requires").length,
+    deprecated_incoming_requires_edge_count: graph.edges.filter((edge) => !isActiveEdge(edge) && edge.to === node.id && edge.type === "requires").length
   };
 }
 
@@ -144,12 +154,12 @@ export function roleAwareCoverageWarnings(graph: GraphIndex, node: CurriculumNod
   }
 
   if (role === "mastery_claim") {
-    const referencedByLearnerState = graph.edges.some((edge) => edge.type === "targets_knowledge_point" && edge.to === node.id && graph.nodesById.get(edge.from)?.effective_role === "learner_state");
+    const referencedByLearnerState = graph.edges.some((edge) => isActiveEdge(edge) && edge.type === "targets_knowledge_point" && edge.to === node.id && graph.nodesById.get(edge.from)?.effective_role === "learner_state");
     if (!referencedByLearnerState) warnings.push({ code: "kp_unreferenced", severity: "warning", node_id: node.id, message: "Active knowledge point is not referenced by a learner_state node." });
   }
 
   if (role === "diagnostic_error") {
-    const sources = graph.edges.filter((edge) => edge.type === "has_misconception" && edge.to === node.id).map((edge) => graph.nodesById.get(edge.from)).filter(Boolean) as CurriculumNode[];
+    const sources = graph.edges.filter((edge) => isActiveEdge(edge) && edge.type === "has_misconception" && edge.to === node.id).map((edge) => graph.nodesById.get(edge.from)).filter(Boolean) as CurriculumNode[];
     if (sources.length === 0) warnings.push({ code: "misconception_unattached", severity: "warning", node_id: node.id, message: "Active misconception is not attached to any node." });
     if (sources.length > 0 && sources.every((source) => source.effective_role === "curriculum_view")) {
       warnings.push({ code: "misconception_only_attached_to_curriculum_view", severity: "warning", node_id: node.id, message: "Misconception is attached only to curriculum_view nodes." });
@@ -163,7 +173,7 @@ export function orphanNodeIds(graph: GraphIndex, nodes: CurriculumNode[]): strin
   return nodes
     .filter((node) => !["subject", "strand", "area"].includes(node.type))
     .filter((node) => !["deprecated", "merged"].includes(node.status))
-    .filter((node) => !graph.edges.some((edge) => edge.from === node.id || edge.to === node.id))
+    .filter((node) => !graph.edges.some((edge) => isActiveEdge(edge) && (edge.from === node.id || edge.to === node.id)))
     .map((node) => node.id);
 }
 
@@ -171,14 +181,14 @@ export function deprecatedOrphanNodeIds(graph: GraphIndex, nodes: CurriculumNode
   return nodes
     .filter((node) => !["subject", "strand", "area"].includes(node.type))
     .filter((node) => ["deprecated", "merged"].includes(node.status))
-    .filter((node) => !graph.edges.some((edge) => edge.from === node.id || edge.to === node.id))
+    .filter((node) => !graph.edges.some((edge) => isActiveEdge(edge) && (edge.from === node.id || edge.to === node.id)))
     .map((node) => node.id);
 }
 
 export function buildCoverageReport(graph: GraphIndex, input: CoverageInput) {
   const nodes = filteredCoverageNodes(graph, input);
   const nodeIds = new Set(nodes.map((node) => node.id));
-  const edges = graph.edges.filter((edge) => nodeIds.has(edge.from) || nodeIds.has(edge.to));
+  const edges = graph.edges.filter((edge) => isActiveEdge(edge) && (nodeIds.has(edge.from) || nodeIds.has(edge.to)));
   const coverage = nodes.filter((node) => node.type === "topic" || node.effective_role === "curriculum_view" || node.effective_role === "learner_state").map((node) => nodeCoverage(graph, node));
   const warnings = nodes.flatMap((node) => roleAwareCoverageWarnings(graph, node));
   const roleAudit = buildRoleAuditReport(graph, input);
@@ -229,6 +239,9 @@ export function buildRoleAuditReport(graph: GraphIndex, input: CoverageInput = {
       effective_kp_count: coverage.effective_knowledge_points.length,
       encompassed_child_count: coverage.encompassed_child_count,
       requires_edge_count: coverage.requires_edge_count,
+      incoming_requires_edge_count: coverage.incoming_requires_edge_count,
+      deprecated_requires_edge_count: coverage.deprecated_requires_edge_count,
+      deprecated_incoming_requires_edge_count: coverage.deprecated_incoming_requires_edge_count,
       has_misconception_count: coverage.direct_misconceptions.length,
       warnings
     };
@@ -241,11 +254,11 @@ function roleAuditWarnings(graph: GraphIndex, node: CurriculumNode, coverage: No
   if (coverage.effective_role === "curriculum_view" && coverage.direct_knowledge_points.length > 0) warnings.push("curriculum_view_has_direct_kps");
   if (node.status !== "active") return warnings;
   if (coverage.effective_role === "learner_state" && coverage.direct_knowledge_points.length === 0) warnings.push("learner_state_missing_direct_kps");
-  if (coverage.effective_role === "curriculum_view" && graph.edges.some((edge) => edge.type === "requires" && (edge.from === node.id || edge.to === node.id))) warnings.push("curriculum_view_has_requires_edge");
+  if (coverage.effective_role === "curriculum_view" && (coverage.requires_edge_count > 0 || coverage.incoming_requires_edge_count > 0)) warnings.push("curriculum_view_has_requires_edge");
   if (node.type === "topic" && node.grain_size === "course_unit") warnings.push("topic_course_unit_candidate_view");
   if (node.type === "topic" && node.grain_size === "lesson_topic") warnings.push("lesson_topic_candidate_learner_state");
-  if (coverage.effective_role === "mastery_claim" && !graph.edges.some((edge) => edge.type === "targets_knowledge_point" && edge.to === node.id)) warnings.push("kp_unreferenced");
-  if (coverage.effective_role === "diagnostic_error" && !graph.edges.some((edge) => edge.type === "has_misconception" && edge.to === node.id)) warnings.push("misconception_unattached");
+  if (coverage.effective_role === "mastery_claim" && !graph.edges.some((edge) => isActiveEdge(edge) && edge.type === "targets_knowledge_point" && edge.to === node.id)) warnings.push("kp_unreferenced");
+  if (coverage.effective_role === "diagnostic_error" && !graph.edges.some((edge) => isActiveEdge(edge) && edge.type === "has_misconception" && edge.to === node.id)) warnings.push("misconception_unattached");
   return warnings;
 }
 

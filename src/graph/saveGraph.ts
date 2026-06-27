@@ -127,7 +127,7 @@ export async function updateEdges(rootDir: string, graph: GraphIndex, operations
   const updatesByPath = new Map<string, PatchOperation[]>();
 
   for (const operation of operations) {
-    if (operation.op !== "update_edge") continue;
+    if (!["update_edge", "delete_edge"].includes(operation.op)) continue;
     const id = operation.id ?? operation.edge?.id;
     if (!id) continue;
     const sourcePath = graph.edgePathById.get(id);
@@ -144,7 +144,9 @@ export async function updateEdges(rootDir: string, graph: GraphIndex, operations
     for (const operation of pathOperations) {
       const id = operation.id ?? operation.edge?.id;
       if (!id) continue;
-      const updates = operation.edge ? { ...operation.edge } : { ...(operation.updates ?? {}) };
+      const updates = operation.op === "delete_edge"
+        ? { status: "deprecated", deletion_rationale: operation.rationale }
+        : operation.edge ? { ...operation.edge } : { ...(operation.updates ?? {}) };
       delete (updates as { id?: unknown }).id;
       edges = edges.map((rawEdge: unknown) => {
         if (!rawEdge || typeof rawEdge !== "object") return rawEdge;

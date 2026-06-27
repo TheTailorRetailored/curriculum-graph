@@ -40,6 +40,10 @@ export function validatePatch(graph: GraphIndex, patch: Patch | unknown, strictn
       const id = op.id ?? op.edge?.id;
       if (id && !graph.edgesById.has(id)) blocking_errors.push({ code: "missing_update_edge", severity: "error", message: `Cannot update missing edge: ${id}`, edge_id: id });
     }
+    if (op.op === "delete_edge") {
+      const id = op.id;
+      if (id && !graph.edgesById.has(id)) blocking_errors.push({ code: "missing_delete_edge", severity: "error", message: `Cannot delete missing edge: ${id}`, edge_id: id });
+    }
     if (op.node) {
       const result = nodeSchema.safeParse(op.node);
       if (!result.success) blocking_errors.push(...result.error.issues.map((issue) => ({ code: "node_schema", severity: "error" as const, message: issue.message, path: `${op.node?.id}.${issue.path.join(".")}`, node_id: op.node?.id })));

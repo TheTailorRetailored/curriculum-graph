@@ -145,6 +145,18 @@ async function writeMinimalOntologyFixture(temp: string) {
         rationale: "The course unit includes this child topic.",
         status: "active",
         metadata: { created_by: "ai", review_status: "ai_generated" }
+      },
+      {
+        id: "edge.math.fractions_course_unit_requires_child",
+        from: "math.topic.fractions_course_unit",
+        to: "math.topic.child_with_kp",
+        type: "requires",
+        strength: "medium",
+        confidence: "medium",
+        rationale: "Legacy broad course-unit prerequisite retained for delete_edge tests.",
+        failure_signal: "Probe broad prerequisite failure.",
+        status: "active",
+        metadata: { created_by: "ai", review_status: "ai_generated" }
       }
     ]
   }), "utf8");
@@ -254,6 +266,32 @@ describe("curriculum graph validation", () => {
     }
   });
 
+  it("persists delete_edge as a deprecated edge in YAML, audit, and generated index", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      expect(graph.edgesById.get("edge.math.fractions_course_unit_requires_child")?.status).toBe("active");
+
+      const result = await applyGraphPatch(graph, patch([
+        { op: "delete_edge", id: "edge.math.fractions_course_unit_requires_child", rationale: "Replace broad course-unit prerequisite with non-diagnostic sequencing." }
+      ]), { allow_warnings: true });
+
+      expect(result.committed).toBe(true);
+      expect(result.files_changed).toContain("ontology/edges/mathematics-prerequisites.yaml");
+
+      const reloaded = await loadGraph(temp);
+      const edge = reloaded.edgesById.get("edge.math.fractions_course_unit_requires_child");
+      expect(edge?.status).toBe("deprecated");
+      expect(edge).toMatchObject({ deletion_rationale: "Replace broad course-unit prerequisite with non-diagnostic sequencing." });
+
+      const generated = JSON.parse(await readFile(path.join(temp, "generated", "indexes", "graph.json"), "utf8")) as { edges: Array<{ id: string; status: string }> };
+      expect(generated.edges.find((candidate) => candidate.id === "edge.math.fractions_course_unit_requires_child")?.status).toBe("deprecated");
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
   it("rolls back ontology files when a post-write graph reload fails", async () => {
     const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
     try {
@@ -347,6 +385,31 @@ describe("curriculum graph validation", () => {
       expect(report.deprecated_orphan_nodes).toContain("math.kp.deprecated_orphan");
       expect(report.warnings.some((issue) => issue.code === "kp_unreferenced" && issue.node_id === "math.kp.deprecated_orphan")).toBe(false);
       expect(report.role_audit.results.find((item) => item.node_id === "math.kp.deprecated_orphan")?.warnings).not.toContain("kp_unreferenced");
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
+  it("does not count deprecated requires edges as active role-audit prerequisites", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      const result = await applyGraphPatch(graph, patch([
+        { op: "delete_edge", id: "edge.math.fractions_course_unit_requires_child", rationale: "Legacy curriculum-view prerequisite should not count as active." }
+      ]), { allow_warnings: true });
+
+      expect(result.committed).toBe(true);
+
+      const reloaded = await loadGraph(temp);
+      const report = buildCoverageReport(reloaded, { subject: "mathematics", area: "Fractions", role_audit_limit: 20 });
+      const unit = report.role_audit.results.find((item) => item.node_id === "math.topic.fractions_course_unit");
+
+      expect(unit?.requires_edge_count).toBe(0);
+      expect(unit?.incoming_requires_edge_count).toBe(0);
+      expect(unit?.deprecated_requires_edge_count).toBe(1);
+      expect(unit?.deprecated_incoming_requires_edge_count).toBe(0);
+      expect(unit?.warnings).not.toContain("curriculum_view_has_requires_edge");
     } finally {
       await rm(temp, { recursive: true, force: true });
     }

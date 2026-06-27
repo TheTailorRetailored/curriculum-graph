@@ -62,7 +62,7 @@ function touchedFilesForPatch(graph: GraphIndex, patch: Patch, auditPath: string
       const sourcePath = id ? graph.nodePathById.get(id) : undefined;
       if (sourcePath) files.add(path.join(graph.rootDir, sourcePath));
     }
-    if (operation.op === "update_edge") {
+    if (operation.op === "update_edge" || operation.op === "delete_edge") {
       const id = operation.id ?? operation.edge?.id;
       const sourcePath = id ? graph.edgePathById.get(id) : undefined;
       if (sourcePath) files.add(path.join(graph.rootDir, sourcePath));
