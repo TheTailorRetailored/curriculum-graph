@@ -22101,3 +22101,73 @@ edges:
     metadata:
       created_by: assistant
       review_status: ai_generated
+  - id: edge.parent_function_families.requires.input_output_notation
+    from: math.senior.functions.parent_function_families
+    to: math.senior.functions.input_output_notation
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Recognising parent function families depends on interpreting
+      functions as input-output rules and f(x) notation.
+    failure_signal: Learner names a graph family without connecting inputs, outputs,
+      and function notation.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.transformation_vertical_translation.requires.parent_function_families
+    from: math.senior.functions.transformation_vertical_translation
+    to: math.senior.functions.parent_function_families
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: A vertical translation is described by comparing the shifted graph
+      with its parent function.
+    failure_signal: Learner states up or down movement but cannot identify the
+      parent graph being shifted.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.transformation_horizontal_translation.requires.parent_function_families
+    from: math.senior.functions.transformation_horizontal_translation
+    to: math.senior.functions.parent_function_families
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: A horizontal translation is described by comparing the shifted graph
+      with its parent function.
+    failure_signal: Learner describes a horizontal shift but compares it to the
+      wrong or no parent family.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.transformation_reflection_axes.requires.parent_function_families
+    from: math.senior.functions.transformation_reflection_axes
+    to: math.senior.functions.parent_function_families
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Axis reflections are interpreted by comparing the reflected graph
+      with its parent function.
+    failure_signal: Learner identifies a reflection rule but cannot relate it to the
+      original parent graph.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.transformation_stretches_compressions.requires.parent_function_families
+    from: math.senior.functions.transformation_stretches_compressions
+    to: math.senior.functions.parent_function_families
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Stretches and compressions are meaningful relative to a parent graph
+      and its original scale.
+    failure_signal: Learner applies a scale factor but cannot describe what changed
+      relative to the parent function.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
