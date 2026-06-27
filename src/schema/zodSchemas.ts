@@ -92,6 +92,8 @@ export const patchOperationSchema = z.object({
   if (operation.op === "create_edge" && !operation.edge) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["edge"], message: "create_edge requires edge" });
   if (operation.op === "update_node" && !operation.id && !operation.node?.id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["id"], message: "update_node requires id or node.id" });
   if (operation.op === "update_node" && !operation.updates && !operation.node) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["updates"], message: "update_node requires updates or node" });
+  if (operation.op === "deprecate_node" && !operation.id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["id"], message: "deprecate_node requires id" });
+  if (operation.op === "deprecate_node" && !operation.rationale) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["rationale"], message: "deprecate_node requires rationale" });
   if (operation.op === "update_edge" && !operation.id && !operation.edge?.id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["id"], message: "update_edge requires id or edge.id" });
   if (operation.op === "update_edge" && !operation.updates && !operation.edge) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["updates"], message: "update_edge requires updates or edge" });
 });

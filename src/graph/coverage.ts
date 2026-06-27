@@ -162,6 +162,15 @@ export function roleAwareCoverageWarnings(graph: GraphIndex, node: CurriculumNod
 export function orphanNodeIds(graph: GraphIndex, nodes: CurriculumNode[]): string[] {
   return nodes
     .filter((node) => !["subject", "strand", "area"].includes(node.type))
+    .filter((node) => !["deprecated", "merged"].includes(node.status))
+    .filter((node) => !graph.edges.some((edge) => edge.from === node.id || edge.to === node.id))
+    .map((node) => node.id);
+}
+
+export function deprecatedOrphanNodeIds(graph: GraphIndex, nodes: CurriculumNode[]): string[] {
+  return nodes
+    .filter((node) => !["subject", "strand", "area"].includes(node.type))
+    .filter((node) => ["deprecated", "merged"].includes(node.status))
     .filter((node) => !graph.edges.some((edge) => edge.from === node.id || edge.to === node.id))
     .map((node) => node.id);
 }
@@ -179,15 +188,16 @@ export function buildCoverageReport(graph: GraphIndex, input: CoverageInput) {
     role_counts: countsBy(nodes.map((node) => node.effective_role ?? inferEffectiveRole(node))),
     edge_counts: countsBy(edges.map((edge) => edge.type)),
     topics_without_direct_knowledge_points: coverage
-      .filter((item) => item.effective_role === "learner_state" && item.direct_knowledge_points.length === 0)
+      .filter((item) => item.status === "active" && item.effective_role === "learner_state" && item.direct_knowledge_points.length === 0)
       .map((item) => item.node_id),
     topics_without_effective_knowledge_points: coverage
-      .filter((item) => item.effective_role === "learner_state" && item.effective_knowledge_points.length === 0)
+      .filter((item) => item.status === "active" && item.effective_role === "learner_state" && item.effective_knowledge_points.length === 0)
       .map((item) => item.node_id),
     topics_without_prerequisites: nodes
-      .filter((node) => node.type === "topic" && node.effective_role === "learner_state" && !node.foundational && !edges.some((edge) => edge.from === node.id && edge.type === "requires"))
+      .filter((node) => node.status === "active" && node.type === "topic" && node.effective_role === "learner_state" && !node.foundational && !edges.some((edge) => edge.from === node.id && edge.type === "requires"))
       .map((node) => node.id),
     orphan_nodes: orphanNodeIds(graph, nodes),
+    deprecated_orphan_nodes: deprecatedOrphanNodeIds(graph, nodes),
     coverage,
     role_audit: {
       total: roleAudit.length,
@@ -229,6 +239,7 @@ function roleAuditWarnings(graph: GraphIndex, node: CurriculumNode, coverage: No
   const warnings: string[] = [];
   if (node.role && node.role !== inferred) warnings.push("explicit_role_conflicts_with_inference");
   if (coverage.effective_role === "curriculum_view" && coverage.direct_knowledge_points.length > 0) warnings.push("curriculum_view_has_direct_kps");
+  if (node.status !== "active") return warnings;
   if (coverage.effective_role === "learner_state" && coverage.direct_knowledge_points.length === 0) warnings.push("learner_state_missing_direct_kps");
   if (coverage.effective_role === "curriculum_view" && graph.edges.some((edge) => edge.type === "requires" && (edge.from === node.id || edge.to === node.id))) warnings.push("curriculum_view_has_requires_edge");
   if (node.type === "topic" && node.grain_size === "course_unit") warnings.push("topic_course_unit_candidate_view");

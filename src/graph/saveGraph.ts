@@ -71,7 +71,7 @@ export async function updateNodes(rootDir: string, graph: GraphIndex, operations
   const updatesByPath = new Map<string, PatchOperation[]>();
 
   for (const operation of operations) {
-    if (operation.op !== "update_node") continue;
+    if (!["update_node", "deprecate_node"].includes(operation.op)) continue;
     const id = operation.id ?? operation.node?.id;
     if (!id) continue;
     const sourcePath = graph.nodePathById.get(id);
@@ -86,7 +86,9 @@ export async function updateNodes(rootDir: string, graph: GraphIndex, operations
     for (const operation of pathOperations) {
       const id = operation.id ?? operation.node?.id;
       if (!id) continue;
-      const updates = operation.node ? { ...operation.node } : { ...(operation.updates ?? {}) };
+      const updates = operation.op === "deprecate_node"
+        ? { status: "deprecated", deprecation_rationale: operation.rationale }
+        : operation.node ? { ...operation.node } : { ...(operation.updates ?? {}) };
       delete (updates as { id?: unknown }).id;
 
       if ((doc as { id?: unknown }).id === id) {

@@ -104,6 +104,32 @@ async function writeMinimalOntologyFixture(temp: string) {
         foundational: false,
         status: "active",
         metadata: { created_by: "ai", review_status: "ai_generated" }
+      },
+      {
+        id: "math.kp.active_orphan",
+        type: "knowledge_point",
+        subject: "mathematics",
+        strand: "Number",
+        area: "Fractions",
+        label: "Active orphan knowledge point",
+        description: "A test active knowledge point with no edges.",
+        observable: true,
+        assessable: true,
+        status: "active",
+        metadata: { created_by: "ai", review_status: "ai_generated" }
+      },
+      {
+        id: "math.kp.deprecated_orphan",
+        type: "knowledge_point",
+        subject: "mathematics",
+        strand: "Number",
+        area: "Fractions",
+        label: "Deprecated orphan knowledge point",
+        description: "A test deprecated knowledge point with no edges.",
+        observable: true,
+        assessable: true,
+        status: "deprecated",
+        metadata: { created_by: "ai", review_status: "ai_generated" }
       }
     ]
   }), "utf8");
@@ -202,6 +228,32 @@ describe("curriculum graph validation", () => {
     }
   });
 
+  it("persists deprecate_node changes to canonical YAML, audit, and generated index", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      expect(getNode(graph, "math.kp.active_orphan")?.node.status).toBe("active");
+
+      const result = await applyGraphPatch(graph, patch([
+        { op: "deprecate_node", id: "math.kp.active_orphan", rationale: "Duplicate retained for audit history." }
+      ]), { allow_warnings: true });
+
+      expect(result.committed).toBe(true);
+      expect(result.files_changed).toContain("ontology/mathematics/number/fractions.yaml");
+
+      const reloaded = await loadGraph(temp);
+      const node = getNode(reloaded, "math.kp.active_orphan")?.node;
+      expect(node?.status).toBe("deprecated");
+      expect(node).toMatchObject({ deprecation_rationale: "Duplicate retained for audit history." });
+
+      const generated = JSON.parse(await readFile(path.join(temp, "generated", "indexes", "graph.json"), "utf8")) as { nodes: Array<{ id: string; status: string }> };
+      expect(generated.nodes.find((candidate) => candidate.id === "math.kp.active_orphan")?.status).toBe("deprecated");
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
   it("rolls back ontology files when a post-write graph reload fails", async () => {
     const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
     try {
@@ -278,6 +330,23 @@ describe("curriculum graph validation", () => {
       const graph = await loadGraph(temp);
       const report = buildCoverageReport(graph, { subject: "mathematics", area: "Fractions" });
       expect(report.orphan_nodes).not.toContain("math.kp.find_common_denominator");
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
+  it("keeps deprecated and merged orphan nodes out of active orphan cleanup", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      const report = buildCoverageReport(graph, { subject: "mathematics", area: "Fractions" });
+
+      expect(report.orphan_nodes).toContain("math.kp.active_orphan");
+      expect(report.orphan_nodes).not.toContain("math.kp.deprecated_orphan");
+      expect(report.deprecated_orphan_nodes).toContain("math.kp.deprecated_orphan");
+      expect(report.warnings.some((issue) => issue.code === "kp_unreferenced" && issue.node_id === "math.kp.deprecated_orphan")).toBe(false);
+      expect(report.role_audit.results.find((item) => item.node_id === "math.kp.deprecated_orphan")?.warnings).not.toContain("kp_unreferenced");
     } finally {
       await rm(temp, { recursive: true, force: true });
     }

@@ -57,7 +57,7 @@ function touchedFilesForPatch(graph: GraphIndex, patch: Patch, auditPath: string
   if (edges.length > 0) files.add(patchEdgeFile(graph.rootDir, `${patch.target.subject ?? "graph"}-patches.yaml`));
 
   for (const operation of patch.operations) {
-    if (operation.op === "update_node") {
+    if (operation.op === "update_node" || operation.op === "deprecate_node") {
       const id = operation.id ?? operation.node?.id;
       const sourcePath = id ? graph.nodePathById.get(id) : undefined;
       if (sourcePath) files.add(path.join(graph.rootDir, sourcePath));

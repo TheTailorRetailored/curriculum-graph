@@ -32,6 +32,10 @@ export function validatePatch(graph: GraphIndex, patch: Patch | unknown, strictn
       const id = op.id ?? op.node?.id;
       if (id && !graph.nodesById.has(id)) blocking_errors.push({ code: "missing_update_node", severity: "error", message: `Cannot update missing node: ${id}`, node_id: id });
     }
+    if (op.op === "deprecate_node") {
+      const id = op.id;
+      if (id && !graph.nodesById.has(id)) blocking_errors.push({ code: "missing_deprecate_node", severity: "error", message: `Cannot deprecate missing node: ${id}`, node_id: id });
+    }
     if (op.op === "update_edge") {
       const id = op.id ?? op.edge?.id;
       if (id && !graph.edgesById.has(id)) blocking_errors.push({ code: "missing_update_edge", severity: "error", message: `Cannot update missing edge: ${id}`, edge_id: id });
@@ -118,7 +122,7 @@ export function validatePatch(graph: GraphIndex, patch: Patch | unknown, strictn
     summary: {
       nodes_created: createdNodes.length,
       edges_created: createdEdges.length,
-      nodes_updated: parsed.data.operations.filter((op) => op.op === "update_node").length
+      nodes_updated: parsed.data.operations.filter((op) => op.op === "update_node" || op.op === "deprecate_node").length
     }
   };
 }
