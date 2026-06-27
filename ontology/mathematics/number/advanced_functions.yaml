@@ -185,7 +185,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.composition_applies_inner_first
+      - math.kp.senior.functions.function_assigns_outputs
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -310,7 +312,8 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.parent_functions_anchor_transformations
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -595,7 +598,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.exponential_constant_ratio
+      - math.kp.senior.functions.valid_exp_log_base_conditions
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -648,7 +653,8 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.logarithm_answers_exponent_question
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -804,11 +810,15 @@ nodes:
     year_band: 10-12
     pathways: []
     observable: true
-    status: active
+    status: deprecated
     knowledge_points: []
     metadata:
       created_by: assistant
       review_status: ai_generated
+      deprecated_by: patch.math.advanced_functions.deprecate_duplicate_log_kp.001
+      canonical_replacement: math.kp.senior.functions.log_arguments_must_be_positive
+      deprecation_reason: Duplicate of canonical logarithm-domain mastery claim
+        already referenced by learner-state nodes.
   - id: math.kp.senior.functions.e_models_continuous_growth
     type: knowledge_point
     subject: Mathematics
@@ -1393,7 +1403,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.domain_inputs_range_outputs
+      - math.kp.inequalities.closed_boundary_includes_endpoint
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -1812,7 +1824,8 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.exponential_initial_value_output_at_zero
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -1955,7 +1968,8 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.exponential_constant_ratio
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -2082,7 +2096,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.logarithm_answers_exponent_question
+      - math.kp.senior.functions.inverse_graph_reflects_y_equals_x
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -2117,7 +2133,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.logarithm_answers_exponent_question
+      - math.kp.senior.functions.exponential_expression_isolated_before_logging
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -2373,7 +2391,8 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.trig.coterminal_angles_full_rotations
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -2877,7 +2896,8 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.exponential_initial_value_output_at_zero
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -2948,7 +2968,8 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.senior.functions.exponential_expression_isolated_before_logging
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -3131,6 +3152,79 @@ nodes:
     label: Piecewise rule selected by input interval
     description: A piecewise function's rule is chosen by checking which interval
       contains the input value.
+    aliases: []
+    year_band: 10-12
+    pathways: []
+    observable: true
+    assessable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.senior.functions.parent_functions_anchor_transformations
+    type: knowledge_point
+    subject: Mathematics
+    strand: Senior mathematics
+    area: Advanced functions
+    label: Parent functions anchor transformations
+    description: Parent function families provide base graphs and key features used
+      to recognise and describe transformed functions.
+    aliases: []
+    year_band: 10-12
+    pathways: []
+    observable: true
+    assessable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.senior.functions.exponential_initial_value_output_at_zero
+    type: knowledge_point
+    subject: Mathematics
+    strand: Senior mathematics
+    area: Advanced functions
+    label: Exponential initial value is output at zero
+    description: The initial value or leading coefficient of an exponential model
+      gives the output when the input is zero.
+    aliases: []
+    year_band: 10-12
+    pathways: []
+    observable: true
+    assessable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.senior.functions.exponential_expression_isolated_before_logging
+    type: knowledge_point
+    subject: Mathematics
+    strand: Senior mathematics
+    area: Advanced functions
+    label: Exponential expression isolated before logging
+    description: Before taking logarithms to solve an exponential equation, the
+      exponential expression should be isolated from added, subtracted, or
+      multiplied terms.
+    aliases: []
+    year_band: 10-12
+    pathways: []
+    observable: true
+    assessable: true
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.senior.trig.coterminal_angles_full_rotations
+    type: knowledge_point
+    subject: Mathematics
+    strand: Senior mathematics
+    area: Advanced functions
+    label: Coterminal angles differ by full rotations
+    description: Angles that differ by integer multiples of a full rotation share
+      the same terminal side.
     aliases: []
     year_band: 10-12
     pathways: []

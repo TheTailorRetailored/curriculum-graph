@@ -1,0 +1,240 @@
+{
+  "patch_id": "patch.math.advanced_functions.direct_kp_cleanup.001",
+  "applied_at": "2026-06-26T14:12:09.147Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 4,
+      "edges_created": 0,
+      "nodes_updated": 12
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.parent_functions_anchor_transformations",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Parent functions anchor transformations",
+        "description": "Parent function families provide base graphs and key features used to recognise and describe transformed functions.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.exponential_initial_value_output_at_zero",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Exponential initial value is output at zero",
+        "description": "The initial value or leading coefficient of an exponential model gives the output when the input is zero.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.functions.exponential_expression_isolated_before_logging",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Exponential expression isolated before logging",
+        "description": "Before taking logarithms to solve an exponential equation, the exponential expression should be isolated from added, subtracted, or multiplied terms.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.senior.trig.coterminal_angles_full_rotations",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Senior mathematics",
+        "area": "Advanced functions",
+        "label": "Coterminal angles differ by full rotations",
+        "description": "Angles that differ by integer multiples of a full rotation share the same terminal side.",
+        "aliases": [],
+        "year_band": "10-12",
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.evaluate_composite_functions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.composition_applies_inner_first",
+          "math.kp.senior.functions.function_assigns_outputs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.parent_function_families",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.parent_functions_anchor_transformations"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_equations_common_base",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_constant_ratio",
+          "math.kp.senior.functions.valid_exp_log_base_conditions"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_equations_using_logs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.logarithm_answers_exponent_question"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.interval_notation_domain",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.domain_inputs_range_outputs",
+          "math.kp.inequalities.closed_boundary_includes_endpoint"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_initial_value",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_initial_value_output_at_zero"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.rewrite_to_common_base",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_constant_ratio"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.log_graph_inverse_exponential",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.logarithm_answers_exponent_question",
+          "math.kp.senior.functions.inverse_graph_reflects_y_equals_x"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.solve_exponential_equations_with_logs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.logarithm_answers_exponent_question",
+          "math.kp.senior.functions.exponential_expression_isolated_before_logging"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.trig.coterminal_angles",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.trig.coterminal_angles_full_rotations"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.y_intercept_as_initial_value",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_initial_value_output_at_zero"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.exp_log.exponential_equation_isolate_power",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.senior.functions.exponential_expression_isolated_before_logging"
+        ]
+      }
+    },
+    {
+      "op": "deprecate_node",
+      "id": "math.kp.senior.functions.log_domain_positive_inputs",
+      "rationale": "Duplicate orphan mastery claim. The active canonical claim is math.kp.senior.functions.log_arguments_must_be_positive, which already covers positive real logarithm arguments and is referenced by learner-state nodes."
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2662,
+    "edges": 2281
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2298
+  }
+}
