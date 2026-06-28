@@ -113,9 +113,19 @@ export const patchSchemaSection = {
     deprecate_node: { required: ["op", "id", "rationale"] },
     merge_nodes: { required: ["op", "id", "updates", "rationale"] },
     split_node: { required: ["op", "id", "updates", "rationale"] },
-    create_edge: { required: ["op", "edge"] },
+    create_edge: { required: ["op", "edge"], note: "edge.id may be omitted; the server generates a deterministic edge.<from_slug>.<type>.<to_slug> ID." },
     update_edge: { required: ["op", "id or edge.id", "updates or edge"] },
-    delete_edge: { required: ["op", "id", "rationale"], behavior: "Soft-deletes the edge by setting status to deprecated and recording deletion_rationale." }
+    delete_edge: { required: ["op", "id", "rationale"], behavior: "Soft-deletes the edge by setting status to deprecated and recording deletion_rationale." },
+    attach_kp: { required: ["op", "node_id", "kp_id"], expands_to: "idempotent targets_knowledge_point edge" },
+    attach_misconception: { required: ["op", "node_id", "misconception_id"], expands_to: "idempotent has_misconception edge" },
+    add_child: { required: ["op", "parent_id", "child_id"], optional: ["confidence", "rationale", "weight"], expands_to: "idempotent child --part_of--> parent and parent --encompasses--> child edges" },
+    mark_foundational: { required: ["op", "node_id"], expands_to: "update_node foundational:true and prerequisite_policy.requires_prerequisites:false" },
+    deprecate_edge: { required: ["op", "id or edge_id"], expands_to: "delete_edge with a default rationale when omitted" }
+  },
+  staged_apply: {
+    validate_patch: "Successful validation returns staged_patch.validation_id, patch_digest, canonical_json_sha256, operation_count, canonical_json_size, and expires_at.",
+    apply_validated_patch: "Call with validation_id and optional patch_digest to apply the server-staged canonical patch without resending the full JSON payload.",
+    expiry: "Staged patches expire after roughly one hour and are revalidated at apply time."
   },
   examples: {
     create_requires_edge_patch: {
@@ -144,6 +154,26 @@ export const patchSchemaSection = {
         }
       ],
       commit_message: "Mark composite function evaluation active."
+    },
+    compact_helper_patch: {
+      patch_id: "patch.math.functions.compact.001",
+      phase: "diagnostic_wiring",
+      target: { subject: "Mathematics", area: "Advanced functions" },
+      created_by: "assistant",
+      operations: [
+        {
+          op: "attach_kp",
+          node_id: "math.senior.functions.evaluate_functions",
+          kp_id: "math.kp.senior.functions.function_assigns_outputs"
+        },
+        {
+          op: "add_child",
+          parent_id: "math.senior.functions.function_notation",
+          child_id: "math.senior.functions.evaluate_functions",
+          rationale: "Evaluation is an actively practised child topic inside function notation."
+        }
+      ],
+      commit_message: "Attach KPs and child structure using compact operations."
     }
   }
 } as const;

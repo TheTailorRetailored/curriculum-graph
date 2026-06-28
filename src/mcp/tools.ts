@@ -10,6 +10,9 @@ import { exportYamlBundle } from "../export/exportYamlBundle.js";
 import { validatePatch } from "../validation/validatePatch.js";
 import { EDGE_TYPES } from "../schema/constants.js";
 import { getSchemaSection } from "../schema/schemaSections.js";
+import { expandPatchInput } from "../graph/patchExpansion.js";
+import { getStagedPatch, stageValidatedPatch } from "../graph/stagedPatches.js";
+import { patchSchema } from "../schema/zodSchemas.js";
 
 type ToolContext = {
   allowWrites?: boolean;
@@ -33,8 +36,9 @@ export const toolDefinitions = [
   { name: "get_neighbourhood", description: "Return local graph around a node.", inputSchema: { type: "object", properties: { id: { type: "string" }, depth: { type: "number" }, edge_types: { type: "array", items: { type: "string" } }, limit: { type: "number" }, include_derived_edges: { type: "boolean" } }, required: ["id"] } },
   { name: "get_area_map", description: "Return local authoring context for an area.", inputSchema: { type: "object", properties: { subject: { type: "string" }, area: { type: "string" }, year_band: { type: "string" }, include_schema: { type: "boolean" }, include_examples: { type: "boolean" }, include_validation_summary: { type: "boolean" }, role: { type: "string" }, roles: { type: "array", items: { type: "string" } }, effective_role: { type: "string" }, effective_roles: { type: "array", items: { type: "string" } }, include_derived_edges: { type: "boolean" } } } },
   { name: "find_similar_nodes", description: "Prevent duplicate concepts.", inputSchema: { type: "object", properties: { label: { type: "string" }, description: { type: "string" }, subject: { type: "string" }, role: { type: "string" }, roles: { type: "array", items: { type: "string" } }, effective_role: { type: "string" }, effective_roles: { type: "array", items: { type: "string" } }, limit: { type: "number" } }, required: ["label"] } },
-  { name: "validate_patch", description: "Validate a patch without committing it.", inputSchema: { type: "object", properties: { patch: { type: "object" }, strictness: { type: "string" } }, required: ["patch"] } },
+  { name: "validate_patch", description: "Validate a patch without committing it and stage valid patches for compact apply_validated_patch.", inputSchema: { type: "object", properties: { patch: { type: "object" }, strictness: { type: "string" } }, required: ["patch"] } },
   { name: "apply_patch", description: "Validate and commit a patch.", inputSchema: { type: "object", properties: { patch: { type: "object" }, strictness: { type: "string" }, allow_warnings: { type: "boolean" } }, required: ["patch"] } },
+  { name: "apply_validated_patch", description: "Apply a server-staged patch returned by validate_patch without resending the full patch JSON.", inputSchema: { type: "object", properties: { validation_id: { type: "string" }, patch_digest: { type: "string" }, allow_warnings: { type: "boolean" } }, required: ["validation_id"] } },
   { name: "detect_cycles", description: "Detect prerequisite cycles.", inputSchema: { type: "object", properties: { edge_type: { type: "string" }, strengths: { type: "array", items: { type: "string" } }, subject: { type: "string" } } } },
   { name: "impact_analysis", description: "Show downstream dependencies before changing a node.", inputSchema: { type: "object", properties: { node_id: { type: "string" }, edge_types: { type: "array", items: { type: "string" } }, depth: { type: "number" } }, required: ["node_id"] } },
   { name: "coverage_report", description: "Report coverage by subject, strand, area, year band, role, or pathway.", inputSchema: { type: "object", properties: { subject: { type: "string" }, strand: { type: "string" }, area: { type: "string" }, role: { type: "string" }, roles: { type: "array", items: { type: "string" } }, effective_role: { type: "string" }, effective_roles: { type: "array", items: { type: "string" } }, role_audit_limit: { type: "number" } } } },
@@ -78,11 +82,23 @@ export const toolHandlers: Record<string, ToolHandler> = {
   },
   validate_patch(args, graph) {
     const input = z.object({ patch: z.unknown(), strictness: z.enum(["loose", "normal", "strict"]).default("normal") }).parse(args);
-    return validatePatch(graph, input.patch, input.strictness);
+    const validation = validatePatch(graph, input.patch, input.strictness);
+    if (!validation.valid) return validation;
+
+    const expandedPatch = patchSchema.parse(expandPatchInput(graph, input.patch));
+    return {
+      ...validation,
+      staged_patch: stageValidatedPatch(expandedPatch, input.strictness)
+    };
   },
   async apply_patch(args, graph) {
     const input = z.object({ patch: z.unknown(), strictness: z.enum(["loose", "normal", "strict"]).default("normal"), allow_warnings: z.boolean().default(true) }).parse(args);
     return applyGraphPatch(graph, input.patch, { strictness: input.strictness, allow_warnings: input.allow_warnings });
+  },
+  async apply_validated_patch(args, graph) {
+    const input = z.object({ validation_id: z.string(), patch_digest: z.string().optional(), allow_warnings: z.boolean().default(true) }).parse(args);
+    const staged = getStagedPatch(input.validation_id, input.patch_digest);
+    return applyGraphPatch(graph, staged.patch, { strictness: staged.strictness, allow_warnings: input.allow_warnings });
   },
   detect_cycles(args, graph) {
     const input = z.object({ strengths: z.array(z.string()).default(["hard"]), subject: z.string().optional() }).parse(args ?? {});

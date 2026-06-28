@@ -21,7 +21,8 @@
     "dev:web": "tsx src/webServer.ts",
     "start:http": "node dist/src/httpServer.js",
     "start:web": "node dist/src/webServer.js",
-    "export:json": "tsx src/cli/exportJson.ts"
+    "export:json": "tsx src/cli/exportJson.ts",
+    "apply:patch": "tsx src/cli/applyPatch.ts"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.12.0",

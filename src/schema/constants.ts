@@ -50,7 +50,12 @@ export const PATCH_OPS = [
   "split_node",
   "create_edge",
   "update_edge",
-  "delete_edge"
+  "delete_edge",
+  "attach_kp",
+  "attach_misconception",
+  "add_child",
+  "mark_foundational",
+  "deprecate_edge"
 ] as const;
 
 export const ID_PATTERN = /^[a-z0-9]+(?:\.[a-z0-9_]+)*$/;

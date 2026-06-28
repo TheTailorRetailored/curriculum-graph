@@ -40,8 +40,11 @@ describe("graph queries", () => {
 
   it("keeps ontology mutation opt-in for MCP clients", () => {
     expect(availableToolDefinitions().some((tool) => tool.name === "apply_patch")).toBe(false);
+    expect(availableToolDefinitions().some((tool) => tool.name === "apply_validated_patch")).toBe(false);
     expect(availableToolDefinitions(true).some((tool) => tool.name === "apply_patch")).toBe(true);
+    expect(availableToolDefinitions(true).some((tool) => tool.name === "apply_validated_patch")).toBe(true);
     expect(() => assertToolAllowed("apply_patch")).toThrow(/read-only mode/);
+    expect(() => assertToolAllowed("apply_validated_patch")).toThrow(/read-only mode/);
     expect(() => assertToolAllowed("search_nodes")).not.toThrow();
   });
 });

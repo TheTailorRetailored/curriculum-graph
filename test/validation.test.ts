@@ -12,6 +12,7 @@ import { getAreaMap, getNode } from "../src/graph/queryGraph.js";
 import { getNeighbourhood } from "../src/graph/queryGraph.js";
 import { nodeSchema } from "../src/schema/zodSchemas.js";
 import { validatePatch } from "../src/validation/validatePatch.js";
+import { toolHandlers } from "../src/mcp/tools.js";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 
@@ -287,6 +288,153 @@ describe("curriculum graph validation", () => {
 
       const generated = JSON.parse(await readFile(path.join(temp, "generated", "indexes", "graph.json"), "utf8")) as { edges: Array<{ id: string; status: string }> };
       expect(generated.edges.find((candidate) => candidate.id === "edge.math.fractions_course_unit_requires_child")?.status).toBe("deprecated");
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
+  it("stages a validated patch and applies it without resending the full patch", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const compactPatch = patch([
+        {
+          op: "attach_kp",
+          node_id: "math.topic.learner_without_kp",
+          kp_id: "math.kp.active_orphan",
+          rationale: "The learner topic directly assesses this knowledge point."
+        }
+      ]);
+
+      const graph = await loadGraph(temp);
+      const validation = await toolHandlers.validate_patch({ patch: compactPatch, strictness: "normal" }, graph, { rootDir: temp, allowWrites: true }) as {
+        valid: boolean;
+        staged_patch?: { validation_id: string; patch_digest: string; operation_count: number };
+      };
+
+      expect(validation.valid).toBe(true);
+      expect(validation.staged_patch?.validation_id).toMatch(/^validation\./);
+      expect(validation.staged_patch?.operation_count).toBe(1);
+
+      const applyGraph = await loadGraph(temp);
+      const result = await toolHandlers.apply_validated_patch({
+        validation_id: validation.staged_patch!.validation_id,
+        patch_digest: validation.staged_patch!.patch_digest
+      }, applyGraph, { rootDir: temp, allowWrites: true }) as { committed: boolean; audit_log_path: string };
+
+      expect(result.committed).toBe(true);
+
+      const reloaded = await loadGraph(temp);
+      expect(reloaded.edges.some((edge) =>
+        edge.type === "targets_knowledge_point" &&
+        edge.from === "math.topic.learner_without_kp" &&
+        edge.to === "math.kp.active_orphan" &&
+        edge.status === "active"
+      )).toBe(true);
+      await expect(readFile(path.join(temp, result.audit_log_path), "utf8")).resolves.toContain(compactPatch.patch_id);
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
+  it("expands helper operations into canonical graph edges and node updates", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const graph = await loadGraph(temp);
+      const result = await applyGraphPatch(graph, patch([
+        {
+          op: "add_child",
+          parent_id: "math.topic.fractions_course_unit",
+          child_id: "math.topic.learner_without_kp",
+          rationale: "The course unit includes the learner topic as an actively practised child."
+        },
+        {
+          op: "mark_foundational",
+          node_id: "math.topic.learner_without_kp"
+        },
+        {
+          op: "attach_misconception",
+          node_id: "math.topic.learner_without_kp",
+          misconception_id: "math.mis.test_confusion",
+          rationale: "Probe misconception attachment."
+        }
+      ]), { allow_warnings: true });
+
+      expect(result.committed).toBe(false);
+      expect(result.validation.blocking_errors.some((issue) => issue.code === "missing_edge_to")).toBe(true);
+
+      const withMisconception = await applyGraphPatch(graph, patch([
+        {
+          op: "create_node",
+          node: {
+            id: "math.mis.test_confusion",
+            type: "misconception",
+            subject: "mathematics",
+            strand: "Number",
+            area: "Fractions",
+            label: "Test confusion",
+            description: "A test misconception.",
+            status: "active",
+            metadata: { created_by: "ai", review_status: "ai_generated" }
+          }
+        },
+        {
+          op: "add_child",
+          parent_id: "math.topic.fractions_course_unit",
+          child_id: "math.topic.learner_without_kp",
+          rationale: "The course unit includes the learner topic as an actively practised child."
+        },
+        {
+          op: "mark_foundational",
+          node_id: "math.topic.learner_without_kp"
+        },
+        {
+          op: "attach_misconception",
+          node_id: "math.topic.learner_without_kp",
+          misconception_id: "math.mis.test_confusion",
+          rationale: "Probe misconception attachment."
+        }
+      ]), { allow_warnings: true });
+
+      expect(withMisconception.committed).toBe(true);
+      const reloaded = await loadGraph(temp);
+      expect(reloaded.edges.some((edge) => edge.id === "edge.learner_without_kp.part_of.fractions_course_unit" && edge.status === "active")).toBe(true);
+      expect(reloaded.edges.some((edge) => edge.id === "edge.fractions_course_unit.encompasses.learner_without_kp" && edge.status === "active")).toBe(true);
+      expect(reloaded.edges.some((edge) => edge.id === "edge.learner_without_kp.has_misconception.test_confusion" && edge.status === "active")).toBe(true);
+      expect(getNode(reloaded, "math.topic.learner_without_kp")?.node).toMatchObject({
+        foundational: true,
+        prerequisite_policy: { requires_prerequisites: false }
+      });
+    } finally {
+      await rm(temp, { recursive: true, force: true });
+    }
+  });
+
+  it("treats repeated compact edge helpers as idempotent", async () => {
+    const temp = await mkdtemp(path.join(os.tmpdir(), "curriculum-graph-"));
+    try {
+      await writeMinimalOntologyFixture(temp);
+      const compactPatch = patch([
+        {
+          op: "attach_kp",
+          node_id: "math.topic.learner_without_kp",
+          kp_id: "math.kp.active_orphan",
+          rationale: "The learner topic directly assesses this knowledge point."
+        }
+      ]);
+
+      const first = await applyGraphPatch(await loadGraph(temp), compactPatch, { allow_warnings: true });
+      expect(first.committed).toBe(true);
+      const second = await applyGraphPatch(await loadGraph(temp), compactPatch, { allow_warnings: true });
+      expect(second.committed).toBe(true);
+
+      const reloaded = await loadGraph(temp);
+      expect(reloaded.edges.filter((edge) =>
+        edge.type === "targets_knowledge_point" &&
+        edge.from === "math.topic.learner_without_kp" &&
+        edge.to === "math.kp.active_orphan"
+      )).toHaveLength(1);
     } finally {
       await rm(temp, { recursive: true, force: true });
     }

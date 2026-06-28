@@ -7,11 +7,13 @@ import { detectDuplicateNode } from "./duplicateDetection.js";
 import { checkEncompassingEdge } from "./edgeSemantics.js";
 import { checkGranularity } from "./granularityChecks.js";
 import { checkYearBandDirection } from "./yearBandChecks.js";
+import { expandPatchInput } from "../graph/patchExpansion.js";
 
 export function validatePatch(graph: GraphIndex, patch: Patch | unknown, strictness: "loose" | "normal" | "strict" = "normal"): ValidationResult {
   const blocking_errors: ValidationIssue[] = [];
   const warnings: ValidationIssue[] = [];
-  const parsed = patchSchema.safeParse(patch);
+  const expandedPatch = expandPatchInput(graph, patch);
+  const parsed = patchSchema.safeParse(expandedPatch);
   if (!parsed.success) {
     return {
       valid: false,

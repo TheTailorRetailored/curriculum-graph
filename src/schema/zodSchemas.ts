@@ -98,6 +98,14 @@ export const patchOperationSchema = z.object({
   if (operation.op === "update_edge" && !operation.updates && !operation.edge) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["updates"], message: "update_edge requires updates or edge" });
   if (operation.op === "delete_edge" && !operation.id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["id"], message: "delete_edge requires id" });
   if (operation.op === "delete_edge" && !operation.rationale) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["rationale"], message: "delete_edge requires rationale" });
+  if (operation.op === "attach_kp" && !operation.node_id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["node_id"], message: "attach_kp requires node_id" });
+  if (operation.op === "attach_kp" && !operation.kp_id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["kp_id"], message: "attach_kp requires kp_id" });
+  if (operation.op === "attach_misconception" && !operation.node_id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["node_id"], message: "attach_misconception requires node_id" });
+  if (operation.op === "attach_misconception" && !operation.misconception_id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["misconception_id"], message: "attach_misconception requires misconception_id" });
+  if (operation.op === "add_child" && !operation.parent_id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["parent_id"], message: "add_child requires parent_id" });
+  if (operation.op === "add_child" && !operation.child_id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["child_id"], message: "add_child requires child_id" });
+  if (operation.op === "mark_foundational" && !operation.node_id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["node_id"], message: "mark_foundational requires node_id" });
+  if (operation.op === "deprecate_edge" && !operation.id && !operation.edge_id) ctx.addIssue({ code: z.ZodIssueCode.custom, path: ["id"], message: "deprecate_edge requires id or edge_id" });
 });
 
 export const patchSchema = z.object({

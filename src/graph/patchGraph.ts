@@ -1,11 +1,13 @@
 import path from "node:path";
 import os from "node:os";
-import { access, copyFile, mkdir, mkdtemp, rm } from "node:fs/promises";
+import { access, appendFile, copyFile, mkdir, mkdtemp, rm } from "node:fs/promises";
 import { GraphIndex, loadGraph } from "./loadGraph.js";
 import { appendEdges, appendNodes, areaFileForNode, patchEdgeFile, updateEdges, updateNodes, writeTextFileAtomic } from "./saveGraph.js";
 import { patchSchema, Patch } from "../schema/zodSchemas.js";
 import { validatePatch } from "../validation/validatePatch.js";
 import { exportJson } from "../export/exportJson.js";
+import { expandPatchInput } from "./patchExpansion.js";
+import { canonicalJson, canonicalJsonHash } from "../util/canonicalJson.js";
 
 type FileSnapshot = {
   target: string;
@@ -73,13 +75,16 @@ function touchedFilesForPatch(graph: GraphIndex, patch: Patch, auditPath: string
 }
 
 export async function applyGraphPatch(graph: GraphIndex, patchInput: Patch | unknown, options: { strictness?: "loose" | "normal" | "strict"; allow_warnings?: boolean } = {}) {
-  const patch = patchSchema.parse(patchInput);
+  const expandedPatchInput = expandPatchInput(graph, patchInput);
+  const patch = patchSchema.parse(expandedPatchInput);
   const validation = validatePatch(graph, patch, options.strictness ?? "normal");
   const duplicateWarnings = validation.warnings.filter((issue) => issue.code.includes("duplicate"));
   if (!validation.valid || (duplicateWarnings.length > 0 && !patch.operations.some((op) => op.duplicate_resolution))) {
+    await writePatchDiagnostic(graph.rootDir, "apply_patch.rejected", patch, validation);
     return { committed: false, patch_id: patch.patch_id, validation, files_changed: [], audit_log_path: null };
   }
   if (!options.allow_warnings && validation.warnings.length > 0) {
+    await writePatchDiagnostic(graph.rootDir, "apply_patch.warnings_not_allowed", patch, validation);
     return { committed: false, patch_id: patch.patch_id, validation, files_changed: [], audit_log_path: null };
   }
 
@@ -124,6 +129,7 @@ export async function applyGraphPatch(graph: GraphIndex, patchInput: Patch | unk
     }
 
     const message = error instanceof Error ? error.message : String(error);
+    await writePatchDiagnostic(graph.rootDir, "apply_patch.failed", patch, validation, error);
     const failedLogPath = path.join(graph.rootDir, "patches", "rejected", `${patch.patch_id}.failed.json`);
     try {
       await writeTextFileAtomic(failedLogPath, JSON.stringify({
@@ -151,5 +157,26 @@ export async function applyGraphPatch(graph: GraphIndex, patchInput: Patch | unk
     };
   } finally {
     await rm(snapshotDir, { recursive: true, force: true });
+  }
+}
+
+async function writePatchDiagnostic(rootDir: string, context: string, patch: Patch, validation: unknown, error?: unknown) {
+  try {
+    const json = canonicalJson(patch);
+    const entry = {
+      at: new Date().toISOString(),
+      context,
+      patch_id: patch.patch_id,
+      operation_count: patch.operations.length,
+      json_size: json.length,
+      validation_hash: canonicalJsonHash({ patch_id: patch.patch_id, patch }),
+      validation,
+      error: error instanceof Error ? error.message : error ? String(error) : undefined
+    };
+    const logPath = path.join(rootDir, "patches", "logs", "server-errors.log");
+    await mkdir(path.dirname(logPath), { recursive: true });
+    await appendFile(logPath, `${JSON.stringify(entry)}\n`, "utf8");
+  } catch {
+    // Diagnostics must never block the patch response path.
   }
 }

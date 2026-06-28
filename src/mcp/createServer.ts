@@ -12,7 +12,7 @@ import { getPrompt, prompts } from "./prompts.js";
 import { readResource, resources } from "./resources.js";
 import { toolDefinitions, toolHandlers } from "./tools.js";
 
-export const ONTOLOGY_MUTATING_TOOLS = new Set(["apply_patch"]);
+export const ONTOLOGY_MUTATING_TOOLS = new Set(["apply_patch", "apply_validated_patch"]);
 
 export function availableToolDefinitions(allowWrites = false) {
   return allowWrites ? toolDefinitions : toolDefinitions.filter((tool) => !ONTOLOGY_MUTATING_TOOLS.has(tool.name));
@@ -80,7 +80,7 @@ export async function createCurriculumGraphServer(rootDir = process.cwd(), optio
 
     try {
       const result = await handler(request.params.arguments ?? {}, graph, { allowWrites, rootDir });
-      if (toolName === "apply_patch") {
+      if (toolName === "apply_patch" || toolName === "apply_validated_patch") {
         try {
           graph = await loadGraph(rootDir);
         } catch (error) {
