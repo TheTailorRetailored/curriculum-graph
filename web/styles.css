@@ -124,13 +124,20 @@ select {
   margin: 18px 0;
 }
 
-.chips {
+.chips,
+.preset-grid {
   display: flex;
   flex-wrap: wrap;
   gap: 7px;
 }
 
-.chip {
+.preset-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.chip,
+.preset-button {
   border: 1px solid var(--line);
   background: #fafbf8;
   border-radius: 6px;
@@ -138,10 +145,35 @@ select {
   padding: 6px 8px;
 }
 
-.chip.active {
+.preset-button {
+  min-height: 42px;
+  text-align: left;
+}
+
+.preset-button strong,
+.preset-button span {
+  display: block;
+}
+
+.preset-button strong {
+  font-size: 13px;
+}
+
+.preset-button span {
+  color: var(--muted);
+  font-size: 11px;
+  margin-top: 2px;
+}
+
+.chip.active,
+.preset-button.active {
   background: #e7f1ec;
   border-color: #98bbae;
   color: #174f44;
+}
+
+.preset-button.active span {
+  color: #35695d;
 }
 
 .metrics {

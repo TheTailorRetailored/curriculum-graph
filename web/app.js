@@ -9,7 +9,9 @@ const state = {
   filteredEdges: [],
   selectedId: null,
   hoveredId: null,
-  typeFilters: new Set(["subject", "strand", "area", "topic"]),
+  viewPreset: "curriculum",
+  typeFilters: new Set(),
+  edgeFilters: new Set(),
   subject: "all",
   strand: "all",
   area: "all",
@@ -41,7 +43,61 @@ const edgeColors = {
   requires: "rgba(169, 87, 43, 0.38)",
   encompasses: "rgba(39, 104, 91, 0.32)",
   part_of: "rgba(63, 95, 154, 0.28)",
-  supports: "rgba(88, 101, 74, 0.25)"
+  supports: "rgba(88, 101, 74, 0.25)",
+  targets_knowledge_point: "rgba(122, 87, 149, 0.28)",
+  has_misconception: "rgba(166, 106, 0, 0.32)",
+  aligned_to: "rgba(104, 114, 130, 0.34)"
+};
+
+const viewPresets = {
+  curriculum: {
+    label: "Curriculum",
+    hint: "Areas and units",
+    nodeTypes: ["subject", "strand", "area", "topic", "pathway"],
+    edgeTypes: ["part_of", "encompasses", "aligned_to"],
+    includeNode: (node) => node.type !== "topic" || ["container", "course_unit", "lesson_sequence"].includes(node.grain_size)
+  },
+  topics: {
+    label: "Topics",
+    hint: "Teaching map",
+    nodeTypes: ["subject", "strand", "area", "topic"],
+    edgeTypes: ["part_of", "requires", "encompasses", "supports", "develops_into"]
+  },
+  diagnostic: {
+    label: "Diagnostic",
+    hint: "KPs and errors",
+    nodeTypes: ["area", "topic", "knowledge_point", "misconception"],
+    edgeTypes: ["targets_knowledge_point", "has_misconception", "requires", "encompasses"]
+  },
+  prerequisites: {
+    label: "Prereqs",
+    hint: "Requires only",
+    nodeTypes: ["area", "topic"],
+    edgeTypes: ["requires", "part_of"]
+  },
+  practice: {
+    label: "Practice",
+    hint: "Credit flow",
+    nodeTypes: ["area", "topic", "knowledge_point"],
+    edgeTypes: ["encompasses", "targets_knowledge_point", "part_of"]
+  },
+  acara: {
+    label: "ACARA",
+    hint: "Alignment",
+    nodeTypes: ["subject", "strand", "area", "topic", "knowledge_point", "curriculum_standard"],
+    edgeTypes: ["aligned_to", "part_of", "targets_knowledge_point"],
+    includeNode: (node) =>
+      ["subject", "strand", "area", "curriculum_standard"].includes(node.type) ||
+      node.metadata?.alignment_system ||
+      node.id.startsWith("acara.") ||
+      state.edges.some((edge) => edge.type === "aligned_to" && (edge.from === node.id || edge.to === node.id))
+  },
+  custom: {
+    label: "Custom",
+    hint: "Manual filters",
+    nodeTypes: ["subject", "strand", "area", "topic"],
+    edgeTypes: ["part_of", "requires", "encompasses", "targets_knowledge_point", "has_misconception", "aligned_to", "supports"]
+  }
 };
 
 function byId(id) {
@@ -65,6 +121,28 @@ function setSelectOptions(select, values, label) {
   select.innerHTML = "";
   select.append(new Option(`All ${label}`, "all"));
   for (const value of values) select.append(new Option(value, value));
+}
+
+function activePreset() {
+  return viewPresets[state.viewPreset] ?? viewPresets.custom;
+}
+
+function setActivePresetButton() {
+  document.querySelectorAll(".preset-button").forEach((button) => {
+    button.classList.toggle("active", button.dataset.preset === state.viewPreset);
+  });
+}
+
+function applyViewPreset(key, shouldApply = true) {
+  const preset = viewPresets[key] ?? viewPresets.custom;
+  state.viewPreset = key;
+  state.typeFilters = new Set(preset.nodeTypes);
+  state.edgeFilters = new Set(preset.edgeTypes);
+  setActivePresetButton();
+  buildTypeFilters();
+  buildEdgeFilters();
+  if (state.mode === "overview") assignLayout();
+  if (shouldApply) applyFilters();
 }
 
 function nodeRadius(node) {
@@ -119,8 +197,22 @@ function hydrateGraph(payload) {
   setSelectOptions(document.querySelector("#strandFilter"), uniqueOptions(state.nodes.map((node) => node.strand)), "strands");
   setSelectOptions(document.querySelector("#areaFilter"), uniqueOptions(state.nodes.map((node) => node.area)), "areas");
   document.querySelector("#snapshotLabel").textContent = `${payload.counts.nodes.toLocaleString()} nodes, ${payload.counts.edges.toLocaleString()} edges`;
-  buildTypeFilters();
+  buildViewPresets();
+  applyViewPreset(state.viewPreset, false);
   applyFilters();
+}
+
+function buildViewPresets() {
+  const container = document.querySelector("#viewPresets");
+  container.innerHTML = "";
+  for (const [key, preset] of Object.entries(viewPresets)) {
+    const button = document.createElement("button");
+    button.className = `preset-button ${state.viewPreset === key ? "active" : ""}`;
+    button.dataset.preset = key;
+    button.innerHTML = `<strong>${preset.label}</strong><span>${preset.hint}</span>`;
+    button.addEventListener("click", () => applyViewPreset(key));
+    container.append(button);
+  }
 }
 
 function buildTypeFilters() {
@@ -131,8 +223,29 @@ function buildTypeFilters() {
     button.className = `chip ${state.typeFilters.has(type) ? "active" : ""}`;
     button.textContent = `${type.replaceAll("_", " ")} ${count}`;
     button.addEventListener("click", () => {
+      state.viewPreset = "custom";
       if (state.typeFilters.has(type)) state.typeFilters.delete(type);
       else state.typeFilters.add(type);
+      setActivePresetButton();
+      button.classList.toggle("active");
+      applyFilters();
+    });
+    container.append(button);
+  }
+}
+
+function buildEdgeFilters() {
+  const container = document.querySelector("#edgeFilters");
+  container.innerHTML = "";
+  for (const [type, count] of Object.entries(state.graph.counts.by_edge_type).sort((a, b) => b[1] - a[1])) {
+    const button = document.createElement("button");
+    button.className = `chip ${state.edgeFilters.has(type) ? "active" : ""}`;
+    button.textContent = `${type.replaceAll("_", " ")} ${count}`;
+    button.addEventListener("click", () => {
+      state.viewPreset = "custom";
+      if (state.edgeFilters.has(type)) state.edgeFilters.delete(type);
+      else state.edgeFilters.add(type);
+      setActivePresetButton();
       button.classList.toggle("active");
       applyFilters();
     });
@@ -146,10 +259,21 @@ function nodeMatchesSearch(node) {
   return haystack.includes(state.search);
 }
 
+function nodeAllowedByPreset(node) {
+  const preset = activePreset();
+  if (!state.typeFilters.has(node.type)) return false;
+  return typeof preset.includeNode === "function" ? preset.includeNode(node) : true;
+}
+
+function edgeAllowedByPreset(edge) {
+  return state.edgeFilters.has(edge.type);
+}
+
 function neighbourhoodIds() {
   if (state.mode !== "neighbourhood" || !state.selectedId) return null;
   const ids = new Set([state.selectedId]);
   for (const edge of state.edges) {
+    if (!edgeAllowedByPreset(edge)) continue;
     if (edge.from === state.selectedId) ids.add(edge.to);
     if (edge.to === state.selectedId) ids.add(edge.from);
   }
@@ -179,14 +303,14 @@ function applyFilters() {
   const neighbourhood = neighbourhoodIds();
   state.filteredNodes = state.nodes.filter((node) => {
     if (neighbourhood && !neighbourhood.has(node.id)) return false;
-    if (!state.typeFilters.has(node.type)) return false;
+    if (!nodeAllowedByPreset(node)) return false;
     if (state.subject !== "all" && node.subject !== state.subject) return false;
     if (state.strand !== "all" && node.strand !== state.strand) return false;
     if (state.area !== "all" && node.area !== state.area) return false;
     return nodeMatchesSearch(node);
   });
   const visible = new Set(state.filteredNodes.map((node) => node.id));
-  state.filteredEdges = state.edges.filter((edge) => visible.has(edge.from) && visible.has(edge.to));
+  state.filteredEdges = state.edges.filter((edge) => edgeAllowedByPreset(edge) && visible.has(edge.from) && visible.has(edge.to));
   if (state.mode === "neighbourhood") assignNeighbourhoodLayout();
   updateMetrics();
   document.querySelector("#emptyState").hidden = state.filteredNodes.length !== 0;
@@ -197,13 +321,19 @@ function updateMetrics() {
   const panel = document.querySelector("#metricsPanel");
   const topicCount = state.filteredNodes.filter((node) => node.type === "topic").length;
   const kpCount = state.filteredNodes.filter((node) => node.type === "knowledge_point").length;
+  const misconceptionCount = state.filteredNodes.filter((node) => node.type === "misconception").length;
+  const standardsCount = state.filteredNodes.filter((node) => node.type === "curriculum_standard").length;
   const requiresCount = state.filteredEdges.filter((edge) => edge.type === "requires").length;
+  const kpEdgeCount = state.filteredEdges.filter((edge) => edge.type === "targets_knowledge_point").length;
   panel.innerHTML = `
     <div class="metric"><span>Visible nodes</span><strong>${state.filteredNodes.length.toLocaleString()}</strong></div>
     <div class="metric"><span>Visible edges</span><strong>${state.filteredEdges.length.toLocaleString()}</strong></div>
     <div class="metric"><span>Topics</span><strong>${topicCount.toLocaleString()}</strong></div>
     <div class="metric"><span>Knowledge points</span><strong>${kpCount.toLocaleString()}</strong></div>
+    <div class="metric"><span>Misconceptions</span><strong>${misconceptionCount.toLocaleString()}</strong></div>
+    <div class="metric"><span>Standards</span><strong>${standardsCount.toLocaleString()}</strong></div>
     <div class="metric"><span>Prerequisites</span><strong>${requiresCount.toLocaleString()}</strong></div>
+    <div class="metric"><span>KP links</span><strong>${kpEdgeCount.toLocaleString()}</strong></div>
   `;
 }
 
@@ -310,6 +440,8 @@ function updateDetails() {
     ["Strand", node.strand],
     ["Area", node.area],
     ["Year band", node.year_band],
+    ["Role", node.effective_role],
+    ["Foundational", node.foundational ? "Yes" : null],
     ["Status", node.status],
     ["Source", node.path],
     ["Review", node.metadata?.review_status]
@@ -317,8 +449,10 @@ function updateDetails() {
   properties.innerHTML = rows.map(([key, value]) => `<div><dt>${key}</dt><dd>${value}</dd></div>`).join("");
 
   const edgeList = document.querySelector("#edgeList");
+  const diagnosticList = document.querySelector("#diagnosticList");
   if (!node) {
     edgeList.innerHTML = "";
+    diagnosticList.innerHTML = "";
     return;
   }
   const attached = state.edges
@@ -334,6 +468,22 @@ function updateDetails() {
     </button>`;
   }).join("") || "<p class=\"eyebrow\">No attached edges.</p>";
   edgeList.querySelectorAll("[data-node-id]").forEach((button) => {
+    button.addEventListener("click", () => selectNode(button.dataset.nodeId));
+  });
+
+  const directKps = (node.knowledge_points ?? []).map((id) => ({ id, edgeType: "knowledge_points" }));
+  const diagnosticEdges = state.edges
+    .filter((edge) => edge.from === node.id && ["targets_knowledge_point", "has_misconception", "aligned_to"].includes(edge.type))
+    .map((edge) => ({ id: edge.to, edgeType: edge.type }));
+  const uniqueLinks = new Map([...directKps, ...diagnosticEdges].map((item) => [`${item.edgeType}:${item.id}`, item]));
+  diagnosticList.innerHTML = [...uniqueLinks.values()].map((item) => {
+    const linkedNode = byId(item.id);
+    return `<button class="edge-item" data-node-id="${item.id}">
+      <strong>${item.edgeType.replaceAll("_", " ")} to ${linkedNode?.label ?? item.id}</strong>
+      <span>${linkedNode?.type?.replaceAll("_", " ") ?? "node"} &middot; ${item.id}</span>
+    </button>`;
+  }).join("") || "<p class=\"eyebrow\">No diagnostic links.</p>";
+  diagnosticList.querySelectorAll("[data-node-id]").forEach((button) => {
     button.addEventListener("click", () => selectNode(button.dataset.nodeId));
   });
 }

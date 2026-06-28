@@ -23,8 +23,18 @@
         </label>
 
         <section class="filter-section">
-          <div class="section-title">View</div>
+          <div class="section-title">Preset</div>
+          <div id="viewPresets" class="preset-grid"></div>
+        </section>
+
+        <section class="filter-section">
+          <div class="section-title">Node Types</div>
           <div id="typeFilters" class="chips"></div>
+        </section>
+
+        <section class="filter-section">
+          <div class="section-title">Edge Types</div>
+          <div id="edgeFilters" class="chips"></div>
         </section>
 
         <section class="filter-section">
@@ -75,6 +85,11 @@
         <section class="detail-block">
           <div class="section-title">Attached Edges</div>
           <div id="edgeList" class="edge-list"></div>
+        </section>
+
+        <section class="detail-block">
+          <div class="section-title">Diagnostic Links</div>
+          <div id="diagnosticList" class="edge-list"></div>
         </section>
       </aside>
     </div>
