@@ -1,0 +1,63 @@
+{
+  "patch_id": "patch.math.compound_events_fill_child.004e2",
+  "applied_at": "2026-06-29T02:49:07.805Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fill_two_way_tables.part_of.two_way_tables",
+        "from": "math.probability.compound.fill_two_way_tables",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Table completion belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.fill_two_way_tables",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.fill_two_way_tables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Table completion belongs here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4379
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4381
+  }
+}

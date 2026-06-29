@@ -1,0 +1,86 @@
+{
+  "patch_id": "patch.math.compound_events_table_total_kps.004l",
+  "applied_at": "2026-06-29T02:53:47.717Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fill_two_way_tables.targets_knowledge_point.table_totals_must_balance",
+        "from": "math.probability.compound.fill_two_way_tables",
+        "to": "math.kp.probability.table_totals_must_balance",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_row_total_consistency.targets_knowledge_point.table_totals_must_balance",
+        "from": "math.probability.compound.table_row_total_consistency",
+        "to": "math.kp.probability.table_totals_must_balance",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_column_total_consistency.targets_knowledge_point.table_totals_must_balance",
+        "from": "math.probability.compound.table_column_total_consistency",
+        "to": "math.kp.probability.table_totals_must_balance",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_grand_total_consistency.targets_knowledge_point.table_totals_must_balance",
+        "from": "math.probability.compound.table_grand_total_consistency",
+        "to": "math.kp.probability.table_totals_must_balance",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4450
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4454
+  }
+}

@@ -36952,3 +36952,878 @@ edges:
     metadata:
       created_by: assistant
       review_status: ai_generated
+  - id: edge.fill_two_way_tables.part_of.two_way_tables
+    from: math.probability.compound.fill_two_way_tables
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: high
+    rationale: Table completion belongs here.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.fill_two_way_tables
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.fill_two_way_tables
+    type: encompasses
+    confidence: high
+    rationale: Table completion belongs here.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.event_complement_in_venn.part_of.two_way_tables
+    from: math.probability.compound.event_complement_in_venn
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: high
+    rationale: Complements in Venn diagrams belong here.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.event_complement_in_venn
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.event_complement_in_venn
+    type: encompasses
+    confidence: high
+    rationale: Complements in Venn diagrams belong here.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.venn_overlap_region.part_of.two_way_tables
+    from: math.probability.compound.venn_overlap_region
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: high
+    rationale: Venn overlap is a core region.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.venn_overlap_region
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.venn_overlap_region
+    type: encompasses
+    confidence: high
+    rationale: Venn overlap is a core region.
+    weight: 0.8
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.venn_outside_region.part_of.two_way_tables
+    from: math.probability.compound.venn_outside_region
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: high
+    rationale: The outside region is a core Venn region.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.venn_outside_region
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.venn_outside_region
+    type: encompasses
+    confidence: high
+    rationale: The outside region is a core Venn region.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.disjoint_events_from_diagram.part_of.two_way_tables
+    from: math.probability.compound.disjoint_events_from_diagram
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: medium
+    rationale: Disjoint events can be read from diagrams.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.disjoint_events_from_diagram
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.disjoint_events_from_diagram
+    type: encompasses
+    confidence: medium
+    rationale: Disjoint events can be read from diagrams.
+    weight: 0.6
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.table_to_venn_conversion.part_of.two_way_tables
+    from: math.probability.compound.table_to_venn_conversion
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: medium
+    rationale: Table-to-Venn translation belongs with representations.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.table_to_venn_conversion
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.table_to_venn_conversion
+    type: encompasses
+    confidence: medium
+    rationale: Table-to-Venn translation belongs with representations.
+    weight: 0.6
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.venn_to_table_conversion.part_of.two_way_tables
+    from: math.probability.compound.venn_to_table_conversion
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: medium
+    rationale: Venn-to-table translation belongs with representations.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.venn_to_table_conversion
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.venn_to_table_conversion
+    type: encompasses
+    confidence: medium
+    rationale: Venn-to-table translation belongs with representations.
+    weight: 0.6
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.overlap_subtraction_in_union.part_of.two_way_tables
+    from: math.probability.compound.overlap_subtraction_in_union
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: high
+    rationale: Overlap subtraction belongs with union reasoning.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.overlap_subtraction_in_union
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.overlap_subtraction_in_union
+    type: encompasses
+    confidence: high
+    rationale: Overlap subtraction belongs with union reasoning.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.mutually_exclusive_addition_rule.part_of.two_way_tables
+    from: math.probability.compound.mutually_exclusive_addition_rule
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: high
+    rationale: Mutually exclusive addition belongs with union reasoning.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.mutually_exclusive_addition_rule
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.mutually_exclusive_addition_rule
+    type: encompasses
+    confidence: high
+    rationale: Mutually exclusive addition belongs with union reasoning.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.non_mutually_exclusive_addition_rule.part_of.two_way_tables
+    from: math.probability.compound.non_mutually_exclusive_addition_rule
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: high
+    rationale: Adjusted addition belongs with union reasoning.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.non_mutually_exclusive_addition_rule
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.non_mutually_exclusive_addition_rule
+    type: encompasses
+    confidence: high
+    rationale: Adjusted addition belongs with union reasoning.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.translate_words_to_union_intersection.part_of.two_way_tables
+    from: math.probability.compound.translate_words_to_union_intersection
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: high
+    rationale: Word-to-event translation belongs here.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.translate_words_to_union_intersection
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.translate_words_to_union_intersection
+    type: encompasses
+    confidence: high
+    rationale: Word-to-event translation belongs here.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.symbolic_union_intersection_notation.part_of.two_way_tables
+    from: math.probability.compound.symbolic_union_intersection_notation
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: medium
+    rationale: Symbolic notation extends union and intersection work.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.symbolic_union_intersection_notation
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.symbolic_union_intersection_notation
+    type: encompasses
+    confidence: medium
+    rationale: Symbolic notation extends union and intersection work.
+    weight: 0.6
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.de_morgan_language_intro.part_of.two_way_tables
+    from: math.probability.compound.de_morgan_language_intro
+    to: math.probability.compound.two_way_tables
+    type: part_of
+    confidence: medium
+    rationale: Not-and/not-or language extends Venn complement work.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_tables.encompasses.de_morgan_language_intro
+    from: math.probability.compound.two_way_tables
+    to: math.probability.compound.de_morgan_language_intro
+    type: encompasses
+    confidence: medium
+    rationale: Not-and/not-or language extends Venn complement work.
+    weight: 0.5
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.sequential_events.part_of.independent_dependent_events
+    from: math.probability.compound.sequential_events
+    to: math.probability.compound.independent_dependent_events
+    type: part_of
+    confidence: high
+    rationale: Sequential events underpin dependence work.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_dependent_events.encompasses.sequential_events
+    from: math.probability.compound.independent_dependent_events
+    to: math.probability.compound.sequential_events
+    type: encompasses
+    confidence: high
+    rationale: Sequential events underpin dependence work.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.restricted_sample_space_intro.part_of.independent_dependent_events
+    from: math.probability.compound.restricted_sample_space_intro
+    to: math.probability.compound.independent_dependent_events
+    type: part_of
+    confidence: medium
+    rationale: Restricted spaces underpin dependence.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_dependent_events.encompasses.restricted_sample_space_intro
+    from: math.probability.compound.independent_dependent_events
+    to: math.probability.compound.restricted_sample_space_intro
+    type: encompasses
+    confidence: medium
+    rationale: Restricted spaces underpin dependence.
+    weight: 0.6
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.compare_independent_dependent_contexts.part_of.independent_dependent_events
+    from: math.probability.compound.compare_independent_dependent_contexts
+    to: math.probability.compound.independent_dependent_events
+    type: part_of
+    confidence: high
+    rationale: Context comparison belongs here.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_dependent_events.encompasses.compare_independent_dependent_contexts
+    from: math.probability.compound.independent_dependent_events
+    to: math.probability.compound.compare_independent_dependent_contexts
+    type: encompasses
+    confidence: high
+    rationale: Context comparison belongs here.
+    weight: 0.8
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.check_independence_from_data.part_of.independent_dependent_events
+    from: math.probability.compound.check_independence_from_data
+    to: math.probability.compound.independent_dependent_events
+    type: part_of
+    confidence: medium
+    rationale: Checking independence from data belongs here.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_dependent_events.encompasses.check_independence_from_data
+    from: math.probability.compound.independent_dependent_events
+    to: math.probability.compound.check_independence_from_data
+    type: encompasses
+    confidence: medium
+    rationale: Checking independence from data belongs here.
+    weight: 0.6
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.with_replacement_constant_probabilities.part_of.independent_dependent_events
+    from: math.probability.compound.with_replacement_constant_probabilities
+    to: math.probability.compound.independent_dependent_events
+    type: part_of
+    confidence: medium
+    rationale: With-replacement stability belongs here.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_dependent_events.encompasses.with_replacement_constant_probabilities
+    from: math.probability.compound.independent_dependent_events
+    to: math.probability.compound.with_replacement_constant_probabilities
+    type: encompasses
+    confidence: medium
+    rationale: With-replacement stability belongs here.
+    weight: 0.6
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.without_replacement_count_update.part_of.independent_dependent_events
+    from: math.probability.compound.without_replacement_count_update
+    to: math.probability.compound.independent_dependent_events
+    type: part_of
+    confidence: medium
+    rationale: Without-replacement count updates belong here.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_dependent_events.encompasses.without_replacement_count_update
+    from: math.probability.compound.independent_dependent_events
+    to: math.probability.compound.without_replacement_count_update
+    type: encompasses
+    confidence: medium
+    rationale: Without-replacement count updates belong here.
+    weight: 0.6
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.dependence_from_changed_sample_space.part_of.independent_dependent_events
+    from: math.probability.compound.dependence_from_changed_sample_space
+    to: math.probability.compound.independent_dependent_events
+    type: part_of
+    confidence: high
+    rationale: Changed sample spaces explain dependence.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_dependent_events.encompasses.dependence_from_changed_sample_space
+    from: math.probability.compound.independent_dependent_events
+    to: math.probability.compound.dependence_from_changed_sample_space
+    type: encompasses
+    confidence: high
+    rationale: Changed sample spaces explain dependence.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independence_from_unchanged_probability.part_of.independent_dependent_events
+    from: math.probability.compound.independence_from_unchanged_probability
+    to: math.probability.compound.independent_dependent_events
+    type: part_of
+    confidence: high
+    rationale: Unchanged probability explains independence.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_dependent_events.encompasses.independence_from_unchanged_probability
+    from: math.probability.compound.independent_dependent_events
+    to: math.probability.compound.independence_from_unchanged_probability
+    type: encompasses
+    confidence: high
+    rationale: Unchanged probability explains independence.
+    weight: 0.7
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.event_complement_in_venn.targets_knowledge_point.venn_regions_partition_space
+    from: math.probability.compound.event_complement_in_venn
+    to: math.kp.probability.venn_regions_partition_space
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.venn_overlap_region.targets_knowledge_point.and_intersection_or_union
+    from: math.probability.compound.venn_overlap_region
+    to: math.kp.probability.and_intersection_or_union
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.venn_overlap_region.targets_knowledge_point.venn_regions_partition_space
+    from: math.probability.compound.venn_overlap_region
+    to: math.kp.probability.venn_regions_partition_space
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.venn_outside_region.targets_knowledge_point.venn_regions_partition_space
+    from: math.probability.compound.venn_outside_region
+    to: math.kp.probability.venn_regions_partition_space
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.disjoint_events_from_diagram.targets_knowledge_point.mutually_exclusive_no_overlap
+    from: math.probability.compound.disjoint_events_from_diagram
+    to: math.kp.probability.mutually_exclusive_no_overlap
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.disjoint_events_from_diagram.has_misconception.all_events_mutually_exclusive
+    from: math.probability.compound.disjoint_events_from_diagram
+    to: math.misconception.probability.all_events_mutually_exclusive
+    type: has_misconception
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.overlap_subtraction_in_union.targets_knowledge_point.union_overlap_subtract_once
+    from: math.probability.compound.overlap_subtraction_in_union
+    to: math.kp.probability.union_overlap_subtract_once
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.overlap_subtraction_in_union.has_misconception.double_count_overlap
+    from: math.probability.compound.overlap_subtraction_in_union
+    to: math.misconception.probability.double_count_overlap
+    type: has_misconception
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.mutually_exclusive_addition_rule.targets_knowledge_point.mutually_exclusive_no_overlap
+    from: math.probability.compound.mutually_exclusive_addition_rule
+    to: math.kp.probability.mutually_exclusive_no_overlap
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.non_mutually_exclusive_addition_rule.targets_knowledge_point.union_overlap_subtract_once
+    from: math.probability.compound.non_mutually_exclusive_addition_rule
+    to: math.kp.probability.union_overlap_subtract_once
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.non_mutually_exclusive_addition_rule.has_misconception.double_count_overlap
+    from: math.probability.compound.non_mutually_exclusive_addition_rule
+    to: math.misconception.probability.double_count_overlap
+    type: has_misconception
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.translate_words_to_union_intersection.targets_knowledge_point.and_intersection_or_union
+    from: math.probability.compound.translate_words_to_union_intersection
+    to: math.kp.probability.and_intersection_or_union
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.translate_words_to_union_intersection.has_misconception.and_or_confused
+    from: math.probability.compound.translate_words_to_union_intersection
+    to: math.misconception.probability.and_or_confused
+    type: has_misconception
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.symbolic_union_intersection_notation.targets_knowledge_point.and_intersection_or_union
+    from: math.probability.compound.symbolic_union_intersection_notation
+    to: math.kp.probability.and_intersection_or_union
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.de_morgan_language_intro.targets_knowledge_point.venn_regions_partition_space
+    from: math.probability.compound.de_morgan_language_intro
+    to: math.kp.probability.venn_regions_partition_space
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.dependent_events_meaning.targets_knowledge_point.without_replacement_changes_probabilities
+    from: math.probability.compound.dependent_events_meaning
+    to: math.kp.probability.without_replacement_changes_probabilities
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.with_replacement_contexts.targets_knowledge_point.independence_probability_unchanged
+    from: math.probability.compound.with_replacement_contexts
+    to: math.kp.probability.independence_probability_unchanged
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.with_replacement_constant_probabilities.targets_knowledge_point.independence_probability_unchanged
+    from: math.probability.compound.with_replacement_constant_probabilities
+    to: math.kp.probability.independence_probability_unchanged
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.without_replacement_count_update.targets_knowledge_point.without_replacement_changes_counts
+    from: math.probability.compound.without_replacement_count_update
+    to: math.kp.probability.without_replacement_changes_counts
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.without_replacement_count_update.has_misconception.no_replacement_counts_unchanged
+    from: math.probability.compound.without_replacement_count_update
+    to: math.misconception.probability.no_replacement_counts_unchanged
+    type: has_misconception
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.dependence_from_changed_sample_space.targets_knowledge_point.without_replacement_changes_probabilities
+    from: math.probability.compound.dependence_from_changed_sample_space
+    to: math.kp.probability.without_replacement_changes_probabilities
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.dependence_from_changed_sample_space.targets_knowledge_point.without_replacement_changes_counts
+    from: math.probability.compound.dependence_from_changed_sample_space
+    to: math.kp.probability.without_replacement_changes_counts
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.dependence_from_changed_sample_space.has_misconception.without_replacement_keeps_same_denominator
+    from: math.probability.compound.dependence_from_changed_sample_space
+    to: math.misconception.probability.without_replacement_keeps_same_denominator
+    type: has_misconception
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independence_from_unchanged_probability.targets_knowledge_point.independence_probability_unchanged
+    from: math.probability.compound.independence_from_unchanged_probability
+    to: math.kp.probability.independence_probability_unchanged
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independence_from_unchanged_probability.has_misconception.independent_if_different_events
+    from: math.probability.compound.independence_from_unchanged_probability
+    to: math.misconception.probability.independent_if_different_events
+    type: has_misconception
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.compare_independent_dependent_contexts.targets_knowledge_point.independence_probability_unchanged
+    from: math.probability.compound.compare_independent_dependent_contexts
+    to: math.kp.probability.independence_probability_unchanged
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.compare_independent_dependent_contexts.targets_knowledge_point.without_replacement_changes_probabilities
+    from: math.probability.compound.compare_independent_dependent_contexts
+    to: math.kp.probability.without_replacement_changes_probabilities
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.disjoint_vs_independent_contrast.targets_knowledge_point.disjoint_not_same_as_independent
+    from: math.probability.compound.disjoint_vs_independent_contrast
+    to: math.kp.probability.disjoint_not_same_as_independent
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.disjoint_vs_independent_contrast.has_misconception.mutually_exclusive_means_independent
+    from: math.probability.compound.disjoint_vs_independent_contrast
+    to: math.misconception.probability.mutually_exclusive_means_independent
+    type: has_misconception
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.fill_two_way_tables.targets_knowledge_point.table_totals_must_balance
+    from: math.probability.compound.fill_two_way_tables
+    to: math.kp.probability.table_totals_must_balance
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.table_row_total_consistency.targets_knowledge_point.table_totals_must_balance
+    from: math.probability.compound.table_row_total_consistency
+    to: math.kp.probability.table_totals_must_balance
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.table_column_total_consistency.targets_knowledge_point.table_totals_must_balance
+    from: math.probability.compound.table_column_total_consistency
+    to: math.kp.probability.table_totals_must_balance
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.table_grand_total_consistency.targets_knowledge_point.table_totals_must_balance
+    from: math.probability.compound.table_grand_total_consistency
+    to: math.kp.probability.table_totals_must_balance
+    type: targets_knowledge_point
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.two_way_table_structure.requires.frequency_tables
+    from: math.probability.compound.two_way_table_structure
+    to: math.statistics.data.frequency_tables
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: Two-way tables extend frequency-table organisation to two attributes.
+    failure_signal: Learner reads rows and columns without understanding counts.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.fill_two_way_tables.requires.two_way_table_structure
+    from: math.probability.compound.fill_two_way_tables
+    to: math.probability.compound.two_way_table_structure
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Completing a two-way table requires knowing its cells and totals.
+    failure_signal: Learner fills cells without checking row and column structure.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.event_complement_in_venn.requires.venn_diagram_regions
+    from: math.probability.compound.event_complement_in_venn
+    to: math.probability.compound.venn_diagram_regions
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Complements in Venn diagrams depend on reading the diagram regions.
+    failure_signal: Learner identifies the event region but not the outside or
+      not-event region.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.venn_overlap_region.requires.venn_diagram_regions
+    from: math.probability.compound.venn_overlap_region
+    to: math.probability.compound.venn_diagram_regions
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: The overlap is one of the Venn diagram regions.
+    failure_signal: Learner confuses overlap with either whole circle.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.venn_outside_region.requires.venn_diagram_regions
+    from: math.probability.compound.venn_outside_region
+    to: math.probability.compound.venn_diagram_regions
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: The outside region is one of the Venn diagram regions.
+    failure_signal: Learner omits outcomes outside both events.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.disjoint_events_from_diagram.requires.venn_overlap_region
+    from: math.probability.compound.disjoint_events_from_diagram
+    to: math.probability.compound.venn_overlap_region
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: Disjointness is recognised by the absence of overlap.
+    failure_signal: Learner says events are disjoint without checking overlap.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.overlap_subtraction_in_union.requires.union_and_intersection_events
+    from: math.probability.compound.overlap_subtraction_in_union
+    to: math.probability.compound.union_and_intersection_events
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Subtracting overlap depends on distinguishing union from intersection.
+    failure_signal: Learner double-counts the intersection when finding a union.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.mutually_exclusive_addition_rule.requires.disjoint_events_from_diagram
+    from: math.probability.compound.mutually_exclusive_addition_rule
+    to: math.probability.compound.disjoint_events_from_diagram
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: The mutually exclusive addition rule applies when there is no overlap.
+    failure_signal: Learner adds probabilities directly even when events overlap.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.non_mutually_exclusive_addition_rule.requires.overlap_subtraction_in_union
+    from: math.probability.compound.non_mutually_exclusive_addition_rule
+    to: math.probability.compound.overlap_subtraction_in_union
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: The adjusted addition rule uses overlap subtraction.
+    failure_signal: Learner adds both event probabilities without subtracting the intersection.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.addition_rule_simple.requires.union_and_intersection_events
+    from: math.probability.compound.addition_rule_simple
+    to: math.probability.compound.union_and_intersection_events
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Addition-rule reasoning starts from union and intersection meaning.
+    failure_signal: Learner cannot tell which outcomes belong to A or B.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.symbolic_union_intersection_notation.requires.union_and_intersection_events
+    from: math.probability.compound.symbolic_union_intersection_notation
+    to: math.probability.compound.union_and_intersection_events
+    type: requires
+    strength: medium
+    confidence: high
+    rationale: Symbols formalise union and intersection ideas.
+    failure_signal: Learner uses symbols without connecting them to regions or event words.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.de_morgan_language_intro.requires.event_complement_in_venn
+    from: math.probability.compound.de_morgan_language_intro
+    to: math.probability.compound.event_complement_in_venn
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: Not-and and not-or language depends on complement regions.
+    failure_signal: Learner shades the original event instead of its complement.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.independent_events_meaning.requires.outcome_vs_event
+    from: math.probability.compound.independent_events_meaning
+    to: math.probability.chance.outcome_vs_event
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: Independence compares probabilities of events.
+    failure_signal: Learner talks about independence without identifying the events.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: edge.dependent_events_meaning.requires.outcome_vs_event
+    from: math.probability.compound.dependent_events_meaning
+    to: math.probability.chance.outcome_vs_event
+    type: requires
+    strength: medium
+    confidence: medium
+    rationale: Dependence compares probabilities of events.
+    failure_signal: Learner says events are dependent without identifying which
+      probability changes.
+    status: active
+    metadata:
+      created_by: assistant
+      review_status: ai_generated

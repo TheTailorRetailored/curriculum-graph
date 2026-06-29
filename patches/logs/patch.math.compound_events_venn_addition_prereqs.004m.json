@@ -1,0 +1,246 @@
+{
+  "patch_id": "patch.math.compound_events_venn_addition_prereqs.004m",
+  "applied_at": "2026-06-29T02:54:30.005Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_table_structure.requires.frequency_tables",
+        "from": "math.probability.compound.two_way_table_structure",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Two-way tables extend frequency-table organisation to two attributes.",
+        "failure_signal": "Learner reads rows and columns without understanding counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fill_two_way_tables.requires.two_way_table_structure",
+        "from": "math.probability.compound.fill_two_way_tables",
+        "to": "math.probability.compound.two_way_table_structure",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Completing a two-way table requires knowing its cells and totals.",
+        "failure_signal": "Learner fills cells without checking row and column structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_complement_in_venn.requires.venn_diagram_regions",
+        "from": "math.probability.compound.event_complement_in_venn",
+        "to": "math.probability.compound.venn_diagram_regions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Complements in Venn diagrams depend on reading the diagram regions.",
+        "failure_signal": "Learner identifies the event region but not the outside or not-event region.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_overlap_region.requires.venn_diagram_regions",
+        "from": "math.probability.compound.venn_overlap_region",
+        "to": "math.probability.compound.venn_diagram_regions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The overlap is one of the Venn diagram regions.",
+        "failure_signal": "Learner confuses overlap with either whole circle.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_outside_region.requires.venn_diagram_regions",
+        "from": "math.probability.compound.venn_outside_region",
+        "to": "math.probability.compound.venn_diagram_regions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The outside region is one of the Venn diagram regions.",
+        "failure_signal": "Learner omits outcomes outside both events.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.disjoint_events_from_diagram.requires.venn_overlap_region",
+        "from": "math.probability.compound.disjoint_events_from_diagram",
+        "to": "math.probability.compound.venn_overlap_region",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Disjointness is recognised by the absence of overlap.",
+        "failure_signal": "Learner says events are disjoint without checking overlap.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.overlap_subtraction_in_union.requires.union_and_intersection_events",
+        "from": "math.probability.compound.overlap_subtraction_in_union",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Subtracting overlap depends on distinguishing union from intersection.",
+        "failure_signal": "Learner double-counts the intersection when finding a union.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mutually_exclusive_addition_rule.requires.disjoint_events_from_diagram",
+        "from": "math.probability.compound.mutually_exclusive_addition_rule",
+        "to": "math.probability.compound.disjoint_events_from_diagram",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "The mutually exclusive addition rule applies when there is no overlap.",
+        "failure_signal": "Learner adds probabilities directly even when events overlap.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.non_mutually_exclusive_addition_rule.requires.overlap_subtraction_in_union",
+        "from": "math.probability.compound.non_mutually_exclusive_addition_rule",
+        "to": "math.probability.compound.overlap_subtraction_in_union",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The adjusted addition rule uses overlap subtraction.",
+        "failure_signal": "Learner adds both event probabilities without subtracting the intersection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.addition_rule_simple.requires.union_and_intersection_events",
+        "from": "math.probability.compound.addition_rule_simple",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Addition-rule reasoning starts from union and intersection meaning.",
+        "failure_signal": "Learner cannot tell which outcomes belong to A or B.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symbolic_union_intersection_notation.requires.union_and_intersection_events",
+        "from": "math.probability.compound.symbolic_union_intersection_notation",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Symbols formalise union and intersection ideas.",
+        "failure_signal": "Learner uses symbols without connecting them to regions or event words.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.de_morgan_language_intro.requires.event_complement_in_venn",
+        "from": "math.probability.compound.de_morgan_language_intro",
+        "to": "math.probability.compound.event_complement_in_venn",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Not-and and not-or language depends on complement regions.",
+        "failure_signal": "Learner shades the original event instead of its complement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4454
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4466
+  }
+}

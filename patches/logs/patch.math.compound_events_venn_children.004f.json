@@ -1,0 +1,228 @@
+{
+  "patch_id": "patch.math.compound_events_venn_children.004f",
+  "applied_at": "2026-06-29T02:50:30.506Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_complement_in_venn.part_of.two_way_tables",
+        "from": "math.probability.compound.event_complement_in_venn",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Complements in Venn diagrams belong here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.event_complement_in_venn",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.event_complement_in_venn",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Complements in Venn diagrams belong here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_overlap_region.part_of.two_way_tables",
+        "from": "math.probability.compound.venn_overlap_region",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Venn overlap is a core region.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.venn_overlap_region",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.venn_overlap_region",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Venn overlap is a core region.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_outside_region.part_of.two_way_tables",
+        "from": "math.probability.compound.venn_outside_region",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "The outside region is a core Venn region.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.venn_outside_region",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.venn_outside_region",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The outside region is a core Venn region.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.disjoint_events_from_diagram.part_of.two_way_tables",
+        "from": "math.probability.compound.disjoint_events_from_diagram",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Disjoint events can be read from diagrams.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.disjoint_events_from_diagram",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.disjoint_events_from_diagram",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Disjoint events can be read from diagrams.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_to_venn_conversion.part_of.two_way_tables",
+        "from": "math.probability.compound.table_to_venn_conversion",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Table-to-Venn translation belongs with representations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.table_to_venn_conversion",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.table_to_venn_conversion",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Table-to-Venn translation belongs with representations.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_to_table_conversion.part_of.two_way_tables",
+        "from": "math.probability.compound.venn_to_table_conversion",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Venn-to-table translation belongs with representations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.venn_to_table_conversion",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.venn_to_table_conversion",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Venn-to-table translation belongs with representations.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4381
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4393
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "patch_id": "patch.math.compound_events_addition_children.004g",
+  "applied_at": "2026-06-29T02:50:56.876Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.overlap_subtraction_in_union.part_of.two_way_tables",
+        "from": "math.probability.compound.overlap_subtraction_in_union",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Overlap subtraction belongs with union reasoning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.overlap_subtraction_in_union",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.overlap_subtraction_in_union",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Overlap subtraction belongs with union reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mutually_exclusive_addition_rule.part_of.two_way_tables",
+        "from": "math.probability.compound.mutually_exclusive_addition_rule",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Mutually exclusive addition belongs with union reasoning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.mutually_exclusive_addition_rule",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.mutually_exclusive_addition_rule",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Mutually exclusive addition belongs with union reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.non_mutually_exclusive_addition_rule.part_of.two_way_tables",
+        "from": "math.probability.compound.non_mutually_exclusive_addition_rule",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Adjusted addition belongs with union reasoning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.non_mutually_exclusive_addition_rule",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.non_mutually_exclusive_addition_rule",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Adjusted addition belongs with union reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.translate_words_to_union_intersection.part_of.two_way_tables",
+        "from": "math.probability.compound.translate_words_to_union_intersection",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Word-to-event translation belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.translate_words_to_union_intersection",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.translate_words_to_union_intersection",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Word-to-event translation belongs here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symbolic_union_intersection_notation.part_of.two_way_tables",
+        "from": "math.probability.compound.symbolic_union_intersection_notation",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Symbolic notation extends union and intersection work.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.symbolic_union_intersection_notation",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.symbolic_union_intersection_notation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Symbolic notation extends union and intersection work.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.de_morgan_language_intro.part_of.two_way_tables",
+        "from": "math.probability.compound.de_morgan_language_intro",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Not-and/not-or language extends Venn complement work.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.de_morgan_language_intro",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.de_morgan_language_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Not-and/not-or language extends Venn complement work.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4393
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4405
+  }
+}

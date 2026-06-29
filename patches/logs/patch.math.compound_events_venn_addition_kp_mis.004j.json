@@ -1,0 +1,240 @@
+{
+  "patch_id": "patch.math.compound_events_venn_addition_kp_mis.004j",
+  "applied_at": "2026-06-29T02:52:42.328Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 15,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_complement_in_venn.targets_knowledge_point.venn_regions_partition_space",
+        "from": "math.probability.compound.event_complement_in_venn",
+        "to": "math.kp.probability.venn_regions_partition_space",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_overlap_region.targets_knowledge_point.and_intersection_or_union",
+        "from": "math.probability.compound.venn_overlap_region",
+        "to": "math.kp.probability.and_intersection_or_union",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_overlap_region.targets_knowledge_point.venn_regions_partition_space",
+        "from": "math.probability.compound.venn_overlap_region",
+        "to": "math.kp.probability.venn_regions_partition_space",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_outside_region.targets_knowledge_point.venn_regions_partition_space",
+        "from": "math.probability.compound.venn_outside_region",
+        "to": "math.kp.probability.venn_regions_partition_space",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.disjoint_events_from_diagram.targets_knowledge_point.mutually_exclusive_no_overlap",
+        "from": "math.probability.compound.disjoint_events_from_diagram",
+        "to": "math.kp.probability.mutually_exclusive_no_overlap",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.disjoint_events_from_diagram.has_misconception.all_events_mutually_exclusive",
+        "from": "math.probability.compound.disjoint_events_from_diagram",
+        "to": "math.misconception.probability.all_events_mutually_exclusive",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.overlap_subtraction_in_union.targets_knowledge_point.union_overlap_subtract_once",
+        "from": "math.probability.compound.overlap_subtraction_in_union",
+        "to": "math.kp.probability.union_overlap_subtract_once",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.overlap_subtraction_in_union.has_misconception.double_count_overlap",
+        "from": "math.probability.compound.overlap_subtraction_in_union",
+        "to": "math.misconception.probability.double_count_overlap",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mutually_exclusive_addition_rule.targets_knowledge_point.mutually_exclusive_no_overlap",
+        "from": "math.probability.compound.mutually_exclusive_addition_rule",
+        "to": "math.kp.probability.mutually_exclusive_no_overlap",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.non_mutually_exclusive_addition_rule.targets_knowledge_point.union_overlap_subtract_once",
+        "from": "math.probability.compound.non_mutually_exclusive_addition_rule",
+        "to": "math.kp.probability.union_overlap_subtract_once",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.non_mutually_exclusive_addition_rule.has_misconception.double_count_overlap",
+        "from": "math.probability.compound.non_mutually_exclusive_addition_rule",
+        "to": "math.misconception.probability.double_count_overlap",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.translate_words_to_union_intersection.targets_knowledge_point.and_intersection_or_union",
+        "from": "math.probability.compound.translate_words_to_union_intersection",
+        "to": "math.kp.probability.and_intersection_or_union",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.translate_words_to_union_intersection.has_misconception.and_or_confused",
+        "from": "math.probability.compound.translate_words_to_union_intersection",
+        "to": "math.misconception.probability.and_or_confused",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.symbolic_union_intersection_notation.targets_knowledge_point.and_intersection_or_union",
+        "from": "math.probability.compound.symbolic_union_intersection_notation",
+        "to": "math.kp.probability.and_intersection_or_union",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.de_morgan_language_intro.targets_knowledge_point.venn_regions_partition_space",
+        "from": "math.probability.compound.de_morgan_language_intro",
+        "to": "math.kp.probability.venn_regions_partition_space",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4421
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4436
+  }
+}

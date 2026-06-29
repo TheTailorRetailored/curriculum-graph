@@ -1,0 +1,294 @@
+{
+  "patch_id": "patch.math.compound_events_independence_children.004i",
+  "applied_at": "2026-06-29T02:52:05.962Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 16,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sequential_events.part_of.independent_dependent_events",
+        "from": "math.probability.compound.sequential_events",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Sequential events underpin dependence work.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.sequential_events",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.sequential_events",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sequential events underpin dependence work.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.restricted_sample_space_intro.part_of.independent_dependent_events",
+        "from": "math.probability.compound.restricted_sample_space_intro",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Restricted spaces underpin dependence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.restricted_sample_space_intro",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.restricted_sample_space_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Restricted spaces underpin dependence.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_independent_dependent_contexts.part_of.independent_dependent_events",
+        "from": "math.probability.compound.compare_independent_dependent_contexts",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Context comparison belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.compare_independent_dependent_contexts",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.compare_independent_dependent_contexts",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Context comparison belongs here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_independence_from_data.part_of.independent_dependent_events",
+        "from": "math.probability.compound.check_independence_from_data",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Checking independence from data belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.check_independence_from_data",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.check_independence_from_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Checking independence from data belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.with_replacement_constant_probabilities.part_of.independent_dependent_events",
+        "from": "math.probability.compound.with_replacement_constant_probabilities",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "With-replacement stability belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.with_replacement_constant_probabilities",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.with_replacement_constant_probabilities",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "With-replacement stability belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.without_replacement_count_update.part_of.independent_dependent_events",
+        "from": "math.probability.compound.without_replacement_count_update",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Without-replacement count updates belong here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.without_replacement_count_update",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.without_replacement_count_update",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Without-replacement count updates belong here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dependence_from_changed_sample_space.part_of.independent_dependent_events",
+        "from": "math.probability.compound.dependence_from_changed_sample_space",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Changed sample spaces explain dependence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.dependence_from_changed_sample_space",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.dependence_from_changed_sample_space",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Changed sample spaces explain dependence.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independence_from_unchanged_probability.part_of.independent_dependent_events",
+        "from": "math.probability.compound.independence_from_unchanged_probability",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Unchanged probability explains independence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.independence_from_unchanged_probability",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.independence_from_unchanged_probability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Unchanged probability explains independence.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4405
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4421
+  }
+}

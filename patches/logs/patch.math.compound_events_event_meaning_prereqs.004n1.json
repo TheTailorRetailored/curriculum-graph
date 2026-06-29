@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.compound_events_event_meaning_prereqs.004n1",
+  "applied_at": "2026-06-29T02:55:35.000Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_events_meaning.requires.outcome_vs_event",
+        "from": "math.probability.compound.independent_events_meaning",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Independence compares probabilities of events.",
+        "failure_signal": "Learner talks about independence without identifying the events.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dependent_events_meaning.requires.outcome_vs_event",
+        "from": "math.probability.compound.dependent_events_meaning",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Dependence compares probabilities of events.",
+        "failure_signal": "Learner says events are dependent without identifying which probability changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4466
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4468
+  }
+}
