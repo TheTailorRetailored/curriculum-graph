@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.compound_events_compare_context_prereqs.004n4",
+  "applied_at": "2026-06-29T02:56:44.857Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_independent_dependent_contexts.requires.independent_events_meaning",
+        "from": "math.probability.compound.compare_independent_dependent_contexts",
+        "to": "math.probability.compound.independent_events_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing contexts requires understanding independence.",
+        "failure_signal": "Learner cannot identify a context where probability stays unchanged.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_independent_dependent_contexts.requires.dependent_events_meaning",
+        "from": "math.probability.compound.compare_independent_dependent_contexts",
+        "to": "math.probability.compound.dependent_events_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing contexts requires understanding dependence.",
+        "failure_signal": "Learner cannot identify a context where probability changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_independence_from_data.requires.compare_independent_dependent_contexts",
+        "from": "math.probability.compound.check_independence_from_data",
+        "to": "math.probability.compound.compare_independent_dependent_contexts",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Checking independence from data applies the independent/dependent contrast.",
+        "failure_signal": "Learner compares raw counts without asking whether probabilities changed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4468
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4471
+  }
+}
