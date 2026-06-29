@@ -1,0 +1,109 @@
+{
+  "patch_id": "patch.math.linear_relationships.curriculum_view_requires_cleanup.001",
+  "applied_at": "2026-06-28T00:54:29.556Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recognise_nonlinear_graphs.requires.graph_linear_rules",
+        "from": "math.algebra.linear.recognise_nonlinear_graphs",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising nonlinear graphs depends on contrasting changing-rate graphs with previously graphed linear rules.",
+        "failure_signal": "Learner treats any plotted relationship as linear or cannot use straight-line graphing as the contrast case.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_paired_data.requires.ordered_pairs",
+        "from": "math.statistics.bivariate.plot_paired_data",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Plotting paired numerical data depends on interpreting each pair as an ordered pair with distinct first and second coordinates.",
+        "failure_signal": "Learner swaps the two variables or plots paired values without preserving their order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplot_axes_scales.requires.read_axis_scale",
+        "from": "math.statistics.bivariate.scatterplot_axes_scales",
+        "to": "math.algebra.linear.read_axis_scale",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Choosing and reading scatterplot axes depends on reading axis scales accurately.",
+        "failure_signal": "Learner plots points using grid squares rather than the scale shown on each axis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.linear_functions_graphs.requires.coordinate_plane",
+      "rationale": "Replace broad curriculum-view prerequisite with learner-state dependencies such as graph_linear_rules requiring plotting points and table/rule graphing skills."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.gradient_intercept.requires.linear_functions_graphs",
+      "rationale": "Replace broad curriculum-view prerequisite with learner-state dependencies from gradient/intercept skills to graph_linear_rules, slope_intercept_form, and related concrete states."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.nonlinear_graphs.requires.linear_functions_graphs",
+      "rationale": "Replace broad curriculum-view prerequisite with recognise_nonlinear_graphs requiring graph_linear_rules as the concrete contrast skill."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.recognise_nonlinear.requires.linear_graphs",
+      "rationale": "Replace learner-state-to-curriculum-view prerequisite with recognise_nonlinear_graphs requiring graph_linear_rules."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.scatterplots.requires.coordinate_plane",
+      "rationale": "Replace broad scatterplot curriculum-view prerequisite with concrete learner-state prerequisites for plotting paired data and reading axis scales."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2593
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2596
+  }
+}

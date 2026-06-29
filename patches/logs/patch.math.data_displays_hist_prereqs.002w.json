@@ -1,0 +1,156 @@
+{
+  "patch_id": "patch.math.data_displays_hist_prereqs.002w",
+  "applied_at": "2026-06-28T23:50:51.592Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 7,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_width_choice.requires.grouped_intervals",
+        "from": "math.statistics.displays.interval_width_choice",
+        "to": "math.statistics.displays.grouped_intervals",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Choosing widths requires grouped intervals.",
+        "failure_signal": "Learner chooses bins without interval meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_boundary_inclusion.requires.grouped_intervals",
+        "from": "math.statistics.displays.interval_boundary_inclusion",
+        "to": "math.statistics.displays.grouped_intervals",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Boundary rules depend on interval meaning.",
+        "failure_signal": "Learner double-counts boundary values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_bin_height_frequency.requires.grouped_intervals",
+        "from": "math.statistics.displays.histogram_bin_height_frequency",
+        "to": "math.statistics.displays.grouped_intervals",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Bin height represents interval frequency.",
+        "failure_signal": "Learner reads bars as named categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_adjacent_bars.requires.grouped_intervals",
+        "from": "math.statistics.displays.histogram_adjacent_bars",
+        "to": "math.statistics.displays.grouped_intervals",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Touching bars reflect continuous intervals.",
+        "failure_signal": "Learner spaces histogram bars like categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_interpretation.requires.histogram_bin_height_frequency",
+        "from": "math.statistics.displays.histogram_interpretation",
+        "to": "math.statistics.displays.histogram_bin_height_frequency",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Histogram reading depends on bin frequencies.",
+        "failure_signal": "Learner sees shape but misses counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_histograms.requires.histogram_interpretation",
+        "from": "math.statistics.displays.construct_histograms",
+        "to": "math.statistics.displays.histogram_interpretation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Construction builds on interpretation.",
+        "failure_signal": "Learner draws bars without explaining them.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency_histogram_intro.requires.histogram_interpretation",
+        "from": "math.statistics.displays.relative_frequency_histogram_intro",
+        "to": "math.statistics.displays.histogram_interpretation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Relative frequency histograms extend histograms.",
+        "failure_signal": "Learner treats proportions as raw counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3873
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3880
+  }
+}

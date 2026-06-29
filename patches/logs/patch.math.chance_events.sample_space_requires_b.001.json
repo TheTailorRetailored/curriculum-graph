@@ -1,0 +1,120 @@
+{
+  "patch_id": "patch.math.chance_events.sample_space_requires_b.001",
+  "applied_at": "2026-06-28T12:46:03.726Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.list_outcomes.requires.outcome_event",
+        "from": "math.probability.chance.list_all_outcomes",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Listing all outcomes depends on distinguishing outcomes from events.",
+        "failure_signal": "Learner lists events or categories instead of possible outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.organised_sample_spaces.requires.list_outcomes",
+        "from": "math.probability.chance.organised_sample_spaces",
+        "to": "math.probability.chance.list_all_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Organised sample spaces depend on listing possible outcomes.",
+        "failure_signal": "Learner cannot organise outcomes systematically.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.systematic_listing.requires.organised_spaces",
+        "from": "math.probability.chance.systematic_outcome_listing",
+        "to": "math.probability.chance.organised_sample_spaces",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Systematic outcome listing depends on organised sample-space representations.",
+        "failure_signal": "Learner omits outcomes or lists duplicates.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_checks.requires.organised_spaces",
+        "from": "math.probability.chance.sample_space_checks",
+        "to": "math.probability.chance.organised_sample_spaces",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Checking sample spaces depends on an organised representation.",
+        "failure_signal": "Learner cannot detect missing or duplicated outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_completeness.requires.sample_checks",
+        "from": "math.probability.chance.sample_space_completeness_check",
+        "to": "math.probability.chance.sample_space_checks",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Completeness checking refines sample-space checking.",
+        "failure_signal": "Learner fails to identify a missing possible outcome.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3592
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3597
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.composite_choose_requires.001",
+  "applied_at": "2026-06-28T02:48:50.472Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_decomposition_strategy.requires.decompose_composite_figures",
+        "from": "math.measurement.area.choose_decomposition_strategy",
+        "to": "math.measurement.area.decompose_composite_figures",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Choosing a strategy depends on recognising possible decompositions into known shapes.",
+        "failure_signal": "Learner cannot decide whether to split, extend, or subtract regions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3018
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3019
+  }
+}

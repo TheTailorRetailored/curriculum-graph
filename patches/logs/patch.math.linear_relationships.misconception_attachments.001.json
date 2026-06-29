@@ -1,0 +1,240 @@
+{
+  "patch_id": "patch.math.linear_relationships.misconception_attachments.001",
+  "applied_at": "2026-06-28T00:50:52.325Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 15,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonproportional_linear_relationships.has_misconception.every_line_is_proportional",
+        "from": "math.algebra.linear.nonproportional_linear_relationships",
+        "to": "math.misconception.linear.every_line_is_proportional",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_from_graph_rise_run.has_misconception.gradient_is_height",
+        "from": "math.algebra.linear.gradient_from_graph_rise_run",
+        "to": "math.misconception.linear.gradient_is_height",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_from_graph_rise_run.has_misconception.run_over_rise_for_gradient",
+        "from": "math.algebra.linear.gradient_from_graph_rise_run",
+        "to": "math.misconception.linear.run_over_rise_for_gradient",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_formula_delta_y_delta_x.has_misconception.run_over_rise_for_gradient",
+        "from": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "to": "math.misconception.linear.run_over_rise_for_gradient",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.undefined_gradient_vertical_line.has_misconception.undefined_gradient_called_zero",
+        "from": "math.algebra.linear.undefined_gradient_vertical_line",
+        "to": "math.misconception.linear.undefined_gradient_called_zero",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_line_constant_input.has_misconception.undefined_gradient_called_zero",
+        "from": "math.algebra.linear.vertical_line_constant_input",
+        "to": "math.misconception.linear.undefined_gradient_called_zero",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_from_graph.has_misconception.intercepts_swapped",
+        "from": "math.algebra.linear.y_intercept_from_graph",
+        "to": "math.misconception.linear.intercepts_swapped",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_intercept_by_setting_y_zero.has_misconception.intercepts_swapped",
+        "from": "math.algebra.linear.x_intercept_by_setting_y_zero",
+        "to": "math.misconception.linear.intercepts_swapped",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_first_difference_tables.has_misconception.constant_difference_with_unequal_inputs",
+        "from": "math.algebra.linear.constant_first_difference_tables",
+        "to": "math.misconception.linear.constant_difference_with_unequal_inputs",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rate_of_change_tables.has_misconception.constant_difference_with_unequal_inputs",
+        "from": "math.algebra.linear.rate_of_change_tables",
+        "to": "math.misconception.linear.constant_difference_with_unequal_inputs",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_units_for_gradient.has_misconception.gradient_units_ignored",
+        "from": "math.algebra.linear.context_units_for_gradient",
+        "to": "math.misconception.linear.gradient_units_ignored",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolate_linear_model.has_misconception.extrapolation_always_reliable",
+        "from": "math.algebra.linear.extrapolate_linear_model",
+        "to": "math.misconception.linear.extrapolation_always_reliable",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_lines_same_gradient.has_misconception.parallel_lines_same_intercept",
+        "from": "math.algebra.linear.parallel_lines_same_gradient",
+        "to": "math.misconception.linear.parallel_lines_same_intercept",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recognise_nonlinear_graphs.has_misconception.curved_graphs_are_not_functions",
+        "from": "math.algebra.linear.recognise_nonlinear_graphs",
+        "to": "math.misconception.linear.curved_graphs_are_not_functions",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_graph_shape.has_misconception.curved_graphs_are_not_functions",
+        "from": "math.algebra.linear.quadratic_graph_shape",
+        "to": "math.misconception.linear.curved_graphs_are_not_functions",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2578
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2593
+  }
+}

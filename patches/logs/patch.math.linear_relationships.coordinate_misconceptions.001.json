@@ -1,0 +1,86 @@
+{
+  "patch_id": "patch.math.linear_relationships.coordinate_misconceptions.001",
+  "applied_at": "2026-06-28T00:39:22.163Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_pairs.has_misconception.reverse_ordered_pair",
+        "from": "math.algebra.linear.ordered_pairs",
+        "to": "math.misconception.linear.reverse_ordered_pair",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_pairs.has_misconception.ordered_pair_reversed",
+        "from": "math.algebra.linear.ordered_pairs",
+        "to": "math.misconception.linear.ordered_pair_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_axes.has_misconception.axes_are_interchangeable",
+        "from": "math.algebra.linear.coordinate_axes",
+        "to": "math.misconception.linear.axes_are_interchangeable",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_coordinate_horizontal_position.has_misconception.axes_are_interchangeable",
+        "from": "math.algebra.linear.x_coordinate_horizontal_position",
+        "to": "math.misconception.linear.axes_are_interchangeable",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2484
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2488
+  }
+}

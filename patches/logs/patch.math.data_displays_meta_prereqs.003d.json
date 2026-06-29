@@ -1,0 +1,138 @@
+{
+  "patch_id": "patch.math.data_displays_meta_prereqs.003d",
+  "applied_at": "2026-06-28T23:54:24.331Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_display_for_data_type.requires.categorical_vs_numerical_data",
+        "from": "math.statistics.displays.choose_display_for_data_type",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Display choice depends on data type.",
+        "failure_signal": "Learner chooses displays without identifying the data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_displays.requires.choose_display_for_data_type",
+        "from": "math.statistics.displays.compare_displays",
+        "to": "math.statistics.displays.choose_display_for_data_type",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Comparing displays builds on display choice.",
+        "failure_signal": "Learner compares displays without considering suitability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.truncated_axis_detection.requires.choose_graph_scale",
+        "from": "math.statistics.displays.truncated_axis_detection",
+        "to": "math.statistics.displays.choose_graph_scale",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Detecting truncation depends on scale reading.",
+        "failure_signal": "Learner misses that an axis starts away from zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.misleading_display_detection.requires.truncated_axis_detection",
+        "from": "math.statistics.displays.misleading_display_detection",
+        "to": "math.statistics.displays.truncated_axis_detection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Truncated axes are a common misleading display issue.",
+        "failure_signal": "Learner accepts a distorted display as fair.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.misleading_display_detection.requires.axes_titles_labels",
+        "from": "math.statistics.displays.misleading_display_detection",
+        "to": "math.statistics.displays.axes_titles_labels",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Misleading-display checks use labels and titles.",
+        "failure_signal": "Learner ignores missing context or units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_caption_for_display.requires.axes_titles_labels",
+        "from": "math.statistics.displays.context_caption_for_display",
+        "to": "math.statistics.displays.axes_titles_labels",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Captions build on graph labels and context.",
+        "failure_signal": "Learner writes a caption without naming variables.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3927
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3933
+  }
+}

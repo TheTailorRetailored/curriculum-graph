@@ -16,6 +16,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.senior.functions.exponential_logarithmic_functions
     type: topic
     subject: Mathematics
@@ -32,6 +33,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.senior.functions.trigonometric_functions
     type: topic
     subject: Mathematics
@@ -48,6 +50,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.senior.functions.input_output_notation
     type: topic
     subject: Mathematics
@@ -66,6 +69,19 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+      coverage_policy:
+        prerequisites_required: false
+        foundation_reason: Input-output function notation is the local foundation for
+          the Advanced Functions learner-state graph; downstream function,
+          domain/range, inverse, and transformation topics depend on it rather
+          than it depending on a more specific senior-functions prerequisite.
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
+      reason: Local foundation for senior Advanced Functions; downstream learner-state
+        nodes depend on input-output notation rather than this node needing a
+        more specific prerequisite inside the area.
+    role: learner_state
   - id: math.senior.functions.evaluate_functions
     type: topic
     subject: Mathematics
@@ -84,6 +100,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.domain_meaning
     type: topic
     subject: Mathematics
@@ -101,6 +118,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.range_meaning
     type: topic
     subject: Mathematics
@@ -118,6 +136,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.domain_restrictions
     type: topic
     subject: Mathematics
@@ -136,6 +155,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.range_from_graph
     type: topic
     subject: Mathematics
@@ -154,6 +174,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.function_composition_meaning
     type: topic
     subject: Mathematics
@@ -172,6 +193,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.evaluate_composite_functions
     type: topic
     subject: Mathematics
@@ -191,6 +213,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.composite_domain_restrictions
     type: topic
     subject: Mathematics
@@ -210,6 +233,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.inverse_relation_meaning
     type: topic
     subject: Mathematics
@@ -228,6 +252,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.inverse_function_notation
     type: topic
     subject: Mathematics
@@ -245,6 +270,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.horizontal_line_test
     type: topic
     subject: Mathematics
@@ -263,6 +289,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.restrict_domain_for_inverse
     type: topic
     subject: Mathematics
@@ -282,6 +309,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.piecewise_function_notation
     type: topic
     subject: Mathematics
@@ -300,6 +328,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.parent_function_families
     type: topic
     subject: Mathematics
@@ -317,6 +346,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.function_transformations
     type: topic
     subject: Mathematics
@@ -335,6 +365,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.compose_transformations
     type: topic
     subject: Mathematics
@@ -353,6 +384,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.senior.functions.function_assigns_outputs
     type: knowledge_point
     subject: Mathematics
@@ -530,6 +562,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_growth_decay
     type: topic
     subject: Mathematics
@@ -549,6 +582,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_graph_features
     type: topic
     subject: Mathematics
@@ -567,6 +601,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_transformations
     type: topic
     subject: Mathematics
@@ -585,6 +620,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_equations_common_base
     type: topic
     subject: Mathematics
@@ -604,6 +640,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.logarithm_meaning_inverse
     type: topic
     subject: Mathematics
@@ -622,6 +659,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.logarithm_laws
     type: topic
     subject: Mathematics
@@ -640,6 +678,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_equations_using_logs
     type: topic
     subject: Mathematics
@@ -658,6 +697,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.logarithmic_function_graphs
     type: topic
     subject: Mathematics
@@ -676,6 +716,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.logarithmic_transformations
     type: topic
     subject: Mathematics
@@ -694,6 +735,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.natural_exponential_function
     type: topic
     subject: Mathematics
@@ -712,6 +754,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.natural_log_function
     type: topic
     subject: Mathematics
@@ -730,6 +773,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exp_log_modelling
     type: topic
     subject: Mathematics
@@ -748,6 +792,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.senior.functions.exponential_constant_ratio
     type: knowledge_point
     subject: Mathematics
@@ -900,6 +945,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.unit_circle_coordinates
     type: topic
     subject: Mathematics
@@ -918,6 +964,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.sine_cosine_unit_circle
     type: topic
     subject: Mathematics
@@ -936,6 +983,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.trig_function_graphs
     type: topic
     subject: Mathematics
@@ -954,6 +1002,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.amplitude_period_midline
     type: topic
     subject: Mathematics
@@ -971,6 +1020,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.phase_shift
     type: topic
     subject: Mathematics
@@ -989,6 +1039,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.tangent_function_graph
     type: topic
     subject: Mathematics
@@ -1007,6 +1058,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.trig_transformations
     type: topic
     subject: Mathematics
@@ -1026,6 +1078,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.basic_trig_identities
     type: topic
     subject: Mathematics
@@ -1044,6 +1097,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.pythagorean_identity
     type: topic
     subject: Mathematics
@@ -1062,6 +1116,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.sum_difference_identities_intro
     type: topic
     subject: Mathematics
@@ -1080,6 +1135,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.basic_trig_equations
     type: topic
     subject: Mathematics
@@ -1098,6 +1154,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.general_trig_solutions
     type: topic
     subject: Mathematics
@@ -1116,6 +1173,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.inverse_trig_functions
     type: topic
     subject: Mathematics
@@ -1134,6 +1192,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.periodic_modelling
     type: topic
     subject: Mathematics
@@ -1152,6 +1211,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.senior.trig.radian_measure_arc_ratio
     type: knowledge_point
     subject: Mathematics
@@ -1318,6 +1378,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.evaluate_function_at_expression
     type: topic
     subject: Mathematics
@@ -1336,6 +1397,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.domain_from_denominator
     type: topic
     subject: Mathematics
@@ -1354,6 +1416,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.domain_from_even_root
     type: topic
     subject: Mathematics
@@ -1372,6 +1435,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.domain_from_log_argument
     type: topic
     subject: Mathematics
@@ -1390,6 +1454,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.interval_notation_domain
     type: topic
     subject: Mathematics
@@ -1409,6 +1474,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.range_from_turning_points
     type: topic
     subject: Mathematics
@@ -1427,6 +1493,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.range_from_asymptote
     type: topic
     subject: Mathematics
@@ -1445,6 +1512,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.compose_outer_inner_order
     type: topic
     subject: Mathematics
@@ -1463,6 +1531,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.composition_from_table
     type: topic
     subject: Mathematics
@@ -1480,6 +1549,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.composition_from_graph
     type: topic
     subject: Mathematics
@@ -1498,6 +1568,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.inverse_from_ordered_pairs
     type: topic
     subject: Mathematics
@@ -1515,6 +1586,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.inverse_graph_reflection
     type: topic
     subject: Mathematics
@@ -1533,6 +1605,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.algebraic_inverse_steps
     type: topic
     subject: Mathematics
@@ -1552,6 +1625,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.piecewise_boundary_values
     type: topic
     subject: Mathematics
@@ -1571,6 +1645,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.piecewise_graph_segments
     type: topic
     subject: Mathematics
@@ -1590,6 +1665,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.transformation_vertical_translation
     type: topic
     subject: Mathematics
@@ -1608,6 +1684,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.transformation_horizontal_translation
     type: topic
     subject: Mathematics
@@ -1626,6 +1703,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.transformation_reflection_axes
     type: topic
     subject: Mathematics
@@ -1644,6 +1722,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.transformation_stretches_compressions
     type: topic
     subject: Mathematics
@@ -1662,6 +1741,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.senior.functions.denominator_cannot_be_zero
     type: knowledge_point
     subject: Mathematics
@@ -1829,6 +1909,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_base_growth_factor
     type: topic
     subject: Mathematics
@@ -1847,6 +1928,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.percent_growth_decay_models
     type: topic
     subject: Mathematics
@@ -1865,6 +1947,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.doubling_time
     type: topic
     subject: Mathematics
@@ -1883,6 +1966,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.halving_time
     type: topic
     subject: Mathematics
@@ -1901,6 +1985,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_horizontal_asymptote
     type: topic
     subject: Mathematics
@@ -1919,6 +2004,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_domain_range
     type: topic
     subject: Mathematics
@@ -1937,6 +2023,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_vertical_shift_asymptote
     type: topic
     subject: Mathematics
@@ -1955,6 +2042,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.rewrite_to_common_base
     type: topic
     subject: Mathematics
@@ -1973,6 +2061,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.logarithmic_exponential_form_conversion
     type: topic
     subject: Mathematics
@@ -1991,6 +2080,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_base_argument_conditions
     type: topic
     subject: Mathematics
@@ -2010,6 +2100,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_product_law_applications
     type: topic
     subject: Mathematics
@@ -2028,6 +2119,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_quotient_law_applications
     type: topic
     subject: Mathematics
@@ -2046,6 +2138,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_power_law_applications
     type: topic
     subject: Mathematics
@@ -2064,6 +2157,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.change_of_base_formula
     type: topic
     subject: Mathematics
@@ -2082,6 +2176,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_graph_inverse_exponential
     type: topic
     subject: Mathematics
@@ -2102,6 +2197,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_vertical_asymptote_domain
     type: topic
     subject: Mathematics
@@ -2120,6 +2216,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.solve_exponential_equations_with_logs
     type: topic
     subject: Mathematics
@@ -2139,6 +2236,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.solve_log_equations_check_domain
     type: topic
     subject: Mathematics
@@ -2157,6 +2255,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.natural_base_e_meaning
     type: topic
     subject: Mathematics
@@ -2175,6 +2274,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.model_parameters_context
     type: topic
     subject: Mathematics
@@ -2193,6 +2293,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.senior.functions.growth_factor_is_multiplier
     type: knowledge_point
     subject: Mathematics
@@ -2360,6 +2461,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.arc_length_radian_formula
     type: topic
     subject: Mathematics
@@ -2378,6 +2480,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.coterminal_angles
     type: topic
     subject: Mathematics
@@ -2396,6 +2499,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.reference_angles
     type: topic
     subject: Mathematics
@@ -2414,6 +2518,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.quadrant_signs
     type: topic
     subject: Mathematics
@@ -2432,6 +2537,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.exact_unit_circle_values
     type: topic
     subject: Mathematics
@@ -2451,6 +2557,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.tangent_on_unit_circle
     type: topic
     subject: Mathematics
@@ -2469,6 +2576,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.sine_graph_key_points
     type: topic
     subject: Mathematics
@@ -2486,6 +2594,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.cosine_graph_key_points
     type: topic
     subject: Mathematics
@@ -2503,6 +2612,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.tangent_graph_asymptotes
     type: topic
     subject: Mathematics
@@ -2521,6 +2631,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.amplitude_from_coefficient
     type: topic
     subject: Mathematics
@@ -2539,6 +2650,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.period_from_coefficient
     type: topic
     subject: Mathematics
@@ -2557,6 +2669,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.midline_from_vertical_shift
     type: topic
     subject: Mathematics
@@ -2575,6 +2688,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.phase_shift_from_expression
     type: topic
     subject: Mathematics
@@ -2593,6 +2707,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.graph_sinusoid_from_parameters
     type: topic
     subject: Mathematics
@@ -2612,6 +2727,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.solve_trig_equations_on_interval
     type: topic
     subject: Mathematics
@@ -2629,6 +2745,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.general_solution_notation
     type: topic
     subject: Mathematics
@@ -2647,6 +2764,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.reciprocal_quotient_identities
     type: topic
     subject: Mathematics
@@ -2665,6 +2783,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.identity_proof_strategy
     type: topic
     subject: Mathematics
@@ -2683,6 +2802,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.inverse_trig_principal_values
     type: topic
     subject: Mathematics
@@ -2701,6 +2821,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.trig.sinusoidal_model_from_extrema
     type: topic
     subject: Mathematics
@@ -2719,6 +2840,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.senior.trig.pi_radians_equals_180_degrees
     type: knowledge_point
     subject: Mathematics
@@ -2883,6 +3005,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.y_intercept_as_initial_value
     type: topic
     subject: Mathematics
@@ -2901,6 +3024,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_argument_positive_check
     type: topic
     subject: Mathematics
@@ -2919,6 +3043,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_base_change_context
     type: topic
     subject: Mathematics
@@ -2937,6 +3062,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.log_equation_extraneous_solution_check
     type: topic
     subject: Mathematics
@@ -2955,6 +3081,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.exponential_equation_isolate_power
     type: topic
     subject: Mathematics
@@ -2973,6 +3100,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.solve_time_in_growth_model
     type: topic
     subject: Mathematics
@@ -2991,6 +3119,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.doubling_time_model
     type: topic
     subject: Mathematics
@@ -3009,6 +3138,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.half_life_model
     type: topic
     subject: Mathematics
@@ -3027,6 +3157,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.senior.functions.exp_log.asymptote_after_vertical_shift
     type: topic
     subject: Mathematics
@@ -3045,6 +3176,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.senior.functions.valid_exp_log_base_conditions
     type: knowledge_point
     subject: Mathematics

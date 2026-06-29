@@ -1,0 +1,79 @@
+{
+  "patch_id": "patch.math.chance_events.event_sample_kps_a.001",
+  "applied_at": "2026-06-28T12:33:06.164Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.event_descriptions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.event_must_be_clear",
+          "math.kp.probability.favourable_outcomes_define_event"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.clear_event_criteria",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.event_must_be_clear",
+          "math.kp.probability.favourable_outcomes_define_event"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.outcome_vs_event",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.event_may_have_multiple_outcomes",
+          "math.kp.probability.favourable_outcomes_define_event"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.single_outcome_vs_multiple_outcome_event",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.event_may_have_multiple_outcomes",
+          "math.kp.probability.trial_has_one_observed_outcome"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.favourable_outcomes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.favourable_outcomes_define_event"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3435
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3444
+  }
+}

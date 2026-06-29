@@ -1,0 +1,98 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.composite_figures_kps.001",
+  "applied_at": "2026-06-28T02:02:44.996Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 7
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.decompose_composite_figures",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.composite_area_parts"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.recombine_area_parts",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.composite_area_parts",
+          "math.kp.measurement.composite_area_needs_all_parts_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.subtract_missing_region",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.composite_area_parts",
+          "math.kp.measurement.composite_area_needs_all_parts_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.composite_figures_with_units",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.composite_area_parts",
+          "math.kp.measurement.length_area_units_distinct"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.area_problem_solving_contexts",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.composite_area_parts",
+          "math.kp.measurement.composite_area_needs_all_parts_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.choose_decomposition_strategy",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.composite_area_parts",
+          "math.kp.measurement.composite_area_needs_all_parts_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.track_partial_areas",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.composite_area_needs_all_parts_once"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2995
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3007
+  }
+}

@@ -1,0 +1,294 @@
+{
+  "patch_id": "patch.math.data_summaries_centre_context_children.003r",
+  "applied_at": "2026-06-29T00:49:45.751Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 16,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_measure_of_centre.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.choose_measure_of_centre",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Choosing centre belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.choose_measure_of_centre",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.choose_measure_of_centre",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing centre belongs here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.effect_of_outliers_on_centre.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Outliers affect centre choices.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.effect_of_outliers_on_centre",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Outliers affect centre choices.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_in_context.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.centre_in_context",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Centre interpretation needs context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.centre_in_context",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.centre_in_context",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Centre interpretation needs context.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.resistant_measure_intro.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.resistant_measure_intro",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Resistance refines centre choice.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.resistant_measure_intro",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.resistant_measure_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Resistance refines centre choice.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_resistant_to_outliers.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.median_resistant_to_outliers",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Median resistance supports centre choice.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.median_resistant_to_outliers",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.median_resistant_to_outliers",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Median resistance supports centre choice.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_sensitive_to_outliers_topic.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.mean_sensitive_to_outliers_topic",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Mean sensitivity supports centre choice.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.mean_sensitive_to_outliers_topic",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mean_sensitive_to_outliers_topic",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Mean sensitivity supports centre choice.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.summary_units.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.summary_units",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Units support summary interpretation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.summary_units",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.summary_units",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Units support summary interpretation.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_summary_statistics.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.rounding_summary_statistics",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Rounding supports summary reporting.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.rounding_summary_statistics",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.rounding_summary_statistics",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Rounding supports summary reporting.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4163
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4179
+  }
+}

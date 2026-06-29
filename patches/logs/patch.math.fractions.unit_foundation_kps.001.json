@@ -1,0 +1,72 @@
+{
+  "patch_id": "patch.math.fractions.unit_foundation_kps.001",
+  "applied_at": "2026-06-28T09:59:47.161Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.equal_parts_of_whole",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.equal_parts_must_be_same_size",
+          "math.kp.fractions.equal_parts_cover_the_whole"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.equal_parts_of_collection",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.collection_parts_are_equal_groups",
+          "math.kp.fractions.unit_fraction_of_collection_is_one_group"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.unit_fraction_area_models",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.unit_fraction_area_model_one_shaded_part",
+          "math.kp.fractions.area_model_denominator_counts_equal_parts",
+          "math.kp.fractions.area_model_whole_is_reference"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.unit_fraction_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.unit_fraction_numerator_is_one",
+          "math.kp.fractions.denominator_counts_equal_parts",
+          "math.kp.fractions.fraction_bar_separates_part_and_whole_counts"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3125
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3135
+  }
+}

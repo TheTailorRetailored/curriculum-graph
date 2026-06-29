@@ -1,0 +1,174 @@
+{
+  "patch_id": "patch.math.data_summaries_remaining_prereqs.004b",
+  "applied_at": "2026-06-29T01:06:19.867Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_ordered_data.requires.categorical_vs_numerical_data",
+        "from": "math.statistics.summaries.median_ordered_data",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Median summaries require recognising numerical data.",
+        "failure_signal": "Learner tries to find a median for category labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_most_frequent.requires.frequency_tables",
+        "from": "math.statistics.summaries.mode_most_frequent",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Mode uses frequency or repeated-count reasoning.",
+        "failure_signal": "Learner cannot identify which value occurs most often.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_as_spread.requires.categorical_vs_numerical_data",
+        "from": "math.statistics.summaries.range_as_spread",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Range is defined for numerical data values.",
+        "failure_signal": "Learner tries to compute range from category labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variability_in_repeated_data.requires.repeated_measurement_reliability",
+        "from": "math.statistics.summaries.variability_in_repeated_data",
+        "to": "math.statistics.data.repeated_measurement_reliability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Repeated-data variability builds on repeated measurement contexts.",
+        "failure_signal": "Learner treats every repeated value difference as error.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_total_sum.requires.categorical_vs_numerical_data",
+        "from": "math.statistics.summaries.mean_total_sum",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Mean totals use numerical data values.",
+        "failure_signal": "Learner adds category labels or codes as if they were quantities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_number_of_values.requires.frequency_tables",
+        "from": "math.statistics.summaries.mean_number_of_values",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Counting values for a mean uses frequency-count reasoning.",
+        "failure_signal": "Learner divides by categories rather than by observations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.summary_units.requires.measurement_unit_consistency",
+        "from": "math.statistics.summaries.summary_units",
+        "to": "math.statistics.data.measurement_unit_consistency",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Summary units depend on consistent measurement units.",
+        "failure_signal": "Learner reports a summary without units or with mixed units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_summary_statistics.requires.summary_units",
+        "from": "math.statistics.summaries.rounding_summary_statistics",
+        "to": "math.statistics.summaries.summary_units",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Rounding a summary depends on its units and context.",
+        "failure_signal": "Learner rounds to an inappropriate precision.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4353
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4361
+  }
+}

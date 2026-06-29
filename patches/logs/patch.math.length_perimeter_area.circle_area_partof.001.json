@@ -1,0 +1,44 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.circle_area_partof.001",
+  "applied_at": "2026-06-28T02:44:39.335Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_area_formula.part_of.circles",
+        "from": "math.measurement.circles.circle_area_formula",
+        "to": "math.measurement.area.circles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3010
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3011
+  }
+}

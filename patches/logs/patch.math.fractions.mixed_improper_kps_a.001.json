@@ -1,0 +1,74 @@
+{
+  "patch_id": "patch.math.fractions.mixed_improper_kps_a.001",
+  "applied_at": "2026-06-28T10:03:25.708Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.fractions_greater_than_one",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.one_whole_is_all_fraction_units",
+          "math.kp.fractions.more_units_than_one_whole_exceeds_one",
+          "math.kp.fractions.fractions_can_exceed_one"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.mixed_number_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.mixed_number_is_one_quantity",
+          "math.kp.fractions.mixed_number_whole_and_fraction",
+          "math.kp.fractions.mixed_fraction_part_less_than_one"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.improper_fraction_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.improper_fraction_counts_fraction_units",
+          "math.kp.fractions.improper_fraction_can_equal_one",
+          "math.kp.fractions.improper_numerator_at_least_denominator"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.convert_improper_to_mixed",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.improper_to_mixed_division_finds_wholes",
+          "math.kp.fractions.improper_to_mixed_remainder_is_fraction_part",
+          "math.kp.fractions.improper_and_mixed_forms_same_quantity"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3168
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3180
+  }
+}

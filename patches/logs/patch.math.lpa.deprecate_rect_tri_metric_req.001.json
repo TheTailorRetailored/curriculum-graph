@@ -1,0 +1,35 @@
+{
+  "patch_id": "patch.math.lpa.deprecate_rect_tri_metric_req.001",
+  "applied_at": "2026-06-28T03:11:56.787Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.area_rectangles_triangles.requires.metric_units",
+      "rationale": "Broad curriculum-view prerequisite replaced by learner-state structure."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3033
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3033
+  }
+}

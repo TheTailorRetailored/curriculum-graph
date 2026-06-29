@@ -1,0 +1,142 @@
+{
+  "patch_id": "patch.math.data_displays_leftover_kp_mis.002z",
+  "applied_at": "2026-06-28T23:52:20.410Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bar_height_as_frequency.targets_knowledge_point.bar_height_encodes_frequency",
+        "from": "math.statistics.displays.bar_height_as_frequency",
+        "to": "math.kp.statistics.bar_height_encodes_frequency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_leaf_key_interpretation.targets_knowledge_point.stem_leaf_key_sets_place_value",
+        "from": "math.statistics.displays.stem_leaf_key_interpretation",
+        "to": "math.kp.statistics.stem_leaf_key_sets_place_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_and_leaf_plots.targets_knowledge_point.stem_leaf_key_sets_place_value",
+        "from": "math.statistics.displays.stem_and_leaf_plots",
+        "to": "math.kp.statistics.stem_leaf_key_sets_place_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_leaf_key_interpretation.has_misconception.stem_leaf_leaf_is_decimal",
+        "from": "math.statistics.displays.stem_leaf_key_interpretation",
+        "to": "math.misconception.statistics.stem_leaf_leaf_is_decimal",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_and_leaf_plots.has_misconception.stem_leaf_leaf_is_decimal",
+        "from": "math.statistics.displays.stem_and_leaf_plots",
+        "to": "math.misconception.statistics.stem_leaf_leaf_is_decimal",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grouped_intervals.targets_knowledge_point.histograms_group_intervals",
+        "from": "math.statistics.displays.grouped_intervals",
+        "to": "math.kp.statistics.histograms_group_intervals",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_bin_height_frequency.targets_knowledge_point.histograms_group_intervals",
+        "from": "math.statistics.displays.histogram_bin_height_frequency",
+        "to": "math.kp.statistics.histograms_group_intervals",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_features.targets_knowledge_point.box_plots_use_five_number_summary",
+        "from": "math.statistics.displays.box_plot_features",
+        "to": "math.kp.statistics.box_plots_use_five_number_summary",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3895
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3903
+  }
+}

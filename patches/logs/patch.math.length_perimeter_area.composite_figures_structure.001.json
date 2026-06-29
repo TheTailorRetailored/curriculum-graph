@@ -1,0 +1,247 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.composite_figures_structure.001",
+  "applied_at": "2026-06-28T02:02:14.853Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 14,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_figures.encompasses.decompose_composite_figures",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.decompose_composite_figures",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Decomposing figures is central to composite-area reasoning.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decompose_composite_figures.part_of.composite_figures",
+        "from": "math.measurement.area.decompose_composite_figures",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_figures.encompasses.recombine_area_parts",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.recombine_area_parts",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Recombining component areas is central to composite-area reasoning.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recombine_area_parts.part_of.composite_figures",
+        "from": "math.measurement.area.recombine_area_parts",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_figures.encompasses.subtract_missing_region",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.subtract_missing_region",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Subtracting a missing region is a common composite-area strategy.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_missing_region.part_of.composite_figures",
+        "from": "math.measurement.area.subtract_missing_region",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_figures.encompasses.composite_figures_with_units",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.composite_figures_with_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tracking units belongs to composite-area problem solving.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_figures_with_units.part_of.composite_figures",
+        "from": "math.measurement.area.composite_figures_with_units",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_figures.encompasses.area_problem_solving_contexts",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.area_problem_solving_contexts",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Contextual area problems are a composite-area application learner-state.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_problem_solving_contexts.part_of.composite_figures",
+        "from": "math.measurement.area.area_problem_solving_contexts",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_figures.encompasses.choose_decomposition_strategy",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.choose_decomposition_strategy",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing a decomposition strategy is part of composite-area reasoning.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_decomposition_strategy.part_of.composite_figures",
+        "from": "math.measurement.area.choose_decomposition_strategy",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_figures.encompasses.track_partial_areas",
+        "from": "math.measurement.area.composite_figures",
+        "to": "math.measurement.area.track_partial_areas",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tracking partial areas is part of solving composite-area problems.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.track_partial_areas.part_of.composite_figures",
+        "from": "math.measurement.area.track_partial_areas",
+        "to": "math.measurement.area.composite_figures",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2981
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2995
+  }
+}

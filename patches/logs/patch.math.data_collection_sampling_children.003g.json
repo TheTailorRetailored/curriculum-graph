@@ -1,0 +1,558 @@
+{
+  "patch_id": "patch.math.data_collection_sampling_children.003g",
+  "applied_at": "2026-06-29T00:38:40.260Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 32,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.population_and_sample.part_of.sampling",
+        "from": "math.statistics.data.population_and_sample",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Population and sample are central.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.population_and_sample",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Population and sample are central.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.target_population.part_of.sampling",
+        "from": "math.statistics.data.target_population",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Target population belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.target_population",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.target_population",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Target population belongs here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_frame.part_of.sampling",
+        "from": "math.statistics.data.sampling_frame",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Sampling frame belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.sampling_frame",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.sampling_frame",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sampling frame belongs here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.census_vs_sample.part_of.sampling",
+        "from": "math.statistics.data.census_vs_sample",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Census/sample contrast belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.census_vs_sample",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.census_vs_sample",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Census/sample contrast belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size.part_of.sampling",
+        "from": "math.statistics.data.sample_size",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Sample size supports sampling.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.sample_size",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.sample_size",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Sample size supports sampling.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_sampling_intro.part_of.sampling",
+        "from": "math.statistics.data.random_sampling_intro",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Random sampling is central.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.random_sampling_intro",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.random_sampling_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Random sampling is central.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_random_sample_procedure.part_of.sampling",
+        "from": "math.statistics.data.simple_random_sample_procedure",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Simple random procedure belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.simple_random_sample_procedure",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.simple_random_sample_procedure",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Simple random procedure belongs here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.systematic_sampling_intro.part_of.sampling",
+        "from": "math.statistics.data.systematic_sampling_intro",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Systematic sampling belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.systematic_sampling_intro",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.systematic_sampling_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Systematic sampling belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stratified_sampling_intro.part_of.sampling",
+        "from": "math.statistics.data.stratified_sampling_intro",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Stratified sampling belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.stratified_sampling_intro",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.stratified_sampling_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Stratified sampling belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cluster_sampling_intro.part_of.sampling",
+        "from": "math.statistics.data.cluster_sampling_intro",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Cluster sampling belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.cluster_sampling_intro",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.cluster_sampling_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Cluster sampling belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.representative_samples.part_of.sampling",
+        "from": "math.statistics.data.representative_samples",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Representativeness is central.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.representative_samples",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.representative_samples",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Representativeness is central.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_bias.part_of.sampling",
+        "from": "math.statistics.data.sampling_bias",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Sampling bias is central.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.sampling_bias",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sampling bias is central.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convenience_sampling.part_of.sampling",
+        "from": "math.statistics.data.convenience_sampling",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Convenience sampling is a bias case.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.convenience_sampling",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.convenience_sampling",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Convenience sampling is a bias case.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.voluntary_response_sampling.part_of.sampling",
+        "from": "math.statistics.data.voluntary_response_sampling",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Voluntary response is a bias case.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.voluntary_response_sampling",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.voluntary_response_sampling",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Voluntary response is a bias case.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonresponse_bias.part_of.sampling",
+        "from": "math.statistics.data.nonresponse_bias",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Nonresponse is a sampling issue.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.nonresponse_bias",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.nonresponse_bias",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Nonresponse is a sampling issue.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.response_bias.part_of.sampling",
+        "from": "math.statistics.data.response_bias",
+        "to": "math.statistics.data.sampling",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Response bias affects sampled data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling.encompasses.response_bias",
+        "from": "math.statistics.data.sampling",
+        "to": "math.statistics.data.response_bias",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Response bias affects sampled data.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3963
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3995
+  }
+}

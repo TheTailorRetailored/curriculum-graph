@@ -1,0 +1,86 @@
+{
+  "patch_id": "patch.math.decimals_percentages.misconception_edges.001",
+  "applied_at": "2026-06-28T11:09:38.934Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_order_decimals.has_misconception.longer_decimal_larger",
+        "from": "math.decimals.compare_order_decimals",
+        "to": "math.misconception.decimals.longer_decimal_is_larger",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_point_place_value.has_misconception.decimal_digits_whole",
+        "from": "math.decimals.decimal_point_place_value",
+        "to": "math.misconception.decimals.decimal_digits_as_whole_number",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_subtract_decimals.has_misconception.align_rightmost_digits",
+        "from": "math.decimals.add_subtract_decimals",
+        "to": "math.misconception.decimals.align_rightmost_digits",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.percent_as_hundredths.has_misconception.percent_always_less",
+        "from": "math.percentages.percent_as_hundredths",
+        "to": "math.misconception.percentages.percent_always_less_than_whole",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3313
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3317
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "patch_id": "patch.math.ttm.explicit_topic_roles.001",
+  "applied_at": "2026-06-28T11:33:22.879Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 17
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.reading_clocks",
+      "updates": {
+        "role": "curriculum_view"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.elapsed_time",
+      "updates": {
+        "role": "curriculum_view"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.financial_calculations",
+      "updates": {
+        "role": "curriculum_view"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.analogue_clock_hour_hand",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.analogue_clock_minute_hand",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.digital_time_notation",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.am_pm_interpretation",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.twenty_four_hour_time",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.calendar_dates_weeks_months",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.elapsed_time_on_number_line",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.elapsed_time_across_hour",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.elapsed_time_across_midnight",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.timetable_intervals",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.unit_price_comparison",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.discount_calculations",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.profit_loss_calculations",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.simple_interest_calculations",
+      "updates": {
+        "role": "learner_state"
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/time_temperature_and_money.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3380
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3380
+  }
+}

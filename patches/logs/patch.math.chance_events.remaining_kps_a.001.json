@@ -1,0 +1,78 @@
+{
+  "patch_id": "patch.math.chance_events.remaining_kps_a.001",
+  "applied_at": "2026-06-28T12:35:31.758Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.equally_likely_outcomes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.equally_likely_is_not_automatic"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.non_equally_likely_outcomes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.equally_likely_is_not_automatic"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.bias_in_chance_devices",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.equally_likely_is_not_automatic",
+          "math.kp.probability.fair_game_equal_chances"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.event_complement_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.complement_is_not_event",
+          "math.kp.probability.event_may_have_multiple_outcomes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.complementary_event_language",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.complement_is_not_event",
+          "math.kp.probability.event_may_have_multiple_outcomes"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3476
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3484
+  }
+}

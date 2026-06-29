@@ -1,0 +1,228 @@
+{
+  "patch_id": "patch.math.data_collection_basic_prereqs.003l",
+  "applied_at": "2026-06-29T00:40:49.532Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 11,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sort_into_categories.requires.ask_counting_questions",
+        "from": "math.statistics.data.sort_into_categories",
+        "to": "math.statistics.data.ask_counting_questions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Sorting responses follows asking countable questions.",
+        "failure_signal": "Learner sorts items without knowing the question.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.category_labels.requires.sort_into_categories",
+        "from": "math.statistics.data.category_labels",
+        "to": "math.statistics.data.sort_into_categories",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Labels clarify sorted categories.",
+        "failure_signal": "Learner creates categories without clear meanings.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.categorical_vs_numerical_data.requires.category_labels",
+        "from": "math.statistics.data.categorical_vs_numerical_data",
+        "to": "math.statistics.data.category_labels",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Data-type distinction builds on category meaning.",
+        "failure_signal": "Learner treats labels as measurements.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.question_matches_data.requires.ask_counting_questions",
+        "from": "math.statistics.data.question_matches_data",
+        "to": "math.statistics.data.ask_counting_questions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Matching data to a question begins with the question.",
+        "failure_signal": "Learner collects data unrelated to the question.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.refine_statistical_questions.requires.question_matches_data",
+        "from": "math.statistics.data.refine_statistical_questions",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Refining questions builds on matching question and data.",
+        "failure_signal": "Learner improves wording without identifying needed data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_marks.requires.sort_into_categories",
+        "from": "math.statistics.data.tally_marks",
+        "to": "math.statistics.data.sort_into_categories",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Tallying requires categories or values to count.",
+        "failure_signal": "Learner makes tallies without a count target.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frequency_tables.requires.tally_marks",
+        "from": "math.statistics.data.frequency_tables",
+        "to": "math.statistics.data.tally_marks",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Frequency tables organise tallied counts.",
+        "failure_signal": "Learner lists counts without category structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_recording_protocol.requires.question_matches_data",
+        "from": "math.statistics.data.data_recording_protocol",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "A recording protocol depends on the question and data needed.",
+        "failure_signal": "Learner records inconsistent data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measurement_unit_consistency.requires.data_recording_protocol",
+        "from": "math.statistics.data.measurement_unit_consistency",
+        "to": "math.statistics.data.data_recording_protocol",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Unit consistency is part of the recording protocol.",
+        "failure_signal": "Learner mixes units or precision.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_measurement_data.requires.measurement_unit_consistency",
+        "from": "math.statistics.data.record_measurement_data",
+        "to": "math.statistics.data.measurement_unit_consistency",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Recording measurements requires consistent units.",
+        "failure_signal": "Learner records measurements that cannot be compared.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_cleaning_checks.requires.data_recording_protocol",
+        "from": "math.statistics.data.data_cleaning_checks",
+        "to": "math.statistics.data.data_recording_protocol",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Cleaning checks use the intended recording rules.",
+        "failure_signal": "Learner cannot spot impossible or inconsistent entries.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4070
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4081
+  }
+}

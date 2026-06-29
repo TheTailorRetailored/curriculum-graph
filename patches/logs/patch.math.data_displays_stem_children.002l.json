@@ -1,0 +1,129 @@
+{
+  "patch_id": "patch.math.data_displays_stem_children.002l",
+  "applied_at": "2026-06-28T14:12:29.092Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_and_leaf_plots.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.stem_and_leaf_plots",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Stem-and-leaf plots belong with later displays.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.stem_and_leaf_plots",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.stem_and_leaf_plots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Stem-and-leaf plots belong with later displays.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_leaf_key_interpretation.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.stem_leaf_key_interpretation",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "The key supports stem-and-leaf plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.stem_leaf_key_interpretation",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.stem_leaf_key_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The key supports stem-and-leaf plots.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_leaves.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.ordered_leaves",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Ordered leaves support stem-and-leaf plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.ordered_leaves",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.ordered_leaves",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Ordered leaves support stem-and-leaf plots.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3792
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3798
+  }
+}

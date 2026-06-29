@@ -1,0 +1,86 @@
+{
+  "patch_id": "patch.math.chance_events.misconceptions_a.001",
+  "applied_at": "2026-06-28T12:48:17.236Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.likely_unlikely.has_misconception.likely_certain",
+        "from": "math.probability.chance.likely_unlikely_language",
+        "to": "math.misconception.probability.likely_means_certain",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.possible_impossible.has_misconception.impossible_unlikely",
+        "from": "math.probability.chance.possible_impossible_events",
+        "to": "math.misconception.probability.impossible_vs_unlikely",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_observed.has_misconception.one_trial_proves",
+        "from": "math.probability.chance.compare_predicted_observed",
+        "to": "math.misconception.probability.one_trial_proves_likelihood",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_completeness.has_misconception.missing_outcomes",
+        "from": "math.probability.chance.sample_space_completeness_check",
+        "to": "math.misconception.probability.sample_space_missing_outcomes",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3606
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3610
+  }
+}

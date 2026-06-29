@@ -1,0 +1,49 @@
+{
+  "patch_id": "patch.math.equations_inequalities.simultaneous_kp_create.001",
+  "applied_at": "2026-06-28T00:01:57.028Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.simultaneous.same_line_has_infinitely_many_solutions",
+        "type": "knowledge_point",
+        "label": "Same line has infinitely many solutions",
+        "description": "Recognise that two equivalent linear equations represent the same line, so every point on that line satisfies both equations.",
+        "aliases": [],
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2382
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2382
+  }
+}

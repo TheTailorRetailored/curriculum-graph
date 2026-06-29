@@ -1,0 +1,70 @@
+{
+  "patch_id": "patch.math.fractions.unit_numberline_kps.001",
+  "applied_at": "2026-06-28T10:00:31.445Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.unit_fractions_on_number_line",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.number_line_unit_interval_partitioned_equally",
+          "math.kp.fractions.unit_fraction_point_is_one_part_from_zero"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.unit_fraction_size",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.larger_denominator_means_more_equal_parts",
+          "math.kp.fractions.more_equal_parts_make_smaller_unit"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.numerator_counts_parts",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.numerator_counts_selected_units",
+          "math.kp.fractions.numerator_counts_units"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.denominator_names_unit_size",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.denominator_names_unit",
+          "math.kp.fractions.denominator_counts_equal_parts"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3135
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3143
+  }
+}

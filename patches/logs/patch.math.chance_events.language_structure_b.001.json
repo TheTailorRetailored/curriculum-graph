@@ -1,0 +1,154 @@
+{
+  "patch_id": "patch.math.chance_events.language_structure_b.001",
+  "applied_at": "2026-06-28T12:37:40.045Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.continuum",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.chance_continuum",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "The chance continuum is part of chance language.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_continuum.part_of.chance_language",
+        "from": "math.probability.chance.chance_continuum",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.even_chance",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.even_chance_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Even chance language belongs to chance language.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.even_chance.part_of.chance_language",
+        "from": "math.probability.chance.even_chance_language",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.context_likelihood",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.context_dependent_likelihood",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Context-dependent likelihood refines chance language.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_likelihood.part_of.chance_language",
+        "from": "math.probability.chance.context_dependent_likelihood",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.fair_unfair",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.fair_unfair_situations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Fair/unfair chance situations apply chance language.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_unfair.part_of.chance_language",
+        "from": "math.probability.chance.fair_unfair_situations",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3504
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3512
+  }
+}

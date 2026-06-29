@@ -1,0 +1,457 @@
+{
+  "patch_id": "patch.math.bivariate.scatter_association_kps.001",
+  "applied_at": "2026-06-28T01:05:12.068Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 1,
+      "edges_created": 0,
+      "nodes_updated": 43
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.statistics.explanatory_response_roles_define_axes",
+        "type": "knowledge_point",
+        "subject": "Mathematics",
+        "strand": "Statistics",
+        "area": "Bivariate data and inference",
+        "label": "Explanatory and response roles define axes",
+        "description": "In a predictive bivariate context, the explanatory variable is the input-like variable placed on the x-axis and the response variable is the output-like variable placed on the y-axis.",
+        "aliases": [],
+        "year_band": "8-11",
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.paired_numerical_data",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.paired_data_preserve_cases"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.case_identifier_for_pairs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.paired_data_preserve_cases"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.variable_pairing_integrity",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.paired_data_preserve_cases"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.explanatory_response_variables",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.explanatory_response_roles_define_axes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.explanatory_response_roles_define_axes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.response_variable_on_y_axis",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.explanatory_response_roles_define_axes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.plot_paired_data",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.paired_data_preserve_cases",
+          "math.kp.statistics.scatterplots_show_pairs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.scatterplot_axes_scales",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.scatterplots_show_pairs",
+          "math.kp.linear.axis_scale_affects_reading"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.choose_scatterplot_scale",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.scatterplots_show_pairs",
+          "math.kp.linear.axis_scale_affects_reading"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.read_scatterplots",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.scatterplots_show_pairs",
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.scatterplot_point_as_case",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.paired_data_preserve_cases",
+          "math.kp.statistics.scatterplots_show_pairs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.overlapping_points_in_scatterplots",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.scatterplots_show_pairs"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.scatterplot_clusters_outliers",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.direction_of_association",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.positive_association_language",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.negative_association_language",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.no_association_language",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.form_of_association",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.linear_association_detection",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength",
+          "math.kp.statistics.correlation_summarises_linear_association"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.curved_association_detection",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength",
+          "math.kp.statistics.correlation_summarises_linear_association"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.strength_of_association",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.strong_vs_weak_association",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.outlier_influence_on_correlation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.association_has_direction_form_strength"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.correlation_coefficient_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.correlation_summarises_linear_association",
+          "math.kp.statistics.correlation_between_negative_one_and_one"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.correlation_sign_interpretation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.correlation_summarises_linear_association",
+          "math.kp.statistics.correlation_between_negative_one_and_one"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.correlation_magnitude_interpretation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.correlation_summarises_linear_association",
+          "math.kp.statistics.correlation_between_negative_one_and_one"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.correlation_requires_linear_context",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.correlation_summarises_linear_association"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.correlation_vs_causation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.correlation_not_causation",
+          "math.kp.statistics.causal_claims_need_design_evidence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.lurking_variable_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.correlation_not_causation",
+          "math.kp.statistics.causal_claims_need_design_evidence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.causal_claim_evidence_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.causal_claims_need_design_evidence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.line_of_best_fit_visual",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.line_of_best_fit_models_trend"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.draw_line_through_middle_of_points",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.line_of_best_fit_models_trend"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.balanced_residuals_visual",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.line_of_best_fit_models_trend",
+          "math.kp.statistics.residual_is_observed_minus_predicted"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.interpolation_within_data_range",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.line_of_best_fit_models_trend"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.extrapolation_beyond_data_range",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.extrapolation_less_reliable"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.line_of_best_fit_models_trend",
+          "math.kp.statistics.extrapolation_less_reliable"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.slope_units_in_context",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.slope_is_response_per_explanatory_unit"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.intercept_context_meaning",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.slope_is_response_per_explanatory_unit",
+          "math.kp.statistics.line_of_best_fit_models_trend"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.residuals_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.residual_is_observed_minus_predicted"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.residual_calculation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.residual_is_observed_minus_predicted"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.residual_sign_interpretation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.residual_is_observed_minus_predicted",
+          "math.kp.statistics.residual_sign_shows_over_under_prediction"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.residual_plot_pattern_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.residual_is_observed_minus_predicted",
+          "math.kp.statistics.residual_sign_shows_over_under_prediction"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.sample_context_for_bivariate_claims",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/bivariate_data_and_inference.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2662
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2722
+  }
+}

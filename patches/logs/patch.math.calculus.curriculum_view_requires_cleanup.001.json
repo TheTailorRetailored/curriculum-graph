@@ -1,0 +1,116 @@
+{
+  "patch_id": "patch.math.calculus.curriculum_view_requires_cleanup.001",
+  "applied_at": "2026-06-27T10:07:48.371Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.limits.requires.function_notation",
+      "rationale": "Limits and continuity is a curriculum_view lesson sequence and function notation is a curriculum_view course unit, so this broad unit-to-unit dependency should not be an active diagnostic requires edge."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.limit_notation.requires.function_notation",
+      "rationale": "Limit notation has a genuine prerequisite in basic function notation, but the target should be the specific learner_state node for input-output notation rather than the broad Function notation and composition curriculum_view."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.differentiation.requires.limits",
+      "rationale": "Differentiation is a curriculum_view course unit, so its broad sequencing relationship to limits and continuity should be represented as supports/pathway context, while precise diagnostic dependencies remain on learner-state children."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.integration.requires.differentiation",
+      "rationale": "Integration is a curriculum_view course unit, so its broad sequencing relationship to differentiation should be represented as supports/pathway context, while precise diagnostic dependencies remain on learner-state children."
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.function_notation.supports.limits_continuity",
+        "from": "math.senior.functions.function_notation",
+        "to": "math.senior.calculus.limits_continuity",
+        "type": "supports",
+        "confidence": "high",
+        "rationale": "Function notation, inputs, outputs and domains are useful background for limits and continuity, but the course-level relationship is sequencing context rather than a diagnostic prerequisite.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limit_notation.requires.input_output_notation",
+        "from": "math.senior.calculus.limit_notation",
+        "to": "math.senior.functions.input_output_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Limit notation is interpreted over f(x) and approaching input values, so learners need the specific input-output meaning of function notation rather than the whole function notation course unit.",
+        "failure_signal": "Learner treats the limit expression as a formula to evaluate without tracking the function output as the input approaches a value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_continuity.supports.differentiation",
+        "from": "math.senior.calculus.limits_continuity",
+        "to": "math.senior.calculus.differentiation",
+        "type": "supports",
+        "confidence": "high",
+        "rationale": "Limits and continuity are important course-level background for differentiation, while the diagnostic dependencies are represented on learner-state children such as first-principles derivatives and secant-to-tangent limits.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.differentiation.supports.integration",
+        "from": "math.senior.calculus.differentiation",
+        "to": "math.senior.calculus.integration",
+        "type": "supports",
+        "confidence": "high",
+        "rationale": "Differentiation is important course-level background for integration, especially antiderivatives and substitution, but specific diagnostic dependencies remain attached to learner-state integration topics.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2306
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2310
+  }
+}

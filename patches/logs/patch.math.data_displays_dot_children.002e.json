@@ -1,0 +1,195 @@
+{
+  "patch_id": "patch.math.data_displays_dot_children.002e",
+  "applied_at": "2026-06-28T14:08:41.031Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 10,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_dot_plots.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.make_dot_plots",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Making dot plots belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.make_dot_plots",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.make_dot_plots",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Making dot plots belongs here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dot_stack_frequency.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.dot_stack_frequency",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Dot stacks show repeated values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.dot_stack_frequency",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.dot_stack_frequency",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Dot stacks show repeated values.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dot_plot_value_axis.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.dot_plot_value_axis",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Dot plots need a value axis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.dot_plot_value_axis",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.dot_plot_value_axis",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Dot plots need a value axis.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clusters_gaps_outliers.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.clusters_gaps_outliers",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "These are dot plot features.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.clusters_gaps_outliers",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.clusters_gaps_outliers",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "These are dot plot features.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_of_distribution_intro.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.shape_of_distribution_intro",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Shape language builds from dot plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.shape_of_distribution_intro",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.shape_of_distribution_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Shape language builds from dot plots.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3749
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3759
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "patch_id": "patch.math.equations_inequalities.inequality_operations_kps.001",
+  "applied_at": "2026-06-27T23:58:17.215Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 3
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.inequalities.add_subtract_solve",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.inequalities.solution_set_many_values"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.inequalities.multiply_divide_positive",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.inequalities.solution_set_many_values"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.inequalities.multiply_divide_negative",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.inequalities.negative_multiplier_reverses_order",
+          "math.kp.inequalities.negative_multiply_reverses_symbol"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2374
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2378
+  }
+}

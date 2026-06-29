@@ -1,0 +1,100 @@
+{
+  "patch_id": "patch.math.fractions.foundation_misconceptions.001",
+  "applied_at": "2026-06-28T10:10:33.823Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equal_parts_whole.has_misconception.unequal_parts",
+        "from": "math.fractions.equal_parts_of_whole",
+        "to": "math.misconception.fractions.unequal_parts_are_fractions",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonunit_area.has_misconception.denominator_shaded",
+        "from": "math.fractions.non_unit_fraction_area_models",
+        "to": "math.misconception.fractions.denominator_counts_shaded_parts",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_fraction_size.has_misconception.large_denominator_large_fraction",
+        "from": "math.fractions.unit_fraction_size",
+        "to": "math.misconception.fractions.larger_denominator_larger_fraction",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_same_denominator.has_misconception.compare_parts_separately",
+        "from": "math.fractions.compare_same_denominator",
+        "to": "math.misconception.fractions.compare_numerator_denominator_separately",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equiv_scaling.has_misconception.equiv_changes_quantity",
+        "from": "math.fractions.equivalent_fraction_scaling",
+        "to": "math.misconception.fractions.equivalent_fractions_change_quantity",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3248
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3253
+  }
+}

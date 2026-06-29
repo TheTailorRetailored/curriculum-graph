@@ -1,0 +1,82 @@
+{
+  "patch_id": "patch.math.fractions.legacy_ops_kps.001",
+  "applied_at": "2026-06-28T10:08:34.977Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.same_denominator_fraction_addition",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.add_same_denominator_numerators",
+          "math.kp.fractions.keep_denominator_when_adding_same_units",
+          "math.kp.fractions.same_denominator_addition_common_units",
+          "math.kp.fractions.same_denominator_common_units",
+          "math.kp.fractions.add_subtract_fraction_units"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.multiply_fraction_by_whole_number",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.multiply_fraction_by_whole_repeated_groups",
+          "math.kp.fractions.multiply_numerator_by_whole_number",
+          "math.kp.fractions.denominator_keeps_unit_in_whole_number_multiplication",
+          "math.kp.fractions.fraction_times_whole_can_exceed_one",
+          "math.kp.fractions.multiply_fraction_by_whole_repeats_units"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.multiply_fraction_by_fraction",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.fraction_by_fraction_part_of_part",
+          "math.kp.fractions.multiply_numerators_and_denominators",
+          "math.kp.fractions.product_of_proper_fractions_can_be_smaller",
+          "math.kp.fractions.fraction_multiplication_area_intersection",
+          "math.kp.fractions.fraction_times_fraction_part_of_part"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.divide_fraction_by_whole_number",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.fraction_division_by_whole_splits_quantity",
+          "math.kp.fractions.dividing_fraction_by_whole_multiplies_denominator",
+          "math.kp.fractions.division_creates_smaller_equal_parts",
+          "math.kp.fractions.model_fraction_division_by_whole",
+          "math.kp.fractions.division_splits_fractional_quantity"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3240
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3245
+  }
+}

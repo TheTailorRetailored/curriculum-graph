@@ -16,6 +16,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.measurement.time.elapsed_time
     type: topic
     subject: Mathematics
@@ -32,6 +33,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.measurement.money.financial_calculations
     type: topic
     subject: Mathematics
@@ -49,6 +51,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.measurement.time.analogue_clock_hour_hand
     type: topic
     subject: Mathematics
@@ -63,10 +66,14 @@ nodes:
     grain_size: micro_topic
     foundational: true
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.analogue_hands_have_different_roles
     metadata:
       created_by: assistant
       review_status: ai_generated
+    prerequisite_policy:
+      requires_prerequisites: false
+    role: learner_state
   - id: math.measurement.time.analogue_clock_minute_hand
     type: topic
     subject: Mathematics
@@ -80,10 +87,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.analogue_hands_have_different_roles
+      - math.kp.measurement.sixty_minutes_in_hour
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.time.digital_time_notation
     type: topic
     subject: Mathematics
@@ -96,10 +106,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.sixty_minutes_in_hour
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.time.am_pm_interpretation
     type: topic
     subject: Mathematics
@@ -112,10 +124,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.am_pm_splits_day
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.time.twenty_four_hour_time
     type: topic
     subject: Mathematics
@@ -128,10 +142,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.am_pm_splits_day
+      - math.kp.measurement.sixty_minutes_in_hour
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.time.calendar_dates_weeks_months
     type: topic
     subject: Mathematics
@@ -145,10 +162,14 @@ nodes:
     grain_size: lesson_topic
     foundational: true
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.elapsed_time_is_difference
     metadata:
       created_by: assistant
       review_status: ai_generated
+    prerequisite_policy:
+      requires_prerequisites: false
+    role: learner_state
   - id: math.measurement.time.elapsed_time_on_number_line
     type: topic
     subject: Mathematics
@@ -162,10 +183,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.elapsed_time_is_difference
+      - math.kp.measurement.sixty_minutes_in_hour
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.time.elapsed_time_across_hour
     type: topic
     subject: Mathematics
@@ -178,10 +202,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.elapsed_time_is_difference
+      - math.kp.measurement.sixty_minutes_in_hour
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.time.elapsed_time_across_midnight
     type: topic
     subject: Mathematics
@@ -195,10 +222,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.elapsed_time_is_difference
+      - math.kp.measurement.am_pm_splits_day
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.time.timetable_intervals
     type: topic
     subject: Mathematics
@@ -211,10 +241,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.elapsed_time_is_difference
+      - math.kp.measurement.sixty_minutes_in_hour
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.money.unit_price_comparison
     type: topic
     subject: Mathematics
@@ -227,10 +260,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.unit_price_is_cost_per_one
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.money.discount_calculations
     type: topic
     subject: Mathematics
@@ -243,10 +278,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.percentages.percent_decrease_subtracts_percent_of_original
+      - math.kp.percentages.percent_of_quantity_uses_base
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.money.profit_loss_calculations
     type: topic
     subject: Mathematics
@@ -260,10 +298,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.percentages.percentage_change_uses_original
+      - math.kp.percentages.percent_of_quantity_uses_base
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.measurement.money.simple_interest_calculations
     type: topic
     subject: Mathematics
@@ -277,10 +318,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.simple_interest_uses_principal_rate_time
+      - math.kp.percentages.percent_as_decimal_multiplier
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.measurement.analogue_hands_have_different_roles
     type: knowledge_point
     subject: Mathematics

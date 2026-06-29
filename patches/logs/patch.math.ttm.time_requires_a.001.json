@@ -1,0 +1,113 @@
+{
+  "patch_id": "patch.math.ttm.time_requires_a.001",
+  "applied_at": "2026-06-28T11:27:52.206Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.analogue_clock_hour_hand",
+      "updates": {
+        "foundational": true,
+        "prerequisite_policy": {
+          "requires_prerequisites": false
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.minute_hand.requires.hour_hand",
+        "from": "math.measurement.time.analogue_clock_minute_hand",
+        "to": "math.measurement.time.analogue_clock_hour_hand",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Minute-hand reading builds on recognising analogue clock hands.",
+        "failure_signal": "Learner confuses the minute hand with the hour hand.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.digital_time.requires.minute_hand",
+        "from": "math.measurement.time.digital_time_notation",
+        "to": "math.measurement.time.analogue_clock_minute_hand",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Digital time notation depends on hours and minutes.",
+        "failure_signal": "Learner misreads the minutes field.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.am_pm.requires.digital_time",
+        "from": "math.measurement.time.am_pm_interpretation",
+        "to": "math.measurement.time.digital_time_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "AM/PM interpretation depends on reading clock notation.",
+        "failure_signal": "Learner reads the time but misses the half-day context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.twenty_four_hour.requires.am_pm",
+        "from": "math.measurement.time.twenty_four_hour_time",
+        "to": "math.measurement.time.am_pm_interpretation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Twenty-four-hour time depends on day-half interpretation.",
+        "failure_signal": "Learner cannot convert afternoon times correctly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/time_temperature_and_money.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3364
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3368
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "patch_id": "patch.math.equations_inequalities.simultaneous_atomic_kps_a.001",
+  "applied_at": "2026-06-28T00:02:39.095Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 3
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.simultaneous.check_ordered_pair_solution",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.simultaneous.ordered_pair_must_satisfy_both",
+          "math.kp.simultaneous.solution_satisfies_both"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.simultaneous.substitution_isolate_variable",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.literal_rearrangement_reverses_operations",
+          "math.kp.equations.inverse_operations_isolate_variable"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.simultaneous.substitution_equation_after_replace",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.simultaneous.solution_satisfies_both",
+          "math.kp.equations.simplify_before_solving"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2390
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2396
+  }
+}

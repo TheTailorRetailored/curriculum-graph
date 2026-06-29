@@ -1,0 +1,35 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.deprecate_composite_broad_requires.001",
+  "applied_at": "2026-06-28T02:49:55.790Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.composite_area.requires.rect_tri_area",
+      "rationale": "Composite figures is a curriculum_view container; its broad requires edge is replaced by specific learner-state prerequisite edge.decompose_composite_figures.requires.rectangle_area_formula."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3019
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3019
+  }
+}

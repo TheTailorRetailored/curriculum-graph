@@ -1,0 +1,45 @@
+{
+  "patch_id": "patch.math.fractions.deprecate_broad_requires_b.001",
+  "applied_at": "2026-06-28T10:14:43.148Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.fraction_operations.requires.equivalent_fractions",
+      "rationale": "Broad curriculum-view prerequisite replaced by learner-state prerequisites."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.decimal_place_value.requires.fractions",
+      "rationale": "Broad curriculum-view prerequisite should be retargeted to learner states in decimal cleanup."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.rational_coeff_requires.fraction_ops",
+      "rationale": "Broad curriculum-view prerequisite should be retargeted to learner states in equation cleanup."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3258
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3258
+  }
+}

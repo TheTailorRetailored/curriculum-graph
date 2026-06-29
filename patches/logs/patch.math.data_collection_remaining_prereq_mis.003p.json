@@ -1,0 +1,208 @@
+{
+  "patch_id": "patch.math.data_collection_remaining_prereq_mis.003p",
+  "applied_at": "2026-06-29T00:44:34.077Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 11,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_of_observation.requires.question_matches_data",
+        "from": "math.statistics.data.unit_of_observation",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "The observation unit is chosen to answer the question.",
+        "failure_signal": "Learner records rows without knowing what each row represents.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_of_interest.requires.question_matches_data",
+        "from": "math.statistics.data.variable_of_interest",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The variable is chosen from the question being asked.",
+        "failure_signal": "Learner collects an attribute that does not answer the question.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.response_bias.requires.survey_data_collection",
+        "from": "math.statistics.data.response_bias",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Response bias is mainly judged in survey contexts.",
+        "failure_signal": "Learner cannot connect biased answers to the collection method.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ethical_data_collection.requires.plan_data_investigation",
+        "from": "math.statistics.data.ethical_data_collection",
+        "to": "math.statistics.data.plan_data_investigation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Ethical choices depend on the planned collection method.",
+        "failure_signal": "Learner considers privacy or consent apart from the data plan.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_data_investigation.requires.variable_of_interest",
+        "from": "math.statistics.data.plan_data_investigation",
+        "to": "math.statistics.data.variable_of_interest",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Investigation planning identifies the variable to collect.",
+        "failure_signal": "Learner plans a method without naming the variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_data_investigation.requires.unit_of_observation",
+        "from": "math.statistics.data.plan_data_investigation",
+        "to": "math.statistics.data.unit_of_observation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Investigation planning identifies the unit recorded.",
+        "failure_signal": "Learner plans a data table without defining each record.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ethical_data_collection.targets_knowledge_point.data_collection_needs_consistency",
+        "from": "math.statistics.data.ethical_data_collection",
+        "to": "math.kp.statistics.data_collection_needs_consistency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.double_barrelled_question.has_misconception.survey_wording_has_no_effect",
+        "from": "math.statistics.data.double_barrelled_question",
+        "to": "math.misconception.statistics.survey_wording_has_no_effect",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ambiguous_response_options.has_misconception.overlapping_categories",
+        "from": "math.statistics.data.ambiguous_response_options",
+        "to": "math.misconception.statistics.overlapping_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balanced_response_scale.has_misconception.biased_wording_neutral",
+        "from": "math.statistics.data.balanced_response_scale",
+        "to": "math.misconception.statistics.biased_wording_neutral",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.anonymous_response_considerations.has_misconception.biased_wording_neutral",
+        "from": "math.statistics.data.anonymous_response_considerations",
+        "to": "math.misconception.statistics.biased_wording_neutral",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4128
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4139
+  }
+}

@@ -1,0 +1,793 @@
+{
+  "patch_id": "patch.math.bivariate.informal_inference_kps_prereqs.001",
+  "applied_at": "2026-06-28T01:15:42.432Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 29,
+      "nodes_updated": 24
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.interpret_slope_intercept_context",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.slope_is_response_per_explanatory_unit",
+          "math.kp.statistics.line_of_best_fit_models_trend"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.claim_population_identification",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claim_names_sample_population_measure"
+        ],
+        "foundational": true,
+        "prerequisite_policy": {
+          "requires_prerequisites": false,
+          "reason": "Local entry micro-state for informal inference: identifying the population named by a claim is prerequisite to later sample-to-population reasoning."
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.claim_sample_identification",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claim_names_sample_population_measure"
+        ],
+        "foundational": true,
+        "prerequisite_policy": {
+          "requires_prerequisites": false,
+          "reason": "Local entry micro-state for informal inference: identifying the sample in a claim is prerequisite to later sample-to-population reasoning."
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.sample_statistic_population_parameter",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.sample_statistic_estimates_population_parameter",
+          "math.kp.statistics.inference_claim_names_sample_population_measure"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.sample_to_population_claims",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty",
+          "math.kp.statistics.inference_claim_names_sample_population_measure"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.sampling_variability",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.samples_vary_naturally"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.sampling_variability_between_samples",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.samples_vary_naturally"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.sample_size_effect_on_uncertainty",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.samples_vary_naturally",
+          "math.kp.statistics.larger_samples_reduce_random_variation_not_bias"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.informal_confidence_language",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.informal_evidence_strength_language",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.margin_of_error_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.margin_of_error_as_plausible_range",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.compare_sample_groups",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.samples_vary_naturally",
+          "math.kp.statistics.inference_claims_need_uncertainty"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.group_difference_relative_to_variability",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.samples_vary_naturally",
+          "math.kp.statistics.inference_claims_need_uncertainty"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.inference_from_random_samples",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.random_samples_support_population_claims",
+          "math.kp.statistics.representative_samples_support_generalisation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.random_sample_condition_check",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.random_samples_support_population_claims",
+          "math.kp.statistics.representative_samples_support_generalisation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.representativeness_check_for_inference",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.representative_samples_support_generalisation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.nonrandom_sample_limitation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.representative_samples_support_generalisation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.generalisation_scope_from_sample",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.representative_samples_support_generalisation",
+          "math.kp.statistics.inference_claims_need_uncertainty"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.bias_threats_to_inference",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.representative_samples_support_generalisation",
+          "math.kp.statistics.larger_samples_reduce_random_variation_not_bias"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.limits_of_informal_inference",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty",
+          "math.kp.statistics.representative_samples_support_generalisation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.cautious_population_claim_wording",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty",
+          "math.kp.statistics.inference_claim_names_sample_population_measure"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.limitations_statement_for_inference",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty",
+          "math.kp.statistics.representative_samples_support_generalisation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.statistics.inference.supported_vs_unsupported_claim",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.statistics.inference_claims_need_uncertainty",
+          "math.kp.statistics.representative_samples_support_generalisation"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpret_slope_intercept_context.requires.line_of_best_fit_visual",
+        "from": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting slope and intercept in context depends on treating the fitted line as a model of the bivariate trend.",
+        "failure_signal": "Learner gives slope or intercept values without connecting them to the variables or context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpret_slope_intercept_context.requires.slope_units_in_context",
+        "from": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "to": "math.statistics.bivariate.slope_units_in_context",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Contextual interpretation of slope and intercept depends on interpreting slope units correctly.",
+        "failure_signal": "Learner describes a slope without response-per-explanatory units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpret_slope_intercept_context.requires.intercept_context_meaning",
+        "from": "math.statistics.bivariate.interpret_slope_intercept_context",
+        "to": "math.statistics.bivariate.intercept_context_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Contextual interpretation of a fitted line depends on understanding when the intercept is meaningful in context.",
+        "failure_signal": "Learner treats the intercept as a real context value even when zero on the explanatory variable is outside the relevant range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_statistic_population_parameter.requires.claim_sample_identification",
+        "from": "math.statistics.inference.sample_statistic_population_parameter",
+        "to": "math.statistics.inference.claim_sample_identification",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Distinguishing sample statistic from population parameter requires identifying the sample in the claim.",
+        "failure_signal": "Learner calls a sample summary a population value or cannot say what data the statistic came from.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_statistic_population_parameter.requires.claim_population_identification",
+        "from": "math.statistics.inference.sample_statistic_population_parameter",
+        "to": "math.statistics.inference.claim_population_identification",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Distinguishing sample statistic from population parameter requires identifying the population being estimated.",
+        "failure_signal": "Learner reports a parameter without naming the population it describes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_to_population_claims.requires.sample_statistic_population_parameter",
+        "from": "math.statistics.inference.sample_to_population_claims",
+        "to": "math.statistics.inference.sample_statistic_population_parameter",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "A sample-to-population claim depends on distinguishing the sample statistic from the population parameter it estimates.",
+        "failure_signal": "Learner makes a population claim directly from data without separating sample evidence from population target.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability.requires.sample_to_population_claims",
+        "from": "math.statistics.inference.sampling_variability",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Sampling variability is meaningful when using samples to make population claims.",
+        "failure_signal": "Learner expects repeated samples to give identical results or treats one sample as exact truth.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability_between_samples.requires.sampling_variability",
+        "from": "math.statistics.inference.sampling_variability_between_samples",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing sample-to-sample variation depends on the general idea that sample results vary naturally.",
+        "failure_signal": "Learner is surprised by different sample results and interprets all variation as error or bias.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size_effect_on_uncertainty.requires.sampling_variability",
+        "from": "math.statistics.inference.sample_size_effect_on_uncertainty",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reasoning about sample size and uncertainty depends on understanding sampling variability.",
+        "failure_signal": "Learner thinks larger samples remove all uncertainty or fix biased sampling.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.representativeness_check.requires.claim_sample_identification",
+        "from": "math.statistics.inference.representativeness_check_for_inference",
+        "to": "math.statistics.inference.claim_sample_identification",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Checking representativeness requires identifying which sample produced the evidence.",
+        "failure_signal": "Learner judges a claim without considering who or what was sampled.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_sample_condition_check.requires.representativeness_check",
+        "from": "math.statistics.inference.random_sample_condition_check",
+        "to": "math.statistics.inference.representativeness_check_for_inference",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Checking random-sample conditions refines the broader representativeness check for inference.",
+        "failure_signal": "Learner accepts a sample as representative without asking how it was selected.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference_from_random_samples.requires.random_sample_condition_check",
+        "from": "math.statistics.inference.inference_from_random_samples",
+        "to": "math.statistics.inference.random_sample_condition_check",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Inference from random samples requires checking that the sample selection supports population generalisation.",
+        "failure_signal": "Learner generalises from convenience or biased data as if it were random.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.inference_from_random_samples.requires.sampling_variability",
+        "from": "math.statistics.inference.inference_from_random_samples",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Inference from random samples must account for natural sample-to-sample variation.",
+        "failure_signal": "Learner treats a random-sample estimate as exact instead of uncertain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.generalisation_scope.requires.sample_to_population_claims",
+        "from": "math.statistics.inference.generalisation_scope_from_sample",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Determining generalisation scope depends on understanding the sample-to-population claim being made.",
+        "failure_signal": "Learner generalises beyond the population or context supported by the sample.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.generalisation_scope.requires.representativeness_check",
+        "from": "math.statistics.inference.generalisation_scope_from_sample",
+        "to": "math.statistics.inference.representativeness_check_for_inference",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Determining the scope of generalisation depends on whether the sample represents the target population.",
+        "failure_signal": "Learner makes broad claims from a narrow or biased sample.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bias_threats.requires.representativeness_check",
+        "from": "math.statistics.inference.bias_threats_to_inference",
+        "to": "math.statistics.inference.representativeness_check_for_inference",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising bias threats depends on checking whether the sample can represent the population.",
+        "failure_signal": "Learner explains uncertainty only as random variation and misses systematic sampling bias.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonrandom_sample_limitation.requires.bias_threats",
+        "from": "math.statistics.inference.nonrandom_sample_limitation",
+        "to": "math.statistics.inference.bias_threats_to_inference",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Explaining limitations of nonrandom samples depends on recognising possible bias threats.",
+        "failure_signal": "Learner treats nonrandom sample evidence as equally generalisable to random-sample evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_of_informal_inference.requires.bias_threats",
+        "from": "math.statistics.inference.limits_of_informal_inference",
+        "to": "math.statistics.inference.bias_threats_to_inference",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising limits of informal inference depends on identifying bias threats to the claim.",
+        "failure_signal": "Learner states a conclusion without qualifying sample limitations or selection issues.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limits_of_informal_inference.requires.sampling_variability",
+        "from": "math.statistics.inference.limits_of_informal_inference",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising limits of informal inference depends on understanding natural sampling variability.",
+        "failure_signal": "Learner treats one sample as definitive rather than uncertain evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_of_error_intro.requires.sampling_variability",
+        "from": "math.statistics.inference.margin_of_error_intro",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Margin of error summarises uncertainty due to sampling variability.",
+        "failure_signal": "Learner uses margin of error as a guarantee rather than an uncertainty interval around an estimate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_of_error_plausible_range.requires.margin_of_error_intro",
+        "from": "math.statistics.inference.margin_of_error_as_plausible_range",
+        "to": "math.statistics.inference.margin_of_error_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interpreting margin of error as a plausible range depends on the introductory margin-of-error idea.",
+        "failure_signal": "Learner says the true value must be inside the margin or treats the range as exact.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_confidence_language.requires.sampling_variability",
+        "from": "math.statistics.inference.informal_confidence_language",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Informal confidence language expresses uncertainty caused by sampling variability.",
+        "failure_signal": "Learner states conclusions absolutely instead of using cautious uncertainty language.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_evidence_strength_language.requires.informal_confidence_language",
+        "from": "math.statistics.inference.informal_evidence_strength_language",
+        "to": "math.statistics.inference.informal_confidence_language",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Evidence-strength language refines cautious informal confidence wording.",
+        "failure_signal": "Learner cannot distinguish weak, moderate, and strong support from sample evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cautious_population_claim_wording.requires.informal_confidence_language",
+        "from": "math.statistics.inference.cautious_population_claim_wording",
+        "to": "math.statistics.inference.informal_confidence_language",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Cautious population-claim wording depends on expressing uncertainty in informal inference.",
+        "failure_signal": "Learner states a sample-based population claim too absolutely.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_sample_groups.requires.sampling_variability",
+        "from": "math.statistics.inference.compare_sample_groups",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing sample groups depends on recognising that group sample summaries vary naturally.",
+        "failure_signal": "Learner treats any sample difference as a definite population difference.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.group_difference_relative_to_variability.requires.compare_sample_groups",
+        "from": "math.statistics.inference.group_difference_relative_to_variability",
+        "to": "math.statistics.inference.compare_sample_groups",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Judging a group difference relative to variability builds on comparing sample groups.",
+        "failure_signal": "Learner compares means or proportions without considering sample variability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limitations_statement.requires.limits_of_informal_inference",
+        "from": "math.statistics.inference.limitations_statement_for_inference",
+        "to": "math.statistics.inference.limits_of_informal_inference",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Writing a limitations statement depends on recognising the limits of informal inference.",
+        "failure_signal": "Learner gives a conclusion without naming uncertainty, bias, or scope limitations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.supported_vs_unsupported_claim.requires.generalisation_scope",
+        "from": "math.statistics.inference.supported_vs_unsupported_claim",
+        "to": "math.statistics.inference.generalisation_scope_from_sample",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Judging whether a claim is supported depends on whether the sample supports the stated generalisation scope.",
+        "failure_signal": "Learner accepts claims that go beyond the population or context sampled.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.supported_vs_unsupported_claim.requires.limitations_statement",
+        "from": "math.statistics.inference.supported_vs_unsupported_claim",
+        "to": "math.statistics.inference.limitations_statement_for_inference",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Judging support for a claim depends on articulating relevant limitations of the inference.",
+        "failure_signal": "Learner cannot explain why a sample supports, weakly supports, or fails to support a claim.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/bivariate_data_and_inference.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2768
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2835
+  }
+}

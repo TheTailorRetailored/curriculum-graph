@@ -1,0 +1,340 @@
+{
+  "patch_id": "patch.math.bivariate.initial_container_structure.001",
+  "applied_at": "2026-06-28T01:32:58.018Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 20,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.paired_numerical_data",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.paired_numerical_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Paired numerical data is the data structure underlying scatterplots.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.paired_numerical_data.part_of.scatterplots",
+        "from": "math.statistics.bivariate.paired_numerical_data",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.plot_paired_data",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.plot_paired_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Plotting paired data is a core learner-state within scatterplots.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_paired_data.part_of.scatterplots",
+        "from": "math.statistics.bivariate.plot_paired_data",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.scatterplot_axes_scales",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Axis and scale interpretation is part of scatterplot construction and reading.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplot_axes_scales.part_of.scatterplots",
+        "from": "math.statistics.bivariate.scatterplot_axes_scales",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplots.encompasses.read_scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading scatterplots is a core learner-state in the scatterplots sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scatterplots.part_of.scatterplots",
+        "from": "math.statistics.bivariate.read_scatterplots",
+        "to": "math.statistics.bivariate.scatterplots",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association_correlation.encompasses.direction_of_association",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Direction of association is a component of describing association.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direction_of_association.part_of.association_correlation",
+        "from": "math.statistics.bivariate.direction_of_association",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association_correlation.encompasses.form_of_association",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Form of association is a component of describing association.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.form_of_association.part_of.association_correlation",
+        "from": "math.statistics.bivariate.form_of_association",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association_correlation.encompasses.strength_of_association",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.strength_of_association",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Strength of association is a component of describing association.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.strength_of_association.part_of.association_correlation",
+        "from": "math.statistics.bivariate.strength_of_association",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.association_correlation.encompasses.correlation_coefficient_intro",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Correlation coefficient introduction belongs under association and correlation as a formal numerical description of association strength and direction.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_coefficient_intro.part_of.association_correlation",
+        "from": "math.statistics.bivariate.correlation_coefficient_intro",
+        "to": "math.statistics.bivariate.association_correlation",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_inference.encompasses.sample_to_population_claims",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sample-to-population claims are central to informal statistical inference.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_to_population_claims.part_of.informal_inference",
+        "from": "math.statistics.inference.sample_to_population_claims",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_inference.encompasses.sampling_variability",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sampling variability is central to informal statistical inference.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability.part_of.informal_inference",
+        "from": "math.statistics.inference.sampling_variability",
+        "to": "math.statistics.inference.informal_inference",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2861
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2881
+  }
+}

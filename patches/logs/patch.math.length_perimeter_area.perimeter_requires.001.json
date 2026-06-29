@@ -1,0 +1,174 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.perimeter_requires.001",
+  "applied_at": "2026-06-28T01:56:45.328Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measure_perimeter_with_units.requires.perimeter_as_boundary",
+        "from": "math.measurement.length.measure_perimeter_with_units",
+        "to": "math.measurement.length.perimeter_as_boundary",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Measuring perimeter with units depends on understanding perimeter as the length around a boundary.",
+        "failure_signal": "Learner measures area or interior coverage instead of the outside boundary length.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_polygon_perimeter.requires.measure_perimeter_with_units",
+        "from": "math.measurement.length.calculate_polygon_perimeter",
+        "to": "math.measurement.length.measure_perimeter_with_units",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Calculating polygon perimeter depends on measuring or identifying side lengths with compatible linear units.",
+        "failure_signal": "Learner adds numbers without attending to side lengths or units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_perimeter_formula.requires.calculate_polygon_perimeter",
+        "from": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The rectangle perimeter formula generalises adding all side lengths of a polygon.",
+        "failure_signal": "Learner memorises a formula but cannot connect it to summing the rectangle's side lengths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_perimeter_formula.requires.rectangle_perimeter_formula",
+        "from": "math.measurement.perimeter.square_perimeter_formula",
+        "to": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Square perimeter is a special case of rectangle perimeter where all side lengths are equal.",
+        "failure_signal": "Learner cannot explain why four equal sides can be represented as four times the side length.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_perimeter.requires.calculate_polygon_perimeter",
+        "from": "math.measurement.length.missing_side_perimeter",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Finding a missing side from perimeter depends on understanding total perimeter as the sum of side lengths.",
+        "failure_signal": "Learner subtracts or divides without relating the known sides to the total boundary length.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_equations.requires.rectangle_perimeter_formula",
+        "from": "math.measurement.perimeter.missing_side_equations",
+        "to": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Writing missing-side equations for perimeter depends on representing rectangle perimeter relationships algebraically.",
+        "failure_signal": "Learner cannot set up an equation that equates the perimeter to the sum of side lengths.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_polygon_perimeter.requires.calculate_polygon_perimeter",
+        "from": "math.measurement.length.composite_polygon_perimeter",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Composite polygon perimeter depends on summing boundary side lengths for simpler polygons.",
+        "failure_signal": "Learner adds interior segments or misses sides on the outer boundary.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outer_boundary_only.requires.composite_polygon_perimeter",
+        "from": "math.measurement.perimeter.outer_boundary_only",
+        "to": "math.measurement.length.composite_polygon_perimeter",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Outer-boundary-only reasoning refines composite perimeter by excluding shared or internal edges.",
+        "failure_signal": "Learner double-counts shared edges or includes internal cuts as perimeter.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2922
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2930
+  }
+}

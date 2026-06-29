@@ -1,0 +1,73 @@
+{
+  "patch_id": "patch.math.ratio_rate_proportion.ratio_core_kps.001",
+  "applied_at": "2026-06-28T11:47:59.743Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.ratio.ratio_language",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.ratio_compares_quantities",
+          "math.kp.ratio.ratio_order_matters"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.part_part_ratios",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.part_part_compares_two_parts",
+          "math.kp.ratio.part_part_total_not_named_directly",
+          "math.kp.ratio.part_part_order_matches_labels"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.part_whole_ratios",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.part_whole_compares_part_to_total",
+          "math.kp.ratio.whole_includes_all_parts",
+          "math.kp.ratio.part_whole_connects_to_fraction"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.ratio_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.colon_notation_separates_terms",
+          "math.kp.ratio.notation_preserves_quantity_order",
+          "math.kp.ratio.ratio_order_matters"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/ratio_rate_and_proportion.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3380
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3391
+  }
+}

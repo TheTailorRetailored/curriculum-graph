@@ -1,0 +1,131 @@
+{
+  "patch_id": "patch.math.chance_events.sample_space_requires_a.001",
+  "applied_at": "2026-06-28T12:45:27.600Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.event_descriptions",
+      "updates": {
+        "foundational": true,
+        "prerequisite_policy": {
+          "requires_prerequisites": false
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outcome_event.requires.event_descriptions",
+        "from": "math.probability.chance.outcome_vs_event",
+        "to": "math.probability.chance.event_descriptions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Distinguishing outcomes and events depends on clear event descriptions.",
+        "failure_signal": "Learner confuses a single outcome with an event description.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clear_event_criteria.requires.event_descriptions",
+        "from": "math.probability.chance.clear_event_criteria",
+        "to": "math.probability.chance.event_descriptions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Clear event criteria depend on describing the event precisely.",
+        "failure_signal": "Learner gives ambiguous event criteria.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.single_multi_event.requires.outcome_event",
+        "from": "math.probability.chance.single_outcome_vs_multiple_outcome_event",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Single- versus multiple-outcome events depend on distinguishing outcomes from events.",
+        "failure_signal": "Learner treats every event as a single outcome.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_outcomes.requires.outcome_event",
+        "from": "math.probability.chance.favourable_outcomes",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Favourable outcomes depend on identifying the event and its outcomes.",
+        "failure_signal": "Learner cannot decide which outcomes satisfy the event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_in_event.requires.favourable_outcomes",
+        "from": "math.probability.chance.favourable_outcomes_in_event",
+        "to": "math.probability.chance.favourable_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Favourable outcomes in an event extend basic favourable-outcome identification.",
+        "failure_signal": "Learner cannot select all outcomes satisfying the event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3587
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3592
+  }
+}

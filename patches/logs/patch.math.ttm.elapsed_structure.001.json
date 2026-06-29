@@ -1,0 +1,154 @@
+{
+  "patch_id": "patch.math.ttm.elapsed_structure.001",
+  "applied_at": "2026-06-28T11:25:17.076Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.encompasses.number_line",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.measurement.time.elapsed_time_on_number_line",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Number-line intervals are part of elapsed-time work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time_number_line.part_of.elapsed_time",
+        "from": "math.measurement.time.elapsed_time_on_number_line",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.encompasses.across_hour",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.measurement.time.elapsed_time_across_hour",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Crossing an hour is part of elapsed-time work.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time_across_hour.part_of.elapsed_time",
+        "from": "math.measurement.time.elapsed_time_across_hour",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.encompasses.midnight",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.measurement.time.elapsed_time_across_midnight",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Crossing midnight is part of elapsed-time work.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time_midnight.part_of.elapsed_time",
+        "from": "math.measurement.time.elapsed_time_across_midnight",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_time.encompasses.timetable",
+        "from": "math.measurement.time.elapsed_time",
+        "to": "math.measurement.time.timetable_intervals",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Timetable intervals apply elapsed-time reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.timetable_intervals.part_of.elapsed_time",
+        "from": "math.measurement.time.timetable_intervals",
+        "to": "math.measurement.time.elapsed_time",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3348
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3356
+  }
+}

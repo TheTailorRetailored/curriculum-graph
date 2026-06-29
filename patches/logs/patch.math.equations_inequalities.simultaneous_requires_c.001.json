@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.equations_inequalities.simultaneous_requires_c.001",
+  "applied_at": "2026-06-28T00:09:06.611Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_lines_no_solution.requires.simultaneous_graphical_method",
+        "from": "math.algebra.simultaneous.parallel_lines_no_solution",
+        "to": "math.algebra.equations.simultaneous_graphical_method",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Recognising no-solution parallel systems builds on interpreting simultaneous equations graphically.",
+        "failure_signal": "Learner does not connect parallel graphs with no shared ordered-pair solution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_line_infinite_solutions.requires.simultaneous_graphical_method",
+        "from": "math.algebra.simultaneous.same_line_infinite_solutions",
+        "to": "math.algebra.equations.simultaneous_graphical_method",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Recognising infinitely many solutions for the same line builds on graphical interpretation of systems.",
+        "failure_signal": "Learner expects one intersection even when both equations describe the same line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2430
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2432
+  }
+}

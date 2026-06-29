@@ -1,0 +1,79 @@
+{
+  "patch_id": "patch.math.ttm.elapsed_money_kps.001",
+  "applied_at": "2026-06-28T11:21:49.580Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.calendar_dates_weeks_months",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.elapsed_time_is_difference"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.elapsed_time_on_number_line",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.elapsed_time_is_difference",
+          "math.kp.measurement.sixty_minutes_in_hour"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.elapsed_time_across_hour",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.elapsed_time_is_difference",
+          "math.kp.measurement.sixty_minutes_in_hour"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.elapsed_time_across_midnight",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.elapsed_time_is_difference",
+          "math.kp.measurement.am_pm_splits_day"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.timetable_intervals",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.elapsed_time_is_difference",
+          "math.kp.measurement.sixty_minutes_in_hour"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/time_temperature_and_money.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3324
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3333
+  }
+}

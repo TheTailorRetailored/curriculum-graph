@@ -1,0 +1,156 @@
+{
+  "patch_id": "patch.math.data_displays_picture_bar_kp_mis.002s",
+  "applied_at": "2026-06-28T23:49:20.910Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 9,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.axes_titles_labels.targets_knowledge_point.graphs_need_labels",
+        "from": "math.statistics.displays.axes_titles_labels",
+        "to": "math.kp.statistics.graphs_need_labels",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_graph_scale.targets_knowledge_point.scale_controls_graph_reading",
+        "from": "math.statistics.displays.choose_graph_scale",
+        "to": "math.kp.statistics.scale_controls_graph_reading",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_graph_key_interpretation.targets_knowledge_point.picture_graph_key_matters",
+        "from": "math.statistics.displays.picture_graph_key_interpretation",
+        "to": "math.kp.statistics.picture_graph_key_matters",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bar_height_as_frequency.targets_knowledge_point.bar_height_shows_frequency",
+        "from": "math.statistics.displays.bar_height_as_frequency",
+        "to": "math.kp.statistics.bar_height_shows_frequency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_axis_scale_reading.targets_knowledge_point.scale_controls_graph_reading",
+        "from": "math.statistics.displays.vertical_axis_scale_reading",
+        "to": "math.kp.statistics.scale_controls_graph_reading",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_graph_key_interpretation.has_misconception.picture_symbol_always_one",
+        "from": "math.statistics.displays.picture_graph_key_interpretation",
+        "to": "math.misconception.statistics.picture_symbol_always_one",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_graph_scale.has_misconception.ignore_graph_scale",
+        "from": "math.statistics.displays.choose_graph_scale",
+        "to": "math.misconception.statistics.ignore_graph_scale",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_axis_scale_reading.has_misconception.bar_height_read_without_scale",
+        "from": "math.statistics.displays.vertical_axis_scale_reading",
+        "to": "math.misconception.statistics.bar_height_read_without_scale",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bar_height_as_frequency.has_misconception.bar_area_vs_height",
+        "from": "math.statistics.displays.bar_height_as_frequency",
+        "to": "math.misconception.statistics.bar_area_vs_height",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3848
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3857
+  }
+}

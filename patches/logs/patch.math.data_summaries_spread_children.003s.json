@@ -1,0 +1,558 @@
+{
+  "patch_id": "patch.math.data_summaries_spread_children.003s",
+  "applied_at": "2026-06-29T00:50:14.027Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 32,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_as_spread.part_of.spread_variability",
+        "from": "math.statistics.summaries.range_as_spread",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Range is an early spread measure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.range_as_spread",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.range_as_spread",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Range is an early spread measure.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_calculation.part_of.spread_variability",
+        "from": "math.statistics.summaries.range_calculation",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Range calculation supports spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.range_calculation",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.range_calculation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Range calculation supports spread.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.deviations_from_centre.part_of.spread_variability",
+        "from": "math.statistics.summaries.deviations_from_centre",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Deviations describe spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.deviations_from_centre",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.deviations_from_centre",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Deviations describe spread.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quartiles_intro.part_of.spread_variability",
+        "from": "math.statistics.summaries.quartiles_intro",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Quartiles support spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.quartiles_intro",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.quartiles_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Quartiles support spread.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.lower_upper_quartiles.part_of.spread_variability",
+        "from": "math.statistics.summaries.lower_upper_quartiles",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Quartiles support IQR.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.lower_upper_quartiles",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.lower_upper_quartiles",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Quartiles support IQR.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interquartile_range.part_of.spread_variability",
+        "from": "math.statistics.summaries.interquartile_range",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "IQR is a spread measure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.interquartile_range",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.interquartile_range",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "IQR is a spread measure.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.iqr_calculation.part_of.spread_variability",
+        "from": "math.statistics.summaries.iqr_calculation",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "IQR calculation supports spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.iqr_calculation",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.iqr_calculation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "IQR calculation supports spread.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.five_number_summary.part_of.spread_variability",
+        "from": "math.statistics.summaries.five_number_summary",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Five-number summary supports spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.five_number_summary",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.five_number_summary",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Five-number summary supports spread.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.five_number_summary_order.part_of.spread_variability",
+        "from": "math.statistics.summaries.five_number_summary_order",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Summary order supports five-number summaries.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.five_number_summary_order",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.five_number_summary_order",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Summary order supports five-number summaries.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outliers_using_context.part_of.spread_variability",
+        "from": "math.statistics.summaries.outliers_using_context",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Outliers are part of variation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.outliers_using_context",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.outliers_using_context",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Outliers are part of variation.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outlier_gap_detection.part_of.spread_variability",
+        "from": "math.statistics.summaries.outlier_gap_detection",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Gaps help detect outliers.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.outlier_gap_detection",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.outlier_gap_detection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Gaps help detect outliers.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.iqr_outlier_rule_intro.part_of.spread_variability",
+        "from": "math.statistics.summaries.iqr_outlier_rule_intro",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "IQR rule extends outlier work.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.iqr_outlier_rule_intro",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.iqr_outlier_rule_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "IQR rule extends outlier work.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variability_in_repeated_data.part_of.spread_variability",
+        "from": "math.statistics.summaries.variability_in_repeated_data",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Repeated-data variation belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.variability_in_repeated_data",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.variability_in_repeated_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Repeated-data variation belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_absolute_deviation_intro.part_of.spread_variability",
+        "from": "math.statistics.summaries.mean_absolute_deviation_intro",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "MAD measures variation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.mean_absolute_deviation_intro",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.mean_absolute_deviation_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "MAD measures variation.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variance_intro.part_of.spread_variability",
+        "from": "math.statistics.summaries.variance_intro",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Variance measures variation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.variance_intro",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.variance_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Variance measures variation.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.standard_deviation_intro.part_of.spread_variability",
+        "from": "math.statistics.summaries.standard_deviation_intro",
+        "to": "math.statistics.summaries.spread_variability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Standard deviation measures variation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.spread_variability.encompasses.standard_deviation_intro",
+        "from": "math.statistics.summaries.spread_variability",
+        "to": "math.statistics.summaries.standard_deviation_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Standard deviation measures variation.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4179
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4211
+  }
+}

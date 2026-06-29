@@ -1,0 +1,70 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.rectangle_area_kps.001",
+  "applied_at": "2026-06-28T01:59:10.301Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.area_as_covering",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.area_surface_coverage",
+          "math.kp.measurement.square_units_two_dimensional"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.array_model_area",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.rectangle_area_rows_columns",
+          "math.kp.measurement.square_units_two_dimensional"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.rectangle_area_formula",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.rectangle_area_rows_columns",
+          "math.kp.measurement.square_units_two_dimensional"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.square_area_formula",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.rectangle_area_rows_columns",
+          "math.kp.measurement.square_units_two_dimensional"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2954
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2962
+  }
+}

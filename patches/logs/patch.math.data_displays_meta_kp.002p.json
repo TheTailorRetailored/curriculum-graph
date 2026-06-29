@@ -1,0 +1,86 @@
+{
+  "patch_id": "patch.math.data_displays_meta_kp.002p",
+  "applied_at": "2026-06-28T23:48:20.580Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_display_for_data_type.targets_knowledge_point.display_choice_matches_data_type",
+        "from": "math.statistics.displays.choose_display_for_data_type",
+        "to": "math.kp.statistics.display_choice_matches_data_type",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_displays.targets_knowledge_point.same_data_can_have_multiple_displays",
+        "from": "math.statistics.displays.compare_displays",
+        "to": "math.kp.statistics.same_data_can_have_multiple_displays",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_caption_for_display.targets_knowledge_point.graphs_need_labels",
+        "from": "math.statistics.displays.context_caption_for_display",
+        "to": "math.kp.statistics.graphs_need_labels",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.display_center_spread_shape_language.targets_knowledge_point.distribution_shape_visual_pattern",
+        "from": "math.statistics.displays.display_center_spread_shape_language",
+        "to": "math.kp.statistics.distribution_shape_visual_pattern",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3820
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3824
+  }
+}

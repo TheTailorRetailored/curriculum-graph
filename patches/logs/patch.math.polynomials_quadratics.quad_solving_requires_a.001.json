@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.quad_solving_requires_a.001",
+  "applied_at": "2026-06-28T09:27:58.177Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.zero_product_property.requires.solve_factorisation",
+        "from": "math.algebra.quadratics.zero_product_property_step",
+        "to": "math.algebra.quadratics.solve_by_factorisation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Zero-product reasoning is part of solving by factorisation.",
+        "failure_signal": "Learner factors but does not set each factor equal to zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.roots_from_factored_form.requires.zero_product_property",
+        "from": "math.algebra.quadratics.roots_from_factored_form",
+        "to": "math.algebra.quadratics.zero_product_property_step",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Roots from factored form depend on the zero-product step.",
+        "failure_signal": "Learner reads factors but does not convert them to roots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_solving_method.requires.quadratic_formula",
+        "from": "math.algebra.quadratics.choose_solving_method",
+        "to": "math.algebra.quadratics.quadratic_formula",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Choosing a solving method depends on knowing general formula-based solving.",
+        "failure_signal": "Learner cannot decide when factoring is insufficient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3104
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3107
+  }
+}

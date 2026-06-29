@@ -1,0 +1,77 @@
+{
+  "patch_id": "patch.math.fractions.legacy_core_kps.001",
+  "applied_at": "2026-06-28T10:07:42.399Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.equal_parts_of_whole",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.equal_parts_must_be_same_size",
+          "math.kp.fractions.equal_parts_cover_the_whole",
+          "math.kp.fractions.whole_split_equal_parts",
+          "math.kp.fractions.same_whole_required"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.unit_fraction_area_models",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.unit_fraction_area_model_one_shaded_part",
+          "math.kp.fractions.area_model_denominator_counts_equal_parts",
+          "math.kp.fractions.area_model_whole_is_reference",
+          "math.kp.fractions.unit_fraction_one_part"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.unit_fraction_size",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.larger_denominator_means_more_equal_parts",
+          "math.kp.fractions.more_equal_parts_make_smaller_unit",
+          "math.kp.fractions.larger_denominator_smaller_unit"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.compare_mixed_and_improper",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.compare_mixed_improper_by_common_form",
+          "math.kp.fractions.compare_mixed_improper_by_quantity_not_notation",
+          "math.kp.fractions.equivalent_mixed_improper_forms_compare_equal",
+          "math.kp.fractions.mixed_improper_equivalent"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3235
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3240
+  }
+}

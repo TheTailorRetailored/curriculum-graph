@@ -1,0 +1,62 @@
+{
+  "patch_id": "patch.math.decimals_percentages.decimal_operations_kps.001",
+  "applied_at": "2026-06-28T11:06:36.739Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 3
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.decimals.add_subtract_decimals",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.decimals.align_decimal_points_for_addition_subtraction",
+          "math.kp.decimals.regroup_decimal_place_values",
+          "math.kp.decimals.align_like_place_values"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.decimals.multiply_decimal_by_whole_number",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.decimals.multiply_decimal_by_whole_as_repeated_groups",
+          "math.kp.decimals.estimate_decimal_product_magnitude",
+          "math.kp.decimals.place_value_tracks_decimal_product"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.decimals.divide_decimal_by_whole_number",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.decimals.divide_decimal_by_whole_as_equal_sharing",
+          "math.kp.decimals.regroup_decimal_units_when_dividing"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3284
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3292
+  }
+}

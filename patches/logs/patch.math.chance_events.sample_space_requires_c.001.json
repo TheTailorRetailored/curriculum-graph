@@ -1,0 +1,120 @@
+{
+  "patch_id": "patch.math.chance_events.sample_space_requires_c.001",
+  "applied_at": "2026-06-28T12:46:42.830Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely.requires.sample_checks",
+        "from": "math.probability.chance.equally_likely_outcomes",
+        "to": "math.probability.chance.sample_space_checks",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Equally-likely judgments depend on checking the outcome space.",
+        "failure_signal": "Learner assumes all listed outcomes are equally likely.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.non_equally_likely.requires.equally_likely",
+        "from": "math.probability.chance.non_equally_likely_outcomes",
+        "to": "math.probability.chance.equally_likely_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Non-equally likely outcomes are contrasted with equally likely outcomes.",
+        "failure_signal": "Learner treats nonuniform outcomes as equally likely.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bias_devices.requires.non_equally_likely",
+        "from": "math.probability.chance.bias_in_chance_devices",
+        "to": "math.probability.chance.non_equally_likely_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Bias in chance devices depends on recognising non-equally likely outcomes.",
+        "failure_signal": "Learner assumes a biased device remains fair.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.table_sample_space.requires.systematic_listing",
+        "from": "math.probability.chance.table_sample_space_two_step",
+        "to": "math.probability.chance.systematic_outcome_listing",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Two-step sample-space tables depend on systematic outcome listing.",
+        "failure_signal": "Learner misses combinations in a two-step situation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outcome_tree.requires.systematic_listing",
+        "from": "math.probability.chance.outcome_tree_intro",
+        "to": "math.probability.chance.systematic_outcome_listing",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Outcome trees depend on systematic listing of branching outcomes.",
+        "failure_signal": "Learner omits or duplicates branches in the tree.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3597
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3602
+  }
+}

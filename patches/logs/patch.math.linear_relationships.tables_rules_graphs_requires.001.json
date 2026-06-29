@@ -1,0 +1,138 @@
+{
+  "patch_id": "patch.math.linear_relationships.tables_rules_graphs_requires.001",
+  "applied_at": "2026-06-28T00:40:34.509Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_first_difference_tables.requires.input_output_tables",
+        "from": "math.algebra.linear.constant_first_difference_tables",
+        "to": "math.algebra.linear.input_output_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Detecting constant first differences requires reading input-output tables accurately.",
+        "failure_signal": "Learner compares output values without attending to the input order or spacing.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_values_in_linear_tables.requires.constant_first_difference_tables",
+        "from": "math.algebra.linear.missing_values_in_linear_tables",
+        "to": "math.algebra.linear.constant_first_difference_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Finding missing values in linear tables depends on recognising the constant difference or rate pattern.",
+        "failure_signal": "Learner fills missing entries by guessing rather than preserving the linear pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rule_from_two_table_rows.requires.constant_first_difference_tables",
+        "from": "math.algebra.linear.rule_from_two_table_rows",
+        "to": "math.algebra.linear.constant_first_difference_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Writing a rule from table rows depends on identifying the constant rate of change in the table.",
+        "failure_signal": "Learner writes a rule that fits one row but not the constant change across rows.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_rules_from_tables.requires.rule_from_two_table_rows",
+        "from": "math.algebra.linear.linear_rules_from_tables",
+        "to": "math.algebra.linear.rule_from_two_table_rows",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Finding linear rules from tables builds on using table rows to identify the rule structure.",
+        "failure_signal": "Learner can extend a table but cannot express the relationship as a rule.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_linear_rules.requires.linear_rules_from_tables",
+        "from": "math.algebra.linear.graph_linear_rules",
+        "to": "math.algebra.linear.linear_rules_from_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Graphing a linear rule depends on converting the rule into ordered pairs or table values.",
+        "failure_signal": "Learner has a rule but cannot generate graphable points from it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_table_graph_equation.requires.graph_linear_rules",
+        "from": "math.algebra.linear.compare_table_graph_equation",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing tables, graphs, and equations depends on being able to graph linear rules.",
+        "failure_signal": "Learner cannot identify the same relationship across table, graph, and equation forms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2507
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2513
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "patch_id": "patch.math.chance_events.sample_space_structure_b.001",
+  "applied_at": "2026-06-28T12:40:52.510Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 10,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.equally_likely",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.equally_likely_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Equally likely outcomes are judged against a sample space.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely.part_of.sample_spaces",
+        "from": "math.probability.chance.equally_likely_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.favourable_outcomes",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.favourable_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Favourable outcomes are defined within a sample space.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_outcomes.part_of.sample_spaces",
+        "from": "math.probability.chance.favourable_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.event_complement",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.event_complement_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Event complements are defined within a sample space.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_complement.part_of.sample_spaces",
+        "from": "math.probability.chance.event_complement_intro",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.mutually_exclusive",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.mutually_exclusive_simple_events",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Mutually exclusive events are described using outcome sets.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mutually_exclusive.part_of.sample_spaces",
+        "from": "math.probability.chance.mutually_exclusive_simple_events",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.two_step_table",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.table_sample_space_two_step",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Two-step tables organise sample spaces.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_step_table.part_of.sample_spaces",
+        "from": "math.probability.chance.table_sample_space_two_step",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3546
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3556
+  }
+}

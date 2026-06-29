@@ -1,0 +1,175 @@
+{
+  "patch_id": "patch.math.data_displays_remaining_structure.003b",
+  "applied_at": "2026-06-28T23:53:06.719Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 10,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.truncated_axis_detection.part_of.data_displays",
+        "from": "math.statistics.displays.truncated_axis_detection",
+        "to": "math.area.data_displays",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Truncated axes are cross-display checks.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_displays.encompasses.truncated_axis_detection",
+        "from": "math.area.data_displays",
+        "to": "math.statistics.displays.truncated_axis_detection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Truncated axes are cross-display checks.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.truncated_axis_detection.targets_knowledge_point.scale_controls_graph_reading",
+        "from": "math.statistics.displays.truncated_axis_detection",
+        "to": "math.kp.statistics.scale_controls_graph_reading",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.misleading_display_detection.targets_knowledge_point.scale_controls_graph_reading",
+        "from": "math.statistics.displays.misleading_display_detection",
+        "to": "math.kp.statistics.scale_controls_graph_reading",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_for_measurement_data.targets_knowledge_point.dot_represents_data_value",
+        "from": "math.statistics.displays.line_plots_for_measurement_data",
+        "to": "math.kp.statistics.dot_represents_data_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plot_fraction_measurements.targets_knowledge_point.dot_represents_data_value",
+        "from": "math.statistics.displays.line_plot_fraction_measurements",
+        "to": "math.kp.statistics.dot_represents_data_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_histograms.targets_knowledge_point.histograms_group_intervals",
+        "from": "math.statistics.displays.construct_histograms",
+        "to": "math.kp.statistics.histograms_group_intervals",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_box_plots.targets_knowledge_point.box_plots_use_five_number_summary",
+        "from": "math.statistics.displays.construct_box_plots",
+        "to": "math.kp.statistics.box_plots_use_five_number_summary",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_median_quartiles.targets_knowledge_point.box_plot_compares_median_iqr_range",
+        "from": "math.statistics.displays.box_plot_median_quartiles",
+        "to": "math.kp.statistics.box_plot_compares_median_iqr_range",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_whiskers_range.targets_knowledge_point.box_plot_compares_median_iqr_range",
+        "from": "math.statistics.displays.box_plot_whiskers_range",
+        "to": "math.kp.statistics.box_plot_compares_median_iqr_range",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3911
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3921
+  }
+}

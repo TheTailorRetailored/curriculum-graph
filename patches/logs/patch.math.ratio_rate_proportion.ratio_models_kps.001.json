@@ -1,0 +1,70 @@
+{
+  "patch_id": "patch.math.ratio_rate_proportion.ratio_models_kps.001",
+  "applied_at": "2026-06-28T11:48:42.416Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.ratio.equivalent_ratios",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.equivalent_ratios_preserve_relationship",
+          "math.kp.ratio.scale_factor_preserves_ratio"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.ratio_tables",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.ratio_tables_show_pairs",
+          "math.kp.ratio.equivalent_ratios_preserve_relationship"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.double_number_lines",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.double_number_lines_align_quantities",
+          "math.kp.ratio.equivalent_ratios_preserve_relationship"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.scale_factor_in_ratios",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.scale_factor_preserves_ratio",
+          "math.kp.ratio.equivalent_ratios_preserve_relationship"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/ratio_rate_and_proportion.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3391
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3399
+  }
+}

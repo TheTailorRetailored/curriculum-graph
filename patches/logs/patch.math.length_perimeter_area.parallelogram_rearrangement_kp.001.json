@@ -1,0 +1,40 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.parallelogram_rearrangement_kp.001",
+  "applied_at": "2026-06-28T02:52:54.214Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.parallelogram_area_rearrangement",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.rectangle_area_rows_columns",
+          "math.kp.measurement.height_is_perpendicular_to_base"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3019
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3021
+  }
+}

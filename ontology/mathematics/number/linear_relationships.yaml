@@ -16,6 +16,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.linear.linear_functions_graphs
     type: topic
     subject: Mathematics
@@ -32,6 +33,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.linear.gradient_intercept
     type: topic
     subject: Mathematics
@@ -49,6 +51,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.linear.nonlinear_graphs
     type: topic
     subject: Mathematics
@@ -66,6 +69,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.linear.coordinate_axes
     type: topic
     subject: Mathematics
@@ -79,10 +83,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.axes_define_coordinate_directions
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.ordered_pairs
     type: topic
     subject: Mathematics
@@ -96,10 +102,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.ordered_pair_order_matters
+      - math.kp.linear.coordinate_order_is_x_then_y
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.plot_points_first_quadrant
     type: topic
     subject: Mathematics
@@ -112,10 +121,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.ordered_pair_order_matters
+      - math.kp.linear.coordinate_order_is_x_then_y
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.four_quadrants
     type: topic
     subject: Mathematics
@@ -129,10 +141,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.coordinates_can_be_negative
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.horizontal_vertical_distance
     type: topic
     subject: Mathematics
@@ -146,10 +160,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.coordinate_order_is_x_then_y
+      - math.kp.linear.axis_scale_affects_reading
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.context_points_on_graphs
     type: topic
     subject: Mathematics
@@ -162,10 +179,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.coordinate_order_is_x_then_y
+      - math.kp.linear.axis_scale_affects_reading
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.input_output_tables
     type: topic
     subject: Mathematics
@@ -179,10 +199,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.tables_graphs_equations_connect
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.linear_rules_from_tables
     type: topic
     subject: Mathematics
@@ -195,10 +217,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.tables_graphs_equations_connect
+      - math.kp.linear.constant_first_difference_indicates_linear
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.graph_linear_rules
     type: topic
     subject: Mathematics
@@ -211,10 +236,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.tables_graphs_equations_connect
+      - math.kp.linear.linear_has_constant_rate
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.proportional_linear_relationships
     type: topic
     subject: Mathematics
@@ -228,10 +256,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.linear_has_constant_rate
+      - math.kp.linear.proportional_graph_through_origin
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.nonproportional_linear_relationships
     type: topic
     subject: Mathematics
@@ -244,10 +275,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.linear_has_constant_rate
+      - math.kp.linear.y_intercept_is_starting_value
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.rate_of_change_tables
     type: topic
     subject: Mathematics
@@ -261,10 +295,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.linear_has_constant_rate
+      - math.kp.linear.gradient_units_are_output_per_input
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.linear_equations_from_contexts
     type: topic
     subject: Mathematics
@@ -278,10 +315,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.tables_graphs_equations_connect
+      - math.kp.linear.gradient_units_are_output_per_input
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.gradient_as_rate_of_change
     type: topic
     subject: Mathematics
@@ -295,10 +335,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.linear_has_constant_rate
+      - math.kp.linear.gradient_units_are_output_per_input
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.gradient_from_two_points
     type: topic
     subject: Mathematics
@@ -312,10 +355,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.gradient_is_rise_over_run
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.y_intercept_meaning
     type: topic
     subject: Mathematics
@@ -328,10 +373,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.y_intercept_is_starting_value
+      - math.kp.linear.y_intercept_when_x_zero
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.slope_intercept_form
     type: topic
     subject: Mathematics
@@ -345,10 +393,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.slope_intercept_parameters
+      - math.kp.linear.gradient_is_rise_over_run
+      - math.kp.linear.y_intercept_is_starting_value
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.x_intercept_meaning
     type: topic
     subject: Mathematics
@@ -361,10 +413,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.x_intercept_when_y_zero
+      - math.kp.linear.intercepts_are_axis_crossings
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.recognise_nonlinear_graphs
     type: topic
     subject: Mathematics
@@ -378,10 +433,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.nonlinear_rate_changes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.compare_linear_nonlinear_rate
     type: topic
     subject: Mathematics
@@ -395,10 +452,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.linear_has_constant_rate
+      - math.kp.linear.nonlinear_rate_changes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.quadratic_graph_shape
     type: topic
     subject: Mathematics
@@ -412,10 +472,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.nonlinear_rate_changes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.linear.ordered_pair_order_matters
     type: knowledge_point
     subject: Mathematics
@@ -677,10 +739,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.gradient_is_rise_over_run
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.gradient_formula_delta_y_delta_x
     type: topic
     subject: Mathematics
@@ -694,10 +758,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.gradient_is_rise_over_run
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.positive_negative_zero_gradient
     type: topic
     subject: Mathematics
@@ -711,10 +777,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.positive_gradient_rises_left_to_right
+      - math.kp.linear.zero_gradient_horizontal_line
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.undefined_gradient_vertical_line
     type: topic
     subject: Mathematics
@@ -728,10 +797,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.vertical_line_gradient_undefined
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.y_intercept_from_graph
     type: topic
     subject: Mathematics
@@ -744,10 +815,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.y_intercept_when_x_zero
+      - math.kp.linear.intercepts_are_axis_crossings
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.y_intercept_from_equation
     type: topic
     subject: Mathematics
@@ -761,10 +835,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.y_intercept_when_x_zero
+      - math.kp.linear.slope_intercept_parameters
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.x_intercept_by_setting_y_zero
     type: topic
     subject: Mathematics
@@ -777,10 +854,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.x_intercept_when_y_zero
+      - math.kp.linear.intercepts_are_axis_crossings
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.graph_from_slope_intercept_form
     type: topic
     subject: Mathematics
@@ -794,10 +874,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.slope_intercept_parameters
+      - math.kp.linear.gradient_is_rise_over_run
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.write_equation_from_gradient_intercept
     type: topic
     subject: Mathematics
@@ -810,10 +893,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.slope_intercept_parameters
+      - math.kp.linear.gradient_is_rise_over_run
+      - math.kp.linear.y_intercept_is_starting_value
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.write_equation_from_two_points
     type: topic
     subject: Mathematics
@@ -827,10 +914,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.gradient_is_rise_over_run
+      - math.kp.linear.slope_intercept_parameters
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.linear.positive_gradient_rises_left_to_right
     type: knowledge_point
     subject: Mathematics
@@ -971,10 +1061,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.space.origin_is_zero_zero
+      - math.kp.linear.axes_define_coordinate_directions
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.x_coordinate_horizontal_position
     type: topic
     subject: Mathematics
@@ -987,10 +1080,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.coordinate_order_is_x_then_y
+      - math.kp.linear.axes_define_coordinate_directions
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.y_coordinate_vertical_position
     type: topic
     subject: Mathematics
@@ -1003,10 +1099,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.coordinate_order_is_x_then_y
+      - math.kp.linear.axes_define_coordinate_directions
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.coordinate_signs_by_quadrant
     type: topic
     subject: Mathematics
@@ -1020,10 +1119,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.coordinates_can_be_negative
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.read_axis_scale
     type: topic
     subject: Mathematics
@@ -1037,10 +1138,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.axis_scale_affects_reading
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.unequal_axis_scales
     type: topic
     subject: Mathematics
@@ -1054,10 +1157,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.axis_scale_affects_reading
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.constant_first_difference_tables
     type: topic
     subject: Mathematics
@@ -1071,10 +1176,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.constant_first_difference_indicates_linear
+      - math.kp.linear.linear_has_constant_rate
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.missing_values_in_linear_tables
     type: topic
     subject: Mathematics
@@ -1088,10 +1196,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.constant_first_difference_indicates_linear
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.rule_from_two_table_rows
     type: topic
     subject: Mathematics
@@ -1105,10 +1215,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.tables_graphs_equations_connect
+      - math.kp.linear.linear_has_constant_rate
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.compare_table_graph_equation
     type: topic
     subject: Mathematics
@@ -1121,10 +1234,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.tables_graphs_equations_connect
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.independent_dependent_variables_contexts
     type: topic
     subject: Mathematics
@@ -1138,10 +1253,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.tables_graphs_equations_connect
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.context_units_for_gradient
     type: topic
     subject: Mathematics
@@ -1155,10 +1272,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.gradient_units_are_output_per_input
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.context_initial_value
     type: topic
     subject: Mathematics
@@ -1172,10 +1291,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.y_intercept_is_starting_value
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.context_domain_restrictions
     type: topic
     subject: Mathematics
@@ -1188,10 +1309,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.context_domain_must_make_sense
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.interpolate_linear_model
     type: topic
     subject: Mathematics
@@ -1205,10 +1328,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.linear_has_constant_rate
+      - math.kp.linear.context_domain_must_make_sense
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.extrapolate_linear_model
     type: topic
     subject: Mathematics
@@ -1222,10 +1348,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.linear_has_constant_rate
+      - math.kp.linear.context_domain_must_make_sense
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.parallel_lines_same_gradient
     type: topic
     subject: Mathematics
@@ -1239,10 +1368,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.parallel_lines_same_gradient
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.line_intersection_as_equal_outputs
     type: topic
     subject: Mathematics
@@ -1256,10 +1387,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.tables_graphs_equations_connect
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.horizontal_line_constant_output
     type: topic
     subject: Mathematics
@@ -1273,10 +1406,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.zero_gradient_horizontal_line
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.linear.vertical_line_constant_input
     type: topic
     subject: Mathematics
@@ -1290,10 +1425,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.linear.vertical_line_gradient_undefined
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.linear.coordinate_order_is_x_then_y
     type: knowledge_point
     subject: Mathematics

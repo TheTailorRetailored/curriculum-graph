@@ -1,0 +1,100 @@
+{
+  "patch_id": "patch.math.fractions.operations_misconceptions.001",
+  "applied_at": "2026-06-28T10:11:19.897Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.improper_notation.has_misconception.improper_invalid",
+        "from": "math.fractions.improper_fraction_notation",
+        "to": "math.misconception.fractions.improper_fractions_are_invalid",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mixed_notation.has_misconception.parts_unrelated",
+        "from": "math.fractions.mixed_number_notation",
+        "to": "math.misconception.fractions.mixed_number_parts_unrelated",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_denom_add.has_misconception.add_denominators",
+        "from": "math.fractions.same_denominator_fraction_addition",
+        "to": "math.misconception.fractions.add_denominators_when_adding",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.common_denominator.has_misconception.changes_value",
+        "from": "math.fractions.common_denominator_strategy",
+        "to": "math.misconception.fractions.common_denominator_changes_value",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frac_times_frac.has_misconception.always_increases",
+        "from": "math.fractions.multiply_fraction_by_fraction",
+        "to": "math.misconception.fractions.fraction_multiplication_always_increases",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3253
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3258
+  }
+}

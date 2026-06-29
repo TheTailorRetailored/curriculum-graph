@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.advanced_functions.deprecate_broad_course_unit_requires.001",
+  "applied_at": "2026-06-27T08:24:03.076Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "update_edge",
+      "id": "edge.function_notation.requires.quadratic_functions",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated",
+          "deprecation_reason": "Broad curriculum_view course-unit sequencing should be represented by supports/pathway context, not diagnostic requires."
+        }
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.exp_log.requires.index_laws",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated",
+          "deprecation_reason": "Broad curriculum_view course-unit sequencing should be represented by supports/pathway context; specific diagnostic dependencies remain on learner-state children."
+        }
+      }
+    },
+    {
+      "op": "update_edge",
+      "id": "edge.trig_functions.requires.right_triangle_trig",
+      "updates": {
+        "status": "deprecated",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated",
+          "deprecation_reason": "Broad curriculum_view course-unit sequencing should be represented by supports/pathway context, not diagnostic requires."
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2306
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2306
+  }
+}

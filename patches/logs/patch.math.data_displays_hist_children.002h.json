@@ -1,0 +1,261 @@
+{
+  "patch_id": "patch.math.data_displays_hist_children.002h",
+  "applied_at": "2026-06-28T14:10:05.322Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 14,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grouped_intervals.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.grouped_intervals",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Grouped intervals are central here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.grouped_intervals",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.grouped_intervals",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Grouped intervals are central here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_width_choice.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.interval_width_choice",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Interval width supports histograms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.interval_width_choice",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.interval_width_choice",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Interval width supports histograms.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_boundary_inclusion.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.interval_boundary_inclusion",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Interval boundaries support histograms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.interval_boundary_inclusion",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.interval_boundary_inclusion",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Interval boundaries support histograms.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_interpretation.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.histogram_interpretation",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Histogram interpretation is central.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.histogram_interpretation",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.histogram_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Histogram interpretation is central.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_histograms.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.construct_histograms",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Histogram construction belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.construct_histograms",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.construct_histograms",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Histogram construction belongs here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_bin_height_frequency.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.histogram_bin_height_frequency",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Bin height represents frequency.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.histogram_bin_height_frequency",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.histogram_bin_height_frequency",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Bin height represents frequency.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_adjacent_bars.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.histogram_adjacent_bars",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Adjacent bars support histogram meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.histogram_adjacent_bars",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.histogram_adjacent_bars",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Adjacent bars support histogram meaning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3766
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3780
+  }
+}

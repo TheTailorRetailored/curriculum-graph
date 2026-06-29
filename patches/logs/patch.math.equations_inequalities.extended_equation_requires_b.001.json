@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.equations_inequalities.extended_equation_requires_b.001",
+  "applied_at": "2026-06-28T00:04:08.497Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distribute_negative_brackets.requires.equations_with_brackets",
+        "from": "math.algebra.equations.distribute_negative_brackets",
+        "to": "math.algebra.equations.equations_with_brackets",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Negative bracket distribution is a focused case of solving equations with brackets.",
+        "failure_signal": "Learner changes only one bracketed term or loses signs after expansion.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.expand_then_collect.requires.equations_with_brackets",
+        "from": "math.algebra.equations.expand_then_collect",
+        "to": "math.algebra.equations.equations_with_brackets",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Expanding then collecting requires basic bracketed-equation solving first.",
+        "failure_signal": "Learner expands but cannot combine like terms to continue solving.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2403
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2405
+  }
+}

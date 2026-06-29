@@ -1,0 +1,74 @@
+{
+  "patch_id": "patch.math.fractions.mixed_improper_kps_b.001",
+  "applied_at": "2026-06-28T10:04:23.551Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.convert_mixed_to_improper",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.mixed_to_improper_wholes_as_fraction_units",
+          "math.kp.fractions.mixed_to_improper_add_fraction_units",
+          "math.kp.fractions.mixed_to_improper_preserves_denominator"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.mixed_numbers_on_number_line",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.mixed_number_line_whole_interval",
+          "math.kp.fractions.mixed_number_fraction_part_offsets_from_whole",
+          "math.kp.fractions.improper_and_mixed_forms_same_number_line_point"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.compare_mixed_and_improper",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.compare_mixed_improper_by_common_form",
+          "math.kp.fractions.compare_mixed_improper_by_quantity_not_notation",
+          "math.kp.fractions.equivalent_mixed_improper_forms_compare_equal"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.procedure.convert_mixed_to_improper_fraction",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.mixed_to_improper_convert_wholes_to_fraction_units",
+          "math.kp.fractions.mixed_to_improper_add_fraction_units",
+          "math.kp.fractions.mixed_to_improper_preserves_denominator"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3180
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3192
+  }
+}

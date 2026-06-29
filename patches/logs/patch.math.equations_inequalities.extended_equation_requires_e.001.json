@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.equations_inequalities.extended_equation_requires_e.001",
+  "applied_at": "2026-06-28T00:05:40.855Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_one_operation_rearrangement.requires.inverse_operations_for_equations",
+        "from": "math.algebra.equations.literal_one_operation_rearrangement",
+        "to": "math.algebra.equations.inverse_operations_for_equations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "One-operation formula rearrangement applies inverse operations with symbols.",
+        "failure_signal": "Learner cannot choose the inverse operation when the target is a symbol rather than a number.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_two_step_rearrangement.requires.literal_one_operation_rearrangement",
+        "from": "math.algebra.equations.literal_two_step_rearrangement",
+        "to": "math.algebra.equations.literal_one_operation_rearrangement",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Two-step formula rearrangement extends one-operation rearrangement.",
+        "failure_signal": "Learner performs inverse operations in the wrong order while isolating a formula variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_factorise_to_isolate.requires.literal_two_step_rearrangement",
+        "from": "math.algebra.equations.literal_factorise_to_isolate",
+        "to": "math.algebra.equations.literal_two_step_rearrangement",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Factorising to isolate a variable requires prior multi-step formula rearrangement.",
+        "failure_signal": "Learner cannot identify the target variable as a common factor to isolate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2410
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2413
+  }
+}

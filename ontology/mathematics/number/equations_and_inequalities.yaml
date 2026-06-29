@@ -17,6 +17,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.equations.one_step_equations
     type: topic
     subject: Mathematics
@@ -34,6 +35,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.equations.multi_step_equations
     type: topic
     subject: Mathematics
@@ -51,6 +53,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.equations.inequalities
     type: topic
     subject: Mathematics
@@ -67,6 +70,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.equations.simultaneous_linear_equations
     type: topic
     subject: Mathematics
@@ -84,6 +88,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.equations.equality_as_balance
     type: topic
     subject: Mathematics
@@ -97,10 +102,14 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.equals_sign_is_relation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
+    misconceptions:
+      - math.misconception.equations.equals_means_answer_comes_next
   - id: math.algebra.equations.true_false_number_sentences
     type: topic
     subject: Mathematics
@@ -114,10 +123,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.equals_sign_is_relation
+      - math.kp.equations.solution_makes_equation_true
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.missing_value_equations
     type: topic
     subject: Mathematics
@@ -131,10 +143,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.solution_makes_equation_true
+      - math.kp.equations.inverse_operations_isolate_variable
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.inverse_operations_for_equations
     type: topic
     subject: Mathematics
@@ -148,10 +163,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.inverse_operations_isolate_variable
+      - math.kp.equations.do_same_to_both_sides
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.one_step_add_subtract_equations
     type: topic
     subject: Mathematics
@@ -164,10 +182,15 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.inverse_operations_isolate_variable
+      - math.kp.equations.do_same_to_both_sides
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
+    misconceptions:
+      - math.misconception.equations.solution_is_last_working_line
   - id: math.algebra.equations.one_step_multiply_divide_equations
     type: topic
     subject: Mathematics
@@ -180,10 +203,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.inverse_operations_isolate_variable
+      - math.kp.equations.do_same_to_both_sides
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.rational_coefficient_equations
     type: topic
     subject: Mathematics
@@ -196,10 +222,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.inverse_operations_isolate_variable
+      - math.kp.equations.do_same_to_both_sides
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.check_solutions_by_substitution
     type: topic
     subject: Mathematics
@@ -213,10 +242,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.solution_makes_equation_true
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.two_step_equations
     type: topic
     subject: Mathematics
@@ -229,10 +260,16 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.inverse_operations_isolate_variable
+      - math.kp.equations.do_same_to_both_sides
+      - math.kp.equations.simplify_before_solving
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
+    misconceptions:
+      - math.misconception.equations.operation_one_side_only
   - id: math.algebra.equations.equations_with_brackets
     type: topic
     subject: Mathematics
@@ -246,10 +283,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.do_same_to_both_sides
+      - math.kp.equations.simplify_before_solving
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.variables_on_both_sides
     type: topic
     subject: Mathematics
@@ -263,10 +303,16 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.do_same_to_both_sides
+      - math.kp.equations.simplify_before_solving
+      - math.kp.equations.variable_terms_can_cancel
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
+    misconceptions:
+      - math.misconception.equations.operation_one_side_only
   - id: math.algebra.equations.collect_like_terms_in_equations
     type: topic
     subject: Mathematics
@@ -279,10 +325,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.simplify_before_solving
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.rearrange_literal_equations
     type: topic
     subject: Mathematics
@@ -296,10 +344,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.literal_rearrangement_reverses_operations
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.symbols_and_solution_sets
     type: topic
     subject: Mathematics
@@ -313,10 +363,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.graph_one_variable_inequalities
     type: topic
     subject: Mathematics
@@ -329,10 +381,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
+      - math.kp.inequalities.closed_boundary_includes_endpoint
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.solve_linear_inequalities
     type: topic
     subject: Mathematics
@@ -346,10 +401,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
+      - math.kp.inequalities.negative_multiplier_reverses_order
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.reverse_sign_negative_multiplier
     type: topic
     subject: Mathematics
@@ -363,10 +421,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.negative_multiplier_reverses_order
+      - math.kp.inequalities.negative_multiply_reverses_symbol
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.simultaneous_graphical_method
     type: topic
     subject: Mathematics
@@ -380,10 +441,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.intersection_represents_solution
+      - math.kp.simultaneous.solution_satisfies_both
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.simultaneous_substitution_method
     type: topic
     subject: Mathematics
@@ -397,10 +461,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.solution_satisfies_both
+      - math.kp.equations.literal_rearrangement_reverses_operations
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.simultaneous_elimination_method
     type: topic
     subject: Mathematics
@@ -414,10 +481,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.elimination_preserves_solution
+      - math.kp.simultaneous.solution_satisfies_both
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.simultaneous_equations_contexts
     type: topic
     subject: Mathematics
@@ -431,10 +501,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.solution_satisfies_both
+      - math.kp.equations.context_solution_must_fit_constraints
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.equations.equals_sign_is_relation
     type: knowledge_point
     subject: Mathematics
@@ -695,10 +768,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.clearing_denominators_preserves_equivalence
+      - math.kp.equations.do_same_to_both_sides
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.decimal_coefficients
     type: topic
     subject: Mathematics
@@ -712,10 +788,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.do_same_to_both_sides
+      - math.kp.equations.inverse_operations_isolate_variable
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.distribute_negative_brackets
     type: topic
     subject: Mathematics
@@ -728,10 +807,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.negative_factor_distributes_to_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.expand_then_collect
     type: topic
     subject: Mathematics
@@ -744,10 +825,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.simplify_before_solving
+      - math.kp.equations.negative_factor_distributes_to_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.choose_side_for_variable_terms
     type: topic
     subject: Mathematics
@@ -761,10 +845,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.variable_terms_can_cancel
+      - math.kp.equations.do_same_to_both_sides
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.constant_terms_after_variable_terms
     type: topic
     subject: Mathematics
@@ -778,10 +865,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.do_same_to_both_sides
+      - math.kp.equations.inverse_operations_isolate_variable
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.identity_equations
     type: topic
     subject: Mathematics
@@ -795,10 +885,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.variable_terms_can_cancel
+      - math.kp.equations.solution_makes_equation_true
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.no_solution_equations
     type: topic
     subject: Mathematics
@@ -812,10 +905,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.variable_terms_can_cancel
+      - math.kp.equations.solution_makes_equation_true
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.solution_set_reasoning
     type: topic
     subject: Mathematics
@@ -829,10 +925,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.solution_makes_equation_true
+      - math.kp.equations.variable_terms_can_cancel
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.literal_one_operation_rearrangement
     type: topic
     subject: Mathematics
@@ -846,10 +945,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.literal_rearrangement_reverses_operations
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.literal_two_step_rearrangement
     type: topic
     subject: Mathematics
@@ -863,10 +964,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.literal_rearrangement_reverses_operations
+      - math.kp.equations.inverse_operations_isolate_variable
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.literal_factorise_to_isolate
     type: topic
     subject: Mathematics
@@ -880,10 +984,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.literal_rearrangement_reverses_operations
+      - math.kp.equations.simplify_before_solving
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.literal_variable_in_denominator
     type: topic
     subject: Mathematics
@@ -897,10 +1004,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.literal_rearrangement_reverses_operations
+      - math.kp.equations.clearing_denominators_preserves_equivalence
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.context_equations_define_variable
     type: topic
     subject: Mathematics
@@ -914,10 +1024,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.context_solution_must_fit_constraints
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.equations.context_equations_validate_solution
     type: topic
     subject: Mathematics
@@ -931,10 +1043,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.context_solution_must_fit_constraints
+      - math.kp.equations.solution_makes_equation_true
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.equations.clearing_denominators_preserves_equivalence
     type: knowledge_point
     subject: Mathematics
@@ -1112,10 +1227,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.closed_boundary_includes_endpoint
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.number_line_shading_direction
     type: topic
     subject: Mathematics
@@ -1129,10 +1246,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.write_from_number_line
     type: topic
     subject: Mathematics
@@ -1146,10 +1265,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
+      - math.kp.inequalities.closed_boundary_includes_endpoint
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.add_subtract_solve
     type: topic
     subject: Mathematics
@@ -1163,10 +1285,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.multiply_divide_positive
     type: topic
     subject: Mathematics
@@ -1180,10 +1304,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.multiply_divide_negative
     type: topic
     subject: Mathematics
@@ -1197,10 +1323,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.negative_multiplier_reverses_order
+      - math.kp.inequalities.negative_multiply_reverses_symbol
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.compound_and
     type: topic
     subject: Mathematics
@@ -1214,10 +1343,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.and_means_overlap
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.compound_or
     type: topic
     subject: Mathematics
@@ -1231,10 +1362,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.inequalities.interval_notation_intro
     type: topic
     subject: Mathematics
@@ -1247,10 +1380,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.inequalities.solution_set_many_values
+      - math.kp.inequalities.closed_boundary_includes_endpoint
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.simultaneous.check_ordered_pair_solution
     type: topic
     subject: Mathematics
@@ -1264,10 +1400,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.ordered_pair_must_satisfy_both
+      - math.kp.simultaneous.solution_satisfies_both
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.simultaneous.substitution_isolate_variable
     type: topic
     subject: Mathematics
@@ -1281,10 +1420,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.equations.literal_rearrangement_reverses_operations
+      - math.kp.equations.inverse_operations_isolate_variable
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.simultaneous.substitution_equation_after_replace
     type: topic
     subject: Mathematics
@@ -1298,10 +1440,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.solution_satisfies_both
+      - math.kp.equations.simplify_before_solving
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.simultaneous.elimination_match_coefficients
     type: topic
     subject: Mathematics
@@ -1315,10 +1460,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.elimination_preserves_solution
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.simultaneous.elimination_choose_add_or_subtract
     type: topic
     subject: Mathematics
@@ -1332,10 +1479,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.elimination_preserves_solution
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.simultaneous.parallel_lines_no_solution
     type: topic
     subject: Mathematics
@@ -1349,10 +1498,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.parallel_lines_have_no_intersection
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.simultaneous.same_line_infinite_solutions
     type: topic
     subject: Mathematics
@@ -1366,10 +1517,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.simultaneous.same_line_has_infinitely_many_solutions
+      - math.kp.simultaneous.solution_satisfies_both
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.inequalities.closed_boundary_includes_endpoint
     type: knowledge_point
     subject: Mathematics

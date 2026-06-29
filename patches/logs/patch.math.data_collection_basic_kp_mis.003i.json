@@ -1,0 +1,240 @@
+{
+  "patch_id": "patch.math.data_collection_basic_kp_mis.003i",
+  "applied_at": "2026-06-29T00:39:25.011Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 15,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ask_counting_questions.targets_knowledge_point.statistical_question_has_variability",
+        "from": "math.statistics.data.ask_counting_questions",
+        "to": "math.kp.statistics.statistical_question_has_variability",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ask_counting_questions.has_misconception.any_question_is_statistical",
+        "from": "math.statistics.data.ask_counting_questions",
+        "to": "math.misconception.statistics.any_question_is_statistical",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sort_into_categories.targets_knowledge_point.categories_need_clear_rules",
+        "from": "math.statistics.data.sort_into_categories",
+        "to": "math.kp.statistics.categories_need_clear_rules",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sort_into_categories.has_misconception.overlapping_categories",
+        "from": "math.statistics.data.sort_into_categories",
+        "to": "math.misconception.statistics.overlapping_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.category_labels.targets_knowledge_point.categories_need_clear_rules",
+        "from": "math.statistics.data.category_labels",
+        "to": "math.kp.statistics.categories_need_clear_rules",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.category_labels.has_misconception.overlapping_categories",
+        "from": "math.statistics.data.category_labels",
+        "to": "math.misconception.statistics.overlapping_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.categorical_vs_numerical_data.targets_knowledge_point.categorical_data_are_labels",
+        "from": "math.statistics.data.categorical_vs_numerical_data",
+        "to": "math.kp.statistics.categorical_data_are_labels",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.categorical_vs_numerical_data.targets_knowledge_point.numerical_data_are_counts_or_measures",
+        "from": "math.statistics.data.categorical_vs_numerical_data",
+        "to": "math.kp.statistics.numerical_data_are_counts_or_measures",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_marks.targets_knowledge_point.frequency_is_count",
+        "from": "math.statistics.data.tally_marks",
+        "to": "math.kp.statistics.frequency_is_count",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frequency_tables.targets_knowledge_point.frequency_is_count",
+        "from": "math.statistics.data.frequency_tables",
+        "to": "math.kp.statistics.frequency_is_count",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.question_matches_data.targets_knowledge_point.statistical_question_has_variability",
+        "from": "math.statistics.data.question_matches_data",
+        "to": "math.kp.statistics.statistical_question_has_variability",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.refine_statistical_questions.targets_knowledge_point.statistical_question_has_variability",
+        "from": "math.statistics.data.refine_statistical_questions",
+        "to": "math.kp.statistics.statistical_question_has_variability",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_recording_protocol.targets_knowledge_point.data_collection_needs_consistency",
+        "from": "math.statistics.data.data_recording_protocol",
+        "to": "math.kp.statistics.data_collection_needs_consistency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measurement_unit_consistency.targets_knowledge_point.data_collection_needs_consistency",
+        "from": "math.statistics.data.measurement_unit_consistency",
+        "to": "math.kp.statistics.data_collection_needs_consistency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_measurement_data.targets_knowledge_point.data_collection_needs_consistency",
+        "from": "math.statistics.data.record_measurement_data",
+        "to": "math.kp.statistics.data_collection_needs_consistency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4025
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4040
+  }
+}

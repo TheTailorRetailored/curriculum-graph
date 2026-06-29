@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.poly_detail_requires_b.001",
+  "applied_at": "2026-06-28T09:26:55.588Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.binomial_area_model.requires.multiply_binomials",
+        "from": "math.algebra.polynomials.binomial_area_model",
+        "to": "math.algebra.polynomials.multiply_binomials",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Area models for binomials depend on binomial multiplication.",
+        "failure_signal": "Learner cannot connect area parts to product terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perfect_square_trinomial_products.requires.special_products",
+        "from": "math.algebra.polynomials.perfect_square_trinomial_products",
+        "to": "math.algebra.polynomials.special_products",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Perfect-square trinomial products are special-product cases.",
+        "failure_signal": "Learner expands without recognising the repeated binomial structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3099
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3101
+  }
+}

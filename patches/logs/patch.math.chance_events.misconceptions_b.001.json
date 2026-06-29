@@ -1,0 +1,86 @@
+{
+  "patch_id": "patch.math.chance_events.misconceptions_b.001",
+  "applied_at": "2026-06-28T12:48:49.803Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely.has_misconception.all_equal",
+        "from": "math.probability.chance.equally_likely_outcomes",
+        "to": "math.misconception.probability.all_outcomes_equally_likely",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recording_consistency.has_misconception.observed_all_possible",
+        "from": "math.probability.chance.outcome_recording_consistency",
+        "to": "math.misconception.probability.observed_outcomes_are_all_possible_outcomes",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.small_sample.has_misconception.expected_pattern",
+        "from": "math.probability.chance.small_sample_variability",
+        "to": "math.misconception.probability.small_sample_matches_expected_pattern",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_game_balance.has_misconception.everyone_can_win",
+        "from": "math.probability.chance.fair_game_outcome_balance",
+        "to": "math.misconception.probability.fair_means_everyone_can_win",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3610
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3614
+  }
+}

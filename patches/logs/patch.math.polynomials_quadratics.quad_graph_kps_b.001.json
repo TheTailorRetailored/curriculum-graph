@@ -1,0 +1,70 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.quad_graph_kps_b.001",
+  "applied_at": "2026-06-28T09:25:08.029Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.axis_symmetry_formula",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.axis_symmetry_midpoint_roots",
+          "math.kp.quadratics.vertex_axis_symmetry"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.vertex_from_completed_square_form",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.completing_square_reveals_vertex",
+          "math.kp.quadratics.vertex_axis_symmetry"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.graph_from_vertex_form",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.vertex_form_shows_transformations",
+          "math.kp.quadratics.vertex_axis_symmetry"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.graph_from_intercepts",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.roots_are_x_intercepts",
+          "math.kp.quadratics.vertex_axis_symmetry"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/polynomials_and_quadratics.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3087
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3095
+  }
+}

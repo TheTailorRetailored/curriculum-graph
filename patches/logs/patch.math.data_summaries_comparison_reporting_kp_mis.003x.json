@@ -1,0 +1,240 @@
+{
+  "patch_id": "patch.math.data_summaries_comparison_reporting_kp_mis.003x",
+  "applied_at": "2026-06-29T00:56:17.303Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 15,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_two_dot_plots.targets_knowledge_point.compare_distributions_uses_multiple_features",
+        "from": "math.statistics.summaries.compare_two_dot_plots",
+        "to": "math.kp.statistics.compare_distributions_uses_multiple_features",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_box_plots.targets_knowledge_point.compare_distributions_uses_multiple_features",
+        "from": "math.statistics.summaries.compare_box_plots",
+        "to": "math.kp.statistics.compare_distributions_uses_multiple_features",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_centre_different_spread.targets_knowledge_point.compare_distributions_uses_multiple_features",
+        "from": "math.statistics.summaries.same_centre_different_spread",
+        "to": "math.kp.statistics.compare_distributions_uses_multiple_features",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_spread_different_centre.targets_knowledge_point.compare_distributions_uses_multiple_features",
+        "from": "math.statistics.summaries.same_spread_different_centre",
+        "to": "math.kp.statistics.compare_distributions_uses_multiple_features",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.group_comparison_overlap.targets_knowledge_point.compare_distributions_uses_multiple_features",
+        "from": "math.statistics.summaries.group_comparison_overlap",
+        "to": "math.kp.statistics.compare_distributions_uses_multiple_features",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.practical_difference_intro.targets_knowledge_point.context_controls_summary_interpretation",
+        "from": "math.statistics.summaries.practical_difference_intro",
+        "to": "math.kp.statistics.context_controls_summary_interpretation",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.summary_claim_in_context.targets_knowledge_point.context_controls_summary_interpretation",
+        "from": "math.statistics.summaries.summary_claim_in_context",
+        "to": "math.kp.statistics.context_controls_summary_interpretation",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistical_claims_from_distributions.targets_knowledge_point.compare_distributions_uses_multiple_features",
+        "from": "math.statistics.summaries.statistical_claims_from_distributions",
+        "to": "math.kp.statistics.compare_distributions_uses_multiple_features",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistical_claims_from_distributions.targets_knowledge_point.context_controls_summary_interpretation",
+        "from": "math.statistics.summaries.statistical_claims_from_distributions",
+        "to": "math.kp.statistics.context_controls_summary_interpretation",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_two_dot_plots.has_misconception.compare_only_by_centre",
+        "from": "math.statistics.summaries.compare_two_dot_plots",
+        "to": "math.misconception.statistics.compare_only_by_centre",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistical_claims_from_distributions.has_misconception.different_means_imply_important_difference",
+        "from": "math.statistics.summaries.statistical_claims_from_distributions",
+        "to": "math.misconception.statistics.different_means_imply_important_difference",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.practical_difference_intro.has_misconception.different_means_imply_important_difference",
+        "from": "math.statistics.summaries.practical_difference_intro",
+        "to": "math.misconception.statistics.different_means_imply_important_difference",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.group_comparison_overlap.has_misconception.different_means_imply_important_difference",
+        "from": "math.statistics.summaries.group_comparison_overlap",
+        "to": "math.misconception.statistics.different_means_imply_important_difference",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.summary_units.targets_knowledge_point.context_controls_summary_interpretation",
+        "from": "math.statistics.summaries.summary_units",
+        "to": "math.kp.statistics.context_controls_summary_interpretation",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rounding_summary_statistics.targets_knowledge_point.context_controls_summary_interpretation",
+        "from": "math.statistics.summaries.rounding_summary_statistics",
+        "to": "math.kp.statistics.context_controls_summary_interpretation",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4287
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4302
+  }
+}

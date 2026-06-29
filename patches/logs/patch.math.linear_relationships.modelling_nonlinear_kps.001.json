@@ -1,0 +1,150 @@
+{
+  "patch_id": "patch.math.linear_relationships.modelling_nonlinear_kps.001",
+  "applied_at": "2026-06-28T00:42:32.466Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 13
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.independent_dependent_variables_contexts",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.tables_graphs_equations_connect"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.context_units_for_gradient",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.gradient_units_are_output_per_input"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.context_initial_value",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.y_intercept_is_starting_value"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.context_domain_restrictions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.context_domain_must_make_sense"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.interpolate_linear_model",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.linear_has_constant_rate",
+          "math.kp.linear.context_domain_must_make_sense"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.extrapolate_linear_model",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.linear_has_constant_rate",
+          "math.kp.linear.context_domain_must_make_sense"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.parallel_lines_same_gradient",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.parallel_lines_same_gradient"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.line_intersection_as_equal_outputs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.tables_graphs_equations_connect"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.horizontal_line_constant_output",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.zero_gradient_horizontal_line"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.vertical_line_constant_input",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.vertical_line_gradient_undefined"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.recognise_nonlinear_graphs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.nonlinear_rate_changes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.compare_linear_nonlinear_rate",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.linear_has_constant_rate",
+          "math.kp.linear.nonlinear_rate_changes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.quadratic_graph_shape",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.nonlinear_rate_changes"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/linear_relationships.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2552
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2568
+  }
+}

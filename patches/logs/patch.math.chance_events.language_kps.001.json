@@ -1,0 +1,77 @@
+{
+  "patch_id": "patch.math.chance_events.language_kps.001",
+  "applied_at": "2026-06-28T12:31:48.939Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.everyday_chance_words",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.chance_language_orders_likelihood"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.chance_continuum",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.chance_language_orders_likelihood"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.possible_impossible_events",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.chance_language_orders_likelihood",
+          "math.kp.probability.impossible_event_has_zero_favourable_outcomes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.certain_and_impossible",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.chance_language_orders_likelihood",
+          "math.kp.probability.impossible_event_has_zero_favourable_outcomes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.likely_unlikely_language",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.chance_language_orders_likelihood"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3419
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3426
+  }
+}

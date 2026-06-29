@@ -1,0 +1,44 @@
+{
+  "patch_id": "patch.math.lpa.misconception_grid_lines.001",
+  "applied_at": "2026-06-28T07:53:10.337Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_covering.has_misconception.grid_lines",
+        "from": "math.measurement.area.area_as_covering",
+        "to": "math.misconception.measurement.count_grid_lines_not_squares",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3040
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3041
+  }
+}

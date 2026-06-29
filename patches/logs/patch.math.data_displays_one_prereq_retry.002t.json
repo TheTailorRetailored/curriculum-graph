@@ -1,0 +1,48 @@
+{
+  "patch_id": "patch.math.data_displays_one_prereq_retry.002t",
+  "applied_at": "2026-06-28T23:49:39.974Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_bar_graphs.requires.read_bar_graphs",
+        "from": "math.statistics.displays.make_bar_graphs",
+        "to": "math.statistics.displays.read_bar_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Making a bar graph builds on reading one.",
+        "failure_signal": "Learner draws bars but cannot explain values shown.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3857
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3858
+  }
+}

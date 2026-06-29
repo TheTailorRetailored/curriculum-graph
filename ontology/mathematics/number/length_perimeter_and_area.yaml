@@ -76,10 +76,14 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
   - id: math.measurement.length.measure_perimeter_with_units
     type: topic
     subject: Mathematics
@@ -93,7 +97,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
+      - math.kp.measurement.length_area_units_distinct
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -109,7 +115,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
+      - math.kp.measurement.perimeter_adds_outer_edges
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -126,7 +134,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
+      - math.kp.measurement.perimeter_adds_outer_edges
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -143,7 +153,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
+      - math.kp.measurement.perimeter_adds_outer_edges
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -159,10 +171,15 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.area_surface_coverage
+      - math.kp.measurement.square_units_two_dimensional
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
   - id: math.measurement.area.array_model_area
     type: topic
     subject: Mathematics
@@ -175,7 +192,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.rectangle_area_rows_columns
+      - math.kp.measurement.square_units_two_dimensional
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -191,7 +210,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.rectangle_area_rows_columns
+      - math.kp.measurement.square_units_two_dimensional
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -207,7 +228,9 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.rectangle_area_rows_columns
+      - math.kp.measurement.square_units_two_dimensional
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -224,7 +247,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.triangle_half_rectangle
+      - math.kp.measurement.height_is_perpendicular_to_base
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -240,7 +265,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.rectangle_area_rows_columns
+      - math.kp.measurement.height_is_perpendicular_to_base
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -257,7 +284,8 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.composite_area_parts
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -273,7 +301,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.composite_area_parts
+      - math.kp.measurement.composite_area_needs_all_parts_once
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -290,7 +320,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.composite_area_parts
+      - math.kp.measurement.composite_area_needs_all_parts_once
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -306,7 +338,9 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.composite_area_parts
+      - math.kp.measurement.length_area_units_distinct
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -322,7 +356,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.composite_area_parts
+      - math.kp.measurement.composite_area_needs_all_parts_once
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -342,6 +378,9 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
   - id: math.measurement.circles.circumference_formula
     type: topic
     subject: Mathematics
@@ -354,7 +393,8 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.circumference_uses_pi_diameter
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -370,7 +410,8 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.circle_area_radius_squared
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -403,7 +444,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.circle_area_radius_squared
+      - math.kp.measurement.circumference_uses_pi_diameter
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -662,7 +705,9 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
+      - math.kp.measurement.perimeter_adds_outer_edges
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -678,7 +723,9 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
+      - math.kp.measurement.perimeter_adds_outer_edges
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -695,7 +742,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
+      - math.kp.measurement.perimeter_adds_outer_edges
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -712,7 +761,9 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.perimeter_boundary_length
+      - math.kp.measurement.perimeter_adds_outer_edges
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -729,7 +780,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.rectangle_area_rows_columns
+      - math.kp.measurement.area_formulas_can_find_missing_dimensions
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -746,7 +799,9 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.rectangle_area_rows_columns
+      - math.kp.measurement.area_formulas_can_find_missing_dimensions
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -763,7 +818,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.triangle_half_rectangle
+      - math.kp.measurement.height_is_perpendicular_to_base
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -780,7 +837,10 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.triangle_half_rectangle
+      - math.kp.measurement.height_is_perpendicular_to_base
+      - math.kp.measurement.area_formulas_can_find_missing_dimensions
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -797,7 +857,8 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.height_is_perpendicular_to_base
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -814,7 +875,8 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.height_is_perpendicular_to_base
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -831,7 +893,9 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.composite_area_parts
+      - math.kp.measurement.composite_area_needs_all_parts_once
     metadata:
       created_by: assistant
       review_status: ai_generated
@@ -848,7 +912,8 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.measurement.composite_area_needs_all_parts_once
     metadata:
       created_by: assistant
       review_status: ai_generated

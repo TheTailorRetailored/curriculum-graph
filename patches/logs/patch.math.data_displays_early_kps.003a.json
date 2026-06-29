@@ -1,0 +1,142 @@
+{
+  "patch_id": "patch.math.data_displays_early_kps.003a",
+  "applied_at": "2026-06-28T23:52:46.121Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_picture_graphs.targets_knowledge_point.picture_graph_key_matters",
+        "from": "math.statistics.displays.read_picture_graphs",
+        "to": "math.kp.statistics.picture_graph_key_matters",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_picture_graphs.targets_knowledge_point.graphs_need_labels",
+        "from": "math.statistics.displays.make_picture_graphs",
+        "to": "math.kp.statistics.graphs_need_labels",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one_symbols.targets_knowledge_point.picture_graph_key_matters",
+        "from": "math.statistics.displays.one_to_one_symbols",
+        "to": "math.kp.statistics.picture_graph_key_matters",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.many_to_one_symbols.targets_knowledge_point.picture_graph_key_matters",
+        "from": "math.statistics.displays.many_to_one_symbols",
+        "to": "math.kp.statistics.picture_graph_key_matters",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partial_symbol_interpretation.targets_knowledge_point.picture_graph_key_matters",
+        "from": "math.statistics.displays.partial_symbol_interpretation",
+        "to": "math.kp.statistics.picture_graph_key_matters",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_bar_graphs.targets_knowledge_point.bar_height_shows_frequency",
+        "from": "math.statistics.displays.read_bar_graphs",
+        "to": "math.kp.statistics.bar_height_shows_frequency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_bar_graphs.targets_knowledge_point.graphs_need_labels",
+        "from": "math.statistics.displays.make_bar_graphs",
+        "to": "math.kp.statistics.graphs_need_labels",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_categories_in_graphs.targets_knowledge_point.bar_height_shows_frequency",
+        "from": "math.statistics.displays.compare_categories_in_graphs",
+        "to": "math.kp.statistics.bar_height_shows_frequency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3903
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3911
+  }
+}

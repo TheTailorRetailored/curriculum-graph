@@ -1,0 +1,74 @@
+{
+  "patch_id": "patch.math.fractions.nonunit_compare_kps.001",
+  "applied_at": "2026-06-28T10:01:30.673Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.non_unit_fraction_area_models",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.nonunit_area_model_counts_shaded_parts",
+          "math.kp.fractions.nonunit_area_model_denominator_counts_all_equal_parts",
+          "math.kp.fractions.nonunit_area_model_same_whole_required"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.non_unit_fractions_on_number_line",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.nonunit_number_line_count_unit_steps_from_zero",
+          "math.kp.fractions.nonunit_number_line_denominator_partitions_unit_interval",
+          "math.kp.fractions.nonunit_number_line_numerator_identifies_tick"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.compare_same_denominator",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.same_denominator_compare_counts",
+          "math.kp.fractions.same_denominator_larger_numerator_greater",
+          "math.kp.fractions.same_denominator_difference_is_unit_count"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.compare_same_numerator",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.same_numerator_compare_unit_size",
+          "math.kp.fractions.same_numerator_smaller_denominator_greater",
+          "math.kp.fractions.same_numerator_order_reverses_denominator_order"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3143
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3155
+  }
+}

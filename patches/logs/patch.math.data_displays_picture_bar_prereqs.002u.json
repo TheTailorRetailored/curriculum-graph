@@ -1,0 +1,156 @@
+{
+  "patch_id": "patch.math.data_displays_picture_bar_prereqs.002u",
+  "applied_at": "2026-06-28T23:50:03.707Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 7,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_picture_graphs.requires.read_picture_graphs",
+        "from": "math.statistics.displays.make_picture_graphs",
+        "to": "math.statistics.displays.read_picture_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Making a picture graph builds on reading one.",
+        "failure_signal": "Learner places symbols without interpreting them.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_graph_key_interpretation.requires.read_picture_graphs",
+        "from": "math.statistics.displays.picture_graph_key_interpretation",
+        "to": "math.statistics.displays.read_picture_graphs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Key interpretation extends reading picture graphs.",
+        "failure_signal": "Learner counts symbols but ignores the key.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partial_symbol_interpretation.requires.picture_graph_key_interpretation",
+        "from": "math.statistics.displays.partial_symbol_interpretation",
+        "to": "math.statistics.displays.picture_graph_key_interpretation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Partial symbols require using the key.",
+        "failure_signal": "Learner treats a partial symbol as a whole.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_bar_graphs.requires.axes_titles_labels",
+        "from": "math.statistics.displays.read_bar_graphs",
+        "to": "math.statistics.displays.axes_titles_labels",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading bar graphs uses labels and titles.",
+        "failure_signal": "Learner reads bar height without context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_axis_scale_reading.requires.choose_graph_scale",
+        "from": "math.statistics.displays.vertical_axis_scale_reading",
+        "to": "math.statistics.displays.choose_graph_scale",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Axis reading depends on scale meaning.",
+        "failure_signal": "Learner counts gridlines as single units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bar_height_as_frequency.requires.vertical_axis_scale_reading",
+        "from": "math.statistics.displays.bar_height_as_frequency",
+        "to": "math.statistics.displays.vertical_axis_scale_reading",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Bar height is read through the axis scale.",
+        "failure_signal": "Learner compares bars visually but not numerically.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_categories_in_graphs.requires.bar_height_as_frequency",
+        "from": "math.statistics.displays.compare_categories_in_graphs",
+        "to": "math.statistics.displays.bar_height_as_frequency",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Category comparison depends on bar values.",
+        "failure_signal": "Learner compares categories without reading frequencies.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3858
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3865
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "patch_id": "patch.math.calculus.duplicate_orphan_cleanup.001",
+  "applied_at": "2026-06-27T10:18:16.346Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 3
+    }
+  },
+  "operations": [
+    {
+      "op": "deprecate_node",
+      "id": "math.kp.senior.calculus.two_sided_limit_needs_matching_sides",
+      "rationale": "Duplicate unreferenced mastery claim. Use canonical math.kp.senior.calculus.two_sided_limit_needs_both_sides instead."
+    },
+    {
+      "op": "deprecate_node",
+      "id": "math.misconception.senior.calculus.limit_equals_function_value_always",
+      "rationale": "Duplicate unattached diagnostic error. Use canonical math.misconception.senior.calculus.limit_equals_function_value instead."
+    },
+    {
+      "op": "deprecate_node",
+      "id": "math.misconception.senior.calculus.two_sided_limit_from_one_side",
+      "rationale": "Duplicate unattached diagnostic error. Use canonical math.misconception.senior.calculus.one_sided_limit_ignored instead."
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/calculus.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2311
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2311
+  }
+}

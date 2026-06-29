@@ -1,0 +1,138 @@
+{
+  "patch_id": "patch.math.chance_events.experiment_requires_b.001",
+  "applied_at": "2026-06-28T12:44:34.282Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frequency_table.requires.tally_outcomes",
+        "from": "math.probability.chance.frequency_table_for_trials",
+        "to": "math.probability.chance.tally_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Frequency tables depend on tallying outcomes across trials.",
+        "failure_signal": "Learner cannot organise trial counts by outcome category.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_predicted_observed.requires.tally_outcomes",
+        "from": "math.probability.chance.compare_predicted_observed",
+        "to": "math.probability.chance.tally_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing prediction with observation depends on tallying observed outcomes.",
+        "failure_signal": "Learner compares predictions to anecdotes rather than counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeat_trials.requires.record_trial",
+        "from": "math.probability.chance.repeat_trials_for_stability",
+        "to": "math.probability.chance.record_trial_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Repeating trials depends on recording outcomes consistently.",
+        "failure_signal": "Learner repeats the experiment but cannot aggregate comparable trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.requires.frequency_table",
+        "from": "math.probability.chance.relative_frequency_intro",
+        "to": "math.probability.chance.frequency_table_for_trials",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Relative frequency depends on counted trial outcomes.",
+        "failure_signal": "Learner cannot form a frequency ratio from the table.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.small_sample_variability.requires.relative_frequency",
+        "from": "math.probability.chance.small_sample_variability",
+        "to": "math.probability.chance.relative_frequency_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Small-sample variability depends on comparing relative frequencies from trials.",
+        "failure_signal": "Learner expects a small sample to match long-run proportions exactly.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.long_run_stability.requires.repeat_trials",
+        "from": "math.probability.chance.long_run_stability",
+        "to": "math.probability.chance.repeat_trials_for_stability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Long-run stability depends on repeated trials.",
+        "failure_signal": "Learner cannot explain why more trials may stabilise relative frequencies.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3581
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3587
+  }
+}

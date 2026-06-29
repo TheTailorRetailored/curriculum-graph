@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.quad_graph_requires_a.001",
+  "applied_at": "2026-06-28T09:29:11.508Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading_coeff_opening.requires.parabola_features",
+        "from": "math.algebra.quadratics.leading_coefficient_opening_direction",
+        "to": "math.algebra.quadratics.parabola_features",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Opening direction depends on recognising basic parabola features.",
+        "failure_signal": "Learner cannot connect coefficient sign to graph orientation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_constant.requires.standard_form",
+        "from": "math.algebra.quadratics.y_intercept_from_constant_term",
+        "to": "math.algebra.quadratics.standard_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading the y-intercept from the constant term depends on standard form.",
+        "failure_signal": "Learner confuses the constant term with an x-intercept.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.axis_symmetry_formula.requires.parabola_features",
+        "from": "math.algebra.quadratics.axis_symmetry_formula",
+        "to": "math.algebra.quadratics.parabola_features",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Axis-of-symmetry formulas depend on recognising a parabola's symmetric structure.",
+        "failure_signal": "Learner cannot relate the axis to the vertex or roots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3110
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3113
+  }
+}

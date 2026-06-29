@@ -1,0 +1,120 @@
+{
+  "patch_id": "patch.math.chance_events.language_requires_b.001",
+  "applied_at": "2026-06-28T12:43:14.081Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 5,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_chance_words.requires.chance_continuum",
+        "from": "math.probability.chance.compare_chance_words",
+        "to": "math.probability.chance.chance_continuum",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing chance words depends on ordering them on the chance continuum.",
+        "failure_signal": "Learner cannot rank chance terms consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.even_chance.requires.chance_continuum",
+        "from": "math.probability.chance.even_chance_language",
+        "to": "math.probability.chance.chance_continuum",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Even chance language depends on recognising middle likelihood on the continuum.",
+        "failure_signal": "Learner treats even chance as certain or impossible.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_likelihood.requires.compare_chance_words",
+        "from": "math.probability.chance.context_dependent_likelihood",
+        "to": "math.probability.chance.compare_chance_words",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Context-dependent likelihood depends on comparing chance words across situations.",
+        "failure_signal": "Learner ignores context when judging likelihood.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_unfair.requires.even_chance",
+        "from": "math.probability.chance.fair_unfair_situations",
+        "to": "math.probability.chance.even_chance_language",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Fair/unfair chance situations depend on even-chance comparison language.",
+        "failure_signal": "Learner calls a situation fair without comparing chances.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.fair_game_balance.requires.fair_unfair",
+        "from": "math.probability.chance.fair_game_outcome_balance",
+        "to": "math.probability.chance.fair_unfair_situations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Fair game outcome balance refines fair/unfair chance situations.",
+        "failure_signal": "Learner does not compare outcome chances when judging a game.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3572
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3577
+  }
+}

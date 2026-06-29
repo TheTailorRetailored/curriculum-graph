@@ -1,0 +1,72 @@
+{
+  "patch_id": "patch.math.ratio_rate_proportion.misconception_edges.001",
+  "applied_at": "2026-06-28T11:50:59.484Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equivalent_ratios.has_misconception.additive_scaling",
+        "from": "math.ratio.equivalent_ratios",
+        "to": "math.misconception.ratio.equivalent_ratio_additive_scaling",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_rates.has_misconception.without_units",
+        "from": "math.ratio.unit_rates",
+        "to": "math.misconception.ratio.unit_rate_without_units",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.proportional_relationships.has_misconception.all_linear",
+        "from": "math.ratio.proportional_relationships",
+        "to": "math.misconception.ratio.all_linear_relationships_proportional",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3416
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3419
+  }
+}

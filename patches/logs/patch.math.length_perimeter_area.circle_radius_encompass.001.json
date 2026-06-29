@@ -1,0 +1,54 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.circle_radius_encompass.001",
+  "applied_at": "2026-06-28T02:42:51.709Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.circles.encompasses.radius_diameter",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circles.encompasses.radius_diameter",
+        "from": "math.measurement.area.circles",
+        "to": "math.measurement.circles.radius_diameter_relationship",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "This learner-state belongs in the circle measurement sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3007
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3008
+  }
+}

@@ -1,0 +1,142 @@
+{
+  "patch_id": "patch.math.data_displays_hist_box_kp_mis.002m",
+  "applied_at": "2026-06-28T23:47:00.909Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_interpretation.targets_knowledge_point.histograms_group_intervals",
+        "from": "math.statistics.displays.histogram_interpretation",
+        "to": "math.kp.statistics.histograms_group_intervals",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_adjacent_bars.targets_knowledge_point.histogram_bars_touch_for_intervals",
+        "from": "math.statistics.displays.histogram_adjacent_bars",
+        "to": "math.kp.statistics.histogram_bars_touch_for_intervals",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_interpretation.has_misconception.histogram_as_bar_graph_categories",
+        "from": "math.statistics.displays.histogram_interpretation",
+        "to": "math.misconception.statistics.histogram_as_bar_graph_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histogram_adjacent_bars.has_misconception.histogram_gap_needed_between_bars",
+        "from": "math.statistics.displays.histogram_adjacent_bars",
+        "to": "math.misconception.statistics.histogram_gap_needed_between_bars",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_five_number_summary.targets_knowledge_point.box_plots_use_five_number_summary",
+        "from": "math.statistics.displays.box_plot_five_number_summary",
+        "to": "math.kp.statistics.box_plots_use_five_number_summary",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_boxplots_center_spread.targets_knowledge_point.box_plot_compares_median_iqr_range",
+        "from": "math.statistics.displays.compare_boxplots_center_spread",
+        "to": "math.kp.statistics.box_plot_compares_median_iqr_range",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_features.has_misconception.box_plot_shows_all_values",
+        "from": "math.statistics.displays.box_plot_features",
+        "to": "math.misconception.statistics.box_plot_shows_all_values",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_median_quartiles.has_misconception.box_plot_box_contains_all_data",
+        "from": "math.statistics.displays.box_plot_median_quartiles",
+        "to": "math.misconception.statistics.box_plot_box_contains_all_data",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3798
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3806
+  }
+}

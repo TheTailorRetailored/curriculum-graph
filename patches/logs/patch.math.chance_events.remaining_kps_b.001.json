@@ -1,0 +1,80 @@
+{
+  "patch_id": "patch.math.chance_events.remaining_kps_b.001",
+  "applied_at": "2026-06-28T12:36:02.160Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.table_sample_space_two_step",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.sample_space_lists_possible_outcomes",
+          "math.kp.probability.sample_space_outcomes_exactly_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.outcome_tree_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.sample_space_lists_possible_outcomes",
+          "math.kp.probability.sample_space_outcomes_exactly_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.favourable_outcomes_in_event",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.favourable_outcomes_define_event",
+          "math.kp.probability.event_may_have_multiple_outcomes"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.impossible_event_empty_outcome_set",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.impossible_event_has_zero_favourable_outcomes",
+          "math.kp.probability.favourable_outcomes_define_event"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.mutually_exclusive_simple_events",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.event_may_have_multiple_outcomes",
+          "math.kp.probability.favourable_outcomes_define_event"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3484
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3494
+  }
+}

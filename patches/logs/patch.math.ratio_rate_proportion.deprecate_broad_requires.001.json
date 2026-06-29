@@ -1,0 +1,40 @@
+{
+  "patch_id": "patch.math.ratio_rate_proportion.deprecate_broad_requires.001",
+  "applied_at": "2026-06-28T11:52:25.038Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.ratios_rates.requires.multiplicative_thinking",
+      "rationale": "Broad curriculum-view prerequisite replaced by learner-state prerequisite structure."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.proportional_reasoning.requires.ratios_rates",
+      "rationale": "Broad curriculum-view prerequisite replaced by learner-state prerequisite structure."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3419
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3419
+  }
+}

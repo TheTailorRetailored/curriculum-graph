@@ -1,0 +1,113 @@
+{
+  "patch_id": "patch.math.chance_events.language_requires.001",
+  "applied_at": "2026-06-28T12:42:38.062Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.everyday_chance_words",
+      "updates": {
+        "foundational": true,
+        "prerequisite_policy": {
+          "requires_prerequisites": false
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.possible_impossible.requires.everyday_chance_words",
+        "from": "math.probability.chance.possible_impossible_events",
+        "to": "math.probability.chance.everyday_chance_words",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Possible/impossible language builds on everyday chance words.",
+        "failure_signal": "Learner cannot classify events using basic chance terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.certain_impossible.requires.possible_impossible",
+        "from": "math.probability.chance.certain_and_impossible",
+        "to": "math.probability.chance.possible_impossible_events",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Certain/impossible events refine possible/impossible distinctions.",
+        "failure_signal": "Learner confuses impossible with merely unlikely.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.likely_unlikely.requires.possible_impossible",
+        "from": "math.probability.chance.likely_unlikely_language",
+        "to": "math.probability.chance.possible_impossible_events",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Likely/unlikely language depends on basic possible/impossible distinctions.",
+        "failure_signal": "Learner cannot distinguish chance from certainty.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_continuum.requires.likely_unlikely",
+        "from": "math.probability.chance.chance_continuum",
+        "to": "math.probability.chance.likely_unlikely_language",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The chance continuum orders likely and unlikely language.",
+        "failure_signal": "Learner cannot order chance terms by likelihood.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3568
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3572
+  }
+}

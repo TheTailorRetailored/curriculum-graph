@@ -1,0 +1,53 @@
+{
+  "patch_id": "patch.math.calculus.instantaneous_rate_specific_limit_prereq.001",
+  "applied_at": "2026-06-27T10:13:39.487Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.instantaneous_rate_of_change.requires.limits_continuity",
+      "rationale": "Instantaneous rate of change has a genuine limit-reasoning prerequisite, but it should target the specific learner_state node for limit notation/nearby behaviour rather than the broad Limits and continuity curriculum_view."
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.instantaneous_rate_of_change.requires.limit_notation",
+        "from": "math.senior.calculus.instantaneous_rate_of_change",
+        "to": "math.senior.calculus.limit_notation",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Instantaneous rate of change is defined as a limiting value of average rates, so learners must understand limit notation and approaching-input behaviour before the derivative concept is meaningful.",
+        "failure_signal": "Learner can compute average rates over intervals but cannot interpret what happens as the interval length approaches zero.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2310
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2311
+  }
+}

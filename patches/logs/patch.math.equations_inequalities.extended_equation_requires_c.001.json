@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.equations_inequalities.extended_equation_requires_c.001",
+  "applied_at": "2026-06-28T00:04:36.087Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_side_for_variable_terms.requires.variables_on_both_sides",
+        "from": "math.algebra.equations.choose_side_for_variable_terms",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Choosing a side for variable terms refines variables-on-both-sides solving.",
+        "failure_signal": "Learner moves variable terms mechanically without tracking signs or cancellation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.constant_terms_after_variable_terms.requires.choose_side_for_variable_terms",
+        "from": "math.algebra.equations.constant_terms_after_variable_terms",
+        "to": "math.algebra.equations.choose_side_for_variable_terms",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Moving constants comes after deciding where variable terms should be collected.",
+        "failure_signal": "Learner mixes variable and constant moves and loses sign information.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2405
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2407
+  }
+}

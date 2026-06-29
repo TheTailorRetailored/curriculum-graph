@@ -1,0 +1,57 @@
+{
+  "patch_id": "patch.math.decimals_percentages.percent_quantity_change_kps.001",
+  "applied_at": "2026-06-28T11:08:28.579Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 2
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.percentages.percent_of_quantity",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.percentages.percent_of_quantity_uses_base",
+          "math.kp.percentages.percent_of_quantity_is_part_of_base",
+          "math.kp.percentages.convert_percent_to_decimal_for_quantity",
+          "math.kp.percentages.percent_as_decimal_multiplier",
+          "math.kp.percentages.multiply_base_by_percent_rate",
+          "math.kp.percentages.percent_of_uses_base_quantity"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.percentages.percentage_increase_decrease",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.percentages.percentage_change_uses_original",
+          "math.kp.percentages.change_multiplier_represents_result",
+          "math.kp.percentages.percent_increase_adds_percent_of_original",
+          "math.kp.percentages.percent_decrease_subtracts_percent_of_original",
+          "math.kp.percentages.percent_as_decimal_multiplier"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/decimals_and_percentages.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3302
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3313
+  }
+}

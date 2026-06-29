@@ -1,0 +1,394 @@
+{
+  "patch_id": "patch.math.bivariate.misconception_attachments.001",
+  "applied_at": "2026-06-28T01:19:43.296Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 26,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_pairing_integrity.has_misconception.unpaired_values_as_points",
+        "from": "math.statistics.bivariate.variable_pairing_integrity",
+        "to": "math.misconception.statistics.unpaired_values_as_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_paired_data.has_misconception.unpaired_values_as_points",
+        "from": "math.statistics.bivariate.plot_paired_data",
+        "to": "math.misconception.statistics.unpaired_values_as_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.explanatory_response_variables.has_misconception.swapping_variables_has_no_effect",
+        "from": "math.statistics.bivariate.explanatory_response_variables",
+        "to": "math.misconception.statistics.swapping_variables_has_no_effect",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.explanatory_variable_on_x_axis.has_misconception.swapping_variables_has_no_effect",
+        "from": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+        "to": "math.misconception.statistics.swapping_variables_has_no_effect",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_vs_causation.has_misconception.correlation_means_causation",
+        "from": "math.statistics.bivariate.correlation_vs_causation",
+        "to": "math.misconception.statistics.correlation_means_causation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.lurking_variable_intro.has_misconception.correlation_means_causation",
+        "from": "math.statistics.bivariate.lurking_variable_intro",
+        "to": "math.misconception.statistics.correlation_means_causation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.causal_claim_evidence_intro.has_misconception.correlation_means_causation",
+        "from": "math.statistics.bivariate.causal_claim_evidence_intro",
+        "to": "math.misconception.statistics.correlation_means_causation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.strength_of_association.has_misconception.strong_correlation_from_two_points",
+        "from": "math.statistics.bivariate.strength_of_association",
+        "to": "math.misconception.statistics.strong_correlation_from_two_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_magnitude_interpretation.has_misconception.strong_correlation_from_two_points",
+        "from": "math.statistics.bivariate.correlation_magnitude_interpretation",
+        "to": "math.misconception.statistics.strong_correlation_from_two_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_requires_linear_context.has_misconception.correlation_for_any_pattern",
+        "from": "math.statistics.bivariate.correlation_requires_linear_context",
+        "to": "math.misconception.statistics.correlation_for_any_pattern",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.curved_association_detection.has_misconception.correlation_for_any_pattern",
+        "from": "math.statistics.bivariate.curved_association_detection",
+        "to": "math.misconception.statistics.correlation_for_any_pattern",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outlier_influence_on_correlation.has_misconception.outlier_should_always_be_ignored_bivariate",
+        "from": "math.statistics.bivariate.outlier_influence_on_correlation",
+        "to": "math.misconception.statistics.outlier_should_always_be_ignored_bivariate",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_of_best_fit_visual.has_misconception.line_best_fit_must_hit_all_points",
+        "from": "math.statistics.bivariate.line_of_best_fit_visual",
+        "to": "math.misconception.statistics.line_best_fit_must_hit_all_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.draw_line_through_middle_of_points.has_misconception.line_best_fit_must_hit_all_points",
+        "from": "math.statistics.bivariate.draw_line_through_middle_of_points",
+        "to": "math.misconception.statistics.line_best_fit_must_hit_all_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_of_best_fit_visual.has_misconception.best_fit_line_must_cross_origin",
+        "from": "math.statistics.bivariate.line_of_best_fit_visual",
+        "to": "math.misconception.statistics.best_fit_line_must_cross_origin",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.intercept_context_meaning.has_misconception.best_fit_line_must_cross_origin",
+        "from": "math.statistics.bivariate.intercept_context_meaning",
+        "to": "math.misconception.statistics.best_fit_line_must_cross_origin",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolation_beyond_data_range.has_misconception.extrapolation_as_reliable_as_interpolation",
+        "from": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "to": "math.misconception.statistics.extrapolation_as_reliable_as_interpolation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prediction_from_line_of_best_fit.has_misconception.model_prediction_is_exact",
+        "from": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "to": "math.misconception.statistics.model_prediction_is_exact",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residuals_intro.has_misconception.model_prediction_is_exact",
+        "from": "math.statistics.bivariate.residuals_intro",
+        "to": "math.misconception.statistics.model_prediction_is_exact",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_to_population_claims.has_misconception.sample_claim_without_uncertainty",
+        "from": "math.statistics.inference.sample_to_population_claims",
+        "to": "math.misconception.statistics.sample_claim_without_uncertainty",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.informal_confidence_language.has_misconception.sample_claim_without_uncertainty",
+        "from": "math.statistics.inference.informal_confidence_language",
+        "to": "math.misconception.statistics.sample_claim_without_uncertainty",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_variability.has_misconception.single_sample_exactly_equals_population",
+        "from": "math.statistics.inference.sampling_variability",
+        "to": "math.misconception.statistics.single_sample_exactly_equals_population",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_statistic_population_parameter.has_misconception.single_sample_exactly_equals_population",
+        "from": "math.statistics.inference.sample_statistic_population_parameter",
+        "to": "math.misconception.statistics.single_sample_exactly_equals_population",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.margin_of_error_as_plausible_range.has_misconception.margin_of_error_guarantees_truth",
+        "from": "math.statistics.inference.margin_of_error_as_plausible_range",
+        "to": "math.misconception.statistics.margin_of_error_guarantees_truth",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bias_threats_to_inference.has_misconception.bias_cancelled_by_confidence_language",
+        "from": "math.statistics.inference.bias_threats_to_inference",
+        "to": "math.misconception.statistics.bias_cancelled_by_confidence_language",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.limitations_statement_for_inference.has_misconception.bias_cancelled_by_confidence_language",
+        "from": "math.statistics.inference.limitations_statement_for_inference",
+        "to": "math.misconception.statistics.bias_cancelled_by_confidence_language",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2835
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2861
+  }
+}

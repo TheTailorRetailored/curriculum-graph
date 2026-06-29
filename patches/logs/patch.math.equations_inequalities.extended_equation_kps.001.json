@@ -1,0 +1,177 @@
+{
+  "patch_id": "patch.math.equations_inequalities.extended_equation_kps.001",
+  "applied_at": "2026-06-27T22:24:57.984Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 15
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.clear_denominators",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.clearing_denominators_preserves_equivalence",
+          "math.kp.equations.do_same_to_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.decimal_coefficients",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.do_same_to_both_sides",
+          "math.kp.equations.inverse_operations_isolate_variable"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.distribute_negative_brackets",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.negative_factor_distributes_to_all_terms"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.expand_then_collect",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.simplify_before_solving",
+          "math.kp.equations.negative_factor_distributes_to_all_terms"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.choose_side_for_variable_terms",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.variable_terms_can_cancel",
+          "math.kp.equations.do_same_to_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.constant_terms_after_variable_terms",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.do_same_to_both_sides",
+          "math.kp.equations.inverse_operations_isolate_variable"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.identity_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.variable_terms_can_cancel",
+          "math.kp.equations.solution_makes_equation_true"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.no_solution_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.variable_terms_can_cancel",
+          "math.kp.equations.solution_makes_equation_true"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.solution_set_reasoning",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.solution_makes_equation_true",
+          "math.kp.equations.variable_terms_can_cancel"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.literal_one_operation_rearrangement",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.literal_rearrangement_reverses_operations"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.literal_two_step_rearrangement",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.literal_rearrangement_reverses_operations",
+          "math.kp.equations.inverse_operations_isolate_variable"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.literal_factorise_to_isolate",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.literal_rearrangement_reverses_operations",
+          "math.kp.equations.simplify_before_solving"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.literal_variable_in_denominator",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.literal_rearrangement_reverses_operations",
+          "math.kp.equations.clearing_denominators_preserves_equivalence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.context_equations_define_variable",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.context_solution_must_fit_constraints"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.context_equations_validate_solution",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.context_solution_must_fit_constraints",
+          "math.kp.equations.solution_makes_equation_true"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2335
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2362
+  }
+}

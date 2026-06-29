@@ -1,0 +1,228 @@
+{
+  "patch_id": "patch.math.data_displays_box_children.002j",
+  "applied_at": "2026-06-28T14:11:11.689Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_features.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.box_plot_features",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Box plot features are central here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.box_plot_features",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.box_plot_features",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Box plot features are central here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_five_number_summary.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.box_plot_five_number_summary",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Five-number summaries support box plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.box_plot_five_number_summary",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.box_plot_five_number_summary",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Five-number summaries support box plots.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_median_quartiles.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.box_plot_median_quartiles",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Median and quartiles support box plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.box_plot_median_quartiles",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.box_plot_median_quartiles",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Median and quartiles support box plots.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_whiskers_range.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.box_plot_whiskers_range",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Whiskers and range support box plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.box_plot_whiskers_range",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.box_plot_whiskers_range",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Whiskers and range support box plots.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_box_plots.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.construct_box_plots",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Construction belongs with box plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.construct_box_plots",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.construct_box_plots",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Construction belongs with box plots.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_boxplots_center_spread.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.compare_boxplots_center_spread",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Comparison belongs with box plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.compare_boxplots_center_spread",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.compare_boxplots_center_spread",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparison belongs with box plots.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3780
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3792
+  }
+}

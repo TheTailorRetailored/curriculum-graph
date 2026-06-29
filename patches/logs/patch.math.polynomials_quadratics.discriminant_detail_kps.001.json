@@ -1,0 +1,57 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.discriminant_detail_kps.001",
+  "applied_at": "2026-06-28T09:24:09.133Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 3
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.discriminant_positive_two_roots",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.discriminant_classifies_roots"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.discriminant_zero_repeated_root",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.discriminant_classifies_roots"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.discriminant_negative_no_real_roots",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.discriminant_classifies_roots"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/polynomials_and_quadratics.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3079
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3082
+  }
+}

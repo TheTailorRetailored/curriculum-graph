@@ -1,0 +1,354 @@
+{
+  "patch_id": "patch.math.data_summaries_comparison_prereqs.004a",
+  "applied_at": "2026-06-29T01:01:53.276Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 18,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_centres.requires.centre_in_context",
+        "from": "math.statistics.summaries.compare_centres",
+        "to": "math.statistics.summaries.centre_in_context",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing centres requires interpreting centre in context.",
+        "failure_signal": "Learner compares centre values without naming what they mean.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_spreads.requires.range_as_spread",
+        "from": "math.statistics.summaries.compare_spreads",
+        "to": "math.statistics.summaries.range_as_spread",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Comparing spreads builds on spread measures.",
+        "failure_signal": "Learner compares centres but ignores variability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_spreads.requires.interquartile_range",
+        "from": "math.statistics.summaries.compare_spreads",
+        "to": "math.statistics.summaries.interquartile_range",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "IQR supports robust spread comparison.",
+        "failure_signal": "Learner compares spread using only extremes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_shapes.requires.shape_of_distribution_intro",
+        "from": "math.statistics.summaries.compare_shapes",
+        "to": "math.statistics.displays.shape_of_distribution_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Shape comparison builds on shape language from displays.",
+        "failure_signal": "Learner uses shape words without reading a display.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_outliers.requires.outliers_using_context",
+        "from": "math.statistics.summaries.compare_outliers",
+        "to": "math.statistics.summaries.outliers_using_context",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Outlier comparison depends on identifying contextual outliers.",
+        "failure_signal": "Learner ignores how unusual values affect groups.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_two_dot_plots.requires.compare_centres",
+        "from": "math.statistics.summaries.compare_two_dot_plots",
+        "to": "math.statistics.summaries.compare_centres",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Dot-plot comparison uses centre comparison.",
+        "failure_signal": "Learner compares dot plots only visually.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_two_dot_plots.requires.compare_spreads",
+        "from": "math.statistics.summaries.compare_two_dot_plots",
+        "to": "math.statistics.summaries.compare_spreads",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Dot-plot comparison uses spread comparison.",
+        "failure_signal": "Learner ignores variation between dot plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_box_plots.requires.five_number_summary",
+        "from": "math.statistics.summaries.compare_box_plots",
+        "to": "math.statistics.summaries.five_number_summary",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Box-plot comparison depends on five-number summaries.",
+        "failure_signal": "Learner reads boxes without quartile summaries.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_box_plots.requires.compare_boxplots_center_spread",
+        "from": "math.statistics.summaries.compare_box_plots",
+        "to": "math.statistics.displays.compare_boxplots_center_spread",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Box-plot comparison builds on display-level boxplot comparison.",
+        "failure_signal": "Learner cannot connect box features to centre and spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_centre_different_spread.requires.compare_centres",
+        "from": "math.statistics.summaries.same_centre_different_spread",
+        "to": "math.statistics.summaries.compare_centres",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "This contrast requires comparing centres.",
+        "failure_signal": "Learner misses that centres can be similar.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_centre_different_spread.requires.compare_spreads",
+        "from": "math.statistics.summaries.same_centre_different_spread",
+        "to": "math.statistics.summaries.compare_spreads",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "This contrast requires comparing spreads.",
+        "failure_signal": "Learner misses that spreads can differ.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_spread_different_centre.requires.compare_centres",
+        "from": "math.statistics.summaries.same_spread_different_centre",
+        "to": "math.statistics.summaries.compare_centres",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "This contrast requires comparing centres.",
+        "failure_signal": "Learner misses that centres can differ.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_spread_different_centre.requires.compare_spreads",
+        "from": "math.statistics.summaries.same_spread_different_centre",
+        "to": "math.statistics.summaries.compare_spreads",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "This contrast requires comparing spreads.",
+        "failure_signal": "Learner misses that spreads can be similar.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.group_comparison_overlap.requires.compare_two_dot_plots",
+        "from": "math.statistics.summaries.group_comparison_overlap",
+        "to": "math.statistics.summaries.compare_two_dot_plots",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Overlap reasoning builds from comparing displayed distributions.",
+        "failure_signal": "Learner treats groups as separate without considering overlap.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.practical_difference_intro.requires.group_comparison_overlap",
+        "from": "math.statistics.summaries.practical_difference_intro",
+        "to": "math.statistics.summaries.group_comparison_overlap",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Practical difference uses overlap and context.",
+        "failure_signal": "Learner treats any numerical difference as meaningful.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistical_claims_from_distributions.requires.compare_centres",
+        "from": "math.statistics.summaries.statistical_claims_from_distributions",
+        "to": "math.statistics.summaries.compare_centres",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Distribution claims use centre comparisons.",
+        "failure_signal": "Learner makes a claim without centre evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistical_claims_from_distributions.requires.compare_spreads",
+        "from": "math.statistics.summaries.statistical_claims_from_distributions",
+        "to": "math.statistics.summaries.compare_spreads",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Distribution claims use spread comparisons.",
+        "failure_signal": "Learner makes a claim without spread evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.summary_claim_in_context.requires.statistical_claims_from_distributions",
+        "from": "math.statistics.summaries.summary_claim_in_context",
+        "to": "math.statistics.summaries.statistical_claims_from_distributions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Contextual summary claims build on distribution claims.",
+        "failure_signal": "Learner writes a claim without naming groups, variable or context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4335
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4353
+  }
+}

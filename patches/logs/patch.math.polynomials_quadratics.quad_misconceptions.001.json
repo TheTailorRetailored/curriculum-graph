@@ -1,0 +1,72 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.quad_misconceptions.001",
+  "applied_at": "2026-06-28T09:30:49.281Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_monic_sum_product.has_misconception.sum_product_reversed",
+        "from": "math.algebra.quadratics.factor_monic_sum_product",
+        "to": "math.misconception.quadratics.factor_sum_product_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_formula.has_misconception.sign_error",
+        "from": "math.algebra.quadratics.quadratic_formula",
+        "to": "math.misconception.quadratics.quadratic_formula_sign_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_vertex_form.has_misconception.vertex_origin",
+        "from": "math.algebra.quadratics.graph_from_vertex_form",
+        "to": "math.misconception.quadratics.vertex_is_always_origin",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3119
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3122
+  }
+}

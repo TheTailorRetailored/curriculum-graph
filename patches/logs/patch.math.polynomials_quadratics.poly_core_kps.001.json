@@ -1,0 +1,68 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.poly_core_kps.001",
+  "applied_at": "2026-06-28T09:18:35.806Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.polynomial_terms",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.like_terms_same_powers"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.degree_of_polynomial",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.degree_highest_exponent",
+          "math.kp.polynomials.leading_term_sets_degree"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.leading_coefficient",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.leading_term_sets_degree"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.descending_power_order",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.degree_highest_exponent",
+          "math.kp.polynomials.leading_term_sets_degree"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/polynomials_and_quadratics.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3043
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3049
+  }
+}

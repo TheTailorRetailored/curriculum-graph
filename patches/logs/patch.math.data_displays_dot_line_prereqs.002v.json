@@ -1,0 +1,174 @@
+{
+  "patch_id": "patch.math.data_displays_dot_line_prereqs.002v",
+  "applied_at": "2026-06-28T23:50:29.656Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_dot_plots.requires.read_dot_plots",
+        "from": "math.statistics.displays.make_dot_plots",
+        "to": "math.statistics.displays.read_dot_plots",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Making a dot plot builds on reading one.",
+        "failure_signal": "Learner stacks dots but cannot read values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dot_plot_value_axis.requires.read_dot_plots",
+        "from": "math.statistics.displays.dot_plot_value_axis",
+        "to": "math.statistics.displays.read_dot_plots",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The value axis supports dot-plot reading.",
+        "failure_signal": "Learner treats dot positions as categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dot_stack_frequency.requires.dot_plot_value_axis",
+        "from": "math.statistics.displays.dot_stack_frequency",
+        "to": "math.statistics.displays.dot_plot_value_axis",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Dot stacks are interpreted over values.",
+        "failure_signal": "Learner counts stacks without linking them to values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clusters_gaps_outliers.requires.dot_stack_frequency",
+        "from": "math.statistics.displays.clusters_gaps_outliers",
+        "to": "math.statistics.displays.dot_stack_frequency",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Distribution features build on dot frequencies.",
+        "failure_signal": "Learner names features without reading repeated values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_of_distribution_intro.requires.clusters_gaps_outliers",
+        "from": "math.statistics.displays.shape_of_distribution_intro",
+        "to": "math.statistics.displays.clusters_gaps_outliers",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Shape language builds on visible features.",
+        "failure_signal": "Learner uses shape words without evidence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_for_measurement_data.requires.read_dot_plots",
+        "from": "math.statistics.displays.line_plots_for_measurement_data",
+        "to": "math.statistics.displays.read_dot_plots",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Line plots extend dot-plot reading to measurements.",
+        "failure_signal": "Learner reads marks without measurement values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plot_fraction_measurements.requires.line_plots_for_measurement_data",
+        "from": "math.statistics.displays.line_plot_fraction_measurements",
+        "to": "math.statistics.displays.line_plots_for_measurement_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Fractional line plots extend measurement line plots.",
+        "failure_signal": "Learner places fractions without reading the scale.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.display_center_spread_shape_language.requires.shape_of_distribution_intro",
+        "from": "math.statistics.displays.display_center_spread_shape_language",
+        "to": "math.statistics.displays.shape_of_distribution_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Centre and spread language builds on shape language.",
+        "failure_signal": "Learner describes a display without locating centre or spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3865
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3873
+  }
+}

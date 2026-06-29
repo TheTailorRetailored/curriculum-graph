@@ -1,0 +1,67 @@
+{
+  "patch_id": "patch.math.equations_inequalities.simultaneous_atomic_kps_b.001",
+  "applied_at": "2026-06-28T00:02:59.294Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.simultaneous.elimination_match_coefficients",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.simultaneous.elimination_preserves_solution"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.simultaneous.elimination_choose_add_or_subtract",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.simultaneous.elimination_preserves_solution"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.simultaneous.parallel_lines_no_solution",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.simultaneous.parallel_lines_have_no_intersection"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.simultaneous.same_line_infinite_solutions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.simultaneous.same_line_has_infinitely_many_solutions",
+          "math.kp.simultaneous.solution_satisfies_both"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2396
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2401
+  }
+}

@@ -1,0 +1,222 @@
+{
+  "patch_id": "patch.math.linear_relationships.coordinate_structure_diagnostics.001",
+  "applied_at": "2026-06-28T00:38:56.926Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.origin_on_coordinate_plane.part_of.coordinate_plane",
+        "from": "math.algebra.linear.origin_on_coordinate_plane",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_coordinate_horizontal_position.part_of.coordinate_plane",
+        "from": "math.algebra.linear.x_coordinate_horizontal_position",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_coordinate_vertical_position.part_of.coordinate_plane",
+        "from": "math.algebra.linear.y_coordinate_vertical_position",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_signs_by_quadrant.part_of.coordinate_plane",
+        "from": "math.algebra.linear.coordinate_signs_by_quadrant",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_axis_scale.part_of.coordinate_plane",
+        "from": "math.algebra.linear.read_axis_scale",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unequal_axis_scales.part_of.coordinate_plane",
+        "from": "math.algebra.linear.unequal_axis_scales",
+        "to": "math.algebra.linear.coordinate_plane",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.origin_on_coordinate_plane.requires.coordinate_axes",
+        "from": "math.algebra.linear.origin_on_coordinate_plane",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Identifying the origin depends on knowing the coordinate axes and where they meet.",
+        "failure_signal": "Learner cannot locate the crossing of the x-axis and y-axis as (0, 0).",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_coordinate_horizontal_position.requires.coordinate_axes",
+        "from": "math.algebra.linear.x_coordinate_horizontal_position",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading x-coordinates depends on distinguishing the horizontal coordinate direction from the vertical axis.",
+        "failure_signal": "Learner treats the first coordinate as vertical position or swaps axes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_coordinate_vertical_position.requires.coordinate_axes",
+        "from": "math.algebra.linear.y_coordinate_vertical_position",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading y-coordinates depends on distinguishing the vertical coordinate direction from the horizontal axis.",
+        "failure_signal": "Learner treats the second coordinate as horizontal position or swaps axes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.coordinate_signs_by_quadrant.requires.four_quadrants",
+        "from": "math.algebra.linear.coordinate_signs_by_quadrant",
+        "to": "math.algebra.linear.four_quadrants",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting coordinate signs by quadrant depends on knowing the four-quadrant plane.",
+        "failure_signal": "Learner cannot decide which coordinates are positive or negative in a quadrant.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_axis_scale.requires.coordinate_axes",
+        "from": "math.algebra.linear.read_axis_scale",
+        "to": "math.algebra.linear.coordinate_axes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading axis scale depends on identifying axes and tick marks as coordinate references.",
+        "failure_signal": "Learner counts grid squares without checking the scale shown on the axis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unequal_axis_scales.requires.read_axis_scale",
+        "from": "math.algebra.linear.unequal_axis_scales",
+        "to": "math.algebra.linear.read_axis_scale",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting unequal axis scales depends on reading each axis scale independently.",
+        "failure_signal": "Learner assumes both axes use the same scale and misreads plotted values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2472
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2484
+  }
+}

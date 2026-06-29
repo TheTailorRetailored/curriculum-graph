@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.equations_inequalities.simultaneous_requires_a.001",
+  "applied_at": "2026-06-28T00:08:22.370Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.check_ordered_pair_solution.requires.check_solutions_by_substitution",
+        "from": "math.algebra.simultaneous.check_ordered_pair_solution",
+        "to": "math.algebra.equations.check_solutions_by_substitution",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Checking an ordered pair in a system uses substitution into equations.",
+        "failure_signal": "Learner cannot verify whether a proposed ordered pair satisfies both equations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_isolate_variable.requires.rearrange_literal_equations",
+        "from": "math.algebra.simultaneous.substitution_isolate_variable",
+        "to": "math.algebra.equations.rearrange_literal_equations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Isolating a variable for substitution uses formula rearrangement skills.",
+        "failure_signal": "Learner cannot rearrange one equation to express a variable in terms of the other.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.substitution_equation_after_replace.requires.substitution_isolate_variable",
+        "from": "math.algebra.simultaneous.substitution_equation_after_replace",
+        "to": "math.algebra.simultaneous.substitution_isolate_variable",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Forming the equation after replacement depends on first isolating a variable for substitution.",
+        "failure_signal": "Learner substitutes before creating a valid expression for one variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2425
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2428
+  }
+}

@@ -16,6 +16,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.number.decimals.decimal_operations
     type: topic
     subject: Mathematics
@@ -32,6 +33,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.number.percentages.percent_concepts
     type: topic
     subject: Mathematics
@@ -48,6 +50,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.number.percentages.percentage_change
     type: topic
     subject: Mathematics
@@ -65,6 +68,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.decimals.tenths_as_decimal_fractions
     type: topic
     subject: Mathematics
@@ -78,10 +82,14 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.tenths_are_one_tenth_units
+      - math.kp.decimals.one_tenth_written_as_decimal
+      - math.kp.decimals.decimal_places_are_fractional_units
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.hundredths_as_decimal_fractions
     type: topic
     subject: Mathematics
@@ -95,10 +103,14 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.hundredths_are_one_hundredth_units
+      - math.kp.decimals.one_hundredth_written_as_decimal
+      - math.kp.decimals.decimal_places_are_fractional_units
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.thousandths_as_decimal_fractions
     type: topic
     subject: Mathematics
@@ -112,10 +124,14 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.thousandths_are_one_thousandth_units
+      - math.kp.decimals.one_thousandth_written_as_decimal
+      - math.kp.decimals.decimal_places_are_fractional_units
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.decimal_point_place_value
     type: topic
     subject: Mathematics
@@ -129,10 +145,15 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.decimal_point_separates_units
+      - math.kp.decimals.digits_right_of_decimal_are_fractional_places
+      - math.kp.decimals.decimal_point_aligns_place_values
+      - math.kp.decimals.decimal_places_are_fractional_units
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.decimals_on_number_line
     type: topic
     subject: Mathematics
@@ -145,10 +166,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.decimals_lie_between_whole_numbers
+      - math.kp.decimals.partition_number_line_by_decimal_place
+      - math.kp.decimals.number_line_position_shows_magnitude
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.compare_order_decimals
     type: topic
     subject: Mathematics
@@ -161,10 +186,15 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.compare_like_place_values_left_to_right
+      - math.kp.decimals.longer_decimal_not_always_larger
+      - math.kp.decimals.trailing_zeros_preserve_value
+      - math.kp.decimals.compare_decimals_by_place_value
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.rounding_decimals
     type: topic
     subject: Mathematics
@@ -178,10 +208,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.round_to_named_place
+      - math.kp.decimals.use_next_digit_to_round
+      - math.kp.decimals.rounding_estimates_magnitude
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.decimal_fraction_equivalents
     type: topic
     subject: Mathematics
@@ -194,10 +228,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.decimal_places_are_tenths_hundredths_thousandths
+      - math.kp.decimals.convert_power_of_ten_fraction_to_decimal
+      - math.kp.percentages.decimal_fraction_percent_equivalence
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.add_subtract_decimals
     type: topic
     subject: Mathematics
@@ -210,10 +248,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.align_decimal_points_for_addition_subtraction
+      - math.kp.decimals.regroup_decimal_place_values
+      - math.kp.decimals.align_like_place_values
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.multiply_decimal_by_whole_number
     type: topic
     subject: Mathematics
@@ -227,10 +269,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.multiply_decimal_by_whole_as_repeated_groups
+      - math.kp.decimals.estimate_decimal_product_magnitude
+      - math.kp.decimals.place_value_tracks_decimal_product
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.decimals.divide_decimal_by_whole_number
     type: topic
     subject: Mathematics
@@ -244,10 +290,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.decimals.divide_decimal_by_whole_as_equal_sharing
+      - math.kp.decimals.regroup_decimal_units_when_dividing
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.percentages.percent_as_hundredths
     type: topic
     subject: Mathematics
@@ -261,10 +310,14 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.percentages.percent_symbol_means_per_hundred
+      - math.kp.percentages.percent_can_be_written_over_100
+      - math.kp.percentages.percent_means_per_hundred
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.percentages.fraction_decimal_percent_equivalents
     type: topic
     subject: Mathematics
@@ -277,10 +330,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.percentages.percent_to_decimal_by_dividing_by_100
+      - math.kp.percentages.decimal_to_percent_by_multiplying_by_100
+      - math.kp.percentages.decimal_fraction_percent_equivalence
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.percentages.benchmark_percentages
     type: topic
     subject: Mathematics
@@ -294,10 +351,15 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.percentages.fifty_percent_is_one_half
+      - math.kp.percentages.twenty_five_percent_is_one_quarter
+      - math.kp.percentages.ten_percent_is_one_tenth
+      - math.kp.percentages.one_hundred_percent_is_the_whole
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.percentages.percent_of_quantity
     type: topic
     subject: Mathematics
@@ -311,10 +373,17 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.percentages.percent_of_quantity_uses_base
+      - math.kp.percentages.percent_of_quantity_is_part_of_base
+      - math.kp.percentages.convert_percent_to_decimal_for_quantity
+      - math.kp.percentages.percent_as_decimal_multiplier
+      - math.kp.percentages.multiply_base_by_percent_rate
+      - math.kp.percentages.percent_of_uses_base_quantity
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.percentages.percentage_increase_decrease
     type: topic
     subject: Mathematics
@@ -328,10 +397,16 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.percentages.percentage_change_uses_original
+      - math.kp.percentages.change_multiplier_represents_result
+      - math.kp.percentages.percent_increase_adds_percent_of_original
+      - math.kp.percentages.percent_decrease_subtracts_percent_of_original
+      - math.kp.percentages.percent_as_decimal_multiplier
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.decimals.decimal_places_are_fractional_units
     type: knowledge_point
     subject: Mathematics

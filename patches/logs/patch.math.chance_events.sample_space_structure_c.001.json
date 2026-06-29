@@ -1,0 +1,216 @@
+{
+  "patch_id": "patch.math.chance_events.sample_space_structure_c.001",
+  "applied_at": "2026-06-28T12:41:50.212Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.outcome_tree",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.outcome_tree_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Outcome trees organise sample spaces.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outcome_tree.part_of.sample_spaces",
+        "from": "math.probability.chance.outcome_tree_intro",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.non_equally_likely",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.non_equally_likely_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Non-equally likely outcomes are judged within a sample space.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.non_equally_likely.part_of.sample_spaces",
+        "from": "math.probability.chance.non_equally_likely_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.bias_devices",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.bias_in_chance_devices",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Device bias changes outcome likelihoods within a sample space.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bias_devices.part_of.sample_spaces",
+        "from": "math.probability.chance.bias_in_chance_devices",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.favourable_in_event",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.favourable_outcomes_in_event",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Favourable outcomes in an event are selected from a sample space.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_in_event.part_of.sample_spaces",
+        "from": "math.probability.chance.favourable_outcomes_in_event",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.complement_language",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.complementary_event_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Complementary-event language depends on sample-space partitioning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_language.part_of.sample_spaces",
+        "from": "math.probability.chance.complementary_event_language",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.impossible_empty",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.impossible_event_empty_outcome_set",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Impossible events have no favourable outcomes in the sample space.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.impossible_empty.part_of.sample_spaces",
+        "from": "math.probability.chance.impossible_event_empty_outcome_set",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3556
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3568
+  }
+}

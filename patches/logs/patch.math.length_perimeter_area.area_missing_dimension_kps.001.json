@@ -1,0 +1,50 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.area_missing_dimension_kps.001",
+  "applied_at": "2026-06-28T01:59:48.888Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 2
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.rectangle_missing_dimension",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.rectangle_area_rows_columns",
+          "math.kp.measurement.area_formulas_can_find_missing_dimensions"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.square_side_from_area",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.rectangle_area_rows_columns",
+          "math.kp.measurement.area_formulas_can_find_missing_dimensions"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2962
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2966
+  }
+}

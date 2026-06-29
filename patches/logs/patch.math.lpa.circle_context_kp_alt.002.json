@@ -1,0 +1,40 @@
+{
+  "patch_id": "patch.math.lpa.circle_context_kp_alt.002",
+  "applied_at": "2026-06-28T07:51:50.269Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.circles.circumference_area_contexts",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.circle_area_radius_squared",
+          "math.kp.measurement.circumference_uses_pi_diameter"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3035
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3037
+  }
+}

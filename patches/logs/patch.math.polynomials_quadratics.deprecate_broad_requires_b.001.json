@@ -1,0 +1,40 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.deprecate_broad_requires_b.001",
+  "applied_at": "2026-06-28T09:33:25.555Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.quadratic_functions.requires.quadratic_equations",
+      "rationale": "Broad curriculum-view prerequisite replaced by learner-state prerequisites."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.complex_arithmetic.requires.quadratic_equations",
+      "rationale": "Broad curriculum-view prerequisite replaced by later complex-number learner-state dependencies."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3125
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3125
+  }
+}

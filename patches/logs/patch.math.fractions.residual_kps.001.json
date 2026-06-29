@@ -1,0 +1,67 @@
+{
+  "patch_id": "patch.math.fractions.residual_kps.001",
+  "applied_at": "2026-06-28T10:09:44.340Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 3
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.non_unit_fractions_on_number_line",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.nonunit_number_line_count_unit_steps_from_zero",
+          "math.kp.fractions.nonunit_number_line_denominator_partitions_unit_interval",
+          "math.kp.fractions.nonunit_number_line_numerator_identifies_tick",
+          "math.kp.fractions.fractions_can_name_points"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.simplify_fractions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.identify_common_factor_to_simplify",
+          "math.kp.fractions.divide_both_terms_by_same_factor",
+          "math.kp.fractions.simplest_form_no_common_factor",
+          "math.kp.fractions.simplifying_preserves_value",
+          "math.kp.fractions.common_factor_identifies_equivalence"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.unit_fraction_size",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.larger_denominator_means_more_equal_parts",
+          "math.kp.fractions.more_equal_parts_make_smaller_unit",
+          "math.kp.fractions.larger_denominator_smaller_unit",
+          "math.kp.fractions.more_denominator_parts_make_smaller_units"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3245
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3248
+  }
+}

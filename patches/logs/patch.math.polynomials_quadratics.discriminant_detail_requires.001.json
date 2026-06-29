@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.discriminant_detail_requires.001",
+  "applied_at": "2026-06-28T09:28:30.612Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_positive.requires.discriminant",
+        "from": "math.algebra.quadratics.discriminant_positive_two_roots",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Classifying positive discriminant cases depends on discriminant reasoning.",
+        "failure_signal": "Learner cannot connect a positive value to two real roots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_zero.requires.discriminant",
+        "from": "math.algebra.quadratics.discriminant_zero_repeated_root",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Classifying zero discriminant cases depends on discriminant reasoning.",
+        "failure_signal": "Learner cannot connect zero discriminant to a repeated root.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant_negative.requires.discriminant",
+        "from": "math.algebra.quadratics.discriminant_negative_no_real_roots",
+        "to": "math.algebra.quadratics.discriminant",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Classifying negative discriminant cases depends on discriminant reasoning.",
+        "failure_signal": "Learner cannot connect a negative value to no real roots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3107
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3110
+  }
+}

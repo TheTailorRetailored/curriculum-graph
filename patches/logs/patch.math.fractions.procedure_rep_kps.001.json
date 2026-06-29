@@ -1,0 +1,75 @@
+{
+  "patch_id": "patch.math.fractions.procedure_rep_kps.001",
+  "applied_at": "2026-06-28T10:07:05.028Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.reciprocal_division_models",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.reciprocal_names_multiplicative_inverse",
+          "math.kp.fractions.division_by_fraction_asks_how_many_groups",
+          "math.kp.fractions.invert_and_multiply_matches_reciprocal_model",
+          "math.kp.fractions.fraction_division_result_can_be_larger"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.procedure.divide_by_fraction_using_reciprocal",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.reciprocal_names_multiplicative_inverse",
+          "math.kp.fractions.invert_and_multiply_matches_reciprocal_model",
+          "math.kp.fractions.fraction_division_result_can_be_larger"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.procedure.simplify_fraction_by_common_factor",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.identify_common_factor_to_simplify",
+          "math.kp.fractions.divide_both_terms_by_same_factor",
+          "math.kp.fractions.simplest_form_no_common_factor"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.representation.fraction_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.numerator_counts_selected_units",
+          "math.kp.fractions.denominator_counts_equal_parts",
+          "math.kp.fractions.fraction_bar_separates_part_and_whole_counts"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3222
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3235
+  }
+}

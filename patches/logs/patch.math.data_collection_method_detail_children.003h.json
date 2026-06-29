@@ -1,0 +1,525 @@
+{
+  "patch_id": "patch.math.data_collection_method_detail_children.003h",
+  "applied_at": "2026-06-29T00:39:04.270Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 30,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading_question_bias.part_of.collecting_data",
+        "from": "math.statistics.data.leading_question_bias",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Question wording affects surveys.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.leading_question_bias",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.leading_question_bias",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Question wording affects surveys.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.double_barrelled_question.part_of.collecting_data",
+        "from": "math.statistics.data.double_barrelled_question",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Double questions affect surveys.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.double_barrelled_question",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.double_barrelled_question",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Double questions affect surveys.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ambiguous_response_options.part_of.collecting_data",
+        "from": "math.statistics.data.ambiguous_response_options",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Response options affect surveys.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.ambiguous_response_options",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.ambiguous_response_options",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Response options affect surveys.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balanced_response_scale.part_of.collecting_data",
+        "from": "math.statistics.data.balanced_response_scale",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Balanced scales affect surveys.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.balanced_response_scale",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.balanced_response_scale",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Balanced scales affect surveys.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pilot_survey_questions.part_of.collecting_data",
+        "from": "math.statistics.data.pilot_survey_questions",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Pilot questions improve surveys.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.pilot_survey_questions",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.pilot_survey_questions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Pilot questions improve surveys.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.anonymous_response_considerations.part_of.collecting_data",
+        "from": "math.statistics.data.anonymous_response_considerations",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Anonymous responses affect surveys.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.anonymous_response_considerations",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.anonymous_response_considerations",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Anonymous responses affect surveys.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observational_vs_experimental_data.part_of.collecting_data",
+        "from": "math.statistics.data.observational_vs_experimental_data",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Collection method comparison belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.observational_vs_experimental_data",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.observational_vs_experimental_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Collection method comparison belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observation_protocol.part_of.collecting_data",
+        "from": "math.statistics.data.observation_protocol",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Observation protocols support observation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.observation_protocol",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.observation_protocol",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Observation protocols support observation.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.controlled_variable_intro.part_of.collecting_data",
+        "from": "math.statistics.data.controlled_variable_intro",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Control variables support experiments.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.controlled_variable_intro",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.controlled_variable_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Control variables support experiments.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.treatment_condition_intro.part_of.collecting_data",
+        "from": "math.statistics.data.treatment_condition_intro",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Treatment conditions support experiments.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.treatment_condition_intro",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.treatment_condition_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Treatment conditions support experiments.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeated_measurement_reliability.part_of.collecting_data",
+        "from": "math.statistics.data.repeated_measurement_reliability",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Repeated measures support reliability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.repeated_measurement_reliability",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.repeated_measurement_reliability",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Repeated measures support reliability.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_of_observation.part_of.collecting_data",
+        "from": "math.statistics.data.unit_of_observation",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Unit of observation supports records.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.unit_of_observation",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.unit_of_observation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Unit of observation supports records.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_of_interest.part_of.collecting_data",
+        "from": "math.statistics.data.variable_of_interest",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Variables support data records.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.variable_of_interest",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.variable_of_interest",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Variables support data records.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ethical_data_collection.part_of.collecting_data",
+        "from": "math.statistics.data.ethical_data_collection",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Ethics spans collection methods.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.ethical_data_collection",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.ethical_data_collection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Ethics spans collection methods.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_data_investigation.part_of.collecting_data",
+        "from": "math.statistics.data.plan_data_investigation",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Investigation planning spans collection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.plan_data_investigation",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.plan_data_investigation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Investigation planning spans collection.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3995
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4025
+  }
+}

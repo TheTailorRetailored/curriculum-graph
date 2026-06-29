@@ -1,0 +1,156 @@
+{
+  "patch_id": "patch.math.ratio_rate_proportion.explicit_topic_roles.001",
+  "applied_at": "2026-06-28T11:53:36.541Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 18
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.number.ratio.ratios_and_rates",
+      "updates": {
+        "role": "curriculum_view"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.number.ratio.proportional_reasoning",
+      "updates": {
+        "role": "curriculum_view"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.ratio_language",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.part_part_ratios",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.part_whole_ratios",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.ratio_notation",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.equivalent_ratios",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.ratio_tables",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.double_number_lines",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.rates_with_units",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.unit_rates",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.proportional_relationships",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.scale_factor_in_ratios",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.proportional_equations",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.constant_of_proportionality",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.direct_variation_graphs",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.scale_drawings",
+      "updates": {
+        "role": "learner_state"
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.proportion_problem_solving",
+      "updates": {
+        "role": "learner_state"
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/ratio_rate_and_proportion.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3419
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3419
+  }
+}

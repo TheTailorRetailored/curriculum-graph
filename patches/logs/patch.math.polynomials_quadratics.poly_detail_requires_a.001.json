@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.poly_detail_requires_a.001",
+  "applied_at": "2026-06-28T09:26:19.193Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading_coefficient.requires.degree_polynomial",
+        "from": "math.algebra.polynomials.leading_coefficient",
+        "to": "math.algebra.polynomials.degree_of_polynomial",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Leading coefficient depends on identifying the leading term by degree.",
+        "failure_signal": "Learner chooses the wrong term as leading.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.descending_power_order.requires.degree_polynomial",
+        "from": "math.algebra.polynomials.descending_power_order",
+        "to": "math.algebra.polynomials.degree_of_polynomial",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Ordering powers depends on comparing term degrees.",
+        "failure_signal": "Learner cannot arrange terms by exponent size.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_polynomials_negatives.requires.add_subtract_polynomials",
+        "from": "math.algebra.polynomials.subtract_polynomials_with_negatives",
+        "to": "math.algebra.polynomials.add_subtract_polynomials",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Subtracting polynomials with negatives extends like-term addition and subtraction.",
+        "failure_signal": "Learner fails to distribute the subtraction sign across terms.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3096
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3099
+  }
+}

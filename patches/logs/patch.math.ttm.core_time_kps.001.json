@@ -1,0 +1,77 @@
+{
+  "patch_id": "patch.math.ttm.core_time_kps.001",
+  "applied_at": "2026-06-28T11:21:04.465Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.analogue_clock_hour_hand",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.analogue_hands_have_different_roles"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.analogue_clock_minute_hand",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.analogue_hands_have_different_roles",
+          "math.kp.measurement.sixty_minutes_in_hour"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.digital_time_notation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.sixty_minutes_in_hour"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.am_pm_interpretation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.am_pm_splits_day"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.twenty_four_hour_time",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.am_pm_splits_day",
+          "math.kp.measurement.sixty_minutes_in_hour"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/time_temperature_and_money.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3317
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3324
+  }
+}

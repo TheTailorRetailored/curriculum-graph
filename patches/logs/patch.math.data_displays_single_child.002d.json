@@ -1,0 +1,63 @@
+{
+  "patch_id": "patch.math.data_displays_single_child.002d",
+  "applied_at": "2026-06-28T14:08:14.134Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_dot_plots.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.read_dot_plots",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Reading dot plots is core display work.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.read_dot_plots",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.read_dot_plots",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading dot plots is core display work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3747
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3749
+  }
+}

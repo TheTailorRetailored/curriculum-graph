@@ -1,0 +1,402 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.rectangles_triangles_structure.001",
+  "applied_at": "2026-06-28T01:57:38.949Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 24,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.area_as_covering",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.area_as_covering",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Area as covering is the conceptual base for rectangle and triangle area.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_as_covering.part_of.rectangles_triangles",
+        "from": "math.measurement.area.area_as_covering",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.array_model_area",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.array_model_area",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Array models connect square-unit counting to rectangle area formulas.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.array_model_area.part_of.rectangles_triangles",
+        "from": "math.measurement.area.array_model_area",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.rectangle_area_formula",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.rectangle_area_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rectangle area formula is a core learner-state in this sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_area_formula.part_of.rectangles_triangles",
+        "from": "math.measurement.area.rectangle_area_formula",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.square_area_formula",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.square_area_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Square area formula is a special case of rectangle area.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_area_formula.part_of.rectangles_triangles",
+        "from": "math.measurement.area.square_area_formula",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.triangle_area_half_rectangle",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.triangle_area_half_rectangle",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Triangle area as half of a rectangle is part of the rectangles and triangles area sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_area_half_rectangle.part_of.rectangles_triangles",
+        "from": "math.measurement.area.triangle_area_half_rectangle",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.parallelogram_area_rearrangement",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.parallelogram_area_rearrangement",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Parallelogram area by rearrangement extends rectangle area reasoning.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_area_rearrangement.part_of.rectangles_triangles",
+        "from": "math.measurement.area.parallelogram_area_rearrangement",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.rectangle_missing_dimension",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.rectangle_missing_dimension",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding a rectangle dimension from area extends rectangle area formula work.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_missing_dimension.part_of.rectangles_triangles",
+        "from": "math.measurement.area.rectangle_missing_dimension",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.square_side_from_area",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.square_side_from_area",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding a square side from area is a special-case area formula learner-state.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_side_from_area.part_of.rectangles_triangles",
+        "from": "math.measurement.area.square_side_from_area",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.triangle_base_height_pairs",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.triangle_base_height_pairs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying triangle base-height pairs is part of triangle area reasoning.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_base_height_pairs.part_of.rectangles_triangles",
+        "from": "math.measurement.area.triangle_base_height_pairs",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.triangle_missing_base_height",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.triangle_missing_base_height",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding missing base or height from triangle area belongs in the triangle area sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.triangle_missing_base_height.part_of.rectangles_triangles",
+        "from": "math.measurement.area.triangle_missing_base_height",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.parallelogram_base_height_pairs",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.parallelogram_base_height_pairs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Parallelogram base-height pairs are part of parallelogram area reasoning.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_base_height_pairs.part_of.rectangles_triangles",
+        "from": "math.measurement.area.parallelogram_base_height_pairs",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangles_triangles.encompasses.parallelogram_missing_base_height",
+        "from": "math.measurement.area.rectangles_triangles",
+        "to": "math.measurement.area.parallelogram_missing_base_height",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding missing base or height from parallelogram area belongs in the parallelogram area sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallelogram_missing_base_height.part_of.rectangles_triangles",
+        "from": "math.measurement.area.parallelogram_missing_base_height",
+        "to": "math.measurement.area.rectangles_triangles",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2930
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2954
+  }
+}

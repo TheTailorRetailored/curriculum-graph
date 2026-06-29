@@ -1,0 +1,86 @@
+{
+  "patch_id": "patch.math.ttm.misconception_edges.001",
+  "applied_at": "2026-06-28T11:30:29.638Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.minute_hand.has_misconception.read_as_hour",
+        "from": "math.measurement.time.analogue_clock_minute_hand",
+        "to": "math.misconception.measurement.minute_hand_read_as_hour",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_across_hour.has_misconception.base_ten",
+        "from": "math.measurement.time.elapsed_time_across_hour",
+        "to": "math.misconception.measurement.time_base_ten_minutes",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_midnight.has_misconception.am_pm_crossing",
+        "from": "math.measurement.time.elapsed_time_across_midnight",
+        "to": "math.misconception.measurement.am_pm_crossing_error",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discount.has_misconception.subtract_percent_points",
+        "from": "math.measurement.money.discount_calculations",
+        "to": "math.misconception.measurement.discount_subtract_percent_points",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3376
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3380
+  }
+}

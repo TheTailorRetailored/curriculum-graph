@@ -1,0 +1,102 @@
+{
+  "patch_id": "patch.math.ttm.money_requires.001",
+  "applied_at": "2026-06-28T11:29:20.087Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_price.requires.unit_rates",
+        "from": "math.measurement.money.unit_price_comparison",
+        "to": "math.ratio.unit_rates",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Unit-price comparison depends on unit-rate reasoning.",
+        "failure_signal": "Learner compares totals instead of cost per one unit.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discount.requires.percent_of_quantity",
+        "from": "math.measurement.money.discount_calculations",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Discount calculations depend on finding a percent of a base amount.",
+        "failure_signal": "Learner subtracts the percent number rather than the percent of the price.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.profit_loss.requires.percentage_change",
+        "from": "math.measurement.money.profit_loss_calculations",
+        "to": "math.percentages.percentage_increase_decrease",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Profit and loss calculations depend on percentage change from an original amount.",
+        "failure_signal": "Learner uses the wrong base amount for gain or loss.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_interest.requires.percent_multiplier",
+        "from": "math.measurement.money.simple_interest_calculations",
+        "to": "math.percentages.percent_of_quantity",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Simple interest depends on applying a percent rate to a principal.",
+        "failure_signal": "Learner cannot use the rate with the principal and time.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3372
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3376
+  }
+}

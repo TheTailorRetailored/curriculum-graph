@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.equations_inequalities.inequality_requires_b.001",
+  "applied_at": "2026-06-28T00:07:08.940Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_subtract_solve.requires.symbols_and_solution_sets",
+        "from": "math.algebra.inequalities.add_subtract_solve",
+        "to": "math.algebra.inequalities.symbols_and_solution_sets",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Solving inequalities by addition or subtraction requires interpreting inequality statements as solution sets.",
+        "failure_signal": "Learner solves symbolically but cannot state or test the solution set.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_divide_positive.requires.add_subtract_solve",
+        "from": "math.algebra.inequalities.multiply_divide_positive",
+        "to": "math.algebra.inequalities.add_subtract_solve",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Multiplication and division inequality steps build on simpler additive solving steps.",
+        "failure_signal": "Learner cannot preserve the inequality relationship while isolating a variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_divide_negative.requires.reverse_sign_negative_multiplier",
+        "from": "math.algebra.inequalities.multiply_divide_negative",
+        "to": "math.algebra.inequalities.reverse_sign_negative_multiplier",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Multiplying or dividing by a negative requires knowing that the inequality direction reverses.",
+        "failure_signal": "Learner solves with a negative factor but leaves the inequality symbol unchanged.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2419
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2422
+  }
+}

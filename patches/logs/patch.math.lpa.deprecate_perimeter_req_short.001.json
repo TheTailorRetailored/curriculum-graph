@@ -1,0 +1,35 @@
+{
+  "patch_id": "patch.math.lpa.deprecate_perimeter_req_short.001",
+  "applied_at": "2026-06-28T03:11:31.134Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.perimeter.requires.metric_units",
+      "rationale": "Broad curriculum-view prerequisite replaced by learner-state structure."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3033
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3033
+  }
+}

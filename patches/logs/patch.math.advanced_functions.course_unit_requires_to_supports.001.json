@@ -1,0 +1,93 @@
+{
+  "patch_id": "patch.math.advanced_functions.course_unit_requires_to_supports.001",
+  "applied_at": "2026-06-27T08:22:28.851Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.function_notation.requires.quadratic_functions",
+      "rationale": "Function notation and composition is a curriculum_view course unit, so broad prior-course sequencing should not be represented as a diagnostic requires edge."
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quadratic_functions.supports.function_notation",
+        "from": "math.algebra.quadratics.quadratic_functions",
+        "to": "math.senior.functions.function_notation",
+        "type": "supports",
+        "confidence": "medium",
+        "rationale": "Quadratic function experience is useful background for senior function notation and graph work, but the course unit should not hard-require quadratics as a diagnostic prerequisite.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.exp_log.requires.index_laws",
+      "rationale": "Exponential and logarithmic functions is a curriculum_view course unit, and its real diagnostic dependencies already live on learner-state children such as exponential function form and logarithm laws."
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.index_laws.supports.exp_log_functions",
+        "from": "math.number.powers.index_laws",
+        "to": "math.senior.functions.exponential_logarithmic_functions",
+        "type": "supports",
+        "confidence": "high",
+        "rationale": "Index laws are important background for the exponential and logarithmic functions unit, while specific learner-state prerequisites remain attached to exponential form and logarithm laws.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.trig_functions.requires.right_triangle_trig",
+      "rationale": "Trigonometric functions is a curriculum_view course unit, so prior right-triangle trigonometry should not be encoded as a hard diagnostic prerequisite on the whole unit."
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.right_triangle_trig.supports.trig_functions",
+        "from": "math.measurement.trig.right_triangle_trigonometry",
+        "to": "math.senior.functions.trigonometric_functions",
+        "type": "supports",
+        "confidence": "medium",
+        "rationale": "Right-triangle trigonometry is useful background for senior trigonometric functions, but the precise diagnostic dependencies are represented on learner-state children such as radian measure, unit circle, and sine/cosine topics.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2303
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2306
+  }
+}

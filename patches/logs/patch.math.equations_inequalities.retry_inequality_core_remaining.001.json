@@ -1,0 +1,50 @@
+{
+  "patch_id": "patch.math.equations_inequalities.retry_inequality_core_remaining.001",
+  "applied_at": "2026-06-27T23:57:22.929Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 2
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.inequalities.solve_linear_inequalities",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.inequalities.solution_set_many_values",
+          "math.kp.inequalities.negative_multiplier_reverses_order"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.inequalities.reverse_sign_negative_multiplier",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.inequalities.negative_multiplier_reverses_order",
+          "math.kp.inequalities.negative_multiply_reverses_symbol"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2366
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2370
+  }
+}

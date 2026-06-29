@@ -1,0 +1,78 @@
+{
+  "patch_id": "patch.math.chance_events.experiment_kps.001",
+  "applied_at": "2026-06-28T12:34:28.478Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.identify_trial",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.trial_has_one_observed_outcome"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.predict_before_trial",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.chance_language_orders_likelihood",
+          "math.kp.probability.trial_has_one_observed_outcome"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.record_trial_outcomes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.trial_has_one_observed_outcome"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.outcome_recording_consistency",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.trial_has_one_observed_outcome",
+          "math.kp.probability.sample_space_outcomes_exactly_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.tally_outcomes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.trial_has_one_observed_outcome",
+          "math.kp.probability.repeated_trials_show_variation"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3456
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3464
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "patch_id": "patch.math.chance_events.sample_space_kps.001",
+  "applied_at": "2026-06-28T12:33:47.899Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 5
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.list_all_outcomes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.sample_space_lists_possible_outcomes",
+          "math.kp.probability.sample_space_outcomes_exactly_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.organised_sample_spaces",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.sample_space_lists_possible_outcomes",
+          "math.kp.probability.sample_spaces_need_no_duplicates"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.sample_space_checks",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.sample_space_lists_possible_outcomes",
+          "math.kp.probability.sample_spaces_need_no_duplicates",
+          "math.kp.probability.sample_space_outcomes_exactly_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.sample_space_completeness_check",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.sample_space_lists_possible_outcomes",
+          "math.kp.probability.sample_spaces_need_no_duplicates",
+          "math.kp.probability.sample_space_outcomes_exactly_once"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.systematic_outcome_listing",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.sample_space_lists_possible_outcomes",
+          "math.kp.probability.sample_space_outcomes_exactly_once"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3444
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3456
+  }
+}

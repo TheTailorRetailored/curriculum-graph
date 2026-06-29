@@ -1,0 +1,75 @@
+{
+  "patch_id": "patch.math.fractions.equivalence_kps.001",
+  "applied_at": "2026-06-28T10:02:15.914Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.fractions.equivalent_area_models",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.area_models_same_whole",
+          "math.kp.fractions.repartitioning_can_preserve_shaded_amount",
+          "math.kp.fractions.equivalent_same_quantity"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.equivalent_number_lines",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.equivalent_fractions_same_number_line_point",
+          "math.kp.fractions.align_fraction_ticks_for_equivalence",
+          "math.kp.fractions.same_distance_from_zero_means_same_value"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.equivalent_fraction_scaling",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.scale_numerator_denominator",
+          "math.kp.fractions.nonzero_scale_factor",
+          "math.kp.fractions.inverse_scaling_preserves_value"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.fractions.simplify_fractions",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.fractions.identify_common_factor_to_simplify",
+          "math.kp.fractions.divide_both_terms_by_same_factor",
+          "math.kp.fractions.simplest_form_no_common_factor",
+          "math.kp.fractions.simplifying_preserves_value"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/fractions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3155
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3168
+  }
+}

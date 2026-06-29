@@ -1,0 +1,162 @@
+{
+  "patch_id": "patch.math.data_displays_leftover_children.002y",
+  "applied_at": "2026-06-28T23:52:00.044Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.one_to_one_symbols.part_of.picture_bar_graphs",
+        "from": "math.statistics.displays.one_to_one_symbols",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "One-to-one symbols support picture graphs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar_graphs.encompasses.one_to_one_symbols",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.one_to_one_symbols",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "One-to-one symbols support picture graphs.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.many_to_one_symbols.part_of.picture_bar_graphs",
+        "from": "math.statistics.displays.many_to_one_symbols",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Many-to-one symbols support picture graphs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar_graphs.encompasses.many_to_one_symbols",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.many_to_one_symbols",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Many-to-one symbols support picture graphs.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.split_stems.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.split_stems",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Split stems support stem-and-leaf plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.split_stems",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.split_stems",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Split stems support stem-and-leaf plots.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency_histogram_intro.part_of.histograms_boxplots",
+        "from": "math.statistics.displays.relative_frequency_histogram_intro",
+        "to": "math.statistics.displays.histograms_boxplots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Relative-frequency histograms belong here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.histograms_boxplots.encompasses.relative_frequency_histogram_intro",
+        "from": "math.statistics.displays.histograms_boxplots",
+        "to": "math.statistics.displays.relative_frequency_histogram_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Relative-frequency histograms belong here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3887
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3895
+  }
+}

@@ -1,0 +1,156 @@
+{
+  "patch_id": "patch.math.data_displays_stem_box_prereqs.002x",
+  "applied_at": "2026-06-28T23:51:11.394Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 7,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_leaf_key_interpretation.requires.stem_and_leaf_plots",
+        "from": "math.statistics.displays.stem_leaf_key_interpretation",
+        "to": "math.statistics.displays.stem_and_leaf_plots",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Stem-leaf keys support the display.",
+        "failure_signal": "Learner misreads stems and leaves.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_leaves.requires.stem_leaf_key_interpretation",
+        "from": "math.statistics.displays.ordered_leaves",
+        "to": "math.statistics.displays.stem_leaf_key_interpretation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Ordering leaves follows key meaning.",
+        "failure_signal": "Learner orders leaves without place value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_five_number_summary.requires.box_plot_features",
+        "from": "math.statistics.displays.box_plot_five_number_summary",
+        "to": "math.statistics.displays.box_plot_features",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Box plots use five-number summaries.",
+        "failure_signal": "Learner names features without summary values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_median_quartiles.requires.box_plot_five_number_summary",
+        "from": "math.statistics.displays.box_plot_median_quartiles",
+        "to": "math.statistics.displays.box_plot_five_number_summary",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Median and quartiles are summary components.",
+        "failure_signal": "Learner locates the box without quartiles.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_whiskers_range.requires.box_plot_five_number_summary",
+        "from": "math.statistics.displays.box_plot_whiskers_range",
+        "to": "math.statistics.displays.box_plot_five_number_summary",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Whiskers use extremes from the summary.",
+        "failure_signal": "Learner treats whiskers as all values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.construct_box_plots.requires.box_plot_five_number_summary",
+        "from": "math.statistics.displays.construct_box_plots",
+        "to": "math.statistics.displays.box_plot_five_number_summary",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Constructing box plots requires the summary.",
+        "failure_signal": "Learner draws a box without summary values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_boxplots_center_spread.requires.box_plot_median_quartiles",
+        "from": "math.statistics.displays.compare_boxplots_center_spread",
+        "to": "math.statistics.displays.box_plot_median_quartiles",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Boxplot comparison uses medians and quartiles.",
+        "failure_signal": "Learner compares boxes without centre or spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3880
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3887
+  }
+}

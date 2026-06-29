@@ -15,6 +15,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.number.ratio.proportional_reasoning
     type: topic
     subject: Mathematics
@@ -32,6 +33,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.ratio.ratio_language
     type: topic
     subject: Mathematics
@@ -45,10 +47,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.ratio_compares_quantities
+      - math.kp.ratio.ratio_order_matters
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.part_part_ratios
     type: topic
     subject: Mathematics
@@ -62,10 +67,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.part_part_compares_two_parts
+      - math.kp.ratio.part_part_total_not_named_directly
+      - math.kp.ratio.part_part_order_matches_labels
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.part_whole_ratios
     type: topic
     subject: Mathematics
@@ -78,10 +87,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.part_whole_compares_part_to_total
+      - math.kp.ratio.whole_includes_all_parts
+      - math.kp.ratio.part_whole_connects_to_fraction
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.ratio_notation
     type: topic
     subject: Mathematics
@@ -95,10 +108,14 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.colon_notation_separates_terms
+      - math.kp.ratio.notation_preserves_quantity_order
+      - math.kp.ratio.ratio_order_matters
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.equivalent_ratios
     type: topic
     subject: Mathematics
@@ -112,10 +129,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.equivalent_ratios_preserve_relationship
+      - math.kp.ratio.scale_factor_preserves_ratio
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.ratio_tables
     type: topic
     subject: Mathematics
@@ -128,10 +148,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.ratio_tables_show_pairs
+      - math.kp.ratio.equivalent_ratios_preserve_relationship
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.double_number_lines
     type: topic
     subject: Mathematics
@@ -145,10 +168,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.double_number_lines_align_quantities
+      - math.kp.ratio.equivalent_ratios_preserve_relationship
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.rates_with_units
     type: topic
     subject: Mathematics
@@ -161,10 +187,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.rates_include_units
+      - math.kp.ratio.unit_rate_per_one
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.unit_rates
     type: topic
     subject: Mathematics
@@ -177,10 +206,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.unit_rate_per_one
+      - math.kp.ratio.rates_include_units
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.proportional_relationships
     type: topic
     subject: Mathematics
@@ -194,10 +226,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.proportional_relationship_constant_multiplier
+      - math.kp.ratio.equivalent_ratios_preserve_relationship
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.scale_factor_in_ratios
     type: topic
     subject: Mathematics
@@ -211,10 +246,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.scale_factor_preserves_ratio
+      - math.kp.ratio.equivalent_ratios_preserve_relationship
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.proportional_equations
     type: topic
     subject: Mathematics
@@ -228,10 +266,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.proportional_equations_represent_relationship
+      - math.kp.ratio.proportional_relationship_constant_multiplier
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.constant_of_proportionality
     type: topic
     subject: Mathematics
@@ -245,10 +286,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.proportional_relationship_constant_multiplier
+      - math.kp.ratio.unit_rate_per_one
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.direct_variation_graphs
     type: topic
     subject: Mathematics
@@ -261,10 +305,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.proportional_relationship_constant_multiplier
+      - math.kp.ratio.proportional_equations_represent_relationship
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.scale_drawings
     type: topic
     subject: Mathematics
@@ -277,10 +324,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.scale_factor_preserves_ratio
+      - math.kp.ratio.equivalent_ratios_preserve_relationship
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.ratio.proportion_problem_solving
     type: topic
     subject: Mathematics
@@ -294,10 +344,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.ratio.proportional_equations_represent_relationship
+      - math.kp.ratio.equivalent_ratios_preserve_relationship
+      - math.kp.ratio.unit_rate_per_one
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.ratio.ratio_compares_quantities
     type: knowledge_point
     subject: Mathematics

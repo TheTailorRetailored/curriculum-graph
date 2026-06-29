@@ -1,0 +1,113 @@
+{
+  "patch_id": "patch.math.ttm.time_requires_b.001",
+  "applied_at": "2026-06-28T11:28:47.417Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.time.calendar_dates_weeks_months",
+      "updates": {
+        "foundational": true,
+        "prerequisite_policy": {
+          "requires_prerequisites": false
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_number_line.requires.digital_time",
+        "from": "math.measurement.time.elapsed_time_on_number_line",
+        "to": "math.measurement.time.digital_time_notation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Elapsed-time number lines depend on reading start and end times.",
+        "failure_signal": "Learner cannot place times on the interval model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_across_hour.requires.number_line",
+        "from": "math.measurement.time.elapsed_time_across_hour",
+        "to": "math.measurement.time.elapsed_time_on_number_line",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Cross-hour elapsed time builds on interval-number-line reasoning.",
+        "failure_signal": "Learner cannot bridge to the next hour.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elapsed_midnight.requires.am_pm",
+        "from": "math.measurement.time.elapsed_time_across_midnight",
+        "to": "math.measurement.time.am_pm_interpretation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Cross-midnight elapsed time depends on day-half context.",
+        "failure_signal": "Learner treats midnight as ordinary subtraction within one day.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.timetable_intervals.requires.elapsed_number_line",
+        "from": "math.measurement.time.timetable_intervals",
+        "to": "math.measurement.time.elapsed_time_on_number_line",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Timetable intervals depend on elapsed-time interval reasoning.",
+        "failure_signal": "Learner reads timetable entries but cannot find durations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/time_temperature_and_money.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3368
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3372
+  }
+}

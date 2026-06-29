@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.equations_inequalities.inequality_requires_a.001",
+  "applied_at": "2026-06-28T00:06:39.074Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.boundary_points_open_closed.requires.symbols_and_solution_sets",
+        "from": "math.algebra.inequalities.boundary_points_open_closed",
+        "to": "math.algebra.inequalities.symbols_and_solution_sets",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Open and closed boundary points build on understanding inequality symbols and solution sets.",
+        "failure_signal": "Learner marks endpoints without connecting them to inclusive or exclusive inequality symbols.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.number_line_shading_direction.requires.symbols_and_solution_sets",
+        "from": "math.algebra.inequalities.number_line_shading_direction",
+        "to": "math.algebra.inequalities.symbols_and_solution_sets",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Number-line shading depends on interpreting inequality symbols as sets of values.",
+        "failure_signal": "Learner shades a direction without checking which values satisfy the inequality.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_from_number_line.requires.boundary_points_open_closed",
+        "from": "math.algebra.inequalities.write_from_number_line",
+        "to": "math.algebra.inequalities.boundary_points_open_closed",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Writing an inequality from a number line needs correct open or closed boundary interpretation.",
+        "failure_signal": "Learner writes the wrong inequality symbol for an open or closed endpoint.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2416
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2419
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "patch_id": "patch.math.data_displays_dot_kp_mis.002f",
+  "applied_at": "2026-06-28T14:09:04.803Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 7,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_dot_plots.targets_knowledge_point.dot_represents_data_value",
+        "from": "math.statistics.displays.read_dot_plots",
+        "to": "math.kp.statistics.dot_represents_data_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dot_plot_value_axis.targets_knowledge_point.dot_represents_data_value",
+        "from": "math.statistics.displays.dot_plot_value_axis",
+        "to": "math.kp.statistics.dot_represents_data_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dot_stack_frequency.targets_knowledge_point.dot_stack_shows_repeated_values",
+        "from": "math.statistics.displays.dot_stack_frequency",
+        "to": "math.kp.statistics.dot_stack_shows_repeated_values",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clusters_gaps_outliers.targets_knowledge_point.distribution_shape_visual_pattern",
+        "from": "math.statistics.displays.clusters_gaps_outliers",
+        "to": "math.kp.statistics.distribution_shape_visual_pattern",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.shape_of_distribution_intro.targets_knowledge_point.distribution_shape_visual_pattern",
+        "from": "math.statistics.displays.shape_of_distribution_intro",
+        "to": "math.kp.statistics.distribution_shape_visual_pattern",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_dot_plots.has_misconception.dot_plot_dots_are_categories",
+        "from": "math.statistics.displays.read_dot_plots",
+        "to": "math.misconception.statistics.dot_plot_dots_are_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dot_stack_frequency.has_misconception.dot_plot_dots_are_categories",
+        "from": "math.statistics.displays.dot_stack_frequency",
+        "to": "math.misconception.statistics.dot_plot_dots_are_categories",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3759
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3766
+  }
+}

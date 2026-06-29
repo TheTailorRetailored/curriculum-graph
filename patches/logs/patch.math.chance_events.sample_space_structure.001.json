@@ -1,0 +1,216 @@
+{
+  "patch_id": "patch.math.chance_events.sample_space_structure.001",
+  "applied_at": "2026-06-28T12:40:14.036Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.event_descriptions",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.event_descriptions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Event descriptions support sample-space reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.event_descriptions.part_of.sample_spaces",
+        "from": "math.probability.chance.event_descriptions",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.outcome_event",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Outcome/event distinction is central to sample spaces.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outcome_event.part_of.sample_spaces",
+        "from": "math.probability.chance.outcome_vs_event",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.list_outcomes",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.list_all_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Listing outcomes is core sample-space work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.list_outcomes.part_of.sample_spaces",
+        "from": "math.probability.chance.list_all_outcomes",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.organised_spaces",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.organised_sample_spaces",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Organised listings are core sample-space representations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.organised_spaces.part_of.sample_spaces",
+        "from": "math.probability.chance.organised_sample_spaces",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.sample_checks",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.sample_space_checks",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Checking sample spaces is part of sample-space reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_checks.part_of.sample_spaces",
+        "from": "math.probability.chance.sample_space_checks",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_spaces.encompasses.completeness",
+        "from": "math.probability.chance.sample_spaces",
+        "to": "math.probability.chance.sample_space_completeness_check",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Completeness checks refine sample-space reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.completeness.part_of.sample_spaces",
+        "from": "math.probability.chance.sample_space_completeness_check",
+        "to": "math.probability.chance.sample_spaces",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3534
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3546
+  }
+}

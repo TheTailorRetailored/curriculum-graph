@@ -15,6 +15,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.statistics.bivariate.association_correlation
     type: topic
     subject: Mathematics
@@ -32,6 +33,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.statistics.inference.informal_inference
     type: topic
     subject: Mathematics
@@ -49,6 +51,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.statistics.bivariate.paired_numerical_data
     type: topic
     subject: Mathematics
@@ -62,10 +65,18 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.paired_data_preserve_cases
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
+      reason: Entry learner-state for Bivariate data and inference; downstream
+        scatterplot and association skills depend on recognising paired
+        numerical data.
+    role: learner_state
   - id: math.statistics.bivariate.explanatory_response_variables
     type: topic
     subject: Mathematics
@@ -79,10 +90,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.explanatory_response_roles_define_axes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.plot_paired_data
     type: topic
     subject: Mathematics
@@ -95,10 +108,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.paired_data_preserve_cases
+      - math.kp.statistics.scatterplots_show_pairs
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.scatterplot_axes_scales
     type: topic
     subject: Mathematics
@@ -111,10 +127,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.scatterplots_show_pairs
+      - math.kp.linear.axis_scale_affects_reading
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.read_scatterplots
     type: topic
     subject: Mathematics
@@ -127,10 +146,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.scatterplots_show_pairs
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.scatterplot_clusters_outliers
     type: topic
     subject: Mathematics
@@ -143,10 +165,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.direction_of_association
     type: topic
     subject: Mathematics
@@ -159,10 +183,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.form_of_association
     type: topic
     subject: Mathematics
@@ -175,10 +201,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.strength_of_association
     type: topic
     subject: Mathematics
@@ -191,10 +219,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.correlation_coefficient_intro
     type: topic
     subject: Mathematics
@@ -208,10 +238,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.correlation_summarises_linear_association
+      - math.kp.statistics.correlation_between_negative_one_and_one
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.correlation_vs_causation
     type: topic
     subject: Mathematics
@@ -224,10 +257,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.correlation_not_causation
+      - math.kp.statistics.causal_claims_need_design_evidence
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.line_of_best_fit_visual
     type: topic
     subject: Mathematics
@@ -241,10 +277,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.line_of_best_fit_models_trend
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.interpret_slope_intercept_context
     type: topic
     subject: Mathematics
@@ -258,10 +296,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.slope_is_response_per_explanatory_unit
+      - math.kp.statistics.line_of_best_fit_models_trend
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.residuals_intro
     type: topic
     subject: Mathematics
@@ -275,10 +316,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.residual_is_observed_minus_predicted
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.sample_to_population_claims
     type: topic
     subject: Mathematics
@@ -291,10 +334,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
+      - math.kp.statistics.inference_claim_names_sample_population_measure
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.sampling_variability
     type: topic
     subject: Mathematics
@@ -308,10 +354,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.samples_vary_naturally
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.informal_confidence_language
     type: topic
     subject: Mathematics
@@ -325,10 +373,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.margin_of_error_intro
     type: topic
     subject: Mathematics
@@ -342,10 +392,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.compare_sample_groups
     type: topic
     subject: Mathematics
@@ -359,10 +411,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.samples_vary_naturally
+      - math.kp.statistics.inference_claims_need_uncertainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.inference_from_random_samples
     type: topic
     subject: Mathematics
@@ -376,10 +431,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.random_samples_support_population_claims
+      - math.kp.statistics.representative_samples_support_generalisation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.limits_of_informal_inference
     type: topic
     subject: Mathematics
@@ -393,10 +451,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
+      - math.kp.statistics.representative_samples_support_generalisation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.statistics.paired_data_preserve_cases
     type: knowledge_point
     subject: Mathematics
@@ -656,10 +717,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.paired_data_preserve_cases
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.variable_pairing_integrity
     type: topic
     subject: Mathematics
@@ -673,10 +736,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.paired_data_preserve_cases
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.explanatory_variable_on_x_axis
     type: topic
     subject: Mathematics
@@ -690,10 +755,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.explanatory_response_roles_define_axes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.response_variable_on_y_axis
     type: topic
     subject: Mathematics
@@ -707,10 +774,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.explanatory_response_roles_define_axes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.scatterplot_point_as_case
     type: topic
     subject: Mathematics
@@ -724,10 +793,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.paired_data_preserve_cases
+      - math.kp.statistics.scatterplots_show_pairs
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.choose_scatterplot_scale
     type: topic
     subject: Mathematics
@@ -741,10 +813,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.scatterplots_show_pairs
+      - math.kp.linear.axis_scale_affects_reading
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.overlapping_points_in_scatterplots
     type: topic
     subject: Mathematics
@@ -758,10 +833,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.scatterplots_show_pairs
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.positive_association_language
     type: topic
     subject: Mathematics
@@ -775,10 +852,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.negative_association_language
     type: topic
     subject: Mathematics
@@ -792,10 +871,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.no_association_language
     type: topic
     subject: Mathematics
@@ -809,10 +890,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.linear_association_detection
     type: topic
     subject: Mathematics
@@ -826,10 +909,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
+      - math.kp.statistics.correlation_summarises_linear_association
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.curved_association_detection
     type: topic
     subject: Mathematics
@@ -843,10 +929,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
+      - math.kp.statistics.correlation_summarises_linear_association
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.strong_vs_weak_association
     type: topic
     subject: Mathematics
@@ -860,10 +949,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.outlier_influence_on_correlation
     type: topic
     subject: Mathematics
@@ -877,10 +968,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.association_has_direction_form_strength
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.correlation_sign_interpretation
     type: topic
     subject: Mathematics
@@ -894,10 +987,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.correlation_summarises_linear_association
+      - math.kp.statistics.correlation_between_negative_one_and_one
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.correlation_magnitude_interpretation
     type: topic
     subject: Mathematics
@@ -911,10 +1007,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.correlation_summarises_linear_association
+      - math.kp.statistics.correlation_between_negative_one_and_one
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.correlation_requires_linear_context
     type: topic
     subject: Mathematics
@@ -928,10 +1027,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.correlation_summarises_linear_association
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.statistics.correlation_between_negative_one_and_one
     type: knowledge_point
     subject: Mathematics
@@ -1010,10 +1111,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.correlation_not_causation
+      - math.kp.statistics.causal_claims_need_design_evidence
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.causal_claim_evidence_intro
     type: topic
     subject: Mathematics
@@ -1027,10 +1131,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.causal_claims_need_design_evidence
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.draw_line_through_middle_of_points
     type: topic
     subject: Mathematics
@@ -1044,10 +1150,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.line_of_best_fit_models_trend
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.balanced_residuals_visual
     type: topic
     subject: Mathematics
@@ -1061,10 +1169,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.line_of_best_fit_models_trend
+      - math.kp.statistics.residual_is_observed_minus_predicted
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.interpolation_within_data_range
     type: topic
     subject: Mathematics
@@ -1078,10 +1189,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.line_of_best_fit_models_trend
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.extrapolation_beyond_data_range
     type: topic
     subject: Mathematics
@@ -1095,10 +1208,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.extrapolation_less_reliable
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.prediction_from_line_of_best_fit
     type: topic
     subject: Mathematics
@@ -1112,10 +1227,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.line_of_best_fit_models_trend
+      - math.kp.statistics.extrapolation_less_reliable
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.slope_units_in_context
     type: topic
     subject: Mathematics
@@ -1129,10 +1247,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.slope_is_response_per_explanatory_unit
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.intercept_context_meaning
     type: topic
     subject: Mathematics
@@ -1146,10 +1266,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.slope_is_response_per_explanatory_unit
+      - math.kp.statistics.line_of_best_fit_models_trend
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.residual_calculation
     type: topic
     subject: Mathematics
@@ -1163,10 +1286,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.residual_is_observed_minus_predicted
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.residual_sign_interpretation
     type: topic
     subject: Mathematics
@@ -1180,10 +1305,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.residual_is_observed_minus_predicted
+      - math.kp.statistics.residual_sign_shows_over_under_prediction
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.residual_plot_pattern_intro
     type: topic
     subject: Mathematics
@@ -1197,10 +1325,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.residual_is_observed_minus_predicted
+      - math.kp.statistics.residual_sign_shows_over_under_prediction
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.bivariate.sample_context_for_bivariate_claims
     type: topic
     subject: Mathematics
@@ -1214,10 +1345,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.statistics.extrapolation_less_reliable
     type: knowledge_point
     subject: Mathematics
@@ -1346,10 +1479,18 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claim_names_sample_population_measure
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
+      reason: "Local entry micro-state for informal inference: identifying the
+        population named by a claim is prerequisite to later
+        sample-to-population reasoning."
+    role: learner_state
   - id: math.statistics.inference.claim_sample_identification
     type: topic
     subject: Mathematics
@@ -1362,10 +1503,17 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claim_names_sample_population_measure
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
+      reason: "Local entry micro-state for informal inference: identifying the sample
+        in a claim is prerequisite to later sample-to-population reasoning."
+    role: learner_state
   - id: math.statistics.inference.sample_statistic_population_parameter
     type: topic
     subject: Mathematics
@@ -1379,10 +1527,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.sample_statistic_estimates_population_parameter
+      - math.kp.statistics.inference_claim_names_sample_population_measure
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.generalisation_scope_from_sample
     type: topic
     subject: Mathematics
@@ -1396,10 +1547,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.representative_samples_support_generalisation
+      - math.kp.statistics.inference_claims_need_uncertainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.representativeness_check_for_inference
     type: topic
     subject: Mathematics
@@ -1413,10 +1567,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.representative_samples_support_generalisation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.bias_threats_to_inference
     type: topic
     subject: Mathematics
@@ -1430,10 +1586,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.representative_samples_support_generalisation
+      - math.kp.statistics.larger_samples_reduce_random_variation_not_bias
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.sample_size_effect_on_uncertainty
     type: topic
     subject: Mathematics
@@ -1447,10 +1606,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.samples_vary_naturally
+      - math.kp.statistics.larger_samples_reduce_random_variation_not_bias
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.sampling_variability_between_samples
     type: topic
     subject: Mathematics
@@ -1464,10 +1626,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.samples_vary_naturally
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.margin_of_error_as_plausible_range
     type: topic
     subject: Mathematics
@@ -1481,10 +1645,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.group_difference_relative_to_variability
     type: topic
     subject: Mathematics
@@ -1498,10 +1664,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.samples_vary_naturally
+      - math.kp.statistics.inference_claims_need_uncertainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.informal_evidence_strength_language
     type: topic
     subject: Mathematics
@@ -1515,10 +1684,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.cautious_population_claim_wording
     type: topic
     subject: Mathematics
@@ -1532,10 +1703,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
+      - math.kp.statistics.inference_claim_names_sample_population_measure
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.limitations_statement_for_inference
     type: topic
     subject: Mathematics
@@ -1549,10 +1723,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
+      - math.kp.statistics.representative_samples_support_generalisation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.random_sample_condition_check
     type: topic
     subject: Mathematics
@@ -1566,10 +1743,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.random_samples_support_population_claims
+      - math.kp.statistics.representative_samples_support_generalisation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.nonrandom_sample_limitation
     type: topic
     subject: Mathematics
@@ -1583,10 +1763,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.representative_samples_support_generalisation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.statistics.inference.supported_vs_unsupported_claim
     type: topic
     subject: Mathematics
@@ -1600,10 +1782,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.statistics.inference_claims_need_uncertainty
+      - math.kp.statistics.representative_samples_support_generalisation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.statistics.sample_statistic_estimates_population_parameter
     type: knowledge_point
     subject: Mathematics
@@ -1715,6 +1900,25 @@ nodes:
     aliases: []
     year_band: 9-12
     pathways: []
+    status: active
+    knowledge_points: []
+    metadata:
+      created_by: assistant
+      review_status: ai_generated
+  - id: math.kp.statistics.explanatory_response_roles_define_axes
+    type: knowledge_point
+    subject: Mathematics
+    strand: Statistics
+    area: Bivariate data and inference
+    label: Explanatory and response roles define axes
+    description: In a predictive bivariate context, the explanatory variable is the
+      input-like variable placed on the x-axis and the response variable is the
+      output-like variable placed on the y-axis.
+    aliases: []
+    year_band: 8-11
+    pathways: []
+    observable: true
+    assessable: true
     status: active
     knowledge_points: []
     metadata:

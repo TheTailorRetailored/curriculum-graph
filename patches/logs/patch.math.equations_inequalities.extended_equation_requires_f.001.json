@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.equations_inequalities.extended_equation_requires_f.001",
+  "applied_at": "2026-06-28T00:06:08.917Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.literal_variable_in_denominator.requires.clear_denominators",
+        "from": "math.algebra.equations.literal_variable_in_denominator",
+        "to": "math.algebra.equations.clear_denominators",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Formula rearrangement with a variable in a denominator depends on clearing denominator structure safely.",
+        "failure_signal": "Learner transforms only part of the formula or creates invalid restrictions.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_equations_define_variable.requires.missing_value_equations",
+        "from": "math.algebra.equations.context_equations_define_variable",
+        "to": "math.algebra.equations.missing_value_equations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Defining a variable in context builds on representing unknown quantities in equations.",
+        "failure_signal": "Learner writes a variable without stating which contextual quantity it represents.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_equations_validate_solution.requires.check_solutions_by_substitution",
+        "from": "math.algebra.equations.context_equations_validate_solution",
+        "to": "math.algebra.equations.check_solutions_by_substitution",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Contextual validation includes checking the proposed solution in the equation.",
+        "failure_signal": "Learner accepts an algebraic answer without substituting it back or checking reasonableness.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2413
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2416
+  }
+}

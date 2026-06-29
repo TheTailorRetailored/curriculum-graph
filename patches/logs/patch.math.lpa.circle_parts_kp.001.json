@@ -1,0 +1,46 @@
+{
+  "patch_id": "patch.math.lpa.circle_parts_kp.001",
+  "applied_at": "2026-06-28T03:04:33.501Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_parts.targets.circle_area_kp",
+        "from": "math.measurement.circles.semicircles_quarter_circles",
+        "to": "math.kp.measurement.circle_area_radius_squared",
+        "type": "targets_knowledge_point",
+        "confidence": "medium",
+        "rationale": "This node uses fractional circle area based on the radius-squared formula.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3025
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3026
+  }
+}

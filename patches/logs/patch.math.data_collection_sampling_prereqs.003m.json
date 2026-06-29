@@ -1,0 +1,282 @@
+{
+  "patch_id": "patch.math.data_collection_sampling_prereqs.003m",
+  "applied_at": "2026-06-29T00:41:24.587Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 14,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.target_population.requires.population_and_sample",
+        "from": "math.statistics.data.target_population",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Target population refines population/sample ideas.",
+        "failure_signal": "Learner cannot state the group a claim concerns.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_frame.requires.target_population",
+        "from": "math.statistics.data.sampling_frame",
+        "to": "math.statistics.data.target_population",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Sampling frames are compared with the target population.",
+        "failure_signal": "Learner assumes the available list is the population.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.census_vs_sample.requires.population_and_sample",
+        "from": "math.statistics.data.census_vs_sample",
+        "to": "math.statistics.data.population_and_sample",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Census versus sample depends on population/sample distinction.",
+        "failure_signal": "Learner cannot tell full group from subset.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.random_sampling_intro.requires.sampling_frame",
+        "from": "math.statistics.data.random_sampling_intro",
+        "to": "math.statistics.data.sampling_frame",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Random sampling selects from a frame.",
+        "failure_signal": "Learner chooses randomly without a defined source list.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_random_sample_procedure.requires.random_sampling_intro",
+        "from": "math.statistics.data.simple_random_sample_procedure",
+        "to": "math.statistics.data.random_sampling_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Simple random procedures extend random sampling.",
+        "failure_signal": "Learner calls a casual choice random.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.systematic_sampling_intro.requires.sampling_frame",
+        "from": "math.statistics.data.systematic_sampling_intro",
+        "to": "math.statistics.data.sampling_frame",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Systematic sampling uses an ordered frame.",
+        "failure_signal": "Learner selects every kth item without checking the list.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stratified_sampling_intro.requires.target_population",
+        "from": "math.statistics.data.stratified_sampling_intro",
+        "to": "math.statistics.data.target_population",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Stratification uses population subgroups.",
+        "failure_signal": "Learner divides groups without connection to representation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.cluster_sampling_intro.requires.target_population",
+        "from": "math.statistics.data.cluster_sampling_intro",
+        "to": "math.statistics.data.target_population",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Cluster sampling uses natural groups in a population.",
+        "failure_signal": "Learner treats clusters as arbitrary categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.representative_samples.requires.target_population",
+        "from": "math.statistics.data.representative_samples",
+        "to": "math.statistics.data.target_population",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Representativeness is judged against the target population.",
+        "failure_signal": "Learner judges sample quality without a target group.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size.requires.representative_samples",
+        "from": "math.statistics.data.sample_size",
+        "to": "math.statistics.data.representative_samples",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Sample-size reasoning depends on sample quality.",
+        "failure_signal": "Learner treats size as sufficient for representation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sampling_bias.requires.representative_samples",
+        "from": "math.statistics.data.sampling_bias",
+        "to": "math.statistics.data.representative_samples",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Sampling bias is a failure of representativeness.",
+        "failure_signal": "Learner misses systematic over- or under-representation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convenience_sampling.requires.sampling_bias",
+        "from": "math.statistics.data.convenience_sampling",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Convenience sampling is a sampling-bias case.",
+        "failure_signal": "Learner accepts easy access as representative.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.voluntary_response_sampling.requires.sampling_bias",
+        "from": "math.statistics.data.voluntary_response_sampling",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Voluntary response is a sampling-bias case.",
+        "failure_signal": "Learner ignores self-selection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.nonresponse_bias.requires.sampling_bias",
+        "from": "math.statistics.data.nonresponse_bias",
+        "to": "math.statistics.data.sampling_bias",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Nonresponse bias is another representativeness failure.",
+        "failure_signal": "Learner ignores missing selected responses.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4081
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4095
+  }
+}

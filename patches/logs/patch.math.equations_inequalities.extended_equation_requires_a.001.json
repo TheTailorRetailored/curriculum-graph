@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.equations_inequalities.extended_equation_requires_a.001",
+  "applied_at": "2026-06-28T00:03:46.169Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clear_denominators.requires.rational_coefficient_equations",
+        "from": "math.algebra.equations.clear_denominators",
+        "to": "math.algebra.equations.rational_coefficient_equations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Clearing denominators builds on solving equations with rational coefficients.",
+        "failure_signal": "Learner does not apply the same transformation to all terms in the equation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.decimal_coefficients.requires.one_step_multiply_divide_equations",
+        "from": "math.algebra.equations.decimal_coefficients",
+        "to": "math.algebra.equations.one_step_multiply_divide_equations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Decimal coefficients use the same inverse multiplication and division structure as one-step equations.",
+        "failure_signal": "Learner cannot isolate the variable when a decimal coefficient is present.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2401
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2403
+  }
+}

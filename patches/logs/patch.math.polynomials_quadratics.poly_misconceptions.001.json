@@ -1,0 +1,72 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.poly_misconceptions.001",
+  "applied_at": "2026-06-28T09:30:21.874Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.add_subtract_polynomials.has_misconception.add_exponents",
+        "from": "math.algebra.polynomials.add_subtract_polynomials",
+        "to": "math.misconception.polynomials.add_exponents_when_adding_terms",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiply_monomial.has_misconception.distribute_first_only",
+        "from": "math.algebra.polynomials.multiply_monomial_polynomial",
+        "to": "math.misconception.polynomials.distribute_to_first_term_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.subtract_polynomials_negatives.has_misconception.subtract_first_only",
+        "from": "math.algebra.polynomials.subtract_polynomials_with_negatives",
+        "to": "math.misconception.polynomials.subtract_only_first_term",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3116
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3119
+  }
+}

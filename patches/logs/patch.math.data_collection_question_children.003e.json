@@ -1,0 +1,228 @@
+{
+  "patch_id": "patch.math.data_collection_question_children.003e",
+  "applied_at": "2026-06-29T00:37:40.186Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ask_counting_questions.part_of.questions_categories",
+        "from": "math.statistics.data.ask_counting_questions",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Counting questions begin this sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions_categories.encompasses.ask_counting_questions",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.ask_counting_questions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Counting questions begin this sequence.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sort_into_categories.part_of.questions_categories",
+        "from": "math.statistics.data.sort_into_categories",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Sorting responses belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions_categories.encompasses.sort_into_categories",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.sort_into_categories",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sorting responses belongs here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.category_labels.part_of.questions_categories",
+        "from": "math.statistics.data.category_labels",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Category labels support categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions_categories.encompasses.category_labels",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.category_labels",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Category labels support categories.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.categorical_vs_numerical_data.part_of.questions_categories",
+        "from": "math.statistics.data.categorical_vs_numerical_data",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Data type starts from categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions_categories.encompasses.categorical_vs_numerical_data",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Data type starts from categories.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.question_matches_data.part_of.questions_categories",
+        "from": "math.statistics.data.question_matches_data",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Questions must match data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions_categories.encompasses.question_matches_data",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Questions must match data.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.refine_statistical_questions.part_of.questions_categories",
+        "from": "math.statistics.data.refine_statistical_questions",
+        "to": "math.statistics.data.questions_categories",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Refining questions extends this sequence.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.questions_categories.encompasses.refine_statistical_questions",
+        "from": "math.statistics.data.questions_categories",
+        "to": "math.statistics.data.refine_statistical_questions",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Refining questions extends this sequence.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3933
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3945
+  }
+}

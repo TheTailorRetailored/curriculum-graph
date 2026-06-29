@@ -1,0 +1,72 @@
+{
+  "patch_id": "patch.math.equations_inequalities.extended_misconception_edges_b.001",
+  "applied_at": "2026-06-28T00:10:28.310Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.clear_denominators.has_misconception.clear_only_one_denominator",
+        "from": "math.algebra.equations.clear_denominators",
+        "to": "math.misconception.equations.clear_only_one_denominator",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.distribute_negative_brackets.has_misconception.negative_bracket_first_term_only",
+        "from": "math.algebra.equations.distribute_negative_brackets",
+        "to": "math.misconception.equations.negative_bracket_first_term_only",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solution_set_reasoning.has_misconception.cancelled_variable_means_zero_solution",
+        "from": "math.algebra.equations.solution_set_reasoning",
+        "to": "math.misconception.equations.cancelled_variable_means_zero_solution",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2435
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2438
+  }
+}

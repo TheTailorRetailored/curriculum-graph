@@ -1,0 +1,327 @@
+{
+  "patch_id": "patch.math.data_collection_collecting_children.003f",
+  "applied_at": "2026-06-29T00:38:07.269Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 18,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_marks.part_of.collecting_data",
+        "from": "math.statistics.data.tally_marks",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Tally marks record counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.tally_marks",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.tally_marks",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Tally marks record counts.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frequency_tables.part_of.collecting_data",
+        "from": "math.statistics.data.frequency_tables",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Frequency tables organise counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.frequency_tables",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Frequency tables organise counts.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.survey_data_collection.part_of.collecting_data",
+        "from": "math.statistics.data.survey_data_collection",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Surveys are a collection method.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.survey_data_collection",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Surveys are a collection method.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observation_data_collection.part_of.collecting_data",
+        "from": "math.statistics.data.observation_data_collection",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Observation is a collection method.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.observation_data_collection",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.observation_data_collection",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Observation is a collection method.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_data_collection.part_of.collecting_data",
+        "from": "math.statistics.data.experimental_data_collection",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Experiments collect data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.experimental_data_collection",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.experimental_data_collection",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Experiments collect data.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_measurement_data.part_of.collecting_data",
+        "from": "math.statistics.data.record_measurement_data",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Measurement records belong here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.record_measurement_data",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.record_measurement_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Measurement records belong here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measurement_unit_consistency.part_of.collecting_data",
+        "from": "math.statistics.data.measurement_unit_consistency",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Unit consistency supports collection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.measurement_unit_consistency",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.measurement_unit_consistency",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Unit consistency supports collection.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_recording_protocol.part_of.collecting_data",
+        "from": "math.statistics.data.data_recording_protocol",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Recording protocols support collection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.data_recording_protocol",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.data_recording_protocol",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Recording protocols support collection.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_cleaning_checks.part_of.collecting_data",
+        "from": "math.statistics.data.data_cleaning_checks",
+        "to": "math.statistics.data.collecting_data",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Cleaning checks follow collection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.collecting_data.encompasses.data_cleaning_checks",
+        "from": "math.statistics.data.collecting_data",
+        "to": "math.statistics.data.data_cleaning_checks",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Cleaning checks follow collection.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3945
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3963
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.quad_expression_kps_b.001",
+  "applied_at": "2026-06-28T09:22:39.697Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.difference_of_squares",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.factor_roots_zero_product"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.completing_square_form",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.completing_square_reveals_vertex"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.factor_monic_sum_product",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.factor_roots_zero_product"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.quadratics.factor_nonmonic_ac_method",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.quadratics.factor_roots_zero_product"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/polynomials_and_quadratics.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3063
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3067
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "patch_id": "patch.math.chance_events.language_structure.001",
+  "applied_at": "2026-06-28T12:37:03.693Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 10,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.everyday_words",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.everyday_chance_words",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Everyday chance words belong to chance language.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.everyday_words.part_of.chance_language",
+        "from": "math.probability.chance.everyday_chance_words",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.possible_impossible",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.possible_impossible_events",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Possible/impossible language belongs to chance language.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.possible_impossible.part_of.chance_language",
+        "from": "math.probability.chance.possible_impossible_events",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.certain_impossible",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.certain_and_impossible",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Certain/impossible events refine chance language.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.certain_impossible.part_of.chance_language",
+        "from": "math.probability.chance.certain_and_impossible",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.likely_unlikely",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.likely_unlikely_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Likely/unlikely terms belong to chance language.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.likely_unlikely.part_of.chance_language",
+        "from": "math.probability.chance.likely_unlikely_language",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_language.encompasses.compare_words",
+        "from": "math.probability.chance.language",
+        "to": "math.probability.chance.compare_chance_words",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing chance words belongs to chance language.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_words.part_of.chance_language",
+        "from": "math.probability.chance.compare_chance_words",
+        "to": "math.probability.chance.language",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3494
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3504
+  }
+}

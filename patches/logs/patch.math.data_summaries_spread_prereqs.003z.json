@@ -1,0 +1,354 @@
+{
+  "patch_id": "patch.math.data_summaries_spread_prereqs.003z",
+  "applied_at": "2026-06-29T01:00:09.558Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 18,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.effect_of_outliers_on_centre.requires.centre_in_context",
+        "from": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "to": "math.statistics.summaries.centre_in_context",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Outlier effects are interpreted through centre in context.",
+        "failure_signal": "Learner treats an extreme value as unrelated to typical value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_sensitive_to_outliers_topic.requires.effect_of_outliers_on_centre",
+        "from": "math.statistics.summaries.mean_sensitive_to_outliers_topic",
+        "to": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Mean sensitivity is a specific outlier effect.",
+        "failure_signal": "Learner assumes mean and median shift the same way.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.resistant_measure_intro.requires.effect_of_outliers_on_centre",
+        "from": "math.statistics.summaries.resistant_measure_intro",
+        "to": "math.statistics.summaries.effect_of_outliers_on_centre",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Resistance is about effect of outliers.",
+        "failure_signal": "Learner cannot say what a measure resists.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_resistant_to_outliers.requires.resistant_measure_intro",
+        "from": "math.statistics.summaries.median_resistant_to_outliers",
+        "to": "math.statistics.summaries.resistant_measure_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Median resistance is an example of resistance.",
+        "failure_signal": "Learner says median is resistant without explaining why.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.range_calculation.requires.range_as_spread",
+        "from": "math.statistics.summaries.range_calculation",
+        "to": "math.statistics.summaries.range_as_spread",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Range calculation builds on range as spread.",
+        "failure_signal": "Learner reports a maximum instead of max minus min.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.quartiles_intro.requires.median_ordered_data",
+        "from": "math.statistics.summaries.quartiles_intro",
+        "to": "math.statistics.summaries.median_ordered_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Quartiles build on ordered-data median reasoning.",
+        "failure_signal": "Learner places quartiles without ordering data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.lower_upper_quartiles.requires.quartiles_intro",
+        "from": "math.statistics.summaries.lower_upper_quartiles",
+        "to": "math.statistics.summaries.quartiles_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Lower and upper quartiles refine quartile meaning.",
+        "failure_signal": "Learner confuses Q1 and Q3 with min and max.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.iqr_calculation.requires.lower_upper_quartiles",
+        "from": "math.statistics.summaries.iqr_calculation",
+        "to": "math.statistics.summaries.lower_upper_quartiles",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "IQR calculation needs Q1 and Q3.",
+        "failure_signal": "Learner subtracts min from max for IQR.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interquartile_range.requires.iqr_calculation",
+        "from": "math.statistics.summaries.interquartile_range",
+        "to": "math.statistics.summaries.iqr_calculation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "IQR interpretation builds on IQR calculation.",
+        "failure_signal": "Learner computes Q3 minus Q1 without interpreting middle spread.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.five_number_summary_order.requires.lower_upper_quartiles",
+        "from": "math.statistics.summaries.five_number_summary_order",
+        "to": "math.statistics.summaries.lower_upper_quartiles",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Five-number order uses quartiles.",
+        "failure_signal": "Learner lists summary values in the wrong order.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.five_number_summary.requires.five_number_summary_order",
+        "from": "math.statistics.summaries.five_number_summary",
+        "to": "math.statistics.summaries.five_number_summary_order",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Five-number summaries use the ordered summary components.",
+        "failure_signal": "Learner omits or misorders one summary value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outlier_gap_detection.requires.clusters_gaps_outliers",
+        "from": "math.statistics.summaries.outlier_gap_detection",
+        "to": "math.statistics.displays.clusters_gaps_outliers",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Gap detection builds on seeing clusters and gaps in displays.",
+        "failure_signal": "Learner flags outliers without looking at display structure.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outliers_using_context.requires.outlier_gap_detection",
+        "from": "math.statistics.summaries.outliers_using_context",
+        "to": "math.statistics.summaries.outlier_gap_detection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Contextual outlier judgement starts from possible outliers.",
+        "failure_signal": "Learner treats every gap as an error or every extreme as valid.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.iqr_outlier_rule_intro.requires.interquartile_range",
+        "from": "math.statistics.summaries.iqr_outlier_rule_intro",
+        "to": "math.statistics.summaries.interquartile_range",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The IQR outlier rule requires IQR.",
+        "failure_signal": "Learner applies a rule without computing IQR.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.deviations_from_centre.requires.centre_in_context",
+        "from": "math.statistics.summaries.deviations_from_centre",
+        "to": "math.statistics.summaries.centre_in_context",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Deviations are distances from a central value.",
+        "failure_signal": "Learner measures variation without naming a centre.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_absolute_deviation_intro.requires.deviations_from_centre",
+        "from": "math.statistics.summaries.mean_absolute_deviation_intro",
+        "to": "math.statistics.summaries.deviations_from_centre",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "MAD averages absolute deviations.",
+        "failure_signal": "Learner averages distances without identifying deviations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variance_intro.requires.deviations_from_centre",
+        "from": "math.statistics.summaries.variance_intro",
+        "to": "math.statistics.summaries.deviations_from_centre",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Variance uses squared deviations from centre.",
+        "failure_signal": "Learner cannot connect variance to spread around the mean.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.standard_deviation_intro.requires.variance_intro",
+        "from": "math.statistics.summaries.standard_deviation_intro",
+        "to": "math.statistics.summaries.variance_intro",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Standard deviation is introduced through variance.",
+        "failure_signal": "Learner treats standard deviation as range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4317
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4335
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.poly_grouping_kp.001",
+  "applied_at": "2026-06-28T09:20:00.976Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.factor_by_grouping",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.distribution_multiplies_all_terms"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/polynomials_and_quadratics.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3057
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3058
+  }
+}

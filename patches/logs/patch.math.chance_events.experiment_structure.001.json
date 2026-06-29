@@ -1,0 +1,185 @@
+{
+  "patch_id": "patch.math.chance_events.experiment_structure.001",
+  "applied_at": "2026-06-28T12:38:22.860Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 10,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.identify_trial",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.identify_trial",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying trials is part of chance experiments.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_trial.part_of.chance_experiments",
+        "from": "math.probability.chance.identify_trial",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.predict",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.predict_before_trial",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Prediction before trials is part of chance experiments.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.predict_before_trial.part_of.chance_experiments",
+        "from": "math.probability.chance.predict_before_trial",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.record",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.record_trial_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Recording trial outcomes is part of chance experiments.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_trial_outcomes.part_of.chance_experiments",
+        "from": "math.probability.chance.record_trial_outcomes",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.tally",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.tally_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Tallying outcomes is part of chance experiments.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_outcomes.part_of.chance_experiments",
+        "from": "math.probability.chance.tally_outcomes",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.compare_predicted_observed",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.compare_predicted_observed",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing predicted and observed outcomes is part of chance experiments.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_predicted_observed.part_of.chance_experiments",
+        "from": "math.probability.chance.compare_predicted_observed",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3512
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3522
+  }
+}

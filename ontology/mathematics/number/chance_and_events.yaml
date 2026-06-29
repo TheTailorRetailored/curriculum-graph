@@ -17,6 +17,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.probability.chance.experiments
     type: topic
     subject: Mathematics
@@ -33,6 +34,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.probability.chance.sample_spaces
     type: topic
     subject: Mathematics
@@ -49,6 +51,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.probability.chance.everyday_chance_words
     type: topic
     subject: Mathematics
@@ -62,10 +65,15 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
+    role: learner_state
   - id: math.probability.chance.possible_impossible_events
     type: topic
     subject: Mathematics
@@ -78,10 +86,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
+      - math.kp.probability.impossible_event_has_zero_favourable_outcomes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.certain_and_impossible
     type: topic
     subject: Mathematics
@@ -94,10 +105,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
+      - math.kp.probability.impossible_event_has_zero_favourable_outcomes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.likely_unlikely_language
     type: topic
     subject: Mathematics
@@ -110,10 +124,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.compare_chance_words
     type: topic
     subject: Mathematics
@@ -127,10 +143,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.event_descriptions
     type: topic
     subject: Mathematics
@@ -143,10 +161,16 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.event_must_be_clear
+      - math.kp.probability.favourable_outcomes_define_event
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
+    role: learner_state
   - id: math.probability.chance.outcome_vs_event
     type: topic
     subject: Mathematics
@@ -160,10 +184,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.event_may_have_multiple_outcomes
+      - math.kp.probability.favourable_outcomes_define_event
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.fair_unfair_situations
     type: topic
     subject: Mathematics
@@ -177,10 +204,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.fair_game_equal_chances
+      - math.kp.probability.equally_likely_is_not_automatic
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.identify_trial
     type: topic
     subject: Mathematics
@@ -193,10 +223,15 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.trial_has_one_observed_outcome
     metadata:
       created_by: assistant
       review_status: ai_generated
+    foundational: true
+    prerequisite_policy:
+      requires_prerequisites: false
+    role: learner_state
   - id: math.probability.chance.predict_before_trial
     type: topic
     subject: Mathematics
@@ -209,10 +244,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
+      - math.kp.probability.trial_has_one_observed_outcome
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.record_trial_outcomes
     type: topic
     subject: Mathematics
@@ -225,10 +263,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.trial_has_one_observed_outcome
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.tally_outcomes
     type: topic
     subject: Mathematics
@@ -241,10 +281,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.trial_has_one_observed_outcome
+      - math.kp.probability.repeated_trials_show_variation
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.compare_predicted_observed
     type: topic
     subject: Mathematics
@@ -257,10 +300,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.repeated_trials_show_variation
+      - math.kp.probability.trial_has_one_observed_outcome
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.repeat_trials_for_stability
     type: topic
     subject: Mathematics
@@ -273,10 +319,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.repeated_trials_show_variation
+      - math.kp.probability.more_trials_stabilise_patterns
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.list_all_outcomes
     type: topic
     subject: Mathematics
@@ -290,10 +339,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.sample_space_lists_possible_outcomes
+      - math.kp.probability.sample_space_outcomes_exactly_once
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.organised_sample_spaces
     type: topic
     subject: Mathematics
@@ -306,10 +358,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.sample_space_lists_possible_outcomes
+      - math.kp.probability.sample_spaces_need_no_duplicates
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.equally_likely_outcomes
     type: topic
     subject: Mathematics
@@ -322,10 +377,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.equally_likely_is_not_automatic
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.favourable_outcomes
     type: topic
     subject: Mathematics
@@ -338,10 +395,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.favourable_outcomes_define_event
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.event_complement_intro
     type: topic
     subject: Mathematics
@@ -355,10 +414,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.complement_is_not_event
+      - math.kp.probability.event_may_have_multiple_outcomes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.mutually_exclusive_simple_events
     type: topic
     subject: Mathematics
@@ -371,10 +433,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.event_may_have_multiple_outcomes
+      - math.kp.probability.favourable_outcomes_define_event
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.sample_space_checks
     type: topic
     subject: Mathematics
@@ -388,10 +453,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.sample_space_lists_possible_outcomes
+      - math.kp.probability.sample_spaces_need_no_duplicates
+      - math.kp.probability.sample_space_outcomes_exactly_once
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.probability.chance_language_orders_likelihood
     type: knowledge_point
     subject: Mathematics
@@ -651,10 +720,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.even_chance_language
     type: topic
     subject: Mathematics
@@ -668,10 +739,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
+      - math.kp.probability.equally_likely_is_not_automatic
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.context_dependent_likelihood
     type: topic
     subject: Mathematics
@@ -684,10 +758,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.chance_language_orders_likelihood
+      - math.kp.probability.event_must_be_clear
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.clear_event_criteria
     type: topic
     subject: Mathematics
@@ -701,10 +778,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.event_must_be_clear
+      - math.kp.probability.favourable_outcomes_define_event
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.single_outcome_vs_multiple_outcome_event
     type: topic
     subject: Mathematics
@@ -718,10 +798,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.event_may_have_multiple_outcomes
+      - math.kp.probability.trial_has_one_observed_outcome
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.outcome_recording_consistency
     type: topic
     subject: Mathematics
@@ -735,10 +818,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.trial_has_one_observed_outcome
+      - math.kp.probability.sample_space_outcomes_exactly_once
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.frequency_table_for_trials
     type: topic
     subject: Mathematics
@@ -751,10 +837,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.repeated_trials_show_variation
+      - math.kp.probability.trial_has_one_observed_outcome
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.relative_frequency_intro
     type: topic
     subject: Mathematics
@@ -768,10 +857,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.repeated_trials_show_variation
+      - math.kp.probability.more_trials_stabilise_patterns
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.small_sample_variability
     type: topic
     subject: Mathematics
@@ -785,10 +877,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.repeated_trials_show_variation
+      - math.kp.probability.more_trials_improve_stability_not_certainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.long_run_stability
     type: topic
     subject: Mathematics
@@ -802,10 +897,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.more_trials_stabilise_patterns
+      - math.kp.probability.more_trials_improve_stability_not_certainty
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.systematic_outcome_listing
     type: topic
     subject: Mathematics
@@ -819,10 +917,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.sample_space_lists_possible_outcomes
+      - math.kp.probability.sample_space_outcomes_exactly_once
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.sample_space_completeness_check
     type: topic
     subject: Mathematics
@@ -835,10 +936,14 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.sample_space_lists_possible_outcomes
+      - math.kp.probability.sample_spaces_need_no_duplicates
+      - math.kp.probability.sample_space_outcomes_exactly_once
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.table_sample_space_two_step
     type: topic
     subject: Mathematics
@@ -851,10 +956,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.sample_space_lists_possible_outcomes
+      - math.kp.probability.sample_space_outcomes_exactly_once
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.outcome_tree_intro
     type: topic
     subject: Mathematics
@@ -868,10 +976,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.sample_space_lists_possible_outcomes
+      - math.kp.probability.sample_space_outcomes_exactly_once
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.non_equally_likely_outcomes
     type: topic
     subject: Mathematics
@@ -885,10 +996,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.equally_likely_is_not_automatic
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.bias_in_chance_devices
     type: topic
     subject: Mathematics
@@ -902,10 +1015,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.equally_likely_is_not_automatic
+      - math.kp.probability.fair_game_equal_chances
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.fair_game_outcome_balance
     type: topic
     subject: Mathematics
@@ -919,10 +1035,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.fair_game_equal_chances
+      - math.kp.probability.equally_likely_is_not_automatic
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.favourable_outcomes_in_event
     type: topic
     subject: Mathematics
@@ -936,10 +1055,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.favourable_outcomes_define_event
+      - math.kp.probability.event_may_have_multiple_outcomes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.complementary_event_language
     type: topic
     subject: Mathematics
@@ -953,10 +1075,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.complement_is_not_event
+      - math.kp.probability.event_may_have_multiple_outcomes
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.probability.chance.impossible_event_empty_outcome_set
     type: topic
     subject: Mathematics
@@ -970,10 +1095,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.probability.impossible_event_has_zero_favourable_outcomes
+      - math.kp.probability.favourable_outcomes_define_event
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.probability.more_trials_improve_stability_not_certainty
     type: knowledge_point
     subject: Mathematics

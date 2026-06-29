@@ -1,0 +1,137 @@
+{
+  "patch_id": "patch.math.linear_relationships.tables_rules_graphs_kps.001",
+  "applied_at": "2026-06-28T00:40:02.362Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 11
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.input_output_tables",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.tables_graphs_equations_connect"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.linear_rules_from_tables",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.tables_graphs_equations_connect",
+          "math.kp.linear.constant_first_difference_indicates_linear"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.graph_linear_rules",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.tables_graphs_equations_connect",
+          "math.kp.linear.linear_has_constant_rate"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.constant_first_difference_tables",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.constant_first_difference_indicates_linear",
+          "math.kp.linear.linear_has_constant_rate"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.missing_values_in_linear_tables",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.constant_first_difference_indicates_linear"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.rule_from_two_table_rows",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.tables_graphs_equations_connect",
+          "math.kp.linear.linear_has_constant_rate"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.compare_table_graph_equation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.tables_graphs_equations_connect"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.proportional_linear_relationships",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.linear_has_constant_rate",
+          "math.kp.linear.proportional_graph_through_origin"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.nonproportional_linear_relationships",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.linear_has_constant_rate",
+          "math.kp.linear.y_intercept_is_starting_value"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.rate_of_change_tables",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.linear_has_constant_rate",
+          "math.kp.linear.gradient_units_are_output_per_input"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.linear_equations_from_contexts",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.tables_graphs_equations_connect",
+          "math.kp.linear.gradient_units_are_output_per_input"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/linear_relationships.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2488
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2507
+  }
+}

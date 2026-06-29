@@ -1,0 +1,178 @@
+{
+  "patch_id": "patch.math.linear_relationships.gradient_intercept_kps.001",
+  "applied_at": "2026-06-28T00:41:17.749Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 15
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.gradient_as_rate_of_change",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.linear_has_constant_rate",
+          "math.kp.linear.gradient_units_are_output_per_input"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.gradient_from_two_points",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.gradient_is_rise_over_run"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.gradient_from_graph_rise_run",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.gradient_is_rise_over_run"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.gradient_is_rise_over_run"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.positive_negative_zero_gradient",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.positive_gradient_rises_left_to_right",
+          "math.kp.linear.zero_gradient_horizontal_line"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.undefined_gradient_vertical_line",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.vertical_line_gradient_undefined"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.y_intercept_meaning",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.y_intercept_is_starting_value",
+          "math.kp.linear.y_intercept_when_x_zero"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.y_intercept_from_graph",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.y_intercept_when_x_zero",
+          "math.kp.linear.intercepts_are_axis_crossings"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.y_intercept_from_equation",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.y_intercept_when_x_zero",
+          "math.kp.linear.slope_intercept_parameters"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.x_intercept_meaning",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.x_intercept_when_y_zero",
+          "math.kp.linear.intercepts_are_axis_crossings"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.x_intercept_by_setting_y_zero",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.x_intercept_when_y_zero",
+          "math.kp.linear.intercepts_are_axis_crossings"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.slope_intercept_form",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.slope_intercept_parameters",
+          "math.kp.linear.gradient_is_rise_over_run",
+          "math.kp.linear.y_intercept_is_starting_value"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.graph_from_slope_intercept_form",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.slope_intercept_parameters",
+          "math.kp.linear.gradient_is_rise_over_run"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.write_equation_from_gradient_intercept",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.slope_intercept_parameters",
+          "math.kp.linear.gradient_is_rise_over_run",
+          "math.kp.linear.y_intercept_is_starting_value"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.write_equation_from_two_points",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.gradient_is_rise_over_run",
+          "math.kp.linear.slope_intercept_parameters"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/linear_relationships.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2513
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2541
+  }
+}

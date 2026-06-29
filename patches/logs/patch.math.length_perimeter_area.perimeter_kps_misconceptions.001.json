@@ -1,0 +1,204 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.perimeter_kps_misconceptions.001",
+  "applied_at": "2026-06-28T01:56:03.919Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 9
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.length.perimeter_as_boundary",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.length.measure_perimeter_with_units",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length",
+          "math.kp.measurement.length_area_units_distinct"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.length.calculate_polygon_perimeter",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length",
+          "math.kp.measurement.perimeter_adds_outer_edges"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.length.missing_side_perimeter",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length",
+          "math.kp.measurement.perimeter_adds_outer_edges"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.length.composite_polygon_perimeter",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length",
+          "math.kp.measurement.perimeter_adds_outer_edges"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.perimeter.rectangle_perimeter_formula",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length",
+          "math.kp.measurement.perimeter_adds_outer_edges"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.perimeter.square_perimeter_formula",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length",
+          "math.kp.measurement.perimeter_adds_outer_edges"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.perimeter.missing_side_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length",
+          "math.kp.measurement.perimeter_adds_outer_edges"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.perimeter.outer_boundary_only",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.perimeter_boundary_length",
+          "math.kp.measurement.perimeter_adds_outer_edges"
+        ]
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter_as_boundary.has_misconception.perimeter_area_confusion",
+        "from": "math.measurement.length.perimeter_as_boundary",
+        "to": "math.misconception.measurement.perimeter_area_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measure_perimeter_with_units.has_misconception.perimeter_area_confusion",
+        "from": "math.measurement.length.measure_perimeter_with_units",
+        "to": "math.misconception.measurement.perimeter_area_confusion",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_polygon_perimeter.has_misconception.double_count_shared_sides",
+        "from": "math.measurement.length.composite_polygon_perimeter",
+        "to": "math.misconception.measurement.double_count_shared_sides",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outer_boundary_only.has_misconception.double_count_shared_sides",
+        "from": "math.measurement.perimeter.outer_boundary_only",
+        "to": "math.misconception.measurement.double_count_shared_sides",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_perimeter_formula.has_misconception.forget_to_double_rectangle_sides",
+        "from": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "to": "math.misconception.measurement.forget_to_double_rectangle_sides",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_perimeter_formula.has_misconception.forget_to_double_rectangle_sides",
+        "from": "math.measurement.perimeter.square_perimeter_formula",
+        "to": "math.misconception.measurement.forget_to_double_rectangle_sides",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2899
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2922
+  }
+}

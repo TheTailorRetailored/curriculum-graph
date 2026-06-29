@@ -15,6 +15,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.quadratics.quadratic_expressions
     type: topic
     subject: Mathematics
@@ -31,6 +32,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.quadratics.quadratic_equations
     type: topic
     subject: Mathematics
@@ -48,6 +50,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.quadratics.quadratic_functions
     type: topic
     subject: Mathematics
@@ -65,6 +68,7 @@ nodes:
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: curriculum_view
   - id: math.algebra.polynomials.polynomial_terms
     type: topic
     subject: Mathematics
@@ -77,10 +81,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.like_terms_same_powers
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.degree_of_polynomial
     type: topic
     subject: Mathematics
@@ -94,10 +100,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.degree_highest_exponent
+      - math.kp.polynomials.leading_term_sets_degree
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.add_subtract_polynomials
     type: topic
     subject: Mathematics
@@ -110,10 +119,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.like_terms_same_powers
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.multiply_monomial_polynomial
     type: topic
     subject: Mathematics
@@ -126,10 +137,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.distribution_multiplies_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.multiply_binomials
     type: topic
     subject: Mathematics
@@ -142,10 +155,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.distribution_multiplies_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.special_products
     type: topic
     subject: Mathematics
@@ -159,10 +174,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.distribution_multiplies_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.common_factor_polynomials
     type: topic
     subject: Mathematics
@@ -176,10 +193,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.distribution_multiplies_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.factor_by_grouping
     type: topic
     subject: Mathematics
@@ -192,10 +211,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.distribution_multiplies_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.standard_form
     type: topic
     subject: Mathematics
@@ -208,10 +229,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.standard_form_coefficients
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.expand_binomial_products
     type: topic
     subject: Mathematics
@@ -224,10 +247,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.distribution_multiplies_all_terms
+      - math.kp.quadratics.standard_form_coefficients
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.factor_monic_quadratics
     type: topic
     subject: Mathematics
@@ -241,10 +267,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.factor_nonmonic_quadratics
     type: topic
     subject: Mathematics
@@ -257,10 +285,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.difference_of_squares
     type: topic
     subject: Mathematics
@@ -274,10 +304,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.completing_square_form
     type: topic
     subject: Mathematics
@@ -291,10 +323,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.completing_square_reveals_vertex
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.solve_by_factorisation
     type: topic
     subject: Mathematics
@@ -308,10 +342,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
+      - math.kp.quadratics.zero_product_factor_equations
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.solve_by_square_roots
     type: topic
     subject: Mathematics
@@ -325,10 +362,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.standard_form_coefficients
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.solve_by_completing_square
     type: topic
     subject: Mathematics
@@ -341,10 +380,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.completing_square_reveals_vertex
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.quadratic_formula
     type: topic
     subject: Mathematics
@@ -357,10 +398,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.discriminant_classifies_roots
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.discriminant
     type: topic
     subject: Mathematics
@@ -374,10 +417,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.discriminant_classifies_roots
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.parabola_features
     type: topic
     subject: Mathematics
@@ -391,10 +436,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.vertex_axis_symmetry
+      - math.kp.quadratics.roots_are_x_intercepts
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.vertex_form_transformations
     type: topic
     subject: Mathematics
@@ -408,10 +456,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.vertex_form_shows_transformations
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.polynomials.like_terms_same_powers
     type: knowledge_point
     subject: Mathematics
@@ -673,10 +723,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.leading_term_sets_degree
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.descending_power_order
     type: topic
     subject: Mathematics
@@ -690,10 +742,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.degree_highest_exponent
+      - math.kp.polynomials.leading_term_sets_degree
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.subtract_polynomials_with_negatives
     type: topic
     subject: Mathematics
@@ -707,10 +762,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.like_terms_same_powers
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.binomial_area_model
     type: topic
     subject: Mathematics
@@ -723,10 +780,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.distribution_multiplies_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.polynomials.perfect_square_trinomial_products
     type: topic
     subject: Mathematics
@@ -740,10 +799,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.polynomials.distribution_multiplies_all_terms
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.factor_monic_sum_product
     type: topic
     subject: Mathematics
@@ -757,10 +818,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.factor_nonmonic_ac_method
     type: topic
     subject: Mathematics
@@ -774,10 +837,12 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.difference_squares_recognition
     type: topic
     subject: Mathematics
@@ -791,10 +856,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.zero_product_property_step
     type: topic
     subject: Mathematics
@@ -808,10 +875,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.zero_product_factor_equations
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.roots_from_factored_form
     type: topic
     subject: Mathematics
@@ -824,10 +893,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
+      - math.kp.quadratics.roots_are_x_intercepts
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.discriminant_positive_two_roots
     type: topic
     subject: Mathematics
@@ -841,10 +913,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.discriminant_classifies_roots
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.discriminant_zero_repeated_root
     type: topic
     subject: Mathematics
@@ -858,10 +932,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.discriminant_classifies_roots
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.discriminant_negative_no_real_roots
     type: topic
     subject: Mathematics
@@ -875,10 +951,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.discriminant_classifies_roots
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.leading_coefficient_opening_direction
     type: topic
     subject: Mathematics
@@ -892,10 +970,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.leading_coefficient_controls_opening
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.y_intercept_from_constant_term
     type: topic
     subject: Mathematics
@@ -909,10 +989,12 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.constant_term_y_intercept
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.axis_symmetry_formula
     type: topic
     subject: Mathematics
@@ -926,10 +1008,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.axis_symmetry_midpoint_roots
+      - math.kp.quadratics.vertex_axis_symmetry
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.vertex_from_completed_square_form
     type: topic
     subject: Mathematics
@@ -943,10 +1028,13 @@ nodes:
     pathways: []
     grain_size: micro_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.completing_square_reveals_vertex
+      - math.kp.quadratics.vertex_axis_symmetry
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.graph_from_vertex_form
     type: topic
     subject: Mathematics
@@ -960,10 +1048,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.vertex_form_shows_transformations
+      - math.kp.quadratics.vertex_axis_symmetry
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.graph_from_intercepts
     type: topic
     subject: Mathematics
@@ -977,10 +1068,13 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.roots_are_x_intercepts
+      - math.kp.quadratics.vertex_axis_symmetry
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.algebra.quadratics.choose_solving_method
     type: topic
     subject: Mathematics
@@ -994,10 +1088,14 @@ nodes:
     pathways: []
     grain_size: lesson_topic
     status: active
-    knowledge_points: []
+    knowledge_points:
+      - math.kp.quadratics.factor_roots_zero_product
+      - math.kp.quadratics.discriminant_classifies_roots
+      - math.kp.quadratics.completing_square_reveals_vertex
     metadata:
       created_by: assistant
       review_status: ai_generated
+    role: learner_state
   - id: math.kp.polynomials.leading_term_sets_degree
     type: knowledge_point
     subject: Mathematics

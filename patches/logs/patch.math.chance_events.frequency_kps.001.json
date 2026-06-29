@@ -1,0 +1,90 @@
+{
+  "patch_id": "patch.math.chance_events.frequency_kps.001",
+  "applied_at": "2026-06-28T12:35:03.508Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 6
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.compare_predicted_observed",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.repeated_trials_show_variation",
+          "math.kp.probability.trial_has_one_observed_outcome"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.repeat_trials_for_stability",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.repeated_trials_show_variation",
+          "math.kp.probability.more_trials_stabilise_patterns"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.frequency_table_for_trials",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.repeated_trials_show_variation",
+          "math.kp.probability.trial_has_one_observed_outcome"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.relative_frequency_intro",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.repeated_trials_show_variation",
+          "math.kp.probability.more_trials_stabilise_patterns"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.small_sample_variability",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.repeated_trials_show_variation",
+          "math.kp.probability.more_trials_improve_stability_not_certainty"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.long_run_stability",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.probability.more_trials_stabilise_patterns",
+          "math.kp.probability.more_trials_improve_stability_not_certainty"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3464
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3476
+  }
+}

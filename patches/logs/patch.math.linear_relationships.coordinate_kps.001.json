@@ -1,0 +1,184 @@
+{
+  "patch_id": "patch.math.linear_relationships.coordinate_kps.001",
+  "applied_at": "2026-06-28T00:38:19.091Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 2,
+      "edges_created": 0,
+      "nodes_updated": 12
+    }
+  },
+  "operations": [
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.axes_define_coordinate_directions",
+        "type": "knowledge_point",
+        "label": "Axes define coordinate directions",
+        "description": "Recognise that the horizontal x-axis and vertical y-axis define directions and positions in the coordinate plane.",
+        "aliases": [],
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_node",
+      "node": {
+        "id": "math.kp.linear.axis_scale_affects_reading",
+        "type": "knowledge_point",
+        "label": "Axis scale affects graph reading",
+        "description": "Use the scale marked on each axis to read and plot coordinates accurately, including when the two axes have different scales.",
+        "aliases": [],
+        "pathways": [],
+        "observable": true,
+        "assessable": true,
+        "status": "active",
+        "knowledge_points": [],
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.coordinate_axes",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.axes_define_coordinate_directions"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.origin_on_coordinate_plane",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.space.origin_is_zero_zero",
+          "math.kp.linear.axes_define_coordinate_directions"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.ordered_pairs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.ordered_pair_order_matters",
+          "math.kp.linear.coordinate_order_is_x_then_y"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.x_coordinate_horizontal_position",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.coordinate_order_is_x_then_y",
+          "math.kp.linear.axes_define_coordinate_directions"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.y_coordinate_vertical_position",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.coordinate_order_is_x_then_y",
+          "math.kp.linear.axes_define_coordinate_directions"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.plot_points_first_quadrant",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.ordered_pair_order_matters",
+          "math.kp.linear.coordinate_order_is_x_then_y"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.four_quadrants",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.coordinates_can_be_negative"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.coordinate_signs_by_quadrant",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.coordinates_can_be_negative"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.read_axis_scale",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.axis_scale_affects_reading"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.unequal_axis_scales",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.axis_scale_affects_reading"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.horizontal_vertical_distance",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.coordinate_order_is_x_then_y",
+          "math.kp.linear.axis_scale_affects_reading"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.linear.context_points_on_graphs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.linear.coordinate_order_is_x_then_y",
+          "math.kp.linear.axis_scale_affects_reading"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/misc.yaml",
+    "ontology/mathematics/number/linear_relationships.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2453
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2472
+  }
+}

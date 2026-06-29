@@ -1,0 +1,1549 @@
+{
+  "patch_id": "patch.math.bivariate.structure.001",
+  "applied_at": "2026-06-28T01:03:12.177Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.paired_numerical_data.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.explanatory_response_variables.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.plot_paired_data.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.scatterplot_axes_scales.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.read_scatterplots.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.scatterplot_clusters_outliers.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.case_identifier_for_pairs.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.variable_pairing_integrity.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.explanatory_variable_on_x_axis.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.response_variable_on_y_axis.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.scatterplot_point_as_case.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.choose_scatterplot_scale.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.overlapping_points_in_scatterplots.encompassed_by.scatterplots",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.direction_of_association.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.form_of_association.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.strength_of_association.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.positive_association_language.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.negative_association_language.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.no_association_language.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.linear_association_detection.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.curved_association_detection.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.strong_vs_weak_association.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.outlier_influence_on_correlation.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.correlation_coefficient_intro.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.correlation_sign_interpretation.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.correlation_magnitude_interpretation.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.correlation_requires_linear_context.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.correlation_vs_causation.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.lurking_variable_intro.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.causal_claim_evidence_intro.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.line_of_best_fit_visual.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.draw_line_through_middle_of_points.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.balanced_residuals_visual.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.interpolation_within_data_range.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.extrapolation_beyond_data_range.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.prediction_from_line_of_best_fit.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.slope_units_in_context.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.intercept_context_meaning.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.residuals_intro.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.residual_calculation.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.residual_sign_interpretation.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.residual_plot_pattern_intro.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.sample_context_for_bivariate_claims.encompassed_by.association_correlation",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.sample_to_population_claims.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.sampling_variability.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.informal_confidence_language.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.margin_of_error_intro.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.compare_sample_groups.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.inference_from_random_samples.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.limits_of_informal_inference.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.claim_population_identification.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.claim_sample_identification.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.sample_statistic_population_parameter.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.generalisation_scope_from_sample.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.representativeness_check_for_inference.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.bias_threats_to_inference.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.sample_size_effect_on_uncertainty.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.sampling_variability_between_samples.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.margin_of_error_as_plausible_range.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.group_difference_relative_to_variability.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.informal_evidence_strength_language.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.cautious_population_claim_wording.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.limitations_statement_for_inference.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.random_sample_condition_check.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.nonrandom_sample_limitation.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      },
+      {
+        "code": "encompasses_without_nearby_relation",
+        "severity": "warning",
+        "edge_id": "edge.bivariate.supported_vs_unsupported_claim.encompassed_by.informal_inference",
+        "message": "Encompassing edge is valid; consider adding a nearby part_of, supports, or requires edge if that relationship is appropriate."
+      }
+    ],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 66,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.paired_numerical_data.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.paired_numerical_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Paired numerical data is the entry learner-state for constructing scatterplots.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.explanatory_response_variables.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Scatterplot construction depends on recognising explanatory and response variables in context.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.plot_paired_data.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.plot_paired_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Plotting paired data is a core scatterplot construction skill.",
+        "weight": 0.95,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.scatterplot_axes_scales.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Axes and scales are central to constructing and reading scatterplots.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.read_scatterplots.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading points and visual patterns is a core scatterplot interpretation skill.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.scatterplot_clusters_outliers.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying clusters and outliers extends basic scatterplot reading.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.case_identifier_for_pairs.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.case_identifier_for_pairs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying the case that links two measurements is a micro-skill for paired-data scatterplots.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.variable_pairing_integrity.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.variable_pairing_integrity",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Maintaining pair integrity is required when organising or plotting paired data.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.explanatory_variable_on_x_axis.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing the x-axis variable is a scatterplot construction micro-skill.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.response_variable_on_y_axis.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.response_variable_on_y_axis",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing the y-axis variable is a scatterplot construction micro-skill.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.scatterplot_point_as_case.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_point_as_case",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interpreting each scatterplot point as a case is a core reading micro-skill.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.choose_scatterplot_scale.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.choose_scatterplot_scale",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Choosing a scale is a scatterplot construction micro-skill.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.overlapping_points_in_scatterplots.encompassed_by.scatterplots",
+        "from": "math.statistics.bivariate.scatterplots",
+        "to": "math.statistics.bivariate.overlapping_points_in_scatterplots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Recognising overlapping points extends scatterplot reading for repeated or identical paired values.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.direction_of_association.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Direction is one of the core descriptors of association.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.form_of_association.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Form is a core descriptor of association.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.strength_of_association.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.strength_of_association",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Strength is a core descriptor of association.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.positive_association_language.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.positive_association_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Positive association language refines direction-of-association descriptions.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.negative_association_language.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.negative_association_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Negative association language refines direction-of-association descriptions.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.no_association_language.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.no_association_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "No-association language is part of direction and pattern description for bivariate displays.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.linear_association_detection.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.linear_association_detection",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Linear-association detection prepares for correlation and line-of-best-fit reasoning.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.curved_association_detection.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.curved_association_detection",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Curved-association detection supports choosing appropriate summaries for bivariate patterns.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.strong_vs_weak_association.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.strong_vs_weak_association",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distinguishing strong from weak association refines strength descriptions.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.outlier_influence_on_correlation.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.outlier_influence_on_correlation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Outlier influence is essential when interpreting correlation and fitted relationships.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.correlation_coefficient_intro.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Correlation coefficient is a central numerical summary in this curriculum view.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.correlation_sign_interpretation.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.correlation_sign_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Correlation sign interpretation is a micro-skill within correlation reasoning.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.correlation_magnitude_interpretation.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.correlation_magnitude_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Correlation magnitude interpretation is a micro-skill within correlation reasoning.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.correlation_requires_linear_context.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.correlation_requires_linear_context",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Checking linear context is required for appropriate use of correlation.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.correlation_vs_causation.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.correlation_vs_causation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distinguishing association from causation is a key bivariate interpretation skill.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.lurking_variable_intro.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.lurking_variable_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Lurking variables explain why association is not automatically causation.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.causal_claim_evidence_intro.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.causal_claim_evidence_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Causal evidence requirements refine the interpretation of observed bivariate associations.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.line_of_best_fit_visual.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "A visual line of best fit summarises approximately linear bivariate association.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.draw_line_through_middle_of_points.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.draw_line_through_middle_of_points",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Drawing a balanced line through the middle is a micro-skill for visual lines of best fit.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.balanced_residuals_visual.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.balanced_residuals_visual",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "A visual residual balance check supports judging a fitted line.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.interpolation_within_data_range.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.interpolation_within_data_range",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interpolation is a common use of a fitted bivariate relationship.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.extrapolation_beyond_data_range.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Extrapolation is a common risk when using fitted bivariate relationships.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.prediction_from_line_of_best_fit.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Prediction from a line of best fit applies bivariate association modelling.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.slope_units_in_context.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.slope_units_in_context",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Slope units are a micro-skill for interpreting fitted linear models in context.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.intercept_context_meaning.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.intercept_context_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Intercept interpretation is a micro-skill for fitted linear models in context.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.residuals_intro.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.residuals_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Residuals support evaluating fitted bivariate models.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.residual_calculation.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.residual_calculation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Residual calculation is a micro-skill for residual reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.residual_sign_interpretation.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.residual_sign_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Residual sign interpretation is a micro-skill for residual reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.residual_plot_pattern_intro.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.residual_plot_pattern_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Residual plots extend fitted-model checking within bivariate association reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.sample_context_for_bivariate_claims.encompassed_by.association_correlation",
+        "from": "math.statistics.bivariate.association_correlation",
+        "to": "math.statistics.bivariate.sample_context_for_bivariate_claims",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Sample context constrains claims made about bivariate relationships.",
+        "weight": 0.55,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.sample_to_population_claims.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sample_to_population_claims",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sample-to-population claims are the central learner-state for informal inference.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.sampling_variability.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sampling_variability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sampling variability is essential for informal inference.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.informal_confidence_language.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.informal_confidence_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Cautious confidence language is part of expressing informal inference.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.margin_of_error_intro.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.margin_of_error_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Margin of error is an informal uncertainty tool for inference.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.compare_sample_groups.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.compare_sample_groups",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing sample groups is an application of informal inference with variability.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.inference_from_random_samples.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.inference_from_random_samples",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Random samples provide stronger support for population claims in informal inference.",
+        "weight": 0.85,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.limits_of_informal_inference.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.limits_of_informal_inference",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Recognising limits of claims is a core informal-inference skill.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.claim_population_identification.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.claim_population_identification",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying the population is a micro-skill for sample-to-population claims.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.claim_sample_identification.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.claim_sample_identification",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying the sample is a micro-skill for sample-to-population claims.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.sample_statistic_population_parameter.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sample_statistic_population_parameter",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distinguishing sample statistic from population parameter supports inference claims.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.generalisation_scope_from_sample.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.generalisation_scope_from_sample",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Generalisation scope is a core skill for population claims from samples.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.representativeness_check_for_inference.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.representativeness_check_for_inference",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Representativeness checks are necessary for defensible inference.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.bias_threats_to_inference.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.bias_threats_to_inference",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Bias threats constrain the strength of informal inferences.",
+        "weight": 0.75,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.sample_size_effect_on_uncertainty.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sample_size_effect_on_uncertainty",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sample size affects random uncertainty and is a core informal-inference consideration.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.sampling_variability_between_samples.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.sampling_variability_between_samples",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing samples makes sampling variability observable.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.margin_of_error_as_plausible_range.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.margin_of_error_as_plausible_range",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interpreting margin of error as a plausible range refines uncertainty reasoning.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.group_difference_relative_to_variability.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.group_difference_relative_to_variability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing group differences to variability supports informal inference about groups.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.informal_evidence_strength_language.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.informal_evidence_strength_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Evidence-strength language supports cautious informal conclusions.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.cautious_population_claim_wording.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.cautious_population_claim_wording",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Cautious wording is part of communicating population claims from samples.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.limitations_statement_for_inference.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.limitations_statement_for_inference",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Stating limitations is part of valid informal inference communication.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.random_sample_condition_check.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.random_sample_condition_check",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Checking random sampling conditions supports inference-from-samples reasoning.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.nonrandom_sample_limitation.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.nonrandom_sample_limitation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Recognising limitations of nonrandom samples supports defensible inference claims.",
+        "weight": 0.65,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bivariate.supported_vs_unsupported_claim.encompassed_by.informal_inference",
+        "from": "math.statistics.inference.informal_inference",
+        "to": "math.statistics.inference.supported_vs_unsupported_claim",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Judging whether a claim is supported by sample evidence is a core informal-inference outcome.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2596
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2662
+  }
+}

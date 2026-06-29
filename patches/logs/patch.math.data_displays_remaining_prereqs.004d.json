@@ -1,0 +1,192 @@
+{
+  "patch_id": "patch.math.data_displays_remaining_prereqs.004d",
+  "applied_at": "2026-06-29T02:31:43.244Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 9,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.axes_titles_labels.requires.question_matches_data",
+        "from": "math.statistics.displays.axes_titles_labels",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Titles and labels identify the question, variable and categories shown by a display.",
+        "failure_signal": "Learner labels axes without linking them to the data question.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_graph_scale.requires.axes_titles_labels",
+        "from": "math.statistics.displays.choose_graph_scale",
+        "to": "math.statistics.displays.axes_titles_labels",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Choosing a graph scale depends on knowing which axis is being scaled and what it represents.",
+        "failure_signal": "Learner chooses intervals without identifying the measured quantity or count.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_graph_scale.requires.frequency_tables",
+        "from": "math.statistics.displays.choose_graph_scale",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Graph scales are chosen from the range of counts or values to be displayed.",
+        "failure_signal": "Learner picks a scale that cannot fit the frequencies or values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_dot_plots.requires.categorical_vs_numerical_data",
+        "from": "math.statistics.displays.read_dot_plots",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Dot plots use a numerical value axis, so learners need to recognise numerical data values.",
+        "failure_signal": "Learner reads dots as category labels instead of data values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.stem_and_leaf_plots.requires.categorical_vs_numerical_data",
+        "from": "math.statistics.displays.stem_and_leaf_plots",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Stem-and-leaf plots organise numerical data by place value.",
+        "failure_signal": "Learner tries to make a stem-and-leaf plot from category labels.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.grouped_intervals.requires.categorical_vs_numerical_data",
+        "from": "math.statistics.displays.grouped_intervals",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Grouped intervals require numerical data that can be partitioned into ranges.",
+        "failure_signal": "Learner groups labels into numeric intervals.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.box_plot_features.requires.five_number_summary",
+        "from": "math.statistics.displays.box_plot_features",
+        "to": "math.statistics.summaries.five_number_summary",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Box plot features encode the five-number summary.",
+        "failure_signal": "Learner names box-plot parts without connecting them to summary values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bar_spacing_for_categories.requires.bar_height_as_frequency",
+        "from": "math.statistics.displays.bar_spacing_for_categories",
+        "to": "math.statistics.displays.bar_height_as_frequency",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Bar spacing is interpreted after understanding bars as category frequencies.",
+        "failure_signal": "Learner treats bar spacing as encoding frequency or interval size.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.split_stems.requires.stem_and_leaf_plots",
+        "from": "math.statistics.displays.split_stems",
+        "to": "math.statistics.displays.stem_and_leaf_plots",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Split stems extend basic stem-and-leaf plots for crowded stems.",
+        "failure_signal": "Learner splits stems before understanding ordinary stems and leaves.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4370
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4379
+  }
+}

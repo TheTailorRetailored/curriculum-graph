@@ -1,0 +1,216 @@
+{
+  "patch_id": "patch.math.chance_events.experiment_structure_b.001",
+  "applied_at": "2026-06-28T12:39:16.785Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 12,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.repeat_trials",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.repeat_trials_for_stability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Repeated trials are part of chance experiments.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeat_trials.part_of.chance_experiments",
+        "from": "math.probability.chance.repeat_trials_for_stability",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.recording_consistency",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.outcome_recording_consistency",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Outcome recording consistency supports chance experiments.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recording_consistency.part_of.chance_experiments",
+        "from": "math.probability.chance.outcome_recording_consistency",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.frequency_table",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.frequency_table_for_trials",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Frequency tables summarise chance experiments.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.frequency_table.part_of.chance_experiments",
+        "from": "math.probability.chance.frequency_table_for_trials",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.relative_frequency",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.relative_frequency_intro",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Relative frequency summarises repeated chance trials.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.part_of.chance_experiments",
+        "from": "math.probability.chance.relative_frequency_intro",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.small_sample_variability",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.small_sample_variability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Small-sample variability is observed in chance experiments.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.small_sample_variability.part_of.chance_experiments",
+        "from": "math.probability.chance.small_sample_variability",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.chance_experiments.encompasses.long_run_stability",
+        "from": "math.probability.chance.experiments",
+        "to": "math.probability.chance.long_run_stability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Long-run stability is learned through repeated chance experiments.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.long_run_stability.part_of.chance_experiments",
+        "from": "math.probability.chance.long_run_stability",
+        "to": "math.probability.chance.experiments",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3522
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3534
+  }
+}

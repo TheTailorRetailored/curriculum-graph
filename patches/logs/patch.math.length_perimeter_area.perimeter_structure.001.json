@@ -1,0 +1,309 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.perimeter_structure.001",
+  "applied_at": "2026-06-28T01:55:08.447Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 18,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.perimeter_as_boundary",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.perimeter_as_boundary",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Perimeter as boundary length is the core concept for the perimeter lesson sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter_as_boundary.part_of.perimeter",
+        "from": "math.measurement.length.perimeter_as_boundary",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.measure_perimeter_with_units",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.measure_perimeter_with_units",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Measuring perimeter with units is part of the perimeter lesson sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.measure_perimeter_with_units.part_of.perimeter",
+        "from": "math.measurement.length.measure_perimeter_with_units",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.calculate_polygon_perimeter",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.calculate_polygon_perimeter",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Calculating polygon perimeter is part of the perimeter lesson sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_polygon_perimeter.part_of.perimeter",
+        "from": "math.measurement.length.calculate_polygon_perimeter",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.missing_side_perimeter",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.missing_side_perimeter",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding missing side lengths from perimeter belongs in the perimeter sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_perimeter.part_of.perimeter",
+        "from": "math.measurement.length.missing_side_perimeter",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.composite_polygon_perimeter",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.length.composite_polygon_perimeter",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Composite polygon perimeter is an extension within the perimeter sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.composite_polygon_perimeter.part_of.perimeter",
+        "from": "math.measurement.length.composite_polygon_perimeter",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.rectangle_perimeter_formula",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rectangle perimeter formula is a perimeter learner-state.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rectangle_perimeter_formula.part_of.perimeter",
+        "from": "math.measurement.perimeter.rectangle_perimeter_formula",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.square_perimeter_formula",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.perimeter.square_perimeter_formula",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Square perimeter formula is a perimeter learner-state.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.square_perimeter_formula.part_of.perimeter",
+        "from": "math.measurement.perimeter.square_perimeter_formula",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.missing_side_equations",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.perimeter.missing_side_equations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Missing-side equations for perimeter belong in the perimeter sequence.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.missing_side_equations.part_of.perimeter",
+        "from": "math.measurement.perimeter.missing_side_equations",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.perimeter.encompasses.outer_boundary_only",
+        "from": "math.measurement.length.perimeter",
+        "to": "math.measurement.perimeter.outer_boundary_only",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Outer-boundary-only reasoning belongs in composite perimeter work.",
+        "weight": 1,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outer_boundary_only.part_of.perimeter",
+        "from": "math.measurement.perimeter.outer_boundary_only",
+        "to": "math.measurement.length.perimeter",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2881
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2899
+  }
+}

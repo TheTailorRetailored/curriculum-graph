@@ -1,0 +1,154 @@
+{
+  "patch_id": "patch.math.ttm.reading_clocks_structure.001",
+  "applied_at": "2026-06-28T11:24:17.958Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reading_clocks.encompasses.hour_hand",
+        "from": "math.measurement.time.reading_clocks",
+        "to": "math.measurement.time.analogue_clock_hour_hand",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Hour-hand interpretation is part of reading clocks.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.hour_hand.part_of.reading_clocks",
+        "from": "math.measurement.time.analogue_clock_hour_hand",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reading_clocks.encompasses.minute_hand",
+        "from": "math.measurement.time.reading_clocks",
+        "to": "math.measurement.time.analogue_clock_minute_hand",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Minute-hand interpretation is part of reading clocks.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.minute_hand.part_of.reading_clocks",
+        "from": "math.measurement.time.analogue_clock_minute_hand",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reading_clocks.encompasses.digital_time",
+        "from": "math.measurement.time.reading_clocks",
+        "to": "math.measurement.time.digital_time_notation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Digital notation is part of reading clock time.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.digital_time.part_of.reading_clocks",
+        "from": "math.measurement.time.digital_time_notation",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.reading_clocks.encompasses.am_pm",
+        "from": "math.measurement.time.reading_clocks",
+        "to": "math.measurement.time.am_pm_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "AM/PM interpretation is part of clock time.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.am_pm.part_of.reading_clocks",
+        "from": "math.measurement.time.am_pm_interpretation",
+        "to": "math.measurement.time.reading_clocks",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3340
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3348
+  }
+}

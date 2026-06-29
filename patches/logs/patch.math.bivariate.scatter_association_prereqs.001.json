@@ -1,0 +1,875 @@
+{
+  "patch_id": "patch.math.bivariate.scatter_association_prereqs.001",
+  "applied_at": "2026-06-28T01:11:12.711Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 46,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.statistics.bivariate.paired_numerical_data",
+      "updates": {
+        "foundational": true,
+        "prerequisite_policy": {
+          "requires_prerequisites": false,
+          "reason": "Entry learner-state for Bivariate data and inference; downstream scatterplot and association skills depend on recognising paired numerical data."
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.variable_pairing_integrity.requires.case_identifier_for_pairs",
+        "from": "math.statistics.bivariate.variable_pairing_integrity",
+        "to": "math.statistics.bivariate.case_identifier_for_pairs",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Keeping paired values together depends on identifying the case that binds the two measurements.",
+        "failure_signal": "Learner sorts or plots two variables independently and breaks the pairing between values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.case_identifier_for_pairs.requires.paired_numerical_data",
+        "from": "math.statistics.bivariate.case_identifier_for_pairs",
+        "to": "math.statistics.bivariate.paired_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Identifying the case for each pair depends on recognising that bivariate data records two values for the same unit.",
+        "failure_signal": "Learner names variables but not the unit that links the two values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.explanatory_response_variables.requires.paired_numerical_data",
+        "from": "math.statistics.bivariate.explanatory_response_variables",
+        "to": "math.statistics.bivariate.paired_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Distinguishing explanatory and response variables requires first recognising the two measured variables in paired data.",
+        "failure_signal": "Learner identifies two lists of data but cannot say which variable is being used to explain or predict the other.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.explanatory_variable_on_x_axis.requires.explanatory_response_variables",
+        "from": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+        "to": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Choosing the x-axis variable depends on identifying the explanatory variable in context.",
+        "failure_signal": "Learner swaps axes because they have not identified the explanatory role.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.response_variable_on_y_axis.requires.explanatory_response_variables",
+        "from": "math.statistics.bivariate.response_variable_on_y_axis",
+        "to": "math.statistics.bivariate.explanatory_response_variables",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Choosing the y-axis variable depends on identifying the response variable in context.",
+        "failure_signal": "Learner puts the response variable on the wrong axis or cannot justify the axis choice.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_paired_data.requires.variable_pairing_integrity",
+        "from": "math.statistics.bivariate.plot_paired_data",
+        "to": "math.statistics.bivariate.variable_pairing_integrity",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Plotting paired data requires preserving which two values belong to the same case.",
+        "failure_signal": "Learner plots points formed by mismatched values from different cases.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_paired_data.requires.explanatory_variable_on_x_axis",
+        "from": "math.statistics.bivariate.plot_paired_data",
+        "to": "math.statistics.bivariate.explanatory_variable_on_x_axis",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Plotting a predictive scatterplot depends on putting the explanatory variable on the horizontal axis.",
+        "failure_signal": "Learner can make coordinate points but swaps the explanatory and response variables.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plot_paired_data.requires.response_variable_on_y_axis",
+        "from": "math.statistics.bivariate.plot_paired_data",
+        "to": "math.statistics.bivariate.response_variable_on_y_axis",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Plotting a predictive scatterplot depends on putting the response variable on the vertical axis.",
+        "failure_signal": "Learner can make coordinate points but swaps the response and explanatory variables.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplot_axes_scales.requires.plot_paired_data",
+        "from": "math.statistics.bivariate.scatterplot_axes_scales",
+        "to": "math.statistics.bivariate.plot_paired_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reasoning about scatterplot axes and scales is grounded in plotting paired data on axes.",
+        "failure_signal": "Learner chooses or reads scales without checking how the plotted paired values fit the axes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_scatterplot_scale.requires.scatterplot_axes_scales",
+        "from": "math.statistics.bivariate.choose_scatterplot_scale",
+        "to": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Choosing a useful scatterplot scale depends on understanding scatterplot axes and existing scales.",
+        "failure_signal": "Learner chooses a scale that hides the data pattern or misrepresents the range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scatterplots.requires.plot_paired_data",
+        "from": "math.statistics.bivariate.read_scatterplots",
+        "to": "math.statistics.bivariate.plot_paired_data",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Reading scatterplots depends on understanding how paired values become plotted points.",
+        "failure_signal": "Learner sees points but cannot connect them back to the two measured values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_scatterplots.requires.scatterplot_axes_scales",
+        "from": "math.statistics.bivariate.read_scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_axes_scales",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading scatterplots accurately depends on reading axis labels and scales.",
+        "failure_signal": "Learner describes a point or pattern using the wrong scale or variable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplot_point_as_case.requires.plot_paired_data",
+        "from": "math.statistics.bivariate.scatterplot_point_as_case",
+        "to": "math.statistics.bivariate.plot_paired_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting a point as a case depends on understanding how a paired observation is plotted.",
+        "failure_signal": "Learner treats a point as two separate observations rather than one case with two values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.overlapping_points.requires.scatterplot_point_as_case",
+        "from": "math.statistics.bivariate.overlapping_points_in_scatterplots",
+        "to": "math.statistics.bivariate.scatterplot_point_as_case",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising overlapping points requires interpreting each point as a case and noticing when cases share the same plotted location.",
+        "failure_signal": "Learner undercounts cases when multiple cases share identical or nearly identical plotted values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.scatterplot_clusters_outliers.requires.read_scatterplots",
+        "from": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Identifying clusters and outliers depends on first reading points and overall scatterplot patterns.",
+        "failure_signal": "Learner labels any isolated point as irrelevant or misses unusual groups of points.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.direction_of_association.requires.read_scatterplots",
+        "from": "math.statistics.bivariate.direction_of_association",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Describing direction of association requires reading the overall pattern in a scatterplot.",
+        "failure_signal": "Learner describes individual points but not whether values tend to rise or fall together.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.form_of_association.requires.read_scatterplots",
+        "from": "math.statistics.bivariate.form_of_association",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Describing form requires recognising the overall shape of the scatterplot pattern.",
+        "failure_signal": "Learner calls every trend linear or cannot describe the shape of the association.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.strength_of_association.requires.read_scatterplots",
+        "from": "math.statistics.bivariate.strength_of_association",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Describing strength requires reading how tightly points follow an overall scatterplot pattern.",
+        "failure_signal": "Learner confuses steepness with strength or ignores scatter around the pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.positive_association_language.requires.direction_of_association",
+        "from": "math.statistics.bivariate.positive_association_language",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Positive association language refines the more general skill of describing direction.",
+        "failure_signal": "Learner says variables are related but cannot express that larger values tend to go with larger values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.negative_association_language.requires.direction_of_association",
+        "from": "math.statistics.bivariate.negative_association_language",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Negative association language refines the more general skill of describing direction.",
+        "failure_signal": "Learner says variables are related but cannot express that larger values tend to go with smaller values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.no_association_language.requires.direction_of_association",
+        "from": "math.statistics.bivariate.no_association_language",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "No-association language refines direction reasoning for cases where no clear trend is visible.",
+        "failure_signal": "Learner forces a positive or negative description onto a scatterplot with no clear pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.linear_association_detection.requires.form_of_association",
+        "from": "math.statistics.bivariate.linear_association_detection",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Detecting linear association depends on describing the form of the bivariate pattern.",
+        "failure_signal": "Learner uses correlation or a fitted line without checking whether the pattern is approximately linear.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.curved_association_detection.requires.form_of_association",
+        "from": "math.statistics.bivariate.curved_association_detection",
+        "to": "math.statistics.bivariate.form_of_association",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising curved association depends on first attending to the form of the scatterplot pattern.",
+        "failure_signal": "Learner treats a curved pattern as linear because there is a visible association.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.strong_vs_weak_association.requires.strength_of_association",
+        "from": "math.statistics.bivariate.strong_vs_weak_association",
+        "to": "math.statistics.bivariate.strength_of_association",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Distinguishing strong from weak association refines the general strength-description skill.",
+        "failure_signal": "Learner describes a relationship as strong solely because the line is steep.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.outlier_influence.requires.scatterplot_clusters_outliers",
+        "from": "math.statistics.bivariate.outlier_influence_on_correlation",
+        "to": "math.statistics.bivariate.scatterplot_clusters_outliers",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Explaining outlier influence requires identifying unusual points in the scatterplot.",
+        "failure_signal": "Learner removes or ignores unusual points without considering their effect on association summaries.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_intro.requires.linear_association_detection",
+        "from": "math.statistics.bivariate.correlation_coefficient_intro",
+        "to": "math.statistics.bivariate.linear_association_detection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Correlation coefficient is meaningful as a summary of linear association, so learners must first identify approximate linearity.",
+        "failure_signal": "Learner computes or interprets correlation for a clearly curved pattern as if it fully describes the relationship.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_intro.requires.strength_of_association",
+        "from": "math.statistics.bivariate.correlation_coefficient_intro",
+        "to": "math.statistics.bivariate.strength_of_association",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting correlation magnitude depends on earlier qualitative strength-of-association reasoning.",
+        "failure_signal": "Learner reads a correlation value but cannot connect it to tightness of the linear pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_sign.requires.correlation_intro",
+        "from": "math.statistics.bivariate.correlation_sign_interpretation",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interpreting the sign of correlation depends on the basic meaning of the correlation coefficient.",
+        "failure_signal": "Learner treats a negative correlation as weak or invalid rather than as negative direction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_magnitude.requires.correlation_intro",
+        "from": "math.statistics.bivariate.correlation_magnitude_interpretation",
+        "to": "math.statistics.bivariate.correlation_coefficient_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Interpreting correlation magnitude depends on understanding the correlation coefficient scale.",
+        "failure_signal": "Learner treats the sign as magnitude or thinks values outside -1 to 1 are possible.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_requires_linear_context.requires.linear_association_detection",
+        "from": "math.statistics.bivariate.correlation_requires_linear_context",
+        "to": "math.statistics.bivariate.linear_association_detection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Checking linear context depends on identifying whether the bivariate pattern is approximately linear.",
+        "failure_signal": "Learner uses correlation for a non-linear pattern without qualification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.correlation_vs_causation.requires.direction_of_association",
+        "from": "math.statistics.bivariate.correlation_vs_causation",
+        "to": "math.statistics.bivariate.direction_of_association",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Distinguishing correlation from causation depends on first recognising an association that might tempt a causal interpretation.",
+        "failure_signal": "Learner jumps from an observed positive or negative association to a causal claim.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.lurking_variable_intro.requires.correlation_vs_causation",
+        "from": "math.statistics.bivariate.lurking_variable_intro",
+        "to": "math.statistics.bivariate.correlation_vs_causation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Lurking variables are a reason correlation may not imply causation.",
+        "failure_signal": "Learner cannot propose a third variable that could explain an observed association.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.causal_claim_evidence_intro.requires.correlation_vs_causation",
+        "from": "math.statistics.bivariate.causal_claim_evidence_intro",
+        "to": "math.statistics.bivariate.correlation_vs_causation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reasoning about causal evidence builds on distinguishing association from causation.",
+        "failure_signal": "Learner treats any association as sufficient evidence for a cause-and-effect claim.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_of_best_fit_visual.requires.linear_association_detection",
+        "from": "math.statistics.bivariate.line_of_best_fit_visual",
+        "to": "math.statistics.bivariate.linear_association_detection",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "A line of best fit is appropriate only when the bivariate pattern is roughly linear.",
+        "failure_signal": "Learner draws a line through a clearly curved or patternless cloud without qualification.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.draw_line_middle.requires.line_of_best_fit_visual",
+        "from": "math.statistics.bivariate.draw_line_through_middle_of_points",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Drawing a balanced line through the middle refines the visual line-of-best-fit skill.",
+        "failure_signal": "Learner connects endpoints or forces the line through the origin rather than balancing the pattern.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balanced_residuals_visual.requires.draw_line_middle",
+        "from": "math.statistics.bivariate.balanced_residuals_visual",
+        "to": "math.statistics.bivariate.draw_line_through_middle_of_points",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Checking residual balance visually depends on drawing or judging a proposed fitted line.",
+        "failure_signal": "Learner cannot tell whether the fitted line systematically over- or under-predicts parts of the data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpolation_within_data_range.requires.line_of_best_fit_visual",
+        "from": "math.statistics.bivariate.interpolation_within_data_range",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpolating within the data range depends on using a fitted relationship to estimate values.",
+        "failure_signal": "Learner predicts values without checking whether the input is inside the observed range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolation_beyond_data_range.requires.interpolation_within_data_range",
+        "from": "math.statistics.bivariate.extrapolation_beyond_data_range",
+        "to": "math.statistics.bivariate.interpolation_within_data_range",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding extrapolation contrasts with using a model inside the observed data range.",
+        "failure_signal": "Learner treats predictions far beyond the observed values as equally reliable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.prediction_line_best_fit.requires.line_of_best_fit_visual",
+        "from": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Prediction from a line of best fit depends on understanding the fitted line as a model of the trend.",
+        "failure_signal": "Learner reads a prediction as an exact data value rather than an estimate from the model.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.slope_units_context.requires.line_of_best_fit_visual",
+        "from": "math.statistics.bivariate.slope_units_in_context",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting slope units in context depends on treating the fitted line as a model of response versus explanatory variable.",
+        "failure_signal": "Learner gives a slope number without units or reverses the units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.intercept_context_meaning.requires.line_of_best_fit_visual",
+        "from": "math.statistics.bivariate.intercept_context_meaning",
+        "to": "math.statistics.bivariate.line_of_best_fit_visual",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting the intercept in context depends on reading the fitted line and its axes.",
+        "failure_signal": "Learner interprets an intercept outside the meaningful data context as a real observation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residuals_intro.requires.prediction_line_best_fit",
+        "from": "math.statistics.bivariate.residuals_intro",
+        "to": "math.statistics.bivariate.prediction_from_line_of_best_fit",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Residuals compare observed values with model predictions, so prediction from the fitted line is prerequisite.",
+        "failure_signal": "Learner calculates differences without identifying observed versus predicted values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_calculation.requires.residuals_intro",
+        "from": "math.statistics.bivariate.residual_calculation",
+        "to": "math.statistics.bivariate.residuals_intro",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Residual calculation depends on understanding residuals as observed minus predicted values.",
+        "failure_signal": "Learner subtracts in the wrong order or uses the explanatory value instead of the response value.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_sign.requires.residual_calculation",
+        "from": "math.statistics.bivariate.residual_sign_interpretation",
+        "to": "math.statistics.bivariate.residual_calculation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting residual sign depends on calculating residuals or locating observed values relative to predictions.",
+        "failure_signal": "Learner cannot say whether a positive residual means above or below the fitted line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.residual_plot_pattern.requires.residual_sign",
+        "from": "math.statistics.bivariate.residual_plot_pattern_intro",
+        "to": "math.statistics.bivariate.residual_sign_interpretation",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Residual plot pattern checking depends on interpreting residual sizes and signs.",
+        "failure_signal": "Learner sees a residual plot but cannot connect patterned residual signs to model fit.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_context_bivariate_claims.requires.read_scatterplots",
+        "from": "math.statistics.bivariate.sample_context_for_bivariate_claims",
+        "to": "math.statistics.bivariate.read_scatterplots",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Claims about a bivariate relationship should be grounded in the sample and scatterplot context being interpreted.",
+        "failure_signal": "Learner describes a relationship without stating what group or context the data came from.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.association.requires.scatterplots",
+      "rationale": "Replace curriculum-view-to-curriculum-view prerequisite with concrete learner-state prerequisites from association skills to read_scatterplots and related scatterplot interpretation states."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/bivariate_data_and_inference.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2722
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2768
+  }
+}

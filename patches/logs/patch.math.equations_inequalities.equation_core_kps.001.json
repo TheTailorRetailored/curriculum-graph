@@ -1,0 +1,158 @@
+{
+  "patch_id": "patch.math.equations_inequalities.equation_core_kps.001",
+  "applied_at": "2026-06-27T22:21:03.168Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 13
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.equality_as_balance",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.equals_sign_is_relation"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.true_false_number_sentences",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.equals_sign_is_relation",
+          "math.kp.equations.solution_makes_equation_true"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.missing_value_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.solution_makes_equation_true",
+          "math.kp.equations.inverse_operations_isolate_variable"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.inverse_operations_for_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.inverse_operations_isolate_variable",
+          "math.kp.equations.do_same_to_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.one_step_add_subtract_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.inverse_operations_isolate_variable",
+          "math.kp.equations.do_same_to_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.one_step_multiply_divide_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.inverse_operations_isolate_variable",
+          "math.kp.equations.do_same_to_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.rational_coefficient_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.inverse_operations_isolate_variable",
+          "math.kp.equations.do_same_to_both_sides"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.check_solutions_by_substitution",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.solution_makes_equation_true"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.two_step_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.inverse_operations_isolate_variable",
+          "math.kp.equations.do_same_to_both_sides",
+          "math.kp.equations.simplify_before_solving"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.equations_with_brackets",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.do_same_to_both_sides",
+          "math.kp.equations.simplify_before_solving"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.variables_on_both_sides",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.do_same_to_both_sides",
+          "math.kp.equations.simplify_before_solving",
+          "math.kp.equations.variable_terms_can_cancel"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.collect_like_terms_in_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.simplify_before_solving"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.equations.rearrange_literal_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.equations.literal_rearrangement_reverses_operations"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/equations_and_inequalities.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2311
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2335
+  }
+}

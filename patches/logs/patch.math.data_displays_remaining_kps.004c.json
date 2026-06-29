@@ -1,0 +1,156 @@
+{
+  "patch_id": "patch.math.data_displays_remaining_kps.004c",
+  "applied_at": "2026-06-29T02:27:10.354Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 9,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_dot_plots.targets_knowledge_point.dot_represents_data_value",
+        "from": "math.statistics.displays.make_dot_plots",
+        "to": "math.kp.statistics.dot_represents_data_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_dot_plots.targets_knowledge_point.dot_stack_shows_repeated_values",
+        "from": "math.statistics.displays.make_dot_plots",
+        "to": "math.kp.statistics.dot_stack_shows_repeated_values",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.bar_spacing_for_categories.targets_knowledge_point.bar_height_encodes_frequency",
+        "from": "math.statistics.displays.bar_spacing_for_categories",
+        "to": "math.kp.statistics.bar_height_encodes_frequency",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ordered_leaves.targets_knowledge_point.stem_leaf_key_sets_place_value",
+        "from": "math.statistics.displays.ordered_leaves",
+        "to": "math.kp.statistics.stem_leaf_key_sets_place_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.split_stems.targets_knowledge_point.stem_leaf_key_sets_place_value",
+        "from": "math.statistics.displays.split_stems",
+        "to": "math.kp.statistics.stem_leaf_key_sets_place_value",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_width_choice.targets_knowledge_point.histograms_group_intervals",
+        "from": "math.statistics.displays.interval_width_choice",
+        "to": "math.kp.statistics.histograms_group_intervals",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interval_boundary_inclusion.targets_knowledge_point.histograms_group_intervals",
+        "from": "math.statistics.displays.interval_boundary_inclusion",
+        "to": "math.kp.statistics.histograms_group_intervals",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency_histogram_intro.targets_knowledge_point.histograms_group_intervals",
+        "from": "math.statistics.displays.relative_frequency_histogram_intro",
+        "to": "math.kp.statistics.histograms_group_intervals",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency_histogram_intro.targets_knowledge_point.relative_frequency_is_proportion",
+        "from": "math.statistics.displays.relative_frequency_histogram_intro",
+        "to": "math.kp.probability.relative_frequency_is_proportion",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4361
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4370
+  }
+}

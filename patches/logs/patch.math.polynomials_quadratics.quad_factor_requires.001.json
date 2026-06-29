@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.quad_factor_requires.001",
+  "applied_at": "2026-06-28T09:27:26.657Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_monic_sum_product.requires.factor_monic",
+        "from": "math.algebra.quadratics.factor_monic_sum_product",
+        "to": "math.algebra.quadratics.factor_monic_quadratics",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Sum-product factoring refines monic quadratic factoring.",
+        "failure_signal": "Learner cannot find two numbers with required sum and product.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.factor_nonmonic_ac.requires.factor_nonmonic",
+        "from": "math.algebra.quadratics.factor_nonmonic_ac_method",
+        "to": "math.algebra.quadratics.factor_nonmonic_quadratics",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "AC method refines nonmonic quadratic factoring.",
+        "failure_signal": "Learner cannot split the middle term consistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.diff_squares_recognition.requires.difference_squares",
+        "from": "math.algebra.quadratics.difference_squares_recognition",
+        "to": "math.algebra.quadratics.difference_of_squares",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising difference of squares depends on the difference-of-squares pattern.",
+        "failure_signal": "Learner does not identify two square terms separated by subtraction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3101
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3104
+  }
+}

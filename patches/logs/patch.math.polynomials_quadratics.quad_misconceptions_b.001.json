@@ -1,0 +1,72 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.quad_misconceptions_b.001",
+  "applied_at": "2026-06-28T09:31:24.575Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.zero_product_property.has_misconception.no_zero_equation",
+        "from": "math.algebra.quadratics.zero_product_property_step",
+        "to": "math.misconception.quadratics.zero_product_without_zero_equation",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discriminant.has_misconception.sign_reversed",
+        "from": "math.algebra.quadratics.discriminant",
+        "to": "math.misconception.quadratics.discriminant_sign_reversed",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_constant.has_misconception.constant_x_intercept",
+        "from": "math.algebra.quadratics.y_intercept_from_constant_term",
+        "to": "math.misconception.quadratics.constant_term_is_x_intercept",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3122
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3125
+  }
+}

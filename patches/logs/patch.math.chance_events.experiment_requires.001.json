@@ -1,0 +1,113 @@
+{
+  "patch_id": "patch.math.chance_events.experiment_requires.001",
+  "applied_at": "2026-06-28T12:43:48.114Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 4,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.probability.chance.identify_trial",
+      "updates": {
+        "foundational": true,
+        "prerequisite_policy": {
+          "requires_prerequisites": false
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.predict_before_trial.requires.identify_trial",
+        "from": "math.probability.chance.predict_before_trial",
+        "to": "math.probability.chance.identify_trial",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Prediction before a trial depends on identifying the trial being predicted.",
+        "failure_signal": "Learner predicts without identifying one repetition of the experiment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_trial.requires.identify_trial",
+        "from": "math.probability.chance.record_trial_outcomes",
+        "to": "math.probability.chance.identify_trial",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recording outcomes depends on knowing what counts as one trial.",
+        "failure_signal": "Learner records mixed or inconsistent units of observation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recording_consistency.requires.record_trial",
+        "from": "math.probability.chance.outcome_recording_consistency",
+        "to": "math.probability.chance.record_trial_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Consistent recording depends on basic trial outcome recording.",
+        "failure_signal": "Learner changes categories during the experiment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tally_outcomes.requires.record_trial",
+        "from": "math.probability.chance.tally_outcomes",
+        "to": "math.probability.chance.record_trial_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Tallying outcomes depends on recording each trial outcome.",
+        "failure_signal": "Learner cannot convert recorded outcomes into counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "ontology/mathematics/number/chance_and_events.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3577
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3581
+  }
+}

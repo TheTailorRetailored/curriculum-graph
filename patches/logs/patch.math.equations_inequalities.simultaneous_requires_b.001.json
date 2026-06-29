@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.equations_inequalities.simultaneous_requires_b.001",
+  "applied_at": "2026-06-28T00:08:43.547Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 2,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elimination_match_coefficients.requires.one_step_multiply_divide_equations",
+        "from": "math.algebra.simultaneous.elimination_match_coefficients",
+        "to": "math.algebra.equations.one_step_multiply_divide_equations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Matching coefficients for elimination uses scaling by multiplication or division.",
+        "failure_signal": "Learner cannot scale an equation to create matching coefficients.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.elimination_choose_add_or_subtract.requires.elimination_match_coefficients",
+        "from": "math.algebra.simultaneous.elimination_choose_add_or_subtract",
+        "to": "math.algebra.simultaneous.elimination_match_coefficients",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Choosing add or subtract for elimination depends on first matching coefficients.",
+        "failure_signal": "Learner combines equations without making a variable cancel.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2428
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2430
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "patch_id": "patch.math.ttm.money_structure.001",
+  "applied_at": "2026-06-28T11:26:25.598Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial_calculations.encompasses.unit_price",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.measurement.money.unit_price_comparison",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Unit price comparison is part of financial calculations.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.unit_price.part_of.financial_calculations",
+        "from": "math.measurement.money.unit_price_comparison",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial_calculations.encompasses.discount",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.measurement.money.discount_calculations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Discount calculations are part of financial calculations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.discount.part_of.financial_calculations",
+        "from": "math.measurement.money.discount_calculations",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial_calculations.encompasses.profit_loss",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.measurement.money.profit_loss_calculations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Profit and loss calculations are part of financial calculations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.profit_loss.part_of.financial_calculations",
+        "from": "math.measurement.money.profit_loss_calculations",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.financial_calculations.encompasses.simple_interest",
+        "from": "math.measurement.money.financial_calculations",
+        "to": "math.measurement.money.simple_interest_calculations",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Simple interest is part of financial calculations.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.simple_interest.part_of.financial_calculations",
+        "from": "math.measurement.money.simple_interest_calculations",
+        "to": "math.measurement.money.financial_calculations",
+        "type": "part_of",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3356
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3364
+  }
+}

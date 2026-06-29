@@ -1,0 +1,48 @@
+{
+  "patch_id": "patch.math.lpa.track_areas_req_short.001",
+  "applied_at": "2026-06-28T03:07:49.472Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.track_areas.requires.recombine_parts",
+        "from": "math.measurement.area.track_partial_areas",
+        "to": "math.measurement.area.recombine_area_parts",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Tracking parts depends on recombining area parts.",
+        "failure_signal": "Learner cannot keep track of included parts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3030
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3031
+  }
+}

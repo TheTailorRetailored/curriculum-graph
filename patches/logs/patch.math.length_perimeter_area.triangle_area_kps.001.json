@@ -1,0 +1,61 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.triangle_area_kps.001",
+  "applied_at": "2026-06-28T02:00:19.788Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 3
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.triangle_area_half_rectangle",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.triangle_half_rectangle",
+          "math.kp.measurement.height_is_perpendicular_to_base"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.triangle_base_height_pairs",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.triangle_half_rectangle",
+          "math.kp.measurement.height_is_perpendicular_to_base"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.area.triangle_missing_base_height",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.triangle_half_rectangle",
+          "math.kp.measurement.height_is_perpendicular_to_base",
+          "math.kp.measurement.area_formulas_can_find_missing_dimensions"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/length_perimeter_and_area.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2966
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2973
+  }
+}

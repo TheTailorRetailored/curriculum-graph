@@ -1,0 +1,70 @@
+{
+  "patch_id": "patch.math.ratio_rate_proportion.rate_prop_kps.001",
+  "applied_at": "2026-06-28T11:49:14.636Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.ratio.rates_with_units",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.rates_include_units",
+          "math.kp.ratio.unit_rate_per_one"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.unit_rates",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.unit_rate_per_one",
+          "math.kp.ratio.rates_include_units"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.proportional_relationships",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.proportional_relationship_constant_multiplier",
+          "math.kp.ratio.equivalent_ratios_preserve_relationship"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.ratio.proportional_equations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.ratio.proportional_equations_represent_relationship",
+          "math.kp.ratio.proportional_relationship_constant_multiplier"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/ratio_rate_and_proportion.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3399
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3407
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "patch_id": "patch.math.bivariate.curriculum_view_requires_cleanup.001",
+  "applied_at": "2026-06-28T01:23:44.996Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "delete_edge",
+      "id": "edge.informal_inference.requires.sampling",
+      "rationale": "Replace broad curriculum-view prerequisite with concrete informal-inference learner-state prerequisites around sample identification, representativeness, sampling variability, random-sample checks, and bias limitations."
+    },
+    {
+      "op": "delete_edge",
+      "id": "edge.statistical_inference.requires.informal_inference",
+      "rationale": "Remove broad senior curriculum-view prerequisite; later senior statistics cleanup should attach formal-inference learner states to precise prerequisite learner states such as sampling variability, uncertainty language, and supported-versus-unsupported claims."
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 2861
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 2861
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "patch_id": "patch.math.ttm.money_kps.001",
+  "applied_at": "2026-06-28T11:22:54.668Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.unit_price_comparison",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.unit_price_is_cost_per_one"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.discount_calculations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.percentages.percent_decrease_subtracts_percent_of_original",
+          "math.kp.percentages.percent_of_quantity_uses_base"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.profit_loss_calculations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.percentages.percentage_change_uses_original",
+          "math.kp.percentages.percent_of_quantity_uses_base"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.measurement.money.simple_interest_calculations",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.measurement.simple_interest_uses_principal_rate_time",
+          "math.kp.percentages.percent_as_decimal_multiplier"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/time_temperature_and_money.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3333
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3340
+  }
+}

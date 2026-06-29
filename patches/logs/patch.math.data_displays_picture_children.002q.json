@@ -1,0 +1,162 @@
+{
+  "patch_id": "patch.math.data_displays_picture_children.002q",
+  "applied_at": "2026-06-28T23:48:41.296Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_picture_graphs.part_of.picture_bar_graphs",
+        "from": "math.statistics.displays.read_picture_graphs",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Reading picture graphs is core.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar_graphs.encompasses.read_picture_graphs",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.read_picture_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading picture graphs is core.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.make_picture_graphs.part_of.picture_bar_graphs",
+        "from": "math.statistics.displays.make_picture_graphs",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Making picture graphs is core.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar_graphs.encompasses.make_picture_graphs",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.make_picture_graphs",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Making picture graphs is core.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_graph_key_interpretation.part_of.picture_bar_graphs",
+        "from": "math.statistics.displays.picture_graph_key_interpretation",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Keys support picture graphs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar_graphs.encompasses.picture_graph_key_interpretation",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.picture_graph_key_interpretation",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Keys support picture graphs.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.partial_symbol_interpretation.part_of.picture_bar_graphs",
+        "from": "math.statistics.displays.partial_symbol_interpretation",
+        "to": "math.statistics.displays.picture_bar_graphs",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Partial symbols support picture graphs.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.picture_bar_graphs.encompasses.partial_symbol_interpretation",
+        "from": "math.statistics.displays.picture_bar_graphs",
+        "to": "math.statistics.displays.partial_symbol_interpretation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Partial symbols support picture graphs.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3824
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3832
+  }
+}

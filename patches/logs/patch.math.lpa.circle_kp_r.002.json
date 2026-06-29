@@ -1,0 +1,46 @@
+{
+  "patch_id": "patch.math.lpa.circle_kp_r.002",
+  "applied_at": "2026-06-28T03:03:40.250Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.circle_r_relation.targets.kp_r_half_d",
+        "from": "math.measurement.circles.radius_diameter_relationship",
+        "to": "math.kp.measurement.radius_half_diameter",
+        "type": "targets_knowledge_point",
+        "confidence": "high",
+        "rationale": "This node directly assesses the radius-diameter relation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3024
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3025
+  }
+}

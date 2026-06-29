@@ -1,0 +1,318 @@
+{
+  "patch_id": "patch.math.data_collection_method_prereqs.003n",
+  "applied_at": "2026-06-29T00:41:55.003Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 16,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.survey_data_collection.requires.question_matches_data",
+        "from": "math.statistics.data.survey_data_collection",
+        "to": "math.statistics.data.question_matches_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Survey collection depends on a question that can be answered by responses.",
+        "failure_signal": "Learner surveys without matching question and data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.leading_question_bias.requires.survey_data_collection",
+        "from": "math.statistics.data.leading_question_bias",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Leading wording is a survey-design issue.",
+        "failure_signal": "Learner misses wording effects in surveys.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.double_barrelled_question.requires.survey_data_collection",
+        "from": "math.statistics.data.double_barrelled_question",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Double questions are a survey-design issue.",
+        "failure_signal": "Learner asks two things at once.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.ambiguous_response_options.requires.category_labels",
+        "from": "math.statistics.data.ambiguous_response_options",
+        "to": "math.statistics.data.category_labels",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Response options need clear categories.",
+        "failure_signal": "Learner creates overlapping or missing choices.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.balanced_response_scale.requires.ambiguous_response_options",
+        "from": "math.statistics.data.balanced_response_scale",
+        "to": "math.statistics.data.ambiguous_response_options",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Balanced scales refine response options.",
+        "failure_signal": "Learner gives lopsided response choices.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.pilot_survey_questions.requires.survey_data_collection",
+        "from": "math.statistics.data.pilot_survey_questions",
+        "to": "math.statistics.data.survey_data_collection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Piloting tests survey questions before full collection.",
+        "failure_signal": "Learner misses confusing wording until after collection.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.anonymous_response_considerations.requires.response_bias",
+        "from": "math.statistics.data.anonymous_response_considerations",
+        "to": "math.statistics.data.response_bias",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Anonymity can reduce response bias.",
+        "failure_signal": "Learner ignores social-pressure effects.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observation_data_collection.requires.observation_protocol",
+        "from": "math.statistics.data.observation_data_collection",
+        "to": "math.statistics.data.observation_protocol",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Observation collection needs a protocol.",
+        "failure_signal": "Learner records events inconsistently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observation_protocol.requires.category_labels",
+        "from": "math.statistics.data.observation_protocol",
+        "to": "math.statistics.data.category_labels",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Observation rules use clear categories or events.",
+        "failure_signal": "Learner disagrees about what counts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.observational_vs_experimental_data.requires.observation_data_collection",
+        "from": "math.statistics.data.observational_vs_experimental_data",
+        "to": "math.statistics.data.observation_data_collection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "The contrast starts from observational data.",
+        "failure_signal": "Learner cannot distinguish recording from intervention.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_data_collection.requires.observational_vs_experimental_data",
+        "from": "math.statistics.data.experimental_data_collection",
+        "to": "math.statistics.data.observational_vs_experimental_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Experimental collection contrasts with observation.",
+        "failure_signal": "Learner changes no condition but calls it an experiment.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.controlled_variable_intro.requires.experimental_data_collection",
+        "from": "math.statistics.data.controlled_variable_intro",
+        "to": "math.statistics.data.experimental_data_collection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Control variables support experiments.",
+        "failure_signal": "Learner cannot say what was held fixed.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.treatment_condition_intro.requires.experimental_data_collection",
+        "from": "math.statistics.data.treatment_condition_intro",
+        "to": "math.statistics.data.experimental_data_collection",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Treatment conditions define experiment comparisons.",
+        "failure_signal": "Learner cannot identify the changed condition.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.repeated_measurement_reliability.requires.measurement_unit_consistency",
+        "from": "math.statistics.data.repeated_measurement_reliability",
+        "to": "math.statistics.data.measurement_unit_consistency",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Repeated measurements require consistent measurement rules.",
+        "failure_signal": "Learner repeats measures in incompatible units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_data_investigation.requires.refine_statistical_questions",
+        "from": "math.statistics.data.plan_data_investigation",
+        "to": "math.statistics.data.refine_statistical_questions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Planning begins with a refined statistical question.",
+        "failure_signal": "Learner plans collection without a clear question.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.plan_data_investigation.requires.data_recording_protocol",
+        "from": "math.statistics.data.plan_data_investigation",
+        "to": "math.statistics.data.data_recording_protocol",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Investigation planning includes recording rules.",
+        "failure_signal": "Learner has no consistent data plan.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4095
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4111
+  }
+}

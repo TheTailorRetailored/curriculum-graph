@@ -1,0 +1,228 @@
+{
+  "patch_id": "patch.math.linear_relationships.gradient_intercept_requires.001",
+  "applied_at": "2026-06-28T00:42:00.907Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 11,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_from_graph_rise_run.requires.graph_linear_rules",
+        "from": "math.algebra.linear.gradient_from_graph_rise_run",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Finding gradient by rise and run depends on graphing or reading a linear rule on coordinate axes.",
+        "failure_signal": "Learner counts vertical or horizontal change without connecting it to the line's rate of change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_formula_delta_y_delta_x.requires.ordered_pairs",
+        "from": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "to": "math.algebra.linear.ordered_pairs",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Using coordinate differences for gradient depends on interpreting ordered pairs correctly.",
+        "failure_signal": "Learner swaps x and y differences or subtracts mismatched coordinates.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.gradient_formula_delta_y_delta_x.requires.gradient_from_graph_rise_run",
+        "from": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "to": "math.algebra.linear.gradient_from_graph_rise_run",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "The coordinate-difference formula formalises rise-over-run gradient reasoning from a graph.",
+        "failure_signal": "Learner applies the formula without understanding which difference is rise and which is run.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.positive_negative_zero_gradient.requires.gradient_from_graph_rise_run",
+        "from": "math.algebra.linear.positive_negative_zero_gradient",
+        "to": "math.algebra.linear.gradient_from_graph_rise_run",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting positive, negative, and zero gradient depends on relating graph direction to rise-over-run.",
+        "failure_signal": "Learner describes the line's position rather than its direction or rate of change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.undefined_gradient_vertical_line.requires.gradient_formula_delta_y_delta_x",
+        "from": "math.algebra.linear.undefined_gradient_vertical_line",
+        "to": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding undefined vertical-line gradient depends on seeing zero horizontal change in the gradient ratio.",
+        "failure_signal": "Learner calls a vertical-line gradient zero instead of undefined.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_from_graph.requires.graph_linear_rules",
+        "from": "math.algebra.linear.y_intercept_from_graph",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading a y-intercept from a graph depends on graphing or reading linear relationships on axes.",
+        "failure_signal": "Learner picks any visible crossing rather than the crossing with the y-axis.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.y_intercept_from_equation.requires.slope_intercept_form",
+        "from": "math.algebra.linear.y_intercept_from_equation",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Finding the y-intercept from an equation depends on recognising the slope-intercept form parameters.",
+        "failure_signal": "Learner identifies the coefficient of x as the intercept or ignores the constant term.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.x_intercept_by_setting_y_zero.requires.x_intercept_meaning",
+        "from": "math.algebra.linear.x_intercept_by_setting_y_zero",
+        "to": "math.algebra.linear.x_intercept_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Computing an x-intercept by setting y to zero depends on knowing that the x-intercept is where the graph crosses the x-axis.",
+        "failure_signal": "Learner sets x to zero or confuses x- and y-intercepts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_from_slope_intercept_form.requires.slope_intercept_form",
+        "from": "math.algebra.linear.graph_from_slope_intercept_form",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Graphing from slope-intercept form depends on interpreting the gradient and intercept parameters.",
+        "failure_signal": "Learner plots the intercept but cannot use the gradient to generate the line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_equation_from_gradient_intercept.requires.slope_intercept_form",
+        "from": "math.algebra.linear.write_equation_from_gradient_intercept",
+        "to": "math.algebra.linear.slope_intercept_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Writing an equation from gradient and intercept depends on understanding slope-intercept form.",
+        "failure_signal": "Learner swaps gradient and intercept or writes parameters in the wrong form.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.write_equation_from_two_points.requires.gradient_formula_delta_y_delta_x",
+        "from": "math.algebra.linear.write_equation_from_two_points",
+        "to": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Writing an equation from two points first requires finding the gradient from the coordinate differences.",
+        "failure_signal": "Learner cannot calculate a consistent gradient from the two points.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2541
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2552
+  }
+}

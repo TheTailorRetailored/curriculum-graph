@@ -1,0 +1,66 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.poly_products_kps.001",
+  "applied_at": "2026-06-28T09:19:35.334Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 4
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.binomial_area_model",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.distribution_multiplies_all_terms"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.special_products",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.distribution_multiplies_all_terms"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.perfect_square_trinomial_products",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.distribution_multiplies_all_terms"
+        ]
+      }
+    },
+    {
+      "op": "update_node",
+      "id": "math.algebra.polynomials.common_factor_polynomials",
+      "updates": {
+        "knowledge_points": [
+          "math.kp.polynomials.distribution_multiplies_all_terms"
+        ]
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/polynomials_and_quadratics.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3053
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3057
+  }
+}

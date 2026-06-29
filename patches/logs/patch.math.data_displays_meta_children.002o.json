@@ -1,0 +1,162 @@
+{
+  "patch_id": "patch.math.data_displays_meta_children.002o",
+  "applied_at": "2026-06-28T23:48:02.243Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 8,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_displays.part_of.data_displays",
+        "from": "math.statistics.displays.compare_displays",
+        "to": "math.area.data_displays",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Comparing displays spans this area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_displays.encompasses.compare_displays",
+        "from": "math.area.data_displays",
+        "to": "math.statistics.displays.compare_displays",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Comparing displays spans this area.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_display_for_data_type.part_of.data_displays",
+        "from": "math.statistics.displays.choose_display_for_data_type",
+        "to": "math.area.data_displays",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Choosing displays spans this area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_displays.encompasses.choose_display_for_data_type",
+        "from": "math.area.data_displays",
+        "to": "math.statistics.displays.choose_display_for_data_type",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Choosing displays spans this area.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.misleading_display_detection.part_of.data_displays",
+        "from": "math.statistics.displays.misleading_display_detection",
+        "to": "math.area.data_displays",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Misleading-display checks span this area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_displays.encompasses.misleading_display_detection",
+        "from": "math.area.data_displays",
+        "to": "math.statistics.displays.misleading_display_detection",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Misleading-display checks span this area.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_caption_for_display.part_of.data_displays",
+        "from": "math.statistics.displays.context_caption_for_display",
+        "to": "math.area.data_displays",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Context captions apply across displays.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.data_displays.encompasses.context_caption_for_display",
+        "from": "math.area.data_displays",
+        "to": "math.statistics.displays.context_caption_for_display",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Context captions apply across displays.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3812
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3820
+  }
+}

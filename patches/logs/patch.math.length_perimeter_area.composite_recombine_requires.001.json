@@ -1,0 +1,48 @@
+{
+  "patch_id": "patch.math.length_perimeter_area.composite_recombine_requires.001",
+  "applied_at": "2026-06-28T02:47:57.106Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.recombine_area_parts.requires.decompose_composite_figures",
+        "from": "math.measurement.area.recombine_area_parts",
+        "to": "math.measurement.area.decompose_composite_figures",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recombining area parts depends on first decomposing the figure into measurable regions.",
+        "failure_signal": "Learner finds some part areas but does not combine them to recover the whole area.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3016
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3017
+  }
+}

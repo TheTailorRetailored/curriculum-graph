@@ -1,0 +1,426 @@
+{
+  "patch_id": "patch.math.data_summaries_centre_children.003q",
+  "applied_at": "2026-06-29T00:48:38.362Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 24,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_as_balance_point.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.mean_as_balance_point",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Mean interpretation belongs with centre.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.mean_as_balance_point",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mean_as_balance_point",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Mean interpretation belongs with centre.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_mean.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.calculate_mean",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Mean calculation belongs with centre.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.calculate_mean",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.calculate_mean",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Mean calculation belongs with centre.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_total_sum.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.mean_total_sum",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Total sum supports mean.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.mean_total_sum",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mean_total_sum",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Total sum supports mean.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_number_of_values.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.mean_number_of_values",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Number of values supports mean.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.mean_number_of_values",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mean_number_of_values",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Number of values supports mean.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_from_frequency_table.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.mean_from_frequency_table",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Frequency-table mean belongs with centre.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.mean_from_frequency_table",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mean_from_frequency_table",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Frequency-table mean belongs with centre.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.weighted_mean_intro.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.weighted_mean_intro",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Weighted mean extends mean.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.weighted_mean_intro",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.weighted_mean_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Weighted mean extends mean.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_ordered_data.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.median_ordered_data",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Median belongs with centre.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.median_ordered_data",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.median_ordered_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Median belongs with centre.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_odd_number_of_values.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.median_odd_number_of_values",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Odd-count median supports median.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.median_odd_number_of_values",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.median_odd_number_of_values",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Odd-count median supports median.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_even_number_of_values.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.median_even_number_of_values",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Even-count median supports median.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.median_even_number_of_values",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.median_even_number_of_values",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Even-count median supports median.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_most_frequent.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.mode_most_frequent",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Mode belongs with centre.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.mode_most_frequent",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mode_most_frequent",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Mode belongs with centre.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_multiple_or_none.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.mode_multiple_or_none",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Multiple/no mode extends mode.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.mode_multiple_or_none",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mode_multiple_or_none",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Multiple/no mode extends mode.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_for_categorical_data.part_of.centre_mean_median_mode",
+        "from": "math.statistics.summaries.mode_for_categorical_data",
+        "to": "math.statistics.summaries.centre_mean_median_mode",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Categorical mode belongs with mode.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_mean_median_mode.encompasses.mode_for_categorical_data",
+        "from": "math.statistics.summaries.centre_mean_median_mode",
+        "to": "math.statistics.summaries.mode_for_categorical_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Categorical mode belongs with mode.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4139
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4163
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.polynomials_quadratics.quad_graph_requires_b.001",
+  "applied_at": "2026-06-28T09:29:39.161Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertex_completed_square.requires.completing_square_form",
+        "from": "math.algebra.quadratics.vertex_from_completed_square_form",
+        "to": "math.algebra.quadratics.completing_square_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Reading the vertex from completed-square form depends on completing-square form.",
+        "failure_signal": "Learner cannot identify the vertex from the completed-square expression.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_vertex_form.requires.vertex_completed_square",
+        "from": "math.algebra.quadratics.graph_from_vertex_form",
+        "to": "math.algebra.quadratics.vertex_from_completed_square_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Graphing from vertex form depends on reading the vertex and transformations.",
+        "failure_signal": "Learner cannot use vertex form parameters to place the graph.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.graph_intercepts.requires.roots_factored_form",
+        "from": "math.algebra.quadratics.graph_from_intercepts",
+        "to": "math.algebra.quadratics.roots_from_factored_form",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Graphing from intercepts depends on finding roots from factored form.",
+        "failure_signal": "Learner cannot convert factored form into x-intercepts.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3113
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3116
+  }
+}

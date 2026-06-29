@@ -1,0 +1,129 @@
+{
+  "patch_id": "patch.math.data_displays_line_children.002n",
+  "applied_at": "2026-06-28T23:47:31.112Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 6,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_for_measurement_data.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.line_plots_for_measurement_data",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Line plots show measurement data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.line_plots_for_measurement_data",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.line_plots_for_measurement_data",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Line plots show measurement data.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plot_fraction_measurements.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.line_plot_fraction_measurements",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Fractional measurements belong in line plots.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.line_plot_fraction_measurements",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.line_plot_fraction_measurements",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Fractional measurements belong in line plots.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.display_center_spread_shape_language.part_of.line_plots_dot_plots",
+        "from": "math.statistics.displays.display_center_spread_shape_language",
+        "to": "math.statistics.displays.line_plots_dot_plots",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Centre, spread and shape language starts here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_plots_dot_plots.encompasses.display_center_spread_shape_language",
+        "from": "math.statistics.displays.line_plots_dot_plots",
+        "to": "math.statistics.displays.display_center_spread_shape_language",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Centre, spread and shape language starts here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3806
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3812
+  }
+}

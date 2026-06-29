@@ -1,0 +1,48 @@
+{
+  "patch_id": "patch.math.lpa.area_contexts_req_short.001",
+  "applied_at": "2026-06-28T03:07:24.685Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 1,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.area_contexts.requires.strategy_choice",
+        "from": "math.measurement.area.area_problem_solving_contexts",
+        "to": "math.measurement.area.choose_decomposition_strategy",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Area contexts depend on choosing a strategy.",
+        "failure_signal": "Learner cannot select a strategy for the shape.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3029
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3030
+  }
+}

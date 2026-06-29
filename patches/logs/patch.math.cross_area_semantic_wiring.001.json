@@ -1,0 +1,2188 @@
+{
+  "patch_id": "patch.math.cross_area_semantic_wiring.001",
+  "applied_at": "2026-06-28T13:51:54.077Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 133,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.rational_coefficient_equations.requires.one_step_multiply_divide_equations",
+        "from": "math.algebra.equations.rational_coefficient_equations",
+        "to": "math.algebra.equations.one_step_multiply_divide_equations",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Solving equations with rational coefficients depends on using inverse multiplication and division to isolate an unknown before handling more complex coefficient forms.",
+        "failure_signal": "Learner understands the coefficient is attached to the variable but cannot undo multiplication or division to isolate it.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability_scale_zero_to_one.part_of.theoretical_probability",
+        "from": "math.probability.models.probability_scale_zero_to_one",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Interpreting probabilities on the zero-to-one scale is foundational for theoretical probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.probability_scale_zero_to_one",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.probability_scale_zero_to_one",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Interpreting probabilities on the zero-to-one scale is foundational for theoretical probability.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_probability_values.part_of.theoretical_probability",
+        "from": "math.probability.models.valid_probability_values",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Checking that a value is a valid probability is core theoretical-probability reasoning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.valid_probability_values",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.valid_probability_values",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Checking that a value is a valid probability is core theoretical-probability reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.impossible_certain_probabilities.part_of.theoretical_probability",
+        "from": "math.probability.models.impossible_certain_probabilities",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Impossible and certain events anchor the endpoints of theoretical probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.impossible_certain_probabilities",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.impossible_certain_probabilities",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Impossible and certain events anchor the endpoints of theoretical probability.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability_as_fraction.part_of.theoretical_probability",
+        "from": "math.probability.models.probability_as_fraction",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Representing probability as a fraction is central to finite theoretical probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.probability_as_fraction",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.probability_as_fraction",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Representing probability as a fraction is central to finite theoretical probability.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_total_outcomes.part_of.theoretical_probability",
+        "from": "math.probability.models.identify_total_outcomes",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Identifying total outcomes is necessary for favourable-over-total probability calculations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.identify_total_outcomes",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.identify_total_outcomes",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying total outcomes is necessary for favourable-over-total probability calculations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_favourable_count.part_of.theoretical_probability",
+        "from": "math.probability.models.identify_favourable_count",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Identifying favourable outcomes is necessary for event probability calculations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.identify_favourable_count",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.identify_favourable_count",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Identifying favourable outcomes is necessary for event probability calculations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_over_total.part_of.theoretical_probability",
+        "from": "math.probability.models.favourable_over_total",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Favourable-over-total is the central calculation model for simple equally likely outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.favourable_over_total",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.favourable_over_total",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Favourable-over-total is the central calculation model for simple equally likely outcomes.",
+        "weight": 0.9,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely_assumption_check.part_of.theoretical_probability",
+        "from": "math.probability.models.equally_likely_assumption_check",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Theoretical probability calculations require checking whether equally likely assumptions are justified.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.equally_likely_assumption_check",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.equally_likely_assumption_check",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Theoretical probability calculations require checking whether equally likely assumptions are justified.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability_as_decimal_percent.part_of.theoretical_probability",
+        "from": "math.probability.models.probability_as_decimal_percent",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Decimal and percent forms extend theoretical probability representations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.probability_as_decimal_percent",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.probability_as_decimal_percent",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Decimal and percent forms extend theoretical probability representations.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_probability_fraction_decimal_percent.part_of.theoretical_probability",
+        "from": "math.probability.models.convert_probability_fraction_decimal_percent",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Converting between probability representations is part of using theoretical probability fluently.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.convert_probability_fraction_decimal_percent",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.convert_probability_fraction_decimal_percent",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Converting between probability representations is part of using theoretical probability fluently.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_probability_simple.part_of.theoretical_probability",
+        "from": "math.probability.models.complement_probability_simple",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Complement probability is a core theoretical-probability strategy when an event and not-event exhaust the sample space.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.complement_probability_simple",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.complement_probability_simple",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Complement probability is a core theoretical-probability strategy when an event and not-event exhaust the sample space.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_from_known_probability.part_of.theoretical_probability",
+        "from": "math.probability.models.complement_from_known_probability",
+        "to": "math.probability.models.theoretical_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Finding a complement from a known probability is a focused theoretical-probability skill.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.theoretical_probability.encompasses.complement_from_known_probability",
+        "from": "math.probability.models.theoretical_probability",
+        "to": "math.probability.models.complement_from_known_probability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Finding a complement from a known probability is a focused theoretical-probability skill.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.design_simple_experiment.part_of.experimental_probability",
+        "from": "math.probability.models.design_simple_experiment",
+        "to": "math.probability.models.experimental_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Designing a repeatable chance experiment is core experimental-probability work.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability.encompasses.design_simple_experiment",
+        "from": "math.probability.models.experimental_probability",
+        "to": "math.probability.models.design_simple_experiment",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Designing a repeatable chance experiment is core experimental-probability work.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.run_repeated_trials.part_of.experimental_probability",
+        "from": "math.probability.models.run_repeated_trials",
+        "to": "math.probability.models.experimental_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Repeated trials are the basis for estimating experimental probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability.encompasses.run_repeated_trials",
+        "from": "math.probability.models.experimental_probability",
+        "to": "math.probability.models.run_repeated_trials",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Repeated trials are the basis for estimating experimental probability.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_experimental_frequencies.part_of.experimental_probability",
+        "from": "math.probability.models.record_experimental_frequencies",
+        "to": "math.probability.models.experimental_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Experimental probability depends on recording outcome frequencies from trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability.encompasses.record_experimental_frequencies",
+        "from": "math.probability.models.experimental_probability",
+        "to": "math.probability.models.record_experimental_frequencies",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Experimental probability depends on recording outcome frequencies from trials.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability_fraction.part_of.experimental_probability",
+        "from": "math.probability.models.experimental_probability_fraction",
+        "to": "math.probability.models.experimental_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Experimental probability is represented as event frequency over total trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability.encompasses.experimental_probability_fraction",
+        "from": "math.probability.models.experimental_probability",
+        "to": "math.probability.models.experimental_probability_fraction",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Experimental probability is represented as event frequency over total trials.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_experimental_theoretical.part_of.experimental_probability",
+        "from": "math.probability.models.compare_experimental_theoretical",
+        "to": "math.probability.models.experimental_probability",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Comparing experimental and theoretical probability is core experimental-probability reasoning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability.encompasses.compare_experimental_theoretical",
+        "from": "math.probability.models.experimental_probability",
+        "to": "math.probability.models.compare_experimental_theoretical",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Comparing experimental and theoretical probability is core experimental-probability reasoning.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sources_of_experimental_variation.part_of.experimental_probability",
+        "from": "math.probability.models.sources_of_experimental_variation",
+        "to": "math.probability.models.experimental_probability",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Explaining variation helps learners interpret experimental results.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability.encompasses.sources_of_experimental_variation",
+        "from": "math.probability.models.experimental_probability",
+        "to": "math.probability.models.sources_of_experimental_variation",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Explaining variation helps learners interpret experimental results.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency_ratio.part_of.relative_frequency",
+        "from": "math.probability.models.relative_frequency_ratio",
+        "to": "math.probability.models.relative_frequency",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Relative frequency as a ratio is the core learner-state skill inside relative frequency.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.encompasses.relative_frequency_ratio",
+        "from": "math.probability.models.relative_frequency",
+        "to": "math.probability.models.relative_frequency_ratio",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Relative frequency as a ratio is the core learner-state skill inside relative frequency.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.long_run_stability.part_of.relative_frequency",
+        "from": "math.probability.models.long_run_stability",
+        "to": "math.probability.models.relative_frequency",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Long-run stability is a central interpretation of relative frequency.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.encompasses.long_run_stability",
+        "from": "math.probability.models.relative_frequency",
+        "to": "math.probability.models.long_run_stability",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Long-run stability is a central interpretation of relative frequency.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency_graphs.part_of.relative_frequency",
+        "from": "math.probability.models.relative_frequency_graphs",
+        "to": "math.probability.models.relative_frequency",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Graphs show how relative frequency changes over repeated trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.encompasses.relative_frequency_graphs",
+        "from": "math.probability.models.relative_frequency",
+        "to": "math.probability.models.relative_frequency_graphs",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Graphs show how relative frequency changes over repeated trials.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_probability_from_data.part_of.relative_frequency",
+        "from": "math.probability.models.estimate_probability_from_data",
+        "to": "math.probability.models.relative_frequency",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Estimating probability from data is a direct use of relative frequency.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.encompasses.estimate_probability_from_data",
+        "from": "math.probability.models.relative_frequency",
+        "to": "math.probability.models.estimate_probability_from_data",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Estimating probability from data is a direct use of relative frequency.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size_and_noise.part_of.relative_frequency",
+        "from": "math.probability.models.sample_size_and_noise",
+        "to": "math.probability.models.relative_frequency",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Sample size and noise explain the reliability of relative-frequency estimates.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.encompasses.sample_size_and_noise",
+        "from": "math.probability.models.relative_frequency",
+        "to": "math.probability.models.sample_size_and_noise",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Sample size and noise explain the reliability of relative-frequency estimates.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.law_large_numbers_informal.part_of.relative_frequency",
+        "from": "math.probability.models.law_large_numbers_informal",
+        "to": "math.probability.models.relative_frequency",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "The informal law of large numbers extends long-run relative-frequency reasoning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency.encompasses.law_large_numbers_informal",
+        "from": "math.probability.models.relative_frequency",
+        "to": "math.probability.models.law_large_numbers_informal",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "The informal law of large numbers extends long-run relative-frequency reasoning.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability_scale_zero_to_one.targets_knowledge_point.probability_between_zero_one",
+        "from": "math.probability.models.probability_scale_zero_to_one",
+        "to": "math.kp.probability.probability_between_zero_one",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_probability_values.targets_knowledge_point.probability_between_zero_one",
+        "from": "math.probability.models.valid_probability_values",
+        "to": "math.kp.probability.probability_between_zero_one",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.impossible_certain_probabilities.targets_knowledge_point.probability_between_zero_one",
+        "from": "math.probability.models.impossible_certain_probabilities",
+        "to": "math.kp.probability.probability_between_zero_one",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability_as_fraction.targets_knowledge_point.theoretical_probability_ratio",
+        "from": "math.probability.models.probability_as_fraction",
+        "to": "math.kp.probability.theoretical_probability_ratio",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_total_outcomes.targets_knowledge_point.total_outcomes_denominator",
+        "from": "math.probability.models.identify_total_outcomes",
+        "to": "math.kp.probability.total_outcomes_denominator",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_favourable_count.targets_knowledge_point.theoretical_probability_ratio",
+        "from": "math.probability.models.identify_favourable_count",
+        "to": "math.kp.probability.theoretical_probability_ratio",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_over_total.targets_knowledge_point.theoretical_probability_ratio",
+        "from": "math.probability.models.favourable_over_total",
+        "to": "math.kp.probability.theoretical_probability_ratio",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_over_total.targets_knowledge_point.total_outcomes_denominator",
+        "from": "math.probability.models.favourable_over_total",
+        "to": "math.kp.probability.total_outcomes_denominator",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_probability_simple.targets_knowledge_point.complements_sum_to_one",
+        "from": "math.probability.models.complement_probability_simple",
+        "to": "math.kp.probability.complements_sum_to_one",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_from_known_probability.targets_knowledge_point.complements_sum_to_one",
+        "from": "math.probability.models.complement_from_known_probability",
+        "to": "math.kp.probability.complements_sum_to_one",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.design_simple_experiment.targets_knowledge_point.experimental_probability_uses_trials",
+        "from": "math.probability.models.design_simple_experiment",
+        "to": "math.kp.probability.experimental_probability_uses_trials",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.run_repeated_trials.targets_knowledge_point.experimental_probability_uses_trials",
+        "from": "math.probability.models.run_repeated_trials",
+        "to": "math.kp.probability.experimental_probability_uses_trials",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability_fraction.targets_knowledge_point.experimental_probability_uses_trials",
+        "from": "math.probability.models.experimental_probability_fraction",
+        "to": "math.kp.probability.experimental_probability_uses_trials",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency_ratio.targets_knowledge_point.relative_frequency_is_proportion",
+        "from": "math.probability.models.relative_frequency_ratio",
+        "to": "math.kp.probability.relative_frequency_is_proportion",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.long_run_stability.targets_knowledge_point.more_trials_reduce_noise",
+        "from": "math.probability.models.long_run_stability",
+        "to": "math.kp.probability.more_trials_reduce_noise",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size_and_noise.targets_knowledge_point.more_trials_reduce_noise",
+        "from": "math.probability.models.sample_size_and_noise",
+        "to": "math.kp.probability.more_trials_reduce_noise",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_probability_from_data.targets_knowledge_point.relative_frequency_is_proportion",
+        "from": "math.probability.models.estimate_probability_from_data",
+        "to": "math.kp.probability.relative_frequency_is_proportion",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_probability_values.has_misconception.probability_over_one",
+        "from": "math.probability.models.valid_probability_values",
+        "to": "math.misconception.probability.probability_over_one",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_over_total.has_misconception.denominator_is_favourable_outcomes",
+        "from": "math.probability.models.favourable_over_total",
+        "to": "math.misconception.probability.denominator_is_favourable_outcomes",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_experimental_theoretical.has_misconception.experimental_equals_theoretical_always",
+        "from": "math.probability.models.compare_experimental_theoretical",
+        "to": "math.misconception.probability.experimental_equals_theoretical_always",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.long_run_stability.has_misconception.short_run_pattern_must_continue",
+        "from": "math.probability.models.long_run_stability",
+        "to": "math.misconception.probability.short_run_pattern_must_continue",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size_and_noise.has_misconception.short_run_pattern_must_continue",
+        "from": "math.probability.models.sample_size_and_noise",
+        "to": "math.misconception.probability.short_run_pattern_must_continue",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.valid_probability_values.requires.probability_scale_zero_to_one",
+        "from": "math.probability.models.valid_probability_values",
+        "to": "math.probability.models.probability_scale_zero_to_one",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Checking whether a probability value is valid depends on understanding the zero-to-one probability scale.",
+        "failure_signal": "Learner accepts values below zero or above one as possible probabilities.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.impossible_certain_probabilities.requires.probability_scale_zero_to_one",
+        "from": "math.probability.models.impossible_certain_probabilities",
+        "to": "math.probability.models.probability_scale_zero_to_one",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting impossible and certain events depends on understanding the endpoints of the probability scale.",
+        "failure_signal": "Learner cannot connect probability zero with impossible or probability one with certain.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_total_outcomes.requires.sample_space_checks",
+        "from": "math.probability.models.identify_total_outcomes",
+        "to": "math.probability.chance.sample_space_checks",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Identifying total outcomes depends on checking that the sample space is complete and non-duplicated.",
+        "failure_signal": "Learner uses an incomplete or duplicated outcome list as the denominator.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identify_favourable_count.requires.outcome_vs_event",
+        "from": "math.probability.models.identify_favourable_count",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Counting favourable outcomes depends on distinguishing the event from the individual outcomes that satisfy it.",
+        "failure_signal": "Learner counts event labels or categories instead of outcomes satisfying the event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_over_total.requires.identify_total_outcomes",
+        "from": "math.probability.models.favourable_over_total",
+        "to": "math.probability.models.identify_total_outcomes",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Favourable-over-total probability requires identifying the total number of possible equally likely outcomes.",
+        "failure_signal": "Learner cannot choose the denominator for a probability fraction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.favourable_over_total.requires.identify_favourable_count",
+        "from": "math.probability.models.favourable_over_total",
+        "to": "math.probability.models.identify_favourable_count",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Favourable-over-total probability requires counting the outcomes that satisfy the event.",
+        "failure_signal": "Learner cannot choose the numerator for a probability fraction.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.equally_likely_assumption_check.requires.equally_likely_outcomes",
+        "from": "math.probability.models.equally_likely_assumption_check",
+        "to": "math.probability.chance.equally_likely_outcomes",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Checking whether a theoretical probability model is justified depends on recognising when outcomes are equally likely.",
+        "failure_signal": "Learner applies favourable-over-total reasoning to outcomes that are not equally likely.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability_as_fraction.requires.probability_scale_zero_to_one",
+        "from": "math.probability.models.probability_as_fraction",
+        "to": "math.probability.models.probability_scale_zero_to_one",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Representing probability as a fraction depends on recognising that probabilities lie on the zero-to-one scale.",
+        "failure_signal": "Learner gives fractions greater than one as probabilities without checking meaning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.probability_as_decimal_percent.requires.probability_as_fraction",
+        "from": "math.probability.models.probability_as_decimal_percent",
+        "to": "math.probability.models.probability_as_fraction",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Decimal and percent probability forms build on understanding probability as a fractional proportion.",
+        "failure_signal": "Learner converts mechanically but loses the probability meaning or scale.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.convert_probability_fraction_decimal_percent.requires.probability_as_decimal_percent",
+        "from": "math.probability.models.convert_probability_fraction_decimal_percent",
+        "to": "math.probability.models.probability_as_decimal_percent",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Converting between fraction, decimal and percent probability forms requires interpreting those representations as the same probability value.",
+        "failure_signal": "Learner treats 75 percent, 0.75 and three quarters as different likelihoods.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_probability_simple.requires.outcome_vs_event",
+        "from": "math.probability.models.complement_probability_simple",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Complement probability depends on distinguishing the event from the outcomes outside the event.",
+        "failure_signal": "Learner cannot define the not-event or includes overlapping outcomes in both event and complement.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.complement_from_known_probability.requires.complement_probability_simple",
+        "from": "math.probability.models.complement_from_known_probability",
+        "to": "math.probability.models.complement_probability_simple",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Finding a complement from a known probability is a focused use of complement probability.",
+        "failure_signal": "Learner subtracts from 100 or 1 inconsistently or does not recognise the complement event.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.run_repeated_trials.requires.design_simple_experiment",
+        "from": "math.probability.models.run_repeated_trials",
+        "to": "math.probability.models.design_simple_experiment",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Running repeated trials depends on a clear experiment design and a defined trial.",
+        "failure_signal": "Learner changes the trial procedure during the experiment or records inconsistent outcomes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.record_experimental_frequencies.requires.run_repeated_trials",
+        "from": "math.probability.models.record_experimental_frequencies",
+        "to": "math.probability.models.run_repeated_trials",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recording experimental frequencies depends on carrying out repeated trials consistently.",
+        "failure_signal": "Learner records outcomes without a consistent trial count or outcome categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.experimental_probability_fraction.requires.record_experimental_frequencies",
+        "from": "math.probability.models.experimental_probability_fraction",
+        "to": "math.probability.models.record_experimental_frequencies",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Experimental probability as a fraction requires counts of event frequency and total trials.",
+        "failure_signal": "Learner cannot form event frequency over total trials from recorded data.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_experimental_theoretical.requires.experimental_probability_fraction",
+        "from": "math.probability.models.compare_experimental_theoretical",
+        "to": "math.probability.models.experimental_probability_fraction",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing experimental and theoretical probabilities requires first estimating the experimental probability.",
+        "failure_signal": "Learner compares raw counts to probability values or expects exact agreement in small samples.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_experimental_theoretical.requires.favourable_over_total",
+        "from": "math.probability.models.compare_experimental_theoretical",
+        "to": "math.probability.models.favourable_over_total",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Comparing experimental and theoretical probabilities requires a theoretical probability to compare against.",
+        "failure_signal": "Learner cannot explain why observed frequency differs from the expected theoretical probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sources_of_experimental_variation.requires.compare_experimental_theoretical",
+        "from": "math.probability.models.sources_of_experimental_variation",
+        "to": "math.probability.models.compare_experimental_theoretical",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Explaining sources of variation builds on comparing observed experimental results with theoretical expectations.",
+        "failure_signal": "Learner treats any difference between experiment and theory as an error rather than possible chance variation.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.relative_frequency_ratio.requires.experimental_probability_fraction",
+        "from": "math.probability.models.relative_frequency_ratio",
+        "to": "math.probability.models.experimental_probability_fraction",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Relative frequency generalises experimental probability as a frequency divided by total trials.",
+        "failure_signal": "Learner reports raw frequency without relating it to the total number of trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.long_run_stability.requires.relative_frequency_ratio",
+        "from": "math.probability.models.long_run_stability",
+        "to": "math.probability.models.relative_frequency_ratio",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Long-run stability is interpreted through relative frequencies over increasing numbers of trials.",
+        "failure_signal": "Learner focuses on short-run streaks rather than the changing relative frequency.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.sample_size_and_noise.requires.relative_frequency_ratio",
+        "from": "math.probability.models.sample_size_and_noise",
+        "to": "math.probability.models.relative_frequency_ratio",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding sample size and noise depends on interpreting relative frequency as an estimate based on trials.",
+        "failure_signal": "Learner gives equal confidence to tiny and large samples without considering variability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.estimate_probability_from_data.requires.relative_frequency_ratio",
+        "from": "math.probability.models.estimate_probability_from_data",
+        "to": "math.probability.models.relative_frequency_ratio",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Estimating probability from data uses relative frequency as the probability estimate.",
+        "failure_signal": "Learner cannot turn observed counts into a probability estimate.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.law_large_numbers_informal.requires.long_run_stability",
+        "from": "math.probability.models.law_large_numbers_informal",
+        "to": "math.probability.models.long_run_stability",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "The informal law of large numbers builds on observing long-run stability in relative frequencies.",
+        "failure_signal": "Learner expects probability to force exact balance in the short run rather than stabilise over many trials.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.and_or_event_language.part_of.two_way_tables",
+        "from": "math.probability.compound.and_or_event_language",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Compound-event language is foundational for reading table, Venn and tree representations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.and_or_event_language",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.and_or_event_language",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Compound-event language is foundational for reading table, Venn and tree representations.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_table_structure.part_of.two_way_tables",
+        "from": "math.probability.compound.two_way_table_structure",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Rows, columns, cells and totals are core structure for two-way table probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.two_way_table_structure",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.two_way_table_structure",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Rows, columns, cells and totals are core structure for two-way table probability.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_two_way_table_probabilities.part_of.two_way_tables",
+        "from": "math.probability.compound.read_two_way_table_probabilities",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Reading probabilities from tables is a central use of two-way table representations.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.read_two_way_table_probabilities",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.read_two_way_table_probabilities",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Reading probabilities from tables is a central use of two-way table representations.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_diagram_regions.part_of.two_way_tables",
+        "from": "math.probability.compound.venn_diagram_regions",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Venn diagram regions represent compound-event structure alongside two-way tables.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.venn_diagram_regions",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.venn_diagram_regions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Venn diagram regions represent compound-event structure alongside two-way tables.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.union_and_intersection_events.part_of.two_way_tables",
+        "from": "math.probability.compound.union_and_intersection_events",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Union and intersection are central compound-event relationships in tables and Venn diagrams.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.union_and_intersection_events",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.union_and_intersection_events",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Union and intersection are central compound-event relationships in tables and Venn diagrams.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tree_diagram_branches.part_of.two_way_tables",
+        "from": "math.probability.compound.tree_diagram_branches",
+        "to": "math.probability.compound.two_way_tables",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Tree diagram branches represent sequential compound-event structures.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_tables.encompasses.tree_diagram_branches",
+        "from": "math.probability.compound.two_way_tables",
+        "to": "math.probability.compound.tree_diagram_branches",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Tree diagram branches represent sequential compound-event structures.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_events_meaning.part_of.independent_dependent_events",
+        "from": "math.probability.compound.independent_events_meaning",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Understanding independence begins with recognising that one event does not change the probability of another.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.independent_events_meaning",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.independent_events_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Understanding independence begins with recognising that one event does not change the probability of another.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.dependent_events_meaning.part_of.independent_dependent_events",
+        "from": "math.probability.compound.dependent_events_meaning",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Understanding dependence begins with recognising that one event changes the probability of another.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.dependent_events_meaning",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.dependent_events_meaning",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Understanding dependence begins with recognising that one event changes the probability of another.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.with_replacement_contexts.part_of.independent_dependent_events",
+        "from": "math.probability.compound.with_replacement_contexts",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "With-replacement contexts are standard examples where probabilities often remain stable.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.with_replacement_contexts",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.with_replacement_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "With-replacement contexts are standard examples where probabilities often remain stable.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.without_replacement_contexts.part_of.independent_dependent_events",
+        "from": "math.probability.compound.without_replacement_contexts",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Without-replacement contexts are standard examples where probabilities can change.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.without_replacement_contexts",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.without_replacement_contexts",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Without-replacement contexts are standard examples where probabilities can change.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_rule_independent.part_of.independent_dependent_events",
+        "from": "math.probability.compound.multiplication_rule_independent",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Multiplying independent probabilities is a central calculation for independent events.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.multiplication_rule_independent",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.multiplication_rule_independent",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Multiplying independent probabilities is a central calculation for independent events.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_rule_dependent.part_of.independent_dependent_events",
+        "from": "math.probability.compound.multiplication_rule_dependent",
+        "to": "math.probability.compound.independent_dependent_events",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Dependent multiplication uses updated stage probabilities and belongs in independent/dependent event reasoning.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_events.encompasses.multiplication_rule_dependent",
+        "from": "math.probability.compound.independent_dependent_events",
+        "to": "math.probability.compound.multiplication_rule_dependent",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Dependent multiplication uses updated stage probabilities and belongs in independent/dependent event reasoning.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.and_or_event_language.targets_knowledge_point.and_intersection_or_union",
+        "from": "math.probability.compound.and_or_event_language",
+        "to": "math.kp.probability.and_intersection_or_union",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.two_way_table_structure.targets_knowledge_point.tables_organise_joint_counts",
+        "from": "math.probability.compound.two_way_table_structure",
+        "to": "math.kp.probability.tables_organise_joint_counts",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.venn_diagram_regions.targets_knowledge_point.venn_regions_partition_space",
+        "from": "math.probability.compound.venn_diagram_regions",
+        "to": "math.kp.probability.venn_regions_partition_space",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.tree_diagram_branches.targets_knowledge_point.tree_branches_represent_stages",
+        "from": "math.probability.compound.tree_diagram_branches",
+        "to": "math.kp.probability.tree_branches_represent_stages",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_events_meaning.targets_knowledge_point.independence_probability_unchanged",
+        "from": "math.probability.compound.independent_events_meaning",
+        "to": "math.kp.probability.independence_probability_unchanged",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.without_replacement_contexts.targets_knowledge_point.without_replacement_changes_probabilities",
+        "from": "math.probability.compound.without_replacement_contexts",
+        "to": "math.kp.probability.without_replacement_changes_probabilities",
+        "type": "targets_knowledge_point",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.and_or_event_language.has_misconception.and_or_confused",
+        "from": "math.probability.compound.and_or_event_language",
+        "to": "math.misconception.probability.and_or_confused",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.union_and_intersection_events.has_misconception.double_count_overlap",
+        "from": "math.probability.compound.union_and_intersection_events",
+        "to": "math.misconception.probability.double_count_overlap",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_events_meaning.has_misconception.independent_if_different_events",
+        "from": "math.probability.compound.independent_events_meaning",
+        "to": "math.misconception.probability.independent_if_different_events",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_rule_independent.has_misconception.multiply_without_checking_dependence",
+        "from": "math.probability.compound.multiplication_rule_independent",
+        "to": "math.misconception.probability.multiply_without_checking_dependence",
+        "type": "has_misconception",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.and_or_event_language.requires.outcome_vs_event",
+        "from": "math.probability.compound.and_or_event_language",
+        "to": "math.probability.chance.outcome_vs_event",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Compound-event language depends on distinguishing individual outcomes from events that may contain several outcomes.",
+        "failure_signal": "Learner treats and, or and not as ordinary wording without identifying the event sets involved.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.read_two_way_table_probabilities.requires.two_way_table_structure",
+        "from": "math.probability.compound.read_two_way_table_probabilities",
+        "to": "math.probability.compound.two_way_table_structure",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Reading probabilities from a two-way table requires understanding cells, row totals, column totals and the grand total.",
+        "failure_signal": "Learner chooses the wrong cell or denominator when reading a table probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.union_and_intersection_events.requires.and_or_event_language",
+        "from": "math.probability.compound.union_and_intersection_events",
+        "to": "math.probability.compound.and_or_event_language",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Union and intersection formalise the and/or compound-event language.",
+        "failure_signal": "Learner confuses the overlap with the combined region when reading event wording.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_rule_independent.requires.independent_events_meaning",
+        "from": "math.probability.compound.multiplication_rule_independent",
+        "to": "math.probability.compound.independent_events_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Multiplying event probabilities as independent requires first recognising that the events are independent.",
+        "failure_signal": "Learner multiplies probabilities without checking whether one event changes the other event's probability.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.multiplication_rule_dependent.requires.dependent_events_meaning",
+        "from": "math.probability.compound.multiplication_rule_dependent",
+        "to": "math.probability.compound.dependent_events_meaning",
+        "type": "requires",
+        "strength": "hard",
+        "confidence": "high",
+        "rationale": "Dependent-event multiplication requires recognising when probabilities change after earlier outcomes.",
+        "failure_signal": "Learner uses the original probability for later stages even after the sample space changes.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 3614
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 3747
+  }
+}

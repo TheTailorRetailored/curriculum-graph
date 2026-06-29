@@ -1,0 +1,300 @@
+{
+  "patch_id": "patch.math.data_summaries_centre_prereqs.003y",
+  "applied_at": "2026-06-29T00:58:21.487Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 15,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_mean.requires.mean_total_sum",
+        "from": "math.statistics.summaries.calculate_mean",
+        "to": "math.statistics.summaries.mean_total_sum",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Calculating mean uses the total sum.",
+        "failure_signal": "Learner divides without summing all values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.calculate_mean.requires.mean_number_of_values",
+        "from": "math.statistics.summaries.calculate_mean",
+        "to": "math.statistics.summaries.mean_number_of_values",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Calculating mean uses the number of values.",
+        "failure_signal": "Learner divides by the wrong count.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_as_balance_point.requires.calculate_mean",
+        "from": "math.statistics.summaries.mean_as_balance_point",
+        "to": "math.statistics.summaries.calculate_mean",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Balance interpretation builds on mean calculation.",
+        "failure_signal": "Learner can state fair share but cannot connect it to the computed mean.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_from_frequency_table.requires.calculate_mean",
+        "from": "math.statistics.summaries.mean_from_frequency_table",
+        "to": "math.statistics.summaries.calculate_mean",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Frequency-table mean extends ordinary mean calculation.",
+        "failure_signal": "Learner ignores frequencies when averaging.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mean_from_frequency_table.requires.frequency_tables",
+        "from": "math.statistics.summaries.mean_from_frequency_table",
+        "to": "math.statistics.data.frequency_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Frequency-table mean requires reading frequency tables.",
+        "failure_signal": "Learner treats frequencies as data values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.weighted_mean_intro.requires.mean_from_frequency_table",
+        "from": "math.statistics.summaries.weighted_mean_intro",
+        "to": "math.statistics.summaries.mean_from_frequency_table",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Weighted mean extends frequency-weighted mean reasoning.",
+        "failure_signal": "Learner averages weights as if all values count once.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_odd_number_of_values.requires.median_ordered_data",
+        "from": "math.statistics.summaries.median_odd_number_of_values",
+        "to": "math.statistics.summaries.median_ordered_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Odd-count median builds on ordered data.",
+        "failure_signal": "Learner picks the middle listed value before ordering.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.median_even_number_of_values.requires.median_ordered_data",
+        "from": "math.statistics.summaries.median_even_number_of_values",
+        "to": "math.statistics.summaries.median_ordered_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Even-count median builds on ordered data.",
+        "failure_signal": "Learner averages the wrong middle pair.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_multiple_or_none.requires.mode_most_frequent",
+        "from": "math.statistics.summaries.mode_multiple_or_none",
+        "to": "math.statistics.summaries.mode_most_frequent",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Multiple or no modes extend mode meaning.",
+        "failure_signal": "Learner forces a single mode when none exists.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_for_categorical_data.requires.mode_most_frequent",
+        "from": "math.statistics.summaries.mode_for_categorical_data",
+        "to": "math.statistics.summaries.mode_most_frequent",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Categorical mode uses most-frequent category meaning.",
+        "failure_signal": "Learner tries to compute a mean for categories.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.mode_for_categorical_data.requires.categorical_vs_numerical_data",
+        "from": "math.statistics.summaries.mode_for_categorical_data",
+        "to": "math.statistics.data.categorical_vs_numerical_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Categorical mode requires recognising categorical data.",
+        "failure_signal": "Learner confuses category labels with numerical values.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_measure_of_centre.requires.calculate_mean",
+        "from": "math.statistics.summaries.choose_measure_of_centre",
+        "to": "math.statistics.summaries.calculate_mean",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Choosing a centre requires knowing mean.",
+        "failure_signal": "Learner chooses mean without knowing what it uses.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_measure_of_centre.requires.median_ordered_data",
+        "from": "math.statistics.summaries.choose_measure_of_centre",
+        "to": "math.statistics.summaries.median_ordered_data",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Choosing a centre requires knowing median.",
+        "failure_signal": "Learner cannot compare mean and median.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.choose_measure_of_centre.requires.mode_most_frequent",
+        "from": "math.statistics.summaries.choose_measure_of_centre",
+        "to": "math.statistics.summaries.mode_most_frequent",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Choosing a centre requires knowing mode.",
+        "failure_signal": "Learner ignores categorical or repeated-value cases.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.centre_in_context.requires.choose_measure_of_centre",
+        "from": "math.statistics.summaries.centre_in_context",
+        "to": "math.statistics.summaries.choose_measure_of_centre",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Contextual interpretation builds on choosing a centre.",
+        "failure_signal": "Learner reports a number without explaining what is typical.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4302
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4317
+  }
+}

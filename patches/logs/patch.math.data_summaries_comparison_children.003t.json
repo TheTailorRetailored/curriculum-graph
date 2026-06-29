@@ -1,0 +1,426 @@
+{
+  "patch_id": "patch.math.data_summaries_comparison_children.003t",
+  "applied_at": "2026-06-29T00:51:49.676Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 24,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_centres.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.compare_centres",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Centre comparison is central here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.compare_centres",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_centres",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Centre comparison is central here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_spreads.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.compare_spreads",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Spread comparison is central here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.compare_spreads",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_spreads",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Spread comparison is central here.",
+        "weight": 0.8,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_shapes.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.compare_shapes",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Shape comparison belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.compare_shapes",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_shapes",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Shape comparison belongs here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_outliers.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.compare_outliers",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Outlier comparison belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.compare_outliers",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_outliers",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Outlier comparison belongs here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_two_dot_plots.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.compare_two_dot_plots",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Dot-plot comparison belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.compare_two_dot_plots",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_two_dot_plots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Dot-plot comparison belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.compare_box_plots.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.compare_box_plots",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Box-plot comparison belongs here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.compare_box_plots",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.compare_box_plots",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Box-plot comparison belongs here.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_centre_different_spread.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.same_centre_different_spread",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "This contrast supports comparison.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.same_centre_different_spread",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.same_centre_different_spread",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "This contrast supports comparison.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.same_spread_different_centre.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.same_spread_different_centre",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "This contrast supports comparison.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.same_spread_different_centre",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.same_spread_different_centre",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "This contrast supports comparison.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.group_comparison_overlap.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.group_comparison_overlap",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Overlap supports group comparison.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.group_comparison_overlap",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.group_comparison_overlap",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Overlap supports group comparison.",
+        "weight": 0.6,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.practical_difference_intro.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.practical_difference_intro",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "medium",
+        "rationale": "Practical difference refines comparison.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.practical_difference_intro",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.practical_difference_intro",
+        "type": "encompasses",
+        "confidence": "medium",
+        "rationale": "Practical difference refines comparison.",
+        "weight": 0.5,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.summary_claim_in_context.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.summary_claim_in_context",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Claims are the comparison output.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.summary_claim_in_context",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.summary_claim_in_context",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Claims are the comparison output.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.statistical_claims_from_distributions.part_of.comparing_distributions",
+        "from": "math.statistics.summaries.statistical_claims_from_distributions",
+        "to": "math.statistics.summaries.comparing_distributions",
+        "type": "part_of",
+        "confidence": "high",
+        "rationale": "Distribution claims belong here.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.comparing_distributions.encompasses.statistical_claims_from_distributions",
+        "from": "math.statistics.summaries.comparing_distributions",
+        "to": "math.statistics.summaries.statistical_claims_from_distributions",
+        "type": "encompasses",
+        "confidence": "high",
+        "rationale": "Distribution claims belong here.",
+        "weight": 0.7,
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2670,
+    "edges": 4211
+  },
+  "graph_counts_after": {
+    "nodes": 2670,
+    "edges": 4235
+  }
+}

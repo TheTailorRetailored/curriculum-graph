@@ -1,0 +1,210 @@
+{
+  "patch_id": "patch.math.linear_relationships.modelling_special_requires.001",
+  "applied_at": "2026-06-28T00:43:28.725Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 10,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.independent_dependent_variables_contexts.requires.input_output_tables",
+        "from": "math.algebra.linear.independent_dependent_variables_contexts",
+        "to": "math.algebra.linear.input_output_tables",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Identifying independent and dependent variables builds on representing inputs and outputs in tables.",
+        "failure_signal": "Learner cannot distinguish which quantity is input and which changes in response.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_units_for_gradient.requires.gradient_as_rate_of_change",
+        "from": "math.algebra.linear.context_units_for_gradient",
+        "to": "math.algebra.linear.gradient_as_rate_of_change",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting gradient units in context depends on understanding gradient as rate of change.",
+        "failure_signal": "Learner gives a gradient number without output-per-input units.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_initial_value.requires.y_intercept_meaning",
+        "from": "math.algebra.linear.context_initial_value",
+        "to": "math.algebra.linear.y_intercept_meaning",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting an initial value in context depends on understanding the y-intercept as the output when input is zero.",
+        "failure_signal": "Learner identifies the starting value as the coefficient or final value rather than the intercept.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.context_domain_restrictions.requires.independent_dependent_variables_contexts",
+        "from": "math.algebra.linear.context_domain_restrictions",
+        "to": "math.algebra.linear.independent_dependent_variables_contexts",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Contextual domain restrictions depend on knowing what the input variable represents.",
+        "failure_signal": "Learner allows impossible input values because they do not interpret the variable in context.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.interpolate_linear_model.requires.graph_linear_rules",
+        "from": "math.algebra.linear.interpolate_linear_model",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpolating from a linear model depends on reading values within the graphed or represented relationship.",
+        "failure_signal": "Learner estimates outside or between values without using the linear relationship.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.extrapolate_linear_model.requires.context_domain_restrictions",
+        "from": "math.algebra.linear.extrapolate_linear_model",
+        "to": "math.algebra.linear.context_domain_restrictions",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Extrapolating a model depends on recognising contextual limits on the input domain.",
+        "failure_signal": "Learner assumes a linear pattern remains valid indefinitely outside the data range.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.parallel_lines_same_gradient.requires.gradient_formula_delta_y_delta_x",
+        "from": "math.algebra.linear.parallel_lines_same_gradient",
+        "to": "math.algebra.linear.gradient_formula_delta_y_delta_x",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Recognising parallel lines by gradient depends on calculating or interpreting gradient consistently.",
+        "failure_signal": "Learner compares intercepts or visual spacing instead of gradient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.line_intersection_as_equal_outputs.requires.graph_linear_rules",
+        "from": "math.algebra.linear.line_intersection_as_equal_outputs",
+        "to": "math.algebra.linear.graph_linear_rules",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Interpreting line intersections as equal outputs depends on graphing linear rules and reading shared points.",
+        "failure_signal": "Learner sees the crossing point but does not interpret it as both relationships having the same output.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.horizontal_line_constant_output.requires.positive_negative_zero_gradient",
+        "from": "math.algebra.linear.horizontal_line_constant_output",
+        "to": "math.algebra.linear.positive_negative_zero_gradient",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding horizontal lines as constant output builds on recognising zero gradient.",
+        "failure_signal": "Learner treats a horizontal line as changing because x changes along the line.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.vertical_line_constant_input.requires.undefined_gradient_vertical_line",
+        "from": "math.algebra.linear.vertical_line_constant_input",
+        "to": "math.algebra.linear.undefined_gradient_vertical_line",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "high",
+        "rationale": "Understanding vertical lines as constant input builds on recognising their undefined gradient.",
+        "failure_signal": "Learner treats a vertical line as a function with a constant output or zero gradient.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2669,
+    "edges": 2568
+  },
+  "graph_counts_after": {
+    "nodes": 2669,
+    "edges": 2578
+  }
+}

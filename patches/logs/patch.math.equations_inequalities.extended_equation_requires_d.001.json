@@ -1,0 +1,84 @@
+{
+  "patch_id": "patch.math.equations_inequalities.extended_equation_requires_d.001",
+  "applied_at": "2026-06-28T00:05:03.977Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 3,
+      "nodes_updated": 0
+    }
+  },
+  "operations": [
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.identity_equations.requires.variables_on_both_sides",
+        "from": "math.algebra.equations.identity_equations",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Identity equations are recognised after simplifying equations with variables on both sides.",
+        "failure_signal": "Learner treats a true statement after cancellation as a single numerical solution.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.no_solution_equations.requires.variables_on_both_sides",
+        "from": "math.algebra.equations.no_solution_equations",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "No-solution equations are recognised after simplifying equations with variables on both sides.",
+        "failure_signal": "Learner treats a false statement after cancellation as x equals zero or as unfinished working.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    },
+    {
+      "op": "create_edge",
+      "edge": {
+        "id": "edge.solution_set_reasoning.requires.variables_on_both_sides",
+        "from": "math.algebra.equations.solution_set_reasoning",
+        "to": "math.algebra.equations.variables_on_both_sides",
+        "type": "requires",
+        "strength": "medium",
+        "confidence": "medium",
+        "rationale": "Solution-set reasoning needs experience with equations that simplify to one, no, or all solutions.",
+        "failure_signal": "Learner assumes every equation must have exactly one numerical answer.",
+        "status": "active",
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated"
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/edges/Mathematics-patches.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2667,
+    "edges": 2407
+  },
+  "graph_counts_after": {
+    "nodes": 2667,
+    "edges": 2410
+  }
+}

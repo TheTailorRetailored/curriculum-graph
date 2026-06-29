@@ -1,0 +1,44 @@
+{
+  "patch_id": "patch.math.advanced_functions.mark_input_output_foundational.001",
+  "applied_at": "2026-06-27T06:52:59.089Z",
+  "created_by": "assistant",
+  "validation": {
+    "valid": true,
+    "blocking_errors": [],
+    "warnings": [],
+    "suggested_fixes": [],
+    "summary": {
+      "nodes_created": 0,
+      "edges_created": 0,
+      "nodes_updated": 1
+    }
+  },
+  "operations": [
+    {
+      "op": "update_node",
+      "id": "math.senior.functions.input_output_notation",
+      "updates": {
+        "metadata": {
+          "created_by": "assistant",
+          "review_status": "ai_generated",
+          "coverage_policy": {
+            "prerequisites_required": false,
+            "foundation_reason": "Input-output function notation is the local foundation for the Advanced Functions learner-state graph; downstream function, domain/range, inverse, and transformation topics depend on it rather than it depending on a more specific senior-functions prerequisite."
+          }
+        }
+      }
+    }
+  ],
+  "files_changed": [
+    "ontology/mathematics/number/advanced_functions.yaml",
+    "generated/indexes/graph.json"
+  ],
+  "graph_counts_before": {
+    "nodes": 2666,
+    "edges": 2303
+  },
+  "graph_counts_after": {
+    "nodes": 2666,
+    "edges": 2303
+  }
+}
